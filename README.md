@@ -1,18 +1,52 @@
 # Playlist Galaxy
 
-The first instrument in Playlist Galaxy is **Ringband · Saturn Pirate Radio**, a three-station receiver for the Saturn system. Turn the dial to switch both the live score and the phosphor display. Oscillators, filtered noise, delay lines, and a timed sequencer generate the music in your browser. The rings, ice moon, and polar vortex are drawn locally on canvas.
+Open a planet to play its playlist. Switching planets saves the current song and its elapsed time. Opening that planet again picks up at the saved point. The sky view keeps the current playlist playing. Loading the site stays silent until a listener chooses a planet or a song.
 
-## Launch
+## Use the galaxy
 
-Open `index.html` in a modern browser and press **Power on**. The receiver also runs from any static web server. For example, from this directory run:
+- Select **สร้างดาว** to name a planet and choose its appearance. **จัดการดาว** inside a planet lets you rename it or create a moon with its own playlist.
+- Use **เพิ่ม MP3** to add local files. The audio and playlist data live in IndexedDB on this browser. The playback position is saved on this device. Clearing the site's data removes them.
+- Use **Apple Music** to connect, search the catalog, and add songs, or paste an Apple Music song link. Full in-app playback requires a configured MusicKit app, listener authorization and an eligible subscription. Saved Apple links also open in Apple Music.
+- **Saturn Pirate Radio** is available inside Saturn and at [radio.html](radio.html).
+
+## Run locally
+
+Serve the root directory over HTTP to use browser modules and storage.
 
 ```sh
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-Then open <http://127.0.0.1:8000/>. All assets ship in this folder. Playback works offline, with no build, dependencies, account, API keys, or audio downloads.
+Open <http://localhost:8000/>. On Vercel use the Other preset, the repository root and an empty build command. A plain static server runs the galaxy and MP3 player; Vercel also serves the Apple token endpoint.
 
-On Vercel, select the **Other** framework preset, use the repository root, and leave the build command empty.
+## Enable Apple Music
+
+Create a MusicKit-enabled media identifier and an associated Media Services private key in the Apple Developer account. Set these server-side Vercel environment variables for Production, then deploy a new build.
+
+| Name | Value |
+| --- | --- |
+| `APPLE_MUSIC_TEAM_ID` | Apple Developer team ID |
+| `APPLE_MUSIC_KEY_ID` | Media Services key ID |
+| `APPLE_MUSIC_PRIVATE_KEY` | The entire PEM private key from the .p8 file, including its header and footer. Literal newline escapes also work. |
+| `APPLE_MUSIC_ORIGIN` | Optional exact public origin. Defaults to `https://playlist-galaxy.vercel.app`. Set it to a local or preview origin in that environment to try real MusicKit there. |
+
+The server signs short-lived ES256 developer tokens restricted to the configured site origin. Only the signed developer token reaches the browser. MusicKit handles the listener's authorization. Local MP3s use the browser's audio element. [Apple media identifiers and keys](https://developer.apple.com/help/account/capabilities/create-a-media-identifier-and-private-key/) · [MusicKit on the Web](https://developer.apple.com/musickit/)
+
+## Galaxy checks
+
+```sh
+node --test checks/*.test.cjs
+python3 -m pip install playwright
+python3 -m playwright install chromium
+python3 checks/galaxy.py
+python3 checks/receiver.py
+```
+
+The galaxy browser check uses FFmpeg to generate its own MP3s. Pass `--chromium /path/to/chromium` for an installed browser. It runs the real local audio player, persists files across a reload, and exercises MusicKit with a test double. Use an authorized Apple Music subscription to check full catalog playback end to end.
+
+## Saturn radio
+
+The original receiver synthesizes three stations in the browser. Press **Power on** at its receiver to listen.
 
 ## Stations
 
@@ -45,28 +79,10 @@ Power on, choose **Record 12 s**, then try presets **2** and **3**. Choose **Sto
 
 Choose **Play clip** to audition that take. On air, the station keeps time silently and becomes audible again when the preview ends. The display holds its illustration. The fader and mute control the preview. Tuning, changing power, starting another recording or hiding the tab ends the preview. In standby, playing a clip leaves the synthesizer asleep. **Save clip** remains available if the browser cannot play the recording.
 
-## Checks
-
-From this directory, run the display checks with Node:
-
-```sh
-node --test checks/display.test.cjs
-```
-
-The browser checks use Python Playwright and Chromium. They exercise startup with a user gesture, all three stations, retunes, mute, volume zero, rapid power cycles, touch, reduced motion, decoded audio downloads, repeated clip playback and an unsupported-format fallback.
-
-```sh
-python3 -m pip install playwright
-python3 -m playwright install chromium
-python3 checks/receiver.py
-```
-
-To use an installed Chromium, pass `--chromium /path/to/chromium` to the last command.
-
 ## Source
 
 - `score.js` synthesizes and schedules the three programs, crossfades station changes, and controls the output level.
 - `phosphor.js` renders the procedural illustrations, percussion envelopes, and oscilloscope.
 - `aircheck.js` records the receiver output and previews the latest clip from its local download URL.
 - `radio.js` handles power, tuning, keyboard shortcuts, touch, and the field guide.
-- `index.html` and `radio.css` define the physical receiver and its responsive layout.
+- `radio.html` and `radio.css` define the physical receiver and its responsive layout.

@@ -432,7 +432,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--chromium", help="Path to a system Chromium executable")
     args = parser.parse_args()
-    url = (Path(__file__).resolve().parents[1] / "index.html").as_uri()
+    url = (Path(__file__).resolve().parents[1] / "radio.html").as_uri()
     with sync_playwright() as api:
         browser = api.chromium.launch(executable_path=args.chromium, args=["--autoplay-policy=user-gesture-required"])
         page = browser.new_page(viewport={"width": 1100, "height": 760})

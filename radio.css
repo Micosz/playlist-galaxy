@@ -181,3 +181,5 @@ dialog p, .station-log span { font-size:14px; line-height:1.5; }
   .desk { width:calc(100% - 18px); } .console { grid-template-columns:minmax(0,1fr) 101px; gap:6px; } .dial-assembly { transform:scale(.86); } .receiver { padding-inline:10px; } .readout h2 { font-size:41px; } .network { display:none; } h1 { font-size:18px; } .status { right:25px; }
 }
 @media(prefers-reduced-motion:reduce) { *, *::before, *::after { transition-duration:0s !important; animation-duration:0s !important; } }
+
+.wordmark[href] { color: inherit; text-decoration: none; }
