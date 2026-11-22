@@ -1,0 +1,1675 @@
+# ระบบดาวเคราะห์ · LP 791-18 – TOI-2842
+
+[สารบัญทุกระบบ](README.md#exoplanets) · [ช่วงชื่อก่อนหน้า](range-05.md) · [ช่วงชื่อถัดไป](range-07.md)
+
+**720 ระบบ · 884 ดาวเคราะห์** ในบัญชี NASA Exoplanet Archive เมื่อ 22 พฤศจิกายน 2026 แตะช่วงชื่อเพื่อกางรายการ แต่ละบรรทัดแสดงชื่อ ปีค้นพบ วิธีค้นพบ คาบโคจรเป็นวัน และรัศมีเทียบกับโลก † หมายถึงสถานะที่มีงานตีพิมพ์ตั้งข้อสงสัย ส่วน CB คือดาวเคราะห์ที่โคจรรอบดาวคู่ [วิธีอ่านและหน่วย](README.md#exoplanets) · [ข้อมูลต้นทาง](README.md#sources)
+
+<a name="systems-21"></a>
+
+<details><summary>LP 791-18 – OGLE-2018-BLG-1126L · 180 ระบบ · 192 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`LP 791-18`**
+  - `LP 791-18 b` | 2019 | Transit | 0.9479981 | 1.212
+  - `LP 791-18 d` | 2023 | Transit | 2.75485 | 1.032
+  - `LP 791-18 c` | 2019 | Transit | 4.98991 | 2.488
+- **`LP 890-9`**
+  - `LP 890-9 b` | 2022 | Transit | 2.7299025 | 1.32
+  - `LP 890-9 c` | 2022 | Transit | 8.457463 | 1.367
+- **`LSPM J2116+0234`**
+  - `LSPM J2116+0234 b` | 2019 | Radial Velocity | 14.4399 | 3.71
+- **`LTT 1445`**
+  - ดาวแม่ `LTT 1445 A`
+    - `LTT 1445 A c` | 2022 | Transit | 3.1239035 | 1.147
+    - `LTT 1445 A b` | 2019 | Transit | 5.3587635 | 1.34
+- **`LTT 3780`**
+  - `LTT 3780 b` | 2020 | Transit | 0.76837931 | 1.325
+  - `LTT 3780 c` | 2020 | Transit | 12.252284 | 2.39
+- **`LTT 9779`**
+  - `LTT 9779 b` | 2020 | Transit | 0.792052 | 4.72
+- **`Luhman 16`**
+  - ดาวแม่ `Luhman 16 A`
+    - `Luhman 16 b` | 2017 | Imaging | 9697 | 11.9
+- **`Lupus-TR-3`**
+  - `Lupus-TR-3 b` | 2007 | Transit | 3.91405 | 9.976
+- **`M62H`**
+  - `M62H b` | 2024 | Pulsar Timing | 0.132935028 | —
+- **`MASCARA-1`**
+  - `MASCARA-1 b` | 2017 | Transit | 2.14877381 | 17.90074218
+- **`MASCARA-4`**
+  - `MASCARA-4 b` | 2020 | Transit | 2.8240932 | 16.98160576
+- **`MOA-2007-BLG-192L`**
+  - `MOA-2007-BLG-192L b` | 2008 | Microlensing | — | 3.58
+- **`MOA-2007-BLG-400L`**
+  - `MOA-2007-BLG-400L b` | 2008 | Microlensing | — | 13.5
+- **`MOA-2008-BLG-310L`**
+  - `MOA-2008-BLG-310L b` | 2009 | Microlensing | — | 5.18
+- **`MOA-2008-BLG-379L`**
+  - `MOA-2008-BLG-379L b` | 2013 | Microlensing | — | 13
+- **`MOA-2009-BLG-266L`**
+  - `MOA-2009-BLG-266L b` | 2011 | Microlensing | 2800 | 3.21
+- **`MOA-2009-BLG-319L`**
+  - `MOA-2009-BLG-319L b` | 2010 | Microlensing | — | 9.64
+- **`MOA-2009-BLG-387L`**
+  - `MOA-2009-BLG-387L b` | 2010 | Microlensing | 1980 | 13.2
+- **`MOA-2010-BLG-073L`**
+  - `MOA-2010-BLG-073L b` | 2012 | Microlensing | — | 12.4
+- **`MOA-2010-BLG-117L`**
+  - `MOA-2010-BLG-117L b` | 2018 | Microlensing | — | 14.2
+- **`MOA-2010-BLG-328L`**
+  - `MOA-2010-BLG-328L b` | 2013 | Microlensing | — | 2.99
+- **`MOA-2010-BLG-353L`**
+  - `MOA-2010-BLG-353L b` | 2015 | Microlensing | — | 11.1
+- **`MOA-2010-BLG-477L`**
+  - `MOA-2010-BLG-477L b` | 2012 | Microlensing | — | 13.6
+- **`MOA-2011-BLG-028L`**
+  - `MOA-2011-BLG-028L b` | 2016 | Microlensing | — | 5.99
+- **`MOA-2011-BLG-262L`**
+  - `MOA-2011-BLG-262L b` | 2014 | Microlensing | — | 4.29
+- **`MOA-2011-BLG-291L`**
+  - `MOA-2011-BLG-291L b` | 2018 | Microlensing | — | 4.43
+- **`MOA-2011-BLG-293L`**
+  - `MOA-2011-BLG-293L b` | 2012 | Microlensing | 3000 | 12.9
+- **`MOA-2011-BLG-322L`**
+  - `MOA-2011-BLG-322L b` | 2013 | Microlensing | — | 12.4
+- **`MOA-2012-BLG-006L`**
+  - `MOA-2012-BLG-006L b` | 2017 | Microlensing | — | 12.6
+- **`MOA-2012-BLG-505L`**
+  - `MOA-2012-BLG-505L b` | 2017 | Microlensing | — | 2.48
+- **`MOA-2013-BLG-220L`**
+  - `MOA-2013-BLG-220L b` | 2014 | Microlensing | — | 13.2
+- **`MOA-2013-BLG-605L`**
+  - `MOA-2013-BLG-605L b` | 2016 | Microlensing | — | 1.62
+- **`MOA-2015-BLG-337L`**
+  - `MOA-2015-BLG-337L b` | 2018 | Microlensing | — | 6.42
+- **`MOA-2016-BLG-227L`**
+  - `MOA-2016-BLG-227L b` | 2017 | Microlensing | — | 13.2
+- **`MOA-2016-BLG-319L`**
+  - `MOA-2016-BLG-319L b` | 2018 | Microlensing | — | 14.1
+- **`MOA-2016-BLG-526L`**
+  - `MOA-2016-BLG-526L b` | 2024 | Microlensing | — | 3.97
+- **`MOA-2019-BLG-008L`**
+  - `MOA-2019-BLG-008L b` | 2022 | Microlensing | — | 12.2
+- **`MOA-2020-BLG-108L`**
+  - `MOA-2020-BLG-108L b` | 2026 | Microlensing | — | 12.4
+- **`MOA-2020-BLG-135L`**
+  - `MOA-2020-BLG-135L b` | 2022 | Microlensing | — | 3.37
+- **`MOA-2020-BLG-208L`**
+  - `MOA-2020-BLG-208L b` | 2023 | Microlensing | — | 7.71
+- **`MOA-2022-BLG-033L`**
+  - `MOA-2022-BLG-033L b` | 2025 | Microlensing | — | 3.52
+- **`MOA-2022-BLG-091L`**
+  - `MOA-2022-BLG-091L b` | 2025 | Microlensing | — | 13
+- **`MOA-2022-BLG-249L`**
+  - `MOA-2022-BLG-249L b` | 2023 | Microlensing | — | 2.04
+- **`MOA-2022-BLG-563L`**
+  - `MOA-2022-BLG-563L b` | 2024 | Microlensing | — | 14
+- **`MOA-bin-1L`**
+  - `MOA-bin-1L b` | 2012 | Microlensing | — | 13
+- **`MOA-bin-29`**
+  - `MOA-bin-29 b` | 2019 | Microlensing | — | 14.1
+- **`mu2 Sco`**
+  - `mu2 Sco b` | 2022 | Imaging | — | 12.3
+- **`mu Leo`**
+  - `mu Leo b` | 2014 | Radial Velocity | 357.8 | 13.3
+- **`MWC 758`**
+  - `MWC 758 c` | 2023 | Imaging | — | —
+- **`MXB 1658-298`**
+  - `MXB 1658-298 b` CB | 2017 | Eclipse Timing Variations | 760 | 12
+- **`NGC 2682 Sand 978`**
+  - `NGC 2682 Sand 978 b` | 2017 | Radial Velocity | 511.21 | 13.3
+- **`NGC 2682 Sand 1429`**
+  - `NGC 2682 Sand 1429 b` | 2024 | Radial Velocity | 77.48 | 13.4
+- **`NGC 2682 YBP 401`**
+  - `NGC 2682 YBP 401 b` | 2016 | Radial Velocity | 4.087 | 14.3
+- **`NGC 2682 YBP 1194`**
+  - `NGC 2682 YBP 1194 b` | 2014 | Radial Velocity | 6.959 | 12.3
+- **`NGC 2682 YBP 1514`**
+  - `NGC 2682 YBP 1514 b` | 2014 | Radial Velocity | 5.118 | 14
+- **`NGTS-1`**
+  - `NGTS-1 b` | 2017 | Transit | 2.647298 | 14.90797
+- **`NGTS-2`**
+  - `NGTS-2 b` | 2018 | Transit | 4.511164 | 17.878355
+- **`NGTS-3`**
+  - ดาวแม่ `NGTS-3 A`
+    - `NGTS-3 A b` | 2018 | Transit | 1.6753728 | 16.58932
+- **`NGTS-4`**
+  - `NGTS-4 b` | 2019 | Transit | 1.3373508 | 3.18
+- **`NGTS-5`**
+  - `NGTS-5 b` | 2019 | Transit | 3.3569866 | 12.733424
+- **`NGTS-6`**
+  - `NGTS-6 b` | 2019 | Transit | 0.882059 | 14.863134
+- **`NGTS-8`**
+  - `NGTS-8 b` | 2019 | Transit | 2.4997 | 12.21781
+- **`NGTS-9`**
+  - `NGTS-9 b` | 2019 | Transit | 4.43527 | 11.99363
+- **`NGTS-10`**
+  - `NGTS-10 b` | 2020 | Transit | 0.7668944 | 13.89913607
+- **`NGTS-11`**
+  - `NGTS-11 b` | 2020 | Transit | 35.45533 | 9.157753
+- **`NGTS-12`**
+  - `NGTS-12 b` | 2020 | Transit | 7.532806 | 11.747032
+- **`NGTS-13`**
+  - `NGTS-13 b` | 2021 | Transit | 4.119027 | 12.800678
+- **`NGTS-14`**
+  - ดาวแม่ `NGTS-14 A`
+    - `NGTS-14 A b` | 2021 | Transit | 3.5357173 | 4.976796
+- **`NGTS-15`**
+  - `NGTS-15 b` | 2021 | Transit | 3.27623 | 12.32987877
+- **`NGTS-16`**
+  - `NGTS-16 b` | 2021 | Transit | 4.84532 | 14.57167491
+- **`NGTS-17`**
+  - `NGTS-17 b` | 2021 | Transit | 3.24253 | 13.89913607
+- **`NGTS-18`**
+  - `NGTS-18 b` | 2021 | Transit | 3.05125 | 13.56286665
+- **`NGTS-20`**
+  - `NGTS-20 b` | 2022 | Transit | 54.18915 | 11.99360935
+- **`NGTS-21`**
+  - `NGTS-21 b` | 2022 | Transit | 1.5433897 | 14.90794433
+- **`NGTS-23`**
+  - `NGTS-23 b` | 2022 | Transit | 4.0764326 | 14.20177855
+- **`NGTS-24`**
+  - `NGTS-24 b` | 2022 | Transit | 3.4678796 | 13.60770257
+- **`NGTS-25`**
+  - `NGTS-25 b` | 2022 | Transit | 2.823093 | 11.46678726
+- **`NGTS-26`**
+  - `NGTS-26 b` | 2024 | Transit | 4.5199279 | 14.88552637
+- **`NGTS-27`**
+  - `NGTS-27 b` | 2024 | Transit | 3.3704181 | 15.64773706
+- **`NGTS-30`**
+  - `NGTS-30 b` | 2024 | Transit | 98.29838 | 10.40193409
+- **`NGTS-31`**
+  - `NGTS-31 b` | 2025 | Transit | 4.162734 | 18.04645893
+- **`NGTS-32`**
+  - `NGTS-32 b` | 2025 | Transit | 3.31211 | 15.91675259
+- **`NGTS-33`**
+  - `NGTS-33 b` | 2024 | Transit | 2.827972 | 18.38272835
+- **`NGTS-34`**
+  - `NGTS-34 b` | 2025 | Transit | 43.12655 | 3.65
+- **`NGTS-35`**
+  - `NGTS-35 b` | 2025 | Transit | 25.241192 | 10.9
+- **`NGTS-38`**
+  - `NGTS-38 b` | 2026 | Transit | 180.52797 | 12.11690814
+- **`NGTS-39`**
+  - `NGTS-39 b` | 2026 | Transit | 58.20472 | 12.195371
+- **`NN Ser`**
+  - `NN Ser d` † CB | 2010 | Eclipse Timing Variations | 2880 | 13.3
+  - `NN Ser c` † CB | 2010 | Eclipse Timing Variations | 6987 | 12.6
+- **`NSVS 14256825`**
+  - `NSVS 14256825 b` † CB | 2019 | Eclipse Timing Variations | 3225 | 12.3
+- **`nu Oct`**
+  - ดาวแม่ `nu Oct A`
+    - `nu Oct A b` † | 2016 | Radial Velocity | 402.4 | 13.3
+- **`nu Oph`**
+  - `nu Oph b` | 2012 | Radial Velocity | 529.93 | 12
+  - `nu Oph c` | 2012 | Radial Velocity | 3180.6 | 12
+- **`NY Vir`**
+  - `NY Vir b` † CB | 2011 | Eclipse Timing Variations | 3160 | 13.3
+  - `NY Vir c` † CB | 2019 | Eclipse Timing Variations | 8799 | 12.8
+- **`OGLE2-TR-L9`**
+  - `OGLE2-TR-L9 b` | 2008 | Transit | 2.4855335 | 18.046
+- **`OGLE-2003-BLG-235L`**
+  - `OGLE-2003-BLG-235L b` | 2004 | Microlensing | — | 13.2
+- **`OGLE-2005-BLG-071L`**
+  - `OGLE-2005-BLG-071L b` | 2005 | Microlensing | — | 13
+- **`OGLE-2005-BLG-169L`**
+  - `OGLE-2005-BLG-169L b` | 2006 | Microlensing | — | 3.84
+- **`OGLE-2005-BLG-390L`**
+  - `OGLE-2005-BLG-390L b` | 2005 | Microlensing | 3285 | 2.21
+- **`OGLE-2006-BLG-109L`**
+  - `OGLE-2006-BLG-109L b` | 2008 | Microlensing | 1788.5 | 14
+  - `OGLE-2006-BLG-109L c` | 2008 | Microlensing | 4927.5 | 11.1
+- **`OGLE-2006-BLG-284L`**
+  - ดาวแม่ `OGLE-2006-BLG-284L A`
+    - `OGLE-2006-BLG-284L A b` | 2020 | Microlensing | — | 14.3
+- **`OGLE-2007-BLG-349L`**
+  - ดาวแม่ `OGLE-2007-BLG-349L A`
+    - `OGLE-2007-BLG-349L AB c` CB | 2016 | Microlensing | 2557 | 10.7
+- **`OGLE-2007-BLG-368L`**
+  - `OGLE-2007-BLG-368L b` | 2009 | Microlensing | — | 4.72
+- **`OGLE-2008-BLG-092L`**
+  - `OGLE-2008-BLG-092L b` | 2014 | Microlensing | — | 8.74
+- **`OGLE-2008-BLG-355L`**
+  - `OGLE-2008-BLG-355L b` | 2014 | Microlensing | — | 12.9
+- **`OGLE-2011-BLG-0173L`**
+  - `OGLE-2011-BLG-0173L b` | 2018 | Microlensing | — | 9.01
+- **`OGLE-2011-BLG-0251L`**
+  - `OGLE-2011-BLG-0251L b` | 2012 | Microlensing | — | 14.2
+- **`OGLE-2011-BLG-0265L`**
+  - `OGLE-2011-BLG-0265L b` | 2015 | Microlensing | — | 13.9
+- **`OGLE-2012-BLG-0026L`**
+  - `OGLE-2012-BLG-0026L b` | 2012 | Microlensing | — | 7.72
+  - `OGLE-2012-BLG-0026L c` | 2012 | Microlensing | — | 13.9
+- **`OGLE-2012-BLG-0358L`**
+  - `OGLE-2012-BLG-0358L b` | 2013 | Microlensing | — | 13.4
+- **`OGLE-2012-BLG-0406L`**
+  - `OGLE-2012-BLG-0406L b` | 2013 | Microlensing | — | 13.2
+- **`OGLE-2012-BLG-0563L`**
+  - `OGLE-2012-BLG-0563L b` | 2015 | Microlensing | — | 13.6
+- **`OGLE-2012-BLG-0724L`**
+  - `OGLE-2012-BLG-0724L b` | 2016 | Microlensing | — | 14.3
+- **`OGLE-2012-BLG-0838L`**
+  - `OGLE-2012-BLG-0838L b` | 2020 | Microlensing | — | 8.39
+- **`OGLE-2012-BLG-0950L`**
+  - `OGLE-2012-BLG-0950L b` | 2016 | Microlensing | — | 6.56
+- **`OGLE-2013-BLG-0102L`**
+  - `OGLE-2013-BLG-0102L b` | 2014 | Microlensing | — | 12.3
+- **`OGLE-2013-BLG-0132L`**
+  - `OGLE-2013-BLG-0132L b` | 2017 | Microlensing | — | 11.6
+- **`OGLE-2013-BLG-0341L`**
+  - ดาวแม่ `OGLE-2013-BLG-0341L B`
+    - `OGLE-2013-BLG-0341L B b` | 2014 | Microlensing | — | 1.16
+- **`OGLE-2013-BLG-0911L`**
+  - `OGLE-2013-BLG-0911L b` | 2019 | Microlensing | — | 12.5
+- **`OGLE-2013-BLG-1125L`**
+  - `OGLE-2013-BLG-1125L b` | 2026 | Microlensing | — | 12.5
+- **`OGLE-2013-BLG-1721L`**
+  - `OGLE-2013-BLG-1721L b` | 2017 | Microlensing | — | 14.1
+- **`OGLE-2013-BLG-1761L`**
+  - `OGLE-2013-BLG-1761L b` | 2017 | Microlensing | — | 13.2
+- **`OGLE-2014-BLG-0124L`**
+  - `OGLE-2014-BLG-0124L b` | 2015 | Microlensing | — | 14.1
+- **`OGLE-2014-BLG-0221L`**
+  - `OGLE-2014-BLG-0221L b` | 2024 | Microlensing | — | 12.9
+- **`OGLE-2014-BLG-0319L`**
+  - `OGLE-2014-BLG-0319L b` | 2022 | Microlensing | — | 14.1
+- **`OGLE-2014-BLG-0676L`**
+  - `OGLE-2014-BLG-0676L b` | 2016 | Microlensing | — | 13.1
+- **`OGLE-2014-BLG-1722L`**
+  - `OGLE-2014-BLG-1722L b` | 2018 | Microlensing | — | 8.59
+  - `OGLE-2014-BLG-1722L c` | 2018 | Microlensing | — | 11
+- **`OGLE-2014-BLG-1760L`**
+  - `OGLE-2014-BLG-1760L b` | 2016 | Microlensing | — | 13.8
+- **`OGLE-2015-BLG-0051L`**
+  - `OGLE-2015-BLG-0051L b` | 2016 | Microlensing | — | 14
+- **`OGLE-2015-BLG-0954L`**
+  - `OGLE-2015-BLG-0954L b` | 2016 | Microlensing | — | 13.1
+- **`OGLE-2015-BLG-0966L`**
+  - `OGLE-2015-BLG-0966L b` | 2016 | Microlensing | — | 4.86
+- **`OGLE-2015-BLG-1395L`**
+  - `OGLE-2015-BLG-1395L b` | 2026 | Microlensing | — | 8.47
+- **`OGLE-2015-BLG-1609L`**
+  - `OGLE-2015-BLG-1609L b` | 2025 | Microlensing | — | 10.4
+- **`OGLE-2015-BLG-1649L`**
+  - `OGLE-2015-BLG-1649L b` | 2019 | Microlensing | — | 13.2
+- **`OGLE-2015-BLG-1670L`**
+  - `OGLE-2015-BLG-1670L b` | 2019 | Microlensing | — | 4.42
+- **`OGLE-2015-BLG-1771L`**
+  - `OGLE-2015-BLG-1771L b` | 2020 | Microlensing | — | 14.3
+- **`OGLE-2016-BLG-0007L`**
+  - `OGLE-2016-BLG-0007L b` | 2025 | Microlensing | 14200 | 1.09
+- **`OGLE-2016-BLG-0261L`**
+  - `OGLE-2016-BLG-0261L b` | 2026 | Microlensing | — | 9.6
+- **`OGLE-2016-BLG-0263L`**
+  - `OGLE-2016-BLG-0263L b` | 2017 | Microlensing | — | 13
+- **`OGLE-2016-BLG-0613L`**
+  - ดาวแม่ `OGLE-2016-BLG-0613L AB`
+    - `OGLE-2016-BLG-0613L AB b` CB | 2017 | Microlensing | — | 13
+- **`OGLE-2016-BLG-1067L`**
+  - `OGLE-2016-BLG-1067L b` | 2019 | Microlensing | — | 14.3
+- **`OGLE-2016-BLG-1093L`**
+  - `OGLE-2016-BLG-1093L b` | 2022 | Microlensing | — | 14
+- **`OGLE-2016-BLG-1190L`**
+  - `OGLE-2016-BLG-1190L b` | 2017 | Microlensing | 1220 | 12.3
+- **`OGLE-2016-BLG-1195L`**
+  - `OGLE-2016-BLG-1195L b` | 2017 | Microlensing | — | 1.11
+- **`OGLE-2016-BLG-1227L`**
+  - `OGLE-2016-BLG-1227L b` | 2020 | Microlensing | — | 13.9
+- **`OGLE-2016-BLG-1266L`**
+  - `OGLE-2016-BLG-1266L b` | 2018 | Microlensing | — | 12.4
+- **`OGLE-2016-BLG-1598L`**
+  - `OGLE-2016-BLG-1598L b` | 2024 | Microlensing | — | 13.6
+- **`OGLE-2016-BLG-1800L`**
+  - `OGLE-2016-BLG-1800L b` | 2024 | Microlensing | — | 13.2
+- **`OGLE-2017-BLG-0173L`**
+  - `OGLE-2017-BLG-0173L b` | 2018 | Microlensing | — | 1.62
+- **`OGLE-2017-BLG-0364L`**
+  - `OGLE-2017-BLG-0364L b` | 2024 | Microlensing | — | 10.3
+- **`OGLE-2017-BLG-0373L`**
+  - `OGLE-2017-BLG-0373L b` | 2018 | Microlensing | — | 14
+- **`OGLE-2017-BLG-0406L`**
+  - `OGLE-2017-BLG-0406L b` | 2020 | Microlensing | — | 14.2
+- **`OGLE-2017-BLG-0448L`**
+  - `OGLE-2017-BLG-0448L b` | 2024 | Microlensing | — | 4.08
+- **`OGLE-2017-BLG-0482L`**
+  - `OGLE-2017-BLG-0482L b` | 2018 | Microlensing | — | 2.95
+- **`OGLE-2017-BLG-0604L`**
+  - `OGLE-2017-BLG-0604L b` | 2020 | Microlensing | — | 14.2
+- **`OGLE-2017-BLG-0640L`**
+  - `OGLE-2017-BLG-0640L b` | 2024 | Microlensing | — | 13.5
+- **`OGLE-2017-BLG-1049L`**
+  - `OGLE-2017-BLG-1049L b` | 2020 | Microlensing | — | 12.8
+- **`OGLE-2017-BLG-1099L`**
+  - `OGLE-2017-BLG-1099L b` | 2021 | Microlensing | — | 13.1
+- **`OGLE-2017-BLG-1140L`**
+  - `OGLE-2017-BLG-1140L b` | 2018 | Microlensing | — | 13.5
+- **`OGLE-2017-BLG-1237L`**
+  - `OGLE-2017-BLG-1237L b` | 2024 | Microlensing | — | 13
+- **`OGLE-2017-BLG-1275L`**
+  - `OGLE-2017-BLG-1275L b` | 2024 | Microlensing | — | 12.8
+- **`OGLE-2017-BLG-1375L`**
+  - `OGLE-2017-BLG-1375L b` | 2020 | Microlensing | — | 12.4
+- **`OGLE-2017-BLG-1434L`**
+  - `OGLE-2017-BLG-1434L b` | 2018 | Microlensing | — | 1.94
+- **`OGLE-2017-BLG-1522L`**
+  - `OGLE-2017-BLG-1522L b` | 2018 | Microlensing | — | 14
+- **`OGLE-2017-BLG-1691L`**
+  - `OGLE-2017-BLG-1691L b` | 2022 | Microlensing | — | 3.92
+- **`OGLE-2017-BLG-1806L`**
+  - `OGLE-2017-BLG-1806L b` | 2023 | Microlensing | — | 2.15
+- **`OGLE-2018-BLG-0298L`**
+  - `OGLE-2018-BLG-0298L b` | 2022 | Microlensing | — | 7.56
+- **`OGLE-2018-BLG-0383L`**
+  - `OGLE-2018-BLG-0383L b` | 2022 | Microlensing | — | 2.41
+- **`OGLE-2018-BLG-0506L`**
+  - `OGLE-2018-BLG-0506L b` | 2022 | Microlensing | — | 4.18
+- **`OGLE-2018-BLG-0516L`**
+  - `OGLE-2018-BLG-0516L b` | 2022 | Microlensing | — | 4.73
+- **`OGLE-2018-BLG-0532L`**
+  - `OGLE-2018-BLG-0532L b` | 2020 | Microlensing | — | 2.37
+- **`OGLE-2018-BLG-0567L`**
+  - `OGLE-2018-BLG-0567L b` | 2021 | Microlensing | — | 12.3
+- **`OGLE-2018-BLG-0596L`**
+  - `OGLE-2018-BLG-0596L b` | 2019 | Microlensing | — | 3.81
+- **`OGLE-2018-BLG-0677L`**
+  - `OGLE-2018-BLG-0677L b` | 2020 | Microlensing | — | 1.82
+- **`OGLE-2018-BLG-0740L`**
+  - `OGLE-2018-BLG-0740L b` | 2019 | Microlensing | 5480 | 12.9
+- **`OGLE-2018-BLG-0799L`**
+  - `OGLE-2018-BLG-0799L b` | 2022 | Microlensing | — | 10.9
+- **`OGLE-2018-BLG-0932L`**
+  - `OGLE-2018-BLG-0932L b` | 2022 | Microlensing | — | 13.9
+- **`OGLE-2018-BLG-0962L`**
+  - `OGLE-2018-BLG-0962L b` | 2021 | Microlensing | — | 13.6
+- **`OGLE-2018-BLG-0977L`**
+  - `OGLE-2018-BLG-0977L b` | 2022 | Microlensing | — | 2.41
+- **`OGLE-2018-BLG-1011L`**
+  - `OGLE-2018-BLG-1011L b` | 2019 | Microlensing | — | 13.5
+  - `OGLE-2018-BLG-1011L c` | 2019 | Microlensing | — | 13.2
+- **`OGLE-2018-BLG-1119L`**
+  - `OGLE-2018-BLG-1119L b` | 2022 | Microlensing | — | 13.9
+- **`OGLE-2018-BLG-1126L`**
+  - `OGLE-2018-BLG-1126L b` | 2022 | Microlensing | — | 4.41
+
+</details>
+
+<a name="systems-22"></a>
+
+<details><summary>OGLE-2018-BLG-1185L – TOI-444 · 180 ระบบ · 220 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`OGLE-2018-BLG-1185L`**
+  - `OGLE-2018-BLG-1185L b` | 2021 | Microlensing | — | 2.83
+- **`OGLE-2018-BLG-1212L`**
+  - `OGLE-2018-BLG-1212L b` | 2022 | Microlensing | — | 9.32
+- **`OGLE-2018-BLG-1269L`**
+  - `OGLE-2018-BLG-1269L b` | 2020 | Microlensing | — | 14.1
+- **`OGLE-2018-BLG-1367L`**
+  - `OGLE-2018-BLG-1367L b` | 2022 | Microlensing | — | 13.8
+- **`OGLE-2018-BLG-1428L`**
+  - `OGLE-2018-BLG-1428L b` | 2021 | Microlensing | — | 14
+- **`OGLE-2018-BLG-1647L`**
+  - `OGLE-2018-BLG-1647L b` | 2022 | Microlensing | — | 13.8
+- **`OGLE-2018-BLG-1700L`**
+  - `OGLE-2018-BLG-1700L b` CB | 2020 | Microlensing | — | 12.9
+- **`OGLE-2019-BLG-0249L`**
+  - `OGLE-2019-BLG-0249L b` | 2023 | Microlensing | — | 12.7
+- **`OGLE-2019-BLG-0299L`**
+  - `OGLE-2019-BLG-0299L b` | 2021 | Microlensing | — | 12.7
+- **`OGLE-2019-BLG-0304L`**
+  - `OGLE-2019-BLG-0304L b` | 2021 | Microlensing | — | 14.2
+- **`OGLE-2019-BLG-0362L`**
+  - `OGLE-2019-BLG-0362L b` | 2022 | Microlensing | — | 13.1
+- **`OGLE-2019-BLG-0468L`**
+  - `OGLE-2019-BLG-0468L b` | 2022 | Microlensing | — | 13.1
+  - `OGLE-2019-BLG-0468L c` | 2022 | Microlensing | — | 12.5
+- **`OGLE-2019-BLG-0679L`**
+  - `OGLE-2019-BLG-0679L b` | 2023 | Microlensing | — | 13.1
+- **`OGLE-2019-BLG-0954L`**
+  - `OGLE-2019-BLG-0954L b` | 2021 | Microlensing | — | 12.3
+- **`OGLE-2019-BLG-0960L`**
+  - `OGLE-2019-BLG-0960L b` | 2021 | Microlensing | — | 1.39
+- **`OGLE-2019-BLG-1053L`**
+  - `OGLE-2019-BLG-1053L b` | 2021 | Microlensing | — | 1.38
+- **`OGLE-2019-BLG-1180L`**
+  - `OGLE-2019-BLG-1180L b` | 2023 | Microlensing | — | 13.5
+- **`OGLE-2019-BLG-1470L`**
+  - ดาวแม่ `OGLE-2019-BLG-1470L A`
+    - `OGLE-2019-BLG-1470L AB c` CB | 2022 | Microlensing | — | 13.3
+- **`OGLE-2019-BLG-1492L`**
+  - `OGLE-2019-BLG-1492L b` | 2022 | Microlensing | — | 6.79
+- **`OGLE-2023-BLG-0766L`**
+  - `OGLE-2023-BLG-0766L b` | 2026 | Microlensing | — | 13.7
+- **`OGLE-2023-BLG-0836L`**
+  - `OGLE-2023-BLG-0836L b` CB | 2024 | Microlensing | — | 12.9
+- **`OGLE-TR-10`**
+  - `OGLE-TR-10 b` | 2004 | Transit | 3.101278 | 14.011
+- **`OGLE-TR-56`**
+  - `OGLE-TR-56 b` | 2002 | Transit | 1.2119189 | 15.278
+- **`OGLE-TR-111`**
+  - `OGLE-TR-111 b` | 2004 | Transit | 4.0144463 | 11.421971
+- **`OGLE-TR-113`**
+  - `OGLE-TR-113 b` | 2004 | Transit | 1.4324752 | 12.251
+- **`OGLE-TR-132`**
+  - `OGLE-TR-132 b` | 2004 | Transit | 1.689868 | 13.45
+- **`OGLE-TR-182`**
+  - `OGLE-TR-182 b` | 2007 | Transit | 3.9791 | 12.666
+- **`OGLE-TR-211`**
+  - `OGLE-TR-211 b` | 2007 | Transit | 3.67724 | 15.244
+- **`ome Ser`**
+  - `ome Ser b` | 2013 | Radial Velocity | 278.59 | 14
+- **`omi CrB`**
+  - `omi CrB b` | 2012 | Radial Velocity | 187.01 | 13.7
+- **`omi UMa`**
+  - `omi UMa b` | 2012 | Radial Velocity | 1569.81 | 13
+- **`Oph 11`**
+  - `Oph 11 b` | 2006 | Imaging | 7300000 | 12.3
+- **`PDS 70`**
+  - `PDS 70 b` | 2018 | Imaging | 43500 | 21.96960217
+  - `PDS 70 c` | 2019 | Imaging | — | 22.19378179
+- **`PH1`**
+  - `PH1 b` CB | 2012 | Transit | 138.317 | 6.18
+- **`PH2`**
+  - `PH2 b` | 2013 | Transit | 282.52542 | 9.33708092
+- **`POTS-1`**
+  - `POTS-1 b` | 2013 | Transit | 3.1606296 | 10.548
+- **`Pr0201`**
+  - `Pr0201 b` | 2012 | Radial Velocity | 4.4264 | 14.2
+- **`Pr0211`**
+  - `Pr0211 b` | 2012 | Radial Velocity | 2.1461 | 13.4
+  - `Pr0211 c` | 2016 | Radial Velocity | 4850 | 12.6
+- **`psi1 Dra`**
+  - ดาวแม่ `psi1 Dra B`
+    - `psi1 Dra B b` | 2015 | Radial Velocity | 3117 | 13.5
+- **`PSR B0329+54`**
+  - `PSR B0329+54 b` | 2017 | Pulsar Timing | 10140 | 1.22
+- **`PSR B1257+12`**
+  - `PSR B1257+12 b` | 1994 | Pulsar Timing | 25.262 | 0.338
+  - `PSR B1257+12 c` | 1992 | Pulsar Timing | 66.5419 | 1.91
+  - `PSR B1257+12 d` | 1992 | Pulsar Timing | 98.2114 | 1.8
+- **`PSR B1620-26`**
+  - `PSR B1620-26 b` CB | 2003 | Pulsar Timing | — | 13.3
+- **`PSR J1719-1438`**
+  - `PSR J1719-1438 b` | 2011 | Pulsar Timing | 0.090706293 | —
+- **`PSR J2322-2650`**
+  - `PSR J2322-2650 b` | 2017 | Pulsar Timing | 0.322963997 | 13.9
+- **`PZ Tel`**
+  - `PZ Tel b` | 2023 | Imaging | 44000 | 11.9
+- **`Qatar-1`**
+  - `Qatar-1 b` | 2010 | Transit | 1.4200242 | 12.811887
+- **`Qatar-2`**
+  - `Qatar-2 b` | 2011 | Transit | 1.33711647 | 14.056
+- **`Qatar-3`**
+  - `Qatar-3 b` | 2017 | Transit | 2.5079204 | 12.285064
+- **`Qatar-4`**
+  - `Qatar-4 b` | 2017 | Transit | 1.8053564 | 12.722215
+- **`Qatar-5`**
+  - `Qatar-5 b` | 2017 | Transit | 2.8792319 | 12.408363
+- **`Qatar-6`**
+  - `Qatar-6 b` | 2017 | Transit | 3.506195 | 11.903958
+- **`Qatar-7`**
+  - `Qatar-7 b` | 2019 | Transit | 2.032046 | 19.0553
+- **`Qatar-8`**
+  - `Qatar-8 b` | 2019 | Transit | 3.71495 | 14.403565
+- **`Qatar-9`**
+  - `Qatar-9 b` | 2019 | Transit | 1.540731 | 11.309881
+- **`Qatar-10`**
+  - `Qatar-10 b` | 2019 | Transit | 1.645321 | 17.295487
+- **`rho CrB`**
+  - `rho CrB e` | 2023 | Radial Velocity | 12.904 | 1.75
+  - `rho CrB b` † | 1997 | Radial Velocity | 39.849 | 13.7
+  - `rho CrB c` | 2016 | Radial Velocity | 102.036 | 5.68
+- **`Ross 128`**
+  - `Ross 128 b` | 2017 | Radial Velocity | 9.8658 | 1.11
+- **`Ross 176`**
+  - `Ross 176 b` | 2025 | Transit | 5.0066338 | 1.84
+- **`Ross 458`**
+  - `Ross 458 c` CB | 2010 | Imaging | — | 14.01125
+- **`Ross 508`**
+  - `Ross 508 b` | 2022 | Radial Velocity | 10.77 | 1.83
+- **`ROXs 12`**
+  - `ROXs 12 b` | 2013 | Imaging | — | 12.2
+- **`ROXs 42`**
+  - ดาวแม่ `ROXs 42 B`
+    - `ROXs 42 B b` CB | 2013 | Imaging | — | 12.5
+- **`RR Cae`**
+  - `RR Cae b` † CB | 2012 | Eclipse Timing Variations | 4343.5 | 13
+- **`RX J0534.0-0221`**
+  - `RX J0534.0-0221 b` | 2026 | Imaging | 28000 | 14.3474953
+- **`SPECULOOS-3`**
+  - `SPECULOOS-3 b` | 2024 | Transit | 0.71912603 | 0.977
+- **`SR 12`**
+  - ดาวแม่ `SR 12 AB`
+    - `SR 12 AB c` CB | 2010 | Imaging | — | 12.3
+- **`SWEEPS-4`**
+  - `SWEEPS-4 b` | 2006 | Transit | 4.2 | 9.079
+- **`SWEEPS-11`**
+  - `SWEEPS-11 b` | 2006 | Transit | 1.796 | 12.666
+- **`TAP 26`**
+  - `TAP 26 b` | 2017 | Radial Velocity | 10.79 | 13.5
+- **`tau Boo`**
+  - `tau Boo b` | 1996 | Radial Velocity | 3.3124568 | 12.8
+- **`tau Cet`**
+  - `tau Cet g` † | 2017 | Radial Velocity | 20 | 1.18
+  - `tau Cet h` † | 2017 | Radial Velocity | 49.41 | 1.19
+  - `tau Cet f` † | 2017 | Radial Velocity | 636.13 | 1.81
+- **`tau Gem`**
+  - `tau Gem b` | 2013 | Radial Velocity | 305.5 | 12.1
+- **`TCP J05074264+2447555`**
+  - `TCP J05074264+2447555 b` | 2018 | Microlensing | — | 4.72
+- **`Teegarden's Star`**
+  - `Teegarden's Star b` | 2019 | Radial Velocity | 4.90634 | 1.05
+  - `Teegarden's Star c` | 2019 | Radial Velocity | 11.416 | 1.02
+  - `Teegarden's Star d` | 2024 | Radial Velocity | 26.13 | 0.954
+- **`TIC 4672985`**
+  - `TIC 4672985 b` | 2024 | Transit | 69.048 | 11.5004142
+- **`TIC 9344899`**
+  - `TIC 9344899 b` | 2026 | Transit | 8.5821566 | 9.16
+- **`TIC 18942729`**
+  - `TIC 18942729 b` | 2026 | Transit | 0.99817838064 | 2.00021315
+- **`TIC 24750448`**
+  - `TIC 24750448 b` | 2026 | Transit | 3.59159193029 | 2.43722231
+  - `TIC 24750448 c` | 2026 | Transit | 10.14385270726 | 3.09028272
+- **`TIC 32032563`**
+  - `TIC 32032563 b` | 2026 | Transit | 13.83460487791 | 3.47739942
+- **`TIC 34085383`**
+  - `TIC 34085383 b` | 2026 | Transit | 3.47793368523 | 3.91982296
+- **`TIC 38825265`**
+  - `TIC 38825265 b` | 2026 | Transit | 3.31336980985 | 2.18869476
+- **`TIC 38828280`**
+  - `TIC 38828280 b` | 2026 | Transit | 4.85558984762 | 2.62701629
+- **`TIC 46432937`**
+  - `TIC 46432937 b` | 2024 | Transit | 1.44044527 | 13.31626907
+- **`TIC 52059926`**
+  - `TIC 52059926 b` | 2026 | Transit | 175.532 | 10.71
+- **`TIC 62895484`**
+  - `TIC 62895484 b` | 2026 | Transit | 2.83985434327 | 3.49391667
+- **`TIC 65612701`**
+  - `TIC 65612701 b` | 2026 | Transit | 10.22467974953 | 5.07802804
+- **`TIC 67686059`**
+  - `TIC 67686059 b` | 2026 | Transit | 3.52163529551 | 2.59125922
+- **`TIC 77319217`**
+  - `TIC 77319217 b` | 2026 | Transit | 7.54830765124 | 3.10879526
+- **`TIC 77552382`**
+  - `TIC 77552382 b` | 2026 | Transit | 3.51025904942 | 5.69176189
+- **`TIC 86380416`**
+  - `TIC 86380416 b` | 2026 | Transit | 6.0408643461 | 2.4123612
+- **`TIC 87422071`**
+  - `TIC 87422071 b` | 2026 | Transit | 11.364929 | 10.8615023
+- **`TIC 88692598`**
+  - `TIC 88692598 b` | 2026 | Transit | 2.64909436758 | 1.81295951
+- **`TIC 88785435`**
+  - `TIC 88785435 b` | 2025 | Transit | 10.508843 | 5.03
+- **`TIC 117642575`**
+  - `TIC 117642575 b` | 2026 | Transit | 4.94459060181 | 2.82716337
+- **`TIC 139270665`**
+  - `TIC 139270665 b` | 2024 | Transit | 23.624 | 7.22979255
+  - `TIC 139270665 c` | 2024 | Radial Velocity | 1010 | 12.9
+- **`TIC 139702105`**
+  - `TIC 139702105 b` | 2026 | Transit | 6.83601903383 | 2.45316949
+- **`TIC 142589416`**
+  - `TIC 142589416 b` | 2026 | Transit | 2.09518466313 | 2.67899519
+- **`TIC 147027702`**
+  - `TIC 147027702 b` | 2026 | Transit | 44.40523 | 10.92875618
+- **`TIC 150070085`**
+  - `TIC 150070085 b` | 2026 | Transit | 10.47423 | 3.62
+- **`TIC 153919886`**
+  - `TIC 153919886 b` | 2026 | Transit | 2.10510492329 | 2.70601108
+- **`TIC 154870955`**
+  - `TIC 154870955 b` | 2026 | Transit | 7.9698747128 | 3.09467466
+- **`TIC 160113658`**
+  - `TIC 160113658 b` | 2026 | Transit | 6.72952262077 | 3.49015778
+- **`TIC 161045582`**
+  - `TIC 161045582 b` | 2026 | Transit | 8.85577189959 | 2.24566738
+- **`TIC 172900988`**
+  - ดาวแม่ `TIC 172900988 Aa`
+    - `TIC 172900988 b` CB | 2021 | Transit | 200.452 | 11.25
+- **`TIC 178172313`**
+  - `TIC 178172313 b` | 2026 | Transit | 4.3731816136 | 2.80405322
+- **`TIC 183374187`**
+  - `TIC 183374187 b` | 2026 | Transit | 5.05907 | 14.03364384
+- **`TIC 188624430`**
+  - `TIC 188624430 b` | 2026 | Transit | 6.21860433132 | 3.64811843
+- **`TIC 198190129`**
+  - `TIC 198190129 b` | 2026 | Transit | 7.94804910667 | 2.92284949
+- **`TIC 206466666`**
+  - `TIC 206466666 b` | 2026 | Transit | 9.10486865159 | 2.14817673
+- **`TIC 219893931`**
+  - `TIC 219893931 b` | 2026 | Transit | 6.41051 | 3.03
+- **`TIC 220432308`**
+  - `TIC 220432308 b` | 2026 | Transit | 3.330099 | 2.26
+- **`TIC 231949697`**
+  - `TIC 231949697 b` | 2026 | Transit | 0.90720448719 | 1.52831855
+- **`TIC 237254473`**
+  - `TIC 237254473 b` | 2026 | Transit | 10.117702 | 3.3
+- **`TIC 237913194`**
+  - `TIC 237913194 b` | 2020 | Transit | 15.168865 | 12.520453
+- **`TIC 241249530`**
+  - `TIC 241249530 b` | 2024 | Transit | 165.7719 | 13.29385111
+- **`TIC 245076932`**
+  - `TIC 245076932 b` | 2026 | Transit | 21.61389 | 10.87271128
+- **`TIC 249022743`**
+  - `TIC 249022743 b` | 2026 | Transit | 2.25719681538 | 4.79568155
+- **`TIC 257060897`**
+  - `TIC 257060897 b` | 2021 | Transit | 3.66003639 | 17.26183028
+- **`TIC 260969020`**
+  - `TIC 260969020 b` | 2026 | Transit | 8.48584501953 | 2.22686612
+- **`TIC 270471727`**
+  - `TIC 270471727 b` | 2026 | Transit | 10.45623256647 | 2.75029559
+- **`TIC 279401253`**
+  - `TIC 279401253 b` | 2023 | Transit | 76.8 | 11.2089807
+  - `TIC 279401253 c` | 2023 | Transit | 155.3 | 12.6
+- **`TIC 290487717`**
+  - `TIC 290487717 b` | 2026 | Transit | 3.400818229 | 6.63777941
+- **`TIC 294329732`**
+  - `TIC 294329732 b` | 2026 | Transit | 9.7565876181 | 2.07692266
+- **`TIC 320419023`**
+  - `TIC 320419023 b` | 2026 | Transit | 5.26375651589 | 2.77280763
+- **`TIC 349520724`**
+  - `TIC 349520724 b` | 2026 | Transit | 7.94044635021 | 2.82626313
+- **`TIC 356227008`**
+  - `TIC 356227008 b` | 2026 | Transit | 2.96147448702 | 2.39024009
+- **`TIC 365102760`**
+  - `TIC 365102760 b` | 2024 | Transit | 4.21285367 | 6.21
+- **`TIC 390586021`**
+  - `TIC 390586021 b` | 2026 | Transit | 2.74703755819 | 2.86009388
+- **`TIC 393818343`**
+  - `TIC 393818343 b` | 2024 | Transit | 16.2499265 | 12.02723629
+- **`TIC 423703298`**
+  - `TIC 423703298 b` | 2026 | Transit | 4.03712711976 | 2.77230429
+- **`TIC 434398831`**
+  - `TIC 434398831 b` | 2025 | Transit | 3.685504 | 3.51
+  - `TIC 434398831 c` | 2025 | Transit | 6.210291 | 5.63
+- **`TIC 437041147`**
+  - `TIC 437041147 b` | 2026 | Transit | 3.82301421497 | 2.21526814
+- **`TIC 445839811`**
+  - `TIC 445839811 b` | 2026 | Transit | 11.1086260318 | 2.47771211
+- **`TOI-122`**
+  - `TOI-122 b` | 2020 | Transit | 5.07803 | 2.72
+- **`TOI-125`**
+  - `TOI-125 b` | 2019 | Transit | 4.65382 | 2.726
+  - `TOI-125 c` | 2019 | Transit | 9.15059 | 2.759
+  - `TOI-125 d` | 2020 | Transit | 19.98 | 2.93
+- **`TOI-128`**
+  - `TOI-128.01` | 2024 | Transit | 4.9404681 | 2.21898
+- **`TOI-132`**
+  - `TOI-132 b` | 2020 | Transit | 2.1097019 | 3.42
+- **`TOI-139`**
+  - `TOI-139 b` | 2023 | Transit | 11.07085 | 2.4566
+- **`TOI-150`**
+  - `TOI-150.01` | 2019 | Transit | 5.857487 | 14.067295
+- **`TOI-157`**
+  - `TOI-157 b` | 2020 | Transit | 2.0845435 | 14.414774
+- **`TOI-159`**
+  - `TOI-159 b` | 2026 | Transit | 3.7628396 | 18.18
+- **`TOI-163`**
+  - `TOI-163 b` | 2019 | Transit | 4.231306 | 16.690201
+- **`TOI-169`**
+  - `TOI-169 b` | 2020 | Transit | 2.2554477 | 12.172974
+- **`TOI-172`**
+  - `TOI-172 b` | 2019 | Transit | 9.47725 | 10.816685
+- **`TOI-178`**
+  - `TOI-178 b` | 2021 | Transit | 1.9145601 | 1.2
+  - `TOI-178 c` | 2021 | Transit | 3.238486 | 1.754
+  - `TOI-178 d` | 2021 | Transit | 6.557569 | 2.695
+  - `TOI-178 e` | 2021 | Transit | 9.96318 | 2.301
+  - `TOI-178 f` | 2021 | Transit | 15.23335 | 2.417
+  - `TOI-178 g` | 2021 | Transit | 20.71663 | 2.939
+- **`TOI-181`**
+  - `TOI-181 b` | 2023 | Transit | 4.532 | 6.9559
+- **`TOI-198`**
+  - `TOI-198 b` | 2023 | Transit | 10.215213 | 1.36
+- **`TOI-199`**
+  - `TOI-199 b` | 2023 | Transit | 104.854 | 9.07927437
+  - `TOI-199 c` | 2023 | Transit Timing Variations | 273.69 | 11.4
+- **`TOI-201`**
+  - `TOI-201 d` | 2026 | Transit | 5.84889 | 1.39
+  - `TOI-201 b` | 2021 | Transit | 52.9786 | 11.4
+  - `TOI-201 c` | 2025 | Transit Timing Variations | 2890 | 10.4
+- **`TOI-205`**
+  - `TOI-205 b` | 2026 | Transit | 4.25300773815 | 2.50121142
+- **`TOI-206`**
+  - `TOI-206 b` | 2022 | Transit | 0.7363104 | 1.3
+- **`TOI-209`**
+  - `TOI-209 b` | 2026 | Transit | 4.37943587445 | 2.3947209
+- **`TOI-213`**
+  - `TOI-213 b` | 2026 | Transit | 23.519904 | 2.6
+- **`TOI-214`**
+  - `TOI-214 b` | 2026 | Transit | 9.695931 | 0.996
+  - `TOI-214 c` | 2026 | Transit | 18.5537114 | 1.941
+- **`TOI-216`**
+  - `TOI-216.02` | 2019 | Transit | 17.16073 | 8
+  - `TOI-216.01` | 2019 | Transit | 34.525528 | 10.1
+- **`TOI-220`**
+  - `TOI-220 b` | 2021 | Transit | 10.695264 | 3.03
+- **`TOI-237`**
+  - `TOI-237 c` | 2026 | Transit | 1.74486147 | 1.206
+  - `TOI-237 b` | 2020 | Transit | 5.436098 | 1.44
+- **`TOI-238`**
+  - `TOI-238 b` | 2024 | Transit | 1.273099 | 1.559
+  - `TOI-238 c` | 2024 | Radial Velocity | 8.465651 | 2.18
+- **`TOI-244`**
+  - `TOI-244 b` | 2023 | Transit | 7.397225 | 1.52
+- **`TOI-248`**
+  - `TOI-248 b` | 2026 | Transit | 5.9910723 | 2.37
+- **`TOI-251`**
+  - `TOI-251 b` | 2021 | Transit | 4.93777 | 2.74
+- **`TOI-257`**
+  - `TOI-257 b` | 2021 | Transit | 18.38818 | 7.16253867
+- **`TOI-260`**
+  - `TOI-260 b` | 2024 | Transit | 13.475853 | 1.71
+- **`TOI-261`**
+  - `TOI-261.01` | 2021 | Transit | 3.3639254 | 3.0449863
+  - `TOI-261.02` | 2021 | Transit | 13.03935862135 | 3.34822227
+- **`TOI-262`**
+  - `TOI-262 b` | 2023 | Transit | 11.14529 | 2.07
+- **`TOI-269`**
+  - `TOI-269 b` | 2021 | Transit | 3.6977104 | 2.77
+- **`TOI-270`**
+  - `TOI-270 b` | 2019 | Transit | 3.35992 | 1.28
+  - `TOI-270 c` | 2019 | Transit | 5.66051 | 2.33
+  - `TOI-270 d` | 2019 | Transit | 11.38194 | 2
+- **`TOI-277`**
+  - `TOI-277 b` | 2022 | Transit | 3.994 | 2.65
+- **`TOI-283`**
+  - `TOI-283 b` | 2025 | Transit | 17.61745 | 2.34
+- **`TOI-286`**
+  - `TOI-286 b` | 2024 | Transit | 4.5117244 | 1.42
+  - `TOI-286 c` | 2024 | Transit | 39.361826 | 1.88
+- **`TOI-329`**
+  - `TOI-329 b` | 2024 | Transit | 5.70439 | 4.94057819
+- **`TOI-332`**
+  - `TOI-332 b` | 2023 | Transit | 0.777038 | 3.2
+- **`TOI-333`**
+  - `TOI-333 b` | 2025 | Transit | 3.7852503 | 4.26
+- **`TOI-375`**
+  - `TOI-375 b` | 2026 | Transit | 9.45469 | 10.77183045
+  - `TOI-375 c` | 2026 | Radial Velocity | 115.5 | 13.4
+  - `TOI-375 d` | 2026 | Radial Velocity | 297.9 | 13.6
+- **`TOI-406`**
+  - `TOI-406 c` | 2024 | Transit | 3.307441 | 1.32
+  - `TOI-406.01` | 2024 | Transit | 13.175682 | 2.08
+- **`TOI-421`**
+  - `TOI-421 b` | 2020 | Transit | 5.197576 | 2.64
+  - `TOI-421 c` | 2020 | Transit | 16.067541 | 5.09
+- **`TOI-426`**
+  - `TOI-426 b` | 2026 | Transit | 1.32050258 | 2.19
+  - `TOI-426 c` | 2026 | Radial Velocity | 235.8 | 13.6
+- **`TOI-431`**
+  - `TOI-431 b` | 2021 | Transit | 0.490047 | 1.28
+  - `TOI-431 c` | 2021 | Radial Velocity | 4.8494 | 1.49
+  - `TOI-431 d` | 2021 | Transit | 12.46103 | 3.29
+- **`TOI-435`**
+  - `TOI-435 b` | 2026 | Transit | 3.352919 | 4.03
+- **`TOI-444`**
+  - `TOI-444 b` | 2023 | Transit | 17.9636 | 2.77
+
+</details>
+
+<a name="systems-23"></a>
+
+<details><summary>TOI-451 – TOI-1683 · 180 ระบบ · 257 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`TOI-451`**
+  - `TOI-451 b` | 2020 | Transit | 1.8587033 | 1.84
+  - `TOI-451 c` | 2020 | Transit | 9.192463 | 2.93
+  - `TOI-451 d` | 2020 | Transit | 16.364962 | 3.93
+- **`TOI-469`**
+  - `HIP 29442 c` | 2023 | Radial Velocity | 3.5379559 | 1.551
+  - `HIP 29442 d` | 2023 | Radial Velocity | 6.429575 | 1.538
+  - `TOI-469.01` | 2021 | Transit | 13.6308205 | 3.41
+- **`TOI-470`**
+  - `TOI-470 b` | 2023 | Transit | 12.19148 | 4.34
+- **`TOI-480`**
+  - `TOI-480 b` | 2024 | Transit | 6.866196 | 2.85372018
+- **`TOI-481`**
+  - `TOI-481 b` | 2020 | Transit | 10.33111 | 11.09691
+- **`TOI-500`**
+  - `TOI-500 b` | 2022 | Transit | 0.548177 | 1.166
+  - `TOI-500 c` | 2022 | Radial Velocity | 6.6356 | 2.09
+  - `TOI-500 d` | 2022 | Radial Velocity | 26.233 | 6.35
+  - `TOI-500 e` | 2022 | Radial Velocity | 61.3 | 3.99
+- **`TOI-512`**
+  - `TOI-512 b` | 2025 | Transit | 7.18886 | 1.54
+- **`TOI-519`**
+  - `TOI-519 b` | 2021 | Transit | 1.2652328 | 11.54525012
+- **`TOI-521`**
+  - `TOI-521 b` | 2025 | Transit | 1.54285047 | 1.98
+- **`TOI-530`**
+  - `TOI-530 b` | 2021 | Transit | 6.387597 | 9.30345398
+- **`TOI-532`**
+  - `TOI-532 b` | 2021 | Transit | 2.3266508 | 5.82
+- **`TOI-540`**
+  - `TOI-540 b` | 2020 | Transit | 1.2391491 | 0.903
+- **`TOI-544`**
+  - `TOI-544 b` | 2022 | Transit | 1.548352 | 2.018
+  - `TOI-544 c` | 2023 | Radial Velocity | 50.089 | 4.92
+- **`TOI-558`**
+  - `TOI-558 b` | 2021 | Transit | 14.574071 | 12.17295304
+- **`TOI-559`**
+  - `TOI-559 b` | 2021 | Transit | 6.9839095 | 12.22899794
+- **`TOI-561`**
+  - `TOI-561 b` | 2020 | Transit | 0.4465697 | 1.397
+  - `TOI-561 c` | 2020 | Transit | 10.778838 | 2.865
+  - `TOI-561 d` † | 2020 | Transit | 25.71268 | 2.615
+  - `TOI-561 e` † | 2020 | Transit | 77.144 | 2.517
+- **`TOI-564`**
+  - `TOI-564 b` | 2020 | Transit | 1.651144 | 11.43318
+- **`TOI-603`**
+  - `TOI-603 b` | 2026 | Transit | 16.179846 | 7.37
+- **`TOI-615`**
+  - `TOI-615 b` | 2023 | Transit | 4.6615983 | 18.97680433
+- **`TOI-620`**
+  - `TOI-620 b` | 2022 | Transit | 5.0988179 | 3.76
+- **`TOI-622`**
+  - `TOI-622 b` | 2023 | Transit | 6.402513 | 9.2362001
+- **`TOI-628`**
+  - `TOI-628 b` | 2021 | Transit | 3.4095675 | 11.88154
+- **`TOI-640`**
+  - `TOI-640 b` | 2021 | Transit | 5.003777 | 19.2794468
+- **`TOI-654`**
+  - `TOI-654.01` | 2024 | Transit | 1.527561 | 2.378
+- **`TOI-663`**
+  - `TOI-663 b` | 2024 | Transit | 2.598902 | 2.27
+  - `TOI-663 c` | 2024 | Transit | 4.6955507 | 2.26
+  - `TOI-663 d` | 2024 | Transit | 7.1027268 | 1.92
+- **`TOI-669`**
+  - `TOI-669 b` | 2023 | Transit | 3.945152 | 2.58606487
+- **`TOI-672`**
+  - `TOI-672 b` | 2023 | Transit | 3.633581 | 5.31
+- **`TOI-674`**
+  - `TOI-674 b` | 2021 | Transit | 1.977143 | 5.25
+- **`TOI-677`**
+  - `TOI-677 b` | 2020 | Transit | 11.2365985 | 13.11450742
+- **`TOI-682`**
+  - `TOI-682.01` | 2021 | Transit | 6.8392388 | 3.74186
+- **`TOI-697`**
+  - `TOI-697 b` | 2026 | Transit | 8.60788713593 | 2.35859364
+- **`TOI-700`**
+  - `TOI-700 b` | 2020 | Transit | 9.97722 | 0.963
+  - `TOI-700 c` | 2020 | Transit | 16.0511039 | 2.535
+  - `TOI-700 e` | 2023 | Transit | 27.810124 | 0.919
+  - `TOI-700 d` | 2020 | Transit | 37.423457 | 1.145
+- **`TOI-707`**
+  - `TOI-707 b` | 2026 | Transit | 52.79918 | 2.416
+- **`TOI-712`**
+  - `TOI-712 b` | 2022 | Transit | 9.531361 | 2.049
+  - `TOI-712 c` | 2022 | Transit | 51.69906 | 2.701
+  - `TOI-712 d` | 2022 | Transit | 84.8396 | 2.474
+- **`TOI-713`**
+  - `TOI-713 b` | 2026 | Transit | 1.87152392922 | 1.169
+  - `TOI-713 c` | 2026 | Transit | 35.99947286617 | 2.06
+- **`TOI-715`**
+  - `TOI-715 b` | 2023 | Transit | 19.288004 | 1.55
+- **`TOI-733`**
+  - `TOI-733 b` | 2023 | Transit | 4.884765 | 1.992
+- **`TOI-756`**
+  - `TOI-756 b` | 2025 | Transit | 1.2392495 | 2.81
+  - `TOI-756 c` | 2025 | Radial Velocity | 149.4 | 13
+- **`TOI-757`**
+  - `TOI-757 b` | 2024 | Transit | 17.46819 | 2.5
+- **`TOI-762`**
+  - ดาวแม่ `TOI-762 A`
+    - `TOI-762 A b` | 2024 | Transit | 3.4716826 | 8.33948164
+- **`TOI-763`**
+  - `TOI-763 b` | 2020 | Transit | 5.6057 | 2.28
+  - `TOI-763 c` | 2020 | Transit | 12.2737 | 2.63
+- **`TOI-771`**
+  - `TOI-771 b` | 2024 | Transit | 2.3260155 | 1.36
+  - `TOI-771 c` | 2025 | Radial Velocity | 7.61 | 1.5
+- **`TOI-776`**
+  - `TOI-776 b` | 2020 | Transit | 8.24662 | 1.798
+  - `TOI-776 c` | 2020 | Transit | 15.665323 | 2.047
+- **`TOI-778`**
+  - `TOI-778 b` | 2023 | Transit | 4.633611 | 15.4
+- **`TOI-782`**
+  - `TOI-782 b` | 2024 | Transit | 8.0240015 | 2.734
+- **`TOI-783`**
+  - `TOI-783 b` | 2026 | Transit | 8.1125118 | 2.47
+- **`TOI-786`**
+  - `TOI-786 b` | 2026 | Transit | 12.6694005 | 2.41
+  - `TOI-786 c` | 2026 | Transit | 38.554097 | 2.6
+- **`TOI-789`**
+  - `TOI-789 b` | 2026 | Transit | 5.447034 | 1.18
+  - `TOI-789 c` | 2026 | Transit | 8.0432344 | 1.15
+  - `TOI-789 d` | 2026 | Transit | 12.970689 | 1.4
+- **`TOI-791`**
+  - `TOI-791 b` | 2026 | Transit | 139.29931 | 11.13051784
+  - `TOI-791 c` | 2026 | Transit | 232.0157 | 12.94637271
+- **`TOI-797`**
+  - `TOI-797 b` | 2026 | Transit | 1.80079489 | 1.21
+- **`TOI-799`**
+  - `TOI-799 b` | 2026 | Transit | 5.54519139676 | 2.06631784
+- **`TOI-808`**
+  - `TOI-808 b` | 2026 | Transit | 9.73944854026 | 2.20344362
+- **`TOI-813`**
+  - `TOI-813 b` | 2020 | Transit | 83.8911 | 6.71
+- **`TOI-815`**
+  - `TOI-815 b` | 2024 | Transit | 11.197259 | 2.94
+  - `TOI-815 c` | 2024 | Transit | 34.976145 | 2.62
+- **`TOI-824`**
+  - `TOI-824 b` | 2020 | Transit | 1.392978 | 2.926
+- **`TOI-833`**
+  - `TOI-833 b` | 2022 | Transit | 1.0418777 | 1.27
+- **`TOI-836`**
+  - `TOI-836 b` | 2023 | Transit | 3.81673 | 1.704
+  - `TOI-836.01` | 2021 | Transit | 8.59545 | 2.587
+- **`TOI-837`**
+  - `TOI-837 b` | 2020 | Transit | 8.3249113 | 9.16894621
+- **`TOI-849`**
+  - `TOI-849 b` | 2020 | Transit | 0.765548 | 3.64
+- **`TOI-858`**
+  - ดาวแม่ `TOI-858 B`
+    - `TOI-858 B b` | 2023 | Transit | 3.2797178 | 14.06727078
+- **`TOI-871`**
+  - `TOI-871 b` | 2024 | Transit | 14.362565 | 1.664
+- **`TOI-873`**
+  - `TOI-873 b` | 2026 | Transit | 5.9312268 | 1.65
+- **`TOI-880`**
+  - `TOI-880.02` | 2024 | Transit | 2.57571 | 2.19
+  - `TOI-880 c` | 2025 | Transit | 6.3872703 | 4.95
+- **`TOI-883`**
+  - `TOI-883 b` | 2026 | Transit | 10.05771848538 | 7.17166228
+- **`TOI-892`**
+  - `TOI-892 b` | 2020 | Transit | 10.62656 | 11.99363
+- **`TOI-904`**
+  - `TOI-904 b` | 2023 | Transit | 10.8772 | 2.426
+  - `TOI-904 c` | 2023 | Transit | 83.9997 | 2.167
+- **`TOI-905`**
+  - `TOI-905 b` | 2020 | Transit | 3.739494 | 13.125739
+- **`TOI-907`**
+  - `TOI-907.01` | 2024 | Transit | 4.5849129 | 9.6158851
+- **`TOI-908`**
+  - `TOI-908 b` | 2023 | Transit | 3.183792 | 3.186
+- **`TOI-912`**
+  - `TOI-912 b` | 2025 | Transit | 4.6780691 | 1.93
+- **`TOI-913`**
+  - `TOI-913 b` | 2023 | Transit | 11.098644 | 2.4528
+- **`TOI-921`**
+  - `TOI-921 b` | 2026 | Transit | 5.12871907628 | 3.53409617
+- **`TOI-929`**
+  - `TOI-929 b` | 2026 | Transit | 5.83015366944 | 2.68983343
+- **`TOI-938`**
+  - `TOI-938 b` | 2026 | Transit | 8.80733882211 | 4.82401567
+- **`TOI-941`**
+  - `TOI-941 b` | 2026 | Transit | 8.51460888787 | 6.51165317
+- **`TOI-942`**
+  - `TOI-942 b` | 2020 | Transit | 4.32421 | 3.89
+  - `TOI-942 c` | 2020 | Transit | 10.156272 | 4.67
+- **`TOI-954`**
+  - `TOI-954 b` | 2020 | Transit | 3.6849729 | 9.550068
+- **`TOI-969`**
+  - `TOI-969 b` | 2022 | Transit | 1.8237305 | 2.765
+  - `TOI-969 c` | 2022 | Radial Velocity | 1700 | 12.4
+- **`TOI-1011`**
+  - `TOI-1011 b` | 2025 | Transit | 2.470498 | 1.45
+- **`TOI-1036`**
+  - `TOI-1036 b` | 2026 | Transit | 3.77952125496 | 6.28499593
+- **`TOI-1052`**
+  - `TOI-1052 b` | 2023 | Transit | 9.139703 | 2.87
+  - `TOI-1052 c` | 2023 | Radial Velocity | 35.806 | 6.48
+- **`TOI-1054`**
+  - `TOI-1054.01` | 2021 | Transit | 15.5077855 | 2.43432
+- **`TOI-1062`**
+  - `TOI-1062 b` | 2021 | Transit | 4.11296 | 2.265
+  - `TOI-1062 c` | 2021 | Radial Velocity | 7.972 | 3.1
+- **`TOI-1064`**
+  - `TOI-1064 b` | 2022 | Transit | 6.443868 | 2.587
+  - `TOI-1064 c` | 2022 | Transit | 12.226574 | 2.651
+- **`TOI-1075`**
+  - `TOI-1075 b` | 2022 | Transit | 0.6047328 | 1.791
+- **`TOI-1080`**
+  - `TOI-1080 b` | 2026 | Transit | 3.9652482 | 1.2
+- **`TOI-1105`**
+  - `TOI-1105 b` | 2026 | Transit | 10.86818410933 | 3.05823658
+- **`TOI-1107`**
+  - `TOI-1107 b` | 2022 | Transit | 4.0782387 | 14.57167491
+- **`TOI-1117`**
+  - `TOI-1117 b` | 2025 | Transit | 2.22816 | 2.46
+  - `TOI-1117 c` | 2025 | Radial Velocity | 4.579 | 2.91
+  - `TOI-1117 d` | 2025 | Radial Velocity | 8.665 | 3.27
+- **`TOI-1130`**
+  - `TOI-1130 b` | 2020 | Transit | 4.074554 | 3.66
+  - `TOI-1130 c` | 2020 | Transit | 8.3501898 | 13
+- **`TOI-1135`**
+  - `TOI-1135 b` | 2024 | Transit | 8.0277327 | 9.91994792
+- **`TOI-1136`**
+  - `TOI-1136 b` | 2022 | Transit | 4.1727 | 1.9
+  - `TOI-1136 c` | 2022 | Transit | 6.2574 | 2.879
+  - `TOI-1136 d` | 2022 | Transit | 12.5199 | 4.627
+  - `TOI-1136 e` | 2022 | Transit | 18.801 | 2.639
+  - `TOI-1136 f` | 2022 | Transit | 26.321 | 3.73591482
+  - `TOI-1136 g` | 2022 | Transit | 39.545 | 2.53
+- **`TOI-1154`**
+  - `TOI-1154 b` | 2026 | Transit | 21.74549 | 2.73
+- **`TOI-1173`**
+  - `TOI-1173 b` | 2024 | Transit | 7.0643971 | 8.77663189
+- **`TOI-1174`**
+  - `TOI-1174 b` | 2024 | Transit | 8.953487683 | 2.562
+- **`TOI-1180`**
+  - `TOI-1180 b` | 2024 | Transit | 9.686760378 | 3.072
+- **`TOI-1181`**
+  - `TOI-1181 b` | 2022 | Transit | 2.103189 | 17.02644168
+- **`TOI-1184`**
+  - `TOI-1184 b` | 2024 | Transit | 5.748433803 | 2.39
+- **`TOI-1194`**
+  - `TOI-1194 b` | 2023 | Transit | 2.3106446 | 8.71664516
+- **`TOI-1199`**
+  - `TOI-1199 b` | 2024 | Transit | 3.671463 | 10.5140239
+- **`TOI-1201`**
+  - `TOI-1201 b` | 2021 | Transit | 2.4919863 | 2.415
+- **`TOI-1203`**
+  - `TOI-1203 b` | 2025 | Radial Velocity | 4.1572888 | 1.52
+  - `TOI-1203 c` | 2025 | Radial Velocity | 13.0766 | 2.2
+  - `TOI-1203.01` | 2021 | Transit | 25.502672 | 2.918
+  - `TOI-1203 e` | 2025 | Radial Velocity | 204.59 | 7.31
+- **`TOI-1221`**
+  - `TOI-1221 b` | 2023 | Transit | 91.68278 | 2.91
+- **`TOI-1224`**
+  - `TOI-1224 b` | 2024 | Transit | 4.1782745 | 2.104
+  - `TOI-1224 c` | 2024 | Transit | 17.945466 | 2.884
+- **`TOI-1226`**
+  - `TOI-1226 b` | 2026 | Transit | 3.92880881576 | 2.4101112
+- **`TOI-1227`**
+  - `TOI-1227 b` | 2022 | Transit | 27.36397 | 9.57246952
+- **`TOI-1230`**
+  - `TOI-1230.01` | 2021 | Transit | 25.05734661842 | 2.38627705
+- **`TOI-1231`**
+  - `TOI-1231 b` | 2021 | Transit | 24.245586 | 3.65
+- **`TOI-1232`**
+  - `TOI-1232 b` | 2026 | Transit | 14.256 | 10.92875618
+  - `TOI-1232 c` | 2026 | Transit Timing Variations | 30.356 | 8.88
+- **`TOI-1235`**
+  - `TOI-1235 b` | 2020 | Transit | 3.444714 | 1.69
+- **`TOI-1238`**
+  - `TOI-1238 b` | 2022 | Transit | 0.764597 | 1.21
+  - `TOI-1238 c` | 2022 | Transit | 3.294736 | 2.11
+- **`TOI-1243`**
+  - `TOI-1243 b` | 2026 | Transit | 4.6594779 | 2.33
+- **`TOI-1244`**
+  - `TOI-1244 b` | 2024 | Transit | 6.400316483 | 2.467
+- **`TOI-1245`**
+  - `TOI-1245 b` | 2026 | Transit | 4.8204406 | 2.35
+- **`TOI-1246`**
+  - `TOI-1246 b` | 2022 | Transit | 4.30744 | 3.01
+  - `TOI-1246 c` | 2022 | Transit | 5.904137 | 2.45109846
+  - `TOI-1246 d` | 2022 | Transit | 18.654874 | 3.43139739
+  - `TOI-1246 e` | 2022 | Transit | 37.92548 | 3.5141875
+- **`TOI-1248`**
+  - `TOI-1248 b` | 2024 | Transit | 4.3601561 | 6.8084859
+- **`TOI-1249`**
+  - `TOI-1249 b` | 2024 | Transit | 13.079151 | 3.2710301
+- **`TOI-1259`**
+  - ดาวแม่ `TOI-1259 A`
+    - `TOI-1259 A b` | 2021 | Transit | 3.4779792 | 11.6
+- **`TOI-1260`**
+  - `TOI-1260 b` | 2021 | Transit | 3.127463 | 2.41
+  - `TOI-1260 c` | 2021 | Transit | 7.493134 | 2.76
+  - `TOI-1260 d` | 2022 | Transit | 16.608164 | 3.12
+- **`TOI-1262`**
+  - `TOI-1262 b` | 2026 | Transit | 20.877835 | 2.39
+- **`TOI-1266`**
+  - `TOI-1266 b` | 2020 | Transit | 10.8945 | 2.52
+  - `TOI-1266 c` | 2020 | Transit | 18.8027 | 1.98
+  - `TOI-1266 d` | 2025 | Transit Timing Variations | 32.509 | 1.74
+- **`TOI-1268`**
+  - `TOI-1268 b` | 2022 | Transit | 8.1577094 | 9.1
+- **`TOI-1269`**
+  - `TOI-1269 b` | 2024 | Transit | 4.2529913 | 2.40144286
+  - `TOI-1269 c` | 2026 | Transit | 9.23786144195 | 2.22999162
+- **`TOI-1272`**
+  - `TOI-1272 b` | 2022 | Transit | 3.3159765 | 4.26
+- **`TOI-1273`**
+  - `TOI-1273 b` | 2024 | Transit | 4.631296 | 11.09689089
+- **`TOI-1278`**
+  - `TOI-1278 b` | 2021 | Transit | 14.47567 | 12.21778896
+- **`TOI-1279`**
+  - `TOI-1279 b` | 2024 | Transit | 9.61419 | 2.66146528
+- **`TOI-1281`**
+  - `TOI-1281 b` | 2026 | Transit | 6.390997 | 2.68
+- **`TOI-1288`**
+  - `TOI-1288 b` | 2022 | Transit | 2.6998279 | 4.96846551
+  - `TOI-1288 c` | 2022 | Radial Velocity | 416 | 11.1
+- **`TOI-1291`**
+  - `TOI-1291 b` | 2026 | Transit | 7.1620097551 | 5.63826391
+- **`TOI-1294`**
+  - `TOI-1294 b` | 2024 | Transit | 3.915292 | 10.12369881
+  - `TOI-1294 c` | 2024 | Radial Velocity | 159.9 | 14.3
+- **`TOI-1295`**
+  - `TOI-1295 b` | 2024 | Transit | 3.1968838 | 15.69257298
+- **`TOI-1296`**
+  - `TOI-1296 b` | 2021 | Transit | 3.9443736 | 14.11645916
+- **`TOI-1298`**
+  - `TOI-1298 b` | 2021 | Transit | 4.537143 | 9.65807033
+- **`TOI-1301`**
+  - `TOI-1301.01` | 2024 | Transit | 6.096407209 | 2.477
+- **`TOI-1333`**
+  - `TOI-1333 b` | 2021 | Transit | 4.720219 | 15.647764
+- **`TOI-1338`**
+  - ดาวแม่ `TOI-1338 A`
+    - `TOI-1338 b` CB | 2020 | Transit | 95.4001 | 7.661
+    - `TOI-1338 c` CB | 2023 | Radial Velocity | 215.79 | 10.3
+- **`TOI-1346`**
+  - `TOI-1346 b` | 2025 | Transit | 1.7622538 | 2.39
+  - `TOI-1346 c` | 2025 | Transit | 5.502558 | 2.23
+- **`TOI-1347`**
+  - `TOI-1347 b` | 2024 | Transit | 0.84742346 | 1.8
+  - `TOI-1347 c` | 2024 | Transit | 4.841962 | 1.6
+- **`TOI-1355`**
+  - `TOI-1355 b` | 2026 | Transit | 2.1702642 | 15.96158852
+- **`TOI-1386`**
+  - `TOI-1386 b` | 2024 | Transit | 25.8401 | 6.2163865
+  - `TOI-1386 c` | 2024 | Radial Velocity | 232 | 10.3
+- **`TOI-1408`**
+  - `TOI-1408 c` | 2024 | Transit Timing Variations | 2.1664 | 2.22
+  - `TOI-1408 b` | 2023 | Transit | 4.42587 | 25
+- **`TOI-1410`**
+  - `TOI-1410.01` | 2024 | Transit | 1.21687 | 3.10083009
+  - `TOI-1410 c` | 2024 | Radial Velocity | 47.56 | 5.63
+- **`TOI-1411`**
+  - `TOI-1411 b` | 2022 | Transit | 1.4520527 | 1.19880592
+- **`TOI-1416`**
+  - `TOI-1416 b` | 2023 | Transit | 1.0697568 | 1.62
+- **`TOI-1420`**
+  - `TOI-1420 b` | 2023 | Transit | 6.9561063 | 11.89
+- **`TOI-1422`**
+  - `TOI-1422 b` | 2022 | Transit | 12.99894 | 3.83
+  - `TOI-1422 c` | 2025 | Radial Velocity | 34.5633 | 2.61
+- **`TOI-1431`**
+  - `TOI-1431 b` | 2021 | Transit | 2.650237 | 16.70138124
+- **`TOI-1432`**
+  - `TOI-1432 b` | 2026 | Transit | 6.1094927 | 2.39
+- **`TOI-1435`**
+  - `TOI-1435 b` | 2026 | Transit | 0.6858239 | 1.08
+- **`TOI-1437`**
+  - `TOI-1437 b` | 2024 | Transit | 18.840942 | 2.24
+- **`TOI-1438`**
+  - `TOI-1438 b` | 2025 | Transit | 5.13967 | 3.04
+  - `TOI-1438 c` | 2025 | Transit | 9.428089 | 2.75
+- **`TOI-1439`**
+  - `TOI-1439 b` | 2024 | Transit | 27.644 | 4.2427861
+- **`TOI-1441`**
+  - `TOI-1441 b` | 2026 | Transit | 22.092958 | 2.82
+- **`TOI-1442`**
+  - `TOI-1442 b` | 2022 | Transit | 0.4090677 | 1.17
+- **`TOI-1443`**
+  - `TOI-1443 b` | 2024 | Transit | 23.540678 | 2.30381001
+- **`TOI-1444`**
+  - `TOI-1444 b` | 2021 | Transit | 0.4702743 | 1.41792246
+- **`TOI-1448`**
+  - `TOI-1448 b` | 2024 | Transit | 8.112245 | 2.749
+- **`TOI-1450`**
+  - ดาวแม่ `TOI-1450 A`
+    - `TOI-1450 A b` | 2024 | Transit | 2.0439274 | 1.13
+    - `TOI-1450 A c` | 2024 | Transit | 5.0688 | 1.13
+- **`TOI-1451`**
+  - `TOI-1451 b` | 2024 | Transit | 16.537944 | 2.61143902
+- **`TOI-1452`**
+  - `TOI-1452 b` | 2022 | Transit | 11.06201 | 1.672
+- **`TOI-1453`**
+  - `TOI-1453 b` | 2025 | Transit | 4.3135225 | 1.173
+  - `TOI-1453 c` | 2025 | Transit | 6.5886982 | 2.224
+- **`TOI-1466`**
+  - `TOI-1466 b` | 2026 | Transit | 1.87190602231 | 2.46741991
+- **`TOI-1467`**
+  - `TOI-1467 b` | 2024 | Transit | 5.97114713 | 1.92
+- **`TOI-1468`**
+  - `TOI-1468 b` | 2022 | Transit | 1.8805201 | 1.401
+  - `TOI-1468 c` | 2022 | Transit | 15.532477 | 2.126
+- **`TOI-1470`**
+  - `TOI-1470 b` | 2023 | Transit | 2.527093 | 2.18
+  - `TOI-1470 c` | 2023 | Transit | 18.08816 | 2.47
+- **`TOI-1472`**
+  - `TOI-1472 b` | 2024 | Transit | 6.36338574 | 4.058
+  - `TOI-1472 c` | 2025 | Radial Velocity | 15.5381747 | 3.334
+- **`TOI-1478`**
+  - `TOI-1478 b` | 2021 | Transit | 10.1802117 | 11.99360935
+- **`TOI-1516`**
+  - `TOI-1516 b` | 2022 | Transit | 2.056014 | 15.24421375
+- **`TOI-1518`**
+  - `TOI-1518 b` | 2021 | Transit | 1.90261131 | 21.05046575
+- **`TOI-1533`**
+  - `TOI-1533 b` | 2026 | Transit | 3.6457974 | 2.89
+  - `TOI-1533 c` | 2026 | Transit | 8.0637926 | >7.5
+- **`TOI-1601`**
+  - `TOI-1601 b` | 2021 | Transit | 5.33175 | 14.19902343
+- **`TOI-1630`**
+  - `TOI-1630.01` | 2024 | Transit | 12.055734733 | 2.417
+- **`TOI-1634`**
+  - `TOI-1634 b` | 2021 | Transit | 0.98934551 | 1.759
+  - `TOI-1634 c` | 2022 | Radial Velocity | 103 | —
+- **`TOI-1648`**
+  - `TOI-1648 b` | 2025 | Transit | 7.331602 | 2.54
+- **`TOI-1659`**
+  - `TOI-1659.01` | 2024 | Transit | 5.877556328 | 2.255
+- **`TOI-1669`**
+  - `TOI-1669 c` | 2024 | Transit | 2.6800535 | 2.2963977
+  - `TOI-1669 b` | 2023 | Radial Velocity | 500 | 14.1
+- **`TOI-1670`**
+  - `TOI-1670 b` | 2022 | Transit | 10.98462 | 2.06
+  - `TOI-1670 c` | 2022 | Transit | 40.74976 | 11.06326395
+- **`TOI-1680`**
+  - `TOI-1680 b` | 2023 | Transit | 4.8026345 | 1.466
+- **`TOI-1683`**
+  - `TOI-1683.01` | 2024 | Transit | 3.0575356 | 2.6382
+
+</details>
+
+<a name="systems-24"></a>
+
+<details><summary>TOI-1685 – TOI-2842 · 180 ระบบ · 215 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`TOI-1685`**
+  - `TOI-1685 b` | 2021 | Transit | 0.66913923 | 1.421
+- **`TOI-1691`**
+  - `TOI-1691 b` | 2024 | Transit | 16.736888935 | 3.66
+- **`TOI-1693`**
+  - `TOI-1693 b` | 2022 | Transit | 1.7666957 | 1.41
+- **`TOI-1694`**
+  - `TOI-1694 b` | 2023 | Transit | 3.7701389 | 5.27
+  - `TOI-1694 c` | 2023 | Radial Velocity | 386.25 | 13.8
+- **`TOI-1695`**
+  - `TOI-1695 b` | 2022 | Transit | 3.1342791 | 1.9
+- **`TOI-1696`**
+  - `TOI-1696 b` | 2022 | Transit | 2.500311 | 3.09
+- **`TOI-1710`**
+  - `TOI-1710 b` | 2022 | Transit | 24.28336 | 5.06
+- **`TOI-1716`**
+  - `TOI-1716.01` | 2024 | Transit | 8.082376554 | 3.143
+- **`TOI-1718`**
+  - `TOI-1718 b` | 2026 | Transit | 5.58703768615 | 4.10824994
+- **`TOI-1722`**
+  - `TOI-1722 b` | 2026 | Transit | 9.60523206943 | 4.38298108
+- **`TOI-1723`**
+  - `TOI-1723 b` | 2024 | Transit | 13.727012643 | 3.435
+- **`TOI-1728`**
+  - `TOI-1728 b` | 2020 | Transit | 3.49151 | 5.05
+- **`TOI-1732`**
+  - `TOI-1732 b` | 2026 | Transit | 4.11923678339 | 2.49549787
+- **`TOI-1736`**
+  - `TOI-1736 b` | 2023 | Transit | 7.073076 | 3.18175535
+  - `TOI-1736 c` | 2023 | Radial Velocity | 571.25 | 12.5
+- **`TOI-1739`**
+  - `TOI-1739 b` | 2024 | Transit | 8.303341406 | 1.946
+- **`TOI-1742`**
+  - `TOI-1742 b` | 2024 | Transit | 21.269084 | 2.36507598
+- **`TOI-1743`**
+  - `TOI-1743 b` | 2025 | Transit | 4.266046 | 1.83
+- **`TOI-1744`**
+  - `TOI-1744.01` | 2024 | Transit | 22.341702927 | 2.68
+- **`TOI-1749`**
+  - `TOI-1749 b` | 2021 | Transit | 2.38839 | 1.39
+  - `TOI-1749 c` | 2021 | Transit | 4.4929 | 2.12
+  - `TOI-1749 d` | 2021 | Transit | 9.0497 | 2.52
+- **`TOI-1750`**
+  - `TOI-1750 b` | 2026 | Transit | 11.33727129656 | 2.78943837
+- **`TOI-1751`**
+  - `TOI-1751 b` | 2024 | Transit | 37.46852 | 2.9507845
+- **`TOI-1752`**
+  - `TOI-1752 b` | 2026 | Transit | 0.9351861 | 1.693
+  - `TOI-1752 c` | 2026 | Transit | 32.71443 | 2.29
+- **`TOI-1753`**
+  - `TOI-1753 b` | 2024 | Transit | 5.3846104 | 2.47852533
+- **`TOI-1756`**
+  - `TOI-1756 b` | 2026 | Transit | 2.78301736297 | 1.94225664
+- **`TOI-1758`**
+  - `TOI-1758 b` | 2024 | Transit | 20.705074685 | 3.62
+- **`TOI-1759`**
+  - `TOI-1759 b` | 2022 | Transit | 18.85019 | 3.14
+- **`TOI-1768`**
+  - `TOI-1768.01` | 2024 | Transit | 7.337703649 | 3.453
+- **`TOI-1772`**
+  - `TOI-1772.01` | 2024 | Transit | 8.054246874 | 2.905
+- **`TOI-1774`**
+  - `TOI-1774.01` | 2021 | Transit | 16.70988 | 2.78
+  - `HD 85426 c` | 2026 | Radial Velocity | 35.73 | 3.19
+- **`TOI-1775`**
+  - `TOI-1775 b` | 2024 | Transit | 10.2405549 | 8.04728896
+- **`TOI-1776`**
+  - `TOI-1776 b` | 2024 | Transit | 2.799868 | 1.21612741
+- **`TOI-1777`**
+  - `TOI-1777.01` | 2024 | Transit | 14.650111974 | 2.246
+- **`TOI-1782`**
+  - `TOI-1782.02` | 2024 | Transit | 1.829024227 | 1.839
+  - `TOI-1782.01` | 2024 | Transit | 4.987641028 | 2.368
+- **`TOI-1789`**
+  - `TOI-1789 b` | 2021 | Transit | 3.208664 | 16.14093221
+- **`TOI-1794`**
+  - `TOI-1794 b` | 2024 | Transit | 8.765528 | 3.29701268
+- **`TOI-1798`**
+  - `TOI-1798.02` | 2024 | Transit | 0.437811822 | 1.464
+  - `TOI-1798.01` | 2024 | Transit | 8.021522331 | 2.448
+- **`TOI-1799`**
+  - `TOI-1799 b` | 2024 | Transit | 7.094570865 | 1.642
+- **`TOI-1801`**
+  - `TOI-1801 b` | 2023 | Transit | 10.64387 | 2.079
+- **`TOI-1803`**
+  - `TOI-1803 b` | 2025 | Transit | 6.293287 | 2.99
+  - `TOI-1803 c` | 2025 | Transit | 12.885779 | 4.29
+- **`TOI-1806`**
+  - `TOI-1806 c` | 2026 | Transit | 0.5018934 | 1.32
+  - `TOI-1806 d` | 2026 | Transit | 8.196064 | 2.88
+  - `TOI-1806.01` | 2024 | Transit | 15.1454693 | 3.4095367
+- **`TOI-1807`**
+  - `TOI-1807 b` | 2021 | Transit | 0.54937097 | 1.49681583
+- **`TOI-1811`**
+  - `TOI-1811 b` | 2023 | Transit | 3.7130765 | 11.14172682
+- **`TOI-1814`**
+  - `TOI-1814 b` | 2026 | Transit | 6.36861010462 | 5.18536642
+- **`TOI-1820`**
+  - `TOI-1820 b` | 2022 | Transit | 4.860674 | 12.778238
+- **`TOI-1823`**
+  - `TOI-1823 b` | 2024 | Transit | 38.8 | 7.5406241
+- **`TOI-1824`**
+  - `TOI-1824 b` | 2024 | Transit | 22.808533 | 2.7438269
+- **`TOI-1836`**
+  - `TOI-1836 c` | 2024 | Transit | 1.7727471 | 2.59987579
+  - `TOI-1836 b` | 2024 | Transit | 20.380799 | 8.00321222
+- **`TOI-1839`**
+  - `TOI-1839 b` | 2026 | Transit | 1.4237828 | 2.27
+  - `TOI-1839 c` | 2026 | Transit | 4.0239478 | 2.5
+- **`TOI-1842`**
+  - `TOI-1842 b` | 2021 | Transit | 9.5739181 | 12.3485023
+- **`TOI-1846`**
+  - `TOI-1846 b` | 2025 | Transit | 3.9306737 | 1.792
+- **`TOI-1853`**
+  - `TOI-1853 b` | 2023 | Transit | 1.2436258 | 3.46
+- **`TOI-1855`**
+  - `TOI-1855 b` | 2024 | Transit | 1.36414864 | 18.49481816
+- **`TOI-1859`**
+  - `TOI-1859 b` | 2023 | Transit | 63.48347 | 9.75181321
+- **`TOI-1860`**
+  - `TOI-1860 b` | 2022 | Transit | 1.0662107 | 1.31
+- **`TOI-1873`**
+  - `TOI-1873 b` | 2026 | Transit | 7.00572708834 | 2.86356397
+- **`TOI-1883`**
+  - `TOI-1883 b` | 2024 | Transit | 4.508 | 5.65
+- **`TOI-1898`**
+  - `TOI-1898 b` | 2024 | Transit | 45.52234 | 9.39553231
+- **`TOI-1899`**
+  - `TOI-1899 b` | 2020 | Transit | 29.090312 | 11.09689089
+- **`TOI-1937`**
+  - ดาวแม่ `TOI-1937 A`
+    - `TOI-1937 A b` | 2023 | Transit | 0.94667944 | 13.97759893
+- **`TOI-1994`**
+  - `TOI-1994 b` | 2024 | Transit | 4.0337142 | 13.67495645
+- **`TOI-2000`**
+  - `TOI-2000 b` | 2023 | Transit | 3.09833 | 2.7
+  - `TOI-2000 c` | 2023 | Transit | 9.127055 | 8.14
+- **`TOI-2005`**
+  - `TOI-2005 b` | 2025 | Transit | 17.305904 | 11.99360935
+- **`TOI-2010`**
+  - `TOI-2010 b` | 2023 | Transit | 141.834025 | 11.81426566
+- **`TOI-2015`**
+  - `TOI-2015 b` | 2023 | Transit | 3.348237 | 3.309
+  - `TOI-2015 c` | 2025 | Transit Timing Variations | 5.582796 | 2.93
+- **`TOI-2018`**
+  - `TOI-2018 b` | 2023 | Transit | 7.435583 | 2.268
+- **`TOI-2019`**
+  - `TOI-2019 b` | 2024 | Transit | 15.3444 | 5.33275337
+- **`TOI-2025`**
+  - `TOI-2025 b` | 2022 | Transit | 8.8720982 | 11.89272852
+- **`TOI-2031`**
+  - ดาวแม่ `TOI-2031 A`
+    - `TOI-2031 A b` | 2025 | Transit | 5.71548654 | 14.20177855
+- **`TOI-2040`**
+  - `TOI-2040 b` | 2026 | Transit | 3.8608576 | 10.32347122
+- **`TOI-2046`**
+  - `TOI-2046 b` | 2022 | Transit | 1.4971842 | 16.14093221
+- **`TOI-2048`**
+  - `TOI-2048 b` | 2022 | Transit | 13.79019 | 2.61
+- **`TOI-2049`**
+  - `TOI-2049 b` | 2026 | Transit | 5.303468 | 16.64533634
+- **`TOI-2068`**
+  - `TOI-2068 b` | 2024 | Transit | 7.768915 | 1.821
+- **`TOI-2071`**
+  - `TOI-2071 b` | 2026 | Transit | 5.67395386982 | 2.56484195
+- **`TOI-2076`**
+  - `TOI-2076 e` | 2025 | Transit | 3.0223753 | 1.301
+  - `TOI-2076 b` | 2021 | Transit | 10.35504 | 2.59
+  - `TOI-2076 c` | 2021 | Transit | 21.01447 | 3.54
+  - `TOI-2076 d` | 2021 | Transit | 35.12803 | 3.27
+- **`TOI-2081`**
+  - `TOI-2081 b` | 2022 | Transit | 10.50534 | 2.04
+- **`TOI-2084`**
+  - `TOI-2084 b` | 2023 | Transit | 6.0784247 | 2.47
+- **`TOI-2088`**
+  - `TOI-2088 b` | 2024 | Transit | 124.72997 | 3.6831179
+- **`TOI-2092`**
+  - `TOI-2092 b` | 2026 | Transit | 4.30325528074 | 2.94892961
+- **`TOI-2093`**
+  - `TOI-2093 b` | 2025 | Radial Velocity | 12.836 | 3.25
+  - `TOI-2093 c` | 2025 | Transit | 53.81149 | 2.3
+- **`TOI-2094`**
+  - `TOI-2094 b` | 2026 | Transit | 18.793193 | 1.9
+- **`TOI-2095`**
+  - `TOI-2095 b` | 2023 | Transit | 17.66484 | 1.25
+  - `TOI-2095 c` | 2023 | Transit | 28.17232 | 1.33
+- **`TOI-2096`**
+  - `TOI-2096 b` | 2023 | Transit | 3.1190633 | 1.243
+  - `TOI-2096 c` | 2023 | Transit | 6.38784 | 1.914
+- **`TOI-2104`**
+  - `TOI-2104 b` | 2026 | Transit | 5.904370457 | 1.52898127
+- **`TOI-2107`**
+  - `TOI-2107 b` | 2024 | Transit | 2.4545467 | 13.57407563
+- **`TOI-2109`**
+  - `TOI-2109 b` | 2021 | Transit | 0.67247414 | 15.098497
+- **`TOI-2114`**
+  - `TOI-2114 b` | 2026 | Transit | 6.209959 | 14.54925695
+- **`TOI-2120`**
+  - `TOI-2120 b` | 2024 | Transit | 5.7998164 | 2.122
+- **`TOI-2128`**
+  - `TOI-2128 b` | 2024 | Transit | 16.34136 | 2.08874836
+- **`TOI-2133`**
+  - `TOI-2133 b` | 2026 | Transit | 3.8266472 | 2.37
+- **`TOI-2134`**
+  - `TOI-2134 b` | 2023 | Transit | 9.229198 | 2.735
+  - `TOI-2134 c` | 2023 | Transit | 95.85284 | 7.35
+- **`TOI-2136`**
+  - `TOI-2136 b` | 2022 | Transit | 7.851928 | 2.19
+- **`TOI-2141`**
+  - `TOI-2141 c` | 2025 | Radial Velocity | 5.4624 | 2.35
+  - `TOI-2141 b` | 2023 | Transit | 18.261608 | 3.147
+  - `TOI-2141 d` | 2025 | Radial Velocity | 60.45 | 3.97
+- **`TOI-2145`**
+  - `TOI-2145 b` | 2023 | Transit | 10.261128 | 12.24020692
+- **`TOI-2147`**
+  - `TOI-2147 b` | 2026 | Transit | 26.20518 | 10.5
+- **`TOI-2152`**
+  - `TOI-2152 A b` | 2023 | Transit | 3.3773512 | 14.35870428
+- **`TOI-2154`**
+  - `TOI-2154 b` | 2023 | Transit | 3.8240801 | 16.28664896
+- **`TOI-2158`**
+  - `TOI-2158 b` | 2022 | Transit | 8.60079 | 10.07687365
+  - `TOI-2158 c` | 2026 | Radial Velocity | 414.5 | 13.5
+- **`TOI-2169`**
+  - ดาวแม่ `TOI-2169 A`
+    - `TOI-2169 A b` | 2025 | Transit | 8.2148282 | 12.50922246
+- **`TOI-2180`**
+  - `TOI-2180 b` | 2022 | Transit | 260.79 | 11.32107051
+- **`TOI-2184`**
+  - `TOI-2184 b` | 2022 | Transit | 6.90683 | 11.39953337
+- **`TOI-2193`**
+  - ดาวแม่ `TOI-2193 A`
+    - `TOI-2193 A b` | 2022 | Transit | 2.1225735 | 19.83989584
+- **`TOI-2194`**
+  - `TOI-2194 b` | 2023 | Transit | 15.337597 | 1.9892
+- **`TOI-2196`**
+  - `TOI-2196 b` | 2022 | Transit | 1.1947268 | 3.51
+- **`TOI-2200`**
+  - `TOI-2200 b` | 2026 | Transit | 2.93602836512 | 6.96310517
+- **`TOI-2202`**
+  - `TOI-2202 b` | 2021 | Transit | 11.9126075 | 10.95117414
+  - `TOI-2202 c` | 2021 | Transit Timing Variations | 24.6744 | 13.4
+- **`TOI-2207`**
+  - `TOI-2207 b` | 2022 | Transit | 8.001968 | 11.1529358
+- **`TOI-2211`**
+  - `TOI-2211.01` | 2024 | Transit | 3.092686757 | 1.561
+- **`TOI-2227`**
+  - `TOI-2227 b` | 2026 | Transit | 4.22175815648 | 3.09885187
+- **`TOI-2236`**
+  - `TOI-2236 b` | 2022 | Transit | 3.5315902 | 14.36991326
+- **`TOI-2238`**
+  - `TOI-2238 b` | 2026 | Transit | 3.390463 | 2.6
+- **`TOI-2245`**
+  - `TOI-2245 b` | 2026 | Transit | 3.7980908 | 4.89
+- **`TOI-2257`**
+  - `TOI-2257 b` | 2021 | Transit | 35.189346 | 2.194
+- **`TOI-2260`**
+  - `TOI-2260 b` | 2022 | Transit | 0.3524728 | 1.62
+- **`TOI-2266`**
+  - `TOI-2266 b` | 2024 | Transit | 2.326318 | 1.54
+- **`TOI-2267`**
+  - ดาวแม่ `TOI-2267 A`
+    - `TOI-2267 b` | 2025 | Transit | 2.28909 | 1
+    - `TOI-2267 c` | 2025 | Transit | 3.4950412 | 1.14
+  - ดาวแม่ `TOI-2267 B`
+    - `TOI-2267 d` | 2025 | Transit | 2.0344671 | 1.77
+- **`TOI-2274`**
+  - `TOI-2274 b` | 2024 | Transit | 2.67963 | 2.45
+- **`TOI-2285`**
+  - `TOI-2285 b` | 2021 | Transit | 13.635109 | 1.77
+- **`TOI-2287`**
+  - `TOI-2287 b` | 2026 | Transit | 11.812041 | 1.8
+- **`TOI-2293`**
+  - `TOI-2293 b` | 2026 | Transit | 6.068314 | 2.08
+- **`TOI-2295`**
+  - `TOI-2295 b` | 2024 | Transit | 30.033302 | 16.47720163
+  - `TOI-2295 c` | 2024 | Radial Velocity | 966.5 | 12.8
+- **`TOI-2322`**
+  - `TOI-2322 b` | 2025 | Transit | 11.30717 | 0.994
+  - `TOI-2322 c` | 2025 | Transit | 20.225528 | 1.874
+- **`TOI-2328`**
+  - `TOI-2328 b` | 2025 | Transit | 17.10197 | 9.97599282
+- **`TOI-2337`**
+  - `TOI-2337 b` | 2022 | Transit | 2.99432 | 10.08808263
+- **`TOI-2338`**
+  - `TOI-2338 b` | 2023 | Transit | 22.65398 | 11.2089807
+- **`TOI-2345`**
+  - `TOI-2345 b` | 2025 | Transit | 1.0528573 | 1.504
+  - `TOI-2345 c` | 2025 | Transit | 21.064302 | 2.451
+- **`TOI-2346`**
+  - `TOI-2346 b` | 2025 | Transit | 3.3312029 | 16.11851425
+- **`TOI-2364`**
+  - `TOI-2364 b` | 2023 | Transit | 4.0197517 | 8.60849718
+- **`TOI-2368`**
+  - `TOI-2368 b` | 2024 | Transit | 5.1750073 | 10.83908434
+- **`TOI-2373`**
+  - `TOI-2373 b` | 2023 | Transit | 13.33668 | 10.42435205
+- **`TOI-2374`**
+  - `TOI-2374 b` | 2024 | Transit | 4.3136193 | 7.48759911
+- **`TOI-2379`**
+  - `TOI-2379 b` | 2024 | Transit | 5.4693827 | 11.72459381
+- **`TOI-2382`**
+  - `TOI-2382 b` | 2025 | Transit | 4.6612061 | 12.25141591
+- **`TOI-2384`**
+  - `TOI-2384 b` | 2024 | Transit | 2.13570304 | 11.48920522
+- **`TOI-2392`**
+  - `TOI-2392 b` | 2026 | Transit | 9.169362 | 2.37
+- **`TOI-2406`**
+  - `TOI-2406 b` | 2021 | Transit | 3.0766891 | 2.86
+- **`TOI-2407`**
+  - `TOI-2407 b` | 2025 | Transit | 2.702969 | 4.26
+- **`TOI-2411`**
+  - `TOI-2411 b` | 2022 | Transit | 0.7826942 | 1.68
+- **`TOI-2416`**
+  - `TOI-2416 b` | 2023 | Transit | 8.275479 | 9.86390302
+- **`TOI-2420`**
+  - `TOI-2420 b` | 2024 | Transit | 5.842641 | 15.02003414
+- **`TOI-2421`**
+  - `TOI-2421 b` | 2022 | Transit | 4.3474032 | 10.36830715
+- **`TOI-2426`**
+  - `TOI-2426 b` | 2026 | Transit | 4.0812 | 2.36
+- **`TOI-2427`**
+  - `TOI-2427 b` | 2022 | Transit | 1.305962 | 1.64
+  - `TOI-2427 c` | 2025 | Radial Velocity | 5.15 | 2.43
+- **`TOI-2431`**
+  - `TOI-2431 b` | 2026 | Transit | 0.22419578 | 1.534
+- **`TOI-2441`**
+  - `TOI-2441 b` | 2026 | Transit | 12.890155 | 2.73
+- **`TOI-2443`**
+  - `TOI-2443 b` | 2023 | Transit | 15.66858 | 2.363
+- **`TOI-2445`**
+  - `TOI-2445 b` | 2022 | Transit | 0.3711281 | 1.25
+- **`TOI-2447`**
+  - `TOI-2447 b` | 2024 | Transit | 69.33684 | 9.60609646
+- **`TOI-2449`**
+  - `TOI-2449 b` | 2025 | Transit | 106.14468 | 11.24
+- **`TOI-2453`**
+  - `TOI-2453 b` | 2026 | Transit | 4.44143463188 | 3.24380341
+- **`TOI-2458`**
+  - `TOI-2458 b` | 2024 | Transit | 3.73659 | 2.83
+  - `TOI-2458 c` | 2024 | Radial Velocity | 16.553 | 3.18
+- **`TOI-2459`**
+  - `TOI-2459 b` | 2023 | Transit | 19.104718 | 2.9531
+- **`TOI-2485`**
+  - `TOI-2485 b` | 2024 | Transit | 11.23479 | 12.1393261
+- **`TOI-2497`**
+  - `TOI-2497 b` | 2023 | Transit | 10.655669 | 11.14172682
+- **`TOI-2498`**
+  - `TOI-2498 b` | 2023 | Transit | 3.738252 | 6.06
+- **`TOI-2518`**
+  - `TOI-2518 b` | 2026 | Transit | 6.89797425216 | 2.26838675
+- **`TOI-2524`**
+  - `TOI-2524 b` | 2023 | Transit | 7.18585 | 11.2089807
+- **`TOI-2525`**
+  - `TOI-2525 b` | 2023 | Transit | 23.2856 | 8.67575106
+  - `TOI-2525 c` | 2023 | Transit | 49.2519 | 10.13291855
+- **`TOI-2529`**
+  - `TOI-2529 b` | 2024 | Transit | 64.5949 | 11.54525012
+- **`TOI-2535`**
+  - `TOI-2535 b` | 2026 | Transit | 8.2358054 | 9.46037971
+- **`TOI-2537`**
+  - `TOI-2537 b` | 2024 | Transit | 94.1022 | 11.25381662
+  - `TOI-2537 c` | 2024 | Radial Velocity | 1920 | 12.7
+- **`TOI-2540`**
+  - `TOI-2540 b` | 2026 | Transit | 12.718739 | 2.29
+- **`TOI-2545`**
+  - `TOI-2545 b` | 2022 | Transit | 7.994037 | 2.75
+- **`TOI-2567`**
+  - `TOI-2567 b` | 2022 | Transit | 5.983944 | 10.92875618
+- **`TOI-2570`**
+  - `TOI-2570 b` | 2022 | Transit | 2.9887615 | 13.64132951
+- **`TOI-2578`**
+  - `TOI-2578 b` | 2026 | Transit | 3.4579667 | 19.66055215
+- **`TOI-2580`**
+  - `TOI-2580 b` | 2024 | Transit | 3.39775 | 17.37392009
+- **`TOI-2583`**
+  - ดาวแม่ `TOI-2583 A`
+    - `TOI-2583 A b` | 2023 | Transit | 4.5207265 | 14.4595851
+- **`TOI-2587`**
+  - ดาวแม่ `TOI-2587 A`
+    - `TOI-2587 A b` | 2023 | Transit | 5.45664 | 12.07207221
+- **`TOI-2589`**
+  - `TOI-2589 b` | 2023 | Transit | 61.6277 | 12.10569916
+- **`TOI-2641`**
+  - `TOI-2641 b` | 2023 | Transit | 4.880974 | 18.10250383
+- **`TOI-2654`**
+  - `TOI-2654 b` | 2026 | Transit | 2.96760425926 | 7.94454164
+- **`TOI-2669`**
+  - `TOI-2669 b` | 2022 | Transit | 6.2034 | 19.72780603
+- **`TOI-2714`**
+  - `TOI-2714 b` | 2024 | Transit | 2.499387 | 13.72
+- **`TOI-2719`**
+  - `TOI-2719 b` | 2025 | Transit | 3.37594 | 5.98
+- **`TOI-2768`**
+  - `TOI-2768 b` | 2024 | Transit | 1.50801 | 2.63
+- **`TOI-2796`**
+  - `TOI-2796 b` | 2023 | Transit | 4.8084983 | >17.26183028
+- **`TOI-2803`**
+  - ดาวแม่ `TOI-2803 A`
+    - `TOI-2803 A b` | 2023 | Transit | 1.96229325 | 18.11371281
+- **`TOI-2818`**
+  - `TOI-2818 b` | 2023 | Transit | 4.039709 | 15.27784069
+- **`TOI-2842`**
+  - `TOI-2842 b` | 2023 | Transit | 3.5514058 | 12.84549188
+
+</details>
+
+[สารบัญทุกระบบ](README.md#exoplanets) · [ช่วงชื่อก่อนหน้า](range-05.md) · [ช่วงชื่อถัดไป](range-07.md)

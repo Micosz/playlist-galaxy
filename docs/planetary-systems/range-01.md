@@ -1,0 +1,1777 @@
+# ระบบดาวเคราะห์ · 1RXS J160929.1-210524 – HD 106315
+
+[สารบัญทุกระบบ](README.md#exoplanets) · [ช่วงชื่อถัดไป](range-02.md)
+
+**720 ระบบ · 977 ดาวเคราะห์** ในบัญชี NASA Exoplanet Archive เมื่อ 22 พฤศจิกายน 2026 แตะช่วงชื่อเพื่อกางรายการ แต่ละบรรทัดแสดงชื่อ ปีค้นพบ วิธีค้นพบ คาบโคจรเป็นวัน และรัศมีเทียบกับโลก † หมายถึงสถานะที่มีงานตีพิมพ์ตั้งข้อสงสัย ส่วน CB คือดาวเคราะห์ที่โคจรรอบดาวคู่ [วิธีอ่านและหน่วย](README.md#exoplanets) · [ข้อมูลต้นทาง](README.md#sources)
+
+<a name="systems-01"></a>
+
+<details><summary>1RXS J160929.1-210524 – gam Leo · 180 ระบบ · 234 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`1RXS J160929.1-210524`**
+  - `1RXS J160929.1-210524 b` | 2008 | Imaging | — | 18.647
+- **`2MASS J0249-0557`**
+  - ดาวแม่ `2MASS J0249-0557 A`
+    - `2MASS J0249-0557 c` CB | 2018 | Imaging | — | 17.37392009
+- **`2MASS J01033563-5515561`**
+  - ดาวแม่ `2MASS J01033563-5515561 A`
+    - `2MASS J01033563-5515561 AB b` CB | 2013 | Imaging | — | 12.3
+- **`2MASS J01225093-2439505`**
+  - `2MASS J01225093-2439505 b` | 2013 | Imaging | — | 11.209
+- **`2MASS J02192210-3925225`**
+  - `2MASS J02192210-3925225 b` | 2015 | Imaging | — | 16.14096
+- **`2MASS J03590986+2009361`**
+  - `2MASS J03590986+2009361 b` | 2024 | Imaging | — | 12.2
+- **`2MASS J04372171+2651014`**
+  - `2M0437 b` | 2021 | Imaging | — | 13
+- **`2MASS J04414489+2301513`**
+  - `2MASS J04414489+2301513 b` | 2010 | Imaging | — | 12.6
+- **`2MASS J11011926-7732383`**
+  - `2MASS J11011926-7732383 b` | 2024 | Imaging | — | 11.9
+- **`2MASS J11550485-7919108`**
+  - `2MASS J11550485-7919108 b` | 2024 | Imaging | — | 12.1
+- **`2MASS J12073346-3932539`**
+  - `2MASS J12073346-3932539 b` | 2004 | Imaging | — | 15.69257298
+- **`2MASS J16262785-2625152`**
+  - `KOINTREAU-4 b` | 2026 | Imaging | — | 12.2
+- **`2MASS J19383260+4603591`**
+  - `Kepler-451 d` CB | 2022 | Eclipse Timing Variations | 43 | 13.5
+  - `2MASS J19383260+4603591 b` CB | 2015 | Eclipse Timing Variations | 406 | 13.4
+  - `Kepler-451 c` CB | 2022 | Eclipse Timing Variations | 1460 | 13.5
+- **`2MASS J21252752-8138278`**
+  - `2MASS J21252752-8138278 b` | 2024 | Imaging | — | 12.4
+- **`2MASS J22362452+4751425`**
+  - `2MASS J22362452+4751425 b` | 2016 | Imaging | — | 12.3
+- **`2MASS J22501512+2325342`**
+  - `2MASS J22501512+2325342 b` | 2018 | Imaging | — | 11.9
+- **`4 UMa`**
+  - `4 UMa b` | 2006 | Radial Velocity | 270.27 | 12.6
+- **`6 Lyn`**
+  - `6 Lyn b` | 2008 | Radial Velocity | 919.86 | 13.4
+- **`7 CMa`**
+  - `7 CMa b` | 2011 | Radial Velocity | 735.1 | 13.4
+  - `7 CMa c` | 2019 | Radial Velocity | 996 | 13.9
+- **`8 UMi`**
+  - `8 UMi b` | 2015 | Radial Velocity | 93.31 | 13.5
+- **`11 Com`**
+  - `11 Com b` | 2007 | Radial Velocity | 323.21 | 12.2
+- **`11 UMi`**
+  - `11 UMi b` | 2009 | Radial Velocity | 516.21997 | 12.3
+- **`14 And`**
+  - `14 And b` | 2008 | Radial Velocity | 186.76 | 13.1
+- **`14 Her`**
+  - `14 Her b` | 2002 | Radial Velocity | 1766.41 | 12.5
+  - `HD 145675 c` | 2021 | Radial Velocity | 15732.45889 | 12.6
+- **`16 Cyg`**
+  - ดาวแม่ `16 Cyg B`
+    - `16 Cyg B b` | 1996 | Radial Velocity | 798.5 | 13.5
+- **`17 Sco`**
+  - `17 Sco b` | 2020 | Radial Velocity | 578.38 | 12.9
+- **`18 Del`**
+  - `18 Del b` | 2008 | Radial Velocity | 982.85 | 12.5
+- **`24 Boo`**
+  - `24 Boo b` | 2018 | Radial Velocity | 30.33 | 13.9
+- **`24 Sex`**
+  - `24 Sex b` | 2010 | Radial Velocity | 452.8 | 13.4
+  - `24 Sex c` | 2010 | Radial Velocity | 883 | 13.9
+- **`47 UMa`**
+  - `47 UMa b` | 1996 | Radial Velocity | 1078 | 13.2
+  - `47 UMa c` | 2001 | Radial Velocity | 2391 | 14.2
+  - `47 UMa d` | 2009 | Radial Velocity | 14002 | 13.5
+- **`51 Eri`**
+  - `51 Eri b` | 2015 | Imaging | 9100 | —
+- **`51 Peg`**
+  - `51 Peg b` | 1995 | Radial Velocity | 4.2307966 | 14.1
+- **`55 Cnc`** <a name="55-cancri"></a>
+  - ดาวแม่ `55 Cnc`
+    - `55 Cnc e` | 2004 | Radial Velocity | 0.7365474 | 1.875
+    - `55 Cnc b` | 1996 | Radial Velocity | 14.651552 | 13.9
+    - `55 Cnc c` | 2004 | Radial Velocity | 44.3936 | 8.51
+    - `55 Cnc f` | 2007 | Radial Velocity | 260.58 | 7.59
+    - `55 Cnc d` | 2002 | Radial Velocity | 4799 | 13
+  - ดาวแม่ `55 Cnc B`
+    - `55 Cnc B b` | 2025 | Radial Velocity | 6.7994 | 1.69
+    - `55 Cnc B c` | 2025 | Radial Velocity | 33.747 | 2.16
+- **`61 Vir`**
+  - `61 Vir b` | 2009 | Radial Velocity | 4.215 | 2.11
+  - `61 Vir c` | 2009 | Radial Velocity | 38.021 | 4.46
+  - `61 Vir d` | 2009 | Radial Velocity | 123.01 | 5.11
+- **`70 Vir`**
+  - `70 Vir b` | 1996 | Radial Velocity | 116.688 | 12.6
+- **`75 Cet`**
+  - `75 Cet b` | 2012 | Radial Velocity | 696.62 | 13.3
+  - `75 Cet c` | 2023 | Radial Velocity | 2051.62 | 13.9
+- **`81 Cet`**
+  - `81 Cet b` | 2008 | Radial Velocity | 1005.57 | 13.1
+- **`91 Aqr`**
+  - `91 Aqr b` | 2013 | Radial Velocity | 181.4 | 13.1
+- **`AB Aur`**
+  - `AB Aur b` | 2022 | Imaging | — | 12.5
+- **`AB Pic`**
+  - `AB Pic b` | 2005 | Imaging | — | 12.3
+- **`AF Lep`**
+  - `AF Lep b` | 2023 | Imaging | 8905 | 13
+- **`alf Ari`**
+  - `alf Ari b` | 2010 | Radial Velocity | 380.8 | 13.4
+- **`alf Cen`** <a name="alpha-centauri"></a>
+  - ดาวแม่ `Proxima Cen`
+    - `Proxima Cen d` | 2025 | Radial Velocity | 5.12338 | 0.692
+    - `Proxima Cen b` | 2016 | Radial Velocity | 11.18465 | 1.02
+- **`alf Tau`**
+  - `alf Tau b` † | 2015 | Radial Velocity | 628.96 | 12.7
+- **`AT2021ueyL`**
+  - `AT2021ueyL b` | 2025 | Microlensing | 4168.69 | 13.6
+- **`AU Mic`**
+  - `AU Mic b` | 2020 | Transit | 8.463446 | 4.79
+  - `AU Mic d` | 2023 | Transit Timing Variations | 12.73596 | 1.02
+  - `AU Mic c` | 2021 | Transit | 18.859023 | 2.79
+  - `AU Mic e` † | 2025 | Radial Velocity | 33.11 | 4.87
+- **`b Cen`**
+  - ดาวแม่ `b Cen A`
+    - `b Cen AB b` CB | 2021 | Imaging | 1790000 | 12.4
+- **`Barnard's star`**
+  - `Barnard d` | 2025 | Radial Velocity | 2.3402 | 0.694
+  - `Barnard b` | 2024 | Radial Velocity | 3.1542 | 0.72
+  - `Barnard c` | 2025 | Radial Velocity | 4.1244 | 0.743
+  - `Barnard e` | 2025 | Radial Velocity | 6.7392 | 0.637
+- **`BD+03 2562`**
+  - `BD+03 2562 b` | 2017 | Radial Velocity | 481.9 | 12.7
+- **`BD+05 4868`**
+  - ดาวแม่ `BD+05 4868 A`
+    - `BD+05 4868 A b` | 2025 | Transit | 1.271869 | —
+- **`BD+14 4559`**
+  - `BD+14 4559 b` | 2009 | Radial Velocity | 268.94 | 13.8
+- **`BD+15 2375`**
+  - `BD+15 2375 b` | 2016 | Radial Velocity | 153.22 | 13.8
+- **`BD+15 2940`**
+  - `BD+15 2940 b` | 2013 | Radial Velocity | 137.48 | 13.7
+- **`BD+20 274`**
+  - `BD+20 274 b` | 2012 | Radial Velocity | 578.2 | 13
+- **`BD+20 594`**
+  - `BD+20 594 b` | 2016 | Transit | 41.68547 | 2.23
+- **`BD+20 2457`**
+  - `BD+20 2457 b` | 2009 | Radial Velocity | 379.63 | 12.1
+  - `BD+20 2457 c` | 2009 | Radial Velocity | 621.99 | 12.4
+- **`BD+37 3172`**
+  - `BD+37 3172 b` | 2023 | Radial Velocity | 1887.76 | 12.4
+- **`BD+42 2315`**
+  - `BD+42 2315 b` | 2023 | Radial Velocity | 123.05 | 14.2
+- **`BD+45 564`**
+  - `BD+45 564 b` | 2021 | Radial Velocity | 307.88 | 13.6
+- **`BD+48 738`**
+  - `BD+48 738 b` | 2011 | Radial Velocity | 392.6 | 13.9
+- **`BD+48 740`**
+  - `BD+48 740 b` | 2018 | Radial Velocity | 733 | 13.5
+- **`BD+49 828`**
+  - `BD+49 828 b` | 2015 | Radial Velocity | 2590 | 13.5
+- **`BD+55 362`**
+  - `BD+55 362 b` | 2021 | Radial Velocity | 265.59 | 14
+- **`BD+60 1417`**
+  - `BD+60 1417 b` | 2021 | Imaging | — | 14.68376472
+- **`BD+63 1405`**
+  - `BD+63 1405 b` | 2021 | Radial Velocity | 1198.48 | 12.4
+- **`BD-06 1339`**
+  - `BD-06 1339 b` † | 2013 | Radial Velocity | 3.8728 | —
+  - `BD-06 1339 c` | 2013 | Radial Velocity | 125.94 | 8.38
+- **`BD-08 2823`**
+  - `BD-08 2823 b` | 2009 | Radial Velocity | 5.6 | —
+  - `BD-08 2823 c` | 2009 | Radial Velocity | 237.6 | 12.5
+- **`BD-10 3166`**
+  - `BD-10 3166 b` | 2000 | Radial Velocity | 3.48777 | 14.1
+- **`BD-11 4672`**
+  - `BD-11 4672 c` | 2020 | Radial Velocity | 74.2 | 4.04
+  - `BD-11 4672 b` | 2014 | Radial Velocity | 1634 | 14.1
+- **`BD-13 2130`**
+  - `BD-13 2130 b` | 2007 | Radial Velocity | 714.29999 | 12.5
+- **`BD-14 3065`**
+  - ดาวแม่ `BD-14 3065 A`
+    - `BD-14 3065 b` | 2024 | Transit | 4.2889731 | 21.59
+- **`BD-17 63`**
+  - `BD-17 63 b` | 2008 | Radial Velocity | 655.57 | 12.8
+- **`BD-210397`**
+  - `BD-210397 b` | 2023 | Radial Velocity | 1891 | 14
+  - `BD-210397 c` | 2023 | Radial Velocity | 6240 | 12.9
+- **`BEBOP-3`**
+  - `BEBOP-3 b` CB | 2025 | Radial Velocity | 547 | 14.2
+- **`BEBOP-4`**
+  - ดาวแม่ `BEBOP-4 A`
+    - `BEBOP-4 AB b` CB | 2025 | Radial Velocity | 1823.5 | —
+- **`bet Cnc`**
+  - `bet Cnc b` | 2014 | Radial Velocity | 605.2 | 12.6
+- **`bet Pic`**
+  - `bet Pic c` | 2019 | Radial Velocity | 1202 | 12.5
+  - `bet Pic b` | 2008 | Imaging | 8682 | 18.49485
+  - `bet Pic d` | 2026 | Imaging | 33200 | 14.12331568
+- **`bet UMi`**
+  - `bet UMi b` | 2014 | Radial Velocity | 522.3 | 12.7
+- **`CD Cet`**
+  - `CD Cet b` | 2020 | Radial Velocity | 2.2907 | 1.82
+- **`CD-35 2722`**
+  - ดาวแม่ `CD-35 2722 B`
+    - `CD-35 2722 B b` | 2026 | Radial Velocity | 171.11 | 13.9
+- **`CFBDSIR J145829+101343`**
+  - `CFBDSIR J145829+101343 b` | 2011 | Imaging | 10037.5 | 12.4
+- **`CFHTWIR-Oph 98`**
+  - ดาวแม่ `CFHTWIR-Oph 98 A`
+    - `CFHTWIR-Oph 98 b` | 2020 | Imaging | 8040000 | 20.8487041
+- **`CHXR 73`**
+  - `CHXR 73 b` | 2006 | Imaging | — | 12.3
+- **`CI Tau`**
+  - `CI Tau c` | 2024 | Radial Velocity | 25.2 | 13
+- **`COCONUTS-2`**
+  - ดาวแม่ `COCONUTS-2 A`
+    - `COCONUTS-2 b` | 2021 | Imaging | 402000000 | 12.57647635
+- **`CoRoT-1`**
+  - `CoRoT-1 b` | 2008 | Transit | 1.5089557 | 16.7
+- **`CoRoT-2`**
+  - `CoRoT-2 b` | 2008 | Transit | 1.7429935 | 16.432
+- **`CoRoT-3`**
+  - `CoRoT-3 b` | 2008 | Transit | 4.2568 | 11.32
+- **`CoRoT-4`**
+  - `CoRoT-4 b` | 2008 | Transit | 9.20205 | 13.34
+- **`CoRoT-5`**
+  - `CoRoT-5 b` | 2009 | Transit | 4.0378962 | 15.558
+- **`CoRoT-6`**
+  - `CoRoT-6 b` | 2009 | Transit | 8.886593 | 13.068
+- **`CoRoT-7`**
+  - `CoRoT-7 b` | 2009 | Transit | 0.85359163 | 1.68135
+  - `CoRoT-7 c` | 2009 | Radial Velocity | 3.698 | 2.83
+  - `CoRoT-7 d` | 2022 | Radial Velocity | 8.966 | 4.31
+- **`CoRoT-8`**
+  - `CoRoT-8 b` | 2010 | Transit | 6.21229 | 6.39
+- **`CoRoT-9`**
+  - `CoRoT-9 b` | 2009 | Transit | 95.272656 | 11.948794
+- **`CoRoT-10`**
+  - `CoRoT-10 b` | 2010 | Transit | 13.2406 | 10.87
+- **`CoRoT-11`**
+  - `CoRoT-11 b` | 2010 | Transit | 2.99433 | 16.03
+- **`CoRoT-12`**
+  - `CoRoT-12 b` | 2010 | Transit | 2.828042 | 16.14
+- **`CoRoT-13`**
+  - `CoRoT-13 b` | 2010 | Transit | 4.03519 | 9.92
+- **`CoRoT-14`**
+  - `CoRoT-14 b` | 2010 | Transit | 1.51214 | 12.22
+- **`CoRoT-16`**
+  - `CoRoT-16 b` | 2011 | Transit | 5.35227 | 13.11
+- **`CoRoT-17`**
+  - `CoRoT-17 b` | 2011 | Transit | 3.7681 | 11.43
+- **`CoRoT-18`**
+  - `CoRoT-18 b` | 2011 | Transit | 1.9000693 | 14.68
+- **`CoRoT-19`**
+  - `CoRoT-19 b` | 2011 | Transit | 3.89713 | 14.46
+- **`CoRoT-20`**
+  - `CoRoT-20 b` | 2011 | Transit | 9.24285 | 9.41556
+  - `CoRoT-20 c` | 2018 | Radial Velocity | 1675 | 12.2
+- **`CoRoT-21`**
+  - `CoRoT-21 b` | 2012 | Transit | 2.72474 | 14.5717
+- **`CoRoT-22`**
+  - `CoRoT-22 b` | 2014 | Transit | 9.75598 | 4.88
+- **`CoRoT-23`**
+  - `CoRoT-23 b` | 2011 | Transit | 3.6313 | 11.77
+- **`CoRoT-24`**
+  - `CoRoT-24 b` | 2014 | Transit | 5.1134 | 3.7
+  - `CoRoT-24 c` | 2014 | Transit | 11.759 | 5
+- **`CoRoT-25`**
+  - `CoRoT-25 b` | 2013 | Transit | 4.86069 | 12.11
+- **`CoRoT-26`**
+  - `CoRoT-26 b` | 2013 | Transit | 4.20474 | 14.12
+- **`CoRoT-27`**
+  - `CoRoT-27 b` | 2014 | Transit | 3.57532 | 11.287
+- **`CoRoT-28`**
+  - `CoRoT-28 b` | 2015 | Transit | 5.20851 | 10.704595
+- **`CoRoT-29`**
+  - `CoRoT-29 b` | 2015 | Transit | 2.85057 | 10.0881
+- **`CoRoT-30`**
+  - `CoRoT-30 b` | 2020 | Transit | 9.06005 | 11.309881
+- **`CoRoT-31`**
+  - `CoRoT-31 b` | 2020 | Transit | 4.62941 | 16.36514
+- **`CoRoT-32`**
+  - `CoRoT-32 b` | 2018 | Transit | 6.71837 | 6.38913
+- **`CoRoT-35`**
+  - `CoRoT-35 b` | 2022 | Transit | 3.22748 | 18.83108758
+- **`CoRoT-36`**
+  - `CoRoT-36 b` | 2022 | Transit | 5.616531 | 15.80466279
+- **`CT Cha`**
+  - `CT Cha b` | 2007 | Imaging | — | 24.66
+- **`CWISEP J193518.59-154620.3`**
+  - `CWISEP J193518.59-154620.3 b` | 2025 | Imaging | — | 12.2
+- **`DE CVn`**
+  - `DE CVn b` † CB | 2018 | Eclipse Timing Variations | 4098.1 | 12.4
+- **`DENIS-P J082303.1-491201`**
+  - `DENIS-P J082303.1-491201 b` | 2013 | Astrometry | 246.36 | 11.9
+- **`DH Tau`**
+  - `DH Tau b` | 2004 | Imaging | — | 30.2643
+- **`DMPP-1`**
+  - `DMPP-1 d` | 2019 | Radial Velocity | 3.1417 | 2.02
+  - `DMPP-1 e` | 2019 | Radial Velocity | 5.516 | 1.86
+  - `DMPP-1 c` | 2019 | Radial Velocity | 10.03 | 3.31
+  - `DMPP-1 b` | 2019 | Radial Velocity | 17.812 | 4.26
+- **`DMPP-2`**
+  - `DMPP-2 c` | 2026 | Radial Velocity | 3.168 | 8.26
+  - `DMPP-2 b` | 2019 | Radial Velocity | 5.203 | 14.2
+  - `DMPP-2 d` | 2026 | Radial Velocity | 16.491 | 11.6
+- **`DMPP-3`**
+  - ดาวแม่ `DMPP-3 A`
+    - `DMPP-3 A b` | 2019 | Radial Velocity | 5.59 | 1.44
+- **`DMPP-4`**
+  - `DMPP-4 b` | 2023 | Radial Velocity | 3.4982 | 3.53
+- **`DMPP-6`**
+  - `DMPP-6 b` | 2026 | Radial Velocity | 7.6027 | 2.28
+  - `DMPP-6 c` | 2026 | Radial Velocity | 36.441 | 3.74
+- **`DMPP-7`**
+  - `DMPP-7 b` | 2026 | Radial Velocity | 4.92666 | 9.78
+- **`DMPP-8`**
+  - `DMPP-8 b` | 2026 | Radial Velocity | 62.915 | 10.8
+- **`DMPP-9`**
+  - `DMPP-9 b` | 2026 | Radial Velocity | 12.733 | 3.89
+- **`DP Leo`**
+  - `DP Leo b` CB | 2009 | Eclipse Timing Variations | 10220 | 12.7
+- **`DS Tuc`**
+  - ดาวแม่ `DS Tuc A`
+    - `DS Tuc A b` | 2019 | Transit | 8.138268 | 5.7
+- **`Elias 2-24`**
+  - `Elias 2-24 b` | 2026 | Imaging | — | 13.2
+- **`EPIC 201170410`**
+  - `EPIC 201170410.02` | 2020 | Transit | 6.7987 | 1.047
+- **`EPIC 201238110`**
+  - `EPIC 201238110 b` | 2019 | Transit | 28.1656 | 1.87
+- **`EPIC 201427007`**
+  - `EPIC 201427007 b` | 2021 | Transit | 0.72091 | 1.5
+- **`EPIC 201497682`**
+  - `EPIC 201497682 b` | 2019 | Transit | 2.13174 | 0.692
+- **`EPIC 201595106`**
+  - `EPIC 201595106 b` | 2021 | Transit | 0.87724 | 1.565
+  - `K2-360 c` | 2024 | Radial Velocity | 9.79692 | 4.02
+- **`EPIC 201757695`**
+  - `EPIC 201757695.02` | 2020 | Transit | 2.0478 | 0.90819
+- **`EPIC 201841433`**
+  - `EPIC 201841433 b` | 2019 | Transit | 4.1698 | 1.04
+- **`EPIC 206024342`**
+  - `EPIC 206024342 c` | 2021 | Transit | 0.911724 | 1.4
+  - `EPIC 206024342 b` | 2019 | Transit | 4.50756 | 1.7
+  - `EPIC 206024342 d` | 2021 | Transit | 14.647531 | 2.6
+- **`EPIC 206032309`**
+  - `EPIC 206032309 b` | 2019 | Transit | 2.87814 | 1.01
+- **`EPIC 206042996`**
+  - `EPIC 206042996 c` | 2021 | Transit | 0.354884 | 1.2
+  - `EPIC 206042996 b` | 2019 | Transit | 5.2986 | 1.7
+- **`EPIC 206215704`**
+  - `EPIC 206215704 b` | 2019 | Transit | 2.255436 | 1
+- **`EPIC 206317286`**
+  - `EPIC 206317286 b` | 2019 | Transit | 1.58252 | 0.96
+  - `EPIC 206317286 c` | 2022 | Transit | 17.515472 | 2.094
+- **`EPIC 211822797`**
+  - `EPIC 211822797 b` | 2016 | Transit | 21.1701963 | 1.92
+- **`EPIC 211945201`**
+  - `EPIC 211945201 b` | 2018 | Transit | 19.49221 | 5.76
+- **`EPIC 212297394`**
+  - `EPIC 212297394 b` | 2019 | Transit | 2.289363 | 1.48
+  - `EPIC 212297394 c` | 2021 | Transit | 5.213965 | 2.27
+- **`EPIC 212424622`**
+  - `EPIC 212424622 b` | 2019 | Transit | 18.0983 | 2.17
+- **`EPIC 212499991`**
+  - `EPIC 212499991 b` | 2019 | Transit | 34.885 | 1.6
+- **`EPIC 212587672`**
+  - `EPIC 212587672 b` | 2019 | Transit | 15.28078 | 1.26
+  - `EPIC 212587672 c` | 2021 | Transit | 23.228555 | 2.32
+- **`EPIC 212624936`**
+  - `EPIC 212624936 b` | 2021 | Transit | 0.578657 | 1.2
+  - `EPIC 212624936 c` | 2021 | Transit | 11.811437 | 2.3
+- **`EPIC 212737443`**
+  - `EPIC 212737443 b` | 2019 | Transit | 13.603 | 2.586
+  - `EPIC 212737443 c` | 2019 | Transit | 65.55 | 2.69
+- **`EPIC 220492298`**
+  - `EPIC 220492298 b` | 2021 | Transit | 0.762406 | 0.99
+- **`EPIC 220674823`**
+  - `EPIC 220674823 b` | 2016 | Transit | 0.57130782 | 1.606
+  - `EPIC 220674823 c` | 2016 | Transit | 13.340603 | 2.712
+- **`EPIC 228836835`**
+  - `EPIC 228836835 b` | 2021 | Transit | 0.728113 | 1.1
+- **`EPIC 229004835`**
+  - `EPIC 229004835 b` | 2023 | Transit | 16.141132 | 2.332
+- **`EPIC 246851721`**
+  - `EPIC 246851721 b` | 2018 | Transit | 6.180235 | 11.780659
+- **`EPIC 248847494`**
+  - `EPIC 248847494 b` | 2018 | Transit | 3650 | 12.44199
+- **`EPIC 249893012`**
+  - `EPIC 249893012 b` | 2020 | Transit | 3.5951 | 1.95
+  - `EPIC 249893012 c` | 2020 | Transit | 15.624 | 3.67
+  - `EPIC 249893012 d` | 2020 | Transit | 35.747 | 3.94
+- **`eps CrB`**
+  - `eps CrB b` | 2012 | Radial Velocity | 417.9 | 12.7
+- **`eps Eri`**
+  - `eps Eri b` | 2000 | Radial Velocity | 2680 | 13.8
+- **`eps Ind`**
+  - ดาวแม่ `eps Ind A`
+    - `eps Ind A b` | 2019 | Radial Velocity | 25450 | 12.7
+- **`eps Tau`**
+  - `eps Tau b` | 2006 | Radial Velocity | 585.82 | 12.7
+- **`FU Tau`**
+  - `FU Tau b` | 2008 | Imaging | — | 12.2
+- **`G 9-40`**
+  - `G 9-40 b` | 2019 | Transit | 5.7459982 | 1.9
+- **`G 192-15`**
+  - `G 192-15 b` | 2025 | Radial Velocity | 2.27476 | 1.02
+  - `G 192-15 c` | 2025 | Radial Velocity | 1219 | 3.87
+- **`G 196-3`**
+  - `G 196-3 b` | 2024 | Imaging | — | 12
+- **`G 261-6`**
+  - `G 261-6 b` | 2025 | Radial Velocity | 5.4536 | 1.1
+- **`G 264-012`**
+  - `G 264-012 b` | 2021 | Radial Velocity | 2.30538 | 1.39
+  - `G 264-012 c` | 2021 | Radial Velocity | 8.0518 | 1.76
+- **`G 268-110`**
+  - `G 268-110 b` | 2025 | Radial Velocity | 1.43263 | 1.13
+- **`Gaia22dkvL`**
+  - `Gaia22dkvL b` | 2024 | Microlensing | — | 14.1
+- **`Gaia23braL`**
+  - `Gaia23braL b` | 2026 | Microlensing | — | 13.5
+- **`Gaia-1`**
+  - `Gaia-1 b` | 2022 | Transit | 3.052524 | 13.77583728
+- **`Gaia-2`**
+  - `Gaia-2 b` | 2022 | Transit | 3.6915224 | 14.81827249
+- **`Gaia-4`**
+  - `Gaia-4 b` | 2025 | Astrometry | 588.58 | 12.4
+- **`Gaia-5`**
+  - `Gaia-5 b` | 2025 | Astrometry | 358.62 | 12.1
+- **`gam Cep`**
+  - `gam Cep b` | 2003 | Radial Velocity | 904 | 12.5
+- **`gam Leo`**
+  - ดาวแม่ `gam1 Leo`
+    - `gam1 Leo b` | 2009 | Radial Velocity | 428.5 | 12.5
+
+</details>
+
+<a name="systems-02"></a>
+
+<details><summary>gam Lib – HATS-13 · 180 ระบบ · 247 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`gam Lib`**
+  - `gam Lib b` | 2018 | Radial Velocity | 414.88 | 13.7
+  - `gam Lib c` | 2018 | Radial Velocity | 966.49 | 12.8
+- **`gam Psc`**
+  - `gam Psc b` | 2021 | Radial Velocity | 555.1 | 13.6
+- **`GJ 15`**
+  - ดาวแม่ `GJ 15 A`
+    - `GJ 15 A b` † | 2014 | Radial Velocity | 11.4407 | 1.55
+    - `GJ 15 A c` | 2018 | Radial Velocity | 7600 | 6.67
+- **`GJ 27.1`**
+  - `GJ 27.1 b` | 2014 | Radial Velocity | 15.819 | 3.66
+- **`GJ 86`**
+  - `GJ 86 b` | 1999 | Radial Velocity | 15.76491 | 12.9
+- **`GJ 96`**
+  - `GJ 96 b` | 2018 | Radial Velocity | 73.94 | 4.67
+- **`GJ 143`**
+  - `HD 21749 c` | 2019 | Transit | 7.789787 | 0.984
+  - `GJ 143 b` | 2019 | Transit | 35.613442 | 2.809
+- **`GJ 160.2`**
+  - `GJ 160.2 b` | 2014 | Radial Velocity | 5.2354 | 3.17
+- **`GJ 163`**
+  - `GJ 163 b` | 2013 | Radial Velocity | 8.63182 | 3.25
+  - `GJ 163 c` | 2013 | Radial Velocity | 25.63058 | 2.5
+  - `GJ 163 d` | 2013 | Radial Velocity | 603.95116 | 5.92
+- **`GJ 179`**
+  - `GJ 179 b` | 2009 | Radial Velocity | 2288 | 13.8
+- **`GJ 180`**
+  - `GJ 180 b` | 2014 | Radial Velocity | 17.133 | 2.43
+  - `GJ 180 c` | 2014 | Radial Velocity | 24.329 | 2.41
+  - `GJ 180 d` | 2020 | Radial Velocity | 106.3 | 2.66
+- **`GJ 229`**
+  - `GJ 229 A c` † | 2020 | Radial Velocity | 121.93268 | 2.87
+  - `GJ 229 b` † | 2014 | Radial Velocity | 579.47495 | 3.97
+- **`GJ 238`**
+  - `GJ 238 b` | 2024 | Transit | 1.7446999 | 0.566
+- **`GJ 251`**
+  - `GJ 251 b` | 2020 | Radial Velocity | 14.237 | 1.79
+  - `GJ 251 c` | 2025 | Radial Velocity | 53.647 | 1.8
+- **`GJ 273`**
+  - `GJ 273 c` | 2017 | Radial Velocity | 4.7234 | 1.06
+  - `GJ 273 b` | 2017 | Radial Velocity | 18.6498 | 1.51
+- **`GJ 317`**
+  - `GJ 317 b` | 2007 | Radial Velocity | 695.69 | 13.3
+  - `GJ 317 c` | 2016 | Radial Velocity | 6500 | 13.6
+- **`GJ 328`**
+  - `GJ 328 c` | 2023 | Radial Velocity | 241.8 | 4.91
+  - `GJ 328 b` | 2013 | Radial Velocity | 3771 | 13.3
+- **`GJ 338`**
+  - ดาวแม่ `GJ 338 B`
+    - `GJ 338 B b` | 2020 | Radial Velocity | 24.422 | 3.25
+- **`GJ 341`**
+  - `GJ 341 b` | 2025 | Transit | 7.57686 | 0.88
+- **`GJ 357`**
+  - `GJ 357 b` | 2019 | Transit | 3.9306 | 1.2
+  - `GJ 357 c` | 2019 | Radial Velocity | 9.1247 | 1.66
+  - `GJ 357 d` | 2019 | Radial Velocity | 55.661 | 2.34
+- **`GJ 367`**
+  - `GJ 367 b` | 2021 | Transit | 0.3219226 | 0.736
+  - `GJ 367 c` | 2023 | Radial Velocity | 11.5301 | 1.86
+  - `GJ 367 d` | 2023 | Radial Velocity | 34.369 | 2.33
+- **`GJ 393`**
+  - `GJ 393 b` | 2021 | Radial Velocity | 7.02679 | 1.17
+- **`GJ 411`**
+  - `GJ 411 b` | 2019 | Radial Velocity | 12.9394 | 1.45
+  - `HD 95735 c` | 2021 | Radial Velocity | 2946 | 3.76
+- **`GJ 414`**
+  - ดาวแม่ `GJ 414 A`
+    - `GJ 414 A b` | 2021 | Radial Velocity | 50.8 | 2.63
+    - `GJ 414 A c` | 2021 | Radial Velocity | 749.83 | 8.4
+- **`GJ 422`**
+  - `GJ 422 b` | 2014 | Radial Velocity | 20.129 | 3.33
+- **`GJ 433`**
+  - `GJ 433 b` | 2013 | Radial Velocity | 7.3705 | 2.33
+  - `GJ 433 d` | 2020 | Radial Velocity | 36.059 | 2.14
+  - `GJ 433 c` | 2014 | Radial Velocity | 5094.105 | 6.27
+- **`GJ 436`**
+  - `GJ 436 b` | 2004 | Radial Velocity | 2.64388312 | 4.17
+- **`GJ 463`**
+  - `GJ 463 b` | 2022 | Radial Velocity | 3459 | 13.1
+- **`GJ 480`**
+  - `GJ 480 b` | 2020 | Radial Velocity | 9.5536 | 2.91
+- **`GJ 486`**
+  - `GJ 486 b` | 2021 | Radial Velocity | 1.46712127 | 1.289
+- **`GJ 504`**
+  - `GJ 504 b` | 2013 | Imaging | — | 12.10569916
+- **`GJ 508.2`**
+  - `GJ 508.2 b` | 2025 | Radial Velocity | >5300 | —
+- **`GJ 514`**
+  - `GJ 514 b` | 2022 | Radial Velocity | 140.43 | 2.13
+- **`GJ 536`**
+  - `GJ 536 b` | 2016 | Radial Velocity | 8.70874 | 2.41
+  - `GJ 536 c` | 2025 | Radial Velocity | 32.761 | 2.3
+- **`GJ 581`**
+  - `GJ 581 e` | 2009 | Radial Velocity | 3.1481 | 1.38
+  - `GJ 581 b` | 2005 | Radial Velocity | 5.3686 | 4.79
+  - `GJ 581 c` | 2007 | Radial Velocity | 12.9211 | 2.5
+- **`GJ 625`**
+  - `GJ 625 b` | 2017 | Radial Velocity | 14.628 | 1.49
+- **`GJ 649`**
+  - `GJ 649 b` | 2009 | Radial Velocity | 600.1 | 10.8
+- **`GJ 667`**
+  - ดาวแม่ `GJ 667 C`
+    - `GJ 667 C b` | 2012 | Radial Velocity | 7.203 | 2.25
+    - `GJ 667 C c` | 2013 | Radial Velocity | 28.14 | 1.77
+    - `GJ 667 C f` † | 2013 | Radial Velocity | 39.026 | 1.45
+    - `GJ 667 C e` † | 2013 | Radial Velocity | 62.24 | 1.45
+    - `GJ 667 C g` † | 2013 | Radial Velocity | 256.2 | 1.99
+- **`GJ 674`**
+  - `GJ 674 b` | 2007 | Radial Velocity | 4.6938 | 3.33
+- **`GJ 676`**
+  - ดาวแม่ `GJ 676 A`
+    - `GJ 676 A d` | 2012 | Radial Velocity | 3.60076 | 1.78
+    - `GJ 676 A e` | 2012 | Radial Velocity | 35.47358 | 2.47
+    - `GJ 676 A b` | 2010 | Radial Velocity | 1051.44521 | 12.8
+    - `GJ 676 A c` | 2016 | Radial Velocity | 13921.42302 | 12.3
+- **`GJ 682`**
+  - `GJ 682 b` | 2014 | Radial Velocity | 17.478 | 1.93
+  - `GJ 682 c` | 2014 | Radial Velocity | 57.32 | 2.89
+- **`GJ 685`**
+  - `GJ 685 b` | 2019 | Radial Velocity | 24.16 | 2.95
+- **`GJ 687`**
+  - `GJ 687 b` | 2014 | Radial Velocity | 38.142 | 4.32
+  - `GJ 687 c` | 2020 | Radial Velocity | 727.562 | 4.14
+- **`GJ 720`**
+  - ดาวแม่ `GJ 720 A`
+    - `GJ 720 A b` | 2021 | Radial Velocity | 19.466 | 3.77
+- **`GJ 724`**
+  - `GJ 724 b` | 2023 | Radial Velocity | 5.101284 | 3.27
+- **`GJ 740`**
+  - `GJ 740 b` | 2021 | Radial Velocity | 2.37756 | 1.53
+- **`GJ 806`**
+  - `GJ 806 b` | 2023 | Transit | 0.9263237 | 1.331
+  - `GJ 806 c` | 2023 | Radial Velocity | 6.64064 | 2.28
+- **`GJ 832`**
+  - `GJ 832 b` | 2008 | Radial Velocity | 3853 | 13.8
+- **`GJ 849`**
+  - `GJ 849 b` | 2006 | Radial Velocity | 1925.31 | 13.9
+  - `GJ 849 c` | 2014 | Radial Velocity | 5990 | 13.8
+- **`GJ 876`**
+  - `GJ 876 d` | 2005 | Radial Velocity | 1.93778 | 2.51
+  - `GJ 876 c` | 2000 | Radial Velocity | 30.0881 | 14
+  - `GJ 876 b` | 1998 | Radial Velocity | 61.1166 | 13.3
+  - `GJ 876 e` | 2010 | Radial Velocity | 124.26 | 3.92
+- **`GJ 887`**
+  - `GJ 887 e` | 2026 | Radial Velocity | 4.4249 | 1.12
+  - `GJ 887 b` | 2020 | Radial Velocity | 9.2619 | 1.8
+  - `GJ 887 c` | 2020 | Radial Velocity | 21.784 | 2.43
+  - `GJ 887 d` | 2026 | Radial Velocity | 50.77 | 2.34
+- **`GJ 896`**
+  - ดาวแม่ `GJ 896 A`
+    - `GJ 896 A b` | 2022 | Astrometry | 284.39 | 13.3
+- **`GJ 900`**
+  - ดาวแม่ `GJ 900 A`
+    - `GJ 900 b` | 2024 | Imaging | — | 12.4
+- **`GJ 1002`**
+  - `GJ 1002 b` | 2022 | Radial Velocity | 10.3465 | 1.03
+  - `GJ 1002 c` | 2022 | Radial Velocity | 21.202 | 1.1
+- **`GJ 1061`**
+  - `GJ 1061 b` | 2020 | Radial Velocity | 3.2073 | 1.04
+  - `GJ 1061 c` | 2020 | Radial Velocity | 6.6821 | 1.19
+  - `GJ 1061 d` | 2020 | Radial Velocity | 13.066 | 1.16
+- **`GJ 1132`**
+  - `GJ 1132 b` | 2015 | Transit | 1.62892911 | 1.19151465
+  - `GJ 1132 c` | 2018 | Radial Velocity | 8.929 | 1.52
+- **`GJ 1148`**
+  - `GJ 1148 b` | 2010 | Radial Velocity | 41.38 | 11.9
+  - `GJ 1148 c` | 2017 | Radial Velocity | 532.58 | 9.71
+- **`GJ 1151`**
+  - `GJ 1151 c` | 2023 | Radial Velocity | 389.7 | 3.25
+- **`GJ 1214`**
+  - `GJ 1214 b` | 2009 | Transit | 1.580404531 | 2.733
+- **`GJ 1252`**
+  - `GJ 1252 b` | 2020 | Transit | 0.518235 | 1.19
+- **`GJ 1265`**
+  - `GJ 1265 b` | 2018 | Radial Velocity | 3.6511 | 2.63
+- **`GJ 1289`**
+  - `GJ 1289 b` | 2024 | Radial Velocity | 111.74 | 2.38
+- **`GJ 2030`**
+  - `GJ 2030 b` | 2022 | Radial Velocity | 2.38129 | 2.03
+  - `GJ 2030 c` | 2022 | Radial Velocity | 25533.11353 | 12.3
+- **`GJ 2056`**
+  - `GJ 2056 b` | 2020 | Radial Velocity | 69.971 | 4.17
+- **`GJ 2126`**
+  - `GJ 2126 b` | 2025 | Radial Velocity | 272.7 | 13.6
+- **`GJ 3021`**
+  - `GJ 3021 b` | 2000 | Radial Velocity | 133.71 | 13.1
+- **`GJ 3082`**
+  - `GJ 3082 b` | 2020 | Radial Velocity | 11.949 | 2.79
+- **`GJ 3090`**
+  - `GJ 3090 b` | 2022 | Transit | 2.85310198 | 2.18
+  - `GJ 3090 c` | 2026 | Radial Velocity | 15.9407 | 3.14
+- **`GJ 3138`**
+  - `GJ 3138 b` | 2017 | Radial Velocity | 1.22003 | 1.18
+  - `GJ 3138 c` | 2017 | Radial Velocity | 5.974 | 1.88
+  - `GJ 3138 d` | 2017 | Radial Velocity | 257.8 | 3.23
+- **`GJ 3293`**
+  - `GJ 3293 e` | 2017 | Radial Velocity | 13.2543 | 1.63
+  - `GJ 3293 b` | 2015 | Radial Velocity | 30.5987 | 5.19
+  - `GJ 3293 d` | 2017 | Radial Velocity | 48.1345 | 2.67
+  - `GJ 3293 c` | 2015 | Radial Velocity | 122.6196 | 4.87
+- **`GJ 3323`**
+  - `GJ 3323 b` | 2017 | Radial Velocity | 5.3636 | 1.23
+  - `GJ 3323 c` | 2017 | Radial Velocity | 40.54 | 1.32
+- **`GJ 3341`**
+  - `GJ 3341 b` | 2015 | Radial Velocity | 14.207 | 2.46
+- **`GJ 3378`**
+  - `GJ 3378 b` | 2026 | Radial Velocity | 21.45 | 1.32
+- **`GJ 3470`**
+  - `GJ 3470 b` | 2012 | Radial Velocity | 3.3366496 | 4.57
+- **`GJ 3473`**
+  - `GJ 3473 b` | 2020 | Transit | 1.1980035 | 1.264
+  - `GJ 3473 c` | 2020 | Radial Velocity | 15.509 | 2.63
+- **`GJ 3512`**
+  - `GJ 3512 b` | 2019 | Radial Velocity | 203.109 | 14.3
+  - `GJ 3512 c` | 2020 | Radial Velocity | 2354 | 14.3
+- **`GJ 3634`**
+  - `GJ 3634 b` | 2010 | Radial Velocity | 2.64561 | 2.83
+- **`GJ 3779`**
+  - `GJ 3779 b` | 2018 | Radial Velocity | 3.0232 | 2.75
+- **`GJ 3929`**
+  - `GJ 3929 b` | 2022 | Transit | 2.616235 | 1.09
+  - `GJ 3929 c` | 2022 | Radial Velocity | 15.04 | 2.26
+- **`GJ 3942`**
+  - `GJ 3942 b` | 2017 | Radial Velocity | 6.905 | 2.57
+- **`GJ 3988`**
+  - `GJ 3988 b` | 2023 | Radial Velocity | 6.9442 | 1.74
+- **`GJ 3998`**
+  - `GJ 3998 b` | 2016 | Radial Velocity | 2.65033 | 1.39
+  - `GJ 3998 c` | 2016 | Radial Velocity | 13.727 | 2.5
+  - `GJ 3998 d` | 2025 | Radial Velocity | 41.78 | 2.34
+- **`GJ 4274`**
+  - `GJ 4274 b` | 2026 | Radial Velocity | 1.6339 | 1.53
+  - `GJ 4274 c` | 2026 | Radial Velocity | 69.57 | 2.83
+- **`GJ 4276`**
+  - `GJ 4276 b` | 2019 | Radial Velocity | 13.352 | 4.22
+- **`GJ 9066`**
+  - `GJ 9066 c` | 2020 | Radial Velocity | 771.36 | 9.6
+- **`GJ 9404`**
+  - `GJ 9404 b` | 2023 | Radial Velocity | 13.4586 | 3.48
+- **`GJ 9689`**
+  - `GJ 9689 b` | 2020 | Radial Velocity | 18.27 | 3.07
+- **`GJ 9773`**
+  - `GJ 9773 b` | 2025 | Radial Velocity | 2965 | 14.2
+- **`GJ 9827`**
+  - `GJ 9827 b` | 2017 | Transit | 1.208974 | 1.44
+  - `GJ 9827 c` | 2017 | Transit | 3.648103 | 1.13
+  - `GJ 9827 d` | 2017 | Transit | 6.20183 | 1.98
+- **`Gl 49`**
+  - `Gl 49 b` | 2019 | Radial Velocity | 13.8508 | 2.24
+- **`Gl 378`**
+  - `Gl 378 b` | 2019 | Radial Velocity | 3.822 | 3.66
+- **`Gl 410`**
+  - `Gl 410 b` | 2025 | Radial Velocity | 6.02 | 2.83
+- **`Gl 686`**
+  - `Gl 686 b` | 2018 | Radial Velocity | 15.53 | 2.46
+- **`Gl 725`**
+  - ดาวแม่ `Gl 725 A`
+    - `Gl 725 A b` | 2025 | Radial Velocity | 11.2201 | 1.48
+  - ดาวแม่ `Gl 725 B`
+    - `Gl 725 B c` | 2026 | Radial Velocity | 37.9 | 1.66
+- **`Gliese 12`**
+  - `Gliese 12 b` | 2024 | Transit | 12.761418 | 0.93
+- **`GPX-1`**
+  - `GPX-1 b` | 2021 | Transit | 1.744579 | 16.47720163
+- **`GQ Lup`**
+  - `GQ Lup b` | 2004 | Imaging | — | 33.6
+- **`GSC 06214-00210`**
+  - `GSC 06214-00210 b` | 2010 | Imaging | — | 20.1762
+- **`GU Psc`**
+  - `GU Psc b` | 2014 | Imaging | — | 14.179
+- **`HAT-P-1`**
+  - `HAT-P-1 b` | 2006 | Transit | 4.46529976 | 14.784671
+- **`HAT-P-2`**
+  - `HAT-P-2 b` | 2007 | Transit | 5.6335158 | 10.659759
+  - `HAT-P-2 c` | 2023 | Radial Velocity | 8500 | 12.4
+- **`HAT-P-3`**
+  - `HAT-P-3 b` | 2007 | Transit | 2.8997 | 10.53646
+- **`HAT-P-4`**
+  - `HAT-P-4 b` | 2007 | Transit | 3.056536 | 14.28
+- **`HAT-P-5`**
+  - `HAT-P-5 b` | 2007 | Transit | 2.78849 | 13.56289
+- **`HAT-P-6`**
+  - `HAT-P-6 b` | 2007 | Transit | 3.85298 | 16.58932
+- **`HAT-P-7`**
+  - `HAT-P-7 b` | 2008 | Transit | 2.20474 | 16.92559
+- **`HAT-P-8`**
+  - `HAT-P-8 b` | 2008 | Transit | 3.07634 | 15.6926
+- **`HAT-P-9`**
+  - `HAT-P-9 b` | 2008 | Transit | 3.92281072 | 15.614137
+- **`HAT-P-11`**
+  - `HAT-P-11 b` | 2010 | Transit | 4.888 | 4.36
+  - `HAT-P-11 c` | 2018 | Radial Velocity | 3361 | 13.2
+- **`HAT-P-12`**
+  - `HAT-P-12 b` | 2009 | Transit | 3.2130598 | 10.749
+- **`HAT-P-13`**
+  - `HAT-P-13 b` | 2009 | Transit | 2.91625 | 14.258
+  - `HAT-P-13 c` | 2009 | Radial Velocity | 446.27 | 12.3
+- **`HAT-P-14`**
+  - `HAT-P-14 b` | 2010 | Transit | 4.62767 | 15.91678
+- **`HAT-P-15`**
+  - `HAT-P-15 b` | 2010 | Transit | 10.8635 | 11.88154
+- **`HAT-P-16`**
+  - `HAT-P-16 b` | 2010 | Transit | 2.77596727 | 14.68376472
+- **`HAT-P-17`**
+  - `HAT-P-17 b` | 2012 | Transit | 10.33852 | 11.76945
+  - `HAT-P-17 c` | 2012 | Radial Velocity | 5584 | 13.1
+- **`HAT-P-18`**
+  - `HAT-P-18 b` | 2010 | Transit | 5.5080291 | 10.70457657
+- **`HAT-P-19`**
+  - `HAT-P-19 b` | 2010 | Transit | 4.00878322 | 11.29865255
+- **`HAT-P-20`**
+  - `HAT-P-20 b` | 2010 | Transit | 2.875317 | 9.718
+- **`HAT-P-21`**
+  - `HAT-P-21 b` | 2010 | Transit | 4.12448 | 12.44199
+- **`HAT-P-22`**
+  - `HAT-P-22 b` | 2010 | Transit | 3.21222 | 12.89035
+- **`HAT-P-23`**
+  - `HAT-P-23 b` | 2010 | Transit | 1.212884 | 15.334
+- **`HAT-P-24`**
+  - `HAT-P-24 b` | 2010 | Transit | 3.35524 | 14.5717
+- **`HAT-P-25`**
+  - `HAT-P-25 b` | 2012 | Transit | 3.65281514 | 12.722215
+- **`HAT-P-26`**
+  - `HAT-P-26 b` | 2010 | Transit | 4.23452 | 7.06167
+- **`HAT-P-27`**
+  - `HAT-P-27 b` | 2011 | Transit | 3.039577 | 11.43
+- **`HAT-P-28`**
+  - `HAT-P-28 b` | 2011 | Transit | 3.257215 | 13.585
+- **`HAT-P-29`**
+  - `HAT-P-29 b` | 2011 | Transit | 5.72319 | 13.11453
+- **`HAT-P-30`**
+  - `HAT-P-30 b` | 2011 | Transit | 2.8106 | 16.14096
+- **`HAT-P-31`**
+  - `HAT-P-31 b` | 2011 | Transit | 5.00542 | 12.21781
+- **`HAT-P-32`**
+  - `HAT-P-32 b` | 2011 | Transit | 2.1500082 | 22.19382
+- **`HAT-P-33`**
+  - `HAT-P-33 b` | 2011 | Transit | 3.47447 | 20.73665
+- **`HAT-P-34`**
+  - `HAT-P-34 b` | 2011 | Transit | 5.452654 | 13.417173
+- **`HAT-P-35`**
+  - `HAT-P-35 b` | 2011 | Transit | 3.646706 | 14.930388
+- **`HAT-P-36`**
+  - `HAT-P-36 b` | 2011 | Transit | 1.32734683 | 14.313893
+- **`HAT-P-37`**
+  - `HAT-P-37 b` | 2011 | Transit | 2.797436 | 13.204
+- **`HAT-P-38`**
+  - `HAT-P-38 b` | 2012 | Transit | 4.640382 | 9.247
+- **`HAT-P-39`**
+  - `HAT-P-39 b` | 2012 | Transit | 3.54387 | 17.609
+- **`HAT-P-40`**
+  - `HAT-P-40 b` | 2012 | Transit | 4.45724 | 17.03768
+- **`HAT-P-41`**
+  - `HAT-P-41 b` | 2012 | Transit | 2.69405 | 22.97845
+- **`HAT-P-42`**
+  - `HAT-P-42 b` | 2012 | Transit | 4.641878 | 14.348
+- **`HAT-P-43`**
+  - `HAT-P-43 b` | 2012 | Transit | 3.3326414 | 13.63
+- **`HAT-P-44`**
+  - `HAT-P-44 b` | 2014 | Transit | 4.301219 | 13.922
+  - `HAT-P-44 c` | 2014 | Radial Velocity | 872.2 | 13
+- **`HAT-P-45`**
+  - `HAT-P-45 b` | 2014 | Transit | 3.128992 | 15.984
+- **`HAT-P-46`**
+  - `HAT-P-46 b` | 2014 | Transit | 4.463129 | 14.392
+- **`HAT-P-47`**
+  - `HAT-P-47 b` | 2026 | Transit | 4.73217441 | 14.71739166
+- **`HAT-P-49`**
+  - `HAT-P-49 b` | 2014 | Transit | 2.69155 | 17.82231
+- **`HAT-P-50`**
+  - `HAT-P-50 b` | 2015 | Transit | 3.1220109 | 14.437192
+- **`HAT-P-51`**
+  - `HAT-P-51 b` | 2015 | Transit | 4.21802091 | 13.50682174
+- **`HAT-P-52`**
+  - `HAT-P-52 b` | 2015 | Transit | 2.7535953 | 11.309881
+- **`HAT-P-53`**
+  - `HAT-P-53 b` | 2015 | Transit | 1.9616241 | 14.773462
+- **`HAT-P-54`**
+  - `HAT-P-54 b` | 2015 | Transit | 3.799847 | 10.581296
+- **`HAT-P-55`**
+  - `HAT-P-55 b` | 2015 | Transit | 3.5852313 | 14.84069045
+- **`HAT-P-56`**
+  - `HAT-P-56 b` | 2015 | Transit | 2.79083 | 16.92559
+- **`HAT-P-57`**
+  - `HAT-P-57 b` | 2015 | Transit | 2.4653 | 19.50366
+- **`HAT-P-58`**
+  - `HAT-P-58 b` | 2021 | Transit | 4.0138379 | 14.93036229
+- **`HAT-P-59`**
+  - `HAT-P-59 b` | 2021 | Transit | 4.1419771 | 12.58768533
+- **`HAT-P-60`**
+  - `HAT-P-60 b` | 2021 | Transit | 4.7947813 | 18.28184752
+- **`HAT-P-61`**
+  - `HAT-P-61 b` | 2021 | Transit | 1.90231289 | 10.07687365
+- **`HAT-P-62`**
+  - `HAT-P-62 b` | 2021 | Transit | 2.6453235 | 12.02723629
+- **`HAT-P-63`**
+  - `HAT-P-63 b` | 2021 | Transit | 3.377728 | 12.5428494
+- **`HAT-P-64`**
+  - `HAT-P-64 b` | 2021 | Transit | 4.007232 | 19.08889413
+- **`HAT-P-65`**
+  - `HAT-P-65 b` | 2016 | Transit | 2.60544751 | 18.05766791
+- **`HAT-P-66`**
+  - `HAT-P-66 b` | 2016 | Transit | 2.972086 | 17.82231
+- **`HAT-P-67`**
+  - `HAT-P-67 b` | 2017 | Transit | 4.8101069 | 23.9872187
+- **`HAT-P-68`**
+  - `HAT-P-68 b` | 2020 | Transit | 2.29840551 | 12.016048
+- **`HAT-P-69`**
+  - `HAT-P-69 b` | 2019 | Transit | 4.7869491 | 18.786284
+- **`HAT-P-70`**
+  - `HAT-P-70 b` | 2019 | Transit | 2.74432452 | 20.96083
+- **`HATS-1`**
+  - `HATS-1 b` | 2012 | Transit | 3.446459 | 14.594
+- **`HATS-2`**
+  - `HATS-2 b` | 2013 | Transit | 1.35413379 | 12.57647635
+- **`HATS-3`**
+  - `HATS-3 b` | 2013 | Transit | 3.547851 | 15.48
+- **`HATS-4`**
+  - `HATS-4 b` | 2014 | Transit | 2.516729 | 11.433
+- **`HATS-5`**
+  - `HATS-5 b` | 2014 | Transit | 4.763387 | 10.223
+- **`HATS-6`**
+  - `HATS-6 b` | 2015 | Transit | 3.3252725 | 11.186582
+- **`HATS-7`**
+  - `HATS-7 b` | 2015 | Transit | 3.185315 | 6.310667
+- **`HATS-8`**
+  - `HATS-8 b` | 2015 | Transit | 3.583893 | 9.785457
+- **`HATS-9`**
+  - `HATS-9 b` | 2015 | Transit | 1.915291 | 13.85
+- **`HATS-10`**
+  - `HATS-10 b` | 2015 | Transit | 3.312846 | 10.861521
+- **`HATS-11`**
+  - `HATS-11 b` | 2016 | Transit | 3.619188 | 18.03
+- **`HATS-12`**
+  - `HATS-12 b` | 2016 | Transit | 3.142702 | 7.76
+- **`HATS-13`**
+  - `HATS-13 b` | 2015 | Transit | 3.0440499 | 13.585308
+
+</details>
+
+<a name="systems-03"></a>
+
+<details><summary>HATS-14 – HD 29021 · 180 ระบบ · 235 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`HATS-14`**
+  - `HATS-14 b` | 2015 | Transit | 2.7667641 | 11.646151
+- **`HATS-15`**
+  - `HATS-15 b` | 2016 | Transit | 1.74748753 | 12.385945
+- **`HATS-16`**
+  - `HATS-16 b` | 2016 | Transit | 2.686502 | 14.5717
+- **`HATS-17`**
+  - `HATS-17 b` | 2016 | Transit | 16.254611 | 8.709393
+- **`HATS-18`**
+  - `HATS-18 b` | 2016 | Transit | 0.83784 | 14.896761
+- **`HATS-22`**
+  - `HATS-22 b` | 2017 | Transit | 4.7228124 | 10.682177
+- **`HATS-23`**
+  - `HATS-23 b` | 2017 | Transit | 2.1605156 | 20.84874
+- **`HATS-24`**
+  - `HATS-24 b` | 2017 | Transit | 1.3484978 | 15.636555
+- **`HATS-25`**
+  - `HATS-25 b` | 2016 | Transit | 4.2986432 | 14.12334
+- **`HATS-26`**
+  - `HATS-26 b` | 2016 | Transit | 3.3023881 | 19.61575
+- **`HATS-27`**
+  - `HATS-27 b` | 2016 | Transit | 4.637038 | 16.8135
+- **`HATS-28`**
+  - `HATS-28 b` | 2016 | Transit | 3.1810781 | 13.383546
+- **`HATS-29`**
+  - `HATS-29 b` | 2016 | Transit | 4.6058749 | 14.022459
+- **`HATS-30`**
+  - `HATS-30 b` | 2016 | Transit | 3.1743516 | 13.170575
+- **`HATS-31`**
+  - `HATS-31 b` | 2016 | Transit | 3.37796 | 18.38276
+- **`HATS-32`**
+  - `HATS-32 b` | 2016 | Transit | 2.8126548 | 14.000041
+- **`HATS-33`**
+  - `HATS-33 b` | 2016 | Transit | 2.5495551 | 13.78707
+- **`HATS-34`**
+  - `HATS-34 b` | 2016 | Transit | 2.1061619 | 14.36991326
+- **`HATS-35`**
+  - `HATS-35 b` | 2016 | Transit | 1.8209993 | 16.409976
+- **`HATS-36`**
+  - `HATS-36 b` | 2018 | Transit | 4.175186 | 12.92
+- **`HATS-37`**
+  - ดาวแม่ `HATS-37 A`
+    - `HATS-37 A b` | 2020 | Transit | 4.3315366 | 6.792654
+- **`HATS-38`**
+  - `HATS-38 b` | 2020 | Transit | 4.375021 | 6.882326
+- **`HATS-39`**
+  - `HATS-39 b` | 2018 | Transit | 4.5776348 | 17.59813
+- **`HATS-40`**
+  - `HATS-40 b` | 2018 | Transit | 3.2642736 | 17.71022
+- **`HATS-41`**
+  - `HATS-41 b` | 2018 | Transit | 4.193649 | 14.90797
+- **`HATS-42`**
+  - `HATS-42 b` | 2018 | Transit | 2.292102 | 15.6926
+- **`HATS-43`**
+  - `HATS-43 b` | 2018 | Transit | 4.3888497 | 13.22662
+- **`HATS-44`**
+  - `HATS-44 b` | 2018 | Transit | 2.7439004 | 11.960003
+- **`HATS-45`**
+  - `HATS-45 b` | 2018 | Transit | 4.1876244 | 14.414774
+- **`HATS-46`**
+  - `HATS-46 b` | 2018 | Transit | 4.7423749 | 10.65974065
+- **`HATS-47`**
+  - `HATS-47 b` | 2020 | Transit | 3.9228038 | 12.520453
+- **`HATS-48`**
+  - ดาวแม่ `HATS-48 A`
+    - `HATS-48 A b` | 2020 | Transit | 3.1316666 | 8.9672
+- **`HATS-49`**
+  - `HATS-49 b` | 2020 | Transit | 4.1480467 | 8.574885
+- **`HATS-50`**
+  - `HATS-50 b` | 2017 | Transit | 3.8297015 | 12.66617
+- **`HATS-51`**
+  - `HATS-51 b` | 2017 | Transit | 3.3488702 | 15.80469
+- **`HATS-52`**
+  - `HATS-52 b` | 2017 | Transit | 1.36665436 | 15.490838
+- **`HATS-53`**
+  - `HATS-53 b` | 2017 | Transit | 3.8537768 | 15.02006
+- **`HATS-54`**
+  - `HATS-54 b` | 2019 | Transit | 2.5441765 | 11.37711541
+- **`HATS-55`**
+  - `HATS-55 b` | 2019 | Transit | 4.2042001 | 14.022459
+- **`HATS-56`**
+  - `HATS-56 b` | 2019 | Transit | 4.324799 | 18.920792
+- **`HATS-57`**
+  - `HATS-57 b` | 2019 | Transit | 2.350621 | 12.767051
+- **`HATS-58`**
+  - ดาวแม่ `HATS-58 A`
+    - `HATS-58 A b` | 2019 | Transit | 4.2180896 | 12.273855
+- **`HATS-59`**
+  - `HATS-59 b` | 2018 | Transit | 5.416081 | 12.621334
+  - `HATS-59 c` | 2018 | Radial Velocity | 1422 | 12.3
+- **`HATS-60`**
+  - `HATS-60 b` | 2018 | Transit | 3.560829 | 12.923977
+- **`HATS-61`**
+  - `HATS-61 b` | 2018 | Transit | 7.817953 | 13.394755
+- **`HATS-62`**
+  - `HATS-62 b` | 2018 | Transit | 3.2768837 | 11.825495
+- **`HATS-63`**
+  - `HATS-63 b` | 2018 | Transit | 3.0566527 | 13.529263
+- **`HATS-64`**
+  - `HATS-64 b` | 2018 | Transit | 4.908897 | 18.819911
+- **`HATS-65`**
+  - `HATS-65 b` | 2018 | Transit | 3.105161 | 16.824709
+- **`HATS-66`**
+  - `HATS-66 b` | 2018 | Transit | 3.1414391 | 15.815899
+- **`HATS-67`**
+  - `HATS-67 b` | 2018 | Transit | 1.6091788 | 18.887165
+- **`HATS-68`**
+  - `HATS-68 b` | 2018 | Transit | 3.5862202 | 13.809488
+- **`HATS-69`**
+  - `HATS-69 b` | 2018 | Transit | 2.2252577 | 10.592505
+- **`HATS-70`**
+  - `HATS-70 b` | 2019 | Transit | 1.8882378 | 15.513256
+- **`HATS-71`**
+  - `HATS-71 b` | 2020 | Transit | 3.7955202 | 11.478016
+- **`HATS-72`**
+  - `HATS-72 b` | 2020 | Transit | 7.3279474 | 8.0973816
+- **`HATS-74`**
+  - ดาวแม่ `HATS-74 A`
+    - `HATS-74 A b` | 2021 | Transit | 1.73185606 | 11.56766808
+- **`HATS-75`**
+  - `HATS-75 b` | 2021 | Transit | 2.7886556 | 9.90873894
+- **`HATS-76`**
+  - `HATS-76 b` | 2021 | Transit | 1.9416423 | 12.09449018
+- **`HATS-77`**
+  - `HATS-77 b` | 2021 | Transit | 3.0876262 | 13.05846252
+- **`HD 142`**
+  - `HD 142 A d` | 2022 | Radial Velocity | 108.45299 | 10.9
+  - `HD 142 b` | 2001 | Radial Velocity | 351.43394 | 12.7
+  - `HD 142 c` | 2012 | Radial Velocity | 10159.64279 | 12.4
+- **`HD 360`**
+  - `HD 360 b` | 2021 | Radial Velocity | 273.1 | 14
+- **`HD 457`**
+  - `HD 457 b` | 2022 | Radial Velocity | 20324.58153 | 11.9
+- **`HD 564`**
+  - `HD 564 b` | 2014 | Radial Velocity | 492.3 | 12.5
+- **`HD 715`**
+  - `HD 715 b` | 2026 | Transit | 56.222 | 11.61250401
+- **`HD 1397`**
+  - `HD 1397 b` | 2018 | Transit | 11.53533 | 11.500434
+- **`HD 1461`**
+  - `HD 1461 b` | 2010 | Radial Velocity | 5.77152 | 2.42
+  - `HD 1461 c` | 2015 | Radial Velocity | 13.5052 | 2.23
+- **`HD 1502`**
+  - `HD 1502 b` | 2011 | Radial Velocity | 428.5 | 13.2
+- **`HD 1605`**
+  - `HD 1605 b` | 2015 | Radial Velocity | 577.2 | 13.8
+  - `HD 1605 c` | 2015 | Radial Velocity | 2149 | 13
+- **`HD 1666`**
+  - `HD 1666 b` | 2015 | Radial Velocity | 270 | 12.7
+- **`HD 1690`**
+  - `HD 1690 b` | 2010 | Radial Velocity | 533 | 12.5
+- **`HD 2039`**
+  - `HD 2039 b` | 2002 | Radial Velocity | 1120 | 12.7
+- **`HD 2638`**
+  - `HD 2638 b` | 2005 | Radial Velocity | 3.4442 | 14.3
+- **`HD 2685`**
+  - `HD 2685 b` | 2019 | Transit | 4.12688 | 16.14096
+- **`HD 2952`**
+  - `HD 2952 b` | 2013 | Radial Velocity | 312.08 | 13.9
+- **`HD 3167`**
+  - `HD 3167 b` | 2016 | Transit | 0.95965451 | 1.601
+  - `HD 3167 d` | 2017 | Radial Velocity | 8.3967 | 2.61
+  - `HD 3167 c` | 2016 | Transit | 29.846511 | 2.983
+  - `HD 3167 e` | 2022 | Radial Velocity | 91.9 | 3.97
+- **`HD 3651`**
+  - `HD 3651 b` | 2003 | Radial Velocity | 62.25 | 10.1
+- **`HD 3765`**
+  - `HD 3765 b` | 2021 | Radial Velocity | 1211 | 8.56
+- **`HD 4113`**
+  - `HD 4113 b` | 2007 | Radial Velocity | 526.5239 | 13.5
+- **`HD 4203`**
+  - `HD 4203 b` | 2001 | Radial Velocity | 431.88 | 13.3
+  - `HD 4203 c` | 2014 | Radial Velocity | 6700 | 13.3
+- **`HD 4208`**
+  - `HD 4208 b` | 2001 | Radial Velocity | 832.97 | 13.9
+- **`HD 4308`**
+  - `HD 4308 b` | 2005 | Radial Velocity | 15.56 | 4.12
+- **`HD 4313`**
+  - `HD 4313 b` | 2009 | Radial Velocity | 356.21 | 13.4
+- **`HD 4732`**
+  - `HD 4732 b` | 2012 | Radial Velocity | 371.74 | 13.4
+  - `HD 4732 c` | 2012 | Radial Velocity | 3184.2 | 13.1
+- **`HD 4760`**
+  - `HD 4760 b` | 2021 | Radial Velocity | 434 | 12.3
+- **`HD 4917`**
+  - `HD 4917 b` | 2018 | Radial Velocity | 400.5 | 13.5
+- **`HD 5278`**
+  - `HD 5278 b` | 2021 | Transit | 14.339156 | 2.45
+  - `HD 5278 c` | 2021 | Radial Velocity | 40.87 | 4.49
+- **`HD 5319`**
+  - `HD 5319 b` | 2007 | Radial Velocity | 637.1 | 13.5
+  - `HD 5319 c` | 2014 | Radial Velocity | 872.2 | 13.8
+- **`HD 5388`**
+  - `HD 5388 b` † | 2010 | Radial Velocity | 772.5 | 13.1
+- **`HD 5583`**
+  - `HD 5583 b` | 2016 | Radial Velocity | 139.35 | 12.8
+- **`HD 5608`**
+  - `HD 5608 b` | 2012 | Radial Velocity | 768.7 | 13.7
+- **`HD 5891`**
+  - `HD 5891 b` | 2011 | Radial Velocity | 177.11 | 12.6
+- **`HD 6061`**
+  - `HD 6061 b` | 2023 | Transit | 5.2549 | 2.42763557
+- **`HD 6434`**
+  - `HD 6434 b` | 2003 | Radial Velocity | 21.998 | 14.2
+- **`HD 6718`**
+  - `HD 6718 b` † | 2009 | Radial Velocity | 2476 | 13.3
+- **`HD 6860`**
+  - `HD 6860 b` | 2023 | Radial Velocity | 663.87 | 11.9
+- **`HD 7199`**
+  - `HD 7199 b` | 2011 | Radial Velocity | 615 | —
+- **`HD 7449`**
+  - `HD 7449 b` | 2011 | Radial Velocity | 1270.55195 | 12.6
+- **`HD 7924`**
+  - `HD 7924 b` | 2008 | Radial Velocity | 5.39792 | —
+  - `HD 7924 c` | 2015 | Radial Velocity | 15.299 | —
+  - `HD 7924 d` | 2015 | Radial Velocity | 24.451 | —
+- **`HD 8326`**
+  - `HD 8326 b` | 2019 | Radial Velocity | 158.991 | 9.58
+- **`HD 8535`**
+  - `HD 8535 b` | 2010 | Radial Velocity | 1313 | 14
+- **`HD 8574`**
+  - `HD 8574 b` | 2002 | Radial Velocity | 227 | 13.4
+- **`HD 8673`**
+  - `HD 8673 b` | 2009 | Radial Velocity | 1644.69097 | 12.3
+- **`HD 9174`**
+  - `HD 9174 b` | 2016 | Radial Velocity | 1179 | 13.7
+- **`HD 9446`**
+  - `HD 9446 b` | 2009 | Radial Velocity | 30.052 | 14
+  - `HD 9446 c` | 2009 | Radial Velocity | 192.9 | 13.4
+- **`HD 10180`**
+  - `HD 10180 c` | 2010 | Radial Velocity | 5.75969 | —
+  - `HD 10180 d` | 2010 | Radial Velocity | 16.357 | —
+  - `HD 10180 e` | 2010 | Radial Velocity | 49.748 | 5.39
+  - `HD 10180 f` | 2010 | Radial Velocity | 122.744 | 5.24
+  - `HD 10180 g` | 2010 | Radial Velocity | 604.67 | —
+  - `HD 10180 h` | 2010 | Radial Velocity | 2205 | 9.4
+- **`HD 10442`**
+  - `HD 10442 b` | 2014 | Radial Velocity | 1032.3 | 13.6
+- **`HD 10647`**
+  - `HD 10647 b` | 2006 | Radial Velocity | 989.2 | 13.8
+- **`HD 10697`**
+  - `HD 10697 b` | 1999 | Radial Velocity | 1075.3799 | 12.8
+- **`HD 10975`**
+  - `HD 10975 b` | 2021 | Radial Velocity | 283.8 | 14.3
+- **`HD 11112`**
+  - `HD 11112 b` | 2022 | Radial Velocity | 17244.90764 | 12.6
+- **`HD 11505`**
+  - `HD 11505 b` | 2022 | Radial Velocity | 32669.22247 | 12.6
+- **`HD 11506`**
+  - `HD 11506 c` | 2008 | Radial Velocity | 223.92 | 14
+  - `HD 11506 b` | 2007 | Radial Velocity | 1617.7 | 12.9
+  - `HD 11506 d` | 2022 | Radial Velocity | 26500 | 12.3
+- **`HD 11755`**
+  - `HD 11755 b` | 2015 | Radial Velocity | 433.70001 | 12.8
+- **`HD 11964`**
+  - `HD 11964 c` | 2008 | Radial Velocity | 37.91 | 5.38
+  - `HD 11964 b` | 2005 | Radial Velocity | 1945 | 14.1
+- **`HD 11977`**
+  - `HD 11977 b` | 2005 | Radial Velocity | 711 | 12.7
+- **`HD 12235`**
+  - `HD 12235 b` | 2022 | Radial Velocity | 4.36305 | 3.23
+  - `HD 12235 c` | 2022 | Radial Velocity | 36336.70679 | 12.5
+- **`HD 12484`**
+  - `HD 12484 b` | 2016 | Radial Velocity | 58.83 | 13.2
+- **`HD 12648`**
+  - `HD 12648 b` | 2015 | Radial Velocity | 133.60001 | 13.4
+- **`HD 12661`**
+  - `HD 12661 b` | 2000 | Radial Velocity | 262.70862 | 13.3
+  - `HD 12661 c` | 2002 | Radial Velocity | 1708 | 13.2
+- **`HD 13167`**
+  - `HD 13167 b` | 2018 | Radial Velocity | 2613 | 13.1
+- **`HD 13189`**
+  - `HD 13189 b` | 2005 | Radial Velocity | 471.60001 | 12.4
+- **`HD 13724`**
+  - `HD 13724 c` | 2022 | Radial Velocity | 142.22895 | 8.18
+- **`HD 13808`**
+  - `HD 13808 b` | 2021 | Radial Velocity | 14.1815 | 3.35
+  - `HD 13808 c` | 2021 | Radial Velocity | 53.753 | 3.13
+- **`HD 13908`**
+  - `HD 13908 b` | 2013 | Radial Velocity | 19.382 | 13.9
+  - `HD 13908 c` | 2013 | Radial Velocity | 931 | 12.8
+- **`HD 13931`**
+  - `HD 13931 b` | 2009 | Radial Velocity | 4218 | 13.2
+- **`HD 14067`**
+  - `HD 14067 b` | 2014 | Radial Velocity | 2744 | 12.2
+- **`HD 14787`**
+  - `HD 14787 b` | 2018 | Radial Velocity | 676.6 | 13.7
+- **`HD 15337`**
+  - `HD 15337 b` | 2019 | Transit | 4.7559804 | 1.77
+  - `HD 15337 c` | 2019 | Transit | 17.180546 | 2.526
+- **`HD 15906`**
+  - `HD 15906 b` | 2023 | Transit | 10.924709 | 2.24
+  - `HD 15906 c` | 2023 | Transit | 21.583298 | 2.93
+- **`HD 16141`**
+  - `HD 16141 b` | 2000 | Radial Velocity | 75.523 | 10.9
+- **`HD 16175`**
+  - `HD 16175 b` | 2009 | Radial Velocity | 990 | 12.8
+- **`HD 16417`**
+  - `HD 16417 b` | 2008 | Radial Velocity | 17.24 | 5
+- **`HD 16760`**
+  - `HD 16760 b` † | 2009 | Radial Velocity | 466.08 | 12.1
+- **`HD 16905`**
+  - `HD 16905 b` | 2022 | Radial Velocity | 10256 | 12.4
+- **`HD 17092`**
+  - `HD 17092 b` | 2007 | Radial Velocity | 359.89999 | 12.5
+- **`HD 17156`**
+  - `HD 17156 b` | 2007 | Radial Velocity | 21.2164294 | 12.26262489
+- **`HD 17674`**
+  - `HD 17674 b` | 2017 | Radial Velocity | 623.8 | 13.9
+- **`HD 18015`**
+  - `HD 18015 b` | 2018 | Radial Velocity | 2278 | 13.1
+- **`HD 18438`**
+  - `HD 18438 b` | 2023 | Radial Velocity | 803 | 12.1
+- **`HD 18599`**
+  - `HD 18599 b` | 2022 | Transit | 4.1374354 | 2.6
+- **`HD 18742`**
+  - `HD 18742 b` | 2011 | Radial Velocity | 766 | 13.1
+- **`HD 19615`**
+  - `HD 19615 b` | 2022 | Radial Velocity | 402 | 12.6
+- **`HD 19994`**
+  - `HD 19994 b` | 2003 | Radial Velocity | 466.2 | 13.6
+- **`HD 20003`**
+  - `HD 20003 b` | 2019 | Radial Velocity | 11.8482 | 3.43
+  - `HD 20003 c` | 2019 | Radial Velocity | 33.9239 | 3.89
+- **`HD 20329`**
+  - `HD 20329 b` | 2022 | Transit | 0.926118 | 1.72
+- **`HD 20782`**
+  - ดาวแม่ `HD 20781`
+    - `HD 20781 b` | 2019 | Radial Velocity | 5.3135 | 1.21
+    - `HD 20781 c` | 2019 | Radial Velocity | 13.8905 | 2.17
+    - `HD 20781 d` | 2019 | Radial Velocity | 29.158 | 3.25
+    - `HD 20781 e` | 2019 | Radial Velocity | 85.5073 | 3.83
+  - ดาวแม่ `HD 20782`
+    - `HD 20782 b` | 2006 | Radial Velocity | 597.0643 | 13.6
+- **`HD 20794`**
+  - `HD 20794 b` | 2011 | Radial Velocity | 18.314 | 1.45
+  - `HD 20794 d` | 2011 | Radial Velocity | 89.68 | 2.04
+  - `HD 20794 e` † | 2017 | Radial Velocity | 147.02 | 2.03
+  - `HD 20794 f` | 2025 | Radial Velocity | 647.6 | 2.28
+- **`HD 20868`**
+  - `HD 20868 b` | 2008 | Radial Velocity | 380.85001 | 13.7
+- **`HD 21411`**
+  - `HD 21411 b` | 2019 | Radial Velocity | 84.288 | 9.52
+- **`HD 21520`**
+  - `HD 21520 b` | 2024 | Transit | 25.1292 | 2.697
+- **`HD 21693`**
+  - `HD 21693 b` | 2019 | Radial Velocity | 22.6786 | 2.8
+  - `HD 21693 c` | 2019 | Radial Velocity | 53.7357 | 4.34
+- **`HD 22496`**
+  - `HD 22496 b` | 2021 | Radial Velocity | 5.09071 | 2.22
+- **`HD 22532`**
+  - `HD 22532 b` | 2022 | Radial Velocity | 872.6 | 13.4
+- **`HD 22781`**
+  - `HD 22781 b` | 2011 | Radial Velocity | 528.07 | 12.3
+- **`HD 22946`**
+  - `TOI-411 b` | 2022 | Transit | 4.040295 | 1.362
+  - `TOI-411 c` | 2022 | Transit | 9.573083 | 2.328
+  - `HD 22946 d` | 2023 | Transit | 47.42489 | 2.607
+- **`HD 23079`**
+  - `HD 23079 c` | 2025 | Radial Velocity | 5.748913 | 2.8
+  - `HD 23079 b` | 2001 | Radial Velocity | 735.74 | 13.2
+- **`HD 23127`**
+  - `HD 23127 b` | 2006 | Radial Velocity | 1211.17 | 13.5
+- **`HD 23472`**
+  - `HD 23472 d` | 2022 | Transit | 3.97664 | 0.75
+  - `HD 23472 e` | 2022 | Transit | 7.90754 | 0.818
+  - `HD 23472 f` | 2022 | Transit | 12.1621839 | 1.137
+  - `HD 23472 b` | 2019 | Transit | 17.667087 | 2
+  - `HD 23472 c` | 2019 | Transit | 29.79749 | 1.87
+- **`HD 23596`**
+  - `HD 23596 b` | 2003 | Radial Velocity | 1535.11912 | 12.4
+- **`HD 24040`**
+  - `HD 24040 c` | 2021 | Radial Velocity | 515.4 | 9.35
+  - `HD 24040 b` | 2006 | Radial Velocity | 3668 | 12.9
+- **`HD 24064`**
+  - `HD 24064 b` | 2015 | Radial Velocity | 535.59998 | 12.3
+- **`HD 24085`**
+  - `HD 24085 b` | 2019 | Radial Velocity | 2.0455 | 3.46
+- **`HD 25015`**
+  - `HD 25015 b` | 2019 | Radial Velocity | 6134.427 | 12.5
+- **`HD 25171`**
+  - `HD 25171 b` | 2010 | Radial Velocity | 1802.29 | 13.9
+- **`HD 25463`**
+  - `HD 25463 c` | 2023 | Transit | 3.04405 | 1.36354953
+  - `HD 25463 b` | 2023 | Transit | 7.0491423 | 2.54535814
+- **`HD 25723`**
+  - `HD 25723 b` | 2020 | Radial Velocity | 457.01 | 13.3
+- **`HD 25912`**
+  - `HD 25912 b` | 2022 | Radial Velocity | 41.83156 | 6.9
+  - `HD 25912 c` | 2022 | Radial Velocity | 26308.65619 | 12.2
+- **`HD 26161`**
+  - `HD 26161 b` | 2021 | Radial Velocity | 10942.29013 | 11.9
+- **`HD 27442`**
+  - `HD 27442 b` | 2000 | Radial Velocity | 428.1 | 13.5
+- **`HD 27631`**
+  - `HD 27631 b` | 2012 | Radial Velocity | 2198.14 | 13.5
+- **`HD 27894`**
+  - `HD 27894 b` | 2005 | Radial Velocity | 18.01939 | 14.1
+  - `HD 27894 c` | 2017 | Radial Velocity | 36.07 | 8.24
+  - `HD 27894 d` | 2017 | Radial Velocity | 5019.54244 | 12.7
+- **`HD 27969`**
+  - `HD 27969 b` | 2021 | Radial Velocity | 654.5 | 12.9
+- **`HD 28109`**
+  - `HD 28109 b` | 2022 | Transit | 22.891054 | 2.69
+  - `HD 28109 c` | 2022 | Transit | 55.99712 | 4.13
+  - `HD 28109 d` | 2022 | Transit | 84.2899 | 3.11
+- **`HD 28185`**
+  - `HD 28185 b` | 2001 | Radial Velocity | 385.92 | 12.8
+  - `HD 28185 c` | 2022 | Radial Velocity | 9090 | 12.8
+- **`HD 28192`**
+  - `HD 28192 b` | 2022 | Radial Velocity | 14.23283 | 12.2
+- **`HD 28254`**
+  - `HD 28254 b` | 2010 | Radial Velocity | 1333 | 13
+- **`HD 28471`**
+  - `HD 28471 b` | 2025 | Radial Velocity | 3.1649 | 1.75
+  - `HD 28471 c` | 2025 | Radial Velocity | 6.1245 | 2.26
+  - `HD 28471 d` | 2025 | Radial Velocity | 11.681 | 2.06
+- **`HD 28678`**
+  - `HD 28678 b` | 2011 | Radial Velocity | 380.2 | 13.5
+- **`HD 29021`**
+  - `HD 29021 b` | 2017 | Radial Velocity | 1365 | 12.9
+
+</details>
+
+<a name="systems-04"></a>
+
+<details><summary>HD 29399 – HD 106315 · 180 ระบบ · 261 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`HD 29399`**
+  - `HD 29399 b` | 2022 | Radial Velocity | 892.7 | 13.5
+- **`HD 29985`**
+  - `HD 29985 b` | 2022 | Radial Velocity | 20608.14049 | 12.8
+- **`HD 30177`**
+  - `HD 30177 b` | 2002 | Radial Velocity | 2539 | 12.6
+  - `HD 30177 c` | 2016 | Radial Velocity | 11320 | 12.9
+- **`HD 30562`**
+  - `HD 30562 b` | 2009 | Radial Velocity | 1157 | 13.6
+- **`HD 30669`**
+  - `HD 30669 b` | 2014 | Radial Velocity | 1684 | 14.3
+- **`HD 30856`**
+  - `HD 30856 b` | 2011 | Radial Velocity | 847 | 13.5
+- **`HD 31253`**
+  - `HD 31253 b` | 2010 | Radial Velocity | 466 | 14.1
+- **`HD 31527`**
+  - `HD 31527 b` | 2019 | Radial Velocity | 16.5535 | 3.22
+  - `HD 31527 c` | 2019 | Radial Velocity | 51.2053 | 3.85
+  - `HD 31527 d` | 2019 | Radial Velocity | 271.6737 | 3.46
+- **`HD 32518`**
+  - `HD 32518 b` | 2009 | Radial Velocity | 157.35 | 13.2
+- **`HD 32963`**
+  - `HD 32963 b` | 2015 | Radial Velocity | 2372 | 13.4
+- **`HD 33142`**
+  - `HD 33142 d` | 2022 | Radial Velocity | 89.9 | 9.32
+  - `HD 33142 b` | 2011 | Radial Velocity | 330 | 13.7
+  - `HD 33142 c` | 2016 | Radial Velocity | 810.2 | 13.9
+- **`HD 33283`**
+  - `HD 33283 b` | 2006 | Radial Velocity | 18.1991 | 12.5
+- **`HD 33564`**
+  - `HD 33564 b` | 2005 | Radial Velocity | 388 | 12.5
+- **`HD 33844`**
+  - `HD 33844 b` | 2015 | Radial Velocity | 551.40002 | 13.4
+  - `HD 33844 c` † | 2015 | Radial Velocity | 916 | 13.5
+- **`HD 34445`**
+  - `HD 34445 e` | 2017 | Radial Velocity | 49.175 | 4.26
+  - `HD 34445 d` | 2017 | Radial Velocity | 117.87 | 6.07
+  - `HD 34445 c` | 2017 | Radial Velocity | 214.67 | 8.42
+  - `HD 34445 f` | 2017 | Radial Velocity | 676.8 | 6.88
+  - `HD 34445 b` | 2009 | Radial Velocity | 1049 | 13.9
+  - `HD 34445 g` | 2017 | Radial Velocity | 5700 | 13.6
+- **`HD 35759`**
+  - `HD 35759 b` | 2016 | Radial Velocity | 82.467 | 13
+- **`HD 35843`**
+  - `HD 35843 b` | 2025 | Radial Velocity | 9.8991 | 2.29
+  - `HD 35843 c` | 2025 | Transit | 46.9622 | 2.54
+- **`HD 36384`**
+  - `HD 36384 b` | 2023 | Radial Velocity | 490 | 12.7
+- **`HD 37124`**
+  - `HD 37124 b` | 2002 | Radial Velocity | 154.378 | 14
+  - `HD 37124 c` | 2002 | Radial Velocity | 885.5 | 14.1
+  - `HD 37124 d` | 2005 | Radial Velocity | 1862 | 14
+- **`HD 37605`**
+  - `HD 37605 b` | 2004 | Radial Velocity | 55.01292 | 13.2
+  - `HD 37605 c` | 2012 | Radial Velocity | 2720 | 13.1
+- **`HD 38283`**
+  - `HD 38283 b` | 2010 | Radial Velocity | 363.20001 | 14
+- **`HD 38529`**
+  - `HD 38529 b` | 2000 | Radial Velocity | 14.3099 | 14.1
+  - `HD 38529 c` | 2000 | Radial Velocity | 2127.60566 | 12.5
+- **`HD 38801`**
+  - `HD 38801 b` | 2009 | Radial Velocity | 685.25 | 12.5
+- **`HD 39091`**
+  - `pi Men c` | 2018 | Transit | 6.267823 | 2.10728837
+  - `pi Men d` | 2022 | Radial Velocity | 123.1 | 3.72
+  - `HD 39091 b` | 2001 | Radial Velocity | 2088.7 | 12.4
+- **`HD 39194`**
+  - `HD 39194 b` | 2021 | Radial Velocity | 5.63692 | 1.99
+  - `HD 39194 c` | 2021 | Radial Velocity | 14.0309 | 2.65
+  - `HD 39194 d` | 2021 | Radial Velocity | 33.874 | 2.12
+- **`HD 39855`**
+  - `HD 39855 b` | 2019 | Radial Velocity | 3.2498 | 2.85
+- **`HD 40307`**
+  - `HD 40307 b` | 2009 | Radial Velocity | 4.3123 | —
+  - `HD 40307 c` | 2009 | Radial Velocity | 9.6184 | —
+  - `HD 40307 d` | 2009 | Radial Velocity | 20.432 | —
+  - `HD 40307 f` | 2013 | Radial Velocity | 51.76 | 2.13
+  - `HD 40307 g` † | 2013 | Radial Velocity | 197.8 | 2.56
+- **`HD 40956`**
+  - `HD 40956 b` | 2017 | Radial Velocity | 578.6 | 13.2
+- **`HD 40979`**
+  - `HD 40979 b` | 2002 | Radial Velocity | 264.14999 | 12.9
+- **`HD 41004`**
+  - ดาวแม่ `HD 41004 A`
+    - `HD 41004 A b` | 2004 | Radial Velocity | 963 | 13.2
+  - ดาวแม่ `HD 41004 B`
+    - `HD 41004 B b` | 2003 | Radial Velocity | 1.3283 | 12.1
+- **`HD 42012`**
+  - `HD 42012 b` | 2017 | Radial Velocity | 857.5 | 13.5
+- **`HD 42618`**
+  - `HD 42618 b` | 2016 | Radial Velocity | 149.61 | 3.89
+- **`HD 43197`**
+  - `HD 43197 b` | 2010 | Radial Velocity | 308.92072 | 14.2
+  - `HD 43197 c` | 2022 | Radial Velocity | 9295.9735 | 12.6
+- **`HD 43691`**
+  - `HD 43691 b` | 2007 | Radial Velocity | 36.9987 | 13.2
+- **`HD 44219`**
+  - `HD 44219 b` | 2010 | Radial Velocity | 472 | 14.1
+- **`HD 45184`**
+  - `HD 45184 b` | 2019 | Radial Velocity | 5.8854 | 3.52
+  - `HD 45184 c` | 2019 | Radial Velocity | 13.1354 | 2.91
+- **`HD 45350`**
+  - `HD 45350 b` | 2004 | Radial Velocity | 963.6 | 13.5
+- **`HD 45364`**
+  - `HD 45364 b` | 2008 | Radial Velocity | 225.79 | 9.03
+  - `HD 45364 c` | 2008 | Radial Velocity | 345.43 | 14.2
+- **`HD 45652`**
+  - `HD 45652 b` | 2008 | Radial Velocity | 44.073 | 14.3
+- **`HD 46375`**
+  - `HD 46375 b` | 2000 | Radial Velocity | 3.023573 | 10
+- **`HD 47186`**
+  - `HD 47186 b` | 2008 | Radial Velocity | 4.0845 | 5.02
+  - `HD 47186 c` | 2008 | Radial Velocity | 1353.6 | 13
+- **`HD 47366`**
+  - `HD 47366 b` | 2016 | Radial Velocity | 360.08 | 13.4
+  - `HD 47366 c` | 2016 | Radial Velocity | 677.53 | 13.5
+- **`HD 47536`**
+  - `HD 47536 b` | 2002 | Radial Velocity | 712.13 | 12.6
+- **`HD 48265`**
+  - `HD 48265 b` | 2008 | Radial Velocity | 778.51 | 12.6
+  - `HD 48265 c` | 2026 | Radial Velocity | 10418 | 12.9
+- **`HD 48948`**
+  - `HD 48948 b` | 2024 | Radial Velocity | 7.34013 | 2.19
+  - `HD 48948 c` | 2024 | Radial Velocity | 38.06 | 2.4
+  - `HD 48948 d` | 2024 | Radial Velocity | 151.92 | 3.15
+- **`HD 49674`**
+  - `HD 49674 b` | 2002 | Radial Velocity | 4.94737 | 6.2
+- **`HD 50499`**
+  - `HD 50499 b` | 2005 | Radial Velocity | 2447.1 | 13.5
+  - `HD 50499 c` | 2019 | Radial Velocity | 8619.9 | 13.2
+- **`HD 50554`**
+  - `HD 50554 c` | 2026 | Transit | 5.969362 | 1.31
+  - `HD 50554 d` | 2026 | Transit | 28.0694 | 1.41
+  - `HD 50554 b` | 2002 | Radial Velocity | 1240 | 12.8
+- **`HD 51608`**
+  - `HD 51608 b` | 2019 | Radial Velocity | 14.0726 | 3.62
+  - `HD 51608 c` | 2019 | Radial Velocity | 95.9446 | 3.87
+- **`HD 52265`**
+  - `HD 52265 b` | 2000 | Radial Velocity | 119.27 | 13.7
+- **`HD 55696`**
+  - `HD 55696 b` | 2018 | Radial Velocity | 1827 | 12.9
+- **`HD 56414`**
+  - `HD 56414 b` | 2022 | Transit | 29.04992 | 3.71
+- **`HD 56957`**
+  - `HD 56957 b` | 2022 | Radial Velocity | 5859.08992 | 12.8
+- **`HD 59686`**
+  - ดาวแม่ `HD 59686 A`
+    - `HD 59686 A b` | 2016 | Radial Velocity | 299.36 | 12.7
+- **`HD 60292`**
+  - `HD 60292 b` | 2020 | Radial Velocity | 495.4 | 12.7
+- **`HD 60532`**
+  - `HD 60532 b` | 2008 | Radial Velocity | 201.9 | 13.8
+  - `HD 60532 c` | 2008 | Radial Velocity | 600.1 | 13.3
+- **`HD 60779`**
+  - `HD 60779 b` | 2026 | Transit | 29.986175 | 3.246
+  - `HD 60779 c` | 2026 | Radial Velocity | 104.79 | 5.79
+- **`HD 62364`**
+  - `HD 62364 b` | 2022 | Radial Velocity | 5138 | 12.1
+  - `HD 62364 c` † | 2022 | Radial Velocity | 74839.94555 | 12
+- **`HD 62509`**
+  - `HD 62509 b` | 2006 | Radial Velocity | 589.64 | 13.3
+- **`HD 62549`**
+  - `HD 62549 b` | 2022 | Radial Velocity | 14306.88519 | 12.6
+- **`HD 63433`**
+  - `HD 63433 d` | 2023 | Transit | 4.209075 | 1.073
+  - `HD 63433 b` | 2020 | Transit | 7.1079475 | 2.14
+  - `HD 63433 c` | 2020 | Transit | 20.5438281 | 2.692
+- **`HD 63454`**
+  - `HD 63454 b` | 2005 | Radial Velocity | 2.81805 | 12.31
+- **`HD 63765`**
+  - `HD 63765 b` | 2011 | Radial Velocity | 358 | 14.2
+- **`HD 63935`**
+  - `HD 63935 b` | 2021 | Transit | 9.058807 | 2.91575244
+  - `HD 63935 c` | 2021 | Radial Velocity | 21.4027 | 3.06451296
+- **`HD 64114`**
+  - `HD 64114 b` | 2019 | Radial Velocity | 45.791 | 4.41
+- **`HD 64121`**
+  - `HD 64121 b` | 2022 | Radial Velocity | 623 | 13.2
+- **`HD 65216`**
+  - `HD 65216 b` | 2003 | Radial Velocity | 577.9 | 13.3
+  - `HD 65216 c` | 2013 | Radial Velocity | 7007 | 13.1
+- **`HD 66141`**
+  - `HD 66141 b` | 2012 | Radial Velocity | 480.5 | 12.8
+- **`HD 66428`**
+  - `HD 66428 b` | 2005 | Radial Velocity | 2269.81726 | 12.4
+  - `HD 66428 c` | 2021 | Radial Velocity | 10478.84437 | 13.5
+- **`HD 67087`**
+  - `HD 67087 b` | 2015 | Radial Velocity | 352.2 | 13.1
+  - `HD 67087 c` | 2015 | Radial Velocity | 2374 | 12.9
+- **`HD 68402`**
+  - `HD 68402 b` | 2016 | Radial Velocity | 1103 | 12.6
+- **`HD 68475`**
+  - `HD 68475 b` | 2026 | Radial Velocity | 7832 | 12.8
+- **`HD 68988`**
+  - `HD 68988 b` | 2001 | Radial Velocity | 6.27711 | 13.4
+  - `HD 68988 c` | 2021 | Radial Velocity | 16000 | 12.2
+- **`HD 69123`**
+  - `HD 69123 b` | 2022 | Radial Velocity | 1193.3 | 13.1
+- **`HD 69830`**
+  - `HD 69830 b` | 2006 | Radial Velocity | 8.667 | 3.17
+  - `HD 69830 c` | 2006 | Radial Velocity | 31.56 | 3.46
+  - `HD 69830 d` | 2006 | Radial Velocity | 197 | 4.45
+- **`HD 70573`**
+  - `HD 70573 b` | 2007 | Radial Velocity | 851.8 | 12.8
+- **`HD 70642`**
+  - `HD 70642 b` | 2003 | Radial Velocity | 2124.54 | 13
+- **`HD 72490`**
+  - `HD 72490 b` | 2018 | Radial Velocity | 858 | 13.5
+- **`HD 72659`**
+  - `HD 72659 b` | 2002 | Radial Velocity | 3549 | 13.2
+  - `HD 72659 c` | 2022 | Radial Velocity | 35500 | 12.1
+- **`HD 72892`**
+  - `HD 72892 b` | 2016 | Radial Velocity | 39.44603 | 12.8
+- **`HD 73256`**
+  - `HD 73256 c` | 2023 | Radial Velocity | 2690 | 12.2
+- **`HD 73267`**
+  - `HD 73267 b` | 2008 | Radial Velocity | 1257.99159 | 13
+  - `HD 73267 c` | 2022 | Radial Velocity | 17071.78045 | 12.8
+- **`HD 73344`**
+  - `HD 73344 b` | 2024 | Transit | 15.611 | 2.884
+  - `HD 73344 c` | 2025 | Radial Velocity | 65.94 | 13.5
+  - `HD 73344 d` | 2025 | Radial Velocity | 5823 | 13.2
+- **`HD 73526`**
+  - `HD 73526 b` † | 2002 | Radial Velocity | 188.3 | 13.1
+  - `HD 73526 c` | 2005 | Radial Velocity | 379.1 | 13.3
+- **`HD 73534`**
+  - `HD 73534 b` | 2008 | Radial Velocity | 1750 | 13.7
+- **`HD 73583`**
+  - `HD 73583 b` | 2022 | Transit | 6.398042 | 2.79
+  - `HD 73583 c` | 2022 | Transit | 18.87974 | 2.39
+- **`HD 74156`**
+  - `HD 74156 b` | 2003 | Radial Velocity | 51.63564 | 13.5
+  - `HD 74156 c` | 2003 | Radial Velocity | 2448.48726 | 12.5
+- **`HD 74698`**
+  - `HD 74698 b` | 2023 | Radial Velocity | 15.017 | 5.12
+  - `HD 74698 c` | 2023 | Radial Velocity | 3449 | 14
+- **`HD 75289`**
+  - `HD 75289 b` | 1999 | Radial Velocity | 3.50927 | 14.2
+- **`HD 75302`**
+  - `HD 75302 b` | 2023 | Radial Velocity | 4356 | 12.8
+- **`HD 75784`**
+  - `HD 75784 b` | 2014 | Radial Velocity | 341.2 | 13.8
+  - `HD 75784 c` | 2018 | Radial Velocity | 7900 | 12.8
+- **`HD 75898`**
+  - `HD 75898 b` | 2007 | Radial Velocity | 422.82 | 13.2
+  - `HD 75898 c` | 2024 | Radial Velocity | 6717 | 12.6
+- **`HD 76700`**
+  - `HD 76700 b` | 2002 | Radial Velocity | 3.97097 | 9.6
+- **`HD 76920`**
+  - `HD 76920 b` | 2017 | Radial Velocity | 415.891 | 13.1
+- **`HD 77338`**
+  - `HD 77338 b` | 2012 | Radial Velocity | 5.7361 | 4.12
+- **`HD 77946`**
+  - `HD 77946 b` | 2024 | Transit | 6.527363 | 2.89646124
+- **`HD 79181`**
+  - `HD 79181 b` | 2021 | Radial Velocity | 273.1 | 14.1
+- **`HD 79498`**
+  - `HD 79498 b` | 2011 | Radial Velocity | 1807 | 13.6
+- **`HD 80606`**
+  - `HD 80606 b` | 2001 | Radial Velocity | 111.436765 | 11.56766808
+- **`HD 80653`**
+  - `HD 80653 b` | 2020 | Transit | 0.71957926 | 1.621
+  - `K2-312 c` | 2023 | Radial Velocity | 871.32 | 12.8
+- **`HD 80869`**
+  - `HD 80869 b` | 2021 | Radial Velocity | 1752.92067 | 12.8
+- **`HD 80883`**
+  - `HD 80883 b` | 2022 | Radial Velocity | 6383.78352 | 12.8
+- **`HD 80913`**
+  - `HD 80913 b` | 2022 | Radial Velocity | 10839.83341 | 12
+- **`HD 81040`**
+  - `HD 81040 b` | 2005 | Radial Velocity | 1002.7 | 12.6
+- **`HD 81688`**
+  - `HD 81688 b` | 2007 | Radial Velocity | 183.93 | 13.5
+- **`HD 81817`**
+  - `HD 81817 c` | 2022 | Radial Velocity | 622.97802 | 12
+  - `HD 81817 b` | 2020 | Radial Velocity | 1021.20159 | 12
+- **`HD 82886`**
+  - `HD 82886 b` | 2011 | Radial Velocity | 705 | 13.3
+- **`HD 82943`**
+  - `HD 82943 c` | 2003 | Radial Velocity | 220.078 | 13.4
+  - `HD 82943 b` | 2003 | Radial Velocity | 441.47 | 13.5
+- **`HD 83443`**
+  - `HD 83443 b` | 2002 | Radial Velocity | 2.985628 | 14.1
+  - `HD 83443 c` | 2022 | Radial Velocity | 8241 | 13.6
+- **`HD 85390`**
+  - `HD 85390 b` | 2011 | Radial Velocity | 799.52 | 6.16
+- **`HD 86065`**
+  - `HD 86065 b` | 2022 | Radial Velocity | 25775.78859 | 12.5
+- **`HD 86081`**
+  - `HD 86081 b` | 2006 | Radial Velocity | 2.1378431 | 13.6
+- **`HD 86226`**
+  - `HD 86226 c` | 2020 | Transit | 3.98442 | 2.16
+  - `HD 86226 b` | 2009 | Radial Velocity | 1628 | 14.3
+- **`HD 86264`**
+  - `HD 86264 b` | 2009 | Radial Velocity | 1488.79123 | 12.5
+- **`HD 86728`**
+  - `HD 86728 b` | 2025 | Radial Velocity | 31.1515 | 3.03
+- **`HD 86950`**
+  - `HD 86950 b` | 2016 | Radial Velocity | 1270 | 13
+- **`HD 87646`**
+  - `HD 87646 b` | 2016 | Radial Velocity | 13.481 | 12.4
+- **`HD 87816`**
+  - `HD 87816 b` | 2025 | Radial Velocity | 484.17 | 12.7
+  - `HD 87816 c` | 2025 | Radial Velocity | 7596 | 12.4
+- **`HD 87883`**
+  - `HD 87883 b` | 2009 | Radial Velocity | 3006 | 12.7
+- **`HD 88072`**
+  - `HD 88072 b` | 2022 | Radial Velocity | 18538.79293 | 12.6
+- **`HD 88133`**
+  - `HD 88133 b` | 2004 | Radial Velocity | 3.414884 | 13.8
+- **`HD 88986`**
+  - `HD 88986 b` | 2023 | Radial Velocity | 146.05 | 2.49
+- **`HD 89307`**
+  - `HD 89307 b` | 2009 | Radial Velocity | 2166 | 13.4
+- **`HD 89345`**
+  - `HD 89345 b` | 2018 | Transit | 11.8143 | 7.39794
+- **`HD 89744`**
+  - `HD 89744 b` | 1999 | Radial Velocity | 256.78 | 12.6
+- **`HD 89839`**
+  - `HD 89839 b` | 2023 | Radial Velocity | 3391.2 | 12.8
+- **`HD 90156`**
+  - `HD 90156 b` | 2011 | Radial Velocity | 49.77 | 4.43
+- **`HD 92788`**
+  - `HD 92788 b` | 2000 | Radial Velocity | 325.803 | 13
+  - `HD 92788 c` | 2019 | Radial Velocity | 11611.2975 | 13
+- **`HD 93083`**
+  - `GJ 1137 c` | 2026 | Radial Velocity | 9.6412 | 2.11
+  - `HD 93083 b` | 2005 | Radial Velocity | 144.72 | 14.3
+- **`HD 93351`**
+  - `HD 93351 b` | 2022 | Radial Velocity | 2.45946 | 1.69
+  - `HD 93351 c` | 2022 | Radial Velocity | 14010.2941 | 12.3
+- **`HD 93385`**
+  - `HD 93385 b` | 2021 | Radial Velocity | 7.3426 | 1.88
+  - `HD 93385 c` | 2021 | Radial Velocity | 13.18 | 2.56
+  - `HD 93385 d` | 2021 | Radial Velocity | 45.85 | 2.89
+- **`HD 93963`**
+  - ดาวแม่ `HD 93963 A`
+    - `HD 93963 A b` | 2022 | Transit | 1.0376109 | 1.46954368
+    - `HD 93963 A c` | 2022 | Transit | 3.6451389 | 3.11976057
+- **`HD 94771`**
+  - `HD 94771 b` | 2023 | Radial Velocity | 2164 | 14.2
+- **`HD 94834`**
+  - `HD 94834 b` | 2018 | Radial Velocity | 1576 | 13.7
+- **`HD 94890`**
+  - `HD 94890 b` | 2025 | Radial Velocity | 824.61 | 13.3
+  - `HD 94890 c` | 2025 | Radial Velocity | 2492.19 | 12.5
+- **`HD 95086`**
+  - `HD 95086 b` | 2013 | Imaging | — | 12.9
+- **`HD 95089`**
+  - `HD 95089 b` | 2009 | Radial Velocity | 464.4 | 13.7
+  - `HD 95089 c` | 2016 | Radial Velocity | 1785 | 13.1
+- **`HD 95127`**
+  - `HD 95127 b` | 2015 | Radial Velocity | 482 | 12.4
+- **`HD 95338`**
+  - `HD 95338 b` | 2020 | Radial Velocity | 55.082694 | 4.27174254
+- **`HD 95544`**
+  - `HD 95544 b` | 2021 | Radial Velocity | 2041.54152 | 12.8
+- **`HD 95872`**
+  - `HD 95872 b` | 2015 | Radial Velocity | 4375 | 13
+- **`HD 96063`**
+  - `HD 96063 b` | 2011 | Radial Velocity | 362.5 | 13.7
+- **`HD 96127`**
+  - `HD 96127 b` | 2011 | Radial Velocity | 638.9 | 13
+- **`HD 96167`**
+  - `HD 96167 b` | 2009 | Radial Velocity | 498.04 | 14
+- **`HD 96700`**
+  - `HD 96700 b` | 2021 | Radial Velocity | 8.1245 | 2.93
+  - `HD 96700 c` | 2021 | Radial Velocity | 19.88 | 1.69
+  - `HD 96700 d` | 2021 | Radial Velocity | 103.5 | 3.61
+- **`HD 96992`**
+  - `HD 96992 b` | 2021 | Radial Velocity | 514 | 13.7
+- **`HD 97037`**
+  - `HD 97037 b` | 2022 | Radial Velocity | 6449.08337 | 12.1
+- **`HD 97048`**
+  - `HD 97048 b` | 2019 | Disk Kinematics | — | 13.3
+- **`HD 97658`**
+  - `HD 97658 b` | 2010 | Radial Velocity | 9.4897116 | 2.12
+- **`HD 98219`**
+  - `HD 98219 b` | 2011 | Radial Velocity | 433.8 | 13.4
+- **`HD 98649`**
+  - `HD 98649 b` | 2012 | Radial Velocity | 5384 | 12.5
+- **`HD 98736`**
+  - `HD 98736 b` | 2018 | Radial Velocity | 968.8 | 13.3
+- **`HD 99109`**
+  - `HD 99109 b` | 2005 | Radial Velocity | 439.29999 | 14.3
+- **`HD 99283`**
+  - `HD 99283 b` | 2021 | Radial Velocity | 310.4 | 13.8
+- **`HD 99492`**
+  - `HD 99492 b` | 2004 | Radial Velocity | 17.0503 | 5.44
+  - `HD 99492 c` | 2023 | Radial Velocity | 95.233 | 4.42
+- **`HD 99706`**
+  - `HD 99706 b` | 2011 | Radial Velocity | 841 | 13.7
+  - `HD 99706 c` | 2016 | Radial Velocity | 1278 | 12.8
+- **`HD 100508`**
+  - `HD 100508 b` | 2026 | Radial Velocity | 5681 | 13.7
+- **`HD 100546`**
+  - `HD 100546 b` † | 2014 | Imaging | — | 77.3421
+- **`HD 100655`**
+  - `HD 100655 b` | 2011 | Radial Velocity | 157.57001 | 13.5
+- **`HD 100777`**
+  - `HD 100777 b` | 2007 | Radial Velocity | 383 | 13.7
+- **`HD 101930`**
+  - `HD 101930 b` | 2005 | Radial Velocity | 70.46 | 10.6
+- **`HD 102117`**
+  - `HD 102117 b` | 2005 | Radial Velocity | 20.8133 | 8.47
+- **`HD 102195`**
+  - `HD 102195 b` | 2006 | Radial Velocity | 4.11377 | 14.2
+- **`HD 102272`**
+  - `HD 102272 b` | 2008 | Radial Velocity | 127.58 | 12.9
+- **`HD 102329`**
+  - `HD 102329 b` | 2011 | Radial Velocity | 778.09998 | 12.6
+  - `HD 102329 c` | 2016 | Radial Velocity | 1123 | 13.5
+- **`HD 102843`**
+  - `HD 102843 b` | 2019 | Radial Velocity | 3090.942 | 13.1
+- **`HD 102888`**
+  - `HD 102888 b` | 2025 | Radial Velocity | 252.06 | 12.8
+- **`HD 102956`**
+  - `HD 102956 b` | 2010 | Radial Velocity | 6.4947 | 13.8
+- **`HD 103197`**
+  - `HD 103197 b` | 2011 | Radial Velocity | 47.84 | 5.83
+- **`HD 103720`**
+  - `HD 103720 b` | 2014 | Radial Velocity | 4.5557 | 14.1
+- **`HD 103774`**
+  - `HD 103774 b` | 2013 | Radial Velocity | 5.8881 | 13.3
+- **`HD 103891`**
+  - `HD 103891 b` | 2022 | Radial Velocity | 1919 | 13.2
+- **`HD 103949`**
+  - `HD 103949 b` | 2019 | Radial Velocity | 120.878 | 3.35
+- **`HD 104067`**
+  - `HD 104067 c` | 2024 | Radial Velocity | 13.8992 | 3.69
+  - `HD 104067 b` | 2011 | Radial Velocity | 55.851 | 9.2
+- **`HD 104985`**
+  - `HD 104985 b` | 2003 | Radial Velocity | 199.68 | 12.8
+- **`HD 105618`**
+  - `HD 105618 b` | 2022 | Radial Velocity | 10.02245 | 5.44
+  - `HD 105618 c` | 2022 | Radial Velocity | 77114.07158 | 11.9
+- **`HD 105779`**
+  - `HD 105779 b` | 2022 | Radial Velocity | 2412 | 14.1
+- **`HD 106252`**
+  - `HD 106252 b` | 2002 | Radial Velocity | 1535 | 12.5
+- **`HD 106270`**
+  - `HD 106270 b` | 2011 | Radial Velocity | 1888 | 12.4
+- **`HD 106315`**
+  - `HD 106315 b` | 2017 | Transit | 9.55237 | 2.44
+  - `HD 106315 c` | 2017 | Transit | 21.05704 | 4.35
+
+</details>
+
+[สารบัญทุกระบบ](README.md#exoplanets) · [ช่วงชื่อถัดไป](range-02.md)

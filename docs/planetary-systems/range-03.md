@@ -1,0 +1,2169 @@
+# ระบบดาวเคราะห์ · K2-417 – Kepler-726
+
+[สารบัญทุกระบบ](README.md#exoplanets) · [ช่วงชื่อก่อนหน้า](range-02.md) · [ช่วงชื่อถัดไป](range-04.md)
+
+**720 ระบบ · 1,400 ดาวเคราะห์** ในบัญชี NASA Exoplanet Archive เมื่อ 22 พฤศจิกายน 2026 แตะช่วงชื่อเพื่อกางรายการ แต่ละบรรทัดแสดงชื่อ ปีค้นพบ วิธีค้นพบ คาบโคจรเป็นวัน และรัศมีเทียบกับโลก † หมายถึงสถานะที่มีงานตีพิมพ์ตั้งข้อสงสัย ส่วน CB คือดาวเคราะห์ที่โคจรรอบดาวคู่ [วิธีอ่านและหน่วย](README.md#exoplanets) · [ข้อมูลต้นทาง](README.md#sources)
+
+<a name="systems-09"></a>
+
+<details><summary>K2-417 – Kepler-166 · 180 ระบบ · 413 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`K2-417`**
+  - `K2-417 b` | 2023 | Transit | 6.535 | 3.31
+- **`K2-419`**
+  - ดาวแม่ `K2-419 A`
+    - `K2-419 A b` | 2024 | Transit | 20.35847252 | 10.55
+- **`K2-2016-BLG-0005L`**
+  - `K2-2016-BLG-0005L b` | 2023 | Microlensing | 4700 | 13.7
+- **`kap And`**
+  - `kap And b` | 2012 | Imaging | — | 15.91675259
+- **`kap CrB`**
+  - `kap CrB b` | 2007 | Radial Velocity | 1253.68 | 13.4
+- **`Kapteyn`**
+  - `Kapteyn c` † | 2014 | Radial Velocity | 121.54 | 2.54
+- **`KELT-1`**
+  - `KELT-1 b` | 2012 | Transit | 1.217514 | 12.442
+- **`KELT-2`**
+  - ดาวแม่ `KELT-2 A`
+    - `KELT-2 A b` | 2012 | Transit | 4.11379 | 15.13215
+- **`KELT-3`**
+  - `KELT-3 b` | 2013 | Transit | 2.70339 | 17.48604
+- **`KELT-4`**
+  - ดาวแม่ `KELT-4 A`
+    - `KELT-4 A b` | 2016 | Transit | 2.9895932 | 19.044091
+- **`KELT-6`**
+  - `KELT-6 b` | 2014 | Transit | 7.8457 | 14.5717
+  - `KELT-6 c` | 2015 | Radial Velocity | 1276 | 13
+- **`KELT-7`**
+  - `KELT-7 b` | 2015 | Transit | 2.73477 | 17.9344
+- **`KELT-8`**
+  - `KELT-8 b` | 2015 | Transit | 3.24406 | 18.15858
+- **`KELT-9`**
+  - `KELT-9 b` | 2017 | Transit | 1.4811235 | 21.70058664
+- **`KELT-10`**
+  - `KELT-10 b` | 2016 | Transit | 4.1662739 | 15.681391
+- **`KELT-11`**
+  - `KELT-11 b` | 2017 | Transit | 4.73620865 | 15.13212395
+- **`KELT-12`**
+  - `KELT-12 b` | 2017 | Transit | 5.031623 | 19.95202
+- **`KELT-14`**
+  - `KELT-14 b` | 2016 | Transit | 1.7100566 | 19.537287
+- **`KELT-15`**
+  - `KELT-15 b` | 2016 | Transit | 3.32944 | 19.50366
+- **`KELT-16`**
+  - `KELT-16 b` | 2017 | Transit | 0.9689951 | 15.860735
+- **`KELT-17`**
+  - `KELT-17 b` | 2016 | Transit | 3.0801716 | 17.093725
+- **`KELT-18`**
+  - `KELT-18 b` | 2017 | Transit | 2.8717518 | 17.59813
+- **`KELT-19`**
+  - ดาวแม่ `KELT-19 A`
+    - `KELT-19 A b` | 2017 | Transit | 4.6117093 | 21.40919
+- **`KELT-20`**
+  - `KELT-20 b` | 2017 | Transit | 3.4741085 | 19.514869
+- **`KELT-21`**
+  - `KELT-21 b` | 2018 | Transit | 3.6127647 | 17.777474
+- **`KELT-23`**
+  - ดาวแม่ `KELT-23 A`
+    - `KELT-23 A b` | 2019 | Transit | 2.255251 | 14.829507
+- **`KELT-24`**
+  - `KELT-24 b` | 2019 | Transit | 5.55149296 | 12.71098411
+- **`Kepler-4`**
+  - `Kepler-4 b` | 2009 | Transit | 3.21346 | 4.002
+- **`Kepler-5`**
+  - `Kepler-5 b` | 2009 | Transit | 3.5484657 | 15.984034
+- **`Kepler-6`**
+  - `Kepler-6 b` | 2009 | Transit | 3.2346996 | 14.616536
+- **`Kepler-7`**
+  - `Kepler-7 b` | 2009 | Transit | 4.8854892 | 18.180998
+- **`Kepler-8`**
+  - `Kepler-8 b` | 2010 | Transit | 3.5224991 | 15.871944
+- **`Kepler-9`**
+  - `Kepler-9 d` | 2010 | Transit | 1.592851 | 1.64
+  - `Kepler-9 b` | 2010 | Transit | 19.23891 | 8.29
+  - `Kepler-9 c` | 2010 | Transit | 38.9853 | 8.08
+- **`Kepler-10`**
+  - `Kepler-10 b` | 2011 | Transit | 0.8374907 | 1.47
+  - `Kepler-10 c` | 2011 | Transit | 45.294301 | 2.355
+  - `Kepler-10 d` | 2023 | Radial Velocity | 151.06 | 3.49
+- **`Kepler-11`**
+  - `Kepler-11 b` | 2010 | Transit | 10.3039 | 1.8
+  - `Kepler-11 c` | 2010 | Transit | 13.0241 | 2.87
+  - `Kepler-11 d` | 2010 | Transit | 22.6845 | 3.12
+  - `Kepler-11 e` | 2010 | Transit | 31.9996 | 4.19
+  - `Kepler-11 f` | 2010 | Transit | 46.6888 | 2.49
+  - `Kepler-11 g` | 2010 | Transit | 118.3807 | 3.33
+- **`Kepler-12`**
+  - `Kepler-12 b` | 2011 | Transit | 4.4379629 | 19.660586
+- **`Kepler-14`**
+  - `Kepler-14 b` | 2011 | Transit | 6.790123 | 12.733
+- **`Kepler-15`**
+  - `Kepler-15 b` | 2011 | Transit | 4.942782 | 10.76
+- **`Kepler-16`**
+  - `Kepler-16 b` CB | 2011 | Transit | 228.776 | 8.4493
+- **`Kepler-17`**
+  - `Kepler-17 b` | 2011 | Transit | 1.4857108 | 14.68
+- **`Kepler-18`**
+  - `Kepler-18 b` | 2011 | Transit | 3.504725 | 2
+  - `Kepler-18 c` | 2011 | Transit | 7.64159 | 5.49
+  - `Kepler-18 d` | 2011 | Transit | 14.85888 | 6.98
+- **`Kepler-19`**
+  - `Kepler-19 b` | 2011 | Transit | 9.28699 | 2.209
+  - `Kepler-19 c` | 2011 | Transit Timing Variations | 28.731 | 3.68
+  - `Kepler-19 d` | 2017 | Radial Velocity | 62.95 | 5.06
+- **`Kepler-20`**
+  - `Kepler-20 b` | 2011 | Transit | 3.6961049 | 1.773
+  - `Kepler-20 e` | 2011 | Transit | 6.0984882 | 0.821
+  - `Kepler-20 c` | 2011 | Transit | 10.8540774 | 2.894
+  - `Kepler-20 f` | 2011 | Transit | 19.578328 | 0.952
+  - `Kepler-20 g` | 2016 | Radial Velocity | 34.94 | 4.71
+  - `Kepler-20 d` | 2011 | Transit | 77.611455 | 2.606
+- **`Kepler-21`**
+  - `Kepler-21 b` | 2012 | Transit | 2.7858212 | 1.639
+- **`Kepler-22`**
+  - `Kepler-22 b` | 2011 | Transit | 289.863876 | 2.1
+- **`Kepler-23`**
+  - `Kepler-23 b` | 2011 | Transit | 7.1 | 1.638
+  - `Kepler-23 c` | 2011 | Transit | 10.74 | 3.005
+  - `Kepler-23 d` | 2014 | Transit | 15.27 | 2.206
+- **`Kepler-24`**
+  - `Kepler-24 d` | 2014 | Transit | 4.244384 | 1.67
+  - `Kepler-24 b` | 2011 | Transit | 8.14 | 2.348
+  - `Kepler-24 c` | 2011 | Transit | 12.33 | 2.514
+  - `Kepler-24 e` | 2014 | Transit | 18.998355 | 2.78
+- **`Kepler-25`**
+  - `Kepler-25 b` | 2011 | Transit | 6.238297 | 2.748
+  - `Kepler-25 c` | 2011 | Transit | 12.7207 | 5.217
+  - `Kepler-25 d` | 2014 | Radial Velocity | 122.4 | 10
+- **`Kepler-26`**
+  - `Kepler-26 d` | 2014 | Transit | 3.543919 | 1.07
+  - `Kepler-26 b` | 2011 | Transit | 12.28 | 2.78
+  - `Kepler-26 c` | 2011 | Transit | 17.2559 | 2.72
+  - `Kepler-26 e` | 2014 | Transit | 46.827915 | 2.41
+- **`Kepler-27`**
+  - `Kepler-27 d` | 2021 | Transit | 6.546289921 | 2.7061946
+  - `Kepler-27 b` | 2011 | Transit | 15.3348 | 4
+  - `Kepler-27 c` | 2011 | Transit | 31.3309 | 4.9
+- **`Kepler-28`**
+  - `Kepler-28 b` | 2011 | Transit | 5.91 | 1.959
+  - `Kepler-28 c` | 2011 | Transit | 8.99 | 1.857
+- **`Kepler-29`**
+  - `Kepler-29 b` | 2011 | Transit | 10.33974 | 2.55
+  - `Kepler-29 c` | 2011 | Transit | 13.28613 | 2.34
+- **`Kepler-30`**
+  - `Kepler-30 b` | 2012 | Transit | 29.33434 | 3.9
+  - `Kepler-30 c` | 2012 | Transit | 60.323105 | 12.3
+  - `Kepler-30 d` | 2012 | Transit | 143.34394 | 8.8
+- **`Kepler-31`**
+  - `Kepler-31 b` | 2011 | Transit | 20.8613 | 5.5
+  - `Kepler-31 c` | 2011 | Transit | 42.6318 | 5.3
+  - `Kepler-31 d` | 2014 | Transit | 87.6451 | 3.9
+- **`Kepler-32`**
+  - `Kepler-32 f` | 2012 | Transit | 0.74296 | 0.82
+  - `Kepler-32 e` | 2012 | Transit | 2.896 | 1.5
+  - `Kepler-32 b` | 2011 | Transit | 5.90124 | 2.2
+  - `Kepler-32 c` | 2011 | Transit | 8.7522 | 2
+  - `Kepler-32 d` | 2012 | Transit | 22.7802 | 2.7
+- **`Kepler-33`**
+  - `Kepler-33 b` | 2011 | Transit | 5.66793 | 1.74
+  - `Kepler-33 c` | 2011 | Transit | 13.17562 | 3.2
+  - `Kepler-33 d` | 2011 | Transit | 21.77596 | 5.35
+  - `Kepler-33 e` | 2011 | Transit | 31.7844 | 4.02
+  - `Kepler-33 f` | 2011 | Transit | 41.02902 | 4.46
+- **`Kepler-34`**
+  - `Kepler-34 b` CB | 2011 | Transit | 288.822 | 8.564
+- **`Kepler-35`**
+  - `Kepler-35 b` CB | 2011 | Transit | 131.458 | 8.16
+- **`Kepler-36`**
+  - `Kepler-36 b` | 2012 | Transit | 13.86825 | 1.498
+  - `Kepler-36 c` | 2012 | Transit | 16.21865 | 3.679
+- **`Kepler-37`**
+  - `Kepler-37 b` | 2013 | Transit | 13.36702 | 0.3098
+  - `Kepler-37 c` | 2013 | Transit | 21.301848 | 0.755
+  - `Kepler-37 d` | 2013 | Transit | 39.7922622 | 2.03
+  - `Kepler-37 e` | 2014 | Transit | 51.196 | 0.37
+- **`Kepler-38`**
+  - `Kepler-38 b` CB | 2012 | Transit | 105.599 | 4.3
+- **`Kepler-39`**
+  - `Kepler-39 b` | 2011 | Transit | 21.08721 | 13.9
+- **`Kepler-40`**
+  - `Kepler-40 b` | 2010 | Transit | 6.87349 | 13.11
+- **`Kepler-41`**
+  - `Kepler-41 b` | 2011 | Transit | 1.8555582 | 14.46
+- **`Kepler-42`**
+  - `Kepler-42 c` | 2011 | Transit | 0.45328509 | 0.73
+  - `Kepler-42 b` | 2011 | Transit | 1.2137672 | 0.78
+  - `Kepler-42 d` | 2011 | Transit | 1.865169 | 0.57
+- **`Kepler-43`**
+  - `Kepler-43 b` | 2011 | Transit | 3.0240949 | 13.663771
+- **`Kepler-44`**
+  - `Kepler-44 b` | 2011 | Transit | 3.2467293 | 12.22
+- **`Kepler-45`**
+  - `Kepler-45 b` | 2011 | Transit | 2.455239 | 10.76
+- **`Kepler-46`**
+  - `Kepler-46 d` | 2014 | Transit | 6.766589 | 1.64
+  - `Kepler-46 b` | 2012 | Transit | 33.60134 | 9.057
+  - `Kepler-46 c` | 2012 | Transit Timing Variations | 57.011 | 13.5
+- **`Kepler-47`**
+  - `Kepler-47 b` CB | 2012 | Transit | 49.4643 | 3.05
+  - `Kepler-47 d` CB | 2019 | Transit | 187.366 | 7.04
+  - `Kepler-47 c` CB | 2012 | Transit | 303.227 | 4.65
+- **`Kepler-48`**
+  - `Kepler-48 b` | 2012 | Transit | 4.778 | 1.88
+  - `Kepler-48 c` | 2012 | Transit | 9.67395 | 2.71
+  - `Kepler-48 d` | 2014 | Transit | 42.8961 | 2.04
+  - `Kepler-48 e` | 2014 | Radial Velocity | 982 | 13.4
+  - `Kepler-48 f` | 2023 | Radial Velocity | 5219.681854 | 13.8
+- **`Kepler-49`**
+  - `Kepler-49 d` | 2014 | Transit | 2.576549 | 1.6
+  - `Kepler-49 b` | 2012 | Transit | 7.2 | 2.579
+  - `Kepler-49 c` | 2012 | Transit | 10.91 | 2.444
+  - `Kepler-49 e` | 2014 | Transit | 18.596108 | 1.56
+- **`Kepler-50`**
+  - `Kepler-50 b` † | 2012 | Transit | 7.81254 | 1.71
+  - `Kepler-50 c` † | 2012 | Transit | 9.37647 | 2.17
+- **`Kepler-51`**
+  - `Kepler-51 b` | 2012 | Transit | 45.154 | 7.1
+  - `Kepler-51 c` | 2012 | Transit | 85.312 | 9
+  - `Kepler-51 d` | 2014 | Transit | 130.194 | 9.7
+  - `Kepler-51 e` | 2024 | Transit Timing Variations | 264.284 | 2.18
+- **`Kepler-52`**
+  - `Kepler-52 b` | 2012 | Transit | 7.8773565 | 2.1
+  - `Kepler-52 c` | 2012 | Transit | 16.3850021 | 1.84
+  - `Kepler-52 d` | 2014 | Transit | 36.445171 | 1.95
+- **`Kepler-53`**
+  - `Kepler-53 d` | 2014 | Transit | 9.751962 | 2.12
+  - `Kepler-53 b` | 2012 | Transit | 18.6489525 | 2.89
+  - `Kepler-53 c` | 2012 | Transit | 38.5583038 | 3.17
+- **`Kepler-54`**
+  - `Kepler-54 b` | 2012 | Transit | 8.0109434 | 2.1
+  - `Kepler-54 c` | 2012 | Transit | 12.0717249 | 1.23
+  - `Kepler-54 d` | 2014 | Transit | 20.995694 | 1.53
+- **`Kepler-55`**
+  - `Kepler-55 d` | 2014 | Transit | 2.211099 | 1.59
+  - `Kepler-55 e` | 2014 | Transit | 4.617534 | 1.55
+  - `Kepler-55 f` | 2014 | Transit | 10.198545 | 1.59
+  - `Kepler-55 b` | 2012 | Transit | 27.9481449 | 2.43
+  - `Kepler-55 c` | 2012 | Transit | 42.1516418 | 2.21
+- **`Kepler-56`**
+  - `Kepler-56 b` | 2012 | Transit | 10.5016 | 6.51
+  - `Kepler-56 c` | 2012 | Transit | 21.40239 | 9.8
+  - `Kepler-56 d` | 2016 | Radial Velocity | 1002 | 12.8
+- **`Kepler-57`**
+  - `Kepler-57 b` | 2012 | Transit | 5.72 | 3.135
+  - `Kepler-57 c` | 2012 | Transit | 11.6 | 2.196
+- **`Kepler-58`**
+  - `Kepler-58 e` | 2023 | Transit | 4.45814897 | 1.61
+  - `Kepler-58 b` | 2012 | Transit | 10.2184954 | 2.78
+  - `Kepler-58 c` | 2012 | Transit | 15.5741568 | 2.86
+  - `Kepler-58 d` | 2014 | Transit | 40.101371 | 2.94
+- **`Kepler-59`**
+  - `Kepler-59 b` | 2012 | Transit | 11.8681707 | 1.1
+  - `Kepler-59 c` | 2012 | Transit | 17.9801235 | 1.98
+- **`Kepler-60`**
+  - `Kepler-60 b` | 2012 | Transit | 7.1334 | 1.71
+  - `Kepler-60 c` | 2012 | Transit | 8.9187 | 1.9
+  - `Kepler-60 d` | 2012 | Transit | 11.8981 | 1.99
+- **`Kepler-61`**
+  - `Kepler-61 b` | 2013 | Transit | 59.87756 | 2.15
+- **`Kepler-62`**
+  - `Kepler-62 b` | 2013 | Transit | 5.714932 | 1.31
+  - `Kepler-62 c` | 2013 | Transit | 12.4417 | 0.54
+  - `Kepler-62 d` | 2013 | Transit | 18.16406 | 1.95
+  - `Kepler-62 e` | 2013 | Transit | 122.3874 | 1.61
+  - `Kepler-62 f` | 2013 | Transit | 267.291 | 1.41
+- **`Kepler-63`**
+  - `Kepler-63 b` | 2013 | Transit | 9.4341505 | 6.11
+- **`Kepler-65`**
+  - `Kepler-65 b` | 2012 | Transit | 2.15491 | 1.42
+  - `Kepler-65 c` | 2012 | Transit | 5.859944 | 2.58
+  - `Kepler-65 d` | 2012 | Transit | 8.13123 | 1.52
+  - `Kepler-65 e` | 2019 | Radial Velocity | 258.8 | 13.9
+- **`Kepler-66`**
+  - `Kepler-66 b` | 2013 | Transit | 17.815815 | 2.8
+- **`Kepler-67`**
+  - `Kepler-67 b` | 2013 | Transit | 15.7259 | 2.94
+- **`Kepler-68`**
+  - `Kepler-68 b` | 2013 | Transit | 5.39875259 | 2.357
+  - `Kepler-68 c` | 2013 | Transit | 9.605027 | 0.979
+  - `Kepler-68 d` | 2013 | Radial Velocity | 632.62 | 13.9
+  - `Kepler-68 e` | 2023 | Radial Velocity | 3455 | 11.2
+- **`Kepler-69`**
+  - `Kepler-69 b` | 2013 | Transit | 13.722341 | 2.24
+  - `Kepler-69 c` | 2013 | Transit | 242.4613 | 1.71
+- **`Kepler-74`**
+  - `Kepler-74 b` | 2013 | Transit | 7.340711 | 10.76
+- **`Kepler-75`**
+  - `Kepler-75 b` | 2013 | Transit | 8.8849116 | 11.77
+- **`Kepler-76`**
+  - `Kepler-76 b` | 2013 | Orbital Brightness Modulation | 1.5449298 | 15.24424
+- **`Kepler-77`**
+  - `Kepler-77 b` | 2013 | Transit | 3.57878087 | 10.761
+- **`Kepler-78`**
+  - `Kepler-78 b` | 2013 | Transit | 0.35500745 | 1.201
+- **`Kepler-79`**
+  - `Kepler-79 b` | 2012 | Transit | 13.48451 | 3.51
+  - `Kepler-79 c` | 2012 | Transit | 27.4026 | 3.76
+  - `Kepler-79 d` | 2014 | Transit | 52.0897 | 7.15
+  - `Kepler-79 e` | 2014 | Transit | 81.0665 | 3.53
+- **`Kepler-80`**
+  - `Kepler-80 f` | 2016 | Transit | 0.9867873 | 1.21
+  - `Kepler-80 d` | 2014 | Transit | 3.07222 | 1.53
+  - `Kepler-80 e` | 2014 | Transit | 4.64489 | 1.6
+  - `Kepler-80 b` | 2012 | Transit | 7.05246 | 2.67
+  - `Kepler-80 c` | 2012 | Transit | 9.52355 | 2.74
+  - `Kepler-80 g` | 2017 | Transit | 14.64558 | 1.13
+- **`Kepler-81`**
+  - `Kepler-81 b` | 2012 | Transit | 5.955 | 2.42
+  - `Kepler-81 c` | 2012 | Transit | 12.04 | 2.37
+  - `Kepler-81 d` | 2014 | Transit | 20.837846 | 1.21
+- **`Kepler-82`**
+  - `Kepler-82 d` | 2014 | Transit | 2.382961 | 1.77
+  - `Kepler-82 e` | 2014 | Transit | 5.902206 | 2.47
+  - `Kepler-82 b` | 2012 | Transit | 26.44 | 4.07
+  - `Kepler-82 c` | 2012 | Transit | 51.54 | 5.34
+  - `Kepler-82 f` | 2019 | Transit Timing Variations | 75.732 | 4.84
+- **`Kepler-83`**
+  - `Kepler-83 d` | 2014 | Transit | 5.169796 | 1.94
+  - `Kepler-83 b` | 2012 | Transit | 9.77 | 2.83
+  - `Kepler-83 c` | 2012 | Transit | 20.09 | 2.36
+- **`Kepler-84`**
+  - `Kepler-84 d` | 2014 | Transit | 4.224537 | 1.38
+  - `Kepler-84 b` | 2012 | Transit | 8.726 | 2.23
+  - `Kepler-84 c` | 2012 | Transit | 12.883 | 2.36
+  - `Kepler-84 e` | 2014 | Transit | 27.434389 | 2.6
+  - `Kepler-84 f` | 2014 | Transit | 44.552169 | 2.2
+- **`Kepler-85`**
+  - `Kepler-85 b` | 2012 | Transit | 8.3 | 1.778
+  - `Kepler-85 c` | 2012 | Transit | 12.51 | 1.978
+  - `Kepler-85 d` | 2014 | Transit | 17.91323 | 1.2
+  - `Kepler-85 e` | 2014 | Transit | 25.216751 | 1.27
+- **`Kepler-87`**
+  - `Kepler-87 b` | 2013 | Transit | 114.73635 | 13.49
+  - `Kepler-87 c` | 2013 | Transit | 191.2318 | 6.14
+- **`Kepler-91`**
+  - `Kepler-91 b` | 2013 | Transit | 6.24658 | 15.322703
+- **`Kepler-92`**
+  - `Kepler-92 b` | 2013 | Transit | 13.749 | 3.51
+  - `Kepler-92 c` | 2013 | Transit | 26.723 | 2.6
+  - `Kepler-92 d` | 2015 | Transit | 49.3568 | 2.067
+- **`Kepler-93`**
+  - `Kepler-93 b` | 2014 | Transit | 4.72673978 | 1.478
+  - `Kepler-93 c` | 2014 | Radial Velocity | >1460 | —
+- **`Kepler-94`**
+  - `Kepler-94 b` | 2014 | Transit | 2.50806 | 3.51
+  - `Kepler-94 c` | 2014 | Radial Velocity | 820.3 | 12.5
+- **`Kepler-95`**
+  - `Kepler-95 b` | 2014 | Transit | 11.5231 | 3.42
+- **`Kepler-96`**
+  - `Kepler-96 b` | 2014 | Transit | 16.2385 | 2.67
+- **`Kepler-97`**
+  - `Kepler-97 b` | 2014 | Transit | 2.58664 | 1.48
+  - `Kepler-97 c` | 2014 | Radial Velocity | >789 | —
+- **`Kepler-98`**
+  - `Kepler-98 b` | 2014 | Transit | 1.54168 | 1.99
+- **`Kepler-99`**
+  - `Kepler-99 b` | 2014 | Transit | 4.60358 | 1.48
+- **`Kepler-100`**
+  - `Kepler-100 b` | 2014 | Transit | 6.88734 | 1.34
+  - `Kepler-100 c` | 2014 | Transit | 12.8159 | 2.2
+  - `Kepler-100 d` | 2014 | Transit | 35.3331 | 1.61
+  - `Kepler-100 e` | 2023 | Radial Velocity | 60.888588 | 5.27
+- **`Kepler-101`**
+  - `Kepler-101 b` | 2014 | Transit | 3.4876812 | 5.77
+  - `Kepler-101 c` | 2014 | Transit | 6.02976 | 1.25
+- **`Kepler-102`**
+  - `Kepler-102 b` | 2014 | Transit | 5.286965 | 0.46
+  - `Kepler-102 c` | 2014 | Transit | 7.071392 | 0.567
+  - `Kepler-102 d` | 2014 | Transit | 10.311767 | 1.154
+  - `Kepler-102 e` | 2013 | Transit | 16.1456994 | 2.17
+  - `Kepler-102 f` | 2014 | Transit | 27.453592 | 0.861
+- **`Kepler-103`**
+  - `Kepler-103 b` | 2014 | Transit | 15.9653287 | 3.4857
+  - `Kepler-103 c` | 2014 | Transit | 179.60978 | 5.4539
+- **`Kepler-104`**
+  - `Kepler-104 b` | 2014 | Transit | 11.427548 | 3.1
+  - `Kepler-104 c` | 2014 | Transit | 23.668205 | 3.13
+  - `Kepler-104 d` | 2014 | Transit | 51.755394 | 3.58
+- **`Kepler-105`**
+  - `Kepler-105 b` | 2013 | Transit | 5.4122034 | 2.53
+  - `Kepler-105 c` | 2014 | Transit | 7.12592 | 1.44
+- **`Kepler-106`**
+  - `Kepler-106 b` | 2014 | Transit | 6.16486 | 0.82
+  - `Kepler-106 c` | 2014 | Transit | 13.5708 | 2.5
+  - `Kepler-106 d` | 2014 | Transit | 23.9802 | 0.95
+  - `Kepler-106 e` | 2014 | Transit | 43.8445 | 2.56
+- **`Kepler-107`**
+  - `Kepler-107 b` | 2014 | Transit | 3.1800218 | 1.536
+  - `Kepler-107 c` | 2014 | Transit | 4.901452 | 1.597
+  - `Kepler-107 d` | 2014 | Transit | 7.95839 | 0.86
+  - `Kepler-107 e` | 2014 | Transit | 14.749143 | 2.903
+- **`Kepler-108`**
+  - `Kepler-108 b` | 2014 | Transit | 49.183921 | 8.65
+  - `Kepler-108 c` | 2014 | Transit | 190.323494 | 8.18
+- **`Kepler-109`**
+  - `Kepler-109 b` | 2014 | Transit | 6.4816307 | 2.49
+  - `Kepler-109 c` | 2014 | Transit | 21.22265 | 2.65
+- **`Kepler-110`**
+  - `Kepler-110 b` | 2014 | Transit | 12.691112 | 1.83
+  - `Kepler-110 c` | 2014 | Transit | 31.719775 | 2.21
+- **`Kepler-111`**
+  - `Kepler-111 b` | 2014 | Transit | 3.341815 | 1.58
+  - `Kepler-111 c` | 2014 | Transit | 224.77833 | 7.0840758
+- **`Kepler-112`**
+  - `Kepler-112 b` | 2014 | Transit | 8.408878 | 2.36
+  - `Kepler-112 c` | 2014 | Transit | 28.574263 | 2.4
+- **`Kepler-113`**
+  - `Kepler-113 b` | 2014 | Transit | 4.754 | 1.82
+  - `Kepler-113 c` | 2014 | Transit | 8.92507 | 2.18
+- **`Kepler-114`**
+  - `Kepler-114 b` | 2014 | Transit | 5.188549 | 1.26
+  - `Kepler-114 c` | 2013 | Transit | 8.041 | 1.6
+  - `Kepler-114 d` | 2013 | Transit | 11.776 | 2.53
+- **`Kepler-115`**
+  - `Kepler-115 b` | 2014 | Transit | 2.403679 | 1.09
+  - `Kepler-115 c` | 2014 | Transit | 8.990889 | 2.6
+- **`Kepler-116`**
+  - `Kepler-116 b` | 2014 | Transit | 5.968734 | 3.42
+  - `Kepler-116 c` | 2014 | Transit | 13.07163 | 2.3
+- **`Kepler-117`**
+  - `Kepler-117 b` | 2014 | Transit | 18.7959228 | 8.059
+  - `Kepler-117 c` | 2014 | Transit | 50.790391 | 12.341
+- **`Kepler-118`**
+  - `Kepler-118 b` | 2014 | Transit | 7.518496 | 1.96
+  - `Kepler-118 c` | 2014 | Transit | 20.17202 | 7.68
+- **`Kepler-119`**
+  - `Kepler-119 b` | 2014 | Transit | 2.422082 | 3.6
+  - `Kepler-119 c` | 2014 | Transit | 4.125103 | 0.92
+- **`Kepler-120`**
+  - `Kepler-120 b` | 2014 | Transit | 6.312501 | 2.15
+  - `Kepler-120 c` | 2014 | Transit | 12.794585 | 1.53
+- **`Kepler-121`**
+  - `Kepler-121 b` | 2014 | Transit | 3.177422 | 2.34
+  - `Kepler-121 c` | 2014 | Transit | 41.008011 | 2.27
+- **`Kepler-122`**
+  - `Kepler-122 b` | 2014 | Transit | 5.766193 | 2.34
+  - `Kepler-122 c` | 2014 | Transit | 12.465988 | 5.87
+  - `Kepler-122 d` | 2014 | Transit | 21.587475 | 2.2
+  - `Kepler-122 e` | 2014 | Transit | 37.993273 | 2.6
+  - `Kepler-122 f` | 2014 | Transit | 56.268 | 1.75
+- **`Kepler-123`**
+  - `Kepler-123 b` | 2014 | Transit | 17.232366 | 2.94
+  - `Kepler-123 c` | 2014 | Transit | 26.695074 | 1.48
+- **`Kepler-124`**
+  - `Kepler-124 b` | 2014 | Transit | 3.410493 | 0.73
+  - `Kepler-124 c` | 2014 | Transit | 13.821375 | 1.75
+  - `Kepler-124 d` | 2014 | Transit | 30.950851 | 1.11
+- **`Kepler-125`**
+  - `Kepler-125 b` | 2014 | Transit | 4.164389 | 2.37
+  - `Kepler-125 c` | 2014 | Transit | 5.774464 | 0.74
+- **`Kepler-126`**
+  - `Kepler-126 b` | 2014 | Transit | 10.495711 | 1.52
+  - `Kepler-126 c` | 2014 | Transit | 21.869741 | 1.58
+  - `Kepler-126 d` | 2014 | Transit | 100.283134 | 2.5
+- **`Kepler-127`**
+  - `Kepler-127 b` | 2014 | Transit | 14.435889 | 1.4
+  - `Kepler-127 c` | 2014 | Transit | 29.393195 | 2.66
+  - `Kepler-127 d` | 2014 | Transit | 48.630408 | 2.64
+- **`Kepler-128`**
+  - `Kepler-128 b` | 2013 | Transit | 15 | 1.421
+  - `Kepler-128 c` | 2013 | Transit | 22.8 | 1.521
+- **`Kepler-129`**
+  - `Kepler-129 b` | 2014 | Transit | 15.79 | 2.4
+  - `Kepler-129 c` | 2014 | Transit | 82.2 | 2.52
+  - `Kepler-129 d` | 2021 | Radial Velocity | 2646 | 12.6
+- **`Kepler-130`**
+  - `Kepler-130 b` | 2014 | Transit | 8.457458 | 1.02
+  - `Kepler-130 c` | 2014 | Transit | 27.50868 | 2.9
+  - `Kepler-130 d` | 2014 | Transit | 87.517905 | 1.64
+- **`Kepler-131`**
+  - `Kepler-131 b` | 2014 | Transit | 16.092 | 2.41
+  - `Kepler-131 c` | 2014 | Transit | 25.5169 | 0.84
+- **`Kepler-132`**
+  - `Kepler-132 b` | 2014 | Transit | 6.178196 | 1.21
+  - `Kepler-132 c` | 2014 | Transit | 6.414914 | 1.28
+  - `Kepler-132 d` | 2014 | Transit | 18.010199 | 1.55
+  - `Kepler-132 e` | 2016 | Transit | 110.2869374 | 1.18
+- **`Kepler-133`**
+  - `Kepler-133 b` | 2014 | Transit | 8.129976 | 1.76
+  - `Kepler-133 c` | 2014 | Transit | 31.517586 | 2.84
+- **`Kepler-134`**
+  - `Kepler-134 b` | 2014 | Transit | 5.317429 | 2
+  - `Kepler-134 c` | 2014 | Transit | 10.105785 | 1.26
+- **`Kepler-135`**
+  - `Kepler-135 b` | 2014 | Transit | 6.00253 | 1.81
+  - `Kepler-135 c` | 2014 | Transit | 11.448708 | 1.16
+- **`Kepler-136`**
+  - `Kepler-136 b` | 2014 | Transit | 11.5789 | 2.05
+  - `Kepler-136 c` | 2014 | Transit | 16.399235 | 1.99
+- **`Kepler-137`**
+  - `Kepler-137 b` | 2014 | Transit | 8.436387 | 1.47
+  - `Kepler-137 c` | 2014 | Transit | 18.735753 | 1.88
+- **`Kepler-138`**
+  - `Kepler-138 b` | 2014 | Transit | 10.3134 | 0.64
+  - `Kepler-138 c` | 2014 | Transit | 13.7815 | 1.51
+  - `Kepler-138 d` | 2014 | Transit | 23.0923 | 1.51
+  - `Kepler-138 e` | 2022 | Transit Timing Variations | 38.23 | 0.797
+- **`Kepler-139`**
+  - `Kepler-139 d` | 2023 | Transit | 7.305699922 | 1.695
+  - `Kepler-139 b` | 2014 | Transit | 15.771044 | 2.94
+  - `Kepler-139 c` | 2014 | Transit | 157.072878 | 3.38
+  - `Kepler-139 f` | 2025 | Transit Timing Variations | 355 | 6.67
+  - `Kepler-139 e` | 2023 | Radial Velocity | 2047.635373 | 13.7
+- **`Kepler-140`**
+  - `Kepler-140 b` | 2014 | Transit | 3.25427 | 1.61
+  - `Kepler-140 c` | 2014 | Transit | 91.353282 | 1.8
+- **`Kepler-141`**
+  - `Kepler-141 b` | 2014 | Transit | 3.107675 | 0.69
+  - `Kepler-141 c` | 2014 | Transit | 7.010606 | 1.41
+- **`Kepler-142`**
+  - `Kepler-142 b` | 2014 | Transit | 2.024152 | 1.99
+  - `Kepler-142 c` | 2014 | Transit | 4.761702 | 2.86
+  - `Kepler-142 d` | 2014 | Transit | 41.809118 | 2.16
+- **`Kepler-143`**
+  - `Kepler-143 b` | 2014 | Transit | 16.007583 | 2.41
+  - `Kepler-143 c` | 2014 | Transit | 27.082511 | 3.37
+- **`Kepler-144`**
+  - `Kepler-144 b` | 2014 | Transit | 5.885273 | 1.33
+  - `Kepler-144 c` | 2014 | Transit | 10.104665 | 1.35
+- **`Kepler-145`**
+  - `Kepler-145 b` | 2013 | Transit | 22.951 | 2.65
+  - `Kepler-145 c` | 2013 | Transit | 42.882 | 4.32
+- **`Kepler-146`**
+  - `Kepler-146 b` | 2014 | Transit | 31.158799 | 3.71
+  - `Kepler-146 c` | 2014 | Transit | 76.732171 | 3.13
+- **`Kepler-147`**
+  - `Kepler-147 b` | 2014 | Transit | 12.610584 | 1.53
+  - `Kepler-147 c` | 2014 | Transit | 33.416423 | 2.43
+- **`Kepler-148`**
+  - `Kepler-148 b` | 2014 | Transit | 1.729366 | 1.8
+  - `Kepler-148 c` | 2014 | Transit | 4.180043 | 3.6
+  - `Kepler-148 d` | 2016 | Transit | 51.84688575 | 8.68
+- **`Kepler-149`**
+  - `Kepler-149 b` | 2014 | Transit | 29.198943 | 4.21
+  - `Kepler-149 c` | 2014 | Transit | 55.328328 | 1.61
+  - `Kepler-149 d` | 2014 | Transit | 160.018032 | 3.96
+- **`Kepler-150`**
+  - `Kepler-150 b` | 2014 | Transit | 3.428054 | 1.25
+  - `Kepler-150 c` | 2014 | Transit | 7.381998 | 3.69
+  - `Kepler-150 d` | 2014 | Transit | 12.56093 | 2.79
+  - `Kepler-150 e` | 2014 | Transit | 30.826557 | 3.12
+  - `Kepler-150 f` | 2017 | Transit | 637.2093 | 3.64
+- **`Kepler-151`**
+  - `Kepler-151 b` | 2014 | Transit | 15.228958 | 3.06
+  - `Kepler-151 c` | 2014 | Transit | 24.674612 | 2.09
+- **`Kepler-152`**
+  - `Kepler-152 b` | 2014 | Transit | 18.207973 | 2.79
+  - `Kepler-152 c` | 2014 | Transit | 88.255055 | 2.39
+- **`Kepler-153`**
+  - `Kepler-153 b` | 2014 | Transit | 18.870227 | 2.92
+  - `Kepler-153 c` | 2014 | Transit | 46.90232 | 2.53
+- **`Kepler-154`**
+  - `Kepler-154 e` | 2016 | Transit | 3.93276465 | 1.5
+  - `Kepler-154 f` | 2016 | Transit | 9.91935684 | 1.5
+  - `Kepler-154 d` | 2016 | Transit | 20.54981883 | 3.84
+  - `Kepler-154 b` | 2014 | Transit | 33.040532 | 2.26
+  - `Kepler-154 c` | 2014 | Transit | 62.303276 | 2.95
+- **`Kepler-155`**
+  - `Kepler-155 b` | 2014 | Transit | 5.931194 | 2.09
+  - `Kepler-155 c` | 2014 | Transit | 52.661793 | 2.24
+- **`Kepler-156`**
+  - `Kepler-156 b` | 2014 | Transit | 4.973456 | 2.3
+  - `Kepler-156 c` | 2014 | Transit | 15.906801 | 2.55
+- **`Kepler-157`**
+  - `Kepler-157 b` | 2014 | Transit | 1.732342 | 1.32
+  - `Kepler-157 d` | 2016 | Transit | 7.02573474 | 1.46
+  - `Kepler-157 c` | 2014 | Transit | 13.5405 | 2.24
+- **`Kepler-158`**
+  - `Kepler-158 d` | 2024 | Transit | 0.645088 | 0.43
+  - `Kepler-158 b` | 2014 | Transit | 16.709184 | 2.12
+  - `Kepler-158 c` | 2014 | Transit | 28.551383 | 1.9
+- **`Kepler-159`**
+  - `Kepler-159 b` | 2014 | Transit | 10.139623 | 2.38
+  - `Kepler-159 c` | 2014 | Transit | 43.595792 | 3.41
+- **`Kepler-160`**
+  - `Kepler-160 b` | 2014 | Transit | 4.309397 | 1.715
+  - `Kepler-160 c` | 2014 | Transit | 13.699429 | 3.76
+  - `Kepler-160 d` | 2020 | Transit Timing Variations | 30 | —
+- **`Kepler-161`**
+  - `Kepler-161 b` | 2014 | Transit | 4.921355 | 2.12
+  - `Kepler-161 c` | 2014 | Transit | 7.06424 | 2.05
+- **`Kepler-162`**
+  - `Kepler-162 b` | 2014 | Transit | 6.919798 | 1.26
+  - `Kepler-162 c` | 2014 | Transit | 19.446355 | 3.03
+- **`Kepler-163`**
+  - `Kepler-163 b` | 2014 | Transit | 7.810937 | 1.05
+  - `Kepler-163 c` | 2014 | Transit | 21.347262 | 2.26
+- **`Kepler-164`**
+  - `Kepler-164 b` | 2014 | Transit | 5.03503 | 1.41
+  - `Kepler-164 c` | 2014 | Transit | 10.945723 | 2.73
+  - `Kepler-164 d` | 2014 | Transit | 28.986769 | 2.45
+  - `Kepler-164 e` | 2023 | Transit | 94.886902 | 4.24
+- **`Kepler-165`**
+  - `Kepler-165 b` | 2014 | Transit | 8.180848 | 2.32
+  - `Kepler-165 c` | 2014 | Transit | 15.31299 | 2.23
+- **`Kepler-166`**
+  - `Kepler-166 d` | 2016 | Transit | 1.554003928 | 1.73
+  - `Kepler-166 b` | 2014 | Transit | 7.650254 | 2.27
+  - `Kepler-166 c` | 2014 | Transit | 34.260281 | 2.38
+
+</details>
+
+<a name="systems-10"></a>
+
+<details><summary>Kepler-167 – Kepler-346 · 180 ระบบ · 480 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`Kepler-167`**
+  - `Kepler-167 b` | 2014 | Transit | 4.3931539 | 1.718
+  - `Kepler-167 c` | 2014 | Transit | 7.406106 | 1.674
+  - `Kepler-167 d` | 2016 | Transit | 21.80379 | 1.238
+  - `Kepler-167 e` | 2016 | Transit | 1071.23205 | 10.16
+- **`Kepler-168`**
+  - `Kepler-168 b` | 2014 | Transit | 4.425391 | 1.46
+  - `Kepler-168 c` | 2014 | Transit | 13.193242 | 2.69
+- **`Kepler-169`**
+  - `Kepler-169 b` | 2014 | Transit | 3.250619 | 1.13
+  - `Kepler-169 c` | 2014 | Transit | 6.195469 | 1.21
+  - `Kepler-169 d` | 2014 | Transit | 8.348125 | 1.25
+  - `Kepler-169 e` | 2014 | Transit | 13.767102 | 2.2
+  - `Kepler-169 f` | 2014 | Transit | 87.090195 | 2.58
+- **`Kepler-170`**
+  - `Kepler-170 b` | 2014 | Transit | 7.930592 | 3.2
+  - `Kepler-170 c` | 2014 | Transit | 16.665863 | 2.86
+- **`Kepler-171`**
+  - `Kepler-171 b` | 2014 | Transit | 4.166972 | 2.34
+  - `Kepler-171 c` | 2014 | Transit | 11.463462 | 2.56
+  - `Kepler-171 d` | 2014 | Transit | 39.595519 | 1.89
+- **`Kepler-172`**
+  - `Kepler-172 b` | 2014 | Transit | 2.940309 | 2.35
+  - `Kepler-172 c` | 2014 | Transit | 6.388996 | 2.86
+  - `Kepler-172 d` | 2014 | Transit | 14.627119 | 2.25
+  - `Kepler-172 e` | 2014 | Transit | 35.118736 | 2.76
+- **`Kepler-173`**
+  - `Kepler-173 b` | 2014 | Transit | 4.263742 | 1.29
+  - `Kepler-173 c` | 2014 | Transit | 8.005777 | 2.43
+- **`Kepler-174`**
+  - `Kepler-174 b` | 2014 | Transit | 13.98179 | 1.96
+  - `Kepler-174 c` | 2014 | Transit | 44.000529 | 1.49
+  - `Kepler-174 d` | 2014 | Transit | 247.35373 | 2.19
+- **`Kepler-175`**
+  - `Kepler-175 b` | 2014 | Transit | 11.903515 | 2.56
+  - `Kepler-175 c` | 2014 | Transit | 34.035257 | 3.1
+- **`Kepler-176`**
+  - `Kepler-176 b` | 2014 | Transit | 5.433074 | 1.43
+  - `Kepler-176 c` | 2014 | Transit | 12.759712 | 2.6
+  - `Kepler-176 d` | 2014 | Transit | 25.751974 | 2.51
+  - `Kepler-176 e` | 2016 | Transit | 51.16579 | 1.45
+- **`Kepler-177`**
+  - `Kepler-177 b` | 2013 | Transit | 36.8601 | 3.5
+  - `Kepler-177 c` | 2013 | Transit | 49.40926 | 8.73
+- **`Kepler-178`**
+  - `Kepler-178 b` | 2014 | Transit | 9.576694 | 2.9
+  - `Kepler-178 c` | 2014 | Transit | 20.552802 | 2.88
+  - `Kepler-178 d` | 2014 | Transit | 96.678988 | 3.95
+- **`Kepler-179`**
+  - `Kepler-179 b` | 2014 | Transit | 2.735926 | 1.64
+  - `Kepler-179 c` | 2014 | Transit | 6.40013 | 2
+- **`Kepler-180`**
+  - `Kepler-180 b` | 2014 | Transit | 13.817124 | 1.5
+  - `Kepler-180 c` | 2014 | Transit | 41.885775 | 3.01
+- **`Kepler-181`**
+  - `Kepler-181 b` | 2014 | Transit | 3.137873 | 1.27
+  - `Kepler-181 c` | 2014 | Transit | 4.302149 | 1.99
+- **`Kepler-182`**
+  - `Kepler-182 b` | 2014 | Transit | 9.825792 | 2.58
+  - `Kepler-182 c` | 2014 | Transit | 20.684342 | 3.43
+- **`Kepler-183`**
+  - `Kepler-183 b` | 2014 | Transit | 5.687945 | 2.06
+  - `Kepler-183 c` | 2014 | Transit | 11.637071 | 2.27
+- **`Kepler-184`**
+  - `Kepler-184 b` | 2014 | Transit | 10.687576 | 2.36
+  - `Kepler-184 c` | 2014 | Transit | 20.303005 | 1.97
+  - `Kepler-184 d` | 2014 | Transit | 29.022358 | 2.49
+- **`Kepler-185`**
+  - `Kepler-185 b` | 2014 | Transit | 1.6329 | 1.17
+  - `Kepler-185 c` | 2014 | Transit | 20.729042 | 2.02
+- **`Kepler-186`**
+  - `Kepler-186 b` | 2014 | Transit | 3.8867907 | 1.07
+  - `Kepler-186 c` | 2014 | Transit | 7.267302 | 1.25
+  - `Kepler-186 d` | 2014 | Transit | 13.342996 | 1.4
+  - `Kepler-186 e` | 2014 | Transit | 22.407704 | 1.27
+  - `Kepler-186 f` † | 2014 | Transit | 129.9441 | 1.17
+- **`Kepler-187`**
+  - `Kepler-187 b` | 2014 | Transit | 4.938864 | 1.41
+  - `Kepler-187 c` | 2014 | Transit | 10.640263 | 2.67
+- **`Kepler-188`**
+  - `Kepler-188 b` | 2014 | Transit | 2.061897 | 1.68
+  - `Kepler-188 c` | 2014 | Transit | 5.996553 | 3.19
+- **`Kepler-189`**
+  - `Kepler-189 b` | 2014 | Transit | 10.399931 | 1.21
+  - `Kepler-189 c` | 2014 | Transit | 20.134866 | 2.38
+- **`Kepler-190`**
+  - `Kepler-190 b` | 2014 | Transit | 2.019999 | 1.56
+  - `Kepler-190 c` | 2014 | Transit | 3.763024 | 1.46
+- **`Kepler-191`**
+  - `Kepler-191 d` | 2016 | Transit | 5.945041017 | 2.28
+  - `Kepler-191 b` | 2014 | Transit | 9.939632 | 1.34
+  - `Kepler-191 c` | 2014 | Transit | 17.738506 | 1.86
+- **`Kepler-192`**
+  - `Kepler-192 d` | 2016 | Transit | 6.47027579 | 1.02
+  - `Kepler-192 b` | 2014 | Transit | 9.926746 | 2.74
+  - `Kepler-192 c` | 2014 | Transit | 21.2234 | 2.79
+- **`Kepler-193`**
+  - `Kepler-193 b` | 2014 | Transit | 11.38848 | 2.39
+  - `Kepler-193 c` | 2014 | Transit | 50.697494 | 2.75
+- **`Kepler-194`**
+  - `Kepler-194 b` | 2014 | Transit | 2.092281 | 1.51
+  - `Kepler-194 c` | 2014 | Transit | 17.308032 | 2.59
+  - `Kepler-194 d` | 2014 | Transit | 52.814973 | 2.4
+- **`Kepler-195`**
+  - `Kepler-195 b` | 2014 | Transit | 8.307872 | 2.03
+  - `Kepler-195 c` | 2014 | Transit | 34.096863 | 1.55
+- **`Kepler-196`**
+  - `Kepler-196 b` | 2014 | Transit | 20.739886 | 1.9
+  - `Kepler-196 c` | 2014 | Transit | 47.427737 | 2.24
+  - `Kepler-196 d` | 2021 | Transit | 122.0800018 | 2.66065673
+- **`Kepler-197`**
+  - `Kepler-197 b` | 2014 | Transit | 5.599308 | 1.02
+  - `Kepler-197 c` | 2014 | Transit | 10.349695 | 1.23
+  - `Kepler-197 d` | 2014 | Transit | 15.677563 | 1.22
+  - `Kepler-197 e` | 2014 | Transit | 25.209715 | 0.91
+- **`Kepler-198`**
+  - `Kepler-198 d` | 2016 | Transit | 1.31184443 | 1.53
+  - `Kepler-198 b` | 2014 | Transit | 17.790037 | 2.82
+  - `Kepler-198 c` | 2014 | Transit | 49.567416 | 2.47
+- **`Kepler-199`**
+  - `Kepler-199 b` | 2014 | Transit | 23.637604 | 3.11
+  - `Kepler-199 c` | 2014 | Transit | 67.093408 | 3.25
+- **`Kepler-200`**
+  - `Kepler-200 b` | 2014 | Transit | 8.594805 | 2.13
+  - `Kepler-200 c` | 2014 | Transit | 10.222157 | 1.59
+- **`Kepler-201`**
+  - `Kepler-201 b` | 2014 | Transit | 25.672083 | 2.46
+  - `Kepler-201 c` | 2014 | Transit | 151.884058 | 2.85
+- **`Kepler-202`**
+  - `Kepler-202 b` | 2014 | Transit | 4.069427 | 1.63
+  - `Kepler-202 c` | 2014 | Transit | 16.282493 | 1.85
+- **`Kepler-203`**
+  - `Kepler-203 b` | 2014 | Transit | 3.162697 | 2.57
+  - `Kepler-203 c` | 2014 | Transit | 5.370647 | 2.47
+  - `Kepler-203 d` | 2014 | Transit | 11.32972 | 1.44
+- **`Kepler-204`**
+  - `Kepler-204 b` | 2014 | Transit | 14.400974 | 2.53
+  - `Kepler-204 c` | 2014 | Transit | 25.660593 | 1.79
+- **`Kepler-205`**
+  - `Kepler-205 b` | 2014 | Transit | 2.75564 | 1.51
+  - `Kepler-205 c` | 2014 | Transit | 20.306546 | 1.64
+- **`Kepler-206`**
+  - `Kepler-206 b` | 2014 | Transit | 7.781987 | 1.2
+  - `Kepler-206 c` | 2014 | Transit | 13.137471 | 1.77
+  - `Kepler-206 d` | 2014 | Transit | 23.44281 | 1.19
+- **`Kepler-207`**
+  - `Kepler-207 b` | 2014 | Transit | 1.611865 | 1.57
+  - `Kepler-207 c` | 2014 | Transit | 3.071571 | 1.5
+  - `Kepler-207 d` | 2014 | Transit | 5.868075 | 3.31
+- **`Kepler-208`**
+  - `Kepler-208 b` | 2014 | Transit | 4.22864 | 1.63
+  - `Kepler-208 c` | 2014 | Transit | 7.466623 | 1.39
+  - `Kepler-208 d` | 2014 | Transit | 11.131786 | 1.2
+  - `Kepler-208 e` | 2014 | Transit | 16.259458 | 1.48
+- **`Kepler-209`**
+  - `Kepler-209 b` | 2014 | Transit | 16.087845 | 2.26
+  - `Kepler-209 c` | 2014 | Transit | 41.749882 | 3.1
+- **`Kepler-210`**
+  - `Kepler-210 b` | 2014 | Transit | 2.453234 | 2.94
+  - `Kepler-210 c` | 2014 | Transit | 7.972513 | 3.62
+- **`Kepler-211`**
+  - `Kepler-211 b` | 2014 | Transit | 4.138575 | 1.26
+  - `Kepler-211 c` | 2014 | Transit | 6.04045 | 1.29
+- **`Kepler-212`**
+  - `Kepler-212 b` | 2014 | Transit | 16.257582 | 1.09
+  - `Kepler-212 c` | 2014 | Transit | 31.805174 | 2.74
+- **`Kepler-213`**
+  - `Kepler-213 b` | 2014 | Transit | 2.46236 | 1.62
+  - `Kepler-213 c` | 2014 | Transit | 4.822962 | 2.34
+- **`Kepler-214`**
+  - `Kepler-214 b` | 2014 | Transit | 15.660544 | 2.61
+  - `Kepler-214 c` | 2014 | Transit | 28.7798 | 2.13
+- **`Kepler-215`**
+  - `Kepler-215 b` | 2014 | Transit | 9.360672 | 1.62
+  - `Kepler-215 c` | 2014 | Transit | 14.667108 | 1.77
+  - `Kepler-215 d` | 2014 | Transit | 30.864423 | 2.39
+  - `Kepler-215 e` | 2014 | Transit | 68.16101 | 1.75
+- **`Kepler-216`**
+  - `Kepler-216 b` | 2014 | Transit | 7.693641 | 2.35
+  - `Kepler-216 c` | 2014 | Transit | 17.406669 | 3.04
+- **`Kepler-217`**
+  - `Kepler-217 d` | 2016 | Transit | 3.88689525 | 1.32
+  - `Kepler-217 b` | 2014 | Transit | 5.374943 | 2.23
+  - `Kepler-217 c` | 2014 | Transit | 8.586004 | 1.85
+- **`Kepler-218`**
+  - `Kepler-218 b` | 2014 | Transit | 3.619337 | 1.48
+  - `Kepler-218 c` | 2014 | Transit | 44.699576 | 3.14
+  - `Kepler-218 d` | 2016 | Transit | 124.5244647 | 2.66
+- **`Kepler-219`**
+  - `Kepler-219 b` | 2014 | Transit | 4.585512 | 2.95
+  - `Kepler-219 c` | 2014 | Transit | 22.714613 | 3.58
+  - `Kepler-219 d` | 2014 | Transit | 47.903645 | 2.81
+- **`Kepler-220`**
+  - `Kepler-220 b` | 2014 | Transit | 4.159807 | 0.81
+  - `Kepler-220 c` | 2014 | Transit | 9.034199 | 1.57
+  - `Kepler-220 d` | 2014 | Transit | 28.122397 | 0.98
+  - `Kepler-220 e` | 2014 | Transit | 45.902733 | 1.33
+- **`Kepler-221`**
+  - `Kepler-221 b` | 2014 | Transit | 2.795906 | 1.71
+  - `Kepler-221 c` | 2014 | Transit | 5.690586 | 2.93
+  - `Kepler-221 d` | 2014 | Transit | 10.04156 | 2.73
+  - `Kepler-221 e` | 2014 | Transit | 18.369917 | 2.63
+- **`Kepler-222`**
+  - `Kepler-222 b` | 2014 | Transit | 3.936981 | 3.16
+  - `Kepler-222 c` | 2014 | Transit | 10.08881 | 4.64
+  - `Kepler-222 d` | 2014 | Transit | 28.081912 | 3.69
+- **`Kepler-223`**
+  - `Kepler-223 b` | 2014 | Transit | 7.38449 | 2.99
+  - `Kepler-223 c` | 2014 | Transit | 9.84564 | 3.44
+  - `Kepler-223 d` | 2014 | Transit | 14.78869 | 5.24
+  - `Kepler-223 e` | 2014 | Transit | 19.72567 | 4.6
+- **`Kepler-224`**
+  - `Kepler-224 b` | 2014 | Transit | 3.132924 | 1.39
+  - `Kepler-224 c` | 2014 | Transit | 5.925003 | 3.12
+  - `Kepler-224 d` | 2014 | Transit | 11.349393 | 2.3
+  - `Kepler-224 e` | 2014 | Transit | 18.643577 | 1.97
+- **`Kepler-225`**
+  - `Kepler-225 b` | 2014 | Transit | 6.738975 | 1.2
+  - `Kepler-225 c` | 2014 | Transit | 18.794234 | 1.84
+- **`Kepler-226`**
+  - `Kepler-226 b` | 2014 | Transit | 3.940997 | 1.55
+  - `Kepler-226 c` | 2014 | Transit | 5.349555 | 2.27
+  - `Kepler-226 d` | 2014 | Transit | 8.109044 | 1.22
+- **`Kepler-227`**
+  - `Kepler-227 b` | 2014 | Transit | 9.488015 | 3.11
+  - `Kepler-227 c` | 2014 | Transit | 54.418694 | 3.04
+- **`Kepler-228`**
+  - `Kepler-228 b` | 2014 | Transit | 2.566546 | 1.53
+  - `Kepler-228 c` | 2014 | Transit | 4.134444 | 2.7
+  - `Kepler-228 d` | 2014 | Transit | 11.094286 | 4.04
+- **`Kepler-229`**
+  - `Kepler-229 b` | 2014 | Transit | 6.252972 | 2.2
+  - `Kepler-229 c` | 2014 | Transit | 16.068638 | 4.92
+  - `Kepler-229 d` | 2014 | Transit | 41.194912 | 3.85
+- **`Kepler-230`**
+  - `Kepler-230 b` | 2014 | Transit | 32.625555 | 4.26
+  - `Kepler-230 c` | 2014 | Transit | 91.773242 | 2.04
+- **`Kepler-231`**
+  - `Kepler-231 b` | 2014 | Transit | 10.065275 | 1.73
+  - `Kepler-231 c` | 2014 | Transit | 19.271566 | 1.93
+- **`Kepler-232`**
+  - `Kepler-232 b` | 2014 | Transit | 4.431222 | 3.08
+  - `Kepler-232 c` | 2014 | Transit | 11.379349 | 3.83
+- **`Kepler-233`**
+  - `Kepler-233 b` | 2014 | Transit | 8.472382 | 2.43
+  - `Kepler-233 c` | 2014 | Transit | 60.418955 | 2.71
+- **`Kepler-234`**
+  - `Kepler-234 b` | 2014 | Transit | 2.711506 | 3.7
+  - `Kepler-234 c` | 2014 | Transit | 7.21205 | 3.51
+- **`Kepler-235`**
+  - `Kepler-235 b` | 2014 | Transit | 3.340222 | 2.23
+  - `Kepler-235 c` | 2014 | Transit | 7.824904 | 1.28
+  - `Kepler-235 d` | 2014 | Transit | 20.060548 | 2.05
+  - `Kepler-235 e` | 2014 | Transit | 46.183669 | 2.22
+- **`Kepler-236`**
+  - `Kepler-236 b` | 2014 | Transit | 8.295611 | 1.57
+  - `Kepler-236 c` | 2014 | Transit | 23.968127 | 2
+- **`Kepler-237`**
+  - `Kepler-237 b` | 2014 | Transit | 4.715106 | 1.41
+  - `Kepler-237 c` | 2014 | Transit | 8.103636 | 2.08
+- **`Kepler-238`**
+  - `Kepler-238 b` | 2014 | Transit | 2.090876 | 1.73
+  - `Kepler-238 c` | 2014 | Transit | 6.155557 | 2.39
+  - `Kepler-238 d` | 2014 | Transit | 13.233549 | 3.07
+  - `Kepler-238 e` | 2013 | Transit | 23.654 | 5.6
+  - `Kepler-238 f` | 2013 | Transit | 50.447 | 2
+- **`Kepler-239`**
+  - `Kepler-239 b` | 2014 | Transit | 11.763051 | 2.33
+  - `Kepler-239 c` | 2014 | Transit | 56.228098 | 2.51
+- **`Kepler-240`**
+  - `Kepler-240 b` | 2014 | Transit | 4.144495 | 1.37
+  - `Kepler-240 c` | 2014 | Transit | 7.953528 | 2.2
+- **`Kepler-241`**
+  - `Kepler-241 b` | 2014 | Transit | 12.718092 | 2.33
+  - `Kepler-241 c` | 2014 | Transit | 36.065978 | 2.57
+- **`Kepler-242`**
+  - `Kepler-242 b` | 2014 | Transit | 8.20395 | 2.61
+  - `Kepler-242 c` | 2014 | Transit | 14.496481 | 2
+- **`Kepler-243`**
+  - `Kepler-243 b` | 2014 | Transit | 5.715442 | 2.45
+  - `Kepler-243 c` | 2014 | Transit | 20.026218 | 1.99
+- **`Kepler-244`**
+  - `Kepler-244 b` | 2014 | Transit | 4.311792 | 2.76
+  - `Kepler-244 c` | 2014 | Transit | 9.767292 | 2.05
+  - `Kepler-244 d` | 2014 | Transit | 20.050401 | 2.31
+- **`Kepler-245`**
+  - `Kepler-245 e` | 2016 | Transit | 3.219821056 | 1.75
+  - `Kepler-245 b` | 2014 | Transit | 7.49019 | 2.57
+  - `Kepler-245 c` | 2014 | Transit | 17.460812 | 2.18
+  - `Kepler-245 d` | 2014 | Transit | 36.277108 | 3.03
+- **`Kepler-246`**
+  - `Kepler-246 b` | 2014 | Transit | 4.60182 | 2.34
+  - `Kepler-246 c` | 2014 | Transit | 11.187161 | 1.5
+- **`Kepler-247`**
+  - `Kepler-247 b` | 2014 | Transit | 3.33616 | 1.64
+  - `Kepler-247 c` | 2014 | Transit | 9.439452 | 4.09
+  - `Kepler-247 d` | 2014 | Transit | 20.4737 | 4.5
+  - `KOI-884 e` | 2014 | Transit Timing Variations | 31.101659 | 9.54
+- **`Kepler-248`**
+  - `Kepler-248 b` | 2014 | Transit | 6.308205 | 3.02
+  - `Kepler-248 c` | 2014 | Transit | 16.239494 | 4.07
+- **`Kepler-249`**
+  - `Kepler-249 b` | 2014 | Transit | 3.306539 | 1.09
+  - `Kepler-249 c` | 2014 | Transit | 7.113702 | 1.51
+  - `Kepler-249 d` | 2014 | Transit | 15.368459 | 1.57
+- **`Kepler-250`**
+  - `Kepler-250 b` | 2014 | Transit | 4.148141 | 1.13
+  - `Kepler-250 c` | 2014 | Transit | 7.156804 | 2.28
+  - `Kepler-250 d` | 2014 | Transit | 17.648312 | 2.18
+- **`Kepler-251`**
+  - `Kepler-251 b` | 2014 | Transit | 4.790936 | 1.33
+  - `Kepler-251 c` | 2014 | Transit | 16.514043 | 2.77
+  - `Kepler-251 d` | 2014 | Transit | 30.133001 | 2.77
+  - `Kepler-251 e` | 2014 | Transit | 99.640161 | 2.77
+- **`Kepler-252`**
+  - `Kepler-252 b` | 2014 | Transit | 6.668391 | 1.23
+  - `Kepler-252 c` | 2014 | Transit | 10.848463 | 2.15
+- **`Kepler-253`**
+  - `Kepler-253 b` | 2014 | Transit | 3.783986 | 1.63
+  - `Kepler-253 c` | 2014 | Transit | 10.281951 | 2.65
+  - `Kepler-253 d` | 2014 | Transit | 18.119869 | 3.17
+- **`Kepler-254`**
+  - `Kepler-254 b` | 2014 | Transit | 5.826662 | 3.87
+  - `Kepler-254 c` | 2014 | Transit | 12.412183 | 2.15
+  - `Kepler-254 d` | 2014 | Transit | 18.746477 | 2.5
+- **`Kepler-255`**
+  - `Kepler-255 d` | 2016 | Transit | 1.045622658 | 1.32
+  - `Kepler-255 b` | 2014 | Transit | 5.714606 | 1.55
+  - `Kepler-255 c` | 2014 | Transit | 9.946047 | 2.99
+- **`Kepler-256`**
+  - `Kepler-256 b` | 2014 | Transit | 1.620493 | 1.59
+  - `Kepler-256 c` | 2014 | Transit | 3.38802 | 2.15
+  - `Kepler-256 d` | 2014 | Transit | 5.839172 | 2.48
+  - `Kepler-256 e` | 2014 | Transit | 10.681572 | 2.35
+- **`Kepler-257`**
+  - `Kepler-257 b` | 2014 | Transit | 2.382667 | 2.61
+  - `Kepler-257 c` | 2014 | Transit | 6.581484 | 5.41
+  - `Kepler-257 d` | 2014 | Transit | 24.664551 | 4.95
+- **`Kepler-258`**
+  - `Kepler-258 b` | 2014 | Transit | 13.19722 | 4.06
+  - `Kepler-258 c` | 2014 | Transit | 33.653079 | 3.61
+- **`Kepler-259`**
+  - `Kepler-259 b` | 2014 | Transit | 8.115317 | 2.8
+  - `Kepler-259 c` | 2014 | Transit | 36.924931 | 2.7
+- **`Kepler-260`**
+  - `Kepler-260 b` | 2014 | Transit | 8.187399 | 2.01
+  - `Kepler-260 c` | 2014 | Transit | 76.050178 | 1.74
+- **`Kepler-261`**
+  - `Kepler-261 b` | 2014 | Transit | 10.381227 | 2.18
+  - `Kepler-261 c` | 2014 | Transit | 24.570858 | 2
+- **`Kepler-262`**
+  - `Kepler-262 b` | 2014 | Transit | 13.060855 | 1.36
+  - `Kepler-262 c` | 2014 | Transit | 21.853722 | 1.64
+- **`Kepler-263`**
+  - `Kepler-263 b` | 2014 | Transit | 16.568087 | 2.67
+  - `Kepler-263 c` | 2014 | Transit | 47.332773 | 2.47
+- **`Kepler-264`**
+  - `Kepler-264 b` | 2014 | Transit | 40.806231 | 3.33
+  - `Kepler-264 c` | 2014 | Transit | 140.101261 | 2.83
+- **`Kepler-265`**
+  - `Kepler-265 b` | 2014 | Transit | 6.846262 | 1.86
+  - `Kepler-265 c` | 2014 | Transit | 17.028937 | 2.63
+  - `Kepler-265 d` | 2014 | Transit | 43.130617 | 2.49
+  - `Kepler-265 e` | 2014 | Transit | 67.831024 | 2.59
+- **`Kepler-266`**
+  - `Kepler-266 b` | 2014 | Transit | 6.61833 | 2.48
+  - `Kepler-266 c` | 2014 | Transit | 107.723601 | 3.89
+- **`Kepler-267`**
+  - `Kepler-267 b` | 2014 | Transit | 3.353728 | 1.98
+  - `Kepler-267 c` | 2014 | Transit | 6.87745 | 2.13
+  - `Kepler-267 d` | 2014 | Transit | 28.464515 | 2.27
+- **`Kepler-268`**
+  - `Kepler-268 b` | 2014 | Transit | 25.934138 | 2.55
+  - `Kepler-268 c` | 2014 | Transit | 83.446393 | 3.38
+- **`Kepler-269`**
+  - `Kepler-269 b` | 2014 | Transit | 5.326718 | 2.47
+  - `Kepler-269 c` | 2014 | Transit | 8.127899 | 1.69
+- **`Kepler-270`**
+  - `Kepler-270 b` | 2014 | Transit | 11.476094 | 2.01
+  - `Kepler-270 c` | 2014 | Transit | 25.262887 | 1.77
+- **`Kepler-271`**
+  - `Kepler-271 d` | 2016 | Transit | 5.24972541 | 0.66
+  - `Kepler-271 c` | 2014 | Transit | 7.41086267 | 0.95
+  - `Kepler-271 b` | 2014 | Transit | 10.43547805 | 1.23
+- **`Kepler-272`**
+  - `Kepler-272 b` | 2014 | Transit | 2.971353 | 1.43
+  - `Kepler-272 c` | 2014 | Transit | 6.057342 | 1.79
+  - `Kepler-272 d` | 2014 | Transit | 10.937304 | 2.25
+- **`Kepler-273`**
+  - `Kepler-273 b` | 2014 | Transit | 2.936532 | 1.5
+  - `Kepler-273 c` | 2014 | Transit | 8.014927 | 1.98
+- **`Kepler-274`**
+  - `Kepler-274 b` | 2014 | Transit | 11.634788 | 1.54
+  - `Kepler-274 c` | 2014 | Transit | 33.197861 | 1.84
+- **`Kepler-275`**
+  - `Kepler-275 b` | 2014 | Transit | 10.300682 | 2.34
+  - `Kepler-275 c` | 2014 | Transit | 16.088134 | 3.38
+  - `Kepler-275 d` | 2014 | Transit | 35.676062 | 3.33
+- **`Kepler-276`**
+  - `Kepler-276 b` | 2014 | Transit | 14.12841 | 2.87
+  - `Kepler-276 c` | 2013 | Transit | 31.884 | 2.9
+  - `Kepler-276 d` | 2013 | Transit | 48.648 | 2.8
+- **`Kepler-277`**
+  - `Kepler-277 b` | 2013 | Transit | 17.324 | 2.92
+  - `Kepler-277 c` | 2013 | Transit | 33.006 | 3.36
+- **`Kepler-278`**
+  - `Kepler-278 b` | 2014 | Transit | 30.1556 | 3.955
+  - `Kepler-278 c` | 2014 | Transit | 51.111 | 3.268
+- **`Kepler-279`**
+  - `Kepler-279 b` | 2014 | Transit | 12.309681 | 3.62
+  - `Kepler-279 c` | 2013 | Transit | 35.736 | 4.3
+  - `Kepler-279 d` | 2013 | Transit | 54.414 | 3.1
+  - `Kepler-279 e` | 2025 | Transit | 98.3531 | 4.13
+- **`Kepler-280`**
+  - `Kepler-280 b` | 2014 | Transit | 2.139542 | 1.45
+  - `Kepler-280 c` | 2014 | Transit | 4.807091 | 2.01
+- **`Kepler-281`**
+  - `Kepler-281 b` | 2014 | Transit | 14.646008 | 2.82
+  - `Kepler-281 c` | 2014 | Transit | 36.337373 | 5.31
+  - `Kepler-281 d` | 2021 | Transit | 148.2720032 | 5.93747806
+- **`Kepler-282`**
+  - `Kepler-282 b` | 2014 | Transit | 9.220524 | 1.01
+  - `Kepler-282 c` | 2014 | Transit | 13.638723 | 1.2
+  - `Kepler-282 d` | 2013 | Transit | 24.806 | 2.46
+  - `Kepler-282 e` | 2013 | Transit | 44.347 | 3.1
+- **`Kepler-283`**
+  - `Kepler-283 b` | 2014 | Transit | 11.008151 | 2.13
+  - `Kepler-283 c` | 2014 | Transit | 92.743711 | 1.82
+- **`Kepler-284`**
+  - `Kepler-284 b` | 2014 | Transit | 12.699149 | 2.24
+  - `Kepler-284 c` | 2014 | Transit | 37.514456 | 2.61
+- **`Kepler-285`**
+  - `Kepler-285 b` | 2014 | Transit | 2.633867 | 1.34
+  - `Kepler-285 c` | 2014 | Transit | 6.186676 | 1.12
+- **`Kepler-286`**
+  - `Kepler-286 b` | 2014 | Transit | 1.796302 | 1.24
+  - `Kepler-286 c` | 2014 | Transit | 3.468095 | 1.37
+  - `Kepler-286 d` | 2014 | Transit | 5.914323 | 1.33
+  - `Kepler-286 e` | 2014 | Transit | 29.221289 | 1.77
+- **`Kepler-287`**
+  - `Kepler-287 b` | 2014 | Transit | 20.342199 | 2.33
+  - `Kepler-287 c` | 2014 | Transit | 44.851896 | 3.26
+- **`Kepler-288`**
+  - `Kepler-288 b` | 2014 | Transit | 6.097326 | 1.67
+  - `Kepler-288 c` | 2014 | Transit | 19.305772 | 2.85
+  - `Kepler-288 d` | 2014 | Transit | 56.633742 | 2.67
+- **`Kepler-289`**
+  - `Kepler-289 b` | 2014 | Transit | 34.5383 | 2.49
+  - `Kepler-289 d` | 2014 | Transit | 66.0282 | 3.03
+  - `Kepler-289 c` | 2014 | Transit | 125.8723 | 11.23
+  - `Kepler-289 e` | 2025 | Transit | 330.0716 | 2.94
+- **`Kepler-290`**
+  - `Kepler-290 d` | 2023 | Transit | 0.764017553 | 0.86
+  - `Kepler-290 b` | 2014 | Transit | 14.589347 | 2.25
+  - `Kepler-290 c` | 2014 | Transit | 36.77031 | 2.7
+- **`Kepler-291`**
+  - `Kepler-291 b` | 2014 | Transit | 3.546511 | 2.16
+  - `Kepler-291 c` | 2014 | Transit | 5.700786 | 1.88
+- **`Kepler-292`**
+  - `Kepler-292 b` | 2014 | Transit | 2.580827 | 1.32
+  - `Kepler-292 c` | 2014 | Transit | 3.715335 | 1.47
+  - `Kepler-292 d` | 2014 | Transit | 7.055679 | 2.23
+  - `Kepler-292 e` | 2014 | Transit | 11.97901 | 2.67
+  - `Kepler-292 f` | 2014 | Transit | 20.834237 | 2.35
+- **`Kepler-293`**
+  - `Kepler-293 b` | 2014 | Transit | 19.254196 | 3.07
+  - `Kepler-293 c` | 2014 | Transit | 54.155743 | 3.83
+- **`Kepler-294`**
+  - `Kepler-294 b` | 2014 | Transit | 3.701212 | 1.77
+  - `Kepler-294 c` | 2014 | Transit | 6.6264 | 2.71
+- **`Kepler-295`**
+  - `Kepler-295 b` | 2014 | Transit | 12.645164 | 1.22
+  - `Kepler-295 c` | 2014 | Transit | 21.526258 | 1.17
+  - `Kepler-295 d` | 2014 | Transit | 33.884054 | 1.36
+- **`Kepler-296`**
+  - `Kepler-296 c` | 2014 | Transit | 5.8416366 | 2
+  - `Kepler-296 b` | 2014 | Transit | 10.864384 | 1.61
+  - `Kepler-296 d` | 2014 | Transit | 19.850291 | 2.09
+  - `Kepler-296 e` | 2014 | Transit | 34.14211 | 1.53
+  - `Kepler-296 f` | 2014 | Transit | 63.33627 | 1.8
+- **`Kepler-297`**
+  - `Kepler-297 b` | 2014 | Transit | 38.871826 | 2.87
+  - `Kepler-297 c` | 2014 | Transit | 74.920137 | 6.54
+  - `Kepler-297 d` | 2023 | Transit | 150.0209961 | 7.11899996
+- **`Kepler-298`**
+  - `Kepler-298 b` | 2014 | Transit | 10.475464 | 1.96
+  - `Kepler-298 c` | 2014 | Transit | 22.92881 | 1.93
+  - `Kepler-298 d` | 2014 | Transit | 77.473633 | 2.5
+- **`Kepler-299`**
+  - `Kepler-299 b` | 2014 | Transit | 2.927128 | 1.32
+  - `Kepler-299 c` | 2014 | Transit | 6.885875 | 2.65
+  - `Kepler-299 d` | 2014 | Transit | 15.054786 | 1.86
+  - `Kepler-299 e` | 2014 | Transit | 38.285489 | 1.87
+- **`Kepler-300`**
+  - `Kepler-300 b` | 2014 | Transit | 10.446347 | 1.67
+  - `Kepler-300 c` | 2014 | Transit | 40.714955 | 2.25
+- **`Kepler-301`**
+  - `Kepler-301 b` | 2014 | Transit | 2.508553 | 1.35
+  - `Kepler-301 c` | 2014 | Transit | 5.419026 | 1.35
+  - `Kepler-301 d` | 2014 | Transit | 13.751243 | 1.75
+- **`Kepler-302`**
+  - `Kepler-302 b` | 2014 | Transit | 30.184104 | 4.06
+  - `Kepler-302 c` | 2014 | Transit | 127.282184 | 12.45
+- **`Kepler-303`**
+  - `Kepler-303 b` | 2014 | Transit | 1.937055 | 0.89
+  - `Kepler-303 c` | 2014 | Transit | 7.061149 | 1.14
+- **`Kepler-304`**
+  - `Kepler-304 e` | 2016 | Transit | 1.499146953 | 1.2
+  - `Kepler-304 b` | 2014 | Transit | 3.295709 | 2.86
+  - `Kepler-304 c` | 2014 | Transit | 5.315946 | 2.17
+  - `Kepler-304 d` | 2014 | Transit | 9.653471 | 2.75
+- **`Kepler-305`**
+  - `Kepler-305 e` | 2020 | Transit | 3.20538 | 1.7938153
+  - `Kepler-305 b` | 2013 | Transit | 5.487 | 3.6
+  - `Kepler-305 c` | 2013 | Transit | 8.291 | 3.3
+  - `Kepler-305 d` | 2014 | Transit | 16.74 | 2.76
+- **`Kepler-306`**
+  - `Kepler-306 b` | 2014 | Transit | 4.646186 | 1.52
+  - `Kepler-306 c` | 2014 | Transit | 7.240193 | 2.35
+  - `Kepler-306 d` | 2014 | Transit | 17.326644 | 2.47
+  - `Kepler-306 e` | 2014 | Transit | 44.840975 | 2.27
+- **`Kepler-307`**
+  - `Kepler-307 b` | 2013 | Transit | 10.4208 | 2.43
+  - `Kepler-307 c` | 2013 | Transit | 13.0729 | 2.2
+- **`Kepler-308`**
+  - `Kepler-308 b` | 2014 | Transit | 9.694928 | 2.12
+  - `Kepler-308 c` | 2014 | Transit | 15.38231 | 2.16
+- **`Kepler-309`**
+  - `Kepler-309 b` | 2014 | Transit | 5.923653 | 1.56
+  - `Kepler-309 c` | 2014 | Transit | 105.356383 | 2.51
+- **`Kepler-310`**
+  - `Kepler-310 b` | 2014 | Transit | 13.930698 | 1.19
+  - `Kepler-310 c` | 2014 | Transit | 56.47542 | 3.38
+  - `Kepler-310 d` | 2014 | Transit | 92.876125 | 2.47
+- **`Kepler-311`**
+  - `Kepler-311 b` | 2014 | Transit | 9.176092 | 1.7
+  - `Kepler-311 c` | 2014 | Transit | 19.738286 | 1.43
+  - `Kepler-311 d` | 2023 | Transit | 232.040326 | 2.05
+- **`Kepler-312`**
+  - `Kepler-312 b` | 2014 | Transit | 1.772419 | 1.29
+  - `Kepler-312 c` | 2014 | Transit | 19.747412 | 3.15
+- **`Kepler-313`**
+  - `Kepler-313 b` | 2014 | Transit | 14.970418 | 2.53
+  - `Kepler-313 c` | 2014 | Transit | 32.273273 | 2.57
+- **`Kepler-314`**
+  - `Kepler-314 b` | 2014 | Transit | 2.461069 | 0.83
+  - `Kepler-314 c` | 2014 | Transit | 5.960392 | 2.9
+- **`Kepler-315`**
+  - `Kepler-315 b` | 2014 | Transit | 96.101141 | 3.77
+  - `Kepler-315 c` | 2014 | Transit | 265.469335 | 4.15
+- **`Kepler-316`**
+  - `Kepler-316 b` | 2014 | Transit | 2.240508 | 1.06
+  - `Kepler-316 c` | 2014 | Transit | 6.827766 | 1.16
+- **`Kepler-317`**
+  - `Kepler-317 b` | 2014 | Transit | 5.524242 | 2.09
+  - `Kepler-317 c` | 2014 | Transit | 8.77501 | 1.72
+- **`Kepler-318`**
+  - `Kepler-318 b` | 2014 | Transit | 4.662715 | 4.71
+  - `Kepler-318 c` | 2014 | Transit | 11.815007 | 3.68
+- **`Kepler-319`**
+  - `Kepler-319 b` | 2014 | Transit | 4.362705 | 1.63
+  - `Kepler-319 c` | 2014 | Transit | 6.941357 | 2.63
+  - `Kepler-319 d` | 2014 | Transit | 31.781925 | 2.29
+- **`Kepler-320`**
+  - `Kepler-320 b` | 2014 | Transit | 8.371554 | 1.14
+  - `Kepler-320 c` | 2014 | Transit | 17.934937 | 1.37
+- **`Kepler-321`**
+  - `Kepler-321 b` | 2014 | Transit | 4.915379 | 1.77
+  - `Kepler-321 c` | 2014 | Transit | 13.093921 | 2.32
+- **`Kepler-322`**
+  - `Kepler-322 b` | 2014 | Transit | 1.653888 | 1.01
+  - `Kepler-322 c` | 2014 | Transit | 4.337234 | 1.67
+- **`Kepler-323`**
+  - `Kepler-323 b` | 2014 | Transit | 1.678328 | 1.381
+  - `Kepler-323 c` | 2014 | Transit | 3.5538229 | 1.57
+- **`Kepler-324`**
+  - `Kepler-324 b` | 2014 | Transit | 4.385315 | 1.14
+  - `Kepler-324 e` | 2021 | Transit | 13.97939968 | 2.03862444
+  - `KOI-1831 d` | 2018 | Transit | 34.169 | 1.13
+  - `Kepler-324 c` | 2014 | Transit | 51.805612 | 3.15
+- **`Kepler-325`**
+  - `Kepler-325 b` | 2014 | Transit | 4.544439 | 2.91
+  - `Kepler-325 c` | 2014 | Transit | 12.762172 | 2.54
+  - `Kepler-325 d` | 2014 | Transit | 38.715185 | 2.79
+- **`Kepler-326`**
+  - `Kepler-326 b` | 2014 | Transit | 2.248329 | 1.52
+  - `Kepler-326 c` | 2014 | Transit | 4.580358 | 1.4
+  - `Kepler-326 d` | 2014 | Transit | 6.766888 | 1.21
+- **`Kepler-327`**
+  - `Kepler-327 b` | 2014 | Transit | 2.549575 | 1.11
+  - `Kepler-327 c` | 2014 | Transit | 5.212333 | 1.03
+  - `Kepler-327 d` | 2014 | Transit | 13.969457 | 1.73
+- **`Kepler-328`**
+  - `Kepler-328 b` | 2013 | Transit | 34.921 | 2.3
+  - `Kepler-328 c` | 2013 | Transit | 71.312 | 5.4
+- **`Kepler-329`**
+  - `Kepler-329 b` | 2014 | Transit | 7.416397 | 1.4
+  - `Kepler-329 c` | 2014 | Transit | 18.684737 | 1.93
+- **`Kepler-330`**
+  - `Kepler-330 b` | 2014 | Transit | 8.25978 | 1.35
+  - `Kepler-330 c` | 2014 | Transit | 15.955387 | 1.95
+- **`Kepler-331`**
+  - `Kepler-331 b` | 2014 | Transit | 8.457496 | 1.82
+  - `Kepler-331 c` | 2014 | Transit | 17.28111 | 1.84
+  - `Kepler-331 d` | 2014 | Transit | 32.134328 | 1.64
+- **`Kepler-332`**
+  - `Kepler-332 b` | 2014 | Transit | 7.626324 | 1.17
+  - `Kepler-332 c` | 2014 | Transit | 15.995622 | 1.09
+  - `Kepler-332 d` | 2014 | Transit | 34.21154 | 1.18
+- **`Kepler-333`**
+  - `Kepler-333 b` | 2014 | Transit | 12.551158 | 1.32
+  - `Kepler-333 c` | 2014 | Transit | 24.08821 | 1.11
+- **`Kepler-334`**
+  - `Kepler-334 b` | 2014 | Transit | 5.470319 | 1.12
+  - `Kepler-334 c` | 2014 | Transit | 12.758005 | 1.43
+  - `Kepler-334 d` | 2014 | Transit | 25.09849 | 1.41
+- **`Kepler-335`**
+  - `Kepler-335 b` | 2014 | Transit | 6.562331 | 3.39
+  - `Kepler-335 c` | 2014 | Transit | 67.844469 | 3.07
+- **`Kepler-336`**
+  - `Kepler-336 b` | 2014 | Transit | 2.024823 | 1.02
+  - `Kepler-336 c` | 2014 | Transit | 9.600001 | 2.1
+  - `Kepler-336 d` | 2014 | Transit | 20.678772 | 2.37
+- **`Kepler-337`**
+  - `Kepler-337 b` | 2014 | Transit | 3.292781 | 1.54
+  - `Kepler-337 c` | 2014 | Transit | 9.693201 | 2.05
+- **`Kepler-338`**
+  - `Kepler-338 e` | 2014 | Transit | 9.341 | 1.56
+  - `Kepler-338 b` | 2014 | Transit | 13.726976 | 2.44
+  - `Kepler-338 c` | 2014 | Transit | 24.310856 | 2.34
+  - `Kepler-338 d` | 2014 | Transit | 44.431014 | 3
+- **`Kepler-339`**
+  - `Kepler-339 b` | 2014 | Transit | 4.977656 | 1.42
+  - `Kepler-339 c` | 2014 | Transit | 6.988055 | 1.15
+  - `Kepler-339 d` | 2014 | Transit | 10.558345 | 1.17
+- **`Kepler-340`**
+  - `Kepler-340 b` | 2014 | Transit | 14.844387 | 2.53
+  - `Kepler-340 c` | 2014 | Transit | 22.824669 | 3.37
+- **`Kepler-341`**
+  - `Kepler-341 b` | 2014 | Transit | 5.195528 | 1.18
+  - `Kepler-341 c` | 2014 | Transit | 8.01041 | 1.7
+  - `Kepler-341 d` | 2014 | Transit | 27.666313 | 1.85
+  - `Kepler-341 e` | 2014 | Transit | 42.473269 | 1.99
+- **`Kepler-342`**
+  - `Kepler-342 e` | 2016 | Transit | 1.644224613 | 0.88
+  - `Kepler-342 b` | 2014 | Transit | 15.170318 | 2.25
+  - `Kepler-342 c` | 2014 | Transit | 26.234138 | 1.96
+  - `Kepler-342 d` | 2014 | Transit | 39.459357 | 2.49
+- **`Kepler-343`**
+  - `Kepler-343 b` | 2014 | Transit | 8.96855 | 2.41
+  - `Kepler-343 c` | 2014 | Transit | 23.22182 | 2.02
+- **`Kepler-344`**
+  - `Kepler-344 b` | 2014 | Transit | 21.963945 | 2.61
+  - `Kepler-344 c` | 2014 | Transit | 125.596809 | 2.95
+- **`Kepler-345`**
+  - `Kepler-345 b` | 2014 | Transit | 7.415563 | 0.74
+  - `Kepler-345 c` | 2014 | Transit | 9.387427 | 1.2
+- **`Kepler-346`**
+  - `Kepler-346 b` | 2014 | Transit | 6.511127 | 2.66
+  - `Kepler-346 c` | 2014 | Transit | 23.851549 | 3.07
+
+</details>
+
+<a name="systems-11"></a>
+
+<details><summary>Kepler-347 – Kepler-543 · 180 ระบบ · 302 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`Kepler-347`**
+  - `Kepler-347 b` | 2014 | Transit | 12.79836 | 1.97
+  - `Kepler-347 c` | 2014 | Transit | 27.320871 | 1.75
+  - `Kepler-347 d` | 2023 | Transit | 85.517344 | 3.04
+- **`Kepler-348`**
+  - `Kepler-348 b` | 2014 | Transit | 7.05677 | 1.52
+  - `Kepler-348 c` | 2014 | Transit | 17.265427 | 1.33
+- **`Kepler-349`**
+  - `Kepler-349 b` | 2014 | Transit | 5.929778 | 1.9
+  - `Kepler-349 c` | 2014 | Transit | 12.247629 | 1.96
+- **`Kepler-350`**
+  - `Kepler-350 b` | 2014 | Transit | 11.189562 | 1.85
+  - `Kepler-350 c` | 2013 | Transit | 17.849 | 3.1
+  - `Kepler-350 d` | 2013 | Transit | 26.136 | 2.8
+- **`Kepler-351`**
+  - `Kepler-351 b` | 2014 | Transit | 37.054919 | 3.06
+  - `Kepler-351 c` | 2014 | Transit | 57.24809 | 3.19
+  - `Kepler-351 d` | 2016 | Transit | 142.544247 | 2.72
+- **`Kepler-352`**
+  - `Kepler-352 d` | 2021 | Transit | 6.887279987 | 0.80628032
+  - `Kepler-352 b` | 2014 | Transit | 10.05537 | 0.86
+  - `Kepler-352 c` | 2014 | Transit | 16.332995 | 1.24
+- **`Kepler-353`**
+  - `Kepler-353 b` | 2014 | Transit | 5.795278 | 0.89
+  - `Kepler-353 c` | 2014 | Transit | 8.410894 | 1.38
+- **`Kepler-354`**
+  - `Kepler-354 b` | 2014 | Transit | 5.47666 | 1.84
+  - `Kepler-354 c` | 2014 | Transit | 16.934402 | 1.31
+  - `Kepler-354 d` | 2014 | Transit | 24.209842 | 1.24
+- **`Kepler-355`**
+  - `Kepler-355 b` | 2014 | Transit | 11.03189 | 1.46
+  - `Kepler-355 c` | 2014 | Transit | 25.762294 | 2.71
+- **`Kepler-356`**
+  - `Kepler-356 b` | 2014 | Transit | 4.612696 | 1.57
+  - `Kepler-356 c` | 2014 | Transit | 13.121632 | 1.81
+- **`Kepler-357`**
+  - `Kepler-357 b` | 2014 | Transit | 6.475434 | 1.84
+  - `Kepler-357 c` | 2014 | Transit | 16.85837 | 2.67
+  - `Kepler-357 d` | 2014 | Transit | 49.499875 | 3.43
+- **`Kepler-358`**
+  - `Kepler-358 b` | 2014 | Transit | 34.060467 | 2.72
+  - `Kepler-358 c` | 2014 | Transit | 83.488369 | 2.85
+- **`Kepler-359`**
+  - `Kepler-359 b` | 2014 | Transit | 25.563222 | 3.53
+  - `Kepler-359 c` | 2014 | Transit | 57.68802 | 4.3
+  - `Kepler-359 d` | 2014 | Transit | 77.095691 | 4.01
+- **`Kepler-360`**
+  - `Kepler-360 b` | 2014 | Transit | 3.289672 | 1.65
+  - `Kepler-360 c` | 2014 | Transit | 7.186434 | 2.1
+- **`Kepler-361`**
+  - `Kepler-361 b` | 2014 | Transit | 8.486616 | 1.45
+  - `Kepler-361 c` | 2014 | Transit | 55.188023 | 2.52
+- **`Kepler-362`**
+  - `Kepler-362 b` | 2014 | Transit | 10.327186 | 0.88
+  - `Kepler-362 c` | 2014 | Transit | 37.866281 | 1.45
+- **`Kepler-363`**
+  - `Kepler-363 b` | 2014 | Transit | 3.614568 | 1.16
+  - `Kepler-363 c` | 2014 | Transit | 7.542427 | 1.69
+  - `Kepler-363 d` | 2014 | Transit | 11.932125 | 2.05
+- **`Kepler-364`**
+  - `Kepler-364 b` | 2014 | Transit | 25.745718 | 1.55
+  - `Kepler-364 c` | 2014 | Transit | 59.980627 | 2.15
+- **`Kepler-365`**
+  - `Kepler-365 b` | 2014 | Transit | 10.664903 | 2.04
+  - `Kepler-365 c` | 2014 | Transit | 17.784129 | 1.64
+- **`Kepler-366`**
+  - `Kepler-366 b` | 2014 | Transit | 3.281959 | 1.46
+  - `Kepler-366 c` | 2014 | Transit | 12.51616 | 1.79
+- **`Kepler-367`**
+  - `Kepler-367 b` | 2014 | Transit | 37.815724 | 1.3
+  - `Kepler-367 c` | 2014 | Transit | 53.578637 | 1.2
+- **`Kepler-368`**
+  - `Kepler-368 b` | 2014 | Transit | 26.84768 | 3.26
+  - `Kepler-368 c` | 2014 | Transit | 72.379334 | 3.88
+- **`Kepler-369`**
+  - `Kepler-369 b` | 2014 | Transit | 2.732756 | 1.13
+  - `Kepler-369 c` | 2014 | Transit | 14.871572 | 1.41
+- **`Kepler-370`**
+  - `Kepler-370 b` | 2014 | Transit | 4.57953 | 1.59
+  - `Kepler-370 c` | 2014 | Transit | 19.02293 | 1.91
+- **`Kepler-371`**
+  - `Kepler-371 b` | 2014 | Transit | 34.763278 | 1.89
+  - `Kepler-371 c` | 2014 | Transit | 67.968015 | 1.78
+- **`Kepler-372`**
+  - `Kepler-372 b` | 2014 | Transit | 6.849692 | 1.36
+  - `Kepler-372 c` | 2014 | Transit | 20.053763 | 2.09
+  - `Kepler-372 d` | 2014 | Transit | 30.092568 | 1.69
+- **`Kepler-373`**
+  - `Kepler-373 b` | 2014 | Transit | 5.535309 | 1.36
+  - `Kepler-373 c` | 2014 | Transit | 16.725948 | 1.24
+- **`Kepler-374`**
+  - `Kepler-374 b` | 2014 | Transit | 1.897806 | 1.03
+  - `Kepler-374 c` | 2014 | Transit | 3.282807 | 1.1
+  - `Kepler-374 d` | 2014 | Transit | 5.028219 | 1.31
+- **`Kepler-375`**
+  - `Kepler-375 b` | 2014 | Transit | 12.125934 | 1.45
+  - `Kepler-375 c` | 2014 | Transit | 19.986326 | 2.65
+- **`Kepler-376`**
+  - `Kepler-376 b` | 2014 | Transit | 4.920199 | 1.07
+  - `Kepler-376 c` | 2014 | Transit | 14.172327 | 1.79
+- **`Kepler-377`**
+  - `Kepler-377 b` | 2014 | Transit | 12.509529 | 1.39
+  - `Kepler-377 c` | 2014 | Transit | 27.014976 | 2.06
+- **`Kepler-378`**
+  - `Kepler-378 b` | 2014 | Transit | 16.092361 | 0.75
+  - `Kepler-378 c` | 2014 | Transit | 28.906009 | 0.7
+- **`Kepler-379`**
+  - `Kepler-379 b` | 2014 | Transit | 20.09838 | 1.66
+  - `Kepler-379 c` | 2014 | Transit | 62.784697 | 2.29
+- **`Kepler-380`**
+  - `Kepler-380 b` | 2014 | Transit | 3.930821 | 1.19
+  - `Kepler-380 c` | 2014 | Transit | 7.630004 | 1.27
+- **`Kepler-381`**
+  - `Kepler-381 b` | 2014 | Transit | 5.629021 | 0.99
+  - `Kepler-381 d` | 2021 | Transit | 8.256299973 | 1.0667865
+  - `Kepler-381 c` | 2014 | Transit | 13.391635 | 1.12
+- **`Kepler-382`**
+  - `Kepler-382 b` | 2014 | Transit | 5.262155 | 1.32
+  - `Kepler-382 c` | 2014 | Transit | 12.162701 | 1.59
+- **`Kepler-383`**
+  - `Kepler-383 b` | 2014 | Transit | 12.904532 | 1.32
+  - `Kepler-383 c` | 2014 | Transit | 31.200751 | 1.24
+- **`Kepler-384`**
+  - `Kepler-384 b` | 2014 | Transit | 22.597053 | 1.12
+  - `Kepler-384 c` | 2014 | Transit | 45.348269 | 1.13
+- **`Kepler-385`**
+  - `Kepler-385 b` | 2014 | Transit | 10.043686 | 2.73
+  - `Kepler-385 c` | 2014 | Transit | 15.163161 | 3.04
+  - `Kepler-385 d` | 2020 | Transit | 56.4159 | 2.6186448
+- **`Kepler-386`**
+  - `Kepler-386 b` | 2014 | Transit | 12.31043 | 1.39
+  - `Kepler-386 c` | 2014 | Transit | 25.193458 | 1.58
+- **`Kepler-387`**
+  - `Kepler-387 b` | 2014 | Transit | 6.791636 | 1.03
+  - `Kepler-387 c` | 2014 | Transit | 11.837549 | 0.89
+- **`Kepler-388`**
+  - `Kepler-388 b` | 2014 | Transit | 3.173315 | 0.81
+  - `Kepler-388 c` | 2014 | Transit | 13.297004 | 0.86
+- **`Kepler-389`**
+  - `Kepler-389 b` | 2014 | Transit | 3.244107 | 1.51
+  - `Kepler-389 c` | 2014 | Transit | 14.51143 | 1.46
+- **`Kepler-390`**
+  - `Kepler-390 b` | 2014 | Transit | 6.738088 | 0.82
+  - `Kepler-390 c` | 2014 | Transit | 13.060022 | 0.79
+- **`Kepler-391`**
+  - `Kepler-391 b` | 2014 | Transit | 7.4175 | 2.5
+  - `Kepler-391 c` | 2014 | Transit | 20.501 | 2.88
+- **`Kepler-392`**
+  - `Kepler-392 b` | 2014 | Transit | 5.341853 | 1
+  - `Kepler-392 c` | 2014 | Transit | 10.423118 | 1.1
+- **`Kepler-393`**
+  - `Kepler-393 b` | 2014 | Transit | 9.182417 | 1.29
+  - `Kepler-393 c` | 2014 | Transit | 14.613612 | 1.33
+- **`Kepler-394`**
+  - `Kepler-394 d` | 2021 | Transit | 5.613580227 | 1.50066814
+  - `Kepler-394 b` | 2014 | Transit | 8.005013 | 1.6
+  - `Kepler-394 c` | 2014 | Transit | 12.130686 | 1.66
+- **`Kepler-395`**
+  - `Kepler-395 b` | 2014 | Transit | 7.054346 | 1.03
+  - `Kepler-395 c` | 2014 | Transit | 34.989262 | 1.32
+- **`Kepler-396`**
+  - `Kepler-396 b` | 2013 | Transit | 42.994 | 3.5
+  - `Kepler-396 c` | 2013 | Transit | 88.505 | 5.3
+- **`Kepler-397`**
+  - `Kepler-397 b` | 2014 | Transit | 22.250949 | 2.46
+  - `Kepler-397 c` | 2014 | Transit | 135.498527 | 6.18
+- **`Kepler-398`**
+  - `Kepler-398 b` | 2014 | Transit | 4.081423 | 0.93
+  - `Kepler-398 d` | 2016 | Transit | 6.83437001 | 0.88
+  - `Kepler-398 c` | 2014 | Transit | 11.419412 | 1.01
+- **`Kepler-399`**
+  - `Kepler-399 b` | 2014 | Transit | 14.425281 | 0.96
+  - `Kepler-399 c` | 2014 | Transit | 26.67569 | 1.43
+  - `Kepler-399 d` | 2014 | Transit | 58.034616 | 1.89
+- **`Kepler-400`**
+  - `Kepler-400 b` | 2014 | Transit | 9.024389 | 1.65
+  - `Kepler-400 c` | 2014 | Transit | 17.340824 | 1.49
+- **`Kepler-401`**
+  - `Kepler-401 b` | 2014 | Transit | 14.383035 | 1.71
+  - `Kepler-401 c` | 2014 | Transit | 47.318218 | 2.15
+  - `Kepler-401 d` | 2016 | Transit | 184.256405 | 2.27
+- **`Kepler-402`**
+  - `Kepler-402 b` | 2014 | Transit | 4.028751 | 1.22
+  - `Kepler-402 c` | 2014 | Transit | 6.124821 | 1.56
+  - `Kepler-402 d` | 2014 | Transit | 8.921099 | 1.38
+  - `Kepler-402 e` | 2014 | Transit | 11.242861 | 1.46
+- **`Kepler-403`**
+  - `Kepler-403 b` | 2014 | Transit | 7.031462 | 1.25
+  - `Kepler-403 d` | 2016 | Transit | 13.61159129 | 1.42
+  - `Kepler-403 c` | 2014 | Transit | 54.280749 | 1.75
+- **`Kepler-404`**
+  - `Kepler-404 b` | 2014 | Transit | 11.829851 | 1.27
+  - `Kepler-404 c` | 2014 | Transit | 14.751166 | 1.72
+- **`Kepler-405`**
+  - `Kepler-405 b` | 2014 | Transit | 10.613839 | 2.08
+  - `Kepler-405 c` | 2014 | Transit | 29.726682 | 4.66
+- **`Kepler-406`**
+  - `Kepler-406 b` | 2014 | Transit | 2.42629 | 1.43
+  - `Kepler-406 c` | 2014 | Transit | 4.62332 | 0.85
+- **`Kepler-407`**
+  - `Kepler-407 b` | 2014 | Transit | 0.6693124 | 1.19
+  - `Kepler-407 c` | 2014 | Radial Velocity | 3000 | 12.3
+- **`Kepler-408`**
+  - `Kepler-408 b` | 2014 | Transit | 2.46502 | 0.82
+- **`Kepler-409`**
+  - `Kepler-409 b` | 2014 | Transit | 68.9583216 | 1.199
+- **`Kepler-410`**
+  - ดาวแม่ `Kepler-410 A`
+    - `Kepler-410 A b` | 2013 | Transit | 17.833648 | 2.838
+- **`Kepler-411`**
+  - `Kepler-411 b` | 2013 | Transit | 3.005156 | 2.401
+  - `Kepler-411 c` | 2016 | Transit | 7.834435 | 4.421
+  - `Kepler-411 e` | 2018 | Transit Timing Variations | 31.509728 | 3.28
+  - `Kepler-411 d` | 2018 | Transit | 58.02035 | 3.319
+- **`Kepler-412`**
+  - `Kepler-412 b` | 2014 | Transit | 1.7208604 | 15.031269
+- **`Kepler-413`**
+  - `Kepler-413 b` CB | 2014 | Transit | 66.262 | 4.347
+- **`Kepler-414`**
+  - `Kepler-414 b` | 2014 | Transit | 4.7 | 1.71
+  - `Kepler-414 c` | 2014 | Transit | 7.171 | 3.01
+- **`Kepler-415`**
+  - `Kepler-415 b` | 2014 | Transit | 4.176 | 1.21
+  - `Kepler-415 c` | 2014 | Transit | 8.708 | 2.01
+- **`Kepler-416`**
+  - `Kepler-416 d` | 2023 | Transit | 3.07644709 | 1.61
+  - `Kepler-416 b` | 2014 | Transit | 6.319 | 2.48
+  - `Kepler-416 c` | 2014 | Transit | 12.209 | 2.352
+- **`Kepler-417`**
+  - `Kepler-417 b` | 2014 | Transit | 12.331 | 2.31
+  - `Kepler-417 c` | 2014 | Transit | 15.943 | 2.69
+- **`Kepler-418`**
+  - `Kepler-418 c` | 2021 | Transit | 12.21829987 | 5.22108654
+  - `Kepler-418 b` | 2014 | Transit | 86.67856 | 13.45
+- **`Kepler-419`**
+  - `Kepler-419 b` | 2014 | Transit | 69.7546 | 10.8
+  - `Kepler-419 c` | 2014 | Transit Timing Variations | 675.47 | 12.6
+- **`Kepler-421`**
+  - `Kepler-421 b` | 2014 | Transit | 704.1984 | 4.16
+- **`Kepler-422`**
+  - `Kepler-422 b` | 2014 | Transit | 7.8914483 | 12.89
+- **`Kepler-423`**
+  - `Kepler-423 b` | 2014 | Transit | 2.6843285 | 13.361
+- **`Kepler-424`**
+  - `Kepler-424 b` | 2014 | Transit | 3.3118644 | 9.98
+  - `Kepler-424 c` | 2014 | Radial Velocity | 223.3 | 12.7
+- **`Kepler-425`**
+  - `Kepler-425 b` | 2014 | Transit | 3.79701816 | 10.962
+- **`Kepler-426`**
+  - `Kepler-426 b` | 2014 | Transit | 3.21751883 | 12.22
+- **`Kepler-427`**
+  - `Kepler-427 b` | 2014 | Transit | 10.290994 | 13.79
+- **`Kepler-428`**
+  - `Kepler-428 b` | 2014 | Transit | 3.52563254 | 12.11
+- **`Kepler-430`**
+  - `Kepler-430 b` | 2015 | Transit | 35.968 | 3.25
+  - `Kepler-430 c` | 2015 | Transit | 110.979 | 1.75
+- **`Kepler-431`**
+  - `Kepler-431 b` | 2015 | Transit | 6.803 | 0.764
+  - `Kepler-431 c` | 2015 | Transit | 8.703 | 0.668
+  - `Kepler-431 d` | 2015 | Transit | 11.922 | 1.11
+- **`Kepler-432`**
+  - `Kepler-432 b` | 2015 | Transit | 52.501129 | 12.834305
+  - `Kepler-432 c` | 2015 | Radial Velocity | 406.2 | 13.3
+- **`Kepler-433`**
+  - `Kepler-433 b` | 2015 | Transit | 5.33408384 | 16.25
+- **`Kepler-434`**
+  - `Kepler-434 b` | 2015 | Transit | 12.8747099 | 12.67
+- **`Kepler-435`**
+  - `Kepler-435 b` | 2015 | Transit | 8.6001536 | 22.31
+- **`Kepler-436`**
+  - `Kepler-436 c` | 2016 | Transit | 16.79713874 | 2.33
+  - `Kepler-436 b` | 2015 | Transit | 64.00205 | 2.73
+- **`Kepler-437`**
+  - `Kepler-437 b` | 2015 | Transit | 66.65062 | 2.14
+- **`Kepler-438`**
+  - `Kepler-438 b` | 2015 | Transit | 35.23319 | 1.12
+- **`Kepler-439`**
+  - `Kepler-439 b` | 2015 | Transit | 178.1396 | 2.24
+- **`Kepler-440`**
+  - `Kepler-440 b` | 2015 | Transit | 101.11141 | 1.86
+- **`Kepler-441`**
+  - `Kepler-441 b` | 2015 | Transit | 207.2482 | 1.64
+- **`Kepler-442`**
+  - `Kepler-442 b` | 2015 | Transit | 112.3053 | 1.34
+- **`Kepler-443`**
+  - `Kepler-443 b` | 2015 | Transit | 177.6693 | 2.33
+- **`Kepler-444`**
+  - `Kepler-444 b` | 2015 | Transit | 3.6001053 | 0.403
+  - `Kepler-444 c` | 2015 | Transit | 4.5458841 | 0.497
+  - `Kepler-444 d` | 2015 | Transit | 6.189392 | 0.53
+  - `Kepler-444 e` | 2015 | Transit | 7.743493 | 0.546
+  - `Kepler-444 f` | 2015 | Transit | 9.740486 | 0.741
+- **`Kepler-445`**
+  - `Kepler-445 b` | 2015 | Transit | 2.984151 | 1.58
+  - `Kepler-445 c` | 2015 | Transit | 4.871229 | 2.51
+  - `Kepler-445 d` | 2015 | Transit | 8.15275 | 1.25
+- **`Kepler-446`**
+  - `Kepler-446 b` | 2015 | Transit | 1.565409 | 1.5
+  - `Kepler-446 c` | 2015 | Transit | 3.036179 | 1.11
+  - `Kepler-446 d` | 2015 | Transit | 5.148921 | 1.35
+- **`Kepler-447`**
+  - `Kepler-447 b` | 2015 | Transit | 7.79430132 | 18.49
+- **`Kepler-449`**
+  - `Kepler-449 b` | 2015 | Transit | 12.58242 | 2.056
+  - `Kepler-449 c` | 2015 | Transit | 33.6727 | 2.764
+- **`Kepler-450`**
+  - `Kepler-450 d` | 2015 | Transit | 7.51464 | 0.837
+  - `Kepler-450 c` | 2015 | Transit | 15.413135 | 2.62
+  - `Kepler-450 b` | 2015 | Transit | 28.454851 | 6.14
+- **`Kepler-452`**
+  - `Kepler-452 b` † | 2015 | Transit | 384.843 | 1.63
+- **`Kepler-453`**
+  - `Kepler-453 b` CB | 2015 | Transit | 240.503 | 6.204
+- **`Kepler-454`**
+  - `Kepler-454 b` | 2015 | Transit | 10.5737534 | 2.37
+  - `Kepler-454 c` | 2015 | Radial Velocity | 524.19 | 12.9
+  - `Kepler-454 d` | 2023 | Radial Velocity | 4073 | 13.3
+- **`Kepler-461`**
+  - `Kepler-461 b` | 2016 | Transit | 8.313783059 | 2.58
+- **`Kepler-462`**
+  - `Kepler-462 b` | 2016 | Transit | 84.6866 | 3
+  - `Kepler-462 c` | 2018 | Transit | 207.62 | 4
+- **`Kepler-463`**
+  - `Kepler-463 b` | 2016 | Transit | 8.981016833 | 3.05
+- **`Kepler-464`**
+  - `Kepler-464 b` | 2016 | Transit | 7.256965224 | 3.3
+- **`Kepler-465`**
+  - `Kepler-465 b` | 2016 | Transit | 9.940672466 | 2.95
+- **`Kepler-466`**
+  - `Kepler-466 c` | 2016 | Transit | 3.709213846 | 1.25
+  - `Kepler-466 b` | 2016 | Transit | 51.07926307 | 2.85
+- **`Kepler-467`**
+  - `Kepler-467 b` | 2016 | Transit | 24.99324193 | 2.25
+- **`Kepler-468`**
+  - `Kepler-468 b` | 2016 | Transit | 38.478757067 | 13.34
+- **`Kepler-471`**
+  - `Kepler-471 b` | 2016 | Transit | 5.014234575 | 14.96
+- **`Kepler-472`**
+  - `Kepler-472 b` | 2016 | Transit | 4.176255514 | 3.22
+- **`Kepler-473`**
+  - `Kepler-473 b` | 2016 | Transit | 14.55731705 | 4.08
+- **`Kepler-474`**
+  - `Kepler-474 b` | 2016 | Transit | 5.660672935 | 3.06
+- **`Kepler-475`**
+  - `Kepler-475 b` | 2016 | Transit | 3.105508189 | 2.49
+- **`Kepler-476`**
+  - `Kepler-476 b` | 2016 | Transit | 14.00640607 | 3.08
+- **`Kepler-477`**
+  - `Kepler-477 b` | 2016 | Transit | 11.11990653 | 2.07
+- **`Kepler-478`**
+  - `Kepler-478 b` | 2016 | Transit | 13.2217576 | 2.71
+- **`Kepler-479`**
+  - `Kepler-479 b` | 2016 | Transit | 12.49341307 | 2.12
+- **`Kepler-480`**
+  - `Kepler-480 b` | 2016 | Transit | 4.919583795 | 2.78
+- **`Kepler-481`**
+  - `Kepler-481 b` | 2016 | Transit | 10.06082567 | 2.5
+- **`Kepler-482`**
+  - `Kepler-482 b` | 2016 | Transit | 56.35418576 | 2.36
+- **`Kepler-483`**
+  - `Kepler-483 b` | 2016 | Transit | 30.229104 | 3.21
+- **`Kepler-484`**
+  - `Kepler-484 b` | 2016 | Transit | 10.045569313 | 2.28
+- **`Kepler-485`**
+  - `Kepler-485 b` | 2016 | Transit | 3.243259796 | 14.41
+- **`Kepler-487`**
+  - `Kepler-487 d` | 2021 | Transit | 2.418390036 | 2.77513568
+  - `Kepler-487 b` | 2016 | Transit | 15.358768403 | 11.42
+  - `Kepler-487 c` | 2016 | Transit | 38.6519976 | 2.68
+- **`Kepler-489`**
+  - `Kepler-489 b` | 2016 | Transit | 17.276296119 | 7.72
+- **`Kepler-490`**
+  - `Kepler-490 b` | 2016 | Transit | 3.268695154 | 11.65
+- **`Kepler-491`**
+  - `Kepler-491 b` | 2016 | Transit | 4.225384512 | 8.92
+- **`Kepler-493`**
+  - `Kepler-493 b` | 2016 | Transit | 3.003876581 | 15.13
+- **`Kepler-495`**
+  - `Kepler-495 b` | 2016 | Transit | 3.413036221 | 5.23
+  - `Kepler-495 c` | 2021 | Transit | 5.896609783 | 1.21936414
+- **`Kepler-496`**
+  - `Kepler-496 b` | 2016 | Transit | 8.30864937 | 2.32
+- **`Kepler-497`**
+  - `Kepler-497 b` | 2016 | Transit | 3.573203671 | 6.04
+- **`Kepler-498`**
+  - `Kepler-498 b` | 2016 | Transit | 9.61375356 | 3.03
+- **`Kepler-499`**
+  - `Kepler-499 b` | 2016 | Transit | 5.632528453 | 2.17
+- **`Kepler-500`**
+  - `Kepler-500 b` | 2016 | Transit | 8.508324398 | 2.58
+- **`Kepler-501`**
+  - `Kepler-501 c` | 2021 | Transit | 3.622760057 | 1.68119739
+  - `Kepler-501 b` | 2016 | Transit | 5.640677572 | 4.3
+- **`Kepler-502`**
+  - `Kepler-502 b` | 2016 | Transit | 4.28686431 | 4.77
+- **`Kepler-504`**
+  - `Kepler-504 b` | 2016 | Transit | 9.549275422 | 1.59
+- **`Kepler-505`**
+  - `Kepler-505 b` | 2016 | Transit | 27.52197994 | 2.6
+- **`Kepler-506`**
+  - `Kepler-506 b` | 2016 | Transit | 6.8834055 | 2.73
+- **`Kepler-507`**
+  - `Kepler-507 b` | 2016 | Transit | 3.568096926 | 1.3
+- **`Kepler-508`**
+  - `Kepler-508 b` | 2016 | Transit | 25.30889748 | 1.64
+- **`Kepler-509`**
+  - `Kepler-509 b` | 2016 | Transit | 41.74600392 | 2.49
+- **`Kepler-510`**
+  - `Kepler-510 b` | 2016 | Transit | 19.55659418 | 2.47
+- **`Kepler-511`**
+  - `Kepler-511 c` | 2021 | Transit | 26.62949944 | 4.20964327
+  - `Kepler-511 b` | 2016 | Transit | 296.637865 | 6.35
+- **`Kepler-512`**
+  - `Kepler-512 b` | 2016 | Transit | 34.43587975 | 2.69
+- **`Kepler-513`**
+  - `Kepler-513 b` | 2016 | Transit | 28.86235584 | 2.2
+- **`Kepler-514`**
+  - `Kepler-514 b` | 2016 | Transit | 5.65179605 | 1.72
+- **`Kepler-515`**
+  - `Kepler-515 b` | 2016 | Transit | 19.96371318 | 1.46
+- **`Kepler-516`**
+  - `Kepler-516 b` | 2016 | Transit | 24.85462415 | 5.74
+- **`Kepler-517`**
+  - `Kepler-517 b` | 2016 | Transit | 60.92832271 | 2.67
+- **`Kepler-518`**
+  - `Kepler-518 b` | 2016 | Transit | 8.512035877 | 2.11
+- **`Kepler-519`**
+  - `Kepler-519 b` | 2016 | Transit | 24.3078946 | 2.1
+- **`Kepler-520`**
+  - `Kepler-520 c` | 2016 | Transit | 5.21104261 | 1.07
+  - `Kepler-520 b` | 2016 | Transit | 19.67416124 | 1.66
+- **`Kepler-521`**
+  - `Kepler-521 b` | 2016 | Transit | 22.20813214 | 3.18
+- **`Kepler-522`**
+  - `Kepler-522 b` | 2016 | Transit | 38.58422849 | 6.91
+- **`Kepler-523`**
+  - `Kepler-523 b` | 2016 | Transit | 5.835983111 | 1.96
+- **`Kepler-524`**
+  - `Kepler-524 c` | 2016 | Transit | 1.88897906 | 0.96
+  - `Kepler-524 b` | 2016 | Transit | 7.97419807 | 1.91
+- **`Kepler-525`**
+  - `Kepler-525 b` | 2016 | Transit | 18.68404933 | 2.63
+- **`Kepler-526`**
+  - `Kepler-526 b` | 2016 | Transit | 5.458498316 | 1.99
+- **`Kepler-527`**
+  - `Kepler-527 b` | 2016 | Transit | 13.28535633 | 2.84
+- **`Kepler-528`**
+  - `Kepler-528 b` | 2016 | Transit | 19.78297415 | 2.08
+- **`Kepler-529`**
+  - `Kepler-529 b` | 2016 | Transit | 1.980357663 | 1.86
+  - `Kepler-529 c` | 2016 | Transit | 12.8345022 | 2
+  - `Kepler-529 d` | 2021 | Transit | 35.86619949 | 2.79502603
+- **`Kepler-530`**
+  - `Kepler-530 b` | 2016 | Transit | 39.30941904 | 3.01
+- **`Kepler-531`**
+  - `Kepler-531 b` | 2016 | Transit | 29.88485741 | 2.78
+- **`Kepler-532`**
+  - `Kepler-532 b` | 2016 | Transit | 12.92491623 | 2.57
+- **`Kepler-533`**
+  - `Kepler-533 b` | 2016 | Transit | 28.51120525 | 3.38
+- **`Kepler-534`**
+  - `Kepler-534 c` | 2021 | Transit | 7.378689766 | 1.227
+  - `Kepler-534 b` | 2016 | Transit | 15.95994513 | 2.24
+- **`Kepler-535`**
+  - `Kepler-535 b` | 2016 | Transit | 4.903321551 | 2.36
+- **`Kepler-536`**
+  - `Kepler-536 b` | 2016 | Transit | 1.827082299 | 3.1
+- **`Kepler-537`**
+  - `Kepler-537 b` | 2016 | Transit | 3.247555219 | 1.41
+- **`Kepler-538`**
+  - `Kepler-538 b` | 2016 | Transit | 81.73778 | 2.215
+- **`Kepler-539`**
+  - `Kepler-539 b` | 2016 | Transit | 125.63243 | 8.373123
+  - `Kepler-539 c` | 2016 | Transit Timing Variations | >1000 | 13.3
+- **`Kepler-540`**
+  - `Kepler-540 b` | 2016 | Transit | 172.7049784 | 2.71
+- **`Kepler-541`**
+  - `Kepler-541 b` | 2016 | Transit | 5.08005848 | 3.36
+- **`Kepler-542`**
+  - `Kepler-542 b` | 2016 | Transit | 13.14497566 | 1.57
+- **`Kepler-543`**
+  - `Kepler-543 b` | 2016 | Transit | 13.89961966 | 2.5
+
+</details>
+
+<a name="systems-12"></a>
+
+<details><summary>Kepler-544 – Kepler-726 · 180 ระบบ · 205 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`Kepler-544`**
+  - `Kepler-544 b` | 2016 | Transit | 21.41616926 | 2.12
+- **`Kepler-545`**
+  - `Kepler-545 b` | 2016 | Transit | 13.24934059 | 2.69
+- **`Kepler-546`**
+  - `Kepler-546 b` | 2016 | Transit | 4.147020258 | 7
+- **`Kepler-547`**
+  - `Kepler-547 b` | 2016 | Transit | 6.010384289 | 4
+- **`Kepler-548`**
+  - `Kepler-548 b` | 2016 | Transit | 4.454194338 | 11.99
+- **`Kepler-549`**
+  - `Kepler-549 d` | 2023 | Transit | 24.61480613 | 4.2
+  - `Kepler-549 b` | 2016 | Transit | 42.9495649 | 2.57
+  - `Kepler-549 c` | 2016 | Transit | 117.040498 | 2.93
+- **`Kepler-550`**
+  - `Kepler-550 b` | 2016 | Transit | 8.600104109 | 4.42
+- **`Kepler-551`**
+  - `Kepler-551 b` | 2016 | Transit | 12.3764661 | 2.73
+- **`Kepler-552`**
+  - `Kepler-552 b` | 2016 | Transit | 5.263415765 | 3.95
+- **`Kepler-553`**
+  - `Kepler-553 b` | 2016 | Transit | 4.030467 | 4.74139884
+  - `Kepler-553 c` | 2016 | Transit | 328.24017 | 11.57887706
+- **`Kepler-554`**
+  - `Kepler-554 b` | 2016 | Transit | 1.902208556 | 4.29
+- **`Kepler-555`**
+  - `Kepler-555 b` | 2016 | Transit | 16.21775407 | 2.83
+- **`Kepler-556`**
+  - `Kepler-556 b` | 2016 | Transit | 11.72292176 | 2.24
+- **`Kepler-557`**
+  - `Kepler-557 b` | 2016 | Transit | 3.705989551 | 2.67
+- **`Kepler-558`**
+  - `Kepler-558 b` | 2016 | Transit | 29.00790538 | 2.37
+- **`Kepler-559`**
+  - `Kepler-559 b` | 2016 | Transit | 17.58752333 | 3.61
+- **`Kepler-560`**
+  - `Kepler-560 b` | 2016 | Transit | 18.47764449 | 1.72
+- **`Kepler-561`**
+  - `Kepler-561 c` | 2016 | Transit | 5.350161983 | 2.68
+  - `Kepler-561 b` | 2016 | Transit | 58.3620495 | 6.96
+- **`Kepler-562`**
+  - `Kepler-562 b` | 2016 | Transit | 18.009314436 | 5.21
+- **`Kepler-563`**
+  - `Kepler-563 b` | 2016 | Transit | 22.18432708 | 3.09
+- **`Kepler-564`**
+  - `Kepler-564 b` | 2016 | Transit | 3.750832285 | 4.63
+- **`Kepler-565`**
+  - `Kepler-565 b` | 2016 | Transit | 4.243747226 | 3.64
+- **`Kepler-566`**
+  - `Kepler-566 b` | 2016 | Transit | 18.42794624 | 2.15
+- **`Kepler-567`**
+  - `Kepler-567 b` | 2016 | Transit | 16.54297375 | 2.25
+- **`Kepler-568`**
+  - `Kepler-568 b` | 2016 | Transit | 11.02347475 | 2.26
+- **`Kepler-569`**
+  - `Kepler-569 b` | 2016 | Transit | 34.18890521 | 3.16
+- **`Kepler-570`**
+  - `Kepler-570 b` | 2016 | Transit | 4.301662003 | 2.45
+- **`Kepler-571`**
+  - `Kepler-571 b` | 2016 | Transit | 4.798599388 | 2.64
+- **`Kepler-572`**
+  - `Kepler-572 b` | 2016 | Transit | 17.20523483 | 2.58
+- **`Kepler-573`**
+  - `Kepler-573 b` | 2016 | Transit | 22.18329658 | 2.79
+- **`Kepler-574`**
+  - `Kepler-574 b` | 2016 | Transit | 7.65880414 | 2.39
+- **`Kepler-575`**
+  - `Kepler-575 b` | 2016 | Transit | 9.37891944 | 2.39
+- **`Kepler-576`**
+  - `Kepler-576 b` | 2016 | Transit | 29.91136794 | 3.27
+- **`Kepler-577`**
+  - `Kepler-577 b` | 2016 | Transit | 25.69578251 | 2.55
+- **`Kepler-578`**
+  - `Kepler-578 b` | 2016 | Transit | 1.616883696 | 2
+- **`Kepler-579`**
+  - `Kepler-579 b` | 2016 | Transit | 9.66857723 | 2
+- **`Kepler-580`**
+  - `Kepler-580 b` | 2016 | Transit | 8.222419656 | 2.57
+- **`Kepler-581`**
+  - `Kepler-581 b` | 2016 | Transit | 40.6069821 | 2.63
+- **`Kepler-582`**
+  - `Kepler-582 b` | 2016 | Transit | 18.49235668 | 3.68
+- **`Kepler-583`**
+  - `Kepler-583 b` | 2016 | Transit | 6.5100253 | 2.28
+- **`Kepler-584`**
+  - `Kepler-584 b` | 2016 | Transit | 35.1810304 | 4.21
+- **`Kepler-585`**
+  - `Kepler-585 b` | 2016 | Transit | 2.752359753 | 2.83
+- **`Kepler-586`**
+  - `Kepler-586 b` | 2016 | Transit | 2.104722184 | 2.79
+- **`Kepler-587`**
+  - `Kepler-587 b` | 2016 | Transit | 10.94027841 | 2.23
+- **`Kepler-588`**
+  - `Kepler-588 b` | 2016 | Transit | 4.221625357 | 2.63
+- **`Kepler-589`**
+  - `Kepler-589 c` | 2021 | Transit | 3.52466011 | 1.11727238
+  - `Kepler-589 b` | 2016 | Transit | 16.54964934 | 2.27
+- **`Kepler-590`**
+  - `Kepler-590 b` | 2016 | Transit | 5.85296257 | 4.02
+- **`Kepler-591`**
+  - `Kepler-591 b` | 2016 | Transit | 81.1694299 | 3.39
+- **`Kepler-592`**
+  - `Kepler-592 b` | 2016 | Transit | 2.820192408 | 2.39
+- **`Kepler-593`**
+  - `Kepler-593 b` | 2016 | Transit | 21.21708973 | 2.87
+- **`Kepler-594`**
+  - `Kepler-594 b` | 2016 | Transit | 13.64618192 | 2.18
+- **`Kepler-595`**
+  - `Kepler-595 c` | 2020 | Transit | 12.38602 | 1.009
+  - `Kepler-595 b` | 2016 | Transit | 25.3029092 | 3.708
+- **`Kepler-596`**
+  - `Kepler-596 b` | 2016 | Transit | 21.30022655 | 3.46
+- **`Kepler-597`**
+  - `Kepler-597 b` | 2016 | Transit | 13.02365861 | 2.37
+- **`Kepler-598`**
+  - `Kepler-598 b` | 2016 | Transit | 3.70175428 | 1.5
+  - `Kepler-598 c` | 2020 | Transit | 86.4945 | 3.02420941
+- **`Kepler-599`**
+  - `Kepler-599 b` | 2016 | Transit | 15.65562652 | 2.84
+- **`Kepler-600`**
+  - `Kepler-600 b` | 2016 | Transit | 23.67517607 | 2.9
+- **`Kepler-601`**
+  - `Kepler-601 b` | 2016 | Transit | 5.378868441 | 1.9
+- **`Kepler-602`**
+  - `Kepler-602 b` | 2016 | Transit | 15.28469497 | 2.09
+- **`Kepler-603`**
+  - `Kepler-603 d` | 2016 | Transit | 6.2171292 | 1.32
+  - `Kepler-603 b` | 2016 | Transit | 21.05358596 | 2.65
+  - `Kepler-603 c` | 2016 | Transit | 127.9075774 | 6.5
+- **`Kepler-604`**
+  - `Kepler-604 b` | 2016 | Transit | 25.85501786 | 2.59
+- **`Kepler-605`**
+  - `Kepler-605 c` | 2016 | Transit | 2.358951515 | 0.86
+  - `Kepler-605 b` | 2016 | Transit | 3.383538066 | 1.44
+- **`Kepler-606`**
+  - `Kepler-606 b` | 2016 | Transit | 24.31575992 | 3.31
+- **`Kepler-607`**
+  - `Kepler-607 b` | 2016 | Transit | 0.638163204 | 0.87
+  - `Kepler-607 c` | 2021 | Transit | 39.67679977 | 2.76001201
+- **`Kepler-608`**
+  - `Kepler-608 b` | 2016 | Transit | 6.412515037 | 3.64
+- **`Kepler-609`**
+  - `Kepler-609 b` | 2016 | Transit | 6.521210666 | 3.35
+- **`Kepler-610`**
+  - `Kepler-610 b` | 2016 | Transit | 6.996926554 | 4.19
+  - `Kepler-610 c` | 2016 | Transit | 151.86392 | 3.3
+- **`Kepler-611`**
+  - `Kepler-611 b` | 2016 | Transit | 2.437033302 | 1.65
+- **`Kepler-612`**
+  - `Kepler-612 b` | 2016 | Transit | 3.722156413 | 2.84
+- **`Kepler-613`**
+  - `Kepler-613 b` | 2016 | Transit | 15.77979614 | 2.29
+- **`Kepler-614`**
+  - `Kepler-614 b` | 2016 | Transit | 14.03491514 | 2.39
+- **`Kepler-615`**
+  - `Kepler-615 b` | 2016 | Transit | 10.35584657 | 1.74
+- **`Kepler-616`**
+  - `Kepler-616 b` | 2016 | Transit | 9.99761851 | 2.43
+  - `Kepler-616 d` | 2021 | Transit | 51.06740189 | 2.653
+  - `Kepler-616 c` | 2016 | Transit | 90.4113556 | 3.41
+- **`Kepler-617`**
+  - `Kepler-617 b` | 2016 | Transit | 1.682696148 | 1.32
+- **`Kepler-618`**
+  - `Kepler-618 b` | 2016 | Transit | 3.595769645 | 2.6
+- **`Kepler-619`**
+  - `Kepler-619 c` | 2016 | Transit | 1.208465026 | 1.69
+  - `Kepler-619 b` | 2016 | Transit | 5.404272197 | 3.16
+  - `Kepler-619 d` | 2023 | Transit | 11.67894236 | 4.17
+- **`Kepler-620`**
+  - `Kepler-620 b` | 2016 | Transit | 12.91375431 | 3.32
+- **`Kepler-621`**
+  - `Kepler-621 b` | 2016 | Transit | 2.628113746 | 2.3
+- **`Kepler-622`**
+  - `Kepler-622 b` | 2016 | Transit | 14.28226676 | 2.13
+- **`Kepler-623`**
+  - `Kepler-623 b` | 2016 | Transit | 9.07097734 | 3.01
+- **`Kepler-624`**
+  - `Kepler-624 b` | 2016 | Transit | 14.58649607 | 2.31
+- **`Kepler-625`**
+  - `Kepler-625 c` | 2016 | Transit | 4.1653651 | 1.05
+  - `Kepler-625 b` | 2016 | Transit | 7.75192492 | 1.99
+- **`Kepler-626`**
+  - `Kepler-626 b` | 2016 | Transit | 14.48585199 | 2.29
+- **`Kepler-627`**
+  - `Kepler-627 b` | 2016 | Transit | 40.6994443 | 3.73
+- **`Kepler-629`**
+  - `Kepler-629 b` | 2016 | Transit | 7.2385854 | 1.38
+- **`Kepler-630`**
+  - `Kepler-630 b` | 2016 | Transit | 161.4743937 | 3.18
+- **`Kepler-631`**
+  - `Kepler-631 b` | 2016 | Transit | 17.97979059 | 2.9
+- **`Kepler-632`**
+  - `Kepler-632 b` | 2016 | Transit | 30.99660733 | 2.21
+- **`Kepler-633`**
+  - `Kepler-633 b` | 2016 | Transit | 8.50340718 | 1.63
+  - `Kepler-633 c` | 2021 | Transit | 23.78319931 | 2.296
+- **`Kepler-634`**
+  - `Kepler-634 b` | 2016 | Transit | 5.16950177 | 1.89
+- **`Kepler-635`**
+  - `Kepler-635 b` | 2016 | Transit | 23.44971004 | 2.64
+- **`Kepler-636`**
+  - `Kepler-636 b` | 2016 | Transit | 16.080661147 | 4.45
+- **`Kepler-637`**
+  - `Kepler-637 b` | 2016 | Transit | 23.20584623 | 4.75
+- **`Kepler-638`**
+  - `Kepler-638 b` | 2016 | Transit | 6.07972888 | 1.83
+- **`Kepler-639`**
+  - `Kepler-639 b` | 2016 | Transit | 10.21420496 | 2.38
+- **`Kepler-640`**
+  - `Kepler-640 b` | 2016 | Transit | 22.24813967 | 2.56
+- **`Kepler-641`**
+  - `Kepler-641 b` | 2016 | Transit | 9.48961571 | 1.85
+- **`Kepler-642`**
+  - `Kepler-642 b` | 2016 | Transit | 4.41745855 | 2.9
+- **`Kepler-643`**
+  - `Kepler-643 b` | 2016 | Transit | 16.33889626 | 10.16
+- **`Kepler-644`**
+  - `Kepler-644 b` | 2016 | Transit | 3.173917103 | 3.15
+- **`Kepler-645`**
+  - `Kepler-645 b` | 2016 | Transit | 3.275822621 | 2.1
+- **`Kepler-646`**
+  - `Kepler-646 b` | 2016 | Transit | 15.87364565 | 1.99
+- **`Kepler-647`**
+  - `Kepler-647 b` | 2016 | Transit | 16.2254649 | 1.17
+  - `Kepler-647 c` | 2020 | Transit | 29.6663 | 4.00135002
+- **`Kepler-648`**
+  - `Kepler-648 b` | 2016 | Transit | 17.4211749 | 3.22
+- **`Kepler-649`**
+  - `Kepler-649 b` | 2016 | Transit | 29.90722674 | 2.26
+- **`Kepler-650`**
+  - `Kepler-650 b` | 2016 | Transit | 3.032145588 | 2.96
+- **`Kepler-651`**
+  - `Kepler-651 b` | 2016 | Transit | 21.38521506 | 2.37
+- **`Kepler-652`**
+  - `Kepler-652 b` | 2016 | Transit | 4.182002531 | 2.49
+- **`Kepler-653`**
+  - `Kepler-653 c` | 2016 | Transit | 0.900376476 | 0.78
+  - `Kepler-653 b` | 2016 | Transit | 14.70748976 | 1.95
+- **`Kepler-654`**
+  - `Kepler-654 b` | 2016 | Transit | 13.72465129 | 2.07
+- **`Kepler-655`**
+  - `Kepler-655 b` | 2016 | Transit | 46.4063358 | 2.71
+- **`Kepler-656`**
+  - `Kepler-656 b` | 2016 | Transit | 1.260259094 | 3.12
+  - `Kepler-656 c` | 2023 | Transit | 5.25449393 | 1.41
+- **`Kepler-657`**
+  - `Kepler-657 b` | 2016 | Transit | 24.54350418 | 3.52
+- **`Kepler-658`**
+  - `Kepler-658 b` | 2016 | Transit | 1.287076762 | 1.63
+- **`Kepler-659`**
+  - `Kepler-659 b` | 2016 | Transit | 17.671796 | 2.5
+- **`Kepler-660`**
+  - `Kepler-660 b` | 2016 | Transit | 9.27358194 | 2.57
+- **`Kepler-661`**
+  - `Kepler-661 b` | 2016 | Transit | 6.029301321 | 3.07
+- **`Kepler-662`**
+  - `Kepler-662 b` | 2016 | Transit | 21.67697486 | 2.18
+- **`Kepler-663`**
+  - `Kepler-663 b` | 2016 | Transit | 4.99678284 | 2.6
+- **`Kepler-664`**
+  - `Kepler-664 b` | 2016 | Transit | 2.525593315 | 2.66
+- **`Kepler-665`**
+  - `Kepler-665 b` | 2016 | Transit | 16.01310205 | 2.6
+- **`Kepler-666`**
+  - `Kepler-666 b` | 2016 | Transit | 4.49876092 | 2.4
+- **`Kepler-667`**
+  - `Kepler-667 b` | 2016 | Transit | 41.43962808 | 4.73
+- **`Kepler-668`**
+  - `Kepler-668 b` | 2016 | Transit | 8.35390639 | 2.7
+- **`Kepler-669`**
+  - `Kepler-669 b` | 2016 | Transit | 4.125546869 | 4.83
+- **`Kepler-670`**
+  - `Kepler-670 b` | 2016 | Transit | 2.816504852 | 13.18
+- **`Kepler-671`**
+  - `Kepler-671 b` | 2016 | Transit | 4.280958588 | 2.69
+- **`Kepler-672`**
+  - `Kepler-672 b` | 2016 | Transit | 38.3774623 | 2.5
+- **`Kepler-673`**
+  - `Kepler-673 b` | 2016 | Transit | 3.728731093 | 6.54
+- **`Kepler-674`**
+  - `Kepler-674 b` | 2016 | Transit | 2.243381847 | 1.69
+- **`Kepler-675`**
+  - `Kepler-675 b` | 2016 | Transit | 2.33743801 | 2.44
+- **`Kepler-676`**
+  - `Kepler-676 b` | 2016 | Transit | 11.59822172 | 3.04
+- **`Kepler-677`**
+  - `Kepler-677 b` | 2016 | Transit | 6.57531678 | 5.38
+- **`Kepler-678`**
+  - `Kepler-678 b` | 2016 | Transit | 7.27503724 | 5.14
+- **`Kepler-679`**
+  - `Kepler-679 b` | 2016 | Transit | 12.39358604 | 3.01
+- **`Kepler-680`**
+  - `Kepler-680 b` | 2016 | Transit | 3.689926291 | 2.42
+- **`Kepler-681`**
+  - `Kepler-681 b` | 2016 | Transit | 26.39435646 | 3.08
+- **`Kepler-682`**
+  - `Kepler-682 b` | 2016 | Transit | 12.611906672 | 7.37
+- **`Kepler-683`**
+  - `Kepler-683 b` | 2016 | Transit | 2.539183179 | 1.97
+- **`Kepler-684`**
+  - `Kepler-684 b` | 2016 | Transit | 6.770302008 | 3.36
+- **`Kepler-685`**
+  - `Kepler-685 b` | 2016 | Transit | 1.6255222 | 10.58
+- **`Kepler-686`**
+  - `Kepler-686 b` | 2016 | Transit | 1.594745463 | 12.15
+- **`Kepler-687`**
+  - `Kepler-687 b` | 2016 | Transit | 20.50586978 | 3.52
+- **`Kepler-688`**
+  - `Kepler-688 b` | 2016 | Transit | 3.895936844 | 9.76
+- **`Kepler-689`**
+  - `Kepler-689 b` | 2016 | Transit | 22.36656079 | 2.89
+- **`Kepler-690`**
+  - `Kepler-690 b` | 2016 | Transit | 7.748094374 | 5.95
+- **`Kepler-691`**
+  - `Kepler-691 b` | 2016 | Transit | 8.114379 | 2.09
+- **`Kepler-692`**
+  - `Kepler-692 b` | 2016 | Transit | 21.81293494 | 3.11
+- **`Kepler-693`**
+  - `Kepler-693 b` | 2016 | Transit | 15.37563332 | 10.18
+- **`Kepler-694`**
+  - `Kepler-694 b` | 2016 | Transit | 6.365841612 | 2.8
+- **`Kepler-695`**
+  - `Kepler-695 b` | 2016 | Transit | 3.040330424 | 9.21
+- **`Kepler-696`**
+  - `Kepler-696 b` | 2016 | Transit | 4.190425575 | 6.14
+- **`Kepler-697`**
+  - `Kepler-697 b` | 2016 | Transit | 3.709870645 | 4.13
+- **`Kepler-698`**
+  - `Kepler-698 b` | 2016 | Transit | 16.32976218 | 3.68
+- **`Kepler-700`**
+  - `Kepler-700 b` | 2016 | Transit | 80.8720639 | 5.99
+- **`Kepler-701`**
+  - `Kepler-701 b` | 2016 | Transit | 10.35533177 | 2.84
+- **`Kepler-702`**
+  - `Kepler-702 b` | 2016 | Transit | 10.526294063 | 9.17
+- **`Kepler-703`**
+  - `Kepler-703 b` | 2016 | Transit | 4.583521756 | 8.2
+- **`Kepler-704`**
+  - `Kepler-704 b` | 2016 | Transit | 3.76182115 | 2.61
+- **`Kepler-705`**
+  - `Kepler-705 b` | 2016 | Transit | 56.0560538 | 2.11
+- **`Kepler-707`**
+  - `Kepler-707 b` | 2016 | Transit | 2.237492751 | 1.33
+- **`Kepler-708`**
+  - `Kepler-708 b` | 2016 | Transit | 3.167891938 | 2.93
+- **`Kepler-709`**
+  - `Kepler-709 b` | 2016 | Transit | 16.08524954 | 2.92
+- **`Kepler-710`**
+  - `Kepler-710 b` | 2016 | Transit | 4.347285527 | 1.88
+- **`Kepler-711`**
+  - `Kepler-711 b` | 2016 | Transit | 23.58914398 | 3.41
+- **`Kepler-712`**
+  - `Kepler-712 b` | 2016 | Transit | 21.02247699 | 3.41
+  - `Kepler-712 c` | 2016 | Transit | 226.89047 | 4.85
+- **`Kepler-713`**
+  - `Kepler-713 b` | 2016 | Transit | 7.411141 | 2.48
+- **`Kepler-714`**
+  - `Kepler-714 b` | 2016 | Transit | 8.098887986 | 9.67
+- **`Kepler-715`**
+  - `Kepler-715 b` | 2016 | Transit | 10.00652995 | 3.75
+- **`Kepler-716`**
+  - `Kepler-716 c` | 2020 | Transit | 3.96999 | 1.39281536
+  - `Kepler-716 b` | 2016 | Transit | 10.37168453 | 2.9
+- **`Kepler-717`**
+  - `Kepler-717 b` | 2016 | Transit | 4.40840023 | 2.42
+- **`Kepler-718`**
+  - `Kepler-718 b` | 2016 | Transit | 2.052349905 | 16.56
+- **`Kepler-719`**
+  - `Kepler-719 b` | 2016 | Transit | 5.007317779 | 8.52
+- **`Kepler-720`**
+  - `Kepler-720 b` | 2016 | Transit | 4.708326542 | 8.41
+- **`Kepler-721`**
+  - `Kepler-721 b` | 2016 | Transit | 5.392025388 | 2.64
+- **`Kepler-722`**
+  - `Kepler-722 b` | 2016 | Transit | 4.093573252 | 2.63
+  - `Kepler-722 c` | 2016 | Transit | 105.144749 | 2.82
+- **`Kepler-723`**
+  - `Kepler-723 b` | 2016 | Transit | 4.082275068 | 12.19
+- **`Kepler-724`**
+  - `Kepler-724 b` | 2016 | Transit | 3.314946338 | 3.29
+- **`Kepler-725`**
+  - `Kepler-725 b` | 2016 | Transit | 39.64372 | 10.8
+  - `Kepler-725 c` | 2025 | Transit Timing Variations | 207.541 | 3.08
+- **`Kepler-726`**
+  - `Kepler-726 b` | 2016 | Transit | 21.80451088 | 3.26
+
+</details>
+
+[สารบัญทุกระบบ](README.md#exoplanets) · [ช่วงชื่อก่อนหน้า](range-02.md) · [ช่วงชื่อถัดไป](range-04.md)
