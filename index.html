@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141a1c">
+  <title>Ringband — Saturn Pirate Radio</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23151b1d'/%3E%3Cg fill='none' stroke='%23ef8760' stroke-width='2.6' transform='rotate(-25 20 20)'%3E%3Ccircle cx='20' cy='20' r='9'/%3E%3Cellipse cx='20' cy='20' rx='17' ry='4'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="stylesheet" href="radio.css">
+  <script defer src="score.js"></script>
+  <script defer src="phosphor.js"></script>
+  <script defer src="aircheck.js"></script>
+  <script defer src="radio.js"></script>
+</head>
+<body>
+  <svg aria-hidden="true" class="symbols" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="ringmark" viewBox="0 0 50 40">
+      <g fill="none" stroke="currentColor" stroke-width="2.8" transform="rotate(-24 25 20)">
+        <circle cx="25" cy="20" r="11.8"/>
+        <path d="M14 15C-7 16 3 24 25 24s40-8 11-9"/>
+        <path d="M17.5 12c2-2 5-3 7.7-3" stroke-width="1.5"/>
+      </g>
+    </symbol>
+    <symbol id="book" viewBox="0 0 20 20"><path d="M2.5 4.5c3.2-1 5.8-.6 7.5 1.1 1.8-1.7 4.4-2.1 7.5-1.1v11c-3.2-1-5.7-.7-7.5 1-1.7-1.7-4.3-2-7.5-1zM10 5.6v10.8" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linejoin="round"/></symbol>
+    <symbol id="speaker" viewBox="0 0 20 20"><path d="M2.5 8h3l4-3v10l-4-3h-3zM12 7c2 1.5 2 4.5 0 6m2-8c3.4 2.4 3.4 7.6 0 10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="silent" viewBox="0 0 20 20"><path d="M2.5 8h3l4-3v10l-4-3h-3zm10 0 4 4m0-4-4 4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="power-glyph" viewBox="0 0 20 20"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M10 2v7"/><path d="M6.3 4.8a6.2 6.2 0 1 0 7.4 0"/></g></symbol>
+  </svg>
+  <div class="room" aria-hidden="true"></div>
+  <div class="desk">
+    <header class="masthead">
+      <div class="wordmark"><svg aria-hidden="true"><use href="#ringmark"/></svg>Ringband</div>
+      <button id="guide-open" class="guide-link"><svg aria-hidden="true"><use href="#book"/></svg> Field guide</button>
+    </header>
+    <main>
+      <section class="receiver" aria-labelledby="receiver-name">
+        <i aria-hidden="true" class="screw tl"></i><i aria-hidden="true" class="screw tr"></i>
+        <i aria-hidden="true" class="screw bl"></i><i aria-hidden="true" class="screw br"></i>
+        <div class="nameplate">
+          <div class="name"><span class="stripes" aria-hidden="true"><i></i><i></i><i></i></span><h1 id="receiver-name">Saturn Pirate Radio</h1></div>
+          <div class="model"><span>WIDEBAND RECEIVER</span><b>RB–03</b></div>
+        </div>
+        <div class="bezel">
+          <div class="crt" id="crt">
+            <canvas id="sky" aria-hidden="true"></canvas>
+            <div class="glass" aria-hidden="true"></div>
+            <div class="readout">
+              <p class="signal-label"><span class="signal-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span id="channel">STATION 01 / 03</span></p>
+              <h2 id="station-name">Cassini<br>Drift</h2>
+              <p class="format"><span id="genre">Orbital dub</span><i aria-hidden="true"></i><span id="tempo">84 BPM</span></p>
+            </div>
+            <div class="crt-bottom">
+              <div class="frequency"><span id="frequency">88.3</span> <small>MHz</small></div>
+              <div class="scope"><canvas id="scope" aria-hidden="true"></canvas><span aria-hidden="true">AF</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="console">
+          <div class="left-controls">
+            <div class="band-label"><span>Station presets</span><i aria-hidden="true"></i><span class="micro">FM</span></div>
+            <div class="presets" role="group" aria-label="Station presets">
+              <button class="preset" data-station="0" aria-pressed="true" aria-label="Preset 1, Cassini Drift, 88.3 MHz"><span class="preset-lamp"></span><b>01</b><span>88.3</span></button>
+              <button class="preset" data-station="1" aria-pressed="false" aria-label="Preset 2, Ice Choir, 96.7 MHz"><span class="preset-lamp"></span><b>02</b><span>96.7</span></button>
+              <button class="preset" data-station="2" aria-pressed="false" aria-label="Preset 3, Hex Static, 105.1 MHz"><span class="preset-lamp"></span><b>03</b><span>105.1</span></button>
+            </div>
+            <div class="outputs">
+              <div class="power-cell">
+                <span class="engraving">Receiver</span>
+                <button id="power" aria-pressed="false"><svg aria-hidden="true"><use href="#power-glyph"/></svg><span id="power-text">Power on</span></button>
+              </div>
+              <div class="volume-cell">
+                <label class="engraving" for="volume">Volume</label>
+                <div class="volume-controls">
+                  <button id="mute" aria-label="Mute audio" aria-pressed="false"><svg aria-hidden="true"><use id="mute-symbol" href="#speaker"/></svg></button>
+                  <input type="range" id="volume" min="0" max="100" value="58" aria-label="Volume">
+                </div>
+              </div>
+              <div class="speaker-grille" aria-hidden="true"></div>
+            </div>
+          </div>
+          <div class="tuner">
+            <div class="dial-assembly">
+              <canvas id="dial-scale" aria-hidden="true"></canvas>
+              <div id="dial" tabindex="0" role="slider" aria-label="Station tuning" aria-valuemin="1" aria-valuemax="3" aria-valuenow="1" aria-valuetext="Cassini Drift, 88.3 MHz" aria-describedby="dial-hint"><div class="knob-top"><span class="pointer"></span></div></div>
+            </div>
+            <div class="tuning-label">Tuning</div>
+            <span id="dial-hint">Drag or tap dial</span>
+          </div>
+        </div>
+        <span class="status" id="status"><i></i><span>Standby</span></span>
+      </section>
+      <div class="utility">
+        <div class="shortcuts"><span><kbd>←</kbd><kbd>→</kbd> Tune</span><span><kbd>SPACE</kbd> Power</span><span><kbd>M</kbd> Mute</span></div>
+        <div class="aircheck" id="aircheck" role="group" aria-label="Aircheck recorder" hidden>
+          <span class="aircheck-name">Aircheck</span>
+          <button id="record" type="button" title="Power on to record" disabled><i aria-hidden="true"></i><span class="record-text">Record 12 s</span></button>
+          <button id="preview-clip" type="button" aria-controls="clip-player" hidden>Play clip</button>
+          <audio id="clip-player" preload="none" hidden></audio>
+          <a id="save-clip" download hidden>Save clip</a>
+          <span class="record-error" role="status"></span>
+        </div>
+        <div class="network"><i></i> Outer System Broadcasting</div>
+      </div>
+      <p class="sr-only" id="announcement" role="status" aria-live="polite"></p>
+    </main>
+    <footer><span class="footer-rule"></span><svg aria-hidden="true"><use href="#ringmark"/></svg><span class="footer-rule"></span></footer>
+  </div>
+  <dialog id="guide" aria-labelledby="guide-title">
+    <div class="guide-head"><p class="engraving">RB–03 / Operator manual</p><button id="guide-close" aria-label="Close field guide">×</button></div>
+    <h2 id="guide-title">Field guide</h2>
+    <p>Three unlicensed signals share this receiver. Power on to hear the current station.</p>
+    <ul class="station-log">
+      <li><b>88.3 · Cassini Drift</b><span>Dub chords and sub-bass bouncing between the rings.</span></li>
+      <li><b>96.7 · Ice Choir</b><span>A slow bell choir broadcasting from the plumes of Enceladus.</span></li>
+      <li><b>105.1 · Hex Static</b><span>Staccato electro from inside the north polar storm.</span></li>
+    </ul>
+    <p class="manual-controls">Drag the dial sideways or up and down. Tap it to scan, or select a preset. Use ← / → to tune, 1–3 for presets, Space for power, and M to mute.</p>
+    <p>When Aircheck is available, choose <b>Record 12 s</b> while on air. Tune between stations, then choose <b>Stop clip</b> or let the timer finish. Choose <b>Play clip</b> to listen in the receiver, or <b>Save clip</b> to download it.</p>
+  </dialog>
+</body>
+</html>
