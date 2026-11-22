@@ -1,0 +1,12296 @@
+# ผังระบบดาวเคราะห์สำหรับ Playlist Galaxy
+
+**4,857 ระบบดาวเคราะห์นอกระบบสุริยะ · 6,473 ดาวเคราะห์** ตามบัญชีดาวเคราะห์ที่ยืนยันแล้วของ NASA Exoplanet Archive เมื่อ **22 พฤศจิกายน 2026 เวลา 13:09 น. กรุงเทพฯ (06:09 UTC)** ระบบสุริยะของเราเป็นอีกหนึ่งกิ่ง มีดาวเคราะห์ 8 ดวงและดวงจันทร์ของดาวเคราะห์เหล่านี้ 456 ดวง [ตารางดาวเคราะห์ของ NASA](https://doi.org/10.26133/NEA13) · [ดวงจันทร์ในระบบสุริยะจาก JPL](https://ssd.jpl.nasa.gov/sats/discovery.html)
+
+[ระบบสุริยะและดวงจันทร์](#solar-system) · [สารบัญระบบดาวเคราะห์นอกระบบ](#exoplanets) · [วิธีตรวจยอดและข้อมูลต้นทาง](#sources) · [รายชื่อกาแล็กซีใกล้เรา 869 แห่ง](galaxies.md)
+
+## จากกาแล็กซีไปถึงดาวหนึ่งดวง
+
+- **เอกภพที่สังเกตได้ → มหากระจุกกาแล็กซีลานิอาเคอา (Laniakea) → กลุ่มกาแล็กซีท้องถิ่น (Local Group) → ทางช้างเผือก → ระบบสุริยะ → ดวงอาทิตย์ → ดาวเสาร์ → ไททัน (Titan)** ตามกิ่งนี้จะเห็นว่าไททันโคจรรอบดาวเสาร์ และดาวเสาร์โคจรรอบดวงอาทิตย์ [แผนที่ลานิอาเคอาของ Tully และคณะ](https://doi.org/10.1038/nature13674) · [NASA ว่าด้วยกลุ่มกาแล็กซี](https://science.nasa.gov/universe/galaxies/) · [ไททัน](https://science.nasa.gov/saturn/moons/titan/facts/)
+- **ทางช้างเผือก → ระบบอัลฟาเซนทอรี (`alf Cen`) → ดาวแม่พร็อกซิมาเซนทอรี (`Proxima Cen`) → `Proxima Cen b`** ชื่อระบบกับชื่อดาวแม่อาจต่างกัน เก็บทั้งสองชั้นไว้เพื่อให้แตะดาวถูกดวง [NASA ว่าด้วย Proxima Centauri b](https://science.nasa.gov/exoplanet-catalog/proxima-centauri-b/)
+
+กาแล็กซีหนึ่งมีระบบดาวจำนวนมาก และระบบหนึ่งอาจมีดาวแม่หลายดวง ดาวเคราะห์นอกระบบส่วนใหญ่ที่ค้นพบอยู่ใกล้เราในทางช้างเผือก ตาราง NASA สองชุดที่ใช้ที่นี่ระบุความสัมพันธ์ตั้งแต่ระดับระบบลงไป การผูกแต่ละระบบกับกาแล็กซีในแผนที่ต้องมีหลักฐานตำแหน่งเพิ่ม [NASA ว่าด้วยตำแหน่งที่พบดาวเคราะห์](https://science.nasa.gov/exoplanets/where-are-exoplanets/) · [คำอธิบายตารางดาวแม่](https://exoplanetarchive.ipac.caltech.edu/docs/API_STELLARHOSTS_columns.html)
+
+<a name="solar-system"></a>
+
+## ระบบสุริยะ · Solar System
+
+**ดาวแม่คือดวงอาทิตย์ (Sun)** ดาวเคราะห์เรียงจากวงโคจรชั้นในออกไปชั้นนอก แตะชื่อดาวเคราะห์เพื่อเปิดรายชื่อดวงจันทร์ รหัสที่ขึ้นต้นด้วย `S/` คือชื่อกำหนดชั่วคราวของดวงจันทร์ที่พบแล้ว ชื่อและรหัสคงรูปสะกดของ JPL เพื่อใช้ค้นต่อ [ดาวเคราะห์ของ NASA](https://science.nasa.gov/solar-system/planets/) · [ทะเบียนดวงจันทร์ของ JPL](https://ssd.jpl.nasa.gov/sats/discovery.html) · [ดวงจันทร์ของโลก](https://science.nasa.gov/moon/)
+
+- **ดาวพุธ · Mercury** — ดวงจันทร์ 0 ดวง
+
+- **ดาวศุกร์ · Venus** — ดวงจันทร์ 0 ดวง
+
+<details><summary>โลก · Earth — ดวงจันทร์ 1 ดวง</summary>
+
+- `Moon` · ดวงจันทร์ของโลก
+
+</details>
+
+<details><summary>ดาวอังคาร · Mars — ดวงจันทร์ 2 ดวง</summary>
+
+- `Phobos`
+- `Deimos`
+
+</details>
+
+<details><summary>ดาวพฤหัสบดี · Jupiter — ดวงจันทร์ 115 ดวง</summary>
+
+- `Io`
+- `Europa`
+- `Ganymede`
+- `Callisto`
+- `Amalthea`
+- `Himalia`
+- `Elara`
+- `Pasiphae`
+- `Sinope`
+- `Lysithea`
+- `Carme`
+- `Ananke`
+- `Leda`
+- `Thebe`
+- `Adrastea`
+- `Metis`
+- `Callirrhoe`
+- `Themisto`
+- `Megaclite`
+- `Taygete`
+- `Chaldene`
+- `Harpalyke`
+- `Kalyke`
+- `Iocaste`
+- `Erinome`
+- `Isonoe`
+- `Praxidike`
+- `Autonoe`
+- `Thyone`
+- `Hermippe`
+- `Aitne`
+- `Eurydome`
+- `Euanthe`
+- `Euporie`
+- `Orthosie`
+- `Sponde`
+- `Kale`
+- `Pasithee`
+- `Hegemone`
+- `Mneme`
+- `Aoede`
+- `Thelxinoe`
+- `Arche`
+- `Kallichore`
+- `Helike`
+- `Carpo`
+- `Eukelade`
+- `Cyllene`
+- `Kore`
+- `Herse`
+- `S/2010 J1`
+- `S/2010 J2`
+- `Dia`
+- `S/2016 J1`
+- `S/2003 J18`
+- `S/2011 J2`
+- `Eirene`
+- `Philophrosyne`
+- `S/2017 J1`
+- `Eupheme`
+- `S/2003 J19`
+- `Valetudo`
+- `S/2017 J2`
+- `S/2017 J3`
+- `Pandia`
+- `S/2017 J5`
+- `S/2017 J6`
+- `S/2017 J7`
+- `S/2017 J8`
+- `S/2017 J9`
+- `Ersa`
+- `S/2011 J1`
+- `S/2003 J2`
+- `S/2003 J4`
+- `S/2003 J9`
+- `S/2003 J10`
+- `S/2003 J12`
+- `S/2003 J16`
+- `S/2003 J23`
+- `S/2003 J24`
+- `S/2010 J3`
+- `S/2010 J4`
+- `S/2010 J5`
+- `S/2010 J6`
+- `S/2011 J3`
+- `S/2011 J4`
+- `S/2011 J5`
+- `S/2011 J6`
+- `S/2016 J3`
+- `S/2016 J4`
+- `S/2017 J10`
+- `S/2017 J11`
+- `S/2017 J12`
+- `S/2017 J13`
+- `S/2017 J14`
+- `S/2017 J15`
+- `S/2017 J16`
+- `S/2017 J17`
+- `S/2017 J18`
+- `S/2018 J2`
+- `S/2018 J3`
+- `S/2018 J4`
+- `S/2018 J5`
+- `S/2021 J1`
+- `S/2021 J2`
+- `S/2021 J3`
+- `S/2021 J4`
+- `S/2021 J5`
+- `S/2021 J6`
+- `S/2021 J7`
+- `S/2021 J8`
+- `S/2022 J1`
+- `S/2022 J2`
+- `S/2022 J3`
+- `S/2024 J1`
+
+</details>
+
+<details><summary>ดาวเสาร์ · Saturn — ดวงจันทร์ 293 ดวง</summary>
+
+- `Mimas`
+- `Enceladus`
+- `Tethys`
+- `Dione`
+- `Rhea`
+- `Titan`
+- `Hyperion`
+- `Iapetus`
+- `Phoebe`
+- `Janus`
+- `Epimetheus`
+- `Helene`
+- `Telesto`
+- `Calypso`
+- `Atlas`
+- `Prometheus`
+- `Pandora`
+- `Pan`
+- `Ymir`
+- `Paaliaq`
+- `Tarvos`
+- `Ijiraq`
+- `Suttungr`
+- `Kiviuq`
+- `Mundilfari`
+- `Albiorix`
+- `Skathi`
+- `Erriapus`
+- `Siarnaq`
+- `Thrymr`
+- `Narvi`
+- `Methone`
+- `Pallene`
+- `Polydeuces`
+- `Daphnis`
+- `Aegir`
+- `Bebhionn`
+- `Bergelmir`
+- `Bestla`
+- `Farbauti`
+- `Fenrir`
+- `Fornjot`
+- `Hati`
+- `Hyrrokkin`
+- `Kari`
+- `Loge`
+- `Skoll`
+- `Surtur`
+- `Anthe`
+- `Jarnsaxa`
+- `Greip`
+- `Tarqeq`
+- `Aegaeon`
+- `Gridr`
+- `Angrboda`
+- `Skrymir`
+- `Gerd`
+- `S/2004 S26`
+- `Eggther`
+- `S/2004 S29`
+- `Beli`
+- `Gunnlod`
+- `Thiazzi`
+- `S/2004 S34`
+- `Alvaldi`
+- `Geirrod`
+- `S/2004 S7`
+- `S/2004 S12`
+- `S/2004 S13`
+- `S/2004 S17`
+- `S/2004 S21`
+- `S/2004 S24`
+- `S/2004 S28`
+- `S/2004 S31`
+- `S/2004 S36`
+- `S/2004 S37`
+- `S/2004 S39`
+- `S/2004 S40`
+- `S/2004 S41`
+- `S/2004 S42`
+- `S/2004 S43`
+- `S/2004 S44`
+- `S/2004 S45`
+- `S/2004 S46`
+- `S/2004 S47`
+- `S/2004 S48`
+- `S/2004 S49`
+- `S/2004 S50`
+- `S/2004 S51`
+- `S/2004 S52`
+- `S/2004 S53`
+- `S/2004 S54`
+- `S/2004 S55`
+- `S/2004 S56`
+- `S/2004 S57`
+- `S/2004 S58`
+- `S/2004 S59`
+- `S/2004 S60`
+- `S/2004 S61`
+- `S/2005 S4`
+- `S/2005 S5`
+- `S/2005 S6`
+- `S/2005 S7`
+- `S/2006 S1`
+- `S/2006 S3`
+- `S/2006 S9`
+- `S/2006 S10`
+- `S/2006 S11`
+- `S/2006 S12`
+- `S/2006 S13`
+- `S/2006 S14`
+- `S/2006 S15`
+- `S/2006 S16`
+- `S/2006 S17`
+- `S/2006 S18`
+- `S/2006 S19`
+- `S/2006 S20`
+- `S/2006 S21`
+- `S/2006 S22`
+- `S/2006 S23`
+- `S/2006 S24`
+- `S/2006 S25`
+- `S/2006 S26`
+- `S/2006 S27`
+- `S/2006 S28`
+- `S/2006 S29`
+- `S/2007 S2`
+- `S/2007 S3`
+- `S/2007 S5`
+- `S/2007 S6`
+- `S/2007 S7`
+- `S/2007 S8`
+- `S/2007 S9`
+- `S/2007 S10`
+- `S/2007 S11`
+- `S/2009 S1`
+- `S/2009 S2`
+- `S/2019 S1`
+- `S/2019 S2`
+- `S/2019 S3`
+- `S/2019 S4`
+- `S/2019 S5`
+- `S/2019 S6`
+- `S/2019 S7`
+- `S/2019 S8`
+- `S/2019 S9`
+- `S/2019 S10`
+- `S/2019 S11`
+- `S/2019 S12`
+- `S/2019 S13`
+- `S/2019 S14`
+- `S/2019 S15`
+- `S/2019 S16`
+- `S/2019 S17`
+- `S/2019 S18`
+- `S/2019 S19`
+- `S/2019 S20`
+- `S/2019 S21`
+- `S/2019 S22`
+- `S/2019 S23`
+- `S/2019 S24`
+- `S/2019 S25`
+- `S/2019 S26`
+- `S/2019 S27`
+- `S/2019 S28`
+- `S/2019 S29`
+- `S/2019 S30`
+- `S/2019 S31`
+- `S/2019 S32`
+- `S/2019 S33`
+- `S/2019 S34`
+- `S/2019 S35`
+- `S/2019 S36`
+- `S/2019 S37`
+- `S/2019 S38`
+- `S/2019 S39`
+- `S/2019 S40`
+- `S/2019 S41`
+- `S/2019 S42`
+- `S/2019 S43`
+- `S/2019 S44`
+- `S/2020 S1`
+- `S/2020 S2`
+- `S/2020 S3`
+- `S/2020 S4`
+- `S/2020 S5`
+- `S/2020 S6`
+- `S/2020 S7`
+- `S/2020 S8`
+- `S/2020 S9`
+- `S/2020 S10`
+- `S/2020 S11`
+- `S/2020 S12`
+- `S/2020 S13`
+- `S/2020 S14`
+- `S/2020 S15`
+- `S/2020 S16`
+- `S/2020 S17`
+- `S/2020 S18`
+- `S/2020 S19`
+- `S/2020 S20`
+- `S/2020 S21`
+- `S/2020 S22`
+- `S/2020 S23`
+- `S/2020 S24`
+- `S/2020 S25`
+- `S/2020 S26`
+- `S/2020 S27`
+- `S/2020 S28`
+- `S/2020 S29`
+- `S/2020 S30`
+- `S/2020 S31`
+- `S/2020 S32`
+- `S/2020 S33`
+- `S/2020 S34`
+- `S/2020 S35`
+- `S/2020 S36`
+- `S/2020 S37`
+- `S/2020 S38`
+- `S/2020 S39`
+- `S/2020 S40`
+- `S/2020 S41`
+- `S/2020 S42`
+- `S/2020 S43`
+- `S/2020 S44`
+- `S/2020 S45`
+- `S/2020 S46`
+- `S/2020 S47`
+- `S/2020 S48`
+- `S/2020 S49`
+- `S/2023 S1`
+- `S/2023 S2`
+- `S/2023 S3`
+- `S/2023 S4`
+- `S/2023 S5`
+- `S/2023 S6`
+- `S/2023 S7`
+- `S/2023 S8`
+- `S/2023 S9`
+- `S/2023 S10`
+- `S/2023 S11`
+- `S/2023 S12`
+- `S/2023 S13`
+- `S/2023 S14`
+- `S/2023 S15`
+- `S/2023 S16`
+- `S/2023 S17`
+- `S/2023 S18`
+- `S/2023 S19`
+- `S/2023 S20`
+- `S/2023 S21`
+- `S/2023 S22`
+- `S/2023 S23`
+- `S/2023 S24`
+- `S/2023 S25`
+- `S/2023 S26`
+- `S/2023 S27`
+- `S/2023 S28`
+- `S/2023 S29`
+- `S/2023 S30`
+- `S/2023 S31`
+- `S/2023 S32`
+- `S/2023 S33`
+- `S/2023 S34`
+- `S/2023 S35`
+- `S/2023 S36`
+- `S/2023 S37`
+- `S/2023 S38`
+- `S/2023 S39`
+- `S/2023 S40`
+- `S/2023 S41`
+- `S/2023 S42`
+- `S/2023 S43`
+- `S/2023 S44`
+- `S/2023 S45`
+- `S/2023 S46`
+- `S/2023 S47`
+- `S/2023 S48`
+- `S/2023 S49`
+- `S/2023 S50`
+- `S/2023 S51`
+- `S/2023 S52`
+- `S/2023 S53`
+- `S/2023 S54`
+- `S/2023 S55`
+- `S/2023 S56`
+- `S/2023 S57`
+- `S/2023 S58`
+- `S/2023 S59`
+- `S/2023 S60`
+- `S/2023 S61`
+- `S/2023 S62`
+- `S/2023 S63`
+
+</details>
+
+<details><summary>ดาวยูเรนัส · Uranus — ดวงจันทร์ 29 ดวง</summary>
+
+- `Ariel`
+- `Umbriel`
+- `Titania`
+- `Oberon`
+- `Miranda`
+- `Cordelia`
+- `Ophelia`
+- `Bianca`
+- `Cressida`
+- `Desdemona`
+- `Juliet`
+- `Portia`
+- `Rosalind`
+- `Belinda`
+- `Puck`
+- `Caliban`
+- `Sycorax`
+- `Prospero`
+- `Setebos`
+- `Stephano`
+- `Trinculo`
+- `Francisco`
+- `Margaret`
+- `Ferdinand`
+- `Perdita`
+- `Mab`
+- `Cupid`
+- `S/2025 U1`
+- `S/2023 U1`
+
+</details>
+
+<details><summary>ดาวเนปจูน · Neptune — ดวงจันทร์ 16 ดวง</summary>
+
+- `Triton`
+- `Nereid`
+- `Naiad`
+- `Thalassa`
+- `Despina`
+- `Galatea`
+- `Larissa`
+- `Proteus`
+- `Halimede`
+- `Psamathe`
+- `Sao`
+- `Laomedeia`
+- `Neso`
+- `Hippocamp`
+- `S/2002 N5`
+- `S/2021 N1`
+
+</details>
+
+### ดาวเคราะห์แคระที่ได้รับการรับรองทั้ง 5 ดวง
+
+กิ่งนี้อยู่ใต้ดวงอาทิตย์เช่นกัน ค้นดวงจันทร์ของมาคีมาคีได้ด้วยรหัสในรายการ หรือชื่อเล่น MK 2 [ดาวเคราะห์แคระทั้งห้าของ NASA](https://science.nasa.gov/solar-system/planets/) · [บริวารของดาวเคราะห์แคระ](https://science.nasa.gov/solar-system/moons/facts/) · [ซีรีส](https://science.nasa.gov/dwarf-planets/ceres/facts/)
+
+- **ซีรีส · Ceres** — ดวงจันทร์ 0 ดวง
+- **พลูโต · Pluto** — ดวงจันทร์ 5 ดวง
+  - `Charon`
+  - `Nix`
+  - `Hydra`
+  - `Kerberos`
+  - `Styx`
+- **เฮาเมอา · Haumea** — ดวงจันทร์ 2 ดวง
+  - `Hi'iaka`
+  - `Namaka`
+- **มาคีมาคี · Makemake** — ดวงจันทร์ 1 ดวง
+  - `S/2015 (136472) 1`
+- **อีริส · Eris** — ดวงจันทร์ 1 ดวง
+  - `Dysnomia`
+
+
+<a name="exoplanets"></a>
+
+## ระบบดาวเคราะห์นอกระบบสุริยะที่ยืนยันแล้ว
+
+ใช้ชื่อระบบ `sy_name` จากตาราง Stellar Hosts ผูกกับ `hostname` ของดาวแม่ และ `pl_name` ของดาวเคราะห์ มีชื่อดาวแม่ที่มีดาวเคราะห์ 4,865 ชื่อใน 4,857 ระบบ ในจำนวนนี้ 1,075 ระบบมีดาวเคราะห์มากกว่าหนึ่งดวง และ 8 ระบบมีดาวเคราะห์อยู่คนละกิ่งดาวแม่ เช่น `55 Cnc` มี 5 ดวงที่กิ่ง `55 Cnc` และ 2 ดวงที่กิ่ง `55 Cnc B` เมื่อระบบและดาวแม่ใช้ชื่อเดียวกันและมีเพียงกิ่งเดียว รายการจะแสดงชื่อนั้นครั้งเดียว [ตารางดาวแม่](https://doi.org/10.26133/NEA40) · [ตารางดาวเคราะห์](https://doi.org/10.26133/NEA13)
+
+**วิธีอ่านแต่ละบรรทัด** ชื่อดาวเคราะห์ | ปีค้นพบ (ค.ศ.) | วิธีค้นพบ | คาบโคจร (วัน) | รัศมี (โลก = 1) ภายในกิ่งดาวแม่เรียงตามคาบจากสั้นไปยาว รายการที่มีเพียงขีดจำกัดหรือยังขาดคาบอยู่ท้ายกิ่งเรียงตามชื่อ เครื่องหมาย `>` หรือ `<` ระบุขีดจำกัด ส่วน `—` หมายถึงไม่มีค่าในตาราง ค่าจากตารางผสมอาจมาจากหลายงานวิจัย รวมถึงรัศมีที่คำนวณจากความสัมพันธ์กับมวล [นิยามคอลัมน์และหน่วย](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html)
+
+**สัญลักษณ์หลังชื่อ** † คือดาวเคราะห์ 58 ดวงที่ยังอยู่ในบัญชียืนยันแล้วและมีงานตีพิมพ์ตั้งข้อสงสัยต่อสถานะ (`pl_controv_flag = 1`) ส่วน CB คือดาวเคราะห์ 53 ดวงที่โคจรรอบดาวคู่ (`cb_flag = 1`) ทุกระบบในข้อมูลครั้งนี้มีจำนวนดวงจันทร์นอกระบบที่คลังบันทึกไว้ (`sy_mnum`) เท่ากับ 0 กิ่งนอกระบบจึงสิ้นสุดที่ดาวเคราะห์ [เกณฑ์การขึ้นบัญชี](https://exoplanetarchive.ipac.caltech.edu/docs/exoplanet_criteria.html) · [นิยามสถานะและวงโคจร](https://exoplanetarchive.ipac.caltech.edu/docs/API_PS_columns.html)
+
+**วิธีค้นพบที่พบในรายการ** `Transit` คือวัดแสงดาวที่ลดลงเมื่อดาวเคราะห์ผ่านหน้า `Radial Velocity` คือวัดดาวแม่ที่ขยับเข้าออกตามแนวสายตา `Microlensing` คือวัดการขยายแสงด้วยแรงโน้มถ่วง และ `Imaging` คือถ่ายภาพโดยตรง ชื่อวิธีอื่น ๆ คงตามคำค้นภาษาอังกฤษในคลัง [วิธีค้นหาดาวเคราะห์ของ NASA](https://science.nasa.gov/exoplanets/how-we-find-and-characterize/)
+
+### เลือกช่วงชื่อระบบ
+
+เปิดรายการตัวอย่างได้ที่ [TRAPPIST-1 และดาวเคราะห์ทั้งเจ็ด](#trappist-1) · [อัลฟาเซนทอรีและดาวแม่พร็อกซิมา](#alpha-centauri) · [ระบบ 55 Cnc ที่มีดาวแม่สองกิ่ง](#55-cancri)
+
+เรียงชื่อระบบตามตัวอักษรและค่าของตัวเลข เช่น Kepler-9 มาก่อน Kepler-10 เลือกช่วงแล้วแตะหัวข้อเพื่อกางรายชื่อ ค้นทั้งไฟล์รวมถึงกิ่งที่พับได้ด้วยมุมมอง Raw บน GitHub
+
+| ชื่อระบบแรก – สุดท้าย | ระบบ | ดาวเคราะห์ |
+| --- | ---: | ---: |
+| [`1RXS J160929.1-210524` – `gam Leo`](#systems-01) | 180 | 234 |
+| [`gam Lib` – `HATS-13`](#systems-02) | 180 | 247 |
+| [`HATS-14` – `HD 29021`](#systems-03) | 180 | 235 |
+| [`HD 29399` – `HD 106315`](#systems-04) | 180 | 261 |
+| [`HD 106515` – `HD 191939`](#systems-05) | 180 | 263 |
+| [`HD 192263` – `HS Psc`](#systems-06) | 180 | 242 |
+| [`HU Aqr` – `K2-202`](#systems-07) | 180 | 262 |
+| [`K2-203` – `K2-416`](#systems-08) | 180 | 232 |
+| [`K2-417` – `Kepler-166`](#systems-09) | 180 | 413 |
+| [`Kepler-167` – `Kepler-346`](#systems-10) | 180 | 480 |
+| [`Kepler-347` – `Kepler-543`](#systems-11) | 180 | 302 |
+| [`Kepler-544` – `Kepler-726`](#systems-12) | 180 | 205 |
+| [`Kepler-727` – `Kepler-909`](#systems-13) | 180 | 205 |
+| [`Kepler-910` – `Kepler-1089`](#systems-14) | 180 | 205 |
+| [`Kepler-1090` – `Kepler-1269`](#systems-15) | 180 | 195 |
+| [`Kepler-1270` – `Kepler-1449`](#systems-16) | 180 | 196 |
+| [`Kepler-1450` – `Kepler-1629`](#systems-17) | 180 | 198 |
+| [`Kepler-1630` – `Kepler-1818`](#systems-18) | 180 | 192 |
+| [`Kepler-1819` – `KIC 5437945`](#systems-19) | 180 | 196 |
+| [`KIC 5479689` – `LP 714-47`](#systems-20) | 180 | 221 |
+| [`LP 791-18` – `OGLE-2018-BLG-1126L`](#systems-21) | 180 | 192 |
+| [`OGLE-2018-BLG-1185L` – `TOI-444`](#systems-22) | 180 | 220 |
+| [`TOI-451` – `TOI-1683`](#systems-23) | 180 | 257 |
+| [`TOI-1685` – `TOI-2842`](#systems-24) | 180 | 215 |
+| [`TOI-2876` – `TOI-5486`](#systems-25) | 180 | 196 |
+| [`TOI-5489` – `WASP-26`](#systems-26) | 180 | 212 |
+| [`WASP-28` – `ZTF J1828+2308`](#systems-27) | 177 | 197 |
+
+<a name="systems-01"></a>
+
+<details><summary>1RXS J160929.1-210524 – gam Leo · 180 ระบบ · 234 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`1RXS J160929.1-210524`**
+  - `1RXS J160929.1-210524 b` | 2008 | Imaging | — | 18.647
+- **`2MASS J0249-0557`**
+  - ดาวแม่ `2MASS J0249-0557 A`
+    - `2MASS J0249-0557 c` CB | 2018 | Imaging | — | 17.37392009
+- **`2MASS J01033563-5515561`**
+  - ดาวแม่ `2MASS J01033563-5515561 A`
+    - `2MASS J01033563-5515561 AB b` CB | 2013 | Imaging | — | 12.3
+- **`2MASS J01225093-2439505`**
+  - `2MASS J01225093-2439505 b` | 2013 | Imaging | — | 11.209
+- **`2MASS J02192210-3925225`**
+  - `2MASS J02192210-3925225 b` | 2015 | Imaging | — | 16.14096
+- **`2MASS J03590986+2009361`**
+  - `2MASS J03590986+2009361 b` | 2024 | Imaging | — | 12.2
+- **`2MASS J04372171+2651014`**
+  - `2M0437 b` | 2021 | Imaging | — | 13
+- **`2MASS J04414489+2301513`**
+  - `2MASS J04414489+2301513 b` | 2010 | Imaging | — | 12.6
+- **`2MASS J11011926-7732383`**
+  - `2MASS J11011926-7732383 b` | 2024 | Imaging | — | 11.9
+- **`2MASS J11550485-7919108`**
+  - `2MASS J11550485-7919108 b` | 2024 | Imaging | — | 12.1
+- **`2MASS J12073346-3932539`**
+  - `2MASS J12073346-3932539 b` | 2004 | Imaging | — | 15.69257298
+- **`2MASS J16262785-2625152`**
+  - `KOINTREAU-4 b` | 2026 | Imaging | — | 12.2
+- **`2MASS J19383260+4603591`**
+  - `Kepler-451 d` CB | 2022 | Eclipse Timing Variations | 43 | 13.5
+  - `2MASS J19383260+4603591 b` CB | 2015 | Eclipse Timing Variations | 406 | 13.4
+  - `Kepler-451 c` CB | 2022 | Eclipse Timing Variations | 1460 | 13.5
+- **`2MASS J21252752-8138278`**
+  - `2MASS J21252752-8138278 b` | 2024 | Imaging | — | 12.4
+- **`2MASS J22362452+4751425`**
+  - `2MASS J22362452+4751425 b` | 2016 | Imaging | — | 12.3
+- **`2MASS J22501512+2325342`**
+  - `2MASS J22501512+2325342 b` | 2018 | Imaging | — | 11.9
+- **`4 UMa`**
+  - `4 UMa b` | 2006 | Radial Velocity | 270.27 | 12.6
+- **`6 Lyn`**
+  - `6 Lyn b` | 2008 | Radial Velocity | 919.86 | 13.4
+- **`7 CMa`**
+  - `7 CMa b` | 2011 | Radial Velocity | 735.1 | 13.4
+  - `7 CMa c` | 2019 | Radial Velocity | 996 | 13.9
+- **`8 UMi`**
+  - `8 UMi b` | 2015 | Radial Velocity | 93.31 | 13.5
+- **`11 Com`**
+  - `11 Com b` | 2007 | Radial Velocity | 323.21 | 12.2
+- **`11 UMi`**
+  - `11 UMi b` | 2009 | Radial Velocity | 516.21997 | 12.3
+- **`14 And`**
+  - `14 And b` | 2008 | Radial Velocity | 186.76 | 13.1
+- **`14 Her`**
+  - `14 Her b` | 2002 | Radial Velocity | 1766.41 | 12.5
+  - `HD 145675 c` | 2021 | Radial Velocity | 15732.45889 | 12.6
+- **`16 Cyg`**
+  - ดาวแม่ `16 Cyg B`
+    - `16 Cyg B b` | 1996 | Radial Velocity | 798.5 | 13.5
+- **`17 Sco`**
+  - `17 Sco b` | 2020 | Radial Velocity | 578.38 | 12.9
+- **`18 Del`**
+  - `18 Del b` | 2008 | Radial Velocity | 982.85 | 12.5
+- **`24 Boo`**
+  - `24 Boo b` | 2018 | Radial Velocity | 30.33 | 13.9
+- **`24 Sex`**
+  - `24 Sex b` | 2010 | Radial Velocity | 452.8 | 13.4
+  - `24 Sex c` | 2010 | Radial Velocity | 883 | 13.9
+- **`47 UMa`**
+  - `47 UMa b` | 1996 | Radial Velocity | 1078 | 13.2
+  - `47 UMa c` | 2001 | Radial Velocity | 2391 | 14.2
+  - `47 UMa d` | 2009 | Radial Velocity | 14002 | 13.5
+- **`51 Eri`**
+  - `51 Eri b` | 2015 | Imaging | 9100 | —
+- **`51 Peg`**
+  - `51 Peg b` | 1995 | Radial Velocity | 4.2307966 | 14.1
+- **`55 Cnc`** <a name="55-cancri"></a>
+  - ดาวแม่ `55 Cnc`
+    - `55 Cnc e` | 2004 | Radial Velocity | 0.7365474 | 1.875
+    - `55 Cnc b` | 1996 | Radial Velocity | 14.651552 | 13.9
+    - `55 Cnc c` | 2004 | Radial Velocity | 44.3936 | 8.51
+    - `55 Cnc f` | 2007 | Radial Velocity | 260.58 | 7.59
+    - `55 Cnc d` | 2002 | Radial Velocity | 4799 | 13
+  - ดาวแม่ `55 Cnc B`
+    - `55 Cnc B b` | 2025 | Radial Velocity | 6.7994 | 1.69
+    - `55 Cnc B c` | 2025 | Radial Velocity | 33.747 | 2.16
+- **`61 Vir`**
+  - `61 Vir b` | 2009 | Radial Velocity | 4.215 | 2.11
+  - `61 Vir c` | 2009 | Radial Velocity | 38.021 | 4.46
+  - `61 Vir d` | 2009 | Radial Velocity | 123.01 | 5.11
+- **`70 Vir`**
+  - `70 Vir b` | 1996 | Radial Velocity | 116.688 | 12.6
+- **`75 Cet`**
+  - `75 Cet b` | 2012 | Radial Velocity | 696.62 | 13.3
+  - `75 Cet c` | 2023 | Radial Velocity | 2051.62 | 13.9
+- **`81 Cet`**
+  - `81 Cet b` | 2008 | Radial Velocity | 1005.57 | 13.1
+- **`91 Aqr`**
+  - `91 Aqr b` | 2013 | Radial Velocity | 181.4 | 13.1
+- **`AB Aur`**
+  - `AB Aur b` | 2022 | Imaging | — | 12.5
+- **`AB Pic`**
+  - `AB Pic b` | 2005 | Imaging | — | 12.3
+- **`AF Lep`**
+  - `AF Lep b` | 2023 | Imaging | 8905 | 13
+- **`alf Ari`**
+  - `alf Ari b` | 2010 | Radial Velocity | 380.8 | 13.4
+- **`alf Cen`** <a name="alpha-centauri"></a>
+  - ดาวแม่ `Proxima Cen`
+    - `Proxima Cen d` | 2025 | Radial Velocity | 5.12338 | 0.692
+    - `Proxima Cen b` | 2016 | Radial Velocity | 11.18465 | 1.02
+- **`alf Tau`**
+  - `alf Tau b` † | 2015 | Radial Velocity | 628.96 | 12.7
+- **`AT2021ueyL`**
+  - `AT2021ueyL b` | 2025 | Microlensing | 4168.69 | 13.6
+- **`AU Mic`**
+  - `AU Mic b` | 2020 | Transit | 8.463446 | 4.79
+  - `AU Mic d` | 2023 | Transit Timing Variations | 12.73596 | 1.02
+  - `AU Mic c` | 2021 | Transit | 18.859023 | 2.79
+  - `AU Mic e` † | 2025 | Radial Velocity | 33.11 | 4.87
+- **`b Cen`**
+  - ดาวแม่ `b Cen A`
+    - `b Cen AB b` CB | 2021 | Imaging | 1790000 | 12.4
+- **`Barnard's star`**
+  - `Barnard d` | 2025 | Radial Velocity | 2.3402 | 0.694
+  - `Barnard b` | 2024 | Radial Velocity | 3.1542 | 0.72
+  - `Barnard c` | 2025 | Radial Velocity | 4.1244 | 0.743
+  - `Barnard e` | 2025 | Radial Velocity | 6.7392 | 0.637
+- **`BD+03 2562`**
+  - `BD+03 2562 b` | 2017 | Radial Velocity | 481.9 | 12.7
+- **`BD+05 4868`**
+  - ดาวแม่ `BD+05 4868 A`
+    - `BD+05 4868 A b` | 2025 | Transit | 1.271869 | —
+- **`BD+14 4559`**
+  - `BD+14 4559 b` | 2009 | Radial Velocity | 268.94 | 13.8
+- **`BD+15 2375`**
+  - `BD+15 2375 b` | 2016 | Radial Velocity | 153.22 | 13.8
+- **`BD+15 2940`**
+  - `BD+15 2940 b` | 2013 | Radial Velocity | 137.48 | 13.7
+- **`BD+20 274`**
+  - `BD+20 274 b` | 2012 | Radial Velocity | 578.2 | 13
+- **`BD+20 594`**
+  - `BD+20 594 b` | 2016 | Transit | 41.68547 | 2.23
+- **`BD+20 2457`**
+  - `BD+20 2457 b` | 2009 | Radial Velocity | 379.63 | 12.1
+  - `BD+20 2457 c` | 2009 | Radial Velocity | 621.99 | 12.4
+- **`BD+37 3172`**
+  - `BD+37 3172 b` | 2023 | Radial Velocity | 1887.76 | 12.4
+- **`BD+42 2315`**
+  - `BD+42 2315 b` | 2023 | Radial Velocity | 123.05 | 14.2
+- **`BD+45 564`**
+  - `BD+45 564 b` | 2021 | Radial Velocity | 307.88 | 13.6
+- **`BD+48 738`**
+  - `BD+48 738 b` | 2011 | Radial Velocity | 392.6 | 13.9
+- **`BD+48 740`**
+  - `BD+48 740 b` | 2018 | Radial Velocity | 733 | 13.5
+- **`BD+49 828`**
+  - `BD+49 828 b` | 2015 | Radial Velocity | 2590 | 13.5
+- **`BD+55 362`**
+  - `BD+55 362 b` | 2021 | Radial Velocity | 265.59 | 14
+- **`BD+60 1417`**
+  - `BD+60 1417 b` | 2021 | Imaging | — | 14.68376472
+- **`BD+63 1405`**
+  - `BD+63 1405 b` | 2021 | Radial Velocity | 1198.48 | 12.4
+- **`BD-06 1339`**
+  - `BD-06 1339 b` † | 2013 | Radial Velocity | 3.8728 | —
+  - `BD-06 1339 c` | 2013 | Radial Velocity | 125.94 | 8.38
+- **`BD-08 2823`**
+  - `BD-08 2823 b` | 2009 | Radial Velocity | 5.6 | —
+  - `BD-08 2823 c` | 2009 | Radial Velocity | 237.6 | 12.5
+- **`BD-10 3166`**
+  - `BD-10 3166 b` | 2000 | Radial Velocity | 3.48777 | 14.1
+- **`BD-11 4672`**
+  - `BD-11 4672 c` | 2020 | Radial Velocity | 74.2 | 4.04
+  - `BD-11 4672 b` | 2014 | Radial Velocity | 1634 | 14.1
+- **`BD-13 2130`**
+  - `BD-13 2130 b` | 2007 | Radial Velocity | 714.29999 | 12.5
+- **`BD-14 3065`**
+  - ดาวแม่ `BD-14 3065 A`
+    - `BD-14 3065 b` | 2024 | Transit | 4.2889731 | 21.59
+- **`BD-17 63`**
+  - `BD-17 63 b` | 2008 | Radial Velocity | 655.57 | 12.8
+- **`BD-210397`**
+  - `BD-210397 b` | 2023 | Radial Velocity | 1891 | 14
+  - `BD-210397 c` | 2023 | Radial Velocity | 6240 | 12.9
+- **`BEBOP-3`**
+  - `BEBOP-3 b` CB | 2025 | Radial Velocity | 547 | 14.2
+- **`BEBOP-4`**
+  - ดาวแม่ `BEBOP-4 A`
+    - `BEBOP-4 AB b` CB | 2025 | Radial Velocity | 1823.5 | —
+- **`bet Cnc`**
+  - `bet Cnc b` | 2014 | Radial Velocity | 605.2 | 12.6
+- **`bet Pic`**
+  - `bet Pic c` | 2019 | Radial Velocity | 1202 | 12.5
+  - `bet Pic b` | 2008 | Imaging | 8682 | 18.49485
+  - `bet Pic d` | 2026 | Imaging | 33200 | 14.12331568
+- **`bet UMi`**
+  - `bet UMi b` | 2014 | Radial Velocity | 522.3 | 12.7
+- **`CD Cet`**
+  - `CD Cet b` | 2020 | Radial Velocity | 2.2907 | 1.82
+- **`CD-35 2722`**
+  - ดาวแม่ `CD-35 2722 B`
+    - `CD-35 2722 B b` | 2026 | Radial Velocity | 171.11 | 13.9
+- **`CFBDSIR J145829+101343`**
+  - `CFBDSIR J145829+101343 b` | 2011 | Imaging | 10037.5 | 12.4
+- **`CFHTWIR-Oph 98`**
+  - ดาวแม่ `CFHTWIR-Oph 98 A`
+    - `CFHTWIR-Oph 98 b` | 2020 | Imaging | 8040000 | 20.8487041
+- **`CHXR 73`**
+  - `CHXR 73 b` | 2006 | Imaging | — | 12.3
+- **`CI Tau`**
+  - `CI Tau c` | 2024 | Radial Velocity | 25.2 | 13
+- **`COCONUTS-2`**
+  - ดาวแม่ `COCONUTS-2 A`
+    - `COCONUTS-2 b` | 2021 | Imaging | 402000000 | 12.57647635
+- **`CoRoT-1`**
+  - `CoRoT-1 b` | 2008 | Transit | 1.5089557 | 16.7
+- **`CoRoT-2`**
+  - `CoRoT-2 b` | 2008 | Transit | 1.7429935 | 16.432
+- **`CoRoT-3`**
+  - `CoRoT-3 b` | 2008 | Transit | 4.2568 | 11.32
+- **`CoRoT-4`**
+  - `CoRoT-4 b` | 2008 | Transit | 9.20205 | 13.34
+- **`CoRoT-5`**
+  - `CoRoT-5 b` | 2009 | Transit | 4.0378962 | 15.558
+- **`CoRoT-6`**
+  - `CoRoT-6 b` | 2009 | Transit | 8.886593 | 13.068
+- **`CoRoT-7`**
+  - `CoRoT-7 b` | 2009 | Transit | 0.85359163 | 1.68135
+  - `CoRoT-7 c` | 2009 | Radial Velocity | 3.698 | 2.83
+  - `CoRoT-7 d` | 2022 | Radial Velocity | 8.966 | 4.31
+- **`CoRoT-8`**
+  - `CoRoT-8 b` | 2010 | Transit | 6.21229 | 6.39
+- **`CoRoT-9`**
+  - `CoRoT-9 b` | 2009 | Transit | 95.272656 | 11.948794
+- **`CoRoT-10`**
+  - `CoRoT-10 b` | 2010 | Transit | 13.2406 | 10.87
+- **`CoRoT-11`**
+  - `CoRoT-11 b` | 2010 | Transit | 2.99433 | 16.03
+- **`CoRoT-12`**
+  - `CoRoT-12 b` | 2010 | Transit | 2.828042 | 16.14
+- **`CoRoT-13`**
+  - `CoRoT-13 b` | 2010 | Transit | 4.03519 | 9.92
+- **`CoRoT-14`**
+  - `CoRoT-14 b` | 2010 | Transit | 1.51214 | 12.22
+- **`CoRoT-16`**
+  - `CoRoT-16 b` | 2011 | Transit | 5.35227 | 13.11
+- **`CoRoT-17`**
+  - `CoRoT-17 b` | 2011 | Transit | 3.7681 | 11.43
+- **`CoRoT-18`**
+  - `CoRoT-18 b` | 2011 | Transit | 1.9000693 | 14.68
+- **`CoRoT-19`**
+  - `CoRoT-19 b` | 2011 | Transit | 3.89713 | 14.46
+- **`CoRoT-20`**
+  - `CoRoT-20 b` | 2011 | Transit | 9.24285 | 9.41556
+  - `CoRoT-20 c` | 2018 | Radial Velocity | 1675 | 12.2
+- **`CoRoT-21`**
+  - `CoRoT-21 b` | 2012 | Transit | 2.72474 | 14.5717
+- **`CoRoT-22`**
+  - `CoRoT-22 b` | 2014 | Transit | 9.75598 | 4.88
+- **`CoRoT-23`**
+  - `CoRoT-23 b` | 2011 | Transit | 3.6313 | 11.77
+- **`CoRoT-24`**
+  - `CoRoT-24 b` | 2014 | Transit | 5.1134 | 3.7
+  - `CoRoT-24 c` | 2014 | Transit | 11.759 | 5
+- **`CoRoT-25`**
+  - `CoRoT-25 b` | 2013 | Transit | 4.86069 | 12.11
+- **`CoRoT-26`**
+  - `CoRoT-26 b` | 2013 | Transit | 4.20474 | 14.12
+- **`CoRoT-27`**
+  - `CoRoT-27 b` | 2014 | Transit | 3.57532 | 11.287
+- **`CoRoT-28`**
+  - `CoRoT-28 b` | 2015 | Transit | 5.20851 | 10.704595
+- **`CoRoT-29`**
+  - `CoRoT-29 b` | 2015 | Transit | 2.85057 | 10.0881
+- **`CoRoT-30`**
+  - `CoRoT-30 b` | 2020 | Transit | 9.06005 | 11.309881
+- **`CoRoT-31`**
+  - `CoRoT-31 b` | 2020 | Transit | 4.62941 | 16.36514
+- **`CoRoT-32`**
+  - `CoRoT-32 b` | 2018 | Transit | 6.71837 | 6.38913
+- **`CoRoT-35`**
+  - `CoRoT-35 b` | 2022 | Transit | 3.22748 | 18.83108758
+- **`CoRoT-36`**
+  - `CoRoT-36 b` | 2022 | Transit | 5.616531 | 15.80466279
+- **`CT Cha`**
+  - `CT Cha b` | 2007 | Imaging | — | 24.66
+- **`CWISEP J193518.59-154620.3`**
+  - `CWISEP J193518.59-154620.3 b` | 2025 | Imaging | — | 12.2
+- **`DE CVn`**
+  - `DE CVn b` † CB | 2018 | Eclipse Timing Variations | 4098.1 | 12.4
+- **`DENIS-P J082303.1-491201`**
+  - `DENIS-P J082303.1-491201 b` | 2013 | Astrometry | 246.36 | 11.9
+- **`DH Tau`**
+  - `DH Tau b` | 2004 | Imaging | — | 30.2643
+- **`DMPP-1`**
+  - `DMPP-1 d` | 2019 | Radial Velocity | 3.1417 | 2.02
+  - `DMPP-1 e` | 2019 | Radial Velocity | 5.516 | 1.86
+  - `DMPP-1 c` | 2019 | Radial Velocity | 10.03 | 3.31
+  - `DMPP-1 b` | 2019 | Radial Velocity | 17.812 | 4.26
+- **`DMPP-2`**
+  - `DMPP-2 c` | 2026 | Radial Velocity | 3.168 | 8.26
+  - `DMPP-2 b` | 2019 | Radial Velocity | 5.203 | 14.2
+  - `DMPP-2 d` | 2026 | Radial Velocity | 16.491 | 11.6
+- **`DMPP-3`**
+  - ดาวแม่ `DMPP-3 A`
+    - `DMPP-3 A b` | 2019 | Radial Velocity | 5.59 | 1.44
+- **`DMPP-4`**
+  - `DMPP-4 b` | 2023 | Radial Velocity | 3.4982 | 3.53
+- **`DMPP-6`**
+  - `DMPP-6 b` | 2026 | Radial Velocity | 7.6027 | 2.28
+  - `DMPP-6 c` | 2026 | Radial Velocity | 36.441 | 3.74
+- **`DMPP-7`**
+  - `DMPP-7 b` | 2026 | Radial Velocity | 4.92666 | 9.78
+- **`DMPP-8`**
+  - `DMPP-8 b` | 2026 | Radial Velocity | 62.915 | 10.8
+- **`DMPP-9`**
+  - `DMPP-9 b` | 2026 | Radial Velocity | 12.733 | 3.89
+- **`DP Leo`**
+  - `DP Leo b` CB | 2009 | Eclipse Timing Variations | 10220 | 12.7
+- **`DS Tuc`**
+  - ดาวแม่ `DS Tuc A`
+    - `DS Tuc A b` | 2019 | Transit | 8.138268 | 5.7
+- **`Elias 2-24`**
+  - `Elias 2-24 b` | 2026 | Imaging | — | 13.2
+- **`EPIC 201170410`**
+  - `EPIC 201170410.02` | 2020 | Transit | 6.7987 | 1.047
+- **`EPIC 201238110`**
+  - `EPIC 201238110 b` | 2019 | Transit | 28.1656 | 1.87
+- **`EPIC 201427007`**
+  - `EPIC 201427007 b` | 2021 | Transit | 0.72091 | 1.5
+- **`EPIC 201497682`**
+  - `EPIC 201497682 b` | 2019 | Transit | 2.13174 | 0.692
+- **`EPIC 201595106`**
+  - `EPIC 201595106 b` | 2021 | Transit | 0.87724 | 1.565
+  - `K2-360 c` | 2024 | Radial Velocity | 9.79692 | 4.02
+- **`EPIC 201757695`**
+  - `EPIC 201757695.02` | 2020 | Transit | 2.0478 | 0.90819
+- **`EPIC 201841433`**
+  - `EPIC 201841433 b` | 2019 | Transit | 4.1698 | 1.04
+- **`EPIC 206024342`**
+  - `EPIC 206024342 c` | 2021 | Transit | 0.911724 | 1.4
+  - `EPIC 206024342 b` | 2019 | Transit | 4.50756 | 1.7
+  - `EPIC 206024342 d` | 2021 | Transit | 14.647531 | 2.6
+- **`EPIC 206032309`**
+  - `EPIC 206032309 b` | 2019 | Transit | 2.87814 | 1.01
+- **`EPIC 206042996`**
+  - `EPIC 206042996 c` | 2021 | Transit | 0.354884 | 1.2
+  - `EPIC 206042996 b` | 2019 | Transit | 5.2986 | 1.7
+- **`EPIC 206215704`**
+  - `EPIC 206215704 b` | 2019 | Transit | 2.255436 | 1
+- **`EPIC 206317286`**
+  - `EPIC 206317286 b` | 2019 | Transit | 1.58252 | 0.96
+  - `EPIC 206317286 c` | 2022 | Transit | 17.515472 | 2.094
+- **`EPIC 211822797`**
+  - `EPIC 211822797 b` | 2016 | Transit | 21.1701963 | 1.92
+- **`EPIC 211945201`**
+  - `EPIC 211945201 b` | 2018 | Transit | 19.49221 | 5.76
+- **`EPIC 212297394`**
+  - `EPIC 212297394 b` | 2019 | Transit | 2.289363 | 1.48
+  - `EPIC 212297394 c` | 2021 | Transit | 5.213965 | 2.27
+- **`EPIC 212424622`**
+  - `EPIC 212424622 b` | 2019 | Transit | 18.0983 | 2.17
+- **`EPIC 212499991`**
+  - `EPIC 212499991 b` | 2019 | Transit | 34.885 | 1.6
+- **`EPIC 212587672`**
+  - `EPIC 212587672 b` | 2019 | Transit | 15.28078 | 1.26
+  - `EPIC 212587672 c` | 2021 | Transit | 23.228555 | 2.32
+- **`EPIC 212624936`**
+  - `EPIC 212624936 b` | 2021 | Transit | 0.578657 | 1.2
+  - `EPIC 212624936 c` | 2021 | Transit | 11.811437 | 2.3
+- **`EPIC 212737443`**
+  - `EPIC 212737443 b` | 2019 | Transit | 13.603 | 2.586
+  - `EPIC 212737443 c` | 2019 | Transit | 65.55 | 2.69
+- **`EPIC 220492298`**
+  - `EPIC 220492298 b` | 2021 | Transit | 0.762406 | 0.99
+- **`EPIC 220674823`**
+  - `EPIC 220674823 b` | 2016 | Transit | 0.57130782 | 1.606
+  - `EPIC 220674823 c` | 2016 | Transit | 13.340603 | 2.712
+- **`EPIC 228836835`**
+  - `EPIC 228836835 b` | 2021 | Transit | 0.728113 | 1.1
+- **`EPIC 229004835`**
+  - `EPIC 229004835 b` | 2023 | Transit | 16.141132 | 2.332
+- **`EPIC 246851721`**
+  - `EPIC 246851721 b` | 2018 | Transit | 6.180235 | 11.780659
+- **`EPIC 248847494`**
+  - `EPIC 248847494 b` | 2018 | Transit | 3650 | 12.44199
+- **`EPIC 249893012`**
+  - `EPIC 249893012 b` | 2020 | Transit | 3.5951 | 1.95
+  - `EPIC 249893012 c` | 2020 | Transit | 15.624 | 3.67
+  - `EPIC 249893012 d` | 2020 | Transit | 35.747 | 3.94
+- **`eps CrB`**
+  - `eps CrB b` | 2012 | Radial Velocity | 417.9 | 12.7
+- **`eps Eri`**
+  - `eps Eri b` | 2000 | Radial Velocity | 2680 | 13.8
+- **`eps Ind`**
+  - ดาวแม่ `eps Ind A`
+    - `eps Ind A b` | 2019 | Radial Velocity | 25450 | 12.7
+- **`eps Tau`**
+  - `eps Tau b` | 2006 | Radial Velocity | 585.82 | 12.7
+- **`FU Tau`**
+  - `FU Tau b` | 2008 | Imaging | — | 12.2
+- **`G 9-40`**
+  - `G 9-40 b` | 2019 | Transit | 5.7459982 | 1.9
+- **`G 192-15`**
+  - `G 192-15 b` | 2025 | Radial Velocity | 2.27476 | 1.02
+  - `G 192-15 c` | 2025 | Radial Velocity | 1219 | 3.87
+- **`G 196-3`**
+  - `G 196-3 b` | 2024 | Imaging | — | 12
+- **`G 261-6`**
+  - `G 261-6 b` | 2025 | Radial Velocity | 5.4536 | 1.1
+- **`G 264-012`**
+  - `G 264-012 b` | 2021 | Radial Velocity | 2.30538 | 1.39
+  - `G 264-012 c` | 2021 | Radial Velocity | 8.0518 | 1.76
+- **`G 268-110`**
+  - `G 268-110 b` | 2025 | Radial Velocity | 1.43263 | 1.13
+- **`Gaia22dkvL`**
+  - `Gaia22dkvL b` | 2024 | Microlensing | — | 14.1
+- **`Gaia23braL`**
+  - `Gaia23braL b` | 2026 | Microlensing | — | 13.5
+- **`Gaia-1`**
+  - `Gaia-1 b` | 2022 | Transit | 3.052524 | 13.77583728
+- **`Gaia-2`**
+  - `Gaia-2 b` | 2022 | Transit | 3.6915224 | 14.81827249
+- **`Gaia-4`**
+  - `Gaia-4 b` | 2025 | Astrometry | 588.58 | 12.4
+- **`Gaia-5`**
+  - `Gaia-5 b` | 2025 | Astrometry | 358.62 | 12.1
+- **`gam Cep`**
+  - `gam Cep b` | 2003 | Radial Velocity | 904 | 12.5
+- **`gam Leo`**
+  - ดาวแม่ `gam1 Leo`
+    - `gam1 Leo b` | 2009 | Radial Velocity | 428.5 | 12.5
+
+</details>
+
+<a name="systems-02"></a>
+
+<details><summary>gam Lib – HATS-13 · 180 ระบบ · 247 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`gam Lib`**
+  - `gam Lib b` | 2018 | Radial Velocity | 414.88 | 13.7
+  - `gam Lib c` | 2018 | Radial Velocity | 966.49 | 12.8
+- **`gam Psc`**
+  - `gam Psc b` | 2021 | Radial Velocity | 555.1 | 13.6
+- **`GJ 15`**
+  - ดาวแม่ `GJ 15 A`
+    - `GJ 15 A b` † | 2014 | Radial Velocity | 11.4407 | 1.55
+    - `GJ 15 A c` | 2018 | Radial Velocity | 7600 | 6.67
+- **`GJ 27.1`**
+  - `GJ 27.1 b` | 2014 | Radial Velocity | 15.819 | 3.66
+- **`GJ 86`**
+  - `GJ 86 b` | 1999 | Radial Velocity | 15.76491 | 12.9
+- **`GJ 96`**
+  - `GJ 96 b` | 2018 | Radial Velocity | 73.94 | 4.67
+- **`GJ 143`**
+  - `HD 21749 c` | 2019 | Transit | 7.789787 | 0.984
+  - `GJ 143 b` | 2019 | Transit | 35.613442 | 2.809
+- **`GJ 160.2`**
+  - `GJ 160.2 b` | 2014 | Radial Velocity | 5.2354 | 3.17
+- **`GJ 163`**
+  - `GJ 163 b` | 2013 | Radial Velocity | 8.63182 | 3.25
+  - `GJ 163 c` | 2013 | Radial Velocity | 25.63058 | 2.5
+  - `GJ 163 d` | 2013 | Radial Velocity | 603.95116 | 5.92
+- **`GJ 179`**
+  - `GJ 179 b` | 2009 | Radial Velocity | 2288 | 13.8
+- **`GJ 180`**
+  - `GJ 180 b` | 2014 | Radial Velocity | 17.133 | 2.43
+  - `GJ 180 c` | 2014 | Radial Velocity | 24.329 | 2.41
+  - `GJ 180 d` | 2020 | Radial Velocity | 106.3 | 2.66
+- **`GJ 229`**
+  - `GJ 229 A c` † | 2020 | Radial Velocity | 121.93268 | 2.87
+  - `GJ 229 b` † | 2014 | Radial Velocity | 579.47495 | 3.97
+- **`GJ 238`**
+  - `GJ 238 b` | 2024 | Transit | 1.7446999 | 0.566
+- **`GJ 251`**
+  - `GJ 251 b` | 2020 | Radial Velocity | 14.237 | 1.79
+  - `GJ 251 c` | 2025 | Radial Velocity | 53.647 | 1.8
+- **`GJ 273`**
+  - `GJ 273 c` | 2017 | Radial Velocity | 4.7234 | 1.06
+  - `GJ 273 b` | 2017 | Radial Velocity | 18.6498 | 1.51
+- **`GJ 317`**
+  - `GJ 317 b` | 2007 | Radial Velocity | 695.69 | 13.3
+  - `GJ 317 c` | 2016 | Radial Velocity | 6500 | 13.6
+- **`GJ 328`**
+  - `GJ 328 c` | 2023 | Radial Velocity | 241.8 | 4.91
+  - `GJ 328 b` | 2013 | Radial Velocity | 3771 | 13.3
+- **`GJ 338`**
+  - ดาวแม่ `GJ 338 B`
+    - `GJ 338 B b` | 2020 | Radial Velocity | 24.422 | 3.25
+- **`GJ 341`**
+  - `GJ 341 b` | 2025 | Transit | 7.57686 | 0.88
+- **`GJ 357`**
+  - `GJ 357 b` | 2019 | Transit | 3.9306 | 1.2
+  - `GJ 357 c` | 2019 | Radial Velocity | 9.1247 | 1.66
+  - `GJ 357 d` | 2019 | Radial Velocity | 55.661 | 2.34
+- **`GJ 367`**
+  - `GJ 367 b` | 2021 | Transit | 0.3219226 | 0.736
+  - `GJ 367 c` | 2023 | Radial Velocity | 11.5301 | 1.86
+  - `GJ 367 d` | 2023 | Radial Velocity | 34.369 | 2.33
+- **`GJ 393`**
+  - `GJ 393 b` | 2021 | Radial Velocity | 7.02679 | 1.17
+- **`GJ 411`**
+  - `GJ 411 b` | 2019 | Radial Velocity | 12.9394 | 1.45
+  - `HD 95735 c` | 2021 | Radial Velocity | 2946 | 3.76
+- **`GJ 414`**
+  - ดาวแม่ `GJ 414 A`
+    - `GJ 414 A b` | 2021 | Radial Velocity | 50.8 | 2.63
+    - `GJ 414 A c` | 2021 | Radial Velocity | 749.83 | 8.4
+- **`GJ 422`**
+  - `GJ 422 b` | 2014 | Radial Velocity | 20.129 | 3.33
+- **`GJ 433`**
+  - `GJ 433 b` | 2013 | Radial Velocity | 7.3705 | 2.33
+  - `GJ 433 d` | 2020 | Radial Velocity | 36.059 | 2.14
+  - `GJ 433 c` | 2014 | Radial Velocity | 5094.105 | 6.27
+- **`GJ 436`**
+  - `GJ 436 b` | 2004 | Radial Velocity | 2.64388312 | 4.17
+- **`GJ 463`**
+  - `GJ 463 b` | 2022 | Radial Velocity | 3459 | 13.1
+- **`GJ 480`**
+  - `GJ 480 b` | 2020 | Radial Velocity | 9.5536 | 2.91
+- **`GJ 486`**
+  - `GJ 486 b` | 2021 | Radial Velocity | 1.46712127 | 1.289
+- **`GJ 504`**
+  - `GJ 504 b` | 2013 | Imaging | — | 12.10569916
+- **`GJ 508.2`**
+  - `GJ 508.2 b` | 2025 | Radial Velocity | >5300 | —
+- **`GJ 514`**
+  - `GJ 514 b` | 2022 | Radial Velocity | 140.43 | 2.13
+- **`GJ 536`**
+  - `GJ 536 b` | 2016 | Radial Velocity | 8.70874 | 2.41
+  - `GJ 536 c` | 2025 | Radial Velocity | 32.761 | 2.3
+- **`GJ 581`**
+  - `GJ 581 e` | 2009 | Radial Velocity | 3.1481 | 1.38
+  - `GJ 581 b` | 2005 | Radial Velocity | 5.3686 | 4.79
+  - `GJ 581 c` | 2007 | Radial Velocity | 12.9211 | 2.5
+- **`GJ 625`**
+  - `GJ 625 b` | 2017 | Radial Velocity | 14.628 | 1.49
+- **`GJ 649`**
+  - `GJ 649 b` | 2009 | Radial Velocity | 600.1 | 10.8
+- **`GJ 667`**
+  - ดาวแม่ `GJ 667 C`
+    - `GJ 667 C b` | 2012 | Radial Velocity | 7.203 | 2.25
+    - `GJ 667 C c` | 2013 | Radial Velocity | 28.14 | 1.77
+    - `GJ 667 C f` † | 2013 | Radial Velocity | 39.026 | 1.45
+    - `GJ 667 C e` † | 2013 | Radial Velocity | 62.24 | 1.45
+    - `GJ 667 C g` † | 2013 | Radial Velocity | 256.2 | 1.99
+- **`GJ 674`**
+  - `GJ 674 b` | 2007 | Radial Velocity | 4.6938 | 3.33
+- **`GJ 676`**
+  - ดาวแม่ `GJ 676 A`
+    - `GJ 676 A d` | 2012 | Radial Velocity | 3.60076 | 1.78
+    - `GJ 676 A e` | 2012 | Radial Velocity | 35.47358 | 2.47
+    - `GJ 676 A b` | 2010 | Radial Velocity | 1051.44521 | 12.8
+    - `GJ 676 A c` | 2016 | Radial Velocity | 13921.42302 | 12.3
+- **`GJ 682`**
+  - `GJ 682 b` | 2014 | Radial Velocity | 17.478 | 1.93
+  - `GJ 682 c` | 2014 | Radial Velocity | 57.32 | 2.89
+- **`GJ 685`**
+  - `GJ 685 b` | 2019 | Radial Velocity | 24.16 | 2.95
+- **`GJ 687`**
+  - `GJ 687 b` | 2014 | Radial Velocity | 38.142 | 4.32
+  - `GJ 687 c` | 2020 | Radial Velocity | 727.562 | 4.14
+- **`GJ 720`**
+  - ดาวแม่ `GJ 720 A`
+    - `GJ 720 A b` | 2021 | Radial Velocity | 19.466 | 3.77
+- **`GJ 724`**
+  - `GJ 724 b` | 2023 | Radial Velocity | 5.101284 | 3.27
+- **`GJ 740`**
+  - `GJ 740 b` | 2021 | Radial Velocity | 2.37756 | 1.53
+- **`GJ 806`**
+  - `GJ 806 b` | 2023 | Transit | 0.9263237 | 1.331
+  - `GJ 806 c` | 2023 | Radial Velocity | 6.64064 | 2.28
+- **`GJ 832`**
+  - `GJ 832 b` | 2008 | Radial Velocity | 3853 | 13.8
+- **`GJ 849`**
+  - `GJ 849 b` | 2006 | Radial Velocity | 1925.31 | 13.9
+  - `GJ 849 c` | 2014 | Radial Velocity | 5990 | 13.8
+- **`GJ 876`**
+  - `GJ 876 d` | 2005 | Radial Velocity | 1.93778 | 2.51
+  - `GJ 876 c` | 2000 | Radial Velocity | 30.0881 | 14
+  - `GJ 876 b` | 1998 | Radial Velocity | 61.1166 | 13.3
+  - `GJ 876 e` | 2010 | Radial Velocity | 124.26 | 3.92
+- **`GJ 887`**
+  - `GJ 887 e` | 2026 | Radial Velocity | 4.4249 | 1.12
+  - `GJ 887 b` | 2020 | Radial Velocity | 9.2619 | 1.8
+  - `GJ 887 c` | 2020 | Radial Velocity | 21.784 | 2.43
+  - `GJ 887 d` | 2026 | Radial Velocity | 50.77 | 2.34
+- **`GJ 896`**
+  - ดาวแม่ `GJ 896 A`
+    - `GJ 896 A b` | 2022 | Astrometry | 284.39 | 13.3
+- **`GJ 900`**
+  - ดาวแม่ `GJ 900 A`
+    - `GJ 900 b` | 2024 | Imaging | — | 12.4
+- **`GJ 1002`**
+  - `GJ 1002 b` | 2022 | Radial Velocity | 10.3465 | 1.03
+  - `GJ 1002 c` | 2022 | Radial Velocity | 21.202 | 1.1
+- **`GJ 1061`**
+  - `GJ 1061 b` | 2020 | Radial Velocity | 3.2073 | 1.04
+  - `GJ 1061 c` | 2020 | Radial Velocity | 6.6821 | 1.19
+  - `GJ 1061 d` | 2020 | Radial Velocity | 13.066 | 1.16
+- **`GJ 1132`**
+  - `GJ 1132 b` | 2015 | Transit | 1.62892911 | 1.19151465
+  - `GJ 1132 c` | 2018 | Radial Velocity | 8.929 | 1.52
+- **`GJ 1148`**
+  - `GJ 1148 b` | 2010 | Radial Velocity | 41.38 | 11.9
+  - `GJ 1148 c` | 2017 | Radial Velocity | 532.58 | 9.71
+- **`GJ 1151`**
+  - `GJ 1151 c` | 2023 | Radial Velocity | 389.7 | 3.25
+- **`GJ 1214`**
+  - `GJ 1214 b` | 2009 | Transit | 1.580404531 | 2.733
+- **`GJ 1252`**
+  - `GJ 1252 b` | 2020 | Transit | 0.518235 | 1.19
+- **`GJ 1265`**
+  - `GJ 1265 b` | 2018 | Radial Velocity | 3.6511 | 2.63
+- **`GJ 1289`**
+  - `GJ 1289 b` | 2024 | Radial Velocity | 111.74 | 2.38
+- **`GJ 2030`**
+  - `GJ 2030 b` | 2022 | Radial Velocity | 2.38129 | 2.03
+  - `GJ 2030 c` | 2022 | Radial Velocity | 25533.11353 | 12.3
+- **`GJ 2056`**
+  - `GJ 2056 b` | 2020 | Radial Velocity | 69.971 | 4.17
+- **`GJ 2126`**
+  - `GJ 2126 b` | 2025 | Radial Velocity | 272.7 | 13.6
+- **`GJ 3021`**
+  - `GJ 3021 b` | 2000 | Radial Velocity | 133.71 | 13.1
+- **`GJ 3082`**
+  - `GJ 3082 b` | 2020 | Radial Velocity | 11.949 | 2.79
+- **`GJ 3090`**
+  - `GJ 3090 b` | 2022 | Transit | 2.85310198 | 2.18
+  - `GJ 3090 c` | 2026 | Radial Velocity | 15.9407 | 3.14
+- **`GJ 3138`**
+  - `GJ 3138 b` | 2017 | Radial Velocity | 1.22003 | 1.18
+  - `GJ 3138 c` | 2017 | Radial Velocity | 5.974 | 1.88
+  - `GJ 3138 d` | 2017 | Radial Velocity | 257.8 | 3.23
+- **`GJ 3293`**
+  - `GJ 3293 e` | 2017 | Radial Velocity | 13.2543 | 1.63
+  - `GJ 3293 b` | 2015 | Radial Velocity | 30.5987 | 5.19
+  - `GJ 3293 d` | 2017 | Radial Velocity | 48.1345 | 2.67
+  - `GJ 3293 c` | 2015 | Radial Velocity | 122.6196 | 4.87
+- **`GJ 3323`**
+  - `GJ 3323 b` | 2017 | Radial Velocity | 5.3636 | 1.23
+  - `GJ 3323 c` | 2017 | Radial Velocity | 40.54 | 1.32
+- **`GJ 3341`**
+  - `GJ 3341 b` | 2015 | Radial Velocity | 14.207 | 2.46
+- **`GJ 3378`**
+  - `GJ 3378 b` | 2026 | Radial Velocity | 21.45 | 1.32
+- **`GJ 3470`**
+  - `GJ 3470 b` | 2012 | Radial Velocity | 3.3366496 | 4.57
+- **`GJ 3473`**
+  - `GJ 3473 b` | 2020 | Transit | 1.1980035 | 1.264
+  - `GJ 3473 c` | 2020 | Radial Velocity | 15.509 | 2.63
+- **`GJ 3512`**
+  - `GJ 3512 b` | 2019 | Radial Velocity | 203.109 | 14.3
+  - `GJ 3512 c` | 2020 | Radial Velocity | 2354 | 14.3
+- **`GJ 3634`**
+  - `GJ 3634 b` | 2010 | Radial Velocity | 2.64561 | 2.83
+- **`GJ 3779`**
+  - `GJ 3779 b` | 2018 | Radial Velocity | 3.0232 | 2.75
+- **`GJ 3929`**
+  - `GJ 3929 b` | 2022 | Transit | 2.616235 | 1.09
+  - `GJ 3929 c` | 2022 | Radial Velocity | 15.04 | 2.26
+- **`GJ 3942`**
+  - `GJ 3942 b` | 2017 | Radial Velocity | 6.905 | 2.57
+- **`GJ 3988`**
+  - `GJ 3988 b` | 2023 | Radial Velocity | 6.9442 | 1.74
+- **`GJ 3998`**
+  - `GJ 3998 b` | 2016 | Radial Velocity | 2.65033 | 1.39
+  - `GJ 3998 c` | 2016 | Radial Velocity | 13.727 | 2.5
+  - `GJ 3998 d` | 2025 | Radial Velocity | 41.78 | 2.34
+- **`GJ 4274`**
+  - `GJ 4274 b` | 2026 | Radial Velocity | 1.6339 | 1.53
+  - `GJ 4274 c` | 2026 | Radial Velocity | 69.57 | 2.83
+- **`GJ 4276`**
+  - `GJ 4276 b` | 2019 | Radial Velocity | 13.352 | 4.22
+- **`GJ 9066`**
+  - `GJ 9066 c` | 2020 | Radial Velocity | 771.36 | 9.6
+- **`GJ 9404`**
+  - `GJ 9404 b` | 2023 | Radial Velocity | 13.4586 | 3.48
+- **`GJ 9689`**
+  - `GJ 9689 b` | 2020 | Radial Velocity | 18.27 | 3.07
+- **`GJ 9773`**
+  - `GJ 9773 b` | 2025 | Radial Velocity | 2965 | 14.2
+- **`GJ 9827`**
+  - `GJ 9827 b` | 2017 | Transit | 1.208974 | 1.44
+  - `GJ 9827 c` | 2017 | Transit | 3.648103 | 1.13
+  - `GJ 9827 d` | 2017 | Transit | 6.20183 | 1.98
+- **`Gl 49`**
+  - `Gl 49 b` | 2019 | Radial Velocity | 13.8508 | 2.24
+- **`Gl 378`**
+  - `Gl 378 b` | 2019 | Radial Velocity | 3.822 | 3.66
+- **`Gl 410`**
+  - `Gl 410 b` | 2025 | Radial Velocity | 6.02 | 2.83
+- **`Gl 686`**
+  - `Gl 686 b` | 2018 | Radial Velocity | 15.53 | 2.46
+- **`Gl 725`**
+  - ดาวแม่ `Gl 725 A`
+    - `Gl 725 A b` | 2025 | Radial Velocity | 11.2201 | 1.48
+  - ดาวแม่ `Gl 725 B`
+    - `Gl 725 B c` | 2026 | Radial Velocity | 37.9 | 1.66
+- **`Gliese 12`**
+  - `Gliese 12 b` | 2024 | Transit | 12.761418 | 0.93
+- **`GPX-1`**
+  - `GPX-1 b` | 2021 | Transit | 1.744579 | 16.47720163
+- **`GQ Lup`**
+  - `GQ Lup b` | 2004 | Imaging | — | 33.6
+- **`GSC 06214-00210`**
+  - `GSC 06214-00210 b` | 2010 | Imaging | — | 20.1762
+- **`GU Psc`**
+  - `GU Psc b` | 2014 | Imaging | — | 14.179
+- **`HAT-P-1`**
+  - `HAT-P-1 b` | 2006 | Transit | 4.46529976 | 14.784671
+- **`HAT-P-2`**
+  - `HAT-P-2 b` | 2007 | Transit | 5.6335158 | 10.659759
+  - `HAT-P-2 c` | 2023 | Radial Velocity | 8500 | 12.4
+- **`HAT-P-3`**
+  - `HAT-P-3 b` | 2007 | Transit | 2.8997 | 10.53646
+- **`HAT-P-4`**
+  - `HAT-P-4 b` | 2007 | Transit | 3.056536 | 14.28
+- **`HAT-P-5`**
+  - `HAT-P-5 b` | 2007 | Transit | 2.78849 | 13.56289
+- **`HAT-P-6`**
+  - `HAT-P-6 b` | 2007 | Transit | 3.85298 | 16.58932
+- **`HAT-P-7`**
+  - `HAT-P-7 b` | 2008 | Transit | 2.20474 | 16.92559
+- **`HAT-P-8`**
+  - `HAT-P-8 b` | 2008 | Transit | 3.07634 | 15.6926
+- **`HAT-P-9`**
+  - `HAT-P-9 b` | 2008 | Transit | 3.92281072 | 15.614137
+- **`HAT-P-11`**
+  - `HAT-P-11 b` | 2010 | Transit | 4.888 | 4.36
+  - `HAT-P-11 c` | 2018 | Radial Velocity | 3361 | 13.2
+- **`HAT-P-12`**
+  - `HAT-P-12 b` | 2009 | Transit | 3.2130598 | 10.749
+- **`HAT-P-13`**
+  - `HAT-P-13 b` | 2009 | Transit | 2.91625 | 14.258
+  - `HAT-P-13 c` | 2009 | Radial Velocity | 446.27 | 12.3
+- **`HAT-P-14`**
+  - `HAT-P-14 b` | 2010 | Transit | 4.62767 | 15.91678
+- **`HAT-P-15`**
+  - `HAT-P-15 b` | 2010 | Transit | 10.8635 | 11.88154
+- **`HAT-P-16`**
+  - `HAT-P-16 b` | 2010 | Transit | 2.77596727 | 14.68376472
+- **`HAT-P-17`**
+  - `HAT-P-17 b` | 2012 | Transit | 10.33852 | 11.76945
+  - `HAT-P-17 c` | 2012 | Radial Velocity | 5584 | 13.1
+- **`HAT-P-18`**
+  - `HAT-P-18 b` | 2010 | Transit | 5.5080291 | 10.70457657
+- **`HAT-P-19`**
+  - `HAT-P-19 b` | 2010 | Transit | 4.00878322 | 11.29865255
+- **`HAT-P-20`**
+  - `HAT-P-20 b` | 2010 | Transit | 2.875317 | 9.718
+- **`HAT-P-21`**
+  - `HAT-P-21 b` | 2010 | Transit | 4.12448 | 12.44199
+- **`HAT-P-22`**
+  - `HAT-P-22 b` | 2010 | Transit | 3.21222 | 12.89035
+- **`HAT-P-23`**
+  - `HAT-P-23 b` | 2010 | Transit | 1.212884 | 15.334
+- **`HAT-P-24`**
+  - `HAT-P-24 b` | 2010 | Transit | 3.35524 | 14.5717
+- **`HAT-P-25`**
+  - `HAT-P-25 b` | 2012 | Transit | 3.65281514 | 12.722215
+- **`HAT-P-26`**
+  - `HAT-P-26 b` | 2010 | Transit | 4.23452 | 7.06167
+- **`HAT-P-27`**
+  - `HAT-P-27 b` | 2011 | Transit | 3.039577 | 11.43
+- **`HAT-P-28`**
+  - `HAT-P-28 b` | 2011 | Transit | 3.257215 | 13.585
+- **`HAT-P-29`**
+  - `HAT-P-29 b` | 2011 | Transit | 5.72319 | 13.11453
+- **`HAT-P-30`**
+  - `HAT-P-30 b` | 2011 | Transit | 2.8106 | 16.14096
+- **`HAT-P-31`**
+  - `HAT-P-31 b` | 2011 | Transit | 5.00542 | 12.21781
+- **`HAT-P-32`**
+  - `HAT-P-32 b` | 2011 | Transit | 2.1500082 | 22.19382
+- **`HAT-P-33`**
+  - `HAT-P-33 b` | 2011 | Transit | 3.47447 | 20.73665
+- **`HAT-P-34`**
+  - `HAT-P-34 b` | 2011 | Transit | 5.452654 | 13.417173
+- **`HAT-P-35`**
+  - `HAT-P-35 b` | 2011 | Transit | 3.646706 | 14.930388
+- **`HAT-P-36`**
+  - `HAT-P-36 b` | 2011 | Transit | 1.32734683 | 14.313893
+- **`HAT-P-37`**
+  - `HAT-P-37 b` | 2011 | Transit | 2.797436 | 13.204
+- **`HAT-P-38`**
+  - `HAT-P-38 b` | 2012 | Transit | 4.640382 | 9.247
+- **`HAT-P-39`**
+  - `HAT-P-39 b` | 2012 | Transit | 3.54387 | 17.609
+- **`HAT-P-40`**
+  - `HAT-P-40 b` | 2012 | Transit | 4.45724 | 17.03768
+- **`HAT-P-41`**
+  - `HAT-P-41 b` | 2012 | Transit | 2.69405 | 22.97845
+- **`HAT-P-42`**
+  - `HAT-P-42 b` | 2012 | Transit | 4.641878 | 14.348
+- **`HAT-P-43`**
+  - `HAT-P-43 b` | 2012 | Transit | 3.3326414 | 13.63
+- **`HAT-P-44`**
+  - `HAT-P-44 b` | 2014 | Transit | 4.301219 | 13.922
+  - `HAT-P-44 c` | 2014 | Radial Velocity | 872.2 | 13
+- **`HAT-P-45`**
+  - `HAT-P-45 b` | 2014 | Transit | 3.128992 | 15.984
+- **`HAT-P-46`**
+  - `HAT-P-46 b` | 2014 | Transit | 4.463129 | 14.392
+- **`HAT-P-47`**
+  - `HAT-P-47 b` | 2026 | Transit | 4.73217441 | 14.71739166
+- **`HAT-P-49`**
+  - `HAT-P-49 b` | 2014 | Transit | 2.69155 | 17.82231
+- **`HAT-P-50`**
+  - `HAT-P-50 b` | 2015 | Transit | 3.1220109 | 14.437192
+- **`HAT-P-51`**
+  - `HAT-P-51 b` | 2015 | Transit | 4.21802091 | 13.50682174
+- **`HAT-P-52`**
+  - `HAT-P-52 b` | 2015 | Transit | 2.7535953 | 11.309881
+- **`HAT-P-53`**
+  - `HAT-P-53 b` | 2015 | Transit | 1.9616241 | 14.773462
+- **`HAT-P-54`**
+  - `HAT-P-54 b` | 2015 | Transit | 3.799847 | 10.581296
+- **`HAT-P-55`**
+  - `HAT-P-55 b` | 2015 | Transit | 3.5852313 | 14.84069045
+- **`HAT-P-56`**
+  - `HAT-P-56 b` | 2015 | Transit | 2.79083 | 16.92559
+- **`HAT-P-57`**
+  - `HAT-P-57 b` | 2015 | Transit | 2.4653 | 19.50366
+- **`HAT-P-58`**
+  - `HAT-P-58 b` | 2021 | Transit | 4.0138379 | 14.93036229
+- **`HAT-P-59`**
+  - `HAT-P-59 b` | 2021 | Transit | 4.1419771 | 12.58768533
+- **`HAT-P-60`**
+  - `HAT-P-60 b` | 2021 | Transit | 4.7947813 | 18.28184752
+- **`HAT-P-61`**
+  - `HAT-P-61 b` | 2021 | Transit | 1.90231289 | 10.07687365
+- **`HAT-P-62`**
+  - `HAT-P-62 b` | 2021 | Transit | 2.6453235 | 12.02723629
+- **`HAT-P-63`**
+  - `HAT-P-63 b` | 2021 | Transit | 3.377728 | 12.5428494
+- **`HAT-P-64`**
+  - `HAT-P-64 b` | 2021 | Transit | 4.007232 | 19.08889413
+- **`HAT-P-65`**
+  - `HAT-P-65 b` | 2016 | Transit | 2.60544751 | 18.05766791
+- **`HAT-P-66`**
+  - `HAT-P-66 b` | 2016 | Transit | 2.972086 | 17.82231
+- **`HAT-P-67`**
+  - `HAT-P-67 b` | 2017 | Transit | 4.8101069 | 23.9872187
+- **`HAT-P-68`**
+  - `HAT-P-68 b` | 2020 | Transit | 2.29840551 | 12.016048
+- **`HAT-P-69`**
+  - `HAT-P-69 b` | 2019 | Transit | 4.7869491 | 18.786284
+- **`HAT-P-70`**
+  - `HAT-P-70 b` | 2019 | Transit | 2.74432452 | 20.96083
+- **`HATS-1`**
+  - `HATS-1 b` | 2012 | Transit | 3.446459 | 14.594
+- **`HATS-2`**
+  - `HATS-2 b` | 2013 | Transit | 1.35413379 | 12.57647635
+- **`HATS-3`**
+  - `HATS-3 b` | 2013 | Transit | 3.547851 | 15.48
+- **`HATS-4`**
+  - `HATS-4 b` | 2014 | Transit | 2.516729 | 11.433
+- **`HATS-5`**
+  - `HATS-5 b` | 2014 | Transit | 4.763387 | 10.223
+- **`HATS-6`**
+  - `HATS-6 b` | 2015 | Transit | 3.3252725 | 11.186582
+- **`HATS-7`**
+  - `HATS-7 b` | 2015 | Transit | 3.185315 | 6.310667
+- **`HATS-8`**
+  - `HATS-8 b` | 2015 | Transit | 3.583893 | 9.785457
+- **`HATS-9`**
+  - `HATS-9 b` | 2015 | Transit | 1.915291 | 13.85
+- **`HATS-10`**
+  - `HATS-10 b` | 2015 | Transit | 3.312846 | 10.861521
+- **`HATS-11`**
+  - `HATS-11 b` | 2016 | Transit | 3.619188 | 18.03
+- **`HATS-12`**
+  - `HATS-12 b` | 2016 | Transit | 3.142702 | 7.76
+- **`HATS-13`**
+  - `HATS-13 b` | 2015 | Transit | 3.0440499 | 13.585308
+
+</details>
+
+<a name="systems-03"></a>
+
+<details><summary>HATS-14 – HD 29021 · 180 ระบบ · 235 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`HATS-14`**
+  - `HATS-14 b` | 2015 | Transit | 2.7667641 | 11.646151
+- **`HATS-15`**
+  - `HATS-15 b` | 2016 | Transit | 1.74748753 | 12.385945
+- **`HATS-16`**
+  - `HATS-16 b` | 2016 | Transit | 2.686502 | 14.5717
+- **`HATS-17`**
+  - `HATS-17 b` | 2016 | Transit | 16.254611 | 8.709393
+- **`HATS-18`**
+  - `HATS-18 b` | 2016 | Transit | 0.83784 | 14.896761
+- **`HATS-22`**
+  - `HATS-22 b` | 2017 | Transit | 4.7228124 | 10.682177
+- **`HATS-23`**
+  - `HATS-23 b` | 2017 | Transit | 2.1605156 | 20.84874
+- **`HATS-24`**
+  - `HATS-24 b` | 2017 | Transit | 1.3484978 | 15.636555
+- **`HATS-25`**
+  - `HATS-25 b` | 2016 | Transit | 4.2986432 | 14.12334
+- **`HATS-26`**
+  - `HATS-26 b` | 2016 | Transit | 3.3023881 | 19.61575
+- **`HATS-27`**
+  - `HATS-27 b` | 2016 | Transit | 4.637038 | 16.8135
+- **`HATS-28`**
+  - `HATS-28 b` | 2016 | Transit | 3.1810781 | 13.383546
+- **`HATS-29`**
+  - `HATS-29 b` | 2016 | Transit | 4.6058749 | 14.022459
+- **`HATS-30`**
+  - `HATS-30 b` | 2016 | Transit | 3.1743516 | 13.170575
+- **`HATS-31`**
+  - `HATS-31 b` | 2016 | Transit | 3.37796 | 18.38276
+- **`HATS-32`**
+  - `HATS-32 b` | 2016 | Transit | 2.8126548 | 14.000041
+- **`HATS-33`**
+  - `HATS-33 b` | 2016 | Transit | 2.5495551 | 13.78707
+- **`HATS-34`**
+  - `HATS-34 b` | 2016 | Transit | 2.1061619 | 14.36991326
+- **`HATS-35`**
+  - `HATS-35 b` | 2016 | Transit | 1.8209993 | 16.409976
+- **`HATS-36`**
+  - `HATS-36 b` | 2018 | Transit | 4.175186 | 12.92
+- **`HATS-37`**
+  - ดาวแม่ `HATS-37 A`
+    - `HATS-37 A b` | 2020 | Transit | 4.3315366 | 6.792654
+- **`HATS-38`**
+  - `HATS-38 b` | 2020 | Transit | 4.375021 | 6.882326
+- **`HATS-39`**
+  - `HATS-39 b` | 2018 | Transit | 4.5776348 | 17.59813
+- **`HATS-40`**
+  - `HATS-40 b` | 2018 | Transit | 3.2642736 | 17.71022
+- **`HATS-41`**
+  - `HATS-41 b` | 2018 | Transit | 4.193649 | 14.90797
+- **`HATS-42`**
+  - `HATS-42 b` | 2018 | Transit | 2.292102 | 15.6926
+- **`HATS-43`**
+  - `HATS-43 b` | 2018 | Transit | 4.3888497 | 13.22662
+- **`HATS-44`**
+  - `HATS-44 b` | 2018 | Transit | 2.7439004 | 11.960003
+- **`HATS-45`**
+  - `HATS-45 b` | 2018 | Transit | 4.1876244 | 14.414774
+- **`HATS-46`**
+  - `HATS-46 b` | 2018 | Transit | 4.7423749 | 10.65974065
+- **`HATS-47`**
+  - `HATS-47 b` | 2020 | Transit | 3.9228038 | 12.520453
+- **`HATS-48`**
+  - ดาวแม่ `HATS-48 A`
+    - `HATS-48 A b` | 2020 | Transit | 3.1316666 | 8.9672
+- **`HATS-49`**
+  - `HATS-49 b` | 2020 | Transit | 4.1480467 | 8.574885
+- **`HATS-50`**
+  - `HATS-50 b` | 2017 | Transit | 3.8297015 | 12.66617
+- **`HATS-51`**
+  - `HATS-51 b` | 2017 | Transit | 3.3488702 | 15.80469
+- **`HATS-52`**
+  - `HATS-52 b` | 2017 | Transit | 1.36665436 | 15.490838
+- **`HATS-53`**
+  - `HATS-53 b` | 2017 | Transit | 3.8537768 | 15.02006
+- **`HATS-54`**
+  - `HATS-54 b` | 2019 | Transit | 2.5441765 | 11.37711541
+- **`HATS-55`**
+  - `HATS-55 b` | 2019 | Transit | 4.2042001 | 14.022459
+- **`HATS-56`**
+  - `HATS-56 b` | 2019 | Transit | 4.324799 | 18.920792
+- **`HATS-57`**
+  - `HATS-57 b` | 2019 | Transit | 2.350621 | 12.767051
+- **`HATS-58`**
+  - ดาวแม่ `HATS-58 A`
+    - `HATS-58 A b` | 2019 | Transit | 4.2180896 | 12.273855
+- **`HATS-59`**
+  - `HATS-59 b` | 2018 | Transit | 5.416081 | 12.621334
+  - `HATS-59 c` | 2018 | Radial Velocity | 1422 | 12.3
+- **`HATS-60`**
+  - `HATS-60 b` | 2018 | Transit | 3.560829 | 12.923977
+- **`HATS-61`**
+  - `HATS-61 b` | 2018 | Transit | 7.817953 | 13.394755
+- **`HATS-62`**
+  - `HATS-62 b` | 2018 | Transit | 3.2768837 | 11.825495
+- **`HATS-63`**
+  - `HATS-63 b` | 2018 | Transit | 3.0566527 | 13.529263
+- **`HATS-64`**
+  - `HATS-64 b` | 2018 | Transit | 4.908897 | 18.819911
+- **`HATS-65`**
+  - `HATS-65 b` | 2018 | Transit | 3.105161 | 16.824709
+- **`HATS-66`**
+  - `HATS-66 b` | 2018 | Transit | 3.1414391 | 15.815899
+- **`HATS-67`**
+  - `HATS-67 b` | 2018 | Transit | 1.6091788 | 18.887165
+- **`HATS-68`**
+  - `HATS-68 b` | 2018 | Transit | 3.5862202 | 13.809488
+- **`HATS-69`**
+  - `HATS-69 b` | 2018 | Transit | 2.2252577 | 10.592505
+- **`HATS-70`**
+  - `HATS-70 b` | 2019 | Transit | 1.8882378 | 15.513256
+- **`HATS-71`**
+  - `HATS-71 b` | 2020 | Transit | 3.7955202 | 11.478016
+- **`HATS-72`**
+  - `HATS-72 b` | 2020 | Transit | 7.3279474 | 8.0973816
+- **`HATS-74`**
+  - ดาวแม่ `HATS-74 A`
+    - `HATS-74 A b` | 2021 | Transit | 1.73185606 | 11.56766808
+- **`HATS-75`**
+  - `HATS-75 b` | 2021 | Transit | 2.7886556 | 9.90873894
+- **`HATS-76`**
+  - `HATS-76 b` | 2021 | Transit | 1.9416423 | 12.09449018
+- **`HATS-77`**
+  - `HATS-77 b` | 2021 | Transit | 3.0876262 | 13.05846252
+- **`HD 142`**
+  - `HD 142 A d` | 2022 | Radial Velocity | 108.45299 | 10.9
+  - `HD 142 b` | 2001 | Radial Velocity | 351.43394 | 12.7
+  - `HD 142 c` | 2012 | Radial Velocity | 10159.64279 | 12.4
+- **`HD 360`**
+  - `HD 360 b` | 2021 | Radial Velocity | 273.1 | 14
+- **`HD 457`**
+  - `HD 457 b` | 2022 | Radial Velocity | 20324.58153 | 11.9
+- **`HD 564`**
+  - `HD 564 b` | 2014 | Radial Velocity | 492.3 | 12.5
+- **`HD 715`**
+  - `HD 715 b` | 2026 | Transit | 56.222 | 11.61250401
+- **`HD 1397`**
+  - `HD 1397 b` | 2018 | Transit | 11.53533 | 11.500434
+- **`HD 1461`**
+  - `HD 1461 b` | 2010 | Radial Velocity | 5.77152 | 2.42
+  - `HD 1461 c` | 2015 | Radial Velocity | 13.5052 | 2.23
+- **`HD 1502`**
+  - `HD 1502 b` | 2011 | Radial Velocity | 428.5 | 13.2
+- **`HD 1605`**
+  - `HD 1605 b` | 2015 | Radial Velocity | 577.2 | 13.8
+  - `HD 1605 c` | 2015 | Radial Velocity | 2149 | 13
+- **`HD 1666`**
+  - `HD 1666 b` | 2015 | Radial Velocity | 270 | 12.7
+- **`HD 1690`**
+  - `HD 1690 b` | 2010 | Radial Velocity | 533 | 12.5
+- **`HD 2039`**
+  - `HD 2039 b` | 2002 | Radial Velocity | 1120 | 12.7
+- **`HD 2638`**
+  - `HD 2638 b` | 2005 | Radial Velocity | 3.4442 | 14.3
+- **`HD 2685`**
+  - `HD 2685 b` | 2019 | Transit | 4.12688 | 16.14096
+- **`HD 2952`**
+  - `HD 2952 b` | 2013 | Radial Velocity | 312.08 | 13.9
+- **`HD 3167`**
+  - `HD 3167 b` | 2016 | Transit | 0.95965451 | 1.601
+  - `HD 3167 d` | 2017 | Radial Velocity | 8.3967 | 2.61
+  - `HD 3167 c` | 2016 | Transit | 29.846511 | 2.983
+  - `HD 3167 e` | 2022 | Radial Velocity | 91.9 | 3.97
+- **`HD 3651`**
+  - `HD 3651 b` | 2003 | Radial Velocity | 62.25 | 10.1
+- **`HD 3765`**
+  - `HD 3765 b` | 2021 | Radial Velocity | 1211 | 8.56
+- **`HD 4113`**
+  - `HD 4113 b` | 2007 | Radial Velocity | 526.5239 | 13.5
+- **`HD 4203`**
+  - `HD 4203 b` | 2001 | Radial Velocity | 431.88 | 13.3
+  - `HD 4203 c` | 2014 | Radial Velocity | 6700 | 13.3
+- **`HD 4208`**
+  - `HD 4208 b` | 2001 | Radial Velocity | 832.97 | 13.9
+- **`HD 4308`**
+  - `HD 4308 b` | 2005 | Radial Velocity | 15.56 | 4.12
+- **`HD 4313`**
+  - `HD 4313 b` | 2009 | Radial Velocity | 356.21 | 13.4
+- **`HD 4732`**
+  - `HD 4732 b` | 2012 | Radial Velocity | 371.74 | 13.4
+  - `HD 4732 c` | 2012 | Radial Velocity | 3184.2 | 13.1
+- **`HD 4760`**
+  - `HD 4760 b` | 2021 | Radial Velocity | 434 | 12.3
+- **`HD 4917`**
+  - `HD 4917 b` | 2018 | Radial Velocity | 400.5 | 13.5
+- **`HD 5278`**
+  - `HD 5278 b` | 2021 | Transit | 14.339156 | 2.45
+  - `HD 5278 c` | 2021 | Radial Velocity | 40.87 | 4.49
+- **`HD 5319`**
+  - `HD 5319 b` | 2007 | Radial Velocity | 637.1 | 13.5
+  - `HD 5319 c` | 2014 | Radial Velocity | 872.2 | 13.8
+- **`HD 5388`**
+  - `HD 5388 b` † | 2010 | Radial Velocity | 772.5 | 13.1
+- **`HD 5583`**
+  - `HD 5583 b` | 2016 | Radial Velocity | 139.35 | 12.8
+- **`HD 5608`**
+  - `HD 5608 b` | 2012 | Radial Velocity | 768.7 | 13.7
+- **`HD 5891`**
+  - `HD 5891 b` | 2011 | Radial Velocity | 177.11 | 12.6
+- **`HD 6061`**
+  - `HD 6061 b` | 2023 | Transit | 5.2549 | 2.42763557
+- **`HD 6434`**
+  - `HD 6434 b` | 2003 | Radial Velocity | 21.998 | 14.2
+- **`HD 6718`**
+  - `HD 6718 b` † | 2009 | Radial Velocity | 2476 | 13.3
+- **`HD 6860`**
+  - `HD 6860 b` | 2023 | Radial Velocity | 663.87 | 11.9
+- **`HD 7199`**
+  - `HD 7199 b` | 2011 | Radial Velocity | 615 | —
+- **`HD 7449`**
+  - `HD 7449 b` | 2011 | Radial Velocity | 1270.55195 | 12.6
+- **`HD 7924`**
+  - `HD 7924 b` | 2008 | Radial Velocity | 5.39792 | —
+  - `HD 7924 c` | 2015 | Radial Velocity | 15.299 | —
+  - `HD 7924 d` | 2015 | Radial Velocity | 24.451 | —
+- **`HD 8326`**
+  - `HD 8326 b` | 2019 | Radial Velocity | 158.991 | 9.58
+- **`HD 8535`**
+  - `HD 8535 b` | 2010 | Radial Velocity | 1313 | 14
+- **`HD 8574`**
+  - `HD 8574 b` | 2002 | Radial Velocity | 227 | 13.4
+- **`HD 8673`**
+  - `HD 8673 b` | 2009 | Radial Velocity | 1644.69097 | 12.3
+- **`HD 9174`**
+  - `HD 9174 b` | 2016 | Radial Velocity | 1179 | 13.7
+- **`HD 9446`**
+  - `HD 9446 b` | 2009 | Radial Velocity | 30.052 | 14
+  - `HD 9446 c` | 2009 | Radial Velocity | 192.9 | 13.4
+- **`HD 10180`**
+  - `HD 10180 c` | 2010 | Radial Velocity | 5.75969 | —
+  - `HD 10180 d` | 2010 | Radial Velocity | 16.357 | —
+  - `HD 10180 e` | 2010 | Radial Velocity | 49.748 | 5.39
+  - `HD 10180 f` | 2010 | Radial Velocity | 122.744 | 5.24
+  - `HD 10180 g` | 2010 | Radial Velocity | 604.67 | —
+  - `HD 10180 h` | 2010 | Radial Velocity | 2205 | 9.4
+- **`HD 10442`**
+  - `HD 10442 b` | 2014 | Radial Velocity | 1032.3 | 13.6
+- **`HD 10647`**
+  - `HD 10647 b` | 2006 | Radial Velocity | 989.2 | 13.8
+- **`HD 10697`**
+  - `HD 10697 b` | 1999 | Radial Velocity | 1075.3799 | 12.8
+- **`HD 10975`**
+  - `HD 10975 b` | 2021 | Radial Velocity | 283.8 | 14.3
+- **`HD 11112`**
+  - `HD 11112 b` | 2022 | Radial Velocity | 17244.90764 | 12.6
+- **`HD 11505`**
+  - `HD 11505 b` | 2022 | Radial Velocity | 32669.22247 | 12.6
+- **`HD 11506`**
+  - `HD 11506 c` | 2008 | Radial Velocity | 223.92 | 14
+  - `HD 11506 b` | 2007 | Radial Velocity | 1617.7 | 12.9
+  - `HD 11506 d` | 2022 | Radial Velocity | 26500 | 12.3
+- **`HD 11755`**
+  - `HD 11755 b` | 2015 | Radial Velocity | 433.70001 | 12.8
+- **`HD 11964`**
+  - `HD 11964 c` | 2008 | Radial Velocity | 37.91 | 5.38
+  - `HD 11964 b` | 2005 | Radial Velocity | 1945 | 14.1
+- **`HD 11977`**
+  - `HD 11977 b` | 2005 | Radial Velocity | 711 | 12.7
+- **`HD 12235`**
+  - `HD 12235 b` | 2022 | Radial Velocity | 4.36305 | 3.23
+  - `HD 12235 c` | 2022 | Radial Velocity | 36336.70679 | 12.5
+- **`HD 12484`**
+  - `HD 12484 b` | 2016 | Radial Velocity | 58.83 | 13.2
+- **`HD 12648`**
+  - `HD 12648 b` | 2015 | Radial Velocity | 133.60001 | 13.4
+- **`HD 12661`**
+  - `HD 12661 b` | 2000 | Radial Velocity | 262.70862 | 13.3
+  - `HD 12661 c` | 2002 | Radial Velocity | 1708 | 13.2
+- **`HD 13167`**
+  - `HD 13167 b` | 2018 | Radial Velocity | 2613 | 13.1
+- **`HD 13189`**
+  - `HD 13189 b` | 2005 | Radial Velocity | 471.60001 | 12.4
+- **`HD 13724`**
+  - `HD 13724 c` | 2022 | Radial Velocity | 142.22895 | 8.18
+- **`HD 13808`**
+  - `HD 13808 b` | 2021 | Radial Velocity | 14.1815 | 3.35
+  - `HD 13808 c` | 2021 | Radial Velocity | 53.753 | 3.13
+- **`HD 13908`**
+  - `HD 13908 b` | 2013 | Radial Velocity | 19.382 | 13.9
+  - `HD 13908 c` | 2013 | Radial Velocity | 931 | 12.8
+- **`HD 13931`**
+  - `HD 13931 b` | 2009 | Radial Velocity | 4218 | 13.2
+- **`HD 14067`**
+  - `HD 14067 b` | 2014 | Radial Velocity | 2744 | 12.2
+- **`HD 14787`**
+  - `HD 14787 b` | 2018 | Radial Velocity | 676.6 | 13.7
+- **`HD 15337`**
+  - `HD 15337 b` | 2019 | Transit | 4.7559804 | 1.77
+  - `HD 15337 c` | 2019 | Transit | 17.180546 | 2.526
+- **`HD 15906`**
+  - `HD 15906 b` | 2023 | Transit | 10.924709 | 2.24
+  - `HD 15906 c` | 2023 | Transit | 21.583298 | 2.93
+- **`HD 16141`**
+  - `HD 16141 b` | 2000 | Radial Velocity | 75.523 | 10.9
+- **`HD 16175`**
+  - `HD 16175 b` | 2009 | Radial Velocity | 990 | 12.8
+- **`HD 16417`**
+  - `HD 16417 b` | 2008 | Radial Velocity | 17.24 | 5
+- **`HD 16760`**
+  - `HD 16760 b` † | 2009 | Radial Velocity | 466.08 | 12.1
+- **`HD 16905`**
+  - `HD 16905 b` | 2022 | Radial Velocity | 10256 | 12.4
+- **`HD 17092`**
+  - `HD 17092 b` | 2007 | Radial Velocity | 359.89999 | 12.5
+- **`HD 17156`**
+  - `HD 17156 b` | 2007 | Radial Velocity | 21.2164294 | 12.26262489
+- **`HD 17674`**
+  - `HD 17674 b` | 2017 | Radial Velocity | 623.8 | 13.9
+- **`HD 18015`**
+  - `HD 18015 b` | 2018 | Radial Velocity | 2278 | 13.1
+- **`HD 18438`**
+  - `HD 18438 b` | 2023 | Radial Velocity | 803 | 12.1
+- **`HD 18599`**
+  - `HD 18599 b` | 2022 | Transit | 4.1374354 | 2.6
+- **`HD 18742`**
+  - `HD 18742 b` | 2011 | Radial Velocity | 766 | 13.1
+- **`HD 19615`**
+  - `HD 19615 b` | 2022 | Radial Velocity | 402 | 12.6
+- **`HD 19994`**
+  - `HD 19994 b` | 2003 | Radial Velocity | 466.2 | 13.6
+- **`HD 20003`**
+  - `HD 20003 b` | 2019 | Radial Velocity | 11.8482 | 3.43
+  - `HD 20003 c` | 2019 | Radial Velocity | 33.9239 | 3.89
+- **`HD 20329`**
+  - `HD 20329 b` | 2022 | Transit | 0.926118 | 1.72
+- **`HD 20782`**
+  - ดาวแม่ `HD 20781`
+    - `HD 20781 b` | 2019 | Radial Velocity | 5.3135 | 1.21
+    - `HD 20781 c` | 2019 | Radial Velocity | 13.8905 | 2.17
+    - `HD 20781 d` | 2019 | Radial Velocity | 29.158 | 3.25
+    - `HD 20781 e` | 2019 | Radial Velocity | 85.5073 | 3.83
+  - ดาวแม่ `HD 20782`
+    - `HD 20782 b` | 2006 | Radial Velocity | 597.0643 | 13.6
+- **`HD 20794`**
+  - `HD 20794 b` | 2011 | Radial Velocity | 18.314 | 1.45
+  - `HD 20794 d` | 2011 | Radial Velocity | 89.68 | 2.04
+  - `HD 20794 e` † | 2017 | Radial Velocity | 147.02 | 2.03
+  - `HD 20794 f` | 2025 | Radial Velocity | 647.6 | 2.28
+- **`HD 20868`**
+  - `HD 20868 b` | 2008 | Radial Velocity | 380.85001 | 13.7
+- **`HD 21411`**
+  - `HD 21411 b` | 2019 | Radial Velocity | 84.288 | 9.52
+- **`HD 21520`**
+  - `HD 21520 b` | 2024 | Transit | 25.1292 | 2.697
+- **`HD 21693`**
+  - `HD 21693 b` | 2019 | Radial Velocity | 22.6786 | 2.8
+  - `HD 21693 c` | 2019 | Radial Velocity | 53.7357 | 4.34
+- **`HD 22496`**
+  - `HD 22496 b` | 2021 | Radial Velocity | 5.09071 | 2.22
+- **`HD 22532`**
+  - `HD 22532 b` | 2022 | Radial Velocity | 872.6 | 13.4
+- **`HD 22781`**
+  - `HD 22781 b` | 2011 | Radial Velocity | 528.07 | 12.3
+- **`HD 22946`**
+  - `TOI-411 b` | 2022 | Transit | 4.040295 | 1.362
+  - `TOI-411 c` | 2022 | Transit | 9.573083 | 2.328
+  - `HD 22946 d` | 2023 | Transit | 47.42489 | 2.607
+- **`HD 23079`**
+  - `HD 23079 c` | 2025 | Radial Velocity | 5.748913 | 2.8
+  - `HD 23079 b` | 2001 | Radial Velocity | 735.74 | 13.2
+- **`HD 23127`**
+  - `HD 23127 b` | 2006 | Radial Velocity | 1211.17 | 13.5
+- **`HD 23472`**
+  - `HD 23472 d` | 2022 | Transit | 3.97664 | 0.75
+  - `HD 23472 e` | 2022 | Transit | 7.90754 | 0.818
+  - `HD 23472 f` | 2022 | Transit | 12.1621839 | 1.137
+  - `HD 23472 b` | 2019 | Transit | 17.667087 | 2
+  - `HD 23472 c` | 2019 | Transit | 29.79749 | 1.87
+- **`HD 23596`**
+  - `HD 23596 b` | 2003 | Radial Velocity | 1535.11912 | 12.4
+- **`HD 24040`**
+  - `HD 24040 c` | 2021 | Radial Velocity | 515.4 | 9.35
+  - `HD 24040 b` | 2006 | Radial Velocity | 3668 | 12.9
+- **`HD 24064`**
+  - `HD 24064 b` | 2015 | Radial Velocity | 535.59998 | 12.3
+- **`HD 24085`**
+  - `HD 24085 b` | 2019 | Radial Velocity | 2.0455 | 3.46
+- **`HD 25015`**
+  - `HD 25015 b` | 2019 | Radial Velocity | 6134.427 | 12.5
+- **`HD 25171`**
+  - `HD 25171 b` | 2010 | Radial Velocity | 1802.29 | 13.9
+- **`HD 25463`**
+  - `HD 25463 c` | 2023 | Transit | 3.04405 | 1.36354953
+  - `HD 25463 b` | 2023 | Transit | 7.0491423 | 2.54535814
+- **`HD 25723`**
+  - `HD 25723 b` | 2020 | Radial Velocity | 457.01 | 13.3
+- **`HD 25912`**
+  - `HD 25912 b` | 2022 | Radial Velocity | 41.83156 | 6.9
+  - `HD 25912 c` | 2022 | Radial Velocity | 26308.65619 | 12.2
+- **`HD 26161`**
+  - `HD 26161 b` | 2021 | Radial Velocity | 10942.29013 | 11.9
+- **`HD 27442`**
+  - `HD 27442 b` | 2000 | Radial Velocity | 428.1 | 13.5
+- **`HD 27631`**
+  - `HD 27631 b` | 2012 | Radial Velocity | 2198.14 | 13.5
+- **`HD 27894`**
+  - `HD 27894 b` | 2005 | Radial Velocity | 18.01939 | 14.1
+  - `HD 27894 c` | 2017 | Radial Velocity | 36.07 | 8.24
+  - `HD 27894 d` | 2017 | Radial Velocity | 5019.54244 | 12.7
+- **`HD 27969`**
+  - `HD 27969 b` | 2021 | Radial Velocity | 654.5 | 12.9
+- **`HD 28109`**
+  - `HD 28109 b` | 2022 | Transit | 22.891054 | 2.69
+  - `HD 28109 c` | 2022 | Transit | 55.99712 | 4.13
+  - `HD 28109 d` | 2022 | Transit | 84.2899 | 3.11
+- **`HD 28185`**
+  - `HD 28185 b` | 2001 | Radial Velocity | 385.92 | 12.8
+  - `HD 28185 c` | 2022 | Radial Velocity | 9090 | 12.8
+- **`HD 28192`**
+  - `HD 28192 b` | 2022 | Radial Velocity | 14.23283 | 12.2
+- **`HD 28254`**
+  - `HD 28254 b` | 2010 | Radial Velocity | 1333 | 13
+- **`HD 28471`**
+  - `HD 28471 b` | 2025 | Radial Velocity | 3.1649 | 1.75
+  - `HD 28471 c` | 2025 | Radial Velocity | 6.1245 | 2.26
+  - `HD 28471 d` | 2025 | Radial Velocity | 11.681 | 2.06
+- **`HD 28678`**
+  - `HD 28678 b` | 2011 | Radial Velocity | 380.2 | 13.5
+- **`HD 29021`**
+  - `HD 29021 b` | 2017 | Radial Velocity | 1365 | 12.9
+
+</details>
+
+<a name="systems-04"></a>
+
+<details><summary>HD 29399 – HD 106315 · 180 ระบบ · 261 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`HD 29399`**
+  - `HD 29399 b` | 2022 | Radial Velocity | 892.7 | 13.5
+- **`HD 29985`**
+  - `HD 29985 b` | 2022 | Radial Velocity | 20608.14049 | 12.8
+- **`HD 30177`**
+  - `HD 30177 b` | 2002 | Radial Velocity | 2539 | 12.6
+  - `HD 30177 c` | 2016 | Radial Velocity | 11320 | 12.9
+- **`HD 30562`**
+  - `HD 30562 b` | 2009 | Radial Velocity | 1157 | 13.6
+- **`HD 30669`**
+  - `HD 30669 b` | 2014 | Radial Velocity | 1684 | 14.3
+- **`HD 30856`**
+  - `HD 30856 b` | 2011 | Radial Velocity | 847 | 13.5
+- **`HD 31253`**
+  - `HD 31253 b` | 2010 | Radial Velocity | 466 | 14.1
+- **`HD 31527`**
+  - `HD 31527 b` | 2019 | Radial Velocity | 16.5535 | 3.22
+  - `HD 31527 c` | 2019 | Radial Velocity | 51.2053 | 3.85
+  - `HD 31527 d` | 2019 | Radial Velocity | 271.6737 | 3.46
+- **`HD 32518`**
+  - `HD 32518 b` | 2009 | Radial Velocity | 157.35 | 13.2
+- **`HD 32963`**
+  - `HD 32963 b` | 2015 | Radial Velocity | 2372 | 13.4
+- **`HD 33142`**
+  - `HD 33142 d` | 2022 | Radial Velocity | 89.9 | 9.32
+  - `HD 33142 b` | 2011 | Radial Velocity | 330 | 13.7
+  - `HD 33142 c` | 2016 | Radial Velocity | 810.2 | 13.9
+- **`HD 33283`**
+  - `HD 33283 b` | 2006 | Radial Velocity | 18.1991 | 12.5
+- **`HD 33564`**
+  - `HD 33564 b` | 2005 | Radial Velocity | 388 | 12.5
+- **`HD 33844`**
+  - `HD 33844 b` | 2015 | Radial Velocity | 551.40002 | 13.4
+  - `HD 33844 c` † | 2015 | Radial Velocity | 916 | 13.5
+- **`HD 34445`**
+  - `HD 34445 e` | 2017 | Radial Velocity | 49.175 | 4.26
+  - `HD 34445 d` | 2017 | Radial Velocity | 117.87 | 6.07
+  - `HD 34445 c` | 2017 | Radial Velocity | 214.67 | 8.42
+  - `HD 34445 f` | 2017 | Radial Velocity | 676.8 | 6.88
+  - `HD 34445 b` | 2009 | Radial Velocity | 1049 | 13.9
+  - `HD 34445 g` | 2017 | Radial Velocity | 5700 | 13.6
+- **`HD 35759`**
+  - `HD 35759 b` | 2016 | Radial Velocity | 82.467 | 13
+- **`HD 35843`**
+  - `HD 35843 b` | 2025 | Radial Velocity | 9.8991 | 2.29
+  - `HD 35843 c` | 2025 | Transit | 46.9622 | 2.54
+- **`HD 36384`**
+  - `HD 36384 b` | 2023 | Radial Velocity | 490 | 12.7
+- **`HD 37124`**
+  - `HD 37124 b` | 2002 | Radial Velocity | 154.378 | 14
+  - `HD 37124 c` | 2002 | Radial Velocity | 885.5 | 14.1
+  - `HD 37124 d` | 2005 | Radial Velocity | 1862 | 14
+- **`HD 37605`**
+  - `HD 37605 b` | 2004 | Radial Velocity | 55.01292 | 13.2
+  - `HD 37605 c` | 2012 | Radial Velocity | 2720 | 13.1
+- **`HD 38283`**
+  - `HD 38283 b` | 2010 | Radial Velocity | 363.20001 | 14
+- **`HD 38529`**
+  - `HD 38529 b` | 2000 | Radial Velocity | 14.3099 | 14.1
+  - `HD 38529 c` | 2000 | Radial Velocity | 2127.60566 | 12.5
+- **`HD 38801`**
+  - `HD 38801 b` | 2009 | Radial Velocity | 685.25 | 12.5
+- **`HD 39091`**
+  - `pi Men c` | 2018 | Transit | 6.267823 | 2.10728837
+  - `pi Men d` | 2022 | Radial Velocity | 123.1 | 3.72
+  - `HD 39091 b` | 2001 | Radial Velocity | 2088.7 | 12.4
+- **`HD 39194`**
+  - `HD 39194 b` | 2021 | Radial Velocity | 5.63692 | 1.99
+  - `HD 39194 c` | 2021 | Radial Velocity | 14.0309 | 2.65
+  - `HD 39194 d` | 2021 | Radial Velocity | 33.874 | 2.12
+- **`HD 39855`**
+  - `HD 39855 b` | 2019 | Radial Velocity | 3.2498 | 2.85
+- **`HD 40307`**
+  - `HD 40307 b` | 2009 | Radial Velocity | 4.3123 | —
+  - `HD 40307 c` | 2009 | Radial Velocity | 9.6184 | —
+  - `HD 40307 d` | 2009 | Radial Velocity | 20.432 | —
+  - `HD 40307 f` | 2013 | Radial Velocity | 51.76 | 2.13
+  - `HD 40307 g` † | 2013 | Radial Velocity | 197.8 | 2.56
+- **`HD 40956`**
+  - `HD 40956 b` | 2017 | Radial Velocity | 578.6 | 13.2
+- **`HD 40979`**
+  - `HD 40979 b` | 2002 | Radial Velocity | 264.14999 | 12.9
+- **`HD 41004`**
+  - ดาวแม่ `HD 41004 A`
+    - `HD 41004 A b` | 2004 | Radial Velocity | 963 | 13.2
+  - ดาวแม่ `HD 41004 B`
+    - `HD 41004 B b` | 2003 | Radial Velocity | 1.3283 | 12.1
+- **`HD 42012`**
+  - `HD 42012 b` | 2017 | Radial Velocity | 857.5 | 13.5
+- **`HD 42618`**
+  - `HD 42618 b` | 2016 | Radial Velocity | 149.61 | 3.89
+- **`HD 43197`**
+  - `HD 43197 b` | 2010 | Radial Velocity | 308.92072 | 14.2
+  - `HD 43197 c` | 2022 | Radial Velocity | 9295.9735 | 12.6
+- **`HD 43691`**
+  - `HD 43691 b` | 2007 | Radial Velocity | 36.9987 | 13.2
+- **`HD 44219`**
+  - `HD 44219 b` | 2010 | Radial Velocity | 472 | 14.1
+- **`HD 45184`**
+  - `HD 45184 b` | 2019 | Radial Velocity | 5.8854 | 3.52
+  - `HD 45184 c` | 2019 | Radial Velocity | 13.1354 | 2.91
+- **`HD 45350`**
+  - `HD 45350 b` | 2004 | Radial Velocity | 963.6 | 13.5
+- **`HD 45364`**
+  - `HD 45364 b` | 2008 | Radial Velocity | 225.79 | 9.03
+  - `HD 45364 c` | 2008 | Radial Velocity | 345.43 | 14.2
+- **`HD 45652`**
+  - `HD 45652 b` | 2008 | Radial Velocity | 44.073 | 14.3
+- **`HD 46375`**
+  - `HD 46375 b` | 2000 | Radial Velocity | 3.023573 | 10
+- **`HD 47186`**
+  - `HD 47186 b` | 2008 | Radial Velocity | 4.0845 | 5.02
+  - `HD 47186 c` | 2008 | Radial Velocity | 1353.6 | 13
+- **`HD 47366`**
+  - `HD 47366 b` | 2016 | Radial Velocity | 360.08 | 13.4
+  - `HD 47366 c` | 2016 | Radial Velocity | 677.53 | 13.5
+- **`HD 47536`**
+  - `HD 47536 b` | 2002 | Radial Velocity | 712.13 | 12.6
+- **`HD 48265`**
+  - `HD 48265 b` | 2008 | Radial Velocity | 778.51 | 12.6
+  - `HD 48265 c` | 2026 | Radial Velocity | 10418 | 12.9
+- **`HD 48948`**
+  - `HD 48948 b` | 2024 | Radial Velocity | 7.34013 | 2.19
+  - `HD 48948 c` | 2024 | Radial Velocity | 38.06 | 2.4
+  - `HD 48948 d` | 2024 | Radial Velocity | 151.92 | 3.15
+- **`HD 49674`**
+  - `HD 49674 b` | 2002 | Radial Velocity | 4.94737 | 6.2
+- **`HD 50499`**
+  - `HD 50499 b` | 2005 | Radial Velocity | 2447.1 | 13.5
+  - `HD 50499 c` | 2019 | Radial Velocity | 8619.9 | 13.2
+- **`HD 50554`**
+  - `HD 50554 c` | 2026 | Transit | 5.969362 | 1.31
+  - `HD 50554 d` | 2026 | Transit | 28.0694 | 1.41
+  - `HD 50554 b` | 2002 | Radial Velocity | 1240 | 12.8
+- **`HD 51608`**
+  - `HD 51608 b` | 2019 | Radial Velocity | 14.0726 | 3.62
+  - `HD 51608 c` | 2019 | Radial Velocity | 95.9446 | 3.87
+- **`HD 52265`**
+  - `HD 52265 b` | 2000 | Radial Velocity | 119.27 | 13.7
+- **`HD 55696`**
+  - `HD 55696 b` | 2018 | Radial Velocity | 1827 | 12.9
+- **`HD 56414`**
+  - `HD 56414 b` | 2022 | Transit | 29.04992 | 3.71
+- **`HD 56957`**
+  - `HD 56957 b` | 2022 | Radial Velocity | 5859.08992 | 12.8
+- **`HD 59686`**
+  - ดาวแม่ `HD 59686 A`
+    - `HD 59686 A b` | 2016 | Radial Velocity | 299.36 | 12.7
+- **`HD 60292`**
+  - `HD 60292 b` | 2020 | Radial Velocity | 495.4 | 12.7
+- **`HD 60532`**
+  - `HD 60532 b` | 2008 | Radial Velocity | 201.9 | 13.8
+  - `HD 60532 c` | 2008 | Radial Velocity | 600.1 | 13.3
+- **`HD 60779`**
+  - `HD 60779 b` | 2026 | Transit | 29.986175 | 3.246
+  - `HD 60779 c` | 2026 | Radial Velocity | 104.79 | 5.79
+- **`HD 62364`**
+  - `HD 62364 b` | 2022 | Radial Velocity | 5138 | 12.1
+  - `HD 62364 c` † | 2022 | Radial Velocity | 74839.94555 | 12
+- **`HD 62509`**
+  - `HD 62509 b` | 2006 | Radial Velocity | 589.64 | 13.3
+- **`HD 62549`**
+  - `HD 62549 b` | 2022 | Radial Velocity | 14306.88519 | 12.6
+- **`HD 63433`**
+  - `HD 63433 d` | 2023 | Transit | 4.209075 | 1.073
+  - `HD 63433 b` | 2020 | Transit | 7.1079475 | 2.14
+  - `HD 63433 c` | 2020 | Transit | 20.5438281 | 2.692
+- **`HD 63454`**
+  - `HD 63454 b` | 2005 | Radial Velocity | 2.81805 | 12.31
+- **`HD 63765`**
+  - `HD 63765 b` | 2011 | Radial Velocity | 358 | 14.2
+- **`HD 63935`**
+  - `HD 63935 b` | 2021 | Transit | 9.058807 | 2.91575244
+  - `HD 63935 c` | 2021 | Radial Velocity | 21.4027 | 3.06451296
+- **`HD 64114`**
+  - `HD 64114 b` | 2019 | Radial Velocity | 45.791 | 4.41
+- **`HD 64121`**
+  - `HD 64121 b` | 2022 | Radial Velocity | 623 | 13.2
+- **`HD 65216`**
+  - `HD 65216 b` | 2003 | Radial Velocity | 577.9 | 13.3
+  - `HD 65216 c` | 2013 | Radial Velocity | 7007 | 13.1
+- **`HD 66141`**
+  - `HD 66141 b` | 2012 | Radial Velocity | 480.5 | 12.8
+- **`HD 66428`**
+  - `HD 66428 b` | 2005 | Radial Velocity | 2269.81726 | 12.4
+  - `HD 66428 c` | 2021 | Radial Velocity | 10478.84437 | 13.5
+- **`HD 67087`**
+  - `HD 67087 b` | 2015 | Radial Velocity | 352.2 | 13.1
+  - `HD 67087 c` | 2015 | Radial Velocity | 2374 | 12.9
+- **`HD 68402`**
+  - `HD 68402 b` | 2016 | Radial Velocity | 1103 | 12.6
+- **`HD 68475`**
+  - `HD 68475 b` | 2026 | Radial Velocity | 7832 | 12.8
+- **`HD 68988`**
+  - `HD 68988 b` | 2001 | Radial Velocity | 6.27711 | 13.4
+  - `HD 68988 c` | 2021 | Radial Velocity | 16000 | 12.2
+- **`HD 69123`**
+  - `HD 69123 b` | 2022 | Radial Velocity | 1193.3 | 13.1
+- **`HD 69830`**
+  - `HD 69830 b` | 2006 | Radial Velocity | 8.667 | 3.17
+  - `HD 69830 c` | 2006 | Radial Velocity | 31.56 | 3.46
+  - `HD 69830 d` | 2006 | Radial Velocity | 197 | 4.45
+- **`HD 70573`**
+  - `HD 70573 b` | 2007 | Radial Velocity | 851.8 | 12.8
+- **`HD 70642`**
+  - `HD 70642 b` | 2003 | Radial Velocity | 2124.54 | 13
+- **`HD 72490`**
+  - `HD 72490 b` | 2018 | Radial Velocity | 858 | 13.5
+- **`HD 72659`**
+  - `HD 72659 b` | 2002 | Radial Velocity | 3549 | 13.2
+  - `HD 72659 c` | 2022 | Radial Velocity | 35500 | 12.1
+- **`HD 72892`**
+  - `HD 72892 b` | 2016 | Radial Velocity | 39.44603 | 12.8
+- **`HD 73256`**
+  - `HD 73256 c` | 2023 | Radial Velocity | 2690 | 12.2
+- **`HD 73267`**
+  - `HD 73267 b` | 2008 | Radial Velocity | 1257.99159 | 13
+  - `HD 73267 c` | 2022 | Radial Velocity | 17071.78045 | 12.8
+- **`HD 73344`**
+  - `HD 73344 b` | 2024 | Transit | 15.611 | 2.884
+  - `HD 73344 c` | 2025 | Radial Velocity | 65.94 | 13.5
+  - `HD 73344 d` | 2025 | Radial Velocity | 5823 | 13.2
+- **`HD 73526`**
+  - `HD 73526 b` † | 2002 | Radial Velocity | 188.3 | 13.1
+  - `HD 73526 c` | 2005 | Radial Velocity | 379.1 | 13.3
+- **`HD 73534`**
+  - `HD 73534 b` | 2008 | Radial Velocity | 1750 | 13.7
+- **`HD 73583`**
+  - `HD 73583 b` | 2022 | Transit | 6.398042 | 2.79
+  - `HD 73583 c` | 2022 | Transit | 18.87974 | 2.39
+- **`HD 74156`**
+  - `HD 74156 b` | 2003 | Radial Velocity | 51.63564 | 13.5
+  - `HD 74156 c` | 2003 | Radial Velocity | 2448.48726 | 12.5
+- **`HD 74698`**
+  - `HD 74698 b` | 2023 | Radial Velocity | 15.017 | 5.12
+  - `HD 74698 c` | 2023 | Radial Velocity | 3449 | 14
+- **`HD 75289`**
+  - `HD 75289 b` | 1999 | Radial Velocity | 3.50927 | 14.2
+- **`HD 75302`**
+  - `HD 75302 b` | 2023 | Radial Velocity | 4356 | 12.8
+- **`HD 75784`**
+  - `HD 75784 b` | 2014 | Radial Velocity | 341.2 | 13.8
+  - `HD 75784 c` | 2018 | Radial Velocity | 7900 | 12.8
+- **`HD 75898`**
+  - `HD 75898 b` | 2007 | Radial Velocity | 422.82 | 13.2
+  - `HD 75898 c` | 2024 | Radial Velocity | 6717 | 12.6
+- **`HD 76700`**
+  - `HD 76700 b` | 2002 | Radial Velocity | 3.97097 | 9.6
+- **`HD 76920`**
+  - `HD 76920 b` | 2017 | Radial Velocity | 415.891 | 13.1
+- **`HD 77338`**
+  - `HD 77338 b` | 2012 | Radial Velocity | 5.7361 | 4.12
+- **`HD 77946`**
+  - `HD 77946 b` | 2024 | Transit | 6.527363 | 2.89646124
+- **`HD 79181`**
+  - `HD 79181 b` | 2021 | Radial Velocity | 273.1 | 14.1
+- **`HD 79498`**
+  - `HD 79498 b` | 2011 | Radial Velocity | 1807 | 13.6
+- **`HD 80606`**
+  - `HD 80606 b` | 2001 | Radial Velocity | 111.436765 | 11.56766808
+- **`HD 80653`**
+  - `HD 80653 b` | 2020 | Transit | 0.71957926 | 1.621
+  - `K2-312 c` | 2023 | Radial Velocity | 871.32 | 12.8
+- **`HD 80869`**
+  - `HD 80869 b` | 2021 | Radial Velocity | 1752.92067 | 12.8
+- **`HD 80883`**
+  - `HD 80883 b` | 2022 | Radial Velocity | 6383.78352 | 12.8
+- **`HD 80913`**
+  - `HD 80913 b` | 2022 | Radial Velocity | 10839.83341 | 12
+- **`HD 81040`**
+  - `HD 81040 b` | 2005 | Radial Velocity | 1002.7 | 12.6
+- **`HD 81688`**
+  - `HD 81688 b` | 2007 | Radial Velocity | 183.93 | 13.5
+- **`HD 81817`**
+  - `HD 81817 c` | 2022 | Radial Velocity | 622.97802 | 12
+  - `HD 81817 b` | 2020 | Radial Velocity | 1021.20159 | 12
+- **`HD 82886`**
+  - `HD 82886 b` | 2011 | Radial Velocity | 705 | 13.3
+- **`HD 82943`**
+  - `HD 82943 c` | 2003 | Radial Velocity | 220.078 | 13.4
+  - `HD 82943 b` | 2003 | Radial Velocity | 441.47 | 13.5
+- **`HD 83443`**
+  - `HD 83443 b` | 2002 | Radial Velocity | 2.985628 | 14.1
+  - `HD 83443 c` | 2022 | Radial Velocity | 8241 | 13.6
+- **`HD 85390`**
+  - `HD 85390 b` | 2011 | Radial Velocity | 799.52 | 6.16
+- **`HD 86065`**
+  - `HD 86065 b` | 2022 | Radial Velocity | 25775.78859 | 12.5
+- **`HD 86081`**
+  - `HD 86081 b` | 2006 | Radial Velocity | 2.1378431 | 13.6
+- **`HD 86226`**
+  - `HD 86226 c` | 2020 | Transit | 3.98442 | 2.16
+  - `HD 86226 b` | 2009 | Radial Velocity | 1628 | 14.3
+- **`HD 86264`**
+  - `HD 86264 b` | 2009 | Radial Velocity | 1488.79123 | 12.5
+- **`HD 86728`**
+  - `HD 86728 b` | 2025 | Radial Velocity | 31.1515 | 3.03
+- **`HD 86950`**
+  - `HD 86950 b` | 2016 | Radial Velocity | 1270 | 13
+- **`HD 87646`**
+  - `HD 87646 b` | 2016 | Radial Velocity | 13.481 | 12.4
+- **`HD 87816`**
+  - `HD 87816 b` | 2025 | Radial Velocity | 484.17 | 12.7
+  - `HD 87816 c` | 2025 | Radial Velocity | 7596 | 12.4
+- **`HD 87883`**
+  - `HD 87883 b` | 2009 | Radial Velocity | 3006 | 12.7
+- **`HD 88072`**
+  - `HD 88072 b` | 2022 | Radial Velocity | 18538.79293 | 12.6
+- **`HD 88133`**
+  - `HD 88133 b` | 2004 | Radial Velocity | 3.414884 | 13.8
+- **`HD 88986`**
+  - `HD 88986 b` | 2023 | Radial Velocity | 146.05 | 2.49
+- **`HD 89307`**
+  - `HD 89307 b` | 2009 | Radial Velocity | 2166 | 13.4
+- **`HD 89345`**
+  - `HD 89345 b` | 2018 | Transit | 11.8143 | 7.39794
+- **`HD 89744`**
+  - `HD 89744 b` | 1999 | Radial Velocity | 256.78 | 12.6
+- **`HD 89839`**
+  - `HD 89839 b` | 2023 | Radial Velocity | 3391.2 | 12.8
+- **`HD 90156`**
+  - `HD 90156 b` | 2011 | Radial Velocity | 49.77 | 4.43
+- **`HD 92788`**
+  - `HD 92788 b` | 2000 | Radial Velocity | 325.803 | 13
+  - `HD 92788 c` | 2019 | Radial Velocity | 11611.2975 | 13
+- **`HD 93083`**
+  - `GJ 1137 c` | 2026 | Radial Velocity | 9.6412 | 2.11
+  - `HD 93083 b` | 2005 | Radial Velocity | 144.72 | 14.3
+- **`HD 93351`**
+  - `HD 93351 b` | 2022 | Radial Velocity | 2.45946 | 1.69
+  - `HD 93351 c` | 2022 | Radial Velocity | 14010.2941 | 12.3
+- **`HD 93385`**
+  - `HD 93385 b` | 2021 | Radial Velocity | 7.3426 | 1.88
+  - `HD 93385 c` | 2021 | Radial Velocity | 13.18 | 2.56
+  - `HD 93385 d` | 2021 | Radial Velocity | 45.85 | 2.89
+- **`HD 93963`**
+  - ดาวแม่ `HD 93963 A`
+    - `HD 93963 A b` | 2022 | Transit | 1.0376109 | 1.46954368
+    - `HD 93963 A c` | 2022 | Transit | 3.6451389 | 3.11976057
+- **`HD 94771`**
+  - `HD 94771 b` | 2023 | Radial Velocity | 2164 | 14.2
+- **`HD 94834`**
+  - `HD 94834 b` | 2018 | Radial Velocity | 1576 | 13.7
+- **`HD 94890`**
+  - `HD 94890 b` | 2025 | Radial Velocity | 824.61 | 13.3
+  - `HD 94890 c` | 2025 | Radial Velocity | 2492.19 | 12.5
+- **`HD 95086`**
+  - `HD 95086 b` | 2013 | Imaging | — | 12.9
+- **`HD 95089`**
+  - `HD 95089 b` | 2009 | Radial Velocity | 464.4 | 13.7
+  - `HD 95089 c` | 2016 | Radial Velocity | 1785 | 13.1
+- **`HD 95127`**
+  - `HD 95127 b` | 2015 | Radial Velocity | 482 | 12.4
+- **`HD 95338`**
+  - `HD 95338 b` | 2020 | Radial Velocity | 55.082694 | 4.27174254
+- **`HD 95544`**
+  - `HD 95544 b` | 2021 | Radial Velocity | 2041.54152 | 12.8
+- **`HD 95872`**
+  - `HD 95872 b` | 2015 | Radial Velocity | 4375 | 13
+- **`HD 96063`**
+  - `HD 96063 b` | 2011 | Radial Velocity | 362.5 | 13.7
+- **`HD 96127`**
+  - `HD 96127 b` | 2011 | Radial Velocity | 638.9 | 13
+- **`HD 96167`**
+  - `HD 96167 b` | 2009 | Radial Velocity | 498.04 | 14
+- **`HD 96700`**
+  - `HD 96700 b` | 2021 | Radial Velocity | 8.1245 | 2.93
+  - `HD 96700 c` | 2021 | Radial Velocity | 19.88 | 1.69
+  - `HD 96700 d` | 2021 | Radial Velocity | 103.5 | 3.61
+- **`HD 96992`**
+  - `HD 96992 b` | 2021 | Radial Velocity | 514 | 13.7
+- **`HD 97037`**
+  - `HD 97037 b` | 2022 | Radial Velocity | 6449.08337 | 12.1
+- **`HD 97048`**
+  - `HD 97048 b` | 2019 | Disk Kinematics | — | 13.3
+- **`HD 97658`**
+  - `HD 97658 b` | 2010 | Radial Velocity | 9.4897116 | 2.12
+- **`HD 98219`**
+  - `HD 98219 b` | 2011 | Radial Velocity | 433.8 | 13.4
+- **`HD 98649`**
+  - `HD 98649 b` | 2012 | Radial Velocity | 5384 | 12.5
+- **`HD 98736`**
+  - `HD 98736 b` | 2018 | Radial Velocity | 968.8 | 13.3
+- **`HD 99109`**
+  - `HD 99109 b` | 2005 | Radial Velocity | 439.29999 | 14.3
+- **`HD 99283`**
+  - `HD 99283 b` | 2021 | Radial Velocity | 310.4 | 13.8
+- **`HD 99492`**
+  - `HD 99492 b` | 2004 | Radial Velocity | 17.0503 | 5.44
+  - `HD 99492 c` | 2023 | Radial Velocity | 95.233 | 4.42
+- **`HD 99706`**
+  - `HD 99706 b` | 2011 | Radial Velocity | 841 | 13.7
+  - `HD 99706 c` | 2016 | Radial Velocity | 1278 | 12.8
+- **`HD 100508`**
+  - `HD 100508 b` | 2026 | Radial Velocity | 5681 | 13.7
+- **`HD 100546`**
+  - `HD 100546 b` † | 2014 | Imaging | — | 77.3421
+- **`HD 100655`**
+  - `HD 100655 b` | 2011 | Radial Velocity | 157.57001 | 13.5
+- **`HD 100777`**
+  - `HD 100777 b` | 2007 | Radial Velocity | 383 | 13.7
+- **`HD 101930`**
+  - `HD 101930 b` | 2005 | Radial Velocity | 70.46 | 10.6
+- **`HD 102117`**
+  - `HD 102117 b` | 2005 | Radial Velocity | 20.8133 | 8.47
+- **`HD 102195`**
+  - `HD 102195 b` | 2006 | Radial Velocity | 4.11377 | 14.2
+- **`HD 102272`**
+  - `HD 102272 b` | 2008 | Radial Velocity | 127.58 | 12.9
+- **`HD 102329`**
+  - `HD 102329 b` | 2011 | Radial Velocity | 778.09998 | 12.6
+  - `HD 102329 c` | 2016 | Radial Velocity | 1123 | 13.5
+- **`HD 102843`**
+  - `HD 102843 b` | 2019 | Radial Velocity | 3090.942 | 13.1
+- **`HD 102888`**
+  - `HD 102888 b` | 2025 | Radial Velocity | 252.06 | 12.8
+- **`HD 102956`**
+  - `HD 102956 b` | 2010 | Radial Velocity | 6.4947 | 13.8
+- **`HD 103197`**
+  - `HD 103197 b` | 2011 | Radial Velocity | 47.84 | 5.83
+- **`HD 103720`**
+  - `HD 103720 b` | 2014 | Radial Velocity | 4.5557 | 14.1
+- **`HD 103774`**
+  - `HD 103774 b` | 2013 | Radial Velocity | 5.8881 | 13.3
+- **`HD 103891`**
+  - `HD 103891 b` | 2022 | Radial Velocity | 1919 | 13.2
+- **`HD 103949`**
+  - `HD 103949 b` | 2019 | Radial Velocity | 120.878 | 3.35
+- **`HD 104067`**
+  - `HD 104067 c` | 2024 | Radial Velocity | 13.8992 | 3.69
+  - `HD 104067 b` | 2011 | Radial Velocity | 55.851 | 9.2
+- **`HD 104985`**
+  - `HD 104985 b` | 2003 | Radial Velocity | 199.68 | 12.8
+- **`HD 105618`**
+  - `HD 105618 b` | 2022 | Radial Velocity | 10.02245 | 5.44
+  - `HD 105618 c` | 2022 | Radial Velocity | 77114.07158 | 11.9
+- **`HD 105779`**
+  - `HD 105779 b` | 2022 | Radial Velocity | 2412 | 14.1
+- **`HD 106252`**
+  - `HD 106252 b` | 2002 | Radial Velocity | 1535 | 12.5
+- **`HD 106270`**
+  - `HD 106270 b` | 2011 | Radial Velocity | 1888 | 12.4
+- **`HD 106315`**
+  - `HD 106315 b` | 2017 | Transit | 9.55237 | 2.44
+  - `HD 106315 c` | 2017 | Transit | 21.05704 | 4.35
+
+</details>
+
+<a name="systems-05"></a>
+
+<details><summary>HD 106515 – HD 191939 · 180 ระบบ · 263 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`HD 106515`**
+  - ดาวแม่ `HD 106515 A`
+    - `HD 106515 A b` | 2012 | Radial Velocity | 3626 | 12.1
+- **`HD 106906`**
+  - `HD 106906 b` | 2013 | Imaging | — | 12.4
+- **`HD 107148`**
+  - `HD 107148 c` | 2021 | Radial Velocity | 18.3267 | 4.7
+  - `HD 107148 b` | 2005 | Radial Velocity | 48.056 | 9.6
+- **`HD 108147`**
+  - `HD 108147 b` | 2002 | Radial Velocity | 10.8985 | 10.9
+- **`HD 108202`**
+  - `HD 108202 b` | 2023 | Radial Velocity | 2990 | 13.1
+- **`HD 108236`**
+  - `HD 108236 b` | 2020 | Transit | 3.795963 | 1.615
+  - `HD 108236 c` | 2020 | Transit | 6.203449 | 2.071
+  - `TOI-1233.01` | 2021 | Transit | 14.175685 | 2.539
+  - `HD 108236 e` | 2020 | Transit | 19.590025 | 3.083
+  - `HD 108236 f` | 2021 | Transit | 29.54115 | 2.017
+- **`HD 108341`**
+  - `HD 108341 b` | 2014 | Radial Velocity | 1129 | 13.3
+- **`HD 108863`**
+  - `HD 108863 b` | 2011 | Radial Velocity | 437.7 | 13.3
+- **`HD 108874`**
+  - `HD 108874 b` | 2002 | Radial Velocity | 394.48123 | 13.6
+  - `HD 108874 c` | 2005 | Radial Velocity | 1624 | 13.8
+- **`HD 109246`**
+  - `HD 109246 b` | 2010 | Radial Velocity | 68.27 | 13.9
+- **`HD 109271`**
+  - `HD 109271 b` | 2013 | Radial Velocity | 7.8543 | 4.31
+  - `HD 109271 c` | 2013 | Radial Velocity | 30.93 | 5.27
+- **`HD 109286`**
+  - `HD 109286 b` | 2021 | Radial Velocity | 520.1 | 13.2
+- **`HD 109749`**
+  - `HD 109749 b` | 2005 | Radial Velocity | 5.239891 | 11.1
+- **`HD 109833`**
+  - `HD 109833 b` | 2022 | Transit | 9.188526 | 2.888
+  - `HD 109833 c` | 2022 | Transit | 13.900148 | 2.59
+- **`HD 109988`**
+  - `HD 109988 b` | 2022 | Radial Velocity | 17132.15854 | 12.1
+- **`HD 110014`**
+  - `HD 110014 b` | 2009 | Radial Velocity | 835.477 | 12.4
+- **`HD 110067`**
+  - `HD 110067 b` | 2023 | Transit | 9.113678 | 2.2
+  - `HD 110067 c` | 2023 | Transit | 13.673694 | 2.388
+  - `HD 110067 d` | 2023 | Transit | 20.519617 | 2.852
+  - `HD 110067 e` | 2023 | Transit | 30.793091 | 1.94
+  - `HD 110067 f` | 2023 | Transit | 41.05854 | 2.601
+  - `HD 110067 g` | 2023 | Transit | 54.76992 | 2.607
+- **`HD 110082`**
+  - `HD 110082 b` | 2021 | Transit | 10.18271 | 3.2
+- **`HD 110113`**
+  - `HD 110113 b` | 2021 | Transit | 2.541 | 2.05
+  - `HD 110113 c` | 2021 | Radial Velocity | 6.744 | 2.11384817
+- **`HD 111232`**
+  - `HD 111232 b` | 2003 | Radial Velocity | 1169.13202 | 12.6
+  - `HD 111232 c` | 2022 | Radial Velocity | 26472.44623 | 12.2
+- **`HD 111591`**
+  - `HD 111591 b` | 2017 | Radial Velocity | 1056.4 | 12.9
+- **`HD 111998`**
+  - `HD 111998 b` | 2016 | Radial Velocity | 810 | 12.9
+- **`HD 112300`**
+  - `HD 112300 b` | 2023 | Radial Velocity | 466.63 | 12.2
+- **`HD 112570`**
+  - `HD 112570 b` | 2023 | Radial Velocity | 2615 | 13.1
+- **`HD 112640`**
+  - `HD 112640 b` | 2020 | Radial Velocity | 613.2 | 12.9
+- **`HD 113337`**
+  - `HD 113337 b` | 2013 | Radial Velocity | 317.58639 | 13.1
+  - `HD 113337 c` | 2020 | Radial Velocity | 5429.93477 | 12.1
+- **`HD 113538`**
+  - `HD 113538 b` | 2010 | Radial Velocity | 663.2 | 13.2
+  - `HD 113538 c` | 2010 | Radial Velocity | 1818 | 13.8
+- **`HD 113996`**
+  - `HD 113996 b` | 2017 | Radial Velocity | 610.2 | 12.7
+- **`HD 114082`**
+  - `HD 114082 b` | 2022 | Transit | 225.5504 | 11.72459381
+- **`HD 114386`**
+  - `HD 114386 c` | 2026 | Radial Velocity | 444 | 13.4
+  - `HD 114386 b` | 2003 | Radial Velocity | 937.70001 | 13.6
+- **`HD 114729`**
+  - `HD 114729 b` | 2002 | Radial Velocity | 1121.79 | 13.9
+- **`HD 114783`**
+  - `HD 114783 b` | 2001 | Radial Velocity | 493.7 | 13.7
+  - `HD 114783 c` | 2016 | Radial Velocity | 4352 | 13.4
+- **`HD 115954`**
+  - `HD 115954 b` | 2021 | Radial Velocity | 3700 | 12.6
+- **`HD 116029`**
+  - `HD 116029 b` | 2011 | Radial Velocity | 670 | 13.6
+  - `HD 116029 c` | 2016 | Radial Velocity | 907 | 13.7
+- **`HD 117207`**
+  - `HD 117207 b` | 2004 | Radial Velocity | 2621.75 | 13.4
+- **`HD 117618`**
+  - `HD 117618 b` | 2004 | Radial Velocity | 25.8 | 8.59
+- **`HD 118203`**
+  - `HD 118203 b` | 2005 | Radial Velocity | 6.1349779 | 12.778238
+  - `HD 118203 c` | 2024 | Radial Velocity | 5103 | 12.4
+- **`HD 120084`**
+  - `HD 120084 b` | 2013 | Radial Velocity | 2142 | 12.7
+- **`HD 121504`**
+  - `HD 121504 b` | 2003 | Radial Velocity | 63.33 | 13.6
+- **`HD 122562`**
+  - `HD 122562 c` | 2022 | Radial Velocity | 84.96276 | 10.1
+- **`HD 124330`**
+  - `HD 124330 b` | 2021 | Radial Velocity | 270.66 | 14
+- **`HD 125136`**
+  - `HD 125136 b` | 2026 | Radial Velocity | 849.77 | 13.3
+- **`HD 125271`**
+  - `HD 125271 b` | 2022 | Radial Velocity | 14901.99295 | 12.4
+- **`HD 125390`**
+  - `HD 125390 b` | 2019 | Radial Velocity | 1757.39151 | 11.9
+- **`HD 125595`**
+  - `HD 125595 b` | 2011 | Radial Velocity | 9.6737 | —
+- **`HD 125612`**
+  - `HD 125612 c` | 2009 | Radial Velocity | 4.15466 | 4.07
+  - `HD 125612 b` | 2007 | Radial Velocity | 557.69994 | 13.2
+  - `HD 125612 d` | 2009 | Radial Velocity | 2822.72698 | 12.7
+- **`HD 126105`**
+  - `HD 126105 b` | 2026 | Radial Velocity | 524 | 13.5
+- **`HD 126525`**
+  - `HD 126525 b` | 2018 | Radial Velocity | 960.41 | 10.3
+- **`HD 126614`**
+  - `HD 126614 b` | 2009 | Radial Velocity | 1257.25303 | 12.7
+- **`HD 127195`**
+  - `HD 127195 b` | 2026 | Radial Velocity | 534.5 | 14
+  - `HD 127195 c` | 2026 | Radial Velocity | 836.99 | 14.1
+- **`HD 128311`**
+  - `HD 128311 b` | 2002 | Radial Velocity | 453.019 | 13.5
+  - `HD 128311 c` | 2005 | Radial Velocity | 921.538 | 13
+- **`HD 128356`**
+  - `HD 128356 b` | 2016 | Radial Velocity | 298.2 | 13.9
+- **`HD 128717`**
+  - `HD 128717 b` | 2025 | Astrometry | 3420 | 12.1
+- **`HD 129445`**
+  - `HD 129445 b` | 2009 | Radial Velocity | 1840 | 13.3
+- **`HD 130322`**
+  - `HD 130322 b` | 1999 | Radial Velocity | 10.70871 | 13.7
+- **`HD 131496`**
+  - `HD 131496 b` | 2011 | Radial Velocity | 896 | 13.4
+- **`HD 132406`**
+  - `HD 132406 b` | 2007 | Radial Velocity | 908 | 12.8
+- **`HD 132563`**
+  - `HD 132563 b` | 2011 | Radial Velocity | 1544 | 13.6
+- **`HD 133131`**
+  - ดาวแม่ `HD 133131 A`
+    - `HD 133131 A b` | 2016 | Radial Velocity | 649 | 13.6
+    - `HD 133131 A c` | 2016 | Radial Velocity | 3568 | 14.3
+  - ดาวแม่ `HD 133131 B`
+    - `HD 133131 B b` | 2016 | Radial Velocity | 5769 | 13.3
+- **`HD 134060`**
+  - `HD 134060 b` | 2019 | Radial Velocity | 3.2696 | 3.16
+  - `HD 134060 c` | 2019 | Radial Velocity | 1291.5646 | 5.91
+- **`HD 134606`**
+  - `HD 134606 e` | 2024 | Radial Velocity | 4.3203 | 1.33
+  - `HD 134606 b` | 2024 | Radial Velocity | 12.089 | 2.97
+  - `HD 134606 f` | 2024 | Radial Velocity | 26.915 | 2.24
+  - `HD 134606 c` | 2024 | Radial Velocity | 58.883 | 3.37
+  - `HD 134606 d` | 2024 | Radial Velocity | 966.5 | 7.59
+- **`HD 134987`**
+  - `HD 134987 b` | 1999 | Radial Velocity | 258.17999 | 13.5
+  - `HD 134987 c` | 2009 | Radial Velocity | 5000 | 13.9
+- **`HD 135344`**
+  - ดาวแม่ `HD 135344 A`
+    - `HD 135344 A b` | 2025 | Imaging | — | 16.25302201
+- **`HD 135625`**
+  - `HD 135625 b` | 2023 | Radial Velocity | 4055 | 13.3
+- **`HD 135694`**
+  - `HD 135694 b` | 2023 | Transit | 15.923475568 | 2.857
+- **`HD 135872`**
+  - `HD 135872 b` | 2022 | Radial Velocity | 2422.32597 | 12.8
+- **`HD 136118`**
+  - `HD 136118 b` | 2022 | Radial Velocity | 1187.59765 | 12.3
+- **`HD 136352`**
+  - `HD 136352 b` | 2019 | Radial Velocity | 11.57797 | 1.664
+  - `HD 136352 c` | 2019 | Radial Velocity | 27.59221 | 2.916
+  - `HD 136352 d` | 2019 | Radial Velocity | 107.245 | 2.562
+- **`HD 136418`**
+  - `HD 136418 b` | 2009 | Radial Velocity | 464.29999 | 13.3
+- **`HD 136925`**
+  - `HD 136925 b` | 2021 | Radial Velocity | 4540 | 13.9
+- **`HD 137388`**
+  - `HD 137388 b` | 2011 | Radial Velocity | 330 | 9.32
+- **`HD 137496`**
+  - `HD 137496 b` | 2021 | Transit | 1.62116 | 1.31
+  - `HD 137496 c` | 2021 | Radial Velocity | 479.9 | 12.6
+- **`HD 139357`**
+  - `HD 139357 b` | 2008 | Radial Velocity | 1124.79139 | 12.1
+- **`HD 141004`**
+  - `HD 141004 b` | 2021 | Radial Velocity | 15.5083 | 3.77
+- **`HD 141399`**
+  - `HD 141399 b` | 2014 | Radial Velocity | 94.44 | 14.3
+  - `HD 141399 c` | 2014 | Radial Velocity | 201.99 | 13.6
+  - `HD 141399 d` | 2014 | Radial Velocity | 1069.8 | 13.7
+  - `HD 141399 e` | 2014 | Radial Velocity | 5000 | 14.1
+- **`HD 141937`**
+  - `HD 141937 b` | 2002 | Radial Velocity | 662.37 | 12.4
+- **`HD 142022`**
+  - ดาวแม่ `HD 142022 A`
+    - `HD 142022 A b` | 2005 | Radial Velocity | 1928 | 12.9
+- **`HD 142245`**
+  - `HD 142245 b` | 2011 | Radial Velocity | 1299 | 13.1
+- **`HD 142415`**
+  - `HD 142415 b` | 2003 | Radial Velocity | 386.29999 | 13.5
+- **`HD 143105`**
+  - `HD 143105 b` | 2016 | Radial Velocity | 2.1974 | 13.7
+- **`HD 143361`**
+  - `HD 143361 b` | 2008 | Radial Velocity | 1039.15 | 12.9
+- **`HD 143811`**
+  - ดาวแม่ `HD 143811 A`
+    - `HD 143811 AB b` CB | 2025 | Imaging | 117000 | 15.69257298
+- **`HD 144899`**
+  - `HD 144899 b` | 2022 | Radial Velocity | 40.43914 | 4.77
+- **`HD 145377`**
+  - `HD 145377 b` | 2008 | Radial Velocity | 103.95 | 12.8
+- **`HD 145457`**
+  - `HD 145457 b` | 2010 | Radial Velocity | 176.13 | 13.2
+- **`HD 145934`**
+  - `HD 145934 b` | 2015 | Radial Velocity | 2751.53433 | 13.4
+- **`HD 147018`**
+  - `HD 147018 b` | 2009 | Radial Velocity | 44.236 | 13.4
+  - `HD 147018 c` | 2009 | Radial Velocity | 1008 | 12.7
+- **`HD 147379`**
+  - `HD 147379 b` | 2017 | Radial Velocity | 86.58 | 4.94
+- **`HD 147513`**
+  - `HD 147513 b` † | 2003 | Radial Velocity | 528.4 | 13.7
+- **`HD 147873`**
+  - `HD 147873 b` | 2016 | Radial Velocity | 116.596 | 12.8
+  - `HD 147873 c` | 2016 | Radial Velocity | 491.54 | 13.3
+- **`HD 148156`**
+  - `HD 148156 b` | 2009 | Radial Velocity | 1027 | 13.9
+- **`HD 148164`**
+  - `HD 148164 b` | 2018 | Radial Velocity | 328.55 | 13.7
+  - `HD 148164 c` | 2018 | Radial Velocity | 5062 | 12.8
+- **`HD 148427`**
+  - `HD 148427 b` † | 2009 | Radial Velocity | 331.9 | 13.7
+- **`HD 148797`**
+  - `HD 148797 b` | 2026 | Transit | 42.0988331 | 8.25
+  - `HD 148797 c` | 2026 | Transit | 68.1514539 | 8.3618996
+- **`HD 149026`**
+  - `HD 149026 b` | 2005 | Radial Velocity | 2.87589 | 8.29466
+- **`HD 149143`**
+  - `HD 149143 b` | 2005 | Radial Velocity | 4.07182 | 13.6
+- **`HD 150010`**
+  - `HD 150010 b` | 2022 | Radial Velocity | 562 | 13.3
+- **`HD 150706`**
+  - `HD 150706 b` | 2012 | Radial Velocity | 5894 | 13.3
+- **`HD 151450`**
+  - `HD 151450 b` | 2022 | Radial Velocity | 21.89288 | 6.94
+  - `HD 151450 c` | 2022 | Radial Velocity | 18144.76236 | 12.8
+- **`HD 152079`**
+  - `HD 152079 b` | 2009 | Radial Velocity | 2918.92 | 13.2
+- **`HD 152581`**
+  - `HD 152581 b` | 2011 | Radial Velocity | 686.5 | 13.4
+- **`HD 152843`**
+  - `HD 152843 b` | 2021 | Transit | 11.62071 | 3.05
+  - `HD 152843 c` | 2021 | Transit | 19.502104 | 5.94
+- **`HD 153950`**
+  - `HD 153950 b` | 2008 | Radial Velocity | 499.39999 | 13.2
+- **`HD 154088`**
+  - `HD 154088 b` | 2021 | Radial Velocity | 18.56 | 2.46
+- **`HD 154345`**
+  - `HD 154345 b` | 2006 | Radial Velocity | 3280 | 13.7
+- **`HD 154391`**
+  - `HD 154391 b` | 2023 | Radial Velocity | 5163 | 12.5
+- **`HD 154672`**
+  - `HD 154672 b` | 2008 | Radial Velocity | 163.94 | 12.8
+- **`HD 154857`**
+  - `HD 154857 b` | 2004 | Radial Velocity | 408.60001 | 13.3
+  - `HD 154857 c` | 2014 | Radial Velocity | 3452 | 13.2
+- **`HD 155193`**
+  - `HD 155193 b` | 2021 | Radial Velocity | 352.65 | 14
+- **`HD 155358`**
+  - `HD 155358 b` | 2007 | Radial Velocity | 194.3 | 13.8
+  - `HD 155358 c` | 2007 | Radial Velocity | 391.9 | 13.9
+- **`HD 156098`**
+  - `HD 156098 b` | 2022 | Radial Velocity | 21.85849 | 4.12
+  - `HD 156098 c` | 2022 | Radial Velocity | 7841.5839 | 12.8
+- **`HD 156279`**
+  - `HD 156279 b` | 2011 | Radial Velocity | 133.40355 | 12.5
+  - `HD 156279 c` | 2016 | Radial Velocity | 4818.25358 | 12.5
+- **`HD 156411`**
+  - `HD 156411 b` | 2009 | Radial Velocity | 842.2 | 14
+- **`HD 156668`**
+  - `HD 156668 b` | 2010 | Radial Velocity | 4.6455 | 1.87
+  - `HD 156668 c` | 2021 | Radial Velocity | 811.3 | 6.17
+- **`HD 156846`**
+  - `HD 156846 b` | 2007 | Radial Velocity | 359.51001 | 12.4
+- **`HD 158038`**
+  - `HD 158038 b` | 2011 | Radial Velocity | 521 | 13.5
+- **`HD 158259`**
+  - `HD 158259 b` | 2020 | Radial Velocity | 2.178 | 1.28228
+  - `HD 158259 c` | 2020 | Radial Velocity | 3.432 | 2.23
+  - `HD 158259 d` | 2020 | Radial Velocity | 5.1980814 | 2.18
+  - `HD 158259 e` | 2020 | Radial Velocity | 7.951 | 2.34
+  - `HD 158259 f` | 2020 | Radial Velocity | 12.028 | 2.35
+- **`HD 158996`**
+  - `HD 158996 b` | 2018 | Radial Velocity | 820.2 | 12.3
+- **`HD 159243`**
+  - `HD 159243 b` | 2013 | Radial Velocity | 12.62 | 13.7
+  - `HD 159243 c` | 2013 | Radial Velocity | 248.4 | 13.4
+- **`HD 159868`**
+  - `HD 159868 c` | 2012 | Radial Velocity | 351 | 14
+  - `HD 159868 b` | 2006 | Radial Velocity | 1184.1 | 13.3
+- **`HD 160691`**
+  - `HD 160691 d` | 2004 | Radial Velocity | 9.6392 | 3.23
+  - `HD 160691 e` | 2006 | Radial Velocity | 307.9 | —
+  - `HD 160691 b` | 2000 | Radial Velocity | 645 | —
+  - `HD 160691 c` | 2004 | Radial Velocity | 3947 | —
+- **`HD 161178`**
+  - `HD 161178 b` | 2021 | Radial Velocity | 279.3 | 14.1
+- **`HD 162020`**
+  - `HD 162020 b` | 2002 | Radial Velocity | 8.4282 | 12.5
+- **`HD 163607`**
+  - `HD 163607 b` | 2012 | Radial Velocity | 75.2203 | 13.9
+  - `HD 163607 c` | 2012 | Radial Velocity | 1272 | 13.3
+- **`HD 164509`**
+  - `HD 164509 b` | 2012 | Radial Velocity | 280.17 | 14.3
+- **`HD 164595`**
+  - `HD 164595 b` | 2015 | Radial Velocity | 40 | 4.16
+- **`HD 164604`**
+  - `HD 164604 b` | 2009 | Radial Velocity | 653.9 | 12.3
+  - `HD 164604 c` | 2026 | Radial Velocity | 5387 | 12.5
+- **`HD 164922`**
+  - `HD 164922 d` | 2020 | Radial Velocity | 12.458 | 1.83
+  - `HD 164922 e` | 2021 | Radial Velocity | 41.763 | 3.23
+  - `HD 164922 c` | 2016 | Radial Velocity | 75.74 | 3.66
+  - `HD 164922 b` | 2005 | Radial Velocity | 1207 | 13.3
+- **`HD 165131`**
+  - `HD 165131 b` | 2023 | Radial Velocity | 2342.6 | 12.1
+- **`HD 165155`**
+  - `HD 165155 b` | 2016 | Radial Velocity | 434.5 | 13.2
+- **`HD 166724`**
+  - `HD 166724 b` | 2012 | Radial Velocity | 5144 | 13
+- **`HD 167042`**
+  - `HD 167042 b` | 2007 | Radial Velocity | 417.67 | 13.6
+- **`HD 167677`**
+  - `HD 167677 b` | 2023 | Radial Velocity | 1820 | 13.2
+- **`HD 167768`**
+  - `HD 167768 b` | 2022 | Radial Velocity | 20.6532 | 13.9
+- **`HD 168009`**
+  - `HD 168009 b` | 2021 | Radial Velocity | 15.1479 | 3.05
+- **`HD 168443`**
+  - `HD 168443 b` | 1998 | Radial Velocity | 58.11187 | 12.6
+  - `HD 168443 c` | 2000 | Radial Velocity | 1753.1096 | 12.2
+- **`HD 168746`**
+  - `HD 168746 b` | 2002 | Radial Velocity | 6.404 | 11.1
+- **`HD 168863`**
+  - `HD 168863 b` | 2022 | Radial Velocity | 14773.93272 | 12.7
+- **`HD 169142`**
+  - `HD 169142 b` | 2023 | Imaging | — | 13.1
+- **`HD 169830`**
+  - `HD 169830 b` | 2000 | Radial Velocity | 225.67372 | 13.2
+  - `HD 169830 c` | 2003 | Radial Velocity | 1818.82339 | 12.6
+- **`HD 170469`**
+  - `HD 170469 b` | 2007 | Radial Velocity | 1145 | 14.1
+- **`HD 171028`**
+  - `HD 171028 b` | 2007 | Radial Velocity | 550 | 13.2
+- **`HD 171238`**
+  - `HD 171238 b` | 2009 | Radial Velocity | 1515 | 12.5
+- **`HD 173416`**
+  - `HD 173416 b` | 2008 | Radial Velocity | 322.03 | 13.4
+- **`HD 174205`**
+  - `HD 174205 b` | 2022 | Radial Velocity | 582 | 13
+- **`HD 175167`**
+  - `HD 175167 b` | 2009 | Radial Velocity | 1175 | 12.3
+- **`HD 175541`**
+  - `HD 175541 b` | 2007 | Radial Velocity | 298.43 | 14.1
+- **`HD 175607`**
+  - `HD 175607 b` | 2015 | Radial Velocity | 29.01 | —
+- **`HD 176986`**
+  - `HD 176986 b` | 2017 | Radial Velocity | 6.49164 | —
+  - `HD 176986 c` | 2017 | Radial Velocity | 16.8124 | —
+  - `HD 176986 d` | 2026 | Radial Velocity | 61.376 | 2.49
+- **`HD 177565`**
+  - `HD 177565 b` | 2017 | Radial Velocity | 44.505 | 4
+- **`HD 177830`**
+  - `HD 177830 c` | 2010 | Radial Velocity | 110.9 | 7.87
+  - `HD 177830 b` | 1999 | Radial Velocity | 410.10001 | 13.5
+- **`HD 178911`**
+  - ดาวแม่ `HD 178911 B`
+    - `HD 178911 B b` | 2001 | Radial Velocity | 71.484 | 12.6
+- **`HD 179079`**
+  - `HD 179079 b` | 2008 | Radial Velocity | 14.479 | —
+- **`HD 179949`**
+  - `HD 179949 b` | 2000 | Radial Velocity | 3.092514 | 13.9
+- **`HD 180053`**
+  - `HD 180053 b` | 2018 | Radial Velocity | 213.72 | 13.3
+- **`HD 180314`**
+  - `HD 180314 b` | 2010 | Radial Velocity | 394.73 | 12
+- **`HD 180617`**
+  - `HD 180617 b` | 2018 | Radial Velocity | 105.911 | 3.53
+- **`HD 180902`**
+  - `HD 180902 b` | 2009 | Radial Velocity | 510.9 | 13.5
+- **`HD 181234`**
+  - `HD 181234 b` | 2019 | Radial Velocity | 7593.40512 | 12.5
+- **`HD 181342`**
+  - `HD 181342 b` | 2009 | Radial Velocity | 564.1 | 13.2
+- **`HD 181433`**
+  - `HD 181433 b` | 2008 | Radial Velocity | 9.3745 | —
+  - `HD 181433 c` | 2008 | Radial Velocity | 1018.5 | —
+  - `HD 181433 d` | 2008 | Radial Velocity | 6896.1 | 13.2
+- **`HD 181720`**
+  - `HD 181720 b` | 2009 | Radial Velocity | 956 | 14
+- **`HD 183263`**
+  - `HD 183263 b` | 2004 | Radial Velocity | 624.87404 | 13.1
+  - `HD 183263 c` | 2008 | Radial Velocity | 4667.97841 | 12.5
+- **`HD 183579`**
+  - `HD 183579 b` | 2021 | Transit | 17.471291 | 3.49
+- **`HD 184010`**
+  - `HD 184010 b` | 2022 | Radial Velocity | 286.6 | 12.1
+  - `HD 184010 c` | 2022 | Radial Velocity | 484.3 | 11.8
+  - `HD 184010 d` | 2022 | Radial Velocity | 836.4 | 14.3
+- **`HD 185269`**
+  - `HD 185269 b` | 2006 | Radial Velocity | 6.83776 | 13.8
+- **`HD 185283`**
+  - `HD 185283 b` | 2023 | Radial Velocity | 4060 | 13.6
+- **`HD 187085`**
+  - `HD 187085 b` | 2006 | Radial Velocity | 1019.74 | 13.9
+- **`HD 187123`**
+  - `HD 187123 b` | 1998 | Radial Velocity | 3.0965828 | 14.2
+  - `HD 187123 c` | 2008 | Radial Velocity | 3810 | 13.2
+- **`HD 188015`**
+  - `HD 188015 b` | 2004 | Radial Velocity | 461.2 | 13.6
+- **`HD 188641`**
+  - `HD 188641 b` | 2022 | Radial Velocity | 14583.81038 | 11.9
+- **`HD 189567`**
+  - `HD 189567 b` | 2021 | Radial Velocity | 14.288 | 2.85
+  - `HD 189567 c` | 2021 | Radial Velocity | 33.688 | 2.54
+- **`HD 189733`**
+  - `HD 189733 b` | 2005 | Radial Velocity | 2.21857567 | 12.66617
+- **`HD 190007`**
+  - `HD 190007 b` | 2020 | Radial Velocity | 11.724128 | 4.06
+- **`HD 190228`**
+  - `HD 190228 b` | 2022 | Radial Velocity | 1143.59858 | 12.9
+- **`HD 190360`**
+  - `HD 190360 c` | 2005 | Radial Velocity | 17.11625 | 5.53
+  - `HD 190360 d` | 2026 | Radial Velocity | 88.69 | 3.48
+  - `HD 190360 b` | 2003 | Radial Velocity | 2887.5 | 13.5
+- **`HD 190647`**
+  - `HD 190647 b` | 2007 | Radial Velocity | 1176.45 | 13.4
+- **`HD 190984`**
+  - `HD 190984 b` | 2009 | Radial Velocity | 4885 | 13
+- **`HD 191806`**
+  - `HD 191806 b` | 2016 | Radial Velocity | 1603.38923 | 12.5
+- **`HD 191939`**
+  - `HD 191939 b` | 2020 | Transit | 8.8803256 | 3.41
+  - `HD 191939 c` | 2020 | Transit | 28.579743 | 3.195
+  - `HD 191939 d` | 2020 | Transit | 38.353037 | 2.995
+  - `HD 191939 e` | 2022 | Radial Velocity | 101.12 | 13
+  - `HD 191939 g` | 2022 | Radial Velocity | 284 | 3.74
+  - `HD 191939 f` | 2022 | Radial Velocity | 2898 | 13.2
+
+</details>
+
+<a name="systems-06"></a>
+
+<details><summary>HD 192263 – HS Psc · 180 ระบบ · 242 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`HD 192263`**
+  - `HD 192263 b` | 1999 | Radial Velocity | 24.3556 | 14.2
+- **`HD 192310`**
+  - `HD 192310 b` | 2011 | Radial Velocity | 74.72 | 4.27
+  - `HD 192310 c` | 2011 | Radial Velocity | 525.8 | 5.25
+- **`HD 192699`**
+  - `HD 192699 b` | 2007 | Radial Velocity | 340.94 | 13.4
+- **`HD 194490`**
+  - `HD 194490 b` | 2022 | Radial Velocity | 13092.18348 | 12.4
+- **`HD 195019`**
+  - `HD 195019 b` | 1998 | Radial Velocity | 18.20132 | 13
+- **`HD 196050`**
+  - `HD 196050 b` | 2002 | Radial Velocity | 1392 | 12.9
+- **`HD 196067`**
+  - `HD 196067 c` | 2025 | Radial Velocity | 4.601088 | 3.21
+  - `HD 196067 b` | 2012 | Radial Velocity | 3413.7 | 12.4
+- **`HD 196885`**
+  - ดาวแม่ `HD 196885 A`
+    - `HD 196885 A b` | 2007 | Radial Velocity | 1333 | 13.2
+- **`HD 197037`**
+  - `HD 197037 b` | 2012 | Radial Velocity | 1035.7 | 13.9
+- **`HD 200964`**
+  - `HD 200964 b` | 2010 | Radial Velocity | 606.3 | 13.5
+  - `HD 200964 c` | 2010 | Radial Velocity | 852.5 | 13.7
+- **`HD 202206`**
+  - `HD 202206 b` | 2026 | Radial Velocity | 256.26 | 12.1
+  - `HD 202206 c` | 2004 | Radial Velocity | 1299.22 | 13.1
+- **`HD 202696`**
+  - `HD 202696 b` | 2019 | Radial Velocity | 517.8 | —
+  - `HD 202696 c` | 2019 | Radial Velocity | 946.6 | —
+- **`HD 202772`**
+  - ดาวแม่ `HD 202772 A`
+    - `HD 202772 A b` | 2019 | Transit | 3.3088775 | 18.2370116
+- **`HD 203030`**
+  - `HD 203030 b` | 2006 | Imaging | — | 14.4595851
+- **`HD 203387`**
+  - `HD 203387 b` | 2022 | Radial Velocity | 512.5352 | 13.1
+  - `HD 203387 c` | 2022 | Radial Velocity | 2481.07227 | 12.6
+- **`HD 204313`**
+  - `HD 204313 c` | 2015 | Radial Velocity | 34.95875 | 4.31
+  - `HD 204313 b` | 2010 | Radial Velocity | 2041.11539 | 12.9
+  - `HD 204313 e` | 2022 | Radial Velocity | 7325.64666 | 12.2
+- **`HD 204941`**
+  - `HD 204941 b` | 2011 | Radial Velocity | 1733 | 10.1
+- **`HD 205158`**
+  - `HD 205158 b` | 2022 | Radial Velocity | 25.33798 | 13.9
+- **`HD 205739`**
+  - `HD 205739 b` | 2008 | Radial Velocity | 279.8 | 13.6
+- **`HD 206255`**
+  - `HD 206255 b` | 2019 | Radial Velocity | 96.045 | 6.47
+- **`HD 206610`**
+  - `HD 206610 b` | 2009 | Radial Velocity | 673.2 | 13.4
+- **`HD 206893`**
+  - `HD 206893 c` | 2022 | Imaging | 2290 | 16.36511182
+  - `HD 206893 b` | 2021 | Imaging | 11100 | 14.01122587
+- **`HD 207496`**
+  - `HD 207496 b` | 2023 | Transit | 6.441008 | 2.25
+- **`HD 207832`**
+  - `HD 207832 b` | 2012 | Radial Velocity | 160.07 | 14.2
+  - `HD 207832 c` | 2012 | Radial Velocity | 1155.7 | 14
+- **`HD 207897`**
+  - `HD 207897 b` | 2021 | Transit | 16.20166 | 2.34302132
+- **`HD 208487`**
+  - `HD 208487 b` | 2004 | Radial Velocity | 129.36 | 14.3
+- **`HD 208527`**
+  - `HD 208527 b` | 2012 | Radial Velocity | 875.5 | 12.5
+- **`HD 208897`**
+  - `HD 208897 b` | 2017 | Radial Velocity | 358.27 | 13.7
+- **`HD 209458`**
+  - `HD 209458 b` | 1999 | Radial Velocity | 3.52474859 | 15.58051
+- **`HD 210193`**
+  - `HD 210193 b` | 2019 | Radial Velocity | 649.918 | 14.3
+- **`HD 210277`**
+  - `HD 210277 b` | 1998 | Radial Velocity | 442.19 | 13.6
+- **`HD 210702`**
+  - `HD 210702 b` | 2007 | Radial Velocity | 355.5 | 13.6
+- **`HD 211403`**
+  - `HD 211403 b` | 2021 | Radial Velocity | 223.8 | 12.8
+- **`HD 211810`**
+  - `HD 211810 b` | 2018 | Radial Velocity | 1558 | 14
+- **`HD 211970`**
+  - `HD 211970 b` | 2019 | Radial Velocity | 25.201 | 3.66
+- **`HD 212301`**
+  - `HD 212301 b` | 2005 | Radial Velocity | 2.24571 | 14.2
+- **`HD 212771`**
+  - `HD 212771 b` | 2009 | Radial Velocity | 380.7 | 13.3
+- **`HD 213240`**
+  - `HD 213240 b` | 2001 | Radial Velocity | 882.70001 | 12.8
+- **`HD 213472`**
+  - `HD 213472 b` | 2021 | Radial Velocity | 17000 | 13.1
+- **`HD 213519`**
+  - `HD 213519 b` | 2022 | Radial Velocity | 11.12214 | 2.99
+- **`HD 213885`**
+  - `HD 213885 b` | 2019 | Transit | 1.008035 | 1.745
+  - `HD 213885 c` | 2019 | Radial Velocity | 4.78503 | 4.71
+- **`HD 214823`**
+  - `HD 214823 b` | 2016 | Radial Velocity | 1854.84424 | 12.1
+- **`HD 215152`**
+  - `HD 215152 b` | 2018 | Radial Velocity | 5.75999 | —
+  - `HD 215152 c` | 2018 | Radial Velocity | 7.28243 | —
+  - `HD 215152 d` | 2018 | Radial Velocity | 10.86499 | —
+  - `HD 215152 e` | 2018 | Radial Velocity | 25.1967 | —
+- **`HD 215497`**
+  - `HD 215497 b` | 2009 | Radial Velocity | 3.93404 | —
+  - `HD 215497 c` | 2009 | Radial Velocity | 566 | 13
+- **`HD 216435`**
+  - `HD 216435 b` | 2002 | Radial Velocity | 1311 | 13.7
+- **`HD 216437`**
+  - `HD 216437 b` | 2002 | Radial Velocity | 1359 | 13
+- **`HD 216520`**
+  - `HD 216520 b` | 2020 | Radial Velocity | 35.45 | 3.18
+  - `HD 216520 c` | 2020 | Radial Velocity | 154.43 | 3.03
+- **`HD 216536`**
+  - `HD 216536 b` | 2015 | Radial Velocity | 148.60001 | 13.8
+- **`HD 216770`**
+  - `HD 216770 b` | 2003 | Radial Velocity | 118.45 | 14.1
+- **`HD 217107`**
+  - `HD 217107 b` | 1998 | Radial Velocity | 7.1270166 | 13.6
+  - `HD 217107 c` | 2005 | Radial Velocity | 5138.7 | 12.9
+- **`HD 217786`**
+  - `HD 217786 c` | 2022 | Radial Velocity | 2.52221 | 2.61
+  - `HD 217786 b` | 2011 | Radial Velocity | 1301.36009 | 12.3
+- **`HD 217958`**
+  - `HD 217958 b` | 2022 | Radial Velocity | 2560.19774 | 14.2
+- **`HD 218566`**
+  - `HD 218566 b` | 2010 | Radial Velocity | 225.7 | 9.32
+- **`HD 219077`**
+  - `HD 219077 b` | 2012 | Radial Velocity | 5478.68861 | 12.5
+- **`HD 219134`**
+  - `HD 219134 b` | 2015 | Radial Velocity | 3.092926 | 1.554
+  - `HD 219134 c` | 2015 | Radial Velocity | 6.76458 | 1.465
+  - `HD 219134 f` † | 2015 | Radial Velocity | 22.717 | >1.262
+  - `HD 219134 d` | 2015 | Radial Velocity | 46.859 | >1.554
+  - `HD 219134 g` † | 2015 | Radial Velocity | 94.2 | 3.28
+  - `HD 219134 h` | 2015 | Radial Velocity | 2247 | 12.7
+- **`HD 219139`**
+  - `HD 219139 b` | 2021 | Radial Velocity | 275.5 | 14
+- **`HD 219415`**
+  - `HD 219415 b` | 2012 | Radial Velocity | 2093.3 | 13.8
+- **`HD 219666`**
+  - `HD 219666 b` | 2018 | Transit | 6.034468 | 4.898
+- **`HD 219828`**
+  - `HD 219828 b` | 2007 | Radial Velocity | 3.83483 | 4.59
+  - `HD 219828 c` | 2016 | Radial Velocity | 4789.87297 | 12.2
+- **`HD 220074`**
+  - `HD 220074 b` | 2012 | Radial Velocity | 672.09998 | 12.2
+- **`HD 220197`**
+  - `HD 220197 b` | 2018 | Radial Velocity | 1728 | 9.32
+- **`HD 220689`**
+  - `HD 220689 b` | 2012 | Radial Velocity | 2266.4 | 13.7
+- **`HD 220773`**
+  - `HD 220773 b` | 2011 | Radial Velocity | 3724.7 | 13.6
+- **`HD 220842`**
+  - `HD 220842 b` | 2016 | Radial Velocity | 218.47 | 13.1
+- **`HD 221287`**
+  - `HD 221287 b` | 2007 | Radial Velocity | 456.1 | 13.1
+- **`HD 221416`**
+  - `HD 221416 b` | 2019 | Transit | 14.2767 | 9.17
+- **`HD 221420`**
+  - `HD 221420 b` | 2019 | Radial Velocity | 10090 | 12
+- **`HD 221585`**
+  - `HD 221585 b` | 2016 | Radial Velocity | 1173 | 13.5
+- **`HD 222076`**
+  - `HD 222076 b` | 2016 | Radial Velocity | 871 | 13.5
+- **`HD 222155`**
+  - `HD 222155 b` | 2011 | Radial Velocity | 3999 | 13.4
+- **`HD 222237`**
+  - `HD 222237 b` | 2024 | Radial Velocity | 14892 | 12.8
+- **`HD 222582`**
+  - `HD 222582 b` | 1999 | Radial Velocity | 572.38 | 12.6
+- **`HD 224018`**
+  - `HD 224018 b` | 2025 | Radial Velocity | 10.6413 | 0.91
+  - `HD 224018 c` | 2025 | Transit | 36.57669 | 2.42
+  - `HD 224018 d` | 2025 | Transit | 138.0731 | 2.4
+- **`HD 224538`**
+  - `HD 224538 b` | 2016 | Radial Velocity | 1202.05199 | 12.7
+- **`HD 224693`**
+  - `HD 224693 b` | 2006 | Radial Velocity | 26.6904 | 14
+- **`HD 231701`**
+  - `HD 231701 b` | 2007 | Radial Velocity | 141.63 | 13.7
+- **`HD 233604`**
+  - `HD 233604 b` | 2013 | Radial Velocity | 192 | 12.7
+- **`HD 233832`**
+  - `HD 233832 b` | 2018 | Radial Velocity | 2058 | 13.5
+- **`HD 235088`**
+  - `HD 235088 b` | 2023 | Transit | 7.4341325 | 1.982
+- **`HD 238090`**
+  - `HD 238090 b` | 2020 | Radial Velocity | 13.671 | 2.52
+- **`HD 238914`**
+  - `HD 238914 b` | 2018 | Radial Velocity | 4100 | 12.8
+- **`HD 240210`**
+  - `HD 240210 b` | 2009 | Radial Velocity | 501.75 | 12.8
+- **`HD 240237`**
+  - `HD 240237 b` | 2011 | Radial Velocity | 745.70001 | 12.2
+- **`HD 260655`**
+  - `HD 260655 b` | 2022 | Transit | 2.76953 | 1.24
+  - `HD 260655 c` | 2022 | Transit | 5.70588 | 1.533
+- **`HD 278555`**
+  - `HD 278555 b` | 2026 | Transit | 28.842438 | 11.02963701
+- **`HD 284149`**
+  - ดาวแม่ `HD 284149 A`
+    - `HD 284149 AB b` CB | 2017 | Imaging | — | 12
+- **`HD 285507`**
+  - `HD 285507 b` | 2013 | Radial Velocity | 6.0881 | 13.8
+- **`HD 285968`**
+  - `HD 285968 b` | 2008 | Radial Velocity | 8.7836 | 2.83
+- **`HD 290327`**
+  - `HD 290327 b` | 2009 | Radial Velocity | 2443 | 13.3
+- **`HD 307842`**
+  - `TOI-784 b` | 2023 | Transit | 2.7970365 | 1.93
+- **`HD 330075`**
+  - `HD 330075 b` | 2004 | Radial Velocity | 3.38773 | 14.3
+- **`HD 331093`**
+  - `HD 331093 b` | 2021 | Radial Velocity | 621.62 | 13.6
+- **`HD 332231`**
+  - `HD 332231 b` | 2020 | Transit | 18.712024 | 9.07303305
+- **`HIP 65`**
+  - ดาวแม่ `HIP 65 A`
+    - `HIP 65 A b` | 2020 | Transit | 0.9809734 | 22.75427
+- **`HIP 948`**
+  - `HIP 948 b` | 2022 | Radial Velocity | 24955.45756 | 12.1
+- **`HIP 4845`**
+  - `HIP 4845 b` | 2020 | Radial Velocity | 34.15 | 3.89
+- **`HIP 5158`**
+  - `HIP 5158 b` | 2009 | Radial Velocity | 345.72 | 13.6
+  - `HIP 5158 c` | 2011 | Radial Velocity | 9017.76 | 12.2
+- **`HIP 5763`**
+  - `HIP 5763 b` | 2021 | Radial Velocity | 30.014 | 14.2
+- **`HIP 5957`**
+  - ดาวแม่ `KOBE-1`
+    - `KOBE-1 b` | 2025 | Radial Velocity | 8.5399 | 2.91
+    - `KOBE-1 c` | 2025 | Radial Velocity | 29.671 | 3.56
+- **`HIP 8152`**
+  - `HIP 8152 b` | 2023 | Transit | 10.751014 | 2.57
+  - `HIP 8152 c` | 2023 | Transit | 19.6055 | 2.48
+- **`HIP 8541`**
+  - `HD 11343 c` | 2022 | Radial Velocity | 228.53731 | 13.9
+  - `HIP 8541 b` | 2016 | Radial Velocity | 1852.14387 | 12.6
+- **`HIP 8923`**
+  - `HIP 8923 b` | 2026 | Radial Velocity | 5160 | 12.5
+- **`HIP 9618`**
+  - `HIP 9618 b` | 2023 | Transit | 20.772858 | 3.82838127
+  - `HIP 9618 c` | 2023 | Transit | 52.56363 | 3.42855926
+- **`HIP 10090`**
+  - `HIP 10090 c` | 2026 | Radial Velocity | 321.82 | 13.9
+  - `HIP 10090 b` | 2026 | Radial Velocity | 2960 | 13
+- **`HIP 12961`**
+  - `HIP 12961 b` | 2010 | Radial Velocity | 57.435 | 13.2
+- **`HIP 13642 A`**
+  - ดาวแม่ `HD 18143`
+    - `HD 18143 b` | 2022 | Radial Velocity | 10.2851 | 3.28
+    - `HD 18143 c` | 2022 | Radial Velocity | 28982.41764 | 12.5
+- **`HIP 14810`**
+  - `HIP 14810 b` | 2005 | Radial Velocity | 6.673892 | 13
+  - `HIP 14810 c` | 2006 | Radial Velocity | 147.747 | 13.6
+  - `HIP 14810 d` | 2009 | Radial Velocity | 981.8 | 14.1
+- **`HIP 15799`**
+  - ดาวแม่ `GJ 3222`
+    - `GJ 3222 b` | 2022 | Radial Velocity | 10.66669 | 3.4
+- **`HIP 18606`**
+  - `HIP 18606 b` | 2025 | Radial Velocity | 674.94 | 14
+- **`HIP 19976`**
+  - `HIP 19976 b` | 2022 | Radial Velocity | 50.65905 | 4.94
+- **`HIP 21152`**
+  - `HIP 21152 b` | 2022 | Imaging | 22000 | 12
+- **`HIP 34222`**
+  - `HIP 34222 b` | 2021 | Radial Velocity | 159.986 | 13.9
+- **`HIP 35173`**
+  - `HIP 35173 b` | 2019 | Radial Velocity | 41.516 | 3.61
+- **`HIP 35965`**
+  - `HIP 35965 b` | 2022 | Radial Velocity | 26125.56497 | 12.6
+- **`HIP 38594`**
+  - `HIP 38594 b` | 2020 | Radial Velocity | 60.722 | 2.77
+  - `HIP 38594 c` | 2020 | Radial Velocity | 3477.768 | 7.94
+- **`HIP 39017`**
+  - `HIP 39017 b` | 2024 | Imaging | 31000 | 12
+- **`HIP 39330`**
+  - `HIP 39330 b` | 2026 | Radial Velocity | 4650 | 13.5
+- **`HIP 41378`**
+  - `HIP 41378 b` | 2016 | Transit | 15.57209 | 2.64
+  - `HIP 41378 c` | 2016 | Transit | 31.70591 | 2.74
+  - `HIP 41378 g` | 2025 | Radial Velocity | 63.19 | 2.5
+  - `HIP 41378 d` | 2016 | Transit | 278.3618 | 3.65
+  - `HIP 41378 e` | 2016 | Transit | 393 | 5.19
+  - `HIP 41378 f` | 2016 | Transit | 542.0797 | 9.47
+- **`HIP 48714`**
+  - `HIP 48714 b` | 2020 | Radial Velocity | 17.818 | 5.11
+- **`HIP 54373`**
+  - `HIP 54373 b` | 2019 | Radial Velocity | 7.76 | 2.87
+  - `HIP 54373 c` | 2019 | Radial Velocity | 15.144 | 3.57
+- **`HIP 54515`**
+  - `HIP 54515 b` | 2026 | Imaging | 33000 | 12.2
+- **`HIP 54597`**
+  - `HIP 54597 b` | 2023 | Radial Velocity | 3274 | 13.3
+- **`HIP 55507`**
+  - `HIP 55507 b` | 2022 | Radial Velocity | 5138.43727 | 12.6
+- **`HIP 56640`**
+  - `HIP 56640 b` | 2021 | Radial Velocity | 2675.57603 | 12.7
+- **`HIP 56998`**
+  - `HD 101581 b` | 2025 | Transit | 4.46569 | 0.956
+  - `HD 101581 c` | 2025 | Transit | 6.20401 | 0.99
+- **`HIP 57274`**
+  - `HIP 57274 b` | 2011 | Radial Velocity | 8.1352 | —
+  - `HIP 57274 c` | 2011 | Radial Velocity | 32.03 | 14.2
+  - `HIP 57274 d` | 2011 | Radial Velocity | 431.7 | 14.2
+- **`HIP 62039`**
+  - ดาวแม่ `HD 110537`
+    - `HD 110537 b` | 2022 | Radial Velocity | 24469.67342 | 11.9
+- **`HIP 63242`**
+  - `HIP 63242 b` | 2013 | Radial Velocity | 124.6 | 12.5
+- **`HIP 64797 A`**
+  - ดาวแม่ `HD 115404 A`
+    - `HD 115404 A b` | 2022 | Radial Velocity | 10.49488 | 6.09
+    - `HD 115404 A c` | 2022 | Radial Velocity | 15319.22517 | 12.5
+- **`HIP 65407`**
+  - `HIP 65407 b` | 2016 | Radial Velocity | 28.125 | 14.3
+  - `HIP 65407 c` | 2016 | Radial Velocity | 67.3 | 13.9
+- **`HIP 65426`**
+  - `HIP 65426 b` | 2017 | Imaging | — | 16.8135
+- **`HIP 65891`**
+  - `HIP 65891 b` † | 2015 | Radial Velocity | 1089.6 | 12.7
+- **`HIP 66074`**
+  - `HIP 66074 b` | 2023 | Astrometry | 310.9 | 12.9
+- **`HIP 67522`**
+  - `HIP 67522 b` | 2020 | Transit | 6.9594731 | 9.9872018
+  - `HIP 67522 c` | 2024 | Transit | 14.334892 | 7.93595834
+- **`HIP 67537`**
+  - `HIP 67537 b` | 2017 | Radial Velocity | 2523.64713 | 12.3
+- **`HIP 67851`**
+  - `HIP 67851 b` | 2015 | Radial Velocity | 89.23 | 13.7
+  - `HIP 67851 c` | 2015 | Radial Velocity | 3128.41 | 12.7
+- **`HIP 70849`**
+  - `HIP 70849 b` | 2011 | Radial Velocity | 3649 | 12.9
+- **`HIP 70950`**
+  - ดาวแม่ `HD 127506`
+    - `HD 127506 b` | 2022 | Radial Velocity | 65.78395 | 5.67
+- **`HIP 71135`**
+  - `HIP 71135 b` | 2019 | Radial Velocity | 87.19 | 4.55
+- **`HIP 74890`**
+  - `HIP 74890 b` | 2016 | Radial Velocity | 822.3 | 13.3
+- **`HIP 75092`**
+  - `HIP 75092 b` | 2021 | Radial Velocity | 926.4 | 13.5
+- **`HIP 77358`**
+  - ดาวแม่ `HD 140901`
+    - `HD 140901 b` † | 2022 | Radial Velocity | 9.02378 | 4.07
+    - `HD 140901 c` | 2022 | Radial Velocity | 14386 | 13.4
+- **`HIP 77900`**
+  - `HIP 77900 b` | 2024 | Imaging | — | 12.1
+- **`HIP 78530`**
+  - `HIP 78530 b` | 2010 | Imaging | — | 12
+- **`HIP 79098`**
+  - ดาวแม่ `HIP 79098 AB`
+    - `HIP 79098 AB b` CB | 2019 | Imaging | — | 12.1
+- **`HIP 79431`**
+  - `HIP 79431 b` | 2009 | Radial Velocity | 111.7 | 13.4
+- **`HIP 81208`**
+  - ดาวแม่ `HIP 81208 C`
+    - `HIP 81208 C b` | 2023 | Imaging | 104100 | 12.3
+- **`HIP 81375`**
+  - ดาวแม่ `HD 149806`
+    - `HD 149806 b` | 2022 | Radial Velocity | 16521.52778 | 12.3
+- **`HIP 81991`**
+  - `HIP 81991 b` | 2026 | Radial Velocity | 5860 | 12.5
+- **`HIP 83020 A`**
+  - ดาวแม่ `HD 153557`
+    - `HD 153557 b` | 2022 | Radial Velocity | 7.29903 | 4.77
+    - `HD 153557 c` | 2022 | Radial Velocity | 15.27018 | 4.36
+    - `HD 153557 d` | 2022 | Radial Velocity | 40654.64809 | 11.9
+- **`HIP 84988`**
+  - ดาวแม่ `HD 155918`
+    - `HD 155918 b` | 2022 | Radial Velocity | 1.87567 | 2.67
+    - `HD 155918 c` | 2022 | Radial Velocity | 17202.19446 | 12.8
+- **`HIP 86057`**
+  - ดาวแม่ `GJ 680`
+    - `GJ 680 b` | 2022 | Radial Velocity | 17281.66514 | 12
+- **`HIP 86221`**
+  - `HIP 86221 b` | 2021 | Radial Velocity | 2.224 | 14
+- **`HIP 90988`**
+  - `HIP 90988 b` † | 2021 | Radial Velocity | 455.73816 | 13.4
+- **`HIP 91258`**
+  - `HIP 91258 b` | 2013 | Radial Velocity | 5.0505 | 13.7
+- **`HIP 94235`**
+  - `HIP 94235 b` | 2022 | Transit | 7.713057 | 3
+- **`HIP 97166`**
+  - `HIP 97166 b` | 2021 | Transit | 10.288914 | 2.4801338
+  - `HIP 97166 c` | 2021 | Radial Velocity | 16.432 | 2.75
+- **`HIP 97233`**
+  - `HIP 97233 b` | 2014 | Radial Velocity | 1062.26506 | 12.1
+- **`HIP 98599`**
+  - `HIP 98599 b` | 2026 | Radial Velocity | 2656 | 12.7
+- **`HIP 99770`**
+  - `HIP 99770 b` | 2023 | Imaging | 18600 | 12.2
+- **`HIP 103768`**
+  - ดาวแม่ `GJ 9714`
+    - `GJ 9714 b` | 2022 | Radial Velocity | 19240.75467 | 12.5
+- **`HIP 104436`**
+  - ดาวแม่ `HD 199509`
+    - `HD 199509 b` | 2022 | Radial Velocity | 99.62167 | 7.43
+- **`HIP 105707`**
+  - `HIP 105707 b` | 2026 | Astrometry | 668.76 | 12
+- **`HIP 105854`**
+  - `HIP 105854 b` | 2014 | Radial Velocity | 184.2 | 12.6
+- **`HIP 107772`**
+  - `HIP 107772 b` | 2020 | Radial Velocity | 55.199 | 3.64
+- **`HIP 107773`**
+  - `HIP 107773 b` | 2015 | Radial Velocity | 144.3 | 13.4
+- **`HIP 109384`**
+  - `HIP 109384 b` | 2016 | Radial Velocity | 499.48 | 13.5
+- **`HIP 109600`**
+  - `HIP 109600 b` | 2016 | Radial Velocity | 232.08 | 13.2
+- **`HIP 111909`**
+  - `HIP 111909 b` | 2025 | Radial Velocity | 487.08 | 13.7
+  - `HIP 111909 c` | 2025 | Radial Velocity | 893.63 | 13.9
+- **`HIP 113103`**
+  - `HIP 113103 b` | 2023 | Transit | 7.610303 | 1.829
+  - `HIP 113103 c` | 2023 | Transit | 14.245648 | 2.4
+- **`HIP 114933`**
+  - `HIP 114933 b` | 2021 | Radial Velocity | 1481.6 | 13.4
+- **`HIP 116454`**
+  - `HIP 116454 b` | 2014 | Transit | 9.1004157 | 2.469
+- **`HN Lib`**
+  - `HN Lib b` | 2023 | Radial Velocity | 36.116 | 2.2
+- **`HN Peg`**
+  - `HN Peg b` | 2006 | Imaging | — | 11.7768
+- **`HR 810`**
+  - `HR 810 b` | 1999 | Radial Velocity | 302.79999 | 12.7
+- **`HR 858`**
+  - `HR 858 b` | 2019 | Transit | 3.585287 | 2.004
+  - `HR 858 c` | 2019 | Transit | 5.973865 | 1.979
+  - `HR 858 d` | 2019 | Transit | 11.230511 | 2.001
+- **`HR 2562`**
+  - `HR 2562 b` | 2016 | Imaging | — | 12.44199
+- **`HR 5183`**
+  - `HR 5183 b` | 2019 | Radial Velocity | 27000 | 13.1
+- **`HR 8799`**
+  - `HR 8799 e` | 2010 | Imaging | 20815.6 | 13.11453
+  - `HR 8799 d` | 2008 | Imaging | 37000 | 13
+  - `HR 8799 c` | 2008 | Imaging | 69000 | 13
+  - `HR 8799 b` | 2008 | Imaging | 170000 | 13
+- **`HS Psc`**
+  - `HS Psc b` | 2024 | Radial Velocity | 3.986 | 13.6
+
+</details>
+
+<a name="systems-07"></a>
+
+<details><summary>HU Aqr – K2-202 · 180 ระบบ · 262 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`HU Aqr`**
+  - `HU Aqr AB b` † CB | 2011 | Eclipse Timing Variations | 2390 | 12.8
+  - `HU Aqr AB c` † CB | 2011 | Eclipse Timing Variations | 4368 | 12.9
+- **`IC 4651 9122`**
+  - `IC 4651 9122 b` † | 2018 | Radial Velocity | 734 | 12.7
+- **`iot Dra`**
+  - `iot Dra b` | 2002 | Radial Velocity | 510.8544 | 12.4
+  - `iot Dra c` | 2021 | Radial Velocity | 25000 | 12.2
+- **`ISO-Oph 96`**
+  - `KOINTREAU-3 b` | 2026 | Imaging | — | 13.1
+- **`ITG 15`**
+  - ดาวแม่ `ITG 15 A`
+    - `ITG 15 b` | 2024 | Imaging | — | 12.1
+- **`K2-3`**
+  - `K2-3 b` | 2015 | Transit | 10.0546535 | 2.078
+  - `K2-3 c` | 2015 | Transit | 24.646729 | 1.582
+  - `K2-3 d` | 2015 | Transit | 44.55603 | 1.458
+- **`K2-4`**
+  - `K2-4 b` | 2015 | Transit | 10.003417 | 2.1
+- **`K2-5`**
+  - `K2-5 b` | 2015 | Transit | 5.73594 | 1.91
+  - `K2-5 c` | 2015 | Transit | 10.93241 | 2.26
+- **`K2-6`**
+  - `K2-6 b` | 2015 | Transit | 30.94191 | 2.5
+- **`K2-7`**
+  - `K2-7 b` | 2015 | Transit | 28.6781 | 4.03523305
+- **`K2-8`**
+  - `K2-8 c` | 2016 | Transit | 5.06416 | 2.41
+  - `K2-8 b` | 2015 | Transit | 10.35239 | 3.58
+- **`K2-9`**
+  - `K2-9 b` | 2015 | Transit | 18.4498 | 2.25
+- **`K2-10`**
+  - `K2-10 b` | 2015 | Transit | 19.30553 | 3.773
+- **`K2-11`**
+  - `K2-11 b` | 2015 | Transit | 39.93767 | 7.55
+- **`K2-12`**
+  - `K2-12 b` | 2015 | Transit | 8.28246 | 2.44
+- **`K2-13`**
+  - `K2-13 b` | 2015 | Transit | 39.91488 | 1.89
+- **`K2-14`**
+  - `K2-14 b` | 2015 | Transit | 8.36802 | 4.81
+- **`K2-15`**
+  - `K2-15 b` | 2015 | Transit | 11.8104 | 2.48
+- **`K2-16`**
+  - `EPIC 201754305 d` | 2019 | Transit | 2.71578 | 1.03
+  - `K2-16 b` | 2015 | Transit | 7.6188 | 2.02
+  - `K2-16 c` | 2015 | Transit | 19.07863 | 2.54
+- **`K2-17`**
+  - `K2-17 b` | 2015 | Transit | 17.96753 | 2.23
+- **`K2-18`**
+  - `K2-18 c` † | 2017 | Radial Velocity | 8.962 | 2.65
+  - `K2-18 b` | 2015 | Transit | 32.939623 | 2.37
+- **`K2-19`**
+  - `K2-19 d` | 2016 | Transit | 2.50827 | 1.044
+  - `K2-19 b` | 2015 | Transit | 7.9193 | 7
+  - `K2-19 c` | 2015 | Transit | 11.906 | 4.1
+- **`K2-21`**
+  - `K2-21 b` | 2015 | Transit | 9.325038 | 1.84
+  - `K2-21 c` | 2015 | Transit | 15.50192 | 2.49
+- **`K2-22`**
+  - `K2-22 b` | 2015 | Transit | 0.381073 | 2.3
+- **`K2-24`**
+  - `K2-24 b` | 2016 | Transit | 20.8895961 | 5.638
+  - `K2-24 c` | 2016 | Transit | 42.34732 | 7.93
+- **`K2-25`**
+  - `K2-25 b` | 2015 | Transit | 3.48456408 | 3.44
+- **`K2-26`**
+  - `K2-26 b` | 2016 | Transit | 14.5665 | 2.67
+- **`K2-27`**
+  - `K2-27 b` | 2016 | Transit | 6.771347 | 4.74
+- **`K2-28`**
+  - `K2-28 b` | 2016 | Transit | 2.260455 | 2.32
+- **`K2-29`**
+  - `K2-29 b` | 2016 | Transit | 3.2588321 | 13.33871
+- **`K2-30`**
+  - `K2-30 b` | 2016 | Transit | 4.098503 | 11.646151
+- **`K2-31`**
+  - `K2-31 b` | 2016 | Transit | 1.25785 | 11.88154
+- **`K2-32`**
+  - `K2-32 e` | 2019 | Transit | 4.34934 | 1.212
+  - `K2-32 b` | 2016 | Transit | 8.992 | 5.299
+  - `K2-32 c` | 2016 | Transit | 20.66093 | 3.134
+  - `K2-32 d` | 2016 | Transit | 31.71701 | 3.484
+- **`K2-33`**
+  - `K2-33 b` | 2016 | Transit | 5.424865 | 5.04
+- **`K2-34`**
+  - `K2-34 b` | 2016 | Transit | 2.9956348 | 13.75
+- **`K2-35`**
+  - `K2-35 b` | 2016 | Transit | 2.399964 | 1.32
+  - `K2-35 c` | 2016 | Transit | 5.608352 | 1.93
+- **`K2-36`**
+  - `K2-36 b` | 2016 | Transit | 1.422614 | 1.43
+  - `K2-36 c` | 2016 | Transit | 5.340888 | 3.2
+- **`K2-37`**
+  - `K2-37 b` | 2016 | Transit | 4.4434 | 1.39
+  - `K2-37 c` | 2016 | Transit | 6.42966 | 2.41
+  - `K2-37 d` | 2016 | Transit | 14.09229 | 2.31
+- **`K2-38`**
+  - `K2-38 b` | 2016 | Transit | 4.01593 | 1.54
+  - `K2-38 c` | 2016 | Transit | 10.56103 | 2.29
+- **`K2-39`**
+  - `K2-39 b` | 2016 | Transit | 4.60543 | 6.27704
+- **`K2-42`**
+  - `K2-42 b` | 2016 | Transit | 6.68796 | 2.15
+- **`K2-43`**
+  - `K2-43 c` | 2019 | Transit | 2.198884 | 2.42
+  - `K2-43 b` | 2016 | Transit | 3.471149 | 4.51
+- **`K2-44`**
+  - `K2-44 b` | 2016 | Transit | 5.657 | 2.433
+- **`K2-45`**
+  - `K2-45 b` | 2016 | Transit | 1.7292684 | 6.71
+- **`K2-46`**
+  - `K2-46 b` | 2016 | Transit | 19.1541 | 2.05
+- **`K2-47`**
+  - `K2-47 b` | 2016 | Transit | 31.6372 | 1.89
+- **`K2-48`**
+  - `K2-48 b` | 2016 | Transit | 20.5065 | 2.24
+- **`K2-49`**
+  - `K2-49 b` | 2016 | Transit | 2.77065 | 1.93
+- **`K2-50`**
+  - `EPIC 201833600 c` | 2019 | Transit | 3.96151 | 1
+  - `K2-50 b` | 2016 | Transit | 8.7529 | 1.59
+- **`K2-52`**
+  - `K2-52 b` | 2016 | Transit | 3.535055 | 18
+- **`K2-53`**
+  - `K2-53 b` | 2016 | Transit | 12.20772 | 2.6
+- **`K2-54`**
+  - `K2-54 b` | 2016 | Transit | 9.7833 | 2.6116925
+- **`K2-55`**
+  - `K2-55 b` | 2016 | Transit | 2.849271 | 4.43
+- **`K2-57`**
+  - `K2-57 b` | 2016 | Transit | 9.0073 | 2.30905002
+- **`K2-58`**
+  - `K2-58 c` | 2016 | Transit | 2.53726 | 1.62
+  - `K2-58 b` | 2016 | Transit | 7.05254 | 2.68
+  - `K2-58 d` | 2016 | Transit | 22.8827 | 1.71
+- **`K2-59`**
+  - `K2-59 c` | 2016 | Transit | 11.2954 | 2.3
+  - `K2-59 b` | 2016 | Transit | 20.6921 | 2.41
+- **`K2-60`**
+  - `K2-60 b` | 2016 | Transit | 3.00265 | 7.655747
+- **`K2-61`**
+  - `K2-61 b` | 2016 | Transit | 2.57336 | 1.92
+- **`K2-62`**
+  - `K2-62 b` | 2016 | Transit | 6.67188 | 1.77
+  - `K2-62 c` | 2016 | Transit | 16.19752 | 2.17
+- **`K2-63`**
+  - `K2-63 b` | 2016 | Transit | 20.257 | 3.22
+  - `K2-63 c` | 2016 | Transit | 25.4556 | 3.9
+- **`K2-64`**
+  - `K2-64 b` | 2016 | Transit | 6.53044 | 2.07
+- **`K2-65`**
+  - `K2-65 b` | 2016 | Transit | 12.6475 | 1.58
+- **`K2-66`**
+  - `K2-66 b` | 2016 | Transit | 5.06963 | 2.49
+- **`K2-68`**
+  - `K2-68 b` | 2016 | Transit | 8.05428 | 1.58
+- **`K2-69`**
+  - `K2-69 b` | 2016 | Transit | 7.06599 | 2.32
+- **`K2-70`**
+  - `K2-70 b` | 2016 | Transit | 13.97896 | 2.89
+- **`K2-71`**
+  - `K2-71 b` | 2016 | Transit | 6.98541 | 2.15
+- **`K2-72`**
+  - `K2-72 b` | 2016 | Transit | 5.577212 | 1.08
+  - `K2-72 d` | 2016 | Transit | 7.760178 | 1.01
+  - `K2-72 c` | 2016 | Transit | 15.189034 | 1.16
+  - `K2-72 e` | 2016 | Transit | 24.158868 | 1.29
+- **`K2-73`**
+  - `K2-73 b` | 2016 | Transit | 7.49556 | 2.58
+  - `K2-73 c` | 2025 | Radial Velocity | 1000 | 13
+- **`K2-74`**
+  - `K2-74 b` | 2016 | Transit | 19.5666 | 2.31
+- **`K2-75`**
+  - `K2-75 b` | 2016 | Transit | 7.8142 | 2.67
+  - `K2-75 c` | 2016 | Transit | 18.311 | 2.77
+- **`K2-77`**
+  - `K2-77 b` | 2016 | Transit | 8.2000844 | 2.4996027
+- **`K2-79`**
+  - `K2-79 b` | 2016 | Transit | 10.995039 | 4.15
+- **`K2-80`**
+  - `K2-80 c` | 2016 | Transit | 5.605 | 1.47
+  - `K2-80 b` | 2016 | Transit | 19.0918 | 2.01
+  - `K2-80 d` | 2018 | Transit | 28.867253 | 2.55211506
+- **`K2-81`**
+  - `K2-81 b` | 2016 | Transit | 6.102325 | 1.97
+- **`K2-83`**
+  - `K2-83 b` | 2016 | Transit | 2.74697 | 1.244
+  - `K2-83 c` | 2016 | Transit | 9.99767 | 1.483
+- **`K2-84`**
+  - `K2-84 b` | 2016 | Transit | 6.4215 | 2.41
+  - `K2-84 c` | 2016 | Transit | 27.86 | 2.03
+- **`K2-85`**
+  - `K2-85 b` | 2016 | Transit | 0.68453862616 | 1.4
+- **`K2-86`**
+  - `K2-86 b` | 2016 | Transit | 8.77683 | 1.96
+- **`K2-87`**
+  - `K2-87 b` | 2016 | Transit | 9.726618 | 7.6
+- **`K2-88`**
+  - `K2-88 b` | 2016 | Transit | 4.6122 | 1.23
+- **`K2-89`**
+  - `K2-89 b` | 2016 | Transit | 1.096026 | 0.615
+- **`K2-90`**
+  - `K2-90 c` | 2016 | Transit | 2.900706 | 1.3
+  - `K2-90 b` | 2016 | Transit | 13.733314 | 2.6
+- **`K2-91`**
+  - `K2-91 b` | 2016 | Transit | 1.419549 | 1.1
+- **`K2-95`**
+  - `K2-95 b` | 2016 | Transit | 10.1346454 | 3.31
+- **`K2-97`**
+  - `K2-97 b` | 2016 | Transit | 8.407115 | 13.45077684
+- **`K2-98`**
+  - `K2-98 b` | 2016 | Transit | 10.1367349 | 5.06645928
+- **`K2-99`**
+  - `K2-99 b` | 2016 | Transit | 18.24783 | 11.88151954
+  - `K2-99 c` | 2022 | Radial Velocity | 522.2 | 12.6
+- **`K2-100`**
+  - `K2-100 b` | 2016 | Transit | 1.6739035 | 3.88
+- **`K2-101`**
+  - `K2-101 b` | 2016 | Transit | 14.6762429 | 2
+- **`K2-102`**
+  - `K2-102 b` | 2016 | Transit | 9.915615 | 1.3
+- **`K2-104`**
+  - `K2-104 b` | 2016 | Transit | 1.9741954 | 1.79
+- **`K2-105`**
+  - `K2-105 c` | 2026 | Radial Velocity | 5.02173 | 3.34
+  - `K2-105 b` | 2017 | Transit | 8.2669721 | 3.145
+- **`K2-107`**
+  - `K2-107 b` | 2017 | Transit | 3.313959 | 15.98
+- **`K2-108`**
+  - `K2-108 b` | 2017 | Transit | 4.733999 | 5.33
+- **`K2-110`**
+  - `K2-110 b` | 2017 | Transit | 13.86375 | 2.592
+- **`K2-111`**
+  - `K2-111 b` | 2017 | Transit | 5.3518963 | 1.837
+  - `K2-111 c` | 2020 | Radial Velocity | 15.6748 | 3.34
+- **`K2-113`**
+  - `K2-113 b` | 2017 | Transit | 5.817685 | 12.14
+- **`K2-114`**
+  - `K2-114 b` | 2017 | Transit | 11.390931 | 10.59248676
+- **`K2-115`**
+  - `K2-115 b` | 2017 | Transit | 20.2729914 | 11.80305668
+- **`K2-116`**
+  - `K2-116 b` | 2017 | Transit | 4.655411 | 0.69
+- **`K2-117`**
+  - `K2-117 b` | 2017 | Transit | 1.2916 | 2.03
+  - `K2-117 c` | 2017 | Transit | 5.444017 | 2.06
+- **`K2-118`**
+  - `K2-118 b` | 2017 | Transit | 50.92092 | 2.54
+- **`K2-119`**
+  - `K2-119 b` | 2017 | Transit | 7.727283 | 2.53
+- **`K2-121`**
+  - `K2-121 b` | 2017 | Transit | 5.185738 | 7.16
+- **`K2-122`**
+  - `K2-122 b` | 2017 | Transit | 2.2193023 | 1.16
+- **`K2-123`**
+  - `K2-123 b` | 2017 | Transit | 30.951524 | 2.76
+- **`K2-124`**
+  - `K2-124 b` | 2017 | Transit | 6.413651 | 2.9
+- **`K2-125`**
+  - `K2-125 b` | 2017 | Transit | 21.750264 | 2.18
+- **`K2-126`**
+  - `K2-126 b` | 2017 | Transit | 7.385655 | 1.97
+- **`K2-127`**
+  - `K2-127 b` | 2017 | Transit | 3.588163 | 8.37
+- **`K2-128`**
+  - `K2-128 b` | 2017 | Transit | 5.675819 | 1.42
+- **`K2-129`**
+  - `K2-129 b` | 2017 | Transit | 8.239493 | 1.04
+- **`K2-130`**
+  - `K2-130 b` | 2017 | Transit | 2.49412 | 1.25
+- **`K2-131`**
+  - `K2-131 b` | 2017 | Transit | 0.3693038 | 1.69
+- **`K2-132`**
+  - `K2-132 b` | 2017 | Transit | 9.1751 | 14.5717
+- **`K2-133`**
+  - `K2-133 b` | 2017 | Transit | 3.07133 | 1.34
+  - `K2-133 c` | 2017 | Transit | 4.86784 | 1.603
+  - `K2-133 d` | 2017 | Transit | 11.02454 | 2.003
+  - `K2-133 e` | 2019 | Transit | 26.5841 | 1.73
+- **`K2-136`**
+  - `K2-136 b` | 2017 | Transit | 7.97525 | 1.014
+  - `K2-136 c` | 2017 | Transit | 17.30723 | 3
+  - `K2-136 d` | 2017 | Transit | 25.575 | 1.565
+- **`K2-137`**
+  - `K2-137 b` | 2017 | Transit | 0.179719 | 0.64
+- **`K2-138`**
+  - `K2-138 b` | 2017 | Transit | 2.35309 | 1.51
+  - `K2-138 c` | 2017 | Transit | 3.56004 | 2.299
+  - `K2-138 d` | 2017 | Transit | 5.40479 | 2.39
+  - `K2-138 e` | 2017 | Transit | 8.26146 | 3.39
+  - `K2-138 f` | 2017 | Transit | 12.75758 | 2.904
+  - `K2-138 g` | 2021 | Transit | 41.96797 | 3.013
+- **`K2-139`**
+  - `K2-139 b` | 2017 | Transit | 28.380619 | 9.11
+- **`K2-140`**
+  - `K2-140 b` | 2017 | Transit | 6.569188 | 13.56286665
+- **`K2-141`**
+  - `K2-141 b` | 2018 | Transit | 0.2803244 | 1.51
+  - `K2-141 c` | 2018 | Transit | 7.7485 | 7
+- **`K2-146`**
+  - `K2-146 b` | 2018 | Transit | 2.6446 | 2.05
+  - `K2-146 c` | 2019 | Transit | 4.00498 | 2.19
+- **`K2-147`**
+  - `K2-147 b` | 2018 | Transit | 0.961939 | 1.47286006
+- **`K2-148`**
+  - `K2-148 b` | 2018 | Transit | 4.38395 | 1.33
+  - `K2-148 c` | 2018 | Transit | 6.9226 | 1.73
+  - `K2-148 d` | 2018 | Transit | 9.7579 | 1.64
+- **`K2-149`**
+  - `K2-149 b` | 2018 | Transit | 11.332 | 1.64
+- **`K2-150`**
+  - `K2-150 b` | 2018 | Transit | 10.59357 | 2
+- **`K2-151`**
+  - `K2-151 b` | 2018 | Transit | 3.835476 | 1.49
+- **`K2-152`**
+  - `K2-152 b` | 2018 | Transit | 32.6479 | 2.29
+- **`K2-153`**
+  - `K2-153 b` | 2018 | Transit | 7.51574 | 2
+- **`K2-154`**
+  - `K2-154 b` | 2018 | Transit | 3.67626 | 1.99
+  - `K2-154 c` | 2018 | Transit | 7.95486 | 2.07
+- **`K2-155`**
+  - `K2-155 b` | 2018 | Transit | 6.342 | 1.8
+  - `K2-155 c` | 2018 | Transit | 13.85 | 2.6
+  - `K2-155 d` | 2018 | Transit | 40.718 | 1.9
+- **`K2-156`**
+  - `K2-156 b` | 2018 | Transit | 0.813143 | 1.1
+- **`K2-157`**
+  - `K2-157 b` | 2018 | Transit | 0.3652575 | 0.935
+  - `K2-157 c` | 2025 | Radial Velocity | 25.942 | 6.08
+  - `K2-157 d` | 2025 | Radial Velocity | 66.5 | 5.16
+- **`K2-158`**
+  - `K2-158 c` | 2018 | Transit | 5.90279 | 1.28
+  - `K2-158 b` | 2018 | Transit | 10.06049 | 2.64
+- **`K2-159`**
+  - `K2-159 b` | 2018 | Transit | 12.42205 | 2.26
+- **`K2-160`**
+  - `K2-160 b` | 2018 | Transit | 3.705871 | 3.17824034
+- **`K2-161`**
+  - `K2-161 b` | 2018 | Transit | 9.283188 | 6.11721229
+- **`K2-162`**
+  - `K2-162 b` | 2018 | Transit | 9.45889 | 1.44
+- **`K2-163`**
+  - `K2-163 b` | 2018 | Transit | 6.673117 | 2.46610713
+- **`K2-164`**
+  - `K2-164 b` | 2018 | Transit | 17.355066 | 3.24925008
+- **`K2-165`**
+  - `K2-165 b` | 2018 | Transit | 2.354992 | 1.27443657
+  - `K2-165 c` | 2018 | Transit | 4.382745 | 1.55409035
+  - `K2-165 d` | 2018 | Transit | 14.101361 | 2.64809498
+- **`K2-166`**
+  - `EPIC 201615463 c` | 2019 | Transit | 3.80464 | 1.22
+  - `K2-166 b` | 2018 | Transit | 8.52695 | 2.19
+- **`K2-167`**
+  - `K2-167 b` | 2018 | Transit | 9.978541 | 2.36509493
+- **`K2-168`**
+  - `EPIC 205950854 c` | 2019 | Transit | 8.050722 | 1.31
+  - `K2-168 b` | 2018 | Transit | 15.8523 | 1.86
+- **`K2-169`**
+  - `K2-169 b` | 2018 | Transit | 6.380803 | 1.27328671
+- **`K2-170`**
+  - `K2-170 b` | 2018 | Transit | 7.576544 | 1.41817537
+  - `K2-170 c` | 2018 | Transit | 12.400047 | 1.8017647
+- **`K2-171`**
+  - `K2-171 b` | 2018 | Transit | 5.628466 | 2.68657205
+- **`K2-172`**
+  - `K2-172 b` | 2018 | Transit | 14.316941 | 1.66608079
+  - `K2-172 c` | 2018 | Transit | 29.62682 | 3.20569097
+- **`K2-173`**
+  - `K2-173 b` | 2018 | Transit | 5.868699 | 1.60826194
+- **`K2-174`**
+  - `K2-174 b` | 2018 | Transit | 19.562307 | 2.6
+- **`K2-175`**
+  - `K2-175 b` | 2018 | Transit | 9.525988 | 2.03803688
+- **`K2-176`**
+  - `K2-176 b` | 2018 | Transit | 5.329439 | 1.49090097
+- **`K2-177`**
+  - `K2-177 b` | 2018 | Transit | 14.155185 | 2.1162048
+- **`K2-178`**
+  - `K2-178 b` | 2018 | Transit | 8.747818 | 3.55790985
+- **`K2-179`**
+  - `K2-179 b` | 2018 | Transit | 5.172191 | 2.51267885
+- **`K2-180`**
+  - `K2-180 b` | 2018 | Transit | 8.865663 | 2.46597575
+- **`K2-181`**
+  - `K2-181 b` | 2018 | Transit | 6.8941 | 2.69
+- **`K2-182`**
+  - `K2-182 b` | 2018 | Transit | 4.7369696 | 2.71257333
+- **`K2-183`**
+  - `K2-183 b` | 2018 | Transit | 0.469285 | 1.1
+  - `K2-183 c` | 2018 | Transit | 10.787992 | 2.3
+  - `K2-183 d` | 2018 | Transit | 22.620344 | 2.3
+- **`K2-184`**
+  - `K2-184 b` | 2018 | Transit | 16.977959 | 1.216
+- **`K2-185`**
+  - `K2-185 b` | 2018 | Transit | 10.616384 | 1.15
+  - `K2-185 c` | 2018 | Transit | 52.713494 | 2.39
+- **`K2-186`**
+  - `K2-186 b` | 2018 | Transit | 41.474219 | 3.17207779
+- **`K2-187`**
+  - `K2-187 b` | 2018 | Transit | 0.77401 | 1.2
+  - `K2-187 c` | 2018 | Transit | 2.871512 | 1.4
+  - `K2-187 d` | 2018 | Transit | 7.149584 | 2.4
+  - `K2-187 e` | 2018 | Transit | 13.606629 | 1.9
+- **`K2-188`**
+  - `K2-188 b` | 2018 | Transit | 1.742169 | 1.35
+  - `K2-188 c` | 2018 | Transit | 7.810253 | 2.83
+- **`K2-189`**
+  - `K2-189 b` | 2018 | Transit | 2.58812 | 1.403
+  - `K2-189 c` | 2018 | Transit | 6.67932 | 2.31
+- **`K2-190`**
+  - `K2-190 b` | 2018 | Transit | 10.098858 | 1.35673729
+  - `K2-190 c` | 2018 | Transit | 21.574023 | 1.09308317
+- **`K2-191`**
+  - `K2-191 b` | 2018 | Transit | 2.858646 | 1.57889322
+- **`K2-192`**
+  - `K2-192 b` | 2018 | Transit | 4.162817 | 1.52
+- **`K2-193`**
+  - `K2-193 b` | 2018 | Transit | 14.786889 | 3.95
+- **`K2-194`**
+  - `K2-194 b` | 2018 | Transit | 39.721386 | 3.64229858
+- **`K2-195`**
+  - `K2-195 b` | 2018 | Transit | 15.852975 | 3.13
+  - `K2-195 c` | 2018 | Transit | 28.482786 | 2.57581891
+- **`K2-196`**
+  - `K2-196 b` | 2018 | Transit | 48.324222 | 3.59970536
+- **`K2-197`**
+  - `K2-197 b` | 2018 | Transit | 8.357881 | 2.56
+- **`K2-198`**
+  - `K2-198 c` | 2019 | Transit | 3.3596055 | 1.423
+  - `K2-198 d` | 2019 | Transit | 7.4500177 | 2.438
+  - `K2-198 b` | 2018 | Transit | 17.0428683 | 4.189
+- **`K2-199`**
+  - `K2-199 b` | 2018 | Transit | 3.2253993 | 1.73
+  - `K2-199 c` | 2018 | Transit | 7.3744897 | 2.85
+- **`K2-200`**
+  - `K2-200 b` | 2018 | Transit | 2.849883 | 1.3643987
+- **`K2-201`**
+  - `K2-201 b` | 2018 | Transit | 1.05979 | 1.40006712
+  - `K2-201 c` | 2018 | Transit | 22.779878 | 3.28568401
+- **`K2-202`**
+  - `K2-202 b` | 2018 | Transit | 3.405164 | 2.30165603
+
+</details>
+
+<a name="systems-08"></a>
+
+<details><summary>K2-203 – K2-416 · 180 ระบบ · 232 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`K2-203`**
+  - `K2-203 b` | 2018 | Transit | 9.6952 | 1.26549392
+- **`K2-204`**
+  - `K2-204 b` | 2018 | Transit | 7.055908 | 3.17214154
+- **`K2-205`**
+  - `K2-205 b` | 2018 | Transit | 26.672263 | 1.99552771
+- **`K2-206`**
+  - `K2-206 b` | 2018 | Transit | 18.294549 | 2.79522879
+- **`K2-207`**
+  - `K2-207 b` | 2018 | Transit | 12.48749 | 2.60585269
+- **`K2-208`**
+  - `K2-208 b` | 2018 | Transit | 4.19097 | 1.67462172
+- **`K2-209`**
+  - `K2-209 b` | 2018 | Transit | 2.080615 | 0.86850263
+- **`K2-210`**
+  - `K2-210 b` | 2018 | Transit | 0.57023 | 0.86
+- **`K2-211`**
+  - `K2-211 b` | 2018 | Transit | 0.669561 | 1.33162691
+- **`K2-212`**
+  - `K2-212 b` | 2018 | Transit | 9.795647 | 2.65
+- **`K2-213`**
+  - `K2-213 b` | 2018 | Transit | 8.13087 | 1.51398464
+- **`K2-214`**
+  - `K2-214 b` | 2018 | Transit | 8.59656 | 2.51
+- **`K2-215`**
+  - `K2-215 b` | 2018 | Transit | 8.269648 | 2.12381238
+- **`K2-216`**
+  - `K2-216 b` | 2018 | Transit | 2.1748 | 1.75
+- **`K2-217`**
+  - `K2-217 b` | 2018 | Transit | 14.074524 | 3.57854073
+- **`K2-218`**
+  - `K2-218 b` | 2018 | Transit | 8.679885 | 2.56948149
+- **`K2-219`**
+  - `K2-219 b` | 2018 | Transit | 3.901287 | 1.34762583
+  - `K2-219 c` | 2018 | Transit | 6.66767 | 1.43839723
+  - `K2-219 d` | 2018 | Transit | 11.137278 | 2.57634456
+- **`K2-220`**
+  - `K2-220 b` | 2018 | Transit | 13.68186 | 2.37
+- **`K2-221`**
+  - `K2-221 b` | 2018 | Transit | 2.399094 | 1.67890272
+- **`K2-222`**
+  - `K2-222 b` | 2018 | Transit | 15.3889274 | 2.275
+- **`K2-223`**
+  - `K2-223 b` | 2018 | Transit | 0.505608 | 0.79
+  - `K2-223 c` | 2018 | Transit | 4.56395 | 1.41
+- **`K2-224`**
+  - `K2-224 b` | 2018 | Transit | 4.47904 | 1.56
+  - `K2-224 c` | 2018 | Transit | 10.09489 | 2.41
+- **`K2-225`**
+  - `K2-225 b` | 2018 | Transit | 15.8723 | 3.60929179
+- **`K2-226`**
+  - `K2-226 b` | 2018 | Transit | 3.27109 | 1.53899305
+- **`K2-227`**
+  - `K2-227 b` | 2018 | Transit | 13.621832 | 1.66551298
+- **`K2-228`**
+  - `K2-228 b` | 2018 | Transit | 2.69828 | 1.21
+- **`K2-229`**
+  - `K2-229 b` | 2018 | Transit | 0.584216 | 1
+  - `K2-229 c` | 2018 | Transit | 8.32727 | 2.03
+- **`K2-230`**
+  - `K2-230 b` | 2018 | Transit | 2.86041 | 1.96
+- **`K2-231`**
+  - `K2-231 b` | 2018 | Transit | 13.841901 | 2.5
+- **`K2-232`**
+  - `K2-232 b` | 2018 | Transit | 11.1684377 | 11.62371299
+  - `K2-232 c` | 2026 | Radial Velocity | 1950 | 12.8
+- **`K2-233`**
+  - `K2-233 b` | 2018 | Transit | 2.4674559 | 1.248
+  - `K2-233 c` | 2018 | Transit | 7.05972 | 1.186
+  - `K2-233 d` | 2018 | Transit | 24.36455 | 2.301
+- **`K2-237`**
+  - `K2-237 b` | 2018 | Transit | 2.18053332 | 16.06246934
+- **`K2-238`**
+  - `K2-238 b` | 2018 | Transit | 3.20466 | 14.5717
+- **`K2-239`**
+  - `K2-239 b` | 2018 | Transit | 5.24 | 1.1
+  - `K2-239 c` | 2018 | Transit | 7.775 | 1
+  - `K2-239 d` | 2018 | Transit | 10.115 | 1.1
+- **`K2-240`**
+  - `K2-240 b` | 2018 | Transit | 6.034 | 2
+  - `K2-240 c` | 2018 | Transit | 20.523 | 1.8
+- **`K2-241`**
+  - `K2-241 b` | 2018 | Transit | 26.8199 | 2.55
+- **`K2-242`**
+  - `K2-242 b` | 2018 | Transit | 6.51389 | 2.54
+- **`K2-243`**
+  - `K2-243 b` | 2018 | Transit | 11.54182 | 2.17
+  - `K2-243 c` | 2018 | Transit | 24.94598 | 2.01
+- **`K2-244`**
+  - `K2-244 b` | 2018 | Transit | 21.06884 | 1.75
+- **`K2-245`**
+  - `K2-245 b` | 2018 | Transit | 11.89307 | 4.34
+- **`K2-246`**
+  - `K2-246 b` | 2018 | Transit | 5.76918 | 3.49
+- **`K2-247`**
+  - `K2-247 b` | 2018 | Transit | 2.25021 | 2.12
+  - `K2-247 c` | 2018 | Transit | 6.49424 | 2.19
+- **`K2-248`**
+  - `K2-248 b` | 2018 | Transit | 7.17256 | 2.57
+- **`K2-249`**
+  - `K2-249 b` | 2018 | Transit | 12.409 | 2.79
+- **`K2-250`**
+  - `K2-250 b` | 2018 | Transit | 4.01392 | 2.71257333
+- **`K2-251`**
+  - `K2-251 b` | 2018 | Transit | 9.30075 | 2.35
+- **`K2-252`**
+  - `K2-252 b` | 2018 | Transit | 13.81513 | 1.74
+- **`K2-253`**
+  - `K2-253 b` | 2018 | Transit | 4.00167 | 12.67
+- **`K2-254`**
+  - `K2-254 b` | 2018 | Transit | 4.09639 | 1.63
+  - `K2-254 c` | 2018 | Transit | 12.11839 | 2.19
+- **`K2-255`**
+  - `K2-255 b` | 2018 | Transit | 1.96417 | 2.9
+- **`K2-257`**
+  - `K2-257 b` | 2018 | Transit | 1.60588 | 0.83
+- **`K2-258`**
+  - `K2-258 b` | 2018 | Transit | 19.0921 | 3
+- **`K2-259`**
+  - `K2-259 b` | 2018 | Transit | 15.48043 | 2.32
+- **`K2-260`**
+  - `K2-260 b` | 2018 | Transit | 2.62669762 | 18.41635529
+- **`K2-261`**
+  - `K2-261 b` | 2018 | Transit | 11.6334681 | 9.26982704
+- **`K2-263`**
+  - `K2-263 b` | 2018 | Transit | 50.819172 | 2.513
+- **`K2-264`**
+  - `K2-264 b` | 2018 | Transit | 5.840002 | 2.231
+  - `K2-264 c` | 2018 | Transit | 19.660302 | 2.668
+- **`K2-265`**
+  - `K2-265 b` | 2018 | Transit | 2.36902 | 1.70824866
+- **`K2-266`**
+  - `K2-266 b` | 2018 | Transit | 0.658524 | 3.3
+  - `K2-266 c` | 2018 | Transit | 7.814 | 0.705
+  - `K2-266 d` | 2018 | Transit | 14.697 | 2.93
+  - `K2-266 e` | 2018 | Transit | 19.482 | 2.73
+- **`K2-268`**
+  - `K2-268 b` | 2018 | Transit | 2.151676 | 1.5
+  - `K2-268 d` | 2021 | Transit | 4.528598 | 1.49
+  - `K2-268 e` | 2021 | Transit | 6.131243 | 1.33
+  - `K2-268 c` | 2018 | Transit | 9.327527 | 2.69
+  - `K2-268 f` | 2021 | Transit | 26.27057 | 2.23
+- **`K2-269`**
+  - `K2-269 b` | 2018 | Transit | 4.144965 | 1.57
+- **`K2-270`**
+  - `K2-270 b` | 2018 | Transit | 1.543069 | 1.38
+  - `K2-270 c` | 2018 | Transit | 4.400028 | 2.95
+- **`K2-271`**
+  - `K2-271 b` | 2018 | Transit | 8.562421 | 7.28
+- **`K2-272`**
+  - `K2-272 b` | 2018 | Transit | 14.4536756 | 3.13
+- **`K2-273`**
+  - `K2-273 b` | 2018 | Transit | 11.7195663 | 3.05
+- **`K2-274`**
+  - `K2-274 b` | 2018 | Transit | 14.1330314 | 2.08
+- **`K2-275`**
+  - `K2-275 b` | 2018 | Transit | 3.2809626 | 2.34
+  - `K2-275 c` | 2018 | Transit | 8.4388385 | 2.21
+- **`K2-276`**
+  - `K2-276 b` | 2018 | Transit | 18.718269 | 3.77
+- **`K2-277`**
+  - `K2-277 b` | 2018 | Transit | 6.326768 | 2.18575124
+- **`K2-278`**
+  - `K2-278 b` | 2018 | Transit | 3.334966 | 2.98
+- **`K2-279`**
+  - `K2-279 b` | 2018 | Transit | 7.122605 | 1.21
+- **`K2-280`**
+  - `K2-280 b` | 2018 | Transit | 19.89526 | 7.5
+- **`K2-281`**
+  - `K2-281 b` | 2018 | Transit | 8.687721 | 8.18
+- **`K2-282`**
+  - `EPIC 220554210 c` | 2019 | Transit | 0.70531 | 1.6
+  - `K2-282 b` | 2018 | Transit | 4.169783 | 2.5
+- **`K2-283`**
+  - `K2-283 b` | 2018 | Transit | 1.921036 | 3.52
+- **`K2-284`**
+  - `K2-284 b` | 2018 | Transit | 4.795069 | 2.78
+- **`K2-285`**
+  - `K2-285 b` | 2018 | Transit | 3.471745 | 2.59
+  - `K2-285 c` | 2018 | Transit | 7.138048 | 3.53
+  - `K2-285 d` | 2018 | Transit | 10.45582 | 2.48
+  - `K2-285 e` | 2018 | Transit | 14.76289 | 1.95
+- **`K2-286`**
+  - `K2-286 b` | 2018 | Transit | 27.359 | 2.1
+- **`K2-287`**
+  - `K2-287 b` | 2018 | Transit | 14.893291 | 9.494023
+- **`K2-288`**
+  - ดาวแม่ `K2-288 B`
+    - `K2-288 B b` | 2018 | Transit | 31.393463 | 1.9
+- **`K2-289`**
+  - `K2-289 b` | 2019 | Transit | 13.156969 | 9.1
+- **`K2-290`**
+  - `K2-290 b` | 2019 | Transit | 9.21165 | 3.06
+  - `K2-290 c` | 2019 | Transit | 48.36685 | 11.276254
+- **`K2-291`**
+  - `K2-291 b` | 2019 | Transit | 2.225177 | 1.589
+- **`K2-292`**
+  - `K2-292 b` | 2019 | Transit | 16.9841 | 2.63
+- **`K2-293`**
+  - `K2-293 b` | 2019 | Transit | 13.1225 | 2.45
+- **`K2-294`**
+  - `K2-294 b` | 2019 | Transit | 2.50387 | 1.66
+- **`K2-295`**
+  - `K2-295 b` | 2018 | Transit | 4.024867 | 10.054473
+- **`K2-308`**
+  - `K2-308 b` | 2019 | Transit | 3.38628 | 9.916
+- **`K2-315`**
+  - `K2-315 b` | 2020 | Transit | 3.1443189 | 0.95
+- **`K2-316`**
+  - `K2-316 b` | 2020 | Transit | 1.133 | 1.33
+  - `K2-316 c` | 2020 | Transit | 5.26 | 1.83
+- **`K2-317`**
+  - `K2-317 b` | 2020 | Transit | 6.22 | 2.93
+- **`K2-318`**
+  - `K2-318 b` | 2020 | Transit | 7.01 | 1.66
+- **`K2-319`**
+  - `K2-319 b` | 2020 | Transit | 26.68 | 2.79
+- **`K2-320`**
+  - `K2-320 b` | 2020 | Transit | 1.995 | 2.62
+- **`K2-321`**
+  - `K2-321 b` | 2020 | Transit | 2.2979749 | 2.05124347
+- **`K2-322`**
+  - `K2-322 b` | 2020 | Transit | 8.205 | 1.92
+- **`K2-323`**
+  - `K2-323 b` | 2020 | Transit | 24.93 | 2.1
+- **`K2-324`**
+  - `K2-324 b` | 2020 | Transit | 3.262 | 2.43
+- **`K2-325`**
+  - `K2-325 b` | 2020 | Transit | 6.93 | 2.2
+- **`K2-326`**
+  - `K2-326 b` | 2020 | Transit | 1.256 | 2.28
+- **`K2-329`**
+  - `K2-329 b` | 2020 | Transit | 12.4551225 | 8.675766
+- **`K2-330`**
+  - `K2-330 b` | 2021 | Transit | 13.774798 | 2.77
+- **`K2-331`**
+  - `K2-331 b` | 2021 | Transit | 9.398977 | 1.79
+  - `K2-331 c` | 2021 | Transit | 22.996591 | 2.72
+- **`K2-332`**
+  - `K2-332 b` | 2021 | Transit | 17.70632 | 2.2
+- **`K2-333`**
+  - `K2-333 b` | 2021 | Transit | 14.759287 | 6.18
+- **`K2-334`**
+  - `K2-334 b` | 2021 | Transit | 5.113981 | 5.65
+- **`K2-335`**
+  - `K2-335 b` | 2021 | Transit | 12.283211 | 2.21
+- **`K2-336`**
+  - `K2-336 b` | 2021 | Transit | 21.194733 | 1.22
+- **`K2-337`**
+  - `K2-337 b` | 2021 | Transit | 16.273563 | 2.62
+- **`K2-338`**
+  - `K2-338 b` | 2021 | Transit | 3.850614 | 1.03
+- **`K2-339`**
+  - `K2-339 b` | 2021 | Transit | 19.507428 | 1.92
+- **`K2-340`**
+  - `K2-340 b` | 2021 | Transit | 29.740451 | 3.36
+- **`K2-341`**
+  - `K2-341 b` | 2021 | Transit | 36.552551 | 3.21
+- **`K2-342`**
+  - `K2-342 b` | 2021 | Transit | 11.561052 | 2.03
+- **`K2-343`**
+  - `K2-343 b` | 2021 | Transit | 2.787174 | 1.65
+  - `K2-343 c` | 2021 | Transit | 7.676972 | 2.02
+- **`K2-344`**
+  - `K2-344 b` | 2021 | Transit | 3.35585 | 1.59
+- **`K2-345`**
+  - `K2-345 b` | 2021 | Transit | 10.367437 | 2.11
+- **`K2-346`**
+  - `K2-346 b` | 2021 | Transit | 26.201446 | 2.26
+- **`K2-347`**
+  - `K2-347 b` | 2021 | Transit | 7.187257 | 2.41
+- **`K2-348`**
+  - `K2-348 b` | 2021 | Transit | 4.688418 | 3.26
+  - `K2-348 c` | 2021 | Transit | 12.550171 | 2.67
+- **`K2-349`**
+  - `K2-349 b` | 2021 | Transit | 9.032178 | 1.38
+- **`K2-350`**
+  - `K2-350 b` | 2021 | Transit | 4.163873 | 1.54
+  - `K2-350 c` | 2016 | Transit | 19.991944 | 2.74
+- **`K2-351`**
+  - `K2-351 b` | 2021 | Transit | 7.806164 | 2.54
+- **`K2-352`**
+  - `K2-352 b` | 2021 | Transit | 3.665912 | 1.37
+  - `K2-352 c` | 2021 | Transit | 8.234885 | 1.92
+  - `K2-352 d` | 2021 | Transit | 14.871387 | 2.23
+- **`K2-353`**
+  - `K2-353 b` | 2021 | Transit | 15.466805 | 5.55
+- **`K2-354`**
+  - `K2-354 b` | 2021 | Transit | 3.793306 | 1.56
+- **`K2-355`**
+  - `K2-355 b` | 2021 | Transit | 5.7385647 | 2.25
+- **`K2-356`**
+  - `K2-356 b` | 2021 | Transit | 21.0267366 | 2.29
+- **`K2-357`**
+  - `K2-357 b` | 2021 | Transit | 16.3488637 | 3.72
+- **`K2-358`**
+  - `K2-358 b` | 2021 | Transit | 11.2510285 | 2.68
+- **`K2-365`**
+  - `K2-365 b` | 2022 | Transit | 23.448172 | 2.906
+- **`K2-366`**
+  - `K2-366 b` | 2022 | Transit | 15.937039 | 2.359
+- **`K2-367`**
+  - `K2-367 b` | 2022 | Transit | 20.645099 | 2.413
+- **`K2-368`**
+  - `K2-368 b` | 2022 | Transit | 5.025598 | 1.332
+  - `K2-368 c` | 2022 | Transit | 9.660186 | 1.361
+  - `K2-368 d` | 2022 | Transit | 20.201085 | 1.948
+- **`K2-369`**
+  - `K2-369 b` | 2022 | Transit | 5.761612 | 1.313
+- **`K2-370`**
+  - `K2-370 b` | 2022 | Transit | 2.1408093 | 2.67
+- **`K2-371`**
+  - `K2-371 b` | 2022 | Transit | 3.114905 | 13.024
+- **`K2-372`**
+  - `K2-372 b` | 2022 | Transit | 9.844077 | 2.945
+- **`K2-373`**
+  - `K2-373 b` | 2022 | Transit | 11.02066 | 2.061
+- **`K2-374`**
+  - `K2-374 b` | 2022 | Transit | 4.521953 | 1.593
+  - `K2-374 c` | 2022 | Transit | 16.43445 | 2.213
+- **`K2-375`**
+  - `K2-375 b` | 2022 | Transit | 14.453895 | 2.243
+- **`K2-376`**
+  - `K2-376 b` | 2022 | Transit | 5.776475 | 1.736
+- **`K2-377`**
+  - `K2-377 b` | 2022 | Transit | 12.832235 | 1.693
+- **`K2-378`**
+  - `K2-378 b` | 2022 | Transit | 2.060438 | 2.88
+- **`K2-379`**
+  - `K2-379 b` | 2022 | Transit | 8.777247 | 2.181
+- **`K2-380`**
+  - `K2-380 b` | 2022 | Transit | 9.401312 | 2.729
+- **`K2-381`**
+  - `K2-381 b` | 2022 | Transit | 7.9389334 | 1.075
+  - `K2-381 c` | 2022 | Transit | 16.034656 | 2
+  - `K2-381 d` | 2022 | Transit | 26.803023 | 1.689
+- **`K2-382`**
+  - `K2-382 b` | 2022 | Transit | 21.700156 | 2.072
+- **`K2-383`**
+  - `K2-383 b` | 2022 | Transit | 1.865962 | 1.564
+- **`K2-384`**
+  - `K2-384 b` | 2022 | Transit | 2.231527 | 1.076
+  - `K2-384 c` | 2022 | Transit | 4.194766 | 1.191
+  - `K2-384 d` | 2022 | Transit | 6.679582 | 1.392
+  - `K2-384 e` | 2022 | Transit | 9.715043 | 1.345
+  - `K2-384 f` | 2022 | Transit | 13.62749 | 2.222
+- **`K2-385`**
+  - `K2-385 b` | 2022 | Transit | 2.380867 | 1.539
+- **`K2-386`**
+  - `K2-386 b` | 2022 | Transit | 7.473223 | 2.32
+- **`K2-387`**
+  - `K2-387 b` | 2022 | Transit | 28.735327 | 7.322
+- **`K2-388`**
+  - `K2-388 b` | 2022 | Transit | 6.33932 | 3.9
+- **`K2-389`**
+  - `K2-389 b` | 2022 | Transit | 8.58289 | 2.33
+  - `K2-389 c` | 2022 | Transit | 20.851337 | 2.04
+- **`K2-390`**
+  - `K2-390 b` | 2022 | Transit | 3.312792 | 4.662
+- **`K2-391`**
+  - `K2-391 b` | 2022 | Transit | 4.622654 | 1.371
+- **`K2-392`**
+  - `K2-392 b` | 2022 | Transit | 15.398723 | 1.85
+- **`K2-393`**
+  - `K2-393 b` | 2022 | Transit | 10.413181 | 2.352
+- **`K2-394`**
+  - `K2-394 b` | 2022 | Transit | 5.095717 | 1.692
+- **`K2-395`**
+  - `K2-395 b` | 2022 | Transit | 4.803352 | 2.597
+  - `K2-395 c` | 2022 | Transit | 8.491282 | 3.395
+- **`K2-396`**
+  - `K2-396 b` | 2022 | Transit | 0.673862 | 1.579
+  - `K2-396 c` | 2022 | Transit | 25.76051 | 3.124
+- **`K2-397`**
+  - `K2-397 b` | 2022 | Transit | 3.572326 | 2.417
+- **`K2-398`**
+  - `K2-398 b` | 2022 | Transit | 6.393025 | 2.274
+  - `K2-398 c` | 2022 | Transit | 18.787839 | 5.098
+- **`K2-400`**
+  - `K2-400 b` | 2022 | Transit | 3.865053 | 1.163
+- **`K2-401`**
+  - `K2-401 b` | 2022 | Transit | 6.293099 | 2.262
+- **`K2-402`**
+  - `K2-402 b` | 2022 | Transit | 17.27474 | 2.678
+- **`K2-403`**
+  - `K2-403 b` | 2022 | Transit | 33.589979 | 5.333
+- **`K2-404`**
+  - `K2-404 b` | 2022 | Transit | 13.115365 | 2.53
+- **`K2-405`**
+  - `K2-405 b` | 2022 | Transit | 3.435471 | 4.569
+- **`K2-406`**
+  - `K2-406 b` | 2022 | Transit | 22.549406 | 4.602
+- **`K2-407`**
+  - `K2-407 b` | 2022 | Transit | 4.941907 | 1.283
+  - `K2-407 c` | 2022 | Transit | 9.22453 | 1.36
+- **`K2-408`**
+  - `K2-408 b` | 2022 | Transit | 20.978959 | 1.677
+- **`K2-409`**
+  - `K2-409 b` | 2022 | Transit | 1.908084 | 2.482
+- **`K2-411`**
+  - `K2-411 b` | 2022 | Transit | 3.2141 | 0.9898
+- **`K2-412`**
+  - `K2-412 b` | 2022 | Transit | 5.9382 | 2.116
+- **`K2-413`**
+  - `K2-413 b` | 2022 | Transit | 0.8094 | 0.7599
+  - `K2-413 c` | 2022 | Transit | 5.3301 | 1.2327
+- **`K2-414`**
+  - `K2-414 b` | 2022 | Transit | 4.3696 | 1.219
+  - `K2-414 c` | 2022 | Transit | 6.669 | 1.9287
+- **`K2-415`**
+  - `K2-415 b` | 2023 | Transit | 4.0179694 | 1.015
+- **`K2-416`**
+  - `K2-416 b` | 2023 | Transit | 13.102 | 2.66
+
+</details>
+
+<a name="systems-09"></a>
+
+<details><summary>K2-417 – Kepler-166 · 180 ระบบ · 413 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`K2-417`**
+  - `K2-417 b` | 2023 | Transit | 6.535 | 3.31
+- **`K2-419`**
+  - ดาวแม่ `K2-419 A`
+    - `K2-419 A b` | 2024 | Transit | 20.35847252 | 10.55
+- **`K2-2016-BLG-0005L`**
+  - `K2-2016-BLG-0005L b` | 2023 | Microlensing | 4700 | 13.7
+- **`kap And`**
+  - `kap And b` | 2012 | Imaging | — | 15.91675259
+- **`kap CrB`**
+  - `kap CrB b` | 2007 | Radial Velocity | 1253.68 | 13.4
+- **`Kapteyn`**
+  - `Kapteyn c` † | 2014 | Radial Velocity | 121.54 | 2.54
+- **`KELT-1`**
+  - `KELT-1 b` | 2012 | Transit | 1.217514 | 12.442
+- **`KELT-2`**
+  - ดาวแม่ `KELT-2 A`
+    - `KELT-2 A b` | 2012 | Transit | 4.11379 | 15.13215
+- **`KELT-3`**
+  - `KELT-3 b` | 2013 | Transit | 2.70339 | 17.48604
+- **`KELT-4`**
+  - ดาวแม่ `KELT-4 A`
+    - `KELT-4 A b` | 2016 | Transit | 2.9895932 | 19.044091
+- **`KELT-6`**
+  - `KELT-6 b` | 2014 | Transit | 7.8457 | 14.5717
+  - `KELT-6 c` | 2015 | Radial Velocity | 1276 | 13
+- **`KELT-7`**
+  - `KELT-7 b` | 2015 | Transit | 2.73477 | 17.9344
+- **`KELT-8`**
+  - `KELT-8 b` | 2015 | Transit | 3.24406 | 18.15858
+- **`KELT-9`**
+  - `KELT-9 b` | 2017 | Transit | 1.4811235 | 21.70058664
+- **`KELT-10`**
+  - `KELT-10 b` | 2016 | Transit | 4.1662739 | 15.681391
+- **`KELT-11`**
+  - `KELT-11 b` | 2017 | Transit | 4.73620865 | 15.13212395
+- **`KELT-12`**
+  - `KELT-12 b` | 2017 | Transit | 5.031623 | 19.95202
+- **`KELT-14`**
+  - `KELT-14 b` | 2016 | Transit | 1.7100566 | 19.537287
+- **`KELT-15`**
+  - `KELT-15 b` | 2016 | Transit | 3.32944 | 19.50366
+- **`KELT-16`**
+  - `KELT-16 b` | 2017 | Transit | 0.9689951 | 15.860735
+- **`KELT-17`**
+  - `KELT-17 b` | 2016 | Transit | 3.0801716 | 17.093725
+- **`KELT-18`**
+  - `KELT-18 b` | 2017 | Transit | 2.8717518 | 17.59813
+- **`KELT-19`**
+  - ดาวแม่ `KELT-19 A`
+    - `KELT-19 A b` | 2017 | Transit | 4.6117093 | 21.40919
+- **`KELT-20`**
+  - `KELT-20 b` | 2017 | Transit | 3.4741085 | 19.514869
+- **`KELT-21`**
+  - `KELT-21 b` | 2018 | Transit | 3.6127647 | 17.777474
+- **`KELT-23`**
+  - ดาวแม่ `KELT-23 A`
+    - `KELT-23 A b` | 2019 | Transit | 2.255251 | 14.829507
+- **`KELT-24`**
+  - `KELT-24 b` | 2019 | Transit | 5.55149296 | 12.71098411
+- **`Kepler-4`**
+  - `Kepler-4 b` | 2009 | Transit | 3.21346 | 4.002
+- **`Kepler-5`**
+  - `Kepler-5 b` | 2009 | Transit | 3.5484657 | 15.984034
+- **`Kepler-6`**
+  - `Kepler-6 b` | 2009 | Transit | 3.2346996 | 14.616536
+- **`Kepler-7`**
+  - `Kepler-7 b` | 2009 | Transit | 4.8854892 | 18.180998
+- **`Kepler-8`**
+  - `Kepler-8 b` | 2010 | Transit | 3.5224991 | 15.871944
+- **`Kepler-9`**
+  - `Kepler-9 d` | 2010 | Transit | 1.592851 | 1.64
+  - `Kepler-9 b` | 2010 | Transit | 19.23891 | 8.29
+  - `Kepler-9 c` | 2010 | Transit | 38.9853 | 8.08
+- **`Kepler-10`**
+  - `Kepler-10 b` | 2011 | Transit | 0.8374907 | 1.47
+  - `Kepler-10 c` | 2011 | Transit | 45.294301 | 2.355
+  - `Kepler-10 d` | 2023 | Radial Velocity | 151.06 | 3.49
+- **`Kepler-11`**
+  - `Kepler-11 b` | 2010 | Transit | 10.3039 | 1.8
+  - `Kepler-11 c` | 2010 | Transit | 13.0241 | 2.87
+  - `Kepler-11 d` | 2010 | Transit | 22.6845 | 3.12
+  - `Kepler-11 e` | 2010 | Transit | 31.9996 | 4.19
+  - `Kepler-11 f` | 2010 | Transit | 46.6888 | 2.49
+  - `Kepler-11 g` | 2010 | Transit | 118.3807 | 3.33
+- **`Kepler-12`**
+  - `Kepler-12 b` | 2011 | Transit | 4.4379629 | 19.660586
+- **`Kepler-14`**
+  - `Kepler-14 b` | 2011 | Transit | 6.790123 | 12.733
+- **`Kepler-15`**
+  - `Kepler-15 b` | 2011 | Transit | 4.942782 | 10.76
+- **`Kepler-16`**
+  - `Kepler-16 b` CB | 2011 | Transit | 228.776 | 8.4493
+- **`Kepler-17`**
+  - `Kepler-17 b` | 2011 | Transit | 1.4857108 | 14.68
+- **`Kepler-18`**
+  - `Kepler-18 b` | 2011 | Transit | 3.504725 | 2
+  - `Kepler-18 c` | 2011 | Transit | 7.64159 | 5.49
+  - `Kepler-18 d` | 2011 | Transit | 14.85888 | 6.98
+- **`Kepler-19`**
+  - `Kepler-19 b` | 2011 | Transit | 9.28699 | 2.209
+  - `Kepler-19 c` | 2011 | Transit Timing Variations | 28.731 | 3.68
+  - `Kepler-19 d` | 2017 | Radial Velocity | 62.95 | 5.06
+- **`Kepler-20`**
+  - `Kepler-20 b` | 2011 | Transit | 3.6961049 | 1.773
+  - `Kepler-20 e` | 2011 | Transit | 6.0984882 | 0.821
+  - `Kepler-20 c` | 2011 | Transit | 10.8540774 | 2.894
+  - `Kepler-20 f` | 2011 | Transit | 19.578328 | 0.952
+  - `Kepler-20 g` | 2016 | Radial Velocity | 34.94 | 4.71
+  - `Kepler-20 d` | 2011 | Transit | 77.611455 | 2.606
+- **`Kepler-21`**
+  - `Kepler-21 b` | 2012 | Transit | 2.7858212 | 1.639
+- **`Kepler-22`**
+  - `Kepler-22 b` | 2011 | Transit | 289.863876 | 2.1
+- **`Kepler-23`**
+  - `Kepler-23 b` | 2011 | Transit | 7.1 | 1.638
+  - `Kepler-23 c` | 2011 | Transit | 10.74 | 3.005
+  - `Kepler-23 d` | 2014 | Transit | 15.27 | 2.206
+- **`Kepler-24`**
+  - `Kepler-24 d` | 2014 | Transit | 4.244384 | 1.67
+  - `Kepler-24 b` | 2011 | Transit | 8.14 | 2.348
+  - `Kepler-24 c` | 2011 | Transit | 12.33 | 2.514
+  - `Kepler-24 e` | 2014 | Transit | 18.998355 | 2.78
+- **`Kepler-25`**
+  - `Kepler-25 b` | 2011 | Transit | 6.238297 | 2.748
+  - `Kepler-25 c` | 2011 | Transit | 12.7207 | 5.217
+  - `Kepler-25 d` | 2014 | Radial Velocity | 122.4 | 10
+- **`Kepler-26`**
+  - `Kepler-26 d` | 2014 | Transit | 3.543919 | 1.07
+  - `Kepler-26 b` | 2011 | Transit | 12.28 | 2.78
+  - `Kepler-26 c` | 2011 | Transit | 17.2559 | 2.72
+  - `Kepler-26 e` | 2014 | Transit | 46.827915 | 2.41
+- **`Kepler-27`**
+  - `Kepler-27 d` | 2021 | Transit | 6.546289921 | 2.7061946
+  - `Kepler-27 b` | 2011 | Transit | 15.3348 | 4
+  - `Kepler-27 c` | 2011 | Transit | 31.3309 | 4.9
+- **`Kepler-28`**
+  - `Kepler-28 b` | 2011 | Transit | 5.91 | 1.959
+  - `Kepler-28 c` | 2011 | Transit | 8.99 | 1.857
+- **`Kepler-29`**
+  - `Kepler-29 b` | 2011 | Transit | 10.33974 | 2.55
+  - `Kepler-29 c` | 2011 | Transit | 13.28613 | 2.34
+- **`Kepler-30`**
+  - `Kepler-30 b` | 2012 | Transit | 29.33434 | 3.9
+  - `Kepler-30 c` | 2012 | Transit | 60.323105 | 12.3
+  - `Kepler-30 d` | 2012 | Transit | 143.34394 | 8.8
+- **`Kepler-31`**
+  - `Kepler-31 b` | 2011 | Transit | 20.8613 | 5.5
+  - `Kepler-31 c` | 2011 | Transit | 42.6318 | 5.3
+  - `Kepler-31 d` | 2014 | Transit | 87.6451 | 3.9
+- **`Kepler-32`**
+  - `Kepler-32 f` | 2012 | Transit | 0.74296 | 0.82
+  - `Kepler-32 e` | 2012 | Transit | 2.896 | 1.5
+  - `Kepler-32 b` | 2011 | Transit | 5.90124 | 2.2
+  - `Kepler-32 c` | 2011 | Transit | 8.7522 | 2
+  - `Kepler-32 d` | 2012 | Transit | 22.7802 | 2.7
+- **`Kepler-33`**
+  - `Kepler-33 b` | 2011 | Transit | 5.66793 | 1.74
+  - `Kepler-33 c` | 2011 | Transit | 13.17562 | 3.2
+  - `Kepler-33 d` | 2011 | Transit | 21.77596 | 5.35
+  - `Kepler-33 e` | 2011 | Transit | 31.7844 | 4.02
+  - `Kepler-33 f` | 2011 | Transit | 41.02902 | 4.46
+- **`Kepler-34`**
+  - `Kepler-34 b` CB | 2011 | Transit | 288.822 | 8.564
+- **`Kepler-35`**
+  - `Kepler-35 b` CB | 2011 | Transit | 131.458 | 8.16
+- **`Kepler-36`**
+  - `Kepler-36 b` | 2012 | Transit | 13.86825 | 1.498
+  - `Kepler-36 c` | 2012 | Transit | 16.21865 | 3.679
+- **`Kepler-37`**
+  - `Kepler-37 b` | 2013 | Transit | 13.36702 | 0.3098
+  - `Kepler-37 c` | 2013 | Transit | 21.301848 | 0.755
+  - `Kepler-37 d` | 2013 | Transit | 39.7922622 | 2.03
+  - `Kepler-37 e` | 2014 | Transit | 51.196 | 0.37
+- **`Kepler-38`**
+  - `Kepler-38 b` CB | 2012 | Transit | 105.599 | 4.3
+- **`Kepler-39`**
+  - `Kepler-39 b` | 2011 | Transit | 21.08721 | 13.9
+- **`Kepler-40`**
+  - `Kepler-40 b` | 2010 | Transit | 6.87349 | 13.11
+- **`Kepler-41`**
+  - `Kepler-41 b` | 2011 | Transit | 1.8555582 | 14.46
+- **`Kepler-42`**
+  - `Kepler-42 c` | 2011 | Transit | 0.45328509 | 0.73
+  - `Kepler-42 b` | 2011 | Transit | 1.2137672 | 0.78
+  - `Kepler-42 d` | 2011 | Transit | 1.865169 | 0.57
+- **`Kepler-43`**
+  - `Kepler-43 b` | 2011 | Transit | 3.0240949 | 13.663771
+- **`Kepler-44`**
+  - `Kepler-44 b` | 2011 | Transit | 3.2467293 | 12.22
+- **`Kepler-45`**
+  - `Kepler-45 b` | 2011 | Transit | 2.455239 | 10.76
+- **`Kepler-46`**
+  - `Kepler-46 d` | 2014 | Transit | 6.766589 | 1.64
+  - `Kepler-46 b` | 2012 | Transit | 33.60134 | 9.057
+  - `Kepler-46 c` | 2012 | Transit Timing Variations | 57.011 | 13.5
+- **`Kepler-47`**
+  - `Kepler-47 b` CB | 2012 | Transit | 49.4643 | 3.05
+  - `Kepler-47 d` CB | 2019 | Transit | 187.366 | 7.04
+  - `Kepler-47 c` CB | 2012 | Transit | 303.227 | 4.65
+- **`Kepler-48`**
+  - `Kepler-48 b` | 2012 | Transit | 4.778 | 1.88
+  - `Kepler-48 c` | 2012 | Transit | 9.67395 | 2.71
+  - `Kepler-48 d` | 2014 | Transit | 42.8961 | 2.04
+  - `Kepler-48 e` | 2014 | Radial Velocity | 982 | 13.4
+  - `Kepler-48 f` | 2023 | Radial Velocity | 5219.681854 | 13.8
+- **`Kepler-49`**
+  - `Kepler-49 d` | 2014 | Transit | 2.576549 | 1.6
+  - `Kepler-49 b` | 2012 | Transit | 7.2 | 2.579
+  - `Kepler-49 c` | 2012 | Transit | 10.91 | 2.444
+  - `Kepler-49 e` | 2014 | Transit | 18.596108 | 1.56
+- **`Kepler-50`**
+  - `Kepler-50 b` † | 2012 | Transit | 7.81254 | 1.71
+  - `Kepler-50 c` † | 2012 | Transit | 9.37647 | 2.17
+- **`Kepler-51`**
+  - `Kepler-51 b` | 2012 | Transit | 45.154 | 7.1
+  - `Kepler-51 c` | 2012 | Transit | 85.312 | 9
+  - `Kepler-51 d` | 2014 | Transit | 130.194 | 9.7
+  - `Kepler-51 e` | 2024 | Transit Timing Variations | 264.284 | 2.18
+- **`Kepler-52`**
+  - `Kepler-52 b` | 2012 | Transit | 7.8773565 | 2.1
+  - `Kepler-52 c` | 2012 | Transit | 16.3850021 | 1.84
+  - `Kepler-52 d` | 2014 | Transit | 36.445171 | 1.95
+- **`Kepler-53`**
+  - `Kepler-53 d` | 2014 | Transit | 9.751962 | 2.12
+  - `Kepler-53 b` | 2012 | Transit | 18.6489525 | 2.89
+  - `Kepler-53 c` | 2012 | Transit | 38.5583038 | 3.17
+- **`Kepler-54`**
+  - `Kepler-54 b` | 2012 | Transit | 8.0109434 | 2.1
+  - `Kepler-54 c` | 2012 | Transit | 12.0717249 | 1.23
+  - `Kepler-54 d` | 2014 | Transit | 20.995694 | 1.53
+- **`Kepler-55`**
+  - `Kepler-55 d` | 2014 | Transit | 2.211099 | 1.59
+  - `Kepler-55 e` | 2014 | Transit | 4.617534 | 1.55
+  - `Kepler-55 f` | 2014 | Transit | 10.198545 | 1.59
+  - `Kepler-55 b` | 2012 | Transit | 27.9481449 | 2.43
+  - `Kepler-55 c` | 2012 | Transit | 42.1516418 | 2.21
+- **`Kepler-56`**
+  - `Kepler-56 b` | 2012 | Transit | 10.5016 | 6.51
+  - `Kepler-56 c` | 2012 | Transit | 21.40239 | 9.8
+  - `Kepler-56 d` | 2016 | Radial Velocity | 1002 | 12.8
+- **`Kepler-57`**
+  - `Kepler-57 b` | 2012 | Transit | 5.72 | 3.135
+  - `Kepler-57 c` | 2012 | Transit | 11.6 | 2.196
+- **`Kepler-58`**
+  - `Kepler-58 e` | 2023 | Transit | 4.45814897 | 1.61
+  - `Kepler-58 b` | 2012 | Transit | 10.2184954 | 2.78
+  - `Kepler-58 c` | 2012 | Transit | 15.5741568 | 2.86
+  - `Kepler-58 d` | 2014 | Transit | 40.101371 | 2.94
+- **`Kepler-59`**
+  - `Kepler-59 b` | 2012 | Transit | 11.8681707 | 1.1
+  - `Kepler-59 c` | 2012 | Transit | 17.9801235 | 1.98
+- **`Kepler-60`**
+  - `Kepler-60 b` | 2012 | Transit | 7.1334 | 1.71
+  - `Kepler-60 c` | 2012 | Transit | 8.9187 | 1.9
+  - `Kepler-60 d` | 2012 | Transit | 11.8981 | 1.99
+- **`Kepler-61`**
+  - `Kepler-61 b` | 2013 | Transit | 59.87756 | 2.15
+- **`Kepler-62`**
+  - `Kepler-62 b` | 2013 | Transit | 5.714932 | 1.31
+  - `Kepler-62 c` | 2013 | Transit | 12.4417 | 0.54
+  - `Kepler-62 d` | 2013 | Transit | 18.16406 | 1.95
+  - `Kepler-62 e` | 2013 | Transit | 122.3874 | 1.61
+  - `Kepler-62 f` | 2013 | Transit | 267.291 | 1.41
+- **`Kepler-63`**
+  - `Kepler-63 b` | 2013 | Transit | 9.4341505 | 6.11
+- **`Kepler-65`**
+  - `Kepler-65 b` | 2012 | Transit | 2.15491 | 1.42
+  - `Kepler-65 c` | 2012 | Transit | 5.859944 | 2.58
+  - `Kepler-65 d` | 2012 | Transit | 8.13123 | 1.52
+  - `Kepler-65 e` | 2019 | Radial Velocity | 258.8 | 13.9
+- **`Kepler-66`**
+  - `Kepler-66 b` | 2013 | Transit | 17.815815 | 2.8
+- **`Kepler-67`**
+  - `Kepler-67 b` | 2013 | Transit | 15.7259 | 2.94
+- **`Kepler-68`**
+  - `Kepler-68 b` | 2013 | Transit | 5.39875259 | 2.357
+  - `Kepler-68 c` | 2013 | Transit | 9.605027 | 0.979
+  - `Kepler-68 d` | 2013 | Radial Velocity | 632.62 | 13.9
+  - `Kepler-68 e` | 2023 | Radial Velocity | 3455 | 11.2
+- **`Kepler-69`**
+  - `Kepler-69 b` | 2013 | Transit | 13.722341 | 2.24
+  - `Kepler-69 c` | 2013 | Transit | 242.4613 | 1.71
+- **`Kepler-74`**
+  - `Kepler-74 b` | 2013 | Transit | 7.340711 | 10.76
+- **`Kepler-75`**
+  - `Kepler-75 b` | 2013 | Transit | 8.8849116 | 11.77
+- **`Kepler-76`**
+  - `Kepler-76 b` | 2013 | Orbital Brightness Modulation | 1.5449298 | 15.24424
+- **`Kepler-77`**
+  - `Kepler-77 b` | 2013 | Transit | 3.57878087 | 10.761
+- **`Kepler-78`**
+  - `Kepler-78 b` | 2013 | Transit | 0.35500745 | 1.201
+- **`Kepler-79`**
+  - `Kepler-79 b` | 2012 | Transit | 13.48451 | 3.51
+  - `Kepler-79 c` | 2012 | Transit | 27.4026 | 3.76
+  - `Kepler-79 d` | 2014 | Transit | 52.0897 | 7.15
+  - `Kepler-79 e` | 2014 | Transit | 81.0665 | 3.53
+- **`Kepler-80`**
+  - `Kepler-80 f` | 2016 | Transit | 0.9867873 | 1.21
+  - `Kepler-80 d` | 2014 | Transit | 3.07222 | 1.53
+  - `Kepler-80 e` | 2014 | Transit | 4.64489 | 1.6
+  - `Kepler-80 b` | 2012 | Transit | 7.05246 | 2.67
+  - `Kepler-80 c` | 2012 | Transit | 9.52355 | 2.74
+  - `Kepler-80 g` | 2017 | Transit | 14.64558 | 1.13
+- **`Kepler-81`**
+  - `Kepler-81 b` | 2012 | Transit | 5.955 | 2.42
+  - `Kepler-81 c` | 2012 | Transit | 12.04 | 2.37
+  - `Kepler-81 d` | 2014 | Transit | 20.837846 | 1.21
+- **`Kepler-82`**
+  - `Kepler-82 d` | 2014 | Transit | 2.382961 | 1.77
+  - `Kepler-82 e` | 2014 | Transit | 5.902206 | 2.47
+  - `Kepler-82 b` | 2012 | Transit | 26.44 | 4.07
+  - `Kepler-82 c` | 2012 | Transit | 51.54 | 5.34
+  - `Kepler-82 f` | 2019 | Transit Timing Variations | 75.732 | 4.84
+- **`Kepler-83`**
+  - `Kepler-83 d` | 2014 | Transit | 5.169796 | 1.94
+  - `Kepler-83 b` | 2012 | Transit | 9.77 | 2.83
+  - `Kepler-83 c` | 2012 | Transit | 20.09 | 2.36
+- **`Kepler-84`**
+  - `Kepler-84 d` | 2014 | Transit | 4.224537 | 1.38
+  - `Kepler-84 b` | 2012 | Transit | 8.726 | 2.23
+  - `Kepler-84 c` | 2012 | Transit | 12.883 | 2.36
+  - `Kepler-84 e` | 2014 | Transit | 27.434389 | 2.6
+  - `Kepler-84 f` | 2014 | Transit | 44.552169 | 2.2
+- **`Kepler-85`**
+  - `Kepler-85 b` | 2012 | Transit | 8.3 | 1.778
+  - `Kepler-85 c` | 2012 | Transit | 12.51 | 1.978
+  - `Kepler-85 d` | 2014 | Transit | 17.91323 | 1.2
+  - `Kepler-85 e` | 2014 | Transit | 25.216751 | 1.27
+- **`Kepler-87`**
+  - `Kepler-87 b` | 2013 | Transit | 114.73635 | 13.49
+  - `Kepler-87 c` | 2013 | Transit | 191.2318 | 6.14
+- **`Kepler-91`**
+  - `Kepler-91 b` | 2013 | Transit | 6.24658 | 15.322703
+- **`Kepler-92`**
+  - `Kepler-92 b` | 2013 | Transit | 13.749 | 3.51
+  - `Kepler-92 c` | 2013 | Transit | 26.723 | 2.6
+  - `Kepler-92 d` | 2015 | Transit | 49.3568 | 2.067
+- **`Kepler-93`**
+  - `Kepler-93 b` | 2014 | Transit | 4.72673978 | 1.478
+  - `Kepler-93 c` | 2014 | Radial Velocity | >1460 | —
+- **`Kepler-94`**
+  - `Kepler-94 b` | 2014 | Transit | 2.50806 | 3.51
+  - `Kepler-94 c` | 2014 | Radial Velocity | 820.3 | 12.5
+- **`Kepler-95`**
+  - `Kepler-95 b` | 2014 | Transit | 11.5231 | 3.42
+- **`Kepler-96`**
+  - `Kepler-96 b` | 2014 | Transit | 16.2385 | 2.67
+- **`Kepler-97`**
+  - `Kepler-97 b` | 2014 | Transit | 2.58664 | 1.48
+  - `Kepler-97 c` | 2014 | Radial Velocity | >789 | —
+- **`Kepler-98`**
+  - `Kepler-98 b` | 2014 | Transit | 1.54168 | 1.99
+- **`Kepler-99`**
+  - `Kepler-99 b` | 2014 | Transit | 4.60358 | 1.48
+- **`Kepler-100`**
+  - `Kepler-100 b` | 2014 | Transit | 6.88734 | 1.34
+  - `Kepler-100 c` | 2014 | Transit | 12.8159 | 2.2
+  - `Kepler-100 d` | 2014 | Transit | 35.3331 | 1.61
+  - `Kepler-100 e` | 2023 | Radial Velocity | 60.888588 | 5.27
+- **`Kepler-101`**
+  - `Kepler-101 b` | 2014 | Transit | 3.4876812 | 5.77
+  - `Kepler-101 c` | 2014 | Transit | 6.02976 | 1.25
+- **`Kepler-102`**
+  - `Kepler-102 b` | 2014 | Transit | 5.286965 | 0.46
+  - `Kepler-102 c` | 2014 | Transit | 7.071392 | 0.567
+  - `Kepler-102 d` | 2014 | Transit | 10.311767 | 1.154
+  - `Kepler-102 e` | 2013 | Transit | 16.1456994 | 2.17
+  - `Kepler-102 f` | 2014 | Transit | 27.453592 | 0.861
+- **`Kepler-103`**
+  - `Kepler-103 b` | 2014 | Transit | 15.9653287 | 3.4857
+  - `Kepler-103 c` | 2014 | Transit | 179.60978 | 5.4539
+- **`Kepler-104`**
+  - `Kepler-104 b` | 2014 | Transit | 11.427548 | 3.1
+  - `Kepler-104 c` | 2014 | Transit | 23.668205 | 3.13
+  - `Kepler-104 d` | 2014 | Transit | 51.755394 | 3.58
+- **`Kepler-105`**
+  - `Kepler-105 b` | 2013 | Transit | 5.4122034 | 2.53
+  - `Kepler-105 c` | 2014 | Transit | 7.12592 | 1.44
+- **`Kepler-106`**
+  - `Kepler-106 b` | 2014 | Transit | 6.16486 | 0.82
+  - `Kepler-106 c` | 2014 | Transit | 13.5708 | 2.5
+  - `Kepler-106 d` | 2014 | Transit | 23.9802 | 0.95
+  - `Kepler-106 e` | 2014 | Transit | 43.8445 | 2.56
+- **`Kepler-107`**
+  - `Kepler-107 b` | 2014 | Transit | 3.1800218 | 1.536
+  - `Kepler-107 c` | 2014 | Transit | 4.901452 | 1.597
+  - `Kepler-107 d` | 2014 | Transit | 7.95839 | 0.86
+  - `Kepler-107 e` | 2014 | Transit | 14.749143 | 2.903
+- **`Kepler-108`**
+  - `Kepler-108 b` | 2014 | Transit | 49.183921 | 8.65
+  - `Kepler-108 c` | 2014 | Transit | 190.323494 | 8.18
+- **`Kepler-109`**
+  - `Kepler-109 b` | 2014 | Transit | 6.4816307 | 2.49
+  - `Kepler-109 c` | 2014 | Transit | 21.22265 | 2.65
+- **`Kepler-110`**
+  - `Kepler-110 b` | 2014 | Transit | 12.691112 | 1.83
+  - `Kepler-110 c` | 2014 | Transit | 31.719775 | 2.21
+- **`Kepler-111`**
+  - `Kepler-111 b` | 2014 | Transit | 3.341815 | 1.58
+  - `Kepler-111 c` | 2014 | Transit | 224.77833 | 7.0840758
+- **`Kepler-112`**
+  - `Kepler-112 b` | 2014 | Transit | 8.408878 | 2.36
+  - `Kepler-112 c` | 2014 | Transit | 28.574263 | 2.4
+- **`Kepler-113`**
+  - `Kepler-113 b` | 2014 | Transit | 4.754 | 1.82
+  - `Kepler-113 c` | 2014 | Transit | 8.92507 | 2.18
+- **`Kepler-114`**
+  - `Kepler-114 b` | 2014 | Transit | 5.188549 | 1.26
+  - `Kepler-114 c` | 2013 | Transit | 8.041 | 1.6
+  - `Kepler-114 d` | 2013 | Transit | 11.776 | 2.53
+- **`Kepler-115`**
+  - `Kepler-115 b` | 2014 | Transit | 2.403679 | 1.09
+  - `Kepler-115 c` | 2014 | Transit | 8.990889 | 2.6
+- **`Kepler-116`**
+  - `Kepler-116 b` | 2014 | Transit | 5.968734 | 3.42
+  - `Kepler-116 c` | 2014 | Transit | 13.07163 | 2.3
+- **`Kepler-117`**
+  - `Kepler-117 b` | 2014 | Transit | 18.7959228 | 8.059
+  - `Kepler-117 c` | 2014 | Transit | 50.790391 | 12.341
+- **`Kepler-118`**
+  - `Kepler-118 b` | 2014 | Transit | 7.518496 | 1.96
+  - `Kepler-118 c` | 2014 | Transit | 20.17202 | 7.68
+- **`Kepler-119`**
+  - `Kepler-119 b` | 2014 | Transit | 2.422082 | 3.6
+  - `Kepler-119 c` | 2014 | Transit | 4.125103 | 0.92
+- **`Kepler-120`**
+  - `Kepler-120 b` | 2014 | Transit | 6.312501 | 2.15
+  - `Kepler-120 c` | 2014 | Transit | 12.794585 | 1.53
+- **`Kepler-121`**
+  - `Kepler-121 b` | 2014 | Transit | 3.177422 | 2.34
+  - `Kepler-121 c` | 2014 | Transit | 41.008011 | 2.27
+- **`Kepler-122`**
+  - `Kepler-122 b` | 2014 | Transit | 5.766193 | 2.34
+  - `Kepler-122 c` | 2014 | Transit | 12.465988 | 5.87
+  - `Kepler-122 d` | 2014 | Transit | 21.587475 | 2.2
+  - `Kepler-122 e` | 2014 | Transit | 37.993273 | 2.6
+  - `Kepler-122 f` | 2014 | Transit | 56.268 | 1.75
+- **`Kepler-123`**
+  - `Kepler-123 b` | 2014 | Transit | 17.232366 | 2.94
+  - `Kepler-123 c` | 2014 | Transit | 26.695074 | 1.48
+- **`Kepler-124`**
+  - `Kepler-124 b` | 2014 | Transit | 3.410493 | 0.73
+  - `Kepler-124 c` | 2014 | Transit | 13.821375 | 1.75
+  - `Kepler-124 d` | 2014 | Transit | 30.950851 | 1.11
+- **`Kepler-125`**
+  - `Kepler-125 b` | 2014 | Transit | 4.164389 | 2.37
+  - `Kepler-125 c` | 2014 | Transit | 5.774464 | 0.74
+- **`Kepler-126`**
+  - `Kepler-126 b` | 2014 | Transit | 10.495711 | 1.52
+  - `Kepler-126 c` | 2014 | Transit | 21.869741 | 1.58
+  - `Kepler-126 d` | 2014 | Transit | 100.283134 | 2.5
+- **`Kepler-127`**
+  - `Kepler-127 b` | 2014 | Transit | 14.435889 | 1.4
+  - `Kepler-127 c` | 2014 | Transit | 29.393195 | 2.66
+  - `Kepler-127 d` | 2014 | Transit | 48.630408 | 2.64
+- **`Kepler-128`**
+  - `Kepler-128 b` | 2013 | Transit | 15 | 1.421
+  - `Kepler-128 c` | 2013 | Transit | 22.8 | 1.521
+- **`Kepler-129`**
+  - `Kepler-129 b` | 2014 | Transit | 15.79 | 2.4
+  - `Kepler-129 c` | 2014 | Transit | 82.2 | 2.52
+  - `Kepler-129 d` | 2021 | Radial Velocity | 2646 | 12.6
+- **`Kepler-130`**
+  - `Kepler-130 b` | 2014 | Transit | 8.457458 | 1.02
+  - `Kepler-130 c` | 2014 | Transit | 27.50868 | 2.9
+  - `Kepler-130 d` | 2014 | Transit | 87.517905 | 1.64
+- **`Kepler-131`**
+  - `Kepler-131 b` | 2014 | Transit | 16.092 | 2.41
+  - `Kepler-131 c` | 2014 | Transit | 25.5169 | 0.84
+- **`Kepler-132`**
+  - `Kepler-132 b` | 2014 | Transit | 6.178196 | 1.21
+  - `Kepler-132 c` | 2014 | Transit | 6.414914 | 1.28
+  - `Kepler-132 d` | 2014 | Transit | 18.010199 | 1.55
+  - `Kepler-132 e` | 2016 | Transit | 110.2869374 | 1.18
+- **`Kepler-133`**
+  - `Kepler-133 b` | 2014 | Transit | 8.129976 | 1.76
+  - `Kepler-133 c` | 2014 | Transit | 31.517586 | 2.84
+- **`Kepler-134`**
+  - `Kepler-134 b` | 2014 | Transit | 5.317429 | 2
+  - `Kepler-134 c` | 2014 | Transit | 10.105785 | 1.26
+- **`Kepler-135`**
+  - `Kepler-135 b` | 2014 | Transit | 6.00253 | 1.81
+  - `Kepler-135 c` | 2014 | Transit | 11.448708 | 1.16
+- **`Kepler-136`**
+  - `Kepler-136 b` | 2014 | Transit | 11.5789 | 2.05
+  - `Kepler-136 c` | 2014 | Transit | 16.399235 | 1.99
+- **`Kepler-137`**
+  - `Kepler-137 b` | 2014 | Transit | 8.436387 | 1.47
+  - `Kepler-137 c` | 2014 | Transit | 18.735753 | 1.88
+- **`Kepler-138`**
+  - `Kepler-138 b` | 2014 | Transit | 10.3134 | 0.64
+  - `Kepler-138 c` | 2014 | Transit | 13.7815 | 1.51
+  - `Kepler-138 d` | 2014 | Transit | 23.0923 | 1.51
+  - `Kepler-138 e` | 2022 | Transit Timing Variations | 38.23 | 0.797
+- **`Kepler-139`**
+  - `Kepler-139 d` | 2023 | Transit | 7.305699922 | 1.695
+  - `Kepler-139 b` | 2014 | Transit | 15.771044 | 2.94
+  - `Kepler-139 c` | 2014 | Transit | 157.072878 | 3.38
+  - `Kepler-139 f` | 2025 | Transit Timing Variations | 355 | 6.67
+  - `Kepler-139 e` | 2023 | Radial Velocity | 2047.635373 | 13.7
+- **`Kepler-140`**
+  - `Kepler-140 b` | 2014 | Transit | 3.25427 | 1.61
+  - `Kepler-140 c` | 2014 | Transit | 91.353282 | 1.8
+- **`Kepler-141`**
+  - `Kepler-141 b` | 2014 | Transit | 3.107675 | 0.69
+  - `Kepler-141 c` | 2014 | Transit | 7.010606 | 1.41
+- **`Kepler-142`**
+  - `Kepler-142 b` | 2014 | Transit | 2.024152 | 1.99
+  - `Kepler-142 c` | 2014 | Transit | 4.761702 | 2.86
+  - `Kepler-142 d` | 2014 | Transit | 41.809118 | 2.16
+- **`Kepler-143`**
+  - `Kepler-143 b` | 2014 | Transit | 16.007583 | 2.41
+  - `Kepler-143 c` | 2014 | Transit | 27.082511 | 3.37
+- **`Kepler-144`**
+  - `Kepler-144 b` | 2014 | Transit | 5.885273 | 1.33
+  - `Kepler-144 c` | 2014 | Transit | 10.104665 | 1.35
+- **`Kepler-145`**
+  - `Kepler-145 b` | 2013 | Transit | 22.951 | 2.65
+  - `Kepler-145 c` | 2013 | Transit | 42.882 | 4.32
+- **`Kepler-146`**
+  - `Kepler-146 b` | 2014 | Transit | 31.158799 | 3.71
+  - `Kepler-146 c` | 2014 | Transit | 76.732171 | 3.13
+- **`Kepler-147`**
+  - `Kepler-147 b` | 2014 | Transit | 12.610584 | 1.53
+  - `Kepler-147 c` | 2014 | Transit | 33.416423 | 2.43
+- **`Kepler-148`**
+  - `Kepler-148 b` | 2014 | Transit | 1.729366 | 1.8
+  - `Kepler-148 c` | 2014 | Transit | 4.180043 | 3.6
+  - `Kepler-148 d` | 2016 | Transit | 51.84688575 | 8.68
+- **`Kepler-149`**
+  - `Kepler-149 b` | 2014 | Transit | 29.198943 | 4.21
+  - `Kepler-149 c` | 2014 | Transit | 55.328328 | 1.61
+  - `Kepler-149 d` | 2014 | Transit | 160.018032 | 3.96
+- **`Kepler-150`**
+  - `Kepler-150 b` | 2014 | Transit | 3.428054 | 1.25
+  - `Kepler-150 c` | 2014 | Transit | 7.381998 | 3.69
+  - `Kepler-150 d` | 2014 | Transit | 12.56093 | 2.79
+  - `Kepler-150 e` | 2014 | Transit | 30.826557 | 3.12
+  - `Kepler-150 f` | 2017 | Transit | 637.2093 | 3.64
+- **`Kepler-151`**
+  - `Kepler-151 b` | 2014 | Transit | 15.228958 | 3.06
+  - `Kepler-151 c` | 2014 | Transit | 24.674612 | 2.09
+- **`Kepler-152`**
+  - `Kepler-152 b` | 2014 | Transit | 18.207973 | 2.79
+  - `Kepler-152 c` | 2014 | Transit | 88.255055 | 2.39
+- **`Kepler-153`**
+  - `Kepler-153 b` | 2014 | Transit | 18.870227 | 2.92
+  - `Kepler-153 c` | 2014 | Transit | 46.90232 | 2.53
+- **`Kepler-154`**
+  - `Kepler-154 e` | 2016 | Transit | 3.93276465 | 1.5
+  - `Kepler-154 f` | 2016 | Transit | 9.91935684 | 1.5
+  - `Kepler-154 d` | 2016 | Transit | 20.54981883 | 3.84
+  - `Kepler-154 b` | 2014 | Transit | 33.040532 | 2.26
+  - `Kepler-154 c` | 2014 | Transit | 62.303276 | 2.95
+- **`Kepler-155`**
+  - `Kepler-155 b` | 2014 | Transit | 5.931194 | 2.09
+  - `Kepler-155 c` | 2014 | Transit | 52.661793 | 2.24
+- **`Kepler-156`**
+  - `Kepler-156 b` | 2014 | Transit | 4.973456 | 2.3
+  - `Kepler-156 c` | 2014 | Transit | 15.906801 | 2.55
+- **`Kepler-157`**
+  - `Kepler-157 b` | 2014 | Transit | 1.732342 | 1.32
+  - `Kepler-157 d` | 2016 | Transit | 7.02573474 | 1.46
+  - `Kepler-157 c` | 2014 | Transit | 13.5405 | 2.24
+- **`Kepler-158`**
+  - `Kepler-158 d` | 2024 | Transit | 0.645088 | 0.43
+  - `Kepler-158 b` | 2014 | Transit | 16.709184 | 2.12
+  - `Kepler-158 c` | 2014 | Transit | 28.551383 | 1.9
+- **`Kepler-159`**
+  - `Kepler-159 b` | 2014 | Transit | 10.139623 | 2.38
+  - `Kepler-159 c` | 2014 | Transit | 43.595792 | 3.41
+- **`Kepler-160`**
+  - `Kepler-160 b` | 2014 | Transit | 4.309397 | 1.715
+  - `Kepler-160 c` | 2014 | Transit | 13.699429 | 3.76
+  - `Kepler-160 d` | 2020 | Transit Timing Variations | 30 | —
+- **`Kepler-161`**
+  - `Kepler-161 b` | 2014 | Transit | 4.921355 | 2.12
+  - `Kepler-161 c` | 2014 | Transit | 7.06424 | 2.05
+- **`Kepler-162`**
+  - `Kepler-162 b` | 2014 | Transit | 6.919798 | 1.26
+  - `Kepler-162 c` | 2014 | Transit | 19.446355 | 3.03
+- **`Kepler-163`**
+  - `Kepler-163 b` | 2014 | Transit | 7.810937 | 1.05
+  - `Kepler-163 c` | 2014 | Transit | 21.347262 | 2.26
+- **`Kepler-164`**
+  - `Kepler-164 b` | 2014 | Transit | 5.03503 | 1.41
+  - `Kepler-164 c` | 2014 | Transit | 10.945723 | 2.73
+  - `Kepler-164 d` | 2014 | Transit | 28.986769 | 2.45
+  - `Kepler-164 e` | 2023 | Transit | 94.886902 | 4.24
+- **`Kepler-165`**
+  - `Kepler-165 b` | 2014 | Transit | 8.180848 | 2.32
+  - `Kepler-165 c` | 2014 | Transit | 15.31299 | 2.23
+- **`Kepler-166`**
+  - `Kepler-166 d` | 2016 | Transit | 1.554003928 | 1.73
+  - `Kepler-166 b` | 2014 | Transit | 7.650254 | 2.27
+  - `Kepler-166 c` | 2014 | Transit | 34.260281 | 2.38
+
+</details>
+
+<a name="systems-10"></a>
+
+<details><summary>Kepler-167 – Kepler-346 · 180 ระบบ · 480 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`Kepler-167`**
+  - `Kepler-167 b` | 2014 | Transit | 4.3931539 | 1.718
+  - `Kepler-167 c` | 2014 | Transit | 7.406106 | 1.674
+  - `Kepler-167 d` | 2016 | Transit | 21.80379 | 1.238
+  - `Kepler-167 e` | 2016 | Transit | 1071.23205 | 10.16
+- **`Kepler-168`**
+  - `Kepler-168 b` | 2014 | Transit | 4.425391 | 1.46
+  - `Kepler-168 c` | 2014 | Transit | 13.193242 | 2.69
+- **`Kepler-169`**
+  - `Kepler-169 b` | 2014 | Transit | 3.250619 | 1.13
+  - `Kepler-169 c` | 2014 | Transit | 6.195469 | 1.21
+  - `Kepler-169 d` | 2014 | Transit | 8.348125 | 1.25
+  - `Kepler-169 e` | 2014 | Transit | 13.767102 | 2.2
+  - `Kepler-169 f` | 2014 | Transit | 87.090195 | 2.58
+- **`Kepler-170`**
+  - `Kepler-170 b` | 2014 | Transit | 7.930592 | 3.2
+  - `Kepler-170 c` | 2014 | Transit | 16.665863 | 2.86
+- **`Kepler-171`**
+  - `Kepler-171 b` | 2014 | Transit | 4.166972 | 2.34
+  - `Kepler-171 c` | 2014 | Transit | 11.463462 | 2.56
+  - `Kepler-171 d` | 2014 | Transit | 39.595519 | 1.89
+- **`Kepler-172`**
+  - `Kepler-172 b` | 2014 | Transit | 2.940309 | 2.35
+  - `Kepler-172 c` | 2014 | Transit | 6.388996 | 2.86
+  - `Kepler-172 d` | 2014 | Transit | 14.627119 | 2.25
+  - `Kepler-172 e` | 2014 | Transit | 35.118736 | 2.76
+- **`Kepler-173`**
+  - `Kepler-173 b` | 2014 | Transit | 4.263742 | 1.29
+  - `Kepler-173 c` | 2014 | Transit | 8.005777 | 2.43
+- **`Kepler-174`**
+  - `Kepler-174 b` | 2014 | Transit | 13.98179 | 1.96
+  - `Kepler-174 c` | 2014 | Transit | 44.000529 | 1.49
+  - `Kepler-174 d` | 2014 | Transit | 247.35373 | 2.19
+- **`Kepler-175`**
+  - `Kepler-175 b` | 2014 | Transit | 11.903515 | 2.56
+  - `Kepler-175 c` | 2014 | Transit | 34.035257 | 3.1
+- **`Kepler-176`**
+  - `Kepler-176 b` | 2014 | Transit | 5.433074 | 1.43
+  - `Kepler-176 c` | 2014 | Transit | 12.759712 | 2.6
+  - `Kepler-176 d` | 2014 | Transit | 25.751974 | 2.51
+  - `Kepler-176 e` | 2016 | Transit | 51.16579 | 1.45
+- **`Kepler-177`**
+  - `Kepler-177 b` | 2013 | Transit | 36.8601 | 3.5
+  - `Kepler-177 c` | 2013 | Transit | 49.40926 | 8.73
+- **`Kepler-178`**
+  - `Kepler-178 b` | 2014 | Transit | 9.576694 | 2.9
+  - `Kepler-178 c` | 2014 | Transit | 20.552802 | 2.88
+  - `Kepler-178 d` | 2014 | Transit | 96.678988 | 3.95
+- **`Kepler-179`**
+  - `Kepler-179 b` | 2014 | Transit | 2.735926 | 1.64
+  - `Kepler-179 c` | 2014 | Transit | 6.40013 | 2
+- **`Kepler-180`**
+  - `Kepler-180 b` | 2014 | Transit | 13.817124 | 1.5
+  - `Kepler-180 c` | 2014 | Transit | 41.885775 | 3.01
+- **`Kepler-181`**
+  - `Kepler-181 b` | 2014 | Transit | 3.137873 | 1.27
+  - `Kepler-181 c` | 2014 | Transit | 4.302149 | 1.99
+- **`Kepler-182`**
+  - `Kepler-182 b` | 2014 | Transit | 9.825792 | 2.58
+  - `Kepler-182 c` | 2014 | Transit | 20.684342 | 3.43
+- **`Kepler-183`**
+  - `Kepler-183 b` | 2014 | Transit | 5.687945 | 2.06
+  - `Kepler-183 c` | 2014 | Transit | 11.637071 | 2.27
+- **`Kepler-184`**
+  - `Kepler-184 b` | 2014 | Transit | 10.687576 | 2.36
+  - `Kepler-184 c` | 2014 | Transit | 20.303005 | 1.97
+  - `Kepler-184 d` | 2014 | Transit | 29.022358 | 2.49
+- **`Kepler-185`**
+  - `Kepler-185 b` | 2014 | Transit | 1.6329 | 1.17
+  - `Kepler-185 c` | 2014 | Transit | 20.729042 | 2.02
+- **`Kepler-186`**
+  - `Kepler-186 b` | 2014 | Transit | 3.8867907 | 1.07
+  - `Kepler-186 c` | 2014 | Transit | 7.267302 | 1.25
+  - `Kepler-186 d` | 2014 | Transit | 13.342996 | 1.4
+  - `Kepler-186 e` | 2014 | Transit | 22.407704 | 1.27
+  - `Kepler-186 f` † | 2014 | Transit | 129.9441 | 1.17
+- **`Kepler-187`**
+  - `Kepler-187 b` | 2014 | Transit | 4.938864 | 1.41
+  - `Kepler-187 c` | 2014 | Transit | 10.640263 | 2.67
+- **`Kepler-188`**
+  - `Kepler-188 b` | 2014 | Transit | 2.061897 | 1.68
+  - `Kepler-188 c` | 2014 | Transit | 5.996553 | 3.19
+- **`Kepler-189`**
+  - `Kepler-189 b` | 2014 | Transit | 10.399931 | 1.21
+  - `Kepler-189 c` | 2014 | Transit | 20.134866 | 2.38
+- **`Kepler-190`**
+  - `Kepler-190 b` | 2014 | Transit | 2.019999 | 1.56
+  - `Kepler-190 c` | 2014 | Transit | 3.763024 | 1.46
+- **`Kepler-191`**
+  - `Kepler-191 d` | 2016 | Transit | 5.945041017 | 2.28
+  - `Kepler-191 b` | 2014 | Transit | 9.939632 | 1.34
+  - `Kepler-191 c` | 2014 | Transit | 17.738506 | 1.86
+- **`Kepler-192`**
+  - `Kepler-192 d` | 2016 | Transit | 6.47027579 | 1.02
+  - `Kepler-192 b` | 2014 | Transit | 9.926746 | 2.74
+  - `Kepler-192 c` | 2014 | Transit | 21.2234 | 2.79
+- **`Kepler-193`**
+  - `Kepler-193 b` | 2014 | Transit | 11.38848 | 2.39
+  - `Kepler-193 c` | 2014 | Transit | 50.697494 | 2.75
+- **`Kepler-194`**
+  - `Kepler-194 b` | 2014 | Transit | 2.092281 | 1.51
+  - `Kepler-194 c` | 2014 | Transit | 17.308032 | 2.59
+  - `Kepler-194 d` | 2014 | Transit | 52.814973 | 2.4
+- **`Kepler-195`**
+  - `Kepler-195 b` | 2014 | Transit | 8.307872 | 2.03
+  - `Kepler-195 c` | 2014 | Transit | 34.096863 | 1.55
+- **`Kepler-196`**
+  - `Kepler-196 b` | 2014 | Transit | 20.739886 | 1.9
+  - `Kepler-196 c` | 2014 | Transit | 47.427737 | 2.24
+  - `Kepler-196 d` | 2021 | Transit | 122.0800018 | 2.66065673
+- **`Kepler-197`**
+  - `Kepler-197 b` | 2014 | Transit | 5.599308 | 1.02
+  - `Kepler-197 c` | 2014 | Transit | 10.349695 | 1.23
+  - `Kepler-197 d` | 2014 | Transit | 15.677563 | 1.22
+  - `Kepler-197 e` | 2014 | Transit | 25.209715 | 0.91
+- **`Kepler-198`**
+  - `Kepler-198 d` | 2016 | Transit | 1.31184443 | 1.53
+  - `Kepler-198 b` | 2014 | Transit | 17.790037 | 2.82
+  - `Kepler-198 c` | 2014 | Transit | 49.567416 | 2.47
+- **`Kepler-199`**
+  - `Kepler-199 b` | 2014 | Transit | 23.637604 | 3.11
+  - `Kepler-199 c` | 2014 | Transit | 67.093408 | 3.25
+- **`Kepler-200`**
+  - `Kepler-200 b` | 2014 | Transit | 8.594805 | 2.13
+  - `Kepler-200 c` | 2014 | Transit | 10.222157 | 1.59
+- **`Kepler-201`**
+  - `Kepler-201 b` | 2014 | Transit | 25.672083 | 2.46
+  - `Kepler-201 c` | 2014 | Transit | 151.884058 | 2.85
+- **`Kepler-202`**
+  - `Kepler-202 b` | 2014 | Transit | 4.069427 | 1.63
+  - `Kepler-202 c` | 2014 | Transit | 16.282493 | 1.85
+- **`Kepler-203`**
+  - `Kepler-203 b` | 2014 | Transit | 3.162697 | 2.57
+  - `Kepler-203 c` | 2014 | Transit | 5.370647 | 2.47
+  - `Kepler-203 d` | 2014 | Transit | 11.32972 | 1.44
+- **`Kepler-204`**
+  - `Kepler-204 b` | 2014 | Transit | 14.400974 | 2.53
+  - `Kepler-204 c` | 2014 | Transit | 25.660593 | 1.79
+- **`Kepler-205`**
+  - `Kepler-205 b` | 2014 | Transit | 2.75564 | 1.51
+  - `Kepler-205 c` | 2014 | Transit | 20.306546 | 1.64
+- **`Kepler-206`**
+  - `Kepler-206 b` | 2014 | Transit | 7.781987 | 1.2
+  - `Kepler-206 c` | 2014 | Transit | 13.137471 | 1.77
+  - `Kepler-206 d` | 2014 | Transit | 23.44281 | 1.19
+- **`Kepler-207`**
+  - `Kepler-207 b` | 2014 | Transit | 1.611865 | 1.57
+  - `Kepler-207 c` | 2014 | Transit | 3.071571 | 1.5
+  - `Kepler-207 d` | 2014 | Transit | 5.868075 | 3.31
+- **`Kepler-208`**
+  - `Kepler-208 b` | 2014 | Transit | 4.22864 | 1.63
+  - `Kepler-208 c` | 2014 | Transit | 7.466623 | 1.39
+  - `Kepler-208 d` | 2014 | Transit | 11.131786 | 1.2
+  - `Kepler-208 e` | 2014 | Transit | 16.259458 | 1.48
+- **`Kepler-209`**
+  - `Kepler-209 b` | 2014 | Transit | 16.087845 | 2.26
+  - `Kepler-209 c` | 2014 | Transit | 41.749882 | 3.1
+- **`Kepler-210`**
+  - `Kepler-210 b` | 2014 | Transit | 2.453234 | 2.94
+  - `Kepler-210 c` | 2014 | Transit | 7.972513 | 3.62
+- **`Kepler-211`**
+  - `Kepler-211 b` | 2014 | Transit | 4.138575 | 1.26
+  - `Kepler-211 c` | 2014 | Transit | 6.04045 | 1.29
+- **`Kepler-212`**
+  - `Kepler-212 b` | 2014 | Transit | 16.257582 | 1.09
+  - `Kepler-212 c` | 2014 | Transit | 31.805174 | 2.74
+- **`Kepler-213`**
+  - `Kepler-213 b` | 2014 | Transit | 2.46236 | 1.62
+  - `Kepler-213 c` | 2014 | Transit | 4.822962 | 2.34
+- **`Kepler-214`**
+  - `Kepler-214 b` | 2014 | Transit | 15.660544 | 2.61
+  - `Kepler-214 c` | 2014 | Transit | 28.7798 | 2.13
+- **`Kepler-215`**
+  - `Kepler-215 b` | 2014 | Transit | 9.360672 | 1.62
+  - `Kepler-215 c` | 2014 | Transit | 14.667108 | 1.77
+  - `Kepler-215 d` | 2014 | Transit | 30.864423 | 2.39
+  - `Kepler-215 e` | 2014 | Transit | 68.16101 | 1.75
+- **`Kepler-216`**
+  - `Kepler-216 b` | 2014 | Transit | 7.693641 | 2.35
+  - `Kepler-216 c` | 2014 | Transit | 17.406669 | 3.04
+- **`Kepler-217`**
+  - `Kepler-217 d` | 2016 | Transit | 3.88689525 | 1.32
+  - `Kepler-217 b` | 2014 | Transit | 5.374943 | 2.23
+  - `Kepler-217 c` | 2014 | Transit | 8.586004 | 1.85
+- **`Kepler-218`**
+  - `Kepler-218 b` | 2014 | Transit | 3.619337 | 1.48
+  - `Kepler-218 c` | 2014 | Transit | 44.699576 | 3.14
+  - `Kepler-218 d` | 2016 | Transit | 124.5244647 | 2.66
+- **`Kepler-219`**
+  - `Kepler-219 b` | 2014 | Transit | 4.585512 | 2.95
+  - `Kepler-219 c` | 2014 | Transit | 22.714613 | 3.58
+  - `Kepler-219 d` | 2014 | Transit | 47.903645 | 2.81
+- **`Kepler-220`**
+  - `Kepler-220 b` | 2014 | Transit | 4.159807 | 0.81
+  - `Kepler-220 c` | 2014 | Transit | 9.034199 | 1.57
+  - `Kepler-220 d` | 2014 | Transit | 28.122397 | 0.98
+  - `Kepler-220 e` | 2014 | Transit | 45.902733 | 1.33
+- **`Kepler-221`**
+  - `Kepler-221 b` | 2014 | Transit | 2.795906 | 1.71
+  - `Kepler-221 c` | 2014 | Transit | 5.690586 | 2.93
+  - `Kepler-221 d` | 2014 | Transit | 10.04156 | 2.73
+  - `Kepler-221 e` | 2014 | Transit | 18.369917 | 2.63
+- **`Kepler-222`**
+  - `Kepler-222 b` | 2014 | Transit | 3.936981 | 3.16
+  - `Kepler-222 c` | 2014 | Transit | 10.08881 | 4.64
+  - `Kepler-222 d` | 2014 | Transit | 28.081912 | 3.69
+- **`Kepler-223`**
+  - `Kepler-223 b` | 2014 | Transit | 7.38449 | 2.99
+  - `Kepler-223 c` | 2014 | Transit | 9.84564 | 3.44
+  - `Kepler-223 d` | 2014 | Transit | 14.78869 | 5.24
+  - `Kepler-223 e` | 2014 | Transit | 19.72567 | 4.6
+- **`Kepler-224`**
+  - `Kepler-224 b` | 2014 | Transit | 3.132924 | 1.39
+  - `Kepler-224 c` | 2014 | Transit | 5.925003 | 3.12
+  - `Kepler-224 d` | 2014 | Transit | 11.349393 | 2.3
+  - `Kepler-224 e` | 2014 | Transit | 18.643577 | 1.97
+- **`Kepler-225`**
+  - `Kepler-225 b` | 2014 | Transit | 6.738975 | 1.2
+  - `Kepler-225 c` | 2014 | Transit | 18.794234 | 1.84
+- **`Kepler-226`**
+  - `Kepler-226 b` | 2014 | Transit | 3.940997 | 1.55
+  - `Kepler-226 c` | 2014 | Transit | 5.349555 | 2.27
+  - `Kepler-226 d` | 2014 | Transit | 8.109044 | 1.22
+- **`Kepler-227`**
+  - `Kepler-227 b` | 2014 | Transit | 9.488015 | 3.11
+  - `Kepler-227 c` | 2014 | Transit | 54.418694 | 3.04
+- **`Kepler-228`**
+  - `Kepler-228 b` | 2014 | Transit | 2.566546 | 1.53
+  - `Kepler-228 c` | 2014 | Transit | 4.134444 | 2.7
+  - `Kepler-228 d` | 2014 | Transit | 11.094286 | 4.04
+- **`Kepler-229`**
+  - `Kepler-229 b` | 2014 | Transit | 6.252972 | 2.2
+  - `Kepler-229 c` | 2014 | Transit | 16.068638 | 4.92
+  - `Kepler-229 d` | 2014 | Transit | 41.194912 | 3.85
+- **`Kepler-230`**
+  - `Kepler-230 b` | 2014 | Transit | 32.625555 | 4.26
+  - `Kepler-230 c` | 2014 | Transit | 91.773242 | 2.04
+- **`Kepler-231`**
+  - `Kepler-231 b` | 2014 | Transit | 10.065275 | 1.73
+  - `Kepler-231 c` | 2014 | Transit | 19.271566 | 1.93
+- **`Kepler-232`**
+  - `Kepler-232 b` | 2014 | Transit | 4.431222 | 3.08
+  - `Kepler-232 c` | 2014 | Transit | 11.379349 | 3.83
+- **`Kepler-233`**
+  - `Kepler-233 b` | 2014 | Transit | 8.472382 | 2.43
+  - `Kepler-233 c` | 2014 | Transit | 60.418955 | 2.71
+- **`Kepler-234`**
+  - `Kepler-234 b` | 2014 | Transit | 2.711506 | 3.7
+  - `Kepler-234 c` | 2014 | Transit | 7.21205 | 3.51
+- **`Kepler-235`**
+  - `Kepler-235 b` | 2014 | Transit | 3.340222 | 2.23
+  - `Kepler-235 c` | 2014 | Transit | 7.824904 | 1.28
+  - `Kepler-235 d` | 2014 | Transit | 20.060548 | 2.05
+  - `Kepler-235 e` | 2014 | Transit | 46.183669 | 2.22
+- **`Kepler-236`**
+  - `Kepler-236 b` | 2014 | Transit | 8.295611 | 1.57
+  - `Kepler-236 c` | 2014 | Transit | 23.968127 | 2
+- **`Kepler-237`**
+  - `Kepler-237 b` | 2014 | Transit | 4.715106 | 1.41
+  - `Kepler-237 c` | 2014 | Transit | 8.103636 | 2.08
+- **`Kepler-238`**
+  - `Kepler-238 b` | 2014 | Transit | 2.090876 | 1.73
+  - `Kepler-238 c` | 2014 | Transit | 6.155557 | 2.39
+  - `Kepler-238 d` | 2014 | Transit | 13.233549 | 3.07
+  - `Kepler-238 e` | 2013 | Transit | 23.654 | 5.6
+  - `Kepler-238 f` | 2013 | Transit | 50.447 | 2
+- **`Kepler-239`**
+  - `Kepler-239 b` | 2014 | Transit | 11.763051 | 2.33
+  - `Kepler-239 c` | 2014 | Transit | 56.228098 | 2.51
+- **`Kepler-240`**
+  - `Kepler-240 b` | 2014 | Transit | 4.144495 | 1.37
+  - `Kepler-240 c` | 2014 | Transit | 7.953528 | 2.2
+- **`Kepler-241`**
+  - `Kepler-241 b` | 2014 | Transit | 12.718092 | 2.33
+  - `Kepler-241 c` | 2014 | Transit | 36.065978 | 2.57
+- **`Kepler-242`**
+  - `Kepler-242 b` | 2014 | Transit | 8.20395 | 2.61
+  - `Kepler-242 c` | 2014 | Transit | 14.496481 | 2
+- **`Kepler-243`**
+  - `Kepler-243 b` | 2014 | Transit | 5.715442 | 2.45
+  - `Kepler-243 c` | 2014 | Transit | 20.026218 | 1.99
+- **`Kepler-244`**
+  - `Kepler-244 b` | 2014 | Transit | 4.311792 | 2.76
+  - `Kepler-244 c` | 2014 | Transit | 9.767292 | 2.05
+  - `Kepler-244 d` | 2014 | Transit | 20.050401 | 2.31
+- **`Kepler-245`**
+  - `Kepler-245 e` | 2016 | Transit | 3.219821056 | 1.75
+  - `Kepler-245 b` | 2014 | Transit | 7.49019 | 2.57
+  - `Kepler-245 c` | 2014 | Transit | 17.460812 | 2.18
+  - `Kepler-245 d` | 2014 | Transit | 36.277108 | 3.03
+- **`Kepler-246`**
+  - `Kepler-246 b` | 2014 | Transit | 4.60182 | 2.34
+  - `Kepler-246 c` | 2014 | Transit | 11.187161 | 1.5
+- **`Kepler-247`**
+  - `Kepler-247 b` | 2014 | Transit | 3.33616 | 1.64
+  - `Kepler-247 c` | 2014 | Transit | 9.439452 | 4.09
+  - `Kepler-247 d` | 2014 | Transit | 20.4737 | 4.5
+  - `KOI-884 e` | 2014 | Transit Timing Variations | 31.101659 | 9.54
+- **`Kepler-248`**
+  - `Kepler-248 b` | 2014 | Transit | 6.308205 | 3.02
+  - `Kepler-248 c` | 2014 | Transit | 16.239494 | 4.07
+- **`Kepler-249`**
+  - `Kepler-249 b` | 2014 | Transit | 3.306539 | 1.09
+  - `Kepler-249 c` | 2014 | Transit | 7.113702 | 1.51
+  - `Kepler-249 d` | 2014 | Transit | 15.368459 | 1.57
+- **`Kepler-250`**
+  - `Kepler-250 b` | 2014 | Transit | 4.148141 | 1.13
+  - `Kepler-250 c` | 2014 | Transit | 7.156804 | 2.28
+  - `Kepler-250 d` | 2014 | Transit | 17.648312 | 2.18
+- **`Kepler-251`**
+  - `Kepler-251 b` | 2014 | Transit | 4.790936 | 1.33
+  - `Kepler-251 c` | 2014 | Transit | 16.514043 | 2.77
+  - `Kepler-251 d` | 2014 | Transit | 30.133001 | 2.77
+  - `Kepler-251 e` | 2014 | Transit | 99.640161 | 2.77
+- **`Kepler-252`**
+  - `Kepler-252 b` | 2014 | Transit | 6.668391 | 1.23
+  - `Kepler-252 c` | 2014 | Transit | 10.848463 | 2.15
+- **`Kepler-253`**
+  - `Kepler-253 b` | 2014 | Transit | 3.783986 | 1.63
+  - `Kepler-253 c` | 2014 | Transit | 10.281951 | 2.65
+  - `Kepler-253 d` | 2014 | Transit | 18.119869 | 3.17
+- **`Kepler-254`**
+  - `Kepler-254 b` | 2014 | Transit | 5.826662 | 3.87
+  - `Kepler-254 c` | 2014 | Transit | 12.412183 | 2.15
+  - `Kepler-254 d` | 2014 | Transit | 18.746477 | 2.5
+- **`Kepler-255`**
+  - `Kepler-255 d` | 2016 | Transit | 1.045622658 | 1.32
+  - `Kepler-255 b` | 2014 | Transit | 5.714606 | 1.55
+  - `Kepler-255 c` | 2014 | Transit | 9.946047 | 2.99
+- **`Kepler-256`**
+  - `Kepler-256 b` | 2014 | Transit | 1.620493 | 1.59
+  - `Kepler-256 c` | 2014 | Transit | 3.38802 | 2.15
+  - `Kepler-256 d` | 2014 | Transit | 5.839172 | 2.48
+  - `Kepler-256 e` | 2014 | Transit | 10.681572 | 2.35
+- **`Kepler-257`**
+  - `Kepler-257 b` | 2014 | Transit | 2.382667 | 2.61
+  - `Kepler-257 c` | 2014 | Transit | 6.581484 | 5.41
+  - `Kepler-257 d` | 2014 | Transit | 24.664551 | 4.95
+- **`Kepler-258`**
+  - `Kepler-258 b` | 2014 | Transit | 13.19722 | 4.06
+  - `Kepler-258 c` | 2014 | Transit | 33.653079 | 3.61
+- **`Kepler-259`**
+  - `Kepler-259 b` | 2014 | Transit | 8.115317 | 2.8
+  - `Kepler-259 c` | 2014 | Transit | 36.924931 | 2.7
+- **`Kepler-260`**
+  - `Kepler-260 b` | 2014 | Transit | 8.187399 | 2.01
+  - `Kepler-260 c` | 2014 | Transit | 76.050178 | 1.74
+- **`Kepler-261`**
+  - `Kepler-261 b` | 2014 | Transit | 10.381227 | 2.18
+  - `Kepler-261 c` | 2014 | Transit | 24.570858 | 2
+- **`Kepler-262`**
+  - `Kepler-262 b` | 2014 | Transit | 13.060855 | 1.36
+  - `Kepler-262 c` | 2014 | Transit | 21.853722 | 1.64
+- **`Kepler-263`**
+  - `Kepler-263 b` | 2014 | Transit | 16.568087 | 2.67
+  - `Kepler-263 c` | 2014 | Transit | 47.332773 | 2.47
+- **`Kepler-264`**
+  - `Kepler-264 b` | 2014 | Transit | 40.806231 | 3.33
+  - `Kepler-264 c` | 2014 | Transit | 140.101261 | 2.83
+- **`Kepler-265`**
+  - `Kepler-265 b` | 2014 | Transit | 6.846262 | 1.86
+  - `Kepler-265 c` | 2014 | Transit | 17.028937 | 2.63
+  - `Kepler-265 d` | 2014 | Transit | 43.130617 | 2.49
+  - `Kepler-265 e` | 2014 | Transit | 67.831024 | 2.59
+- **`Kepler-266`**
+  - `Kepler-266 b` | 2014 | Transit | 6.61833 | 2.48
+  - `Kepler-266 c` | 2014 | Transit | 107.723601 | 3.89
+- **`Kepler-267`**
+  - `Kepler-267 b` | 2014 | Transit | 3.353728 | 1.98
+  - `Kepler-267 c` | 2014 | Transit | 6.87745 | 2.13
+  - `Kepler-267 d` | 2014 | Transit | 28.464515 | 2.27
+- **`Kepler-268`**
+  - `Kepler-268 b` | 2014 | Transit | 25.934138 | 2.55
+  - `Kepler-268 c` | 2014 | Transit | 83.446393 | 3.38
+- **`Kepler-269`**
+  - `Kepler-269 b` | 2014 | Transit | 5.326718 | 2.47
+  - `Kepler-269 c` | 2014 | Transit | 8.127899 | 1.69
+- **`Kepler-270`**
+  - `Kepler-270 b` | 2014 | Transit | 11.476094 | 2.01
+  - `Kepler-270 c` | 2014 | Transit | 25.262887 | 1.77
+- **`Kepler-271`**
+  - `Kepler-271 d` | 2016 | Transit | 5.24972541 | 0.66
+  - `Kepler-271 c` | 2014 | Transit | 7.41086267 | 0.95
+  - `Kepler-271 b` | 2014 | Transit | 10.43547805 | 1.23
+- **`Kepler-272`**
+  - `Kepler-272 b` | 2014 | Transit | 2.971353 | 1.43
+  - `Kepler-272 c` | 2014 | Transit | 6.057342 | 1.79
+  - `Kepler-272 d` | 2014 | Transit | 10.937304 | 2.25
+- **`Kepler-273`**
+  - `Kepler-273 b` | 2014 | Transit | 2.936532 | 1.5
+  - `Kepler-273 c` | 2014 | Transit | 8.014927 | 1.98
+- **`Kepler-274`**
+  - `Kepler-274 b` | 2014 | Transit | 11.634788 | 1.54
+  - `Kepler-274 c` | 2014 | Transit | 33.197861 | 1.84
+- **`Kepler-275`**
+  - `Kepler-275 b` | 2014 | Transit | 10.300682 | 2.34
+  - `Kepler-275 c` | 2014 | Transit | 16.088134 | 3.38
+  - `Kepler-275 d` | 2014 | Transit | 35.676062 | 3.33
+- **`Kepler-276`**
+  - `Kepler-276 b` | 2014 | Transit | 14.12841 | 2.87
+  - `Kepler-276 c` | 2013 | Transit | 31.884 | 2.9
+  - `Kepler-276 d` | 2013 | Transit | 48.648 | 2.8
+- **`Kepler-277`**
+  - `Kepler-277 b` | 2013 | Transit | 17.324 | 2.92
+  - `Kepler-277 c` | 2013 | Transit | 33.006 | 3.36
+- **`Kepler-278`**
+  - `Kepler-278 b` | 2014 | Transit | 30.1556 | 3.955
+  - `Kepler-278 c` | 2014 | Transit | 51.111 | 3.268
+- **`Kepler-279`**
+  - `Kepler-279 b` | 2014 | Transit | 12.309681 | 3.62
+  - `Kepler-279 c` | 2013 | Transit | 35.736 | 4.3
+  - `Kepler-279 d` | 2013 | Transit | 54.414 | 3.1
+  - `Kepler-279 e` | 2025 | Transit | 98.3531 | 4.13
+- **`Kepler-280`**
+  - `Kepler-280 b` | 2014 | Transit | 2.139542 | 1.45
+  - `Kepler-280 c` | 2014 | Transit | 4.807091 | 2.01
+- **`Kepler-281`**
+  - `Kepler-281 b` | 2014 | Transit | 14.646008 | 2.82
+  - `Kepler-281 c` | 2014 | Transit | 36.337373 | 5.31
+  - `Kepler-281 d` | 2021 | Transit | 148.2720032 | 5.93747806
+- **`Kepler-282`**
+  - `Kepler-282 b` | 2014 | Transit | 9.220524 | 1.01
+  - `Kepler-282 c` | 2014 | Transit | 13.638723 | 1.2
+  - `Kepler-282 d` | 2013 | Transit | 24.806 | 2.46
+  - `Kepler-282 e` | 2013 | Transit | 44.347 | 3.1
+- **`Kepler-283`**
+  - `Kepler-283 b` | 2014 | Transit | 11.008151 | 2.13
+  - `Kepler-283 c` | 2014 | Transit | 92.743711 | 1.82
+- **`Kepler-284`**
+  - `Kepler-284 b` | 2014 | Transit | 12.699149 | 2.24
+  - `Kepler-284 c` | 2014 | Transit | 37.514456 | 2.61
+- **`Kepler-285`**
+  - `Kepler-285 b` | 2014 | Transit | 2.633867 | 1.34
+  - `Kepler-285 c` | 2014 | Transit | 6.186676 | 1.12
+- **`Kepler-286`**
+  - `Kepler-286 b` | 2014 | Transit | 1.796302 | 1.24
+  - `Kepler-286 c` | 2014 | Transit | 3.468095 | 1.37
+  - `Kepler-286 d` | 2014 | Transit | 5.914323 | 1.33
+  - `Kepler-286 e` | 2014 | Transit | 29.221289 | 1.77
+- **`Kepler-287`**
+  - `Kepler-287 b` | 2014 | Transit | 20.342199 | 2.33
+  - `Kepler-287 c` | 2014 | Transit | 44.851896 | 3.26
+- **`Kepler-288`**
+  - `Kepler-288 b` | 2014 | Transit | 6.097326 | 1.67
+  - `Kepler-288 c` | 2014 | Transit | 19.305772 | 2.85
+  - `Kepler-288 d` | 2014 | Transit | 56.633742 | 2.67
+- **`Kepler-289`**
+  - `Kepler-289 b` | 2014 | Transit | 34.5383 | 2.49
+  - `Kepler-289 d` | 2014 | Transit | 66.0282 | 3.03
+  - `Kepler-289 c` | 2014 | Transit | 125.8723 | 11.23
+  - `Kepler-289 e` | 2025 | Transit | 330.0716 | 2.94
+- **`Kepler-290`**
+  - `Kepler-290 d` | 2023 | Transit | 0.764017553 | 0.86
+  - `Kepler-290 b` | 2014 | Transit | 14.589347 | 2.25
+  - `Kepler-290 c` | 2014 | Transit | 36.77031 | 2.7
+- **`Kepler-291`**
+  - `Kepler-291 b` | 2014 | Transit | 3.546511 | 2.16
+  - `Kepler-291 c` | 2014 | Transit | 5.700786 | 1.88
+- **`Kepler-292`**
+  - `Kepler-292 b` | 2014 | Transit | 2.580827 | 1.32
+  - `Kepler-292 c` | 2014 | Transit | 3.715335 | 1.47
+  - `Kepler-292 d` | 2014 | Transit | 7.055679 | 2.23
+  - `Kepler-292 e` | 2014 | Transit | 11.97901 | 2.67
+  - `Kepler-292 f` | 2014 | Transit | 20.834237 | 2.35
+- **`Kepler-293`**
+  - `Kepler-293 b` | 2014 | Transit | 19.254196 | 3.07
+  - `Kepler-293 c` | 2014 | Transit | 54.155743 | 3.83
+- **`Kepler-294`**
+  - `Kepler-294 b` | 2014 | Transit | 3.701212 | 1.77
+  - `Kepler-294 c` | 2014 | Transit | 6.6264 | 2.71
+- **`Kepler-295`**
+  - `Kepler-295 b` | 2014 | Transit | 12.645164 | 1.22
+  - `Kepler-295 c` | 2014 | Transit | 21.526258 | 1.17
+  - `Kepler-295 d` | 2014 | Transit | 33.884054 | 1.36
+- **`Kepler-296`**
+  - `Kepler-296 c` | 2014 | Transit | 5.8416366 | 2
+  - `Kepler-296 b` | 2014 | Transit | 10.864384 | 1.61
+  - `Kepler-296 d` | 2014 | Transit | 19.850291 | 2.09
+  - `Kepler-296 e` | 2014 | Transit | 34.14211 | 1.53
+  - `Kepler-296 f` | 2014 | Transit | 63.33627 | 1.8
+- **`Kepler-297`**
+  - `Kepler-297 b` | 2014 | Transit | 38.871826 | 2.87
+  - `Kepler-297 c` | 2014 | Transit | 74.920137 | 6.54
+  - `Kepler-297 d` | 2023 | Transit | 150.0209961 | 7.11899996
+- **`Kepler-298`**
+  - `Kepler-298 b` | 2014 | Transit | 10.475464 | 1.96
+  - `Kepler-298 c` | 2014 | Transit | 22.92881 | 1.93
+  - `Kepler-298 d` | 2014 | Transit | 77.473633 | 2.5
+- **`Kepler-299`**
+  - `Kepler-299 b` | 2014 | Transit | 2.927128 | 1.32
+  - `Kepler-299 c` | 2014 | Transit | 6.885875 | 2.65
+  - `Kepler-299 d` | 2014 | Transit | 15.054786 | 1.86
+  - `Kepler-299 e` | 2014 | Transit | 38.285489 | 1.87
+- **`Kepler-300`**
+  - `Kepler-300 b` | 2014 | Transit | 10.446347 | 1.67
+  - `Kepler-300 c` | 2014 | Transit | 40.714955 | 2.25
+- **`Kepler-301`**
+  - `Kepler-301 b` | 2014 | Transit | 2.508553 | 1.35
+  - `Kepler-301 c` | 2014 | Transit | 5.419026 | 1.35
+  - `Kepler-301 d` | 2014 | Transit | 13.751243 | 1.75
+- **`Kepler-302`**
+  - `Kepler-302 b` | 2014 | Transit | 30.184104 | 4.06
+  - `Kepler-302 c` | 2014 | Transit | 127.282184 | 12.45
+- **`Kepler-303`**
+  - `Kepler-303 b` | 2014 | Transit | 1.937055 | 0.89
+  - `Kepler-303 c` | 2014 | Transit | 7.061149 | 1.14
+- **`Kepler-304`**
+  - `Kepler-304 e` | 2016 | Transit | 1.499146953 | 1.2
+  - `Kepler-304 b` | 2014 | Transit | 3.295709 | 2.86
+  - `Kepler-304 c` | 2014 | Transit | 5.315946 | 2.17
+  - `Kepler-304 d` | 2014 | Transit | 9.653471 | 2.75
+- **`Kepler-305`**
+  - `Kepler-305 e` | 2020 | Transit | 3.20538 | 1.7938153
+  - `Kepler-305 b` | 2013 | Transit | 5.487 | 3.6
+  - `Kepler-305 c` | 2013 | Transit | 8.291 | 3.3
+  - `Kepler-305 d` | 2014 | Transit | 16.74 | 2.76
+- **`Kepler-306`**
+  - `Kepler-306 b` | 2014 | Transit | 4.646186 | 1.52
+  - `Kepler-306 c` | 2014 | Transit | 7.240193 | 2.35
+  - `Kepler-306 d` | 2014 | Transit | 17.326644 | 2.47
+  - `Kepler-306 e` | 2014 | Transit | 44.840975 | 2.27
+- **`Kepler-307`**
+  - `Kepler-307 b` | 2013 | Transit | 10.4208 | 2.43
+  - `Kepler-307 c` | 2013 | Transit | 13.0729 | 2.2
+- **`Kepler-308`**
+  - `Kepler-308 b` | 2014 | Transit | 9.694928 | 2.12
+  - `Kepler-308 c` | 2014 | Transit | 15.38231 | 2.16
+- **`Kepler-309`**
+  - `Kepler-309 b` | 2014 | Transit | 5.923653 | 1.56
+  - `Kepler-309 c` | 2014 | Transit | 105.356383 | 2.51
+- **`Kepler-310`**
+  - `Kepler-310 b` | 2014 | Transit | 13.930698 | 1.19
+  - `Kepler-310 c` | 2014 | Transit | 56.47542 | 3.38
+  - `Kepler-310 d` | 2014 | Transit | 92.876125 | 2.47
+- **`Kepler-311`**
+  - `Kepler-311 b` | 2014 | Transit | 9.176092 | 1.7
+  - `Kepler-311 c` | 2014 | Transit | 19.738286 | 1.43
+  - `Kepler-311 d` | 2023 | Transit | 232.040326 | 2.05
+- **`Kepler-312`**
+  - `Kepler-312 b` | 2014 | Transit | 1.772419 | 1.29
+  - `Kepler-312 c` | 2014 | Transit | 19.747412 | 3.15
+- **`Kepler-313`**
+  - `Kepler-313 b` | 2014 | Transit | 14.970418 | 2.53
+  - `Kepler-313 c` | 2014 | Transit | 32.273273 | 2.57
+- **`Kepler-314`**
+  - `Kepler-314 b` | 2014 | Transit | 2.461069 | 0.83
+  - `Kepler-314 c` | 2014 | Transit | 5.960392 | 2.9
+- **`Kepler-315`**
+  - `Kepler-315 b` | 2014 | Transit | 96.101141 | 3.77
+  - `Kepler-315 c` | 2014 | Transit | 265.469335 | 4.15
+- **`Kepler-316`**
+  - `Kepler-316 b` | 2014 | Transit | 2.240508 | 1.06
+  - `Kepler-316 c` | 2014 | Transit | 6.827766 | 1.16
+- **`Kepler-317`**
+  - `Kepler-317 b` | 2014 | Transit | 5.524242 | 2.09
+  - `Kepler-317 c` | 2014 | Transit | 8.77501 | 1.72
+- **`Kepler-318`**
+  - `Kepler-318 b` | 2014 | Transit | 4.662715 | 4.71
+  - `Kepler-318 c` | 2014 | Transit | 11.815007 | 3.68
+- **`Kepler-319`**
+  - `Kepler-319 b` | 2014 | Transit | 4.362705 | 1.63
+  - `Kepler-319 c` | 2014 | Transit | 6.941357 | 2.63
+  - `Kepler-319 d` | 2014 | Transit | 31.781925 | 2.29
+- **`Kepler-320`**
+  - `Kepler-320 b` | 2014 | Transit | 8.371554 | 1.14
+  - `Kepler-320 c` | 2014 | Transit | 17.934937 | 1.37
+- **`Kepler-321`**
+  - `Kepler-321 b` | 2014 | Transit | 4.915379 | 1.77
+  - `Kepler-321 c` | 2014 | Transit | 13.093921 | 2.32
+- **`Kepler-322`**
+  - `Kepler-322 b` | 2014 | Transit | 1.653888 | 1.01
+  - `Kepler-322 c` | 2014 | Transit | 4.337234 | 1.67
+- **`Kepler-323`**
+  - `Kepler-323 b` | 2014 | Transit | 1.678328 | 1.381
+  - `Kepler-323 c` | 2014 | Transit | 3.5538229 | 1.57
+- **`Kepler-324`**
+  - `Kepler-324 b` | 2014 | Transit | 4.385315 | 1.14
+  - `Kepler-324 e` | 2021 | Transit | 13.97939968 | 2.03862444
+  - `KOI-1831 d` | 2018 | Transit | 34.169 | 1.13
+  - `Kepler-324 c` | 2014 | Transit | 51.805612 | 3.15
+- **`Kepler-325`**
+  - `Kepler-325 b` | 2014 | Transit | 4.544439 | 2.91
+  - `Kepler-325 c` | 2014 | Transit | 12.762172 | 2.54
+  - `Kepler-325 d` | 2014 | Transit | 38.715185 | 2.79
+- **`Kepler-326`**
+  - `Kepler-326 b` | 2014 | Transit | 2.248329 | 1.52
+  - `Kepler-326 c` | 2014 | Transit | 4.580358 | 1.4
+  - `Kepler-326 d` | 2014 | Transit | 6.766888 | 1.21
+- **`Kepler-327`**
+  - `Kepler-327 b` | 2014 | Transit | 2.549575 | 1.11
+  - `Kepler-327 c` | 2014 | Transit | 5.212333 | 1.03
+  - `Kepler-327 d` | 2014 | Transit | 13.969457 | 1.73
+- **`Kepler-328`**
+  - `Kepler-328 b` | 2013 | Transit | 34.921 | 2.3
+  - `Kepler-328 c` | 2013 | Transit | 71.312 | 5.4
+- **`Kepler-329`**
+  - `Kepler-329 b` | 2014 | Transit | 7.416397 | 1.4
+  - `Kepler-329 c` | 2014 | Transit | 18.684737 | 1.93
+- **`Kepler-330`**
+  - `Kepler-330 b` | 2014 | Transit | 8.25978 | 1.35
+  - `Kepler-330 c` | 2014 | Transit | 15.955387 | 1.95
+- **`Kepler-331`**
+  - `Kepler-331 b` | 2014 | Transit | 8.457496 | 1.82
+  - `Kepler-331 c` | 2014 | Transit | 17.28111 | 1.84
+  - `Kepler-331 d` | 2014 | Transit | 32.134328 | 1.64
+- **`Kepler-332`**
+  - `Kepler-332 b` | 2014 | Transit | 7.626324 | 1.17
+  - `Kepler-332 c` | 2014 | Transit | 15.995622 | 1.09
+  - `Kepler-332 d` | 2014 | Transit | 34.21154 | 1.18
+- **`Kepler-333`**
+  - `Kepler-333 b` | 2014 | Transit | 12.551158 | 1.32
+  - `Kepler-333 c` | 2014 | Transit | 24.08821 | 1.11
+- **`Kepler-334`**
+  - `Kepler-334 b` | 2014 | Transit | 5.470319 | 1.12
+  - `Kepler-334 c` | 2014 | Transit | 12.758005 | 1.43
+  - `Kepler-334 d` | 2014 | Transit | 25.09849 | 1.41
+- **`Kepler-335`**
+  - `Kepler-335 b` | 2014 | Transit | 6.562331 | 3.39
+  - `Kepler-335 c` | 2014 | Transit | 67.844469 | 3.07
+- **`Kepler-336`**
+  - `Kepler-336 b` | 2014 | Transit | 2.024823 | 1.02
+  - `Kepler-336 c` | 2014 | Transit | 9.600001 | 2.1
+  - `Kepler-336 d` | 2014 | Transit | 20.678772 | 2.37
+- **`Kepler-337`**
+  - `Kepler-337 b` | 2014 | Transit | 3.292781 | 1.54
+  - `Kepler-337 c` | 2014 | Transit | 9.693201 | 2.05
+- **`Kepler-338`**
+  - `Kepler-338 e` | 2014 | Transit | 9.341 | 1.56
+  - `Kepler-338 b` | 2014 | Transit | 13.726976 | 2.44
+  - `Kepler-338 c` | 2014 | Transit | 24.310856 | 2.34
+  - `Kepler-338 d` | 2014 | Transit | 44.431014 | 3
+- **`Kepler-339`**
+  - `Kepler-339 b` | 2014 | Transit | 4.977656 | 1.42
+  - `Kepler-339 c` | 2014 | Transit | 6.988055 | 1.15
+  - `Kepler-339 d` | 2014 | Transit | 10.558345 | 1.17
+- **`Kepler-340`**
+  - `Kepler-340 b` | 2014 | Transit | 14.844387 | 2.53
+  - `Kepler-340 c` | 2014 | Transit | 22.824669 | 3.37
+- **`Kepler-341`**
+  - `Kepler-341 b` | 2014 | Transit | 5.195528 | 1.18
+  - `Kepler-341 c` | 2014 | Transit | 8.01041 | 1.7
+  - `Kepler-341 d` | 2014 | Transit | 27.666313 | 1.85
+  - `Kepler-341 e` | 2014 | Transit | 42.473269 | 1.99
+- **`Kepler-342`**
+  - `Kepler-342 e` | 2016 | Transit | 1.644224613 | 0.88
+  - `Kepler-342 b` | 2014 | Transit | 15.170318 | 2.25
+  - `Kepler-342 c` | 2014 | Transit | 26.234138 | 1.96
+  - `Kepler-342 d` | 2014 | Transit | 39.459357 | 2.49
+- **`Kepler-343`**
+  - `Kepler-343 b` | 2014 | Transit | 8.96855 | 2.41
+  - `Kepler-343 c` | 2014 | Transit | 23.22182 | 2.02
+- **`Kepler-344`**
+  - `Kepler-344 b` | 2014 | Transit | 21.963945 | 2.61
+  - `Kepler-344 c` | 2014 | Transit | 125.596809 | 2.95
+- **`Kepler-345`**
+  - `Kepler-345 b` | 2014 | Transit | 7.415563 | 0.74
+  - `Kepler-345 c` | 2014 | Transit | 9.387427 | 1.2
+- **`Kepler-346`**
+  - `Kepler-346 b` | 2014 | Transit | 6.511127 | 2.66
+  - `Kepler-346 c` | 2014 | Transit | 23.851549 | 3.07
+
+</details>
+
+<a name="systems-11"></a>
+
+<details><summary>Kepler-347 – Kepler-543 · 180 ระบบ · 302 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`Kepler-347`**
+  - `Kepler-347 b` | 2014 | Transit | 12.79836 | 1.97
+  - `Kepler-347 c` | 2014 | Transit | 27.320871 | 1.75
+  - `Kepler-347 d` | 2023 | Transit | 85.517344 | 3.04
+- **`Kepler-348`**
+  - `Kepler-348 b` | 2014 | Transit | 7.05677 | 1.52
+  - `Kepler-348 c` | 2014 | Transit | 17.265427 | 1.33
+- **`Kepler-349`**
+  - `Kepler-349 b` | 2014 | Transit | 5.929778 | 1.9
+  - `Kepler-349 c` | 2014 | Transit | 12.247629 | 1.96
+- **`Kepler-350`**
+  - `Kepler-350 b` | 2014 | Transit | 11.189562 | 1.85
+  - `Kepler-350 c` | 2013 | Transit | 17.849 | 3.1
+  - `Kepler-350 d` | 2013 | Transit | 26.136 | 2.8
+- **`Kepler-351`**
+  - `Kepler-351 b` | 2014 | Transit | 37.054919 | 3.06
+  - `Kepler-351 c` | 2014 | Transit | 57.24809 | 3.19
+  - `Kepler-351 d` | 2016 | Transit | 142.544247 | 2.72
+- **`Kepler-352`**
+  - `Kepler-352 d` | 2021 | Transit | 6.887279987 | 0.80628032
+  - `Kepler-352 b` | 2014 | Transit | 10.05537 | 0.86
+  - `Kepler-352 c` | 2014 | Transit | 16.332995 | 1.24
+- **`Kepler-353`**
+  - `Kepler-353 b` | 2014 | Transit | 5.795278 | 0.89
+  - `Kepler-353 c` | 2014 | Transit | 8.410894 | 1.38
+- **`Kepler-354`**
+  - `Kepler-354 b` | 2014 | Transit | 5.47666 | 1.84
+  - `Kepler-354 c` | 2014 | Transit | 16.934402 | 1.31
+  - `Kepler-354 d` | 2014 | Transit | 24.209842 | 1.24
+- **`Kepler-355`**
+  - `Kepler-355 b` | 2014 | Transit | 11.03189 | 1.46
+  - `Kepler-355 c` | 2014 | Transit | 25.762294 | 2.71
+- **`Kepler-356`**
+  - `Kepler-356 b` | 2014 | Transit | 4.612696 | 1.57
+  - `Kepler-356 c` | 2014 | Transit | 13.121632 | 1.81
+- **`Kepler-357`**
+  - `Kepler-357 b` | 2014 | Transit | 6.475434 | 1.84
+  - `Kepler-357 c` | 2014 | Transit | 16.85837 | 2.67
+  - `Kepler-357 d` | 2014 | Transit | 49.499875 | 3.43
+- **`Kepler-358`**
+  - `Kepler-358 b` | 2014 | Transit | 34.060467 | 2.72
+  - `Kepler-358 c` | 2014 | Transit | 83.488369 | 2.85
+- **`Kepler-359`**
+  - `Kepler-359 b` | 2014 | Transit | 25.563222 | 3.53
+  - `Kepler-359 c` | 2014 | Transit | 57.68802 | 4.3
+  - `Kepler-359 d` | 2014 | Transit | 77.095691 | 4.01
+- **`Kepler-360`**
+  - `Kepler-360 b` | 2014 | Transit | 3.289672 | 1.65
+  - `Kepler-360 c` | 2014 | Transit | 7.186434 | 2.1
+- **`Kepler-361`**
+  - `Kepler-361 b` | 2014 | Transit | 8.486616 | 1.45
+  - `Kepler-361 c` | 2014 | Transit | 55.188023 | 2.52
+- **`Kepler-362`**
+  - `Kepler-362 b` | 2014 | Transit | 10.327186 | 0.88
+  - `Kepler-362 c` | 2014 | Transit | 37.866281 | 1.45
+- **`Kepler-363`**
+  - `Kepler-363 b` | 2014 | Transit | 3.614568 | 1.16
+  - `Kepler-363 c` | 2014 | Transit | 7.542427 | 1.69
+  - `Kepler-363 d` | 2014 | Transit | 11.932125 | 2.05
+- **`Kepler-364`**
+  - `Kepler-364 b` | 2014 | Transit | 25.745718 | 1.55
+  - `Kepler-364 c` | 2014 | Transit | 59.980627 | 2.15
+- **`Kepler-365`**
+  - `Kepler-365 b` | 2014 | Transit | 10.664903 | 2.04
+  - `Kepler-365 c` | 2014 | Transit | 17.784129 | 1.64
+- **`Kepler-366`**
+  - `Kepler-366 b` | 2014 | Transit | 3.281959 | 1.46
+  - `Kepler-366 c` | 2014 | Transit | 12.51616 | 1.79
+- **`Kepler-367`**
+  - `Kepler-367 b` | 2014 | Transit | 37.815724 | 1.3
+  - `Kepler-367 c` | 2014 | Transit | 53.578637 | 1.2
+- **`Kepler-368`**
+  - `Kepler-368 b` | 2014 | Transit | 26.84768 | 3.26
+  - `Kepler-368 c` | 2014 | Transit | 72.379334 | 3.88
+- **`Kepler-369`**
+  - `Kepler-369 b` | 2014 | Transit | 2.732756 | 1.13
+  - `Kepler-369 c` | 2014 | Transit | 14.871572 | 1.41
+- **`Kepler-370`**
+  - `Kepler-370 b` | 2014 | Transit | 4.57953 | 1.59
+  - `Kepler-370 c` | 2014 | Transit | 19.02293 | 1.91
+- **`Kepler-371`**
+  - `Kepler-371 b` | 2014 | Transit | 34.763278 | 1.89
+  - `Kepler-371 c` | 2014 | Transit | 67.968015 | 1.78
+- **`Kepler-372`**
+  - `Kepler-372 b` | 2014 | Transit | 6.849692 | 1.36
+  - `Kepler-372 c` | 2014 | Transit | 20.053763 | 2.09
+  - `Kepler-372 d` | 2014 | Transit | 30.092568 | 1.69
+- **`Kepler-373`**
+  - `Kepler-373 b` | 2014 | Transit | 5.535309 | 1.36
+  - `Kepler-373 c` | 2014 | Transit | 16.725948 | 1.24
+- **`Kepler-374`**
+  - `Kepler-374 b` | 2014 | Transit | 1.897806 | 1.03
+  - `Kepler-374 c` | 2014 | Transit | 3.282807 | 1.1
+  - `Kepler-374 d` | 2014 | Transit | 5.028219 | 1.31
+- **`Kepler-375`**
+  - `Kepler-375 b` | 2014 | Transit | 12.125934 | 1.45
+  - `Kepler-375 c` | 2014 | Transit | 19.986326 | 2.65
+- **`Kepler-376`**
+  - `Kepler-376 b` | 2014 | Transit | 4.920199 | 1.07
+  - `Kepler-376 c` | 2014 | Transit | 14.172327 | 1.79
+- **`Kepler-377`**
+  - `Kepler-377 b` | 2014 | Transit | 12.509529 | 1.39
+  - `Kepler-377 c` | 2014 | Transit | 27.014976 | 2.06
+- **`Kepler-378`**
+  - `Kepler-378 b` | 2014 | Transit | 16.092361 | 0.75
+  - `Kepler-378 c` | 2014 | Transit | 28.906009 | 0.7
+- **`Kepler-379`**
+  - `Kepler-379 b` | 2014 | Transit | 20.09838 | 1.66
+  - `Kepler-379 c` | 2014 | Transit | 62.784697 | 2.29
+- **`Kepler-380`**
+  - `Kepler-380 b` | 2014 | Transit | 3.930821 | 1.19
+  - `Kepler-380 c` | 2014 | Transit | 7.630004 | 1.27
+- **`Kepler-381`**
+  - `Kepler-381 b` | 2014 | Transit | 5.629021 | 0.99
+  - `Kepler-381 d` | 2021 | Transit | 8.256299973 | 1.0667865
+  - `Kepler-381 c` | 2014 | Transit | 13.391635 | 1.12
+- **`Kepler-382`**
+  - `Kepler-382 b` | 2014 | Transit | 5.262155 | 1.32
+  - `Kepler-382 c` | 2014 | Transit | 12.162701 | 1.59
+- **`Kepler-383`**
+  - `Kepler-383 b` | 2014 | Transit | 12.904532 | 1.32
+  - `Kepler-383 c` | 2014 | Transit | 31.200751 | 1.24
+- **`Kepler-384`**
+  - `Kepler-384 b` | 2014 | Transit | 22.597053 | 1.12
+  - `Kepler-384 c` | 2014 | Transit | 45.348269 | 1.13
+- **`Kepler-385`**
+  - `Kepler-385 b` | 2014 | Transit | 10.043686 | 2.73
+  - `Kepler-385 c` | 2014 | Transit | 15.163161 | 3.04
+  - `Kepler-385 d` | 2020 | Transit | 56.4159 | 2.6186448
+- **`Kepler-386`**
+  - `Kepler-386 b` | 2014 | Transit | 12.31043 | 1.39
+  - `Kepler-386 c` | 2014 | Transit | 25.193458 | 1.58
+- **`Kepler-387`**
+  - `Kepler-387 b` | 2014 | Transit | 6.791636 | 1.03
+  - `Kepler-387 c` | 2014 | Transit | 11.837549 | 0.89
+- **`Kepler-388`**
+  - `Kepler-388 b` | 2014 | Transit | 3.173315 | 0.81
+  - `Kepler-388 c` | 2014 | Transit | 13.297004 | 0.86
+- **`Kepler-389`**
+  - `Kepler-389 b` | 2014 | Transit | 3.244107 | 1.51
+  - `Kepler-389 c` | 2014 | Transit | 14.51143 | 1.46
+- **`Kepler-390`**
+  - `Kepler-390 b` | 2014 | Transit | 6.738088 | 0.82
+  - `Kepler-390 c` | 2014 | Transit | 13.060022 | 0.79
+- **`Kepler-391`**
+  - `Kepler-391 b` | 2014 | Transit | 7.4175 | 2.5
+  - `Kepler-391 c` | 2014 | Transit | 20.501 | 2.88
+- **`Kepler-392`**
+  - `Kepler-392 b` | 2014 | Transit | 5.341853 | 1
+  - `Kepler-392 c` | 2014 | Transit | 10.423118 | 1.1
+- **`Kepler-393`**
+  - `Kepler-393 b` | 2014 | Transit | 9.182417 | 1.29
+  - `Kepler-393 c` | 2014 | Transit | 14.613612 | 1.33
+- **`Kepler-394`**
+  - `Kepler-394 d` | 2021 | Transit | 5.613580227 | 1.50066814
+  - `Kepler-394 b` | 2014 | Transit | 8.005013 | 1.6
+  - `Kepler-394 c` | 2014 | Transit | 12.130686 | 1.66
+- **`Kepler-395`**
+  - `Kepler-395 b` | 2014 | Transit | 7.054346 | 1.03
+  - `Kepler-395 c` | 2014 | Transit | 34.989262 | 1.32
+- **`Kepler-396`**
+  - `Kepler-396 b` | 2013 | Transit | 42.994 | 3.5
+  - `Kepler-396 c` | 2013 | Transit | 88.505 | 5.3
+- **`Kepler-397`**
+  - `Kepler-397 b` | 2014 | Transit | 22.250949 | 2.46
+  - `Kepler-397 c` | 2014 | Transit | 135.498527 | 6.18
+- **`Kepler-398`**
+  - `Kepler-398 b` | 2014 | Transit | 4.081423 | 0.93
+  - `Kepler-398 d` | 2016 | Transit | 6.83437001 | 0.88
+  - `Kepler-398 c` | 2014 | Transit | 11.419412 | 1.01
+- **`Kepler-399`**
+  - `Kepler-399 b` | 2014 | Transit | 14.425281 | 0.96
+  - `Kepler-399 c` | 2014 | Transit | 26.67569 | 1.43
+  - `Kepler-399 d` | 2014 | Transit | 58.034616 | 1.89
+- **`Kepler-400`**
+  - `Kepler-400 b` | 2014 | Transit | 9.024389 | 1.65
+  - `Kepler-400 c` | 2014 | Transit | 17.340824 | 1.49
+- **`Kepler-401`**
+  - `Kepler-401 b` | 2014 | Transit | 14.383035 | 1.71
+  - `Kepler-401 c` | 2014 | Transit | 47.318218 | 2.15
+  - `Kepler-401 d` | 2016 | Transit | 184.256405 | 2.27
+- **`Kepler-402`**
+  - `Kepler-402 b` | 2014 | Transit | 4.028751 | 1.22
+  - `Kepler-402 c` | 2014 | Transit | 6.124821 | 1.56
+  - `Kepler-402 d` | 2014 | Transit | 8.921099 | 1.38
+  - `Kepler-402 e` | 2014 | Transit | 11.242861 | 1.46
+- **`Kepler-403`**
+  - `Kepler-403 b` | 2014 | Transit | 7.031462 | 1.25
+  - `Kepler-403 d` | 2016 | Transit | 13.61159129 | 1.42
+  - `Kepler-403 c` | 2014 | Transit | 54.280749 | 1.75
+- **`Kepler-404`**
+  - `Kepler-404 b` | 2014 | Transit | 11.829851 | 1.27
+  - `Kepler-404 c` | 2014 | Transit | 14.751166 | 1.72
+- **`Kepler-405`**
+  - `Kepler-405 b` | 2014 | Transit | 10.613839 | 2.08
+  - `Kepler-405 c` | 2014 | Transit | 29.726682 | 4.66
+- **`Kepler-406`**
+  - `Kepler-406 b` | 2014 | Transit | 2.42629 | 1.43
+  - `Kepler-406 c` | 2014 | Transit | 4.62332 | 0.85
+- **`Kepler-407`**
+  - `Kepler-407 b` | 2014 | Transit | 0.6693124 | 1.19
+  - `Kepler-407 c` | 2014 | Radial Velocity | 3000 | 12.3
+- **`Kepler-408`**
+  - `Kepler-408 b` | 2014 | Transit | 2.46502 | 0.82
+- **`Kepler-409`**
+  - `Kepler-409 b` | 2014 | Transit | 68.9583216 | 1.199
+- **`Kepler-410`**
+  - ดาวแม่ `Kepler-410 A`
+    - `Kepler-410 A b` | 2013 | Transit | 17.833648 | 2.838
+- **`Kepler-411`**
+  - `Kepler-411 b` | 2013 | Transit | 3.005156 | 2.401
+  - `Kepler-411 c` | 2016 | Transit | 7.834435 | 4.421
+  - `Kepler-411 e` | 2018 | Transit Timing Variations | 31.509728 | 3.28
+  - `Kepler-411 d` | 2018 | Transit | 58.02035 | 3.319
+- **`Kepler-412`**
+  - `Kepler-412 b` | 2014 | Transit | 1.7208604 | 15.031269
+- **`Kepler-413`**
+  - `Kepler-413 b` CB | 2014 | Transit | 66.262 | 4.347
+- **`Kepler-414`**
+  - `Kepler-414 b` | 2014 | Transit | 4.7 | 1.71
+  - `Kepler-414 c` | 2014 | Transit | 7.171 | 3.01
+- **`Kepler-415`**
+  - `Kepler-415 b` | 2014 | Transit | 4.176 | 1.21
+  - `Kepler-415 c` | 2014 | Transit | 8.708 | 2.01
+- **`Kepler-416`**
+  - `Kepler-416 d` | 2023 | Transit | 3.07644709 | 1.61
+  - `Kepler-416 b` | 2014 | Transit | 6.319 | 2.48
+  - `Kepler-416 c` | 2014 | Transit | 12.209 | 2.352
+- **`Kepler-417`**
+  - `Kepler-417 b` | 2014 | Transit | 12.331 | 2.31
+  - `Kepler-417 c` | 2014 | Transit | 15.943 | 2.69
+- **`Kepler-418`**
+  - `Kepler-418 c` | 2021 | Transit | 12.21829987 | 5.22108654
+  - `Kepler-418 b` | 2014 | Transit | 86.67856 | 13.45
+- **`Kepler-419`**
+  - `Kepler-419 b` | 2014 | Transit | 69.7546 | 10.8
+  - `Kepler-419 c` | 2014 | Transit Timing Variations | 675.47 | 12.6
+- **`Kepler-421`**
+  - `Kepler-421 b` | 2014 | Transit | 704.1984 | 4.16
+- **`Kepler-422`**
+  - `Kepler-422 b` | 2014 | Transit | 7.8914483 | 12.89
+- **`Kepler-423`**
+  - `Kepler-423 b` | 2014 | Transit | 2.6843285 | 13.361
+- **`Kepler-424`**
+  - `Kepler-424 b` | 2014 | Transit | 3.3118644 | 9.98
+  - `Kepler-424 c` | 2014 | Radial Velocity | 223.3 | 12.7
+- **`Kepler-425`**
+  - `Kepler-425 b` | 2014 | Transit | 3.79701816 | 10.962
+- **`Kepler-426`**
+  - `Kepler-426 b` | 2014 | Transit | 3.21751883 | 12.22
+- **`Kepler-427`**
+  - `Kepler-427 b` | 2014 | Transit | 10.290994 | 13.79
+- **`Kepler-428`**
+  - `Kepler-428 b` | 2014 | Transit | 3.52563254 | 12.11
+- **`Kepler-430`**
+  - `Kepler-430 b` | 2015 | Transit | 35.968 | 3.25
+  - `Kepler-430 c` | 2015 | Transit | 110.979 | 1.75
+- **`Kepler-431`**
+  - `Kepler-431 b` | 2015 | Transit | 6.803 | 0.764
+  - `Kepler-431 c` | 2015 | Transit | 8.703 | 0.668
+  - `Kepler-431 d` | 2015 | Transit | 11.922 | 1.11
+- **`Kepler-432`**
+  - `Kepler-432 b` | 2015 | Transit | 52.501129 | 12.834305
+  - `Kepler-432 c` | 2015 | Radial Velocity | 406.2 | 13.3
+- **`Kepler-433`**
+  - `Kepler-433 b` | 2015 | Transit | 5.33408384 | 16.25
+- **`Kepler-434`**
+  - `Kepler-434 b` | 2015 | Transit | 12.8747099 | 12.67
+- **`Kepler-435`**
+  - `Kepler-435 b` | 2015 | Transit | 8.6001536 | 22.31
+- **`Kepler-436`**
+  - `Kepler-436 c` | 2016 | Transit | 16.79713874 | 2.33
+  - `Kepler-436 b` | 2015 | Transit | 64.00205 | 2.73
+- **`Kepler-437`**
+  - `Kepler-437 b` | 2015 | Transit | 66.65062 | 2.14
+- **`Kepler-438`**
+  - `Kepler-438 b` | 2015 | Transit | 35.23319 | 1.12
+- **`Kepler-439`**
+  - `Kepler-439 b` | 2015 | Transit | 178.1396 | 2.24
+- **`Kepler-440`**
+  - `Kepler-440 b` | 2015 | Transit | 101.11141 | 1.86
+- **`Kepler-441`**
+  - `Kepler-441 b` | 2015 | Transit | 207.2482 | 1.64
+- **`Kepler-442`**
+  - `Kepler-442 b` | 2015 | Transit | 112.3053 | 1.34
+- **`Kepler-443`**
+  - `Kepler-443 b` | 2015 | Transit | 177.6693 | 2.33
+- **`Kepler-444`**
+  - `Kepler-444 b` | 2015 | Transit | 3.6001053 | 0.403
+  - `Kepler-444 c` | 2015 | Transit | 4.5458841 | 0.497
+  - `Kepler-444 d` | 2015 | Transit | 6.189392 | 0.53
+  - `Kepler-444 e` | 2015 | Transit | 7.743493 | 0.546
+  - `Kepler-444 f` | 2015 | Transit | 9.740486 | 0.741
+- **`Kepler-445`**
+  - `Kepler-445 b` | 2015 | Transit | 2.984151 | 1.58
+  - `Kepler-445 c` | 2015 | Transit | 4.871229 | 2.51
+  - `Kepler-445 d` | 2015 | Transit | 8.15275 | 1.25
+- **`Kepler-446`**
+  - `Kepler-446 b` | 2015 | Transit | 1.565409 | 1.5
+  - `Kepler-446 c` | 2015 | Transit | 3.036179 | 1.11
+  - `Kepler-446 d` | 2015 | Transit | 5.148921 | 1.35
+- **`Kepler-447`**
+  - `Kepler-447 b` | 2015 | Transit | 7.79430132 | 18.49
+- **`Kepler-449`**
+  - `Kepler-449 b` | 2015 | Transit | 12.58242 | 2.056
+  - `Kepler-449 c` | 2015 | Transit | 33.6727 | 2.764
+- **`Kepler-450`**
+  - `Kepler-450 d` | 2015 | Transit | 7.51464 | 0.837
+  - `Kepler-450 c` | 2015 | Transit | 15.413135 | 2.62
+  - `Kepler-450 b` | 2015 | Transit | 28.454851 | 6.14
+- **`Kepler-452`**
+  - `Kepler-452 b` † | 2015 | Transit | 384.843 | 1.63
+- **`Kepler-453`**
+  - `Kepler-453 b` CB | 2015 | Transit | 240.503 | 6.204
+- **`Kepler-454`**
+  - `Kepler-454 b` | 2015 | Transit | 10.5737534 | 2.37
+  - `Kepler-454 c` | 2015 | Radial Velocity | 524.19 | 12.9
+  - `Kepler-454 d` | 2023 | Radial Velocity | 4073 | 13.3
+- **`Kepler-461`**
+  - `Kepler-461 b` | 2016 | Transit | 8.313783059 | 2.58
+- **`Kepler-462`**
+  - `Kepler-462 b` | 2016 | Transit | 84.6866 | 3
+  - `Kepler-462 c` | 2018 | Transit | 207.62 | 4
+- **`Kepler-463`**
+  - `Kepler-463 b` | 2016 | Transit | 8.981016833 | 3.05
+- **`Kepler-464`**
+  - `Kepler-464 b` | 2016 | Transit | 7.256965224 | 3.3
+- **`Kepler-465`**
+  - `Kepler-465 b` | 2016 | Transit | 9.940672466 | 2.95
+- **`Kepler-466`**
+  - `Kepler-466 c` | 2016 | Transit | 3.709213846 | 1.25
+  - `Kepler-466 b` | 2016 | Transit | 51.07926307 | 2.85
+- **`Kepler-467`**
+  - `Kepler-467 b` | 2016 | Transit | 24.99324193 | 2.25
+- **`Kepler-468`**
+  - `Kepler-468 b` | 2016 | Transit | 38.478757067 | 13.34
+- **`Kepler-471`**
+  - `Kepler-471 b` | 2016 | Transit | 5.014234575 | 14.96
+- **`Kepler-472`**
+  - `Kepler-472 b` | 2016 | Transit | 4.176255514 | 3.22
+- **`Kepler-473`**
+  - `Kepler-473 b` | 2016 | Transit | 14.55731705 | 4.08
+- **`Kepler-474`**
+  - `Kepler-474 b` | 2016 | Transit | 5.660672935 | 3.06
+- **`Kepler-475`**
+  - `Kepler-475 b` | 2016 | Transit | 3.105508189 | 2.49
+- **`Kepler-476`**
+  - `Kepler-476 b` | 2016 | Transit | 14.00640607 | 3.08
+- **`Kepler-477`**
+  - `Kepler-477 b` | 2016 | Transit | 11.11990653 | 2.07
+- **`Kepler-478`**
+  - `Kepler-478 b` | 2016 | Transit | 13.2217576 | 2.71
+- **`Kepler-479`**
+  - `Kepler-479 b` | 2016 | Transit | 12.49341307 | 2.12
+- **`Kepler-480`**
+  - `Kepler-480 b` | 2016 | Transit | 4.919583795 | 2.78
+- **`Kepler-481`**
+  - `Kepler-481 b` | 2016 | Transit | 10.06082567 | 2.5
+- **`Kepler-482`**
+  - `Kepler-482 b` | 2016 | Transit | 56.35418576 | 2.36
+- **`Kepler-483`**
+  - `Kepler-483 b` | 2016 | Transit | 30.229104 | 3.21
+- **`Kepler-484`**
+  - `Kepler-484 b` | 2016 | Transit | 10.045569313 | 2.28
+- **`Kepler-485`**
+  - `Kepler-485 b` | 2016 | Transit | 3.243259796 | 14.41
+- **`Kepler-487`**
+  - `Kepler-487 d` | 2021 | Transit | 2.418390036 | 2.77513568
+  - `Kepler-487 b` | 2016 | Transit | 15.358768403 | 11.42
+  - `Kepler-487 c` | 2016 | Transit | 38.6519976 | 2.68
+- **`Kepler-489`**
+  - `Kepler-489 b` | 2016 | Transit | 17.276296119 | 7.72
+- **`Kepler-490`**
+  - `Kepler-490 b` | 2016 | Transit | 3.268695154 | 11.65
+- **`Kepler-491`**
+  - `Kepler-491 b` | 2016 | Transit | 4.225384512 | 8.92
+- **`Kepler-493`**
+  - `Kepler-493 b` | 2016 | Transit | 3.003876581 | 15.13
+- **`Kepler-495`**
+  - `Kepler-495 b` | 2016 | Transit | 3.413036221 | 5.23
+  - `Kepler-495 c` | 2021 | Transit | 5.896609783 | 1.21936414
+- **`Kepler-496`**
+  - `Kepler-496 b` | 2016 | Transit | 8.30864937 | 2.32
+- **`Kepler-497`**
+  - `Kepler-497 b` | 2016 | Transit | 3.573203671 | 6.04
+- **`Kepler-498`**
+  - `Kepler-498 b` | 2016 | Transit | 9.61375356 | 3.03
+- **`Kepler-499`**
+  - `Kepler-499 b` | 2016 | Transit | 5.632528453 | 2.17
+- **`Kepler-500`**
+  - `Kepler-500 b` | 2016 | Transit | 8.508324398 | 2.58
+- **`Kepler-501`**
+  - `Kepler-501 c` | 2021 | Transit | 3.622760057 | 1.68119739
+  - `Kepler-501 b` | 2016 | Transit | 5.640677572 | 4.3
+- **`Kepler-502`**
+  - `Kepler-502 b` | 2016 | Transit | 4.28686431 | 4.77
+- **`Kepler-504`**
+  - `Kepler-504 b` | 2016 | Transit | 9.549275422 | 1.59
+- **`Kepler-505`**
+  - `Kepler-505 b` | 2016 | Transit | 27.52197994 | 2.6
+- **`Kepler-506`**
+  - `Kepler-506 b` | 2016 | Transit | 6.8834055 | 2.73
+- **`Kepler-507`**
+  - `Kepler-507 b` | 2016 | Transit | 3.568096926 | 1.3
+- **`Kepler-508`**
+  - `Kepler-508 b` | 2016 | Transit | 25.30889748 | 1.64
+- **`Kepler-509`**
+  - `Kepler-509 b` | 2016 | Transit | 41.74600392 | 2.49
+- **`Kepler-510`**
+  - `Kepler-510 b` | 2016 | Transit | 19.55659418 | 2.47
+- **`Kepler-511`**
+  - `Kepler-511 c` | 2021 | Transit | 26.62949944 | 4.20964327
+  - `Kepler-511 b` | 2016 | Transit | 296.637865 | 6.35
+- **`Kepler-512`**
+  - `Kepler-512 b` | 2016 | Transit | 34.43587975 | 2.69
+- **`Kepler-513`**
+  - `Kepler-513 b` | 2016 | Transit | 28.86235584 | 2.2
+- **`Kepler-514`**
+  - `Kepler-514 b` | 2016 | Transit | 5.65179605 | 1.72
+- **`Kepler-515`**
+  - `Kepler-515 b` | 2016 | Transit | 19.96371318 | 1.46
+- **`Kepler-516`**
+  - `Kepler-516 b` | 2016 | Transit | 24.85462415 | 5.74
+- **`Kepler-517`**
+  - `Kepler-517 b` | 2016 | Transit | 60.92832271 | 2.67
+- **`Kepler-518`**
+  - `Kepler-518 b` | 2016 | Transit | 8.512035877 | 2.11
+- **`Kepler-519`**
+  - `Kepler-519 b` | 2016 | Transit | 24.3078946 | 2.1
+- **`Kepler-520`**
+  - `Kepler-520 c` | 2016 | Transit | 5.21104261 | 1.07
+  - `Kepler-520 b` | 2016 | Transit | 19.67416124 | 1.66
+- **`Kepler-521`**
+  - `Kepler-521 b` | 2016 | Transit | 22.20813214 | 3.18
+- **`Kepler-522`**
+  - `Kepler-522 b` | 2016 | Transit | 38.58422849 | 6.91
+- **`Kepler-523`**
+  - `Kepler-523 b` | 2016 | Transit | 5.835983111 | 1.96
+- **`Kepler-524`**
+  - `Kepler-524 c` | 2016 | Transit | 1.88897906 | 0.96
+  - `Kepler-524 b` | 2016 | Transit | 7.97419807 | 1.91
+- **`Kepler-525`**
+  - `Kepler-525 b` | 2016 | Transit | 18.68404933 | 2.63
+- **`Kepler-526`**
+  - `Kepler-526 b` | 2016 | Transit | 5.458498316 | 1.99
+- **`Kepler-527`**
+  - `Kepler-527 b` | 2016 | Transit | 13.28535633 | 2.84
+- **`Kepler-528`**
+  - `Kepler-528 b` | 2016 | Transit | 19.78297415 | 2.08
+- **`Kepler-529`**
+  - `Kepler-529 b` | 2016 | Transit | 1.980357663 | 1.86
+  - `Kepler-529 c` | 2016 | Transit | 12.8345022 | 2
+  - `Kepler-529 d` | 2021 | Transit | 35.86619949 | 2.79502603
+- **`Kepler-530`**
+  - `Kepler-530 b` | 2016 | Transit | 39.30941904 | 3.01
+- **`Kepler-531`**
+  - `Kepler-531 b` | 2016 | Transit | 29.88485741 | 2.78
+- **`Kepler-532`**
+  - `Kepler-532 b` | 2016 | Transit | 12.92491623 | 2.57
+- **`Kepler-533`**
+  - `Kepler-533 b` | 2016 | Transit | 28.51120525 | 3.38
+- **`Kepler-534`**
+  - `Kepler-534 c` | 2021 | Transit | 7.378689766 | 1.227
+  - `Kepler-534 b` | 2016 | Transit | 15.95994513 | 2.24
+- **`Kepler-535`**
+  - `Kepler-535 b` | 2016 | Transit | 4.903321551 | 2.36
+- **`Kepler-536`**
+  - `Kepler-536 b` | 2016 | Transit | 1.827082299 | 3.1
+- **`Kepler-537`**
+  - `Kepler-537 b` | 2016 | Transit | 3.247555219 | 1.41
+- **`Kepler-538`**
+  - `Kepler-538 b` | 2016 | Transit | 81.73778 | 2.215
+- **`Kepler-539`**
+  - `Kepler-539 b` | 2016 | Transit | 125.63243 | 8.373123
+  - `Kepler-539 c` | 2016 | Transit Timing Variations | >1000 | 13.3
+- **`Kepler-540`**
+  - `Kepler-540 b` | 2016 | Transit | 172.7049784 | 2.71
+- **`Kepler-541`**
+  - `Kepler-541 b` | 2016 | Transit | 5.08005848 | 3.36
+- **`Kepler-542`**
+  - `Kepler-542 b` | 2016 | Transit | 13.14497566 | 1.57
+- **`Kepler-543`**
+  - `Kepler-543 b` | 2016 | Transit | 13.89961966 | 2.5
+
+</details>
+
+<a name="systems-12"></a>
+
+<details><summary>Kepler-544 – Kepler-726 · 180 ระบบ · 205 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`Kepler-544`**
+  - `Kepler-544 b` | 2016 | Transit | 21.41616926 | 2.12
+- **`Kepler-545`**
+  - `Kepler-545 b` | 2016 | Transit | 13.24934059 | 2.69
+- **`Kepler-546`**
+  - `Kepler-546 b` | 2016 | Transit | 4.147020258 | 7
+- **`Kepler-547`**
+  - `Kepler-547 b` | 2016 | Transit | 6.010384289 | 4
+- **`Kepler-548`**
+  - `Kepler-548 b` | 2016 | Transit | 4.454194338 | 11.99
+- **`Kepler-549`**
+  - `Kepler-549 d` | 2023 | Transit | 24.61480613 | 4.2
+  - `Kepler-549 b` | 2016 | Transit | 42.9495649 | 2.57
+  - `Kepler-549 c` | 2016 | Transit | 117.040498 | 2.93
+- **`Kepler-550`**
+  - `Kepler-550 b` | 2016 | Transit | 8.600104109 | 4.42
+- **`Kepler-551`**
+  - `Kepler-551 b` | 2016 | Transit | 12.3764661 | 2.73
+- **`Kepler-552`**
+  - `Kepler-552 b` | 2016 | Transit | 5.263415765 | 3.95
+- **`Kepler-553`**
+  - `Kepler-553 b` | 2016 | Transit | 4.030467 | 4.74139884
+  - `Kepler-553 c` | 2016 | Transit | 328.24017 | 11.57887706
+- **`Kepler-554`**
+  - `Kepler-554 b` | 2016 | Transit | 1.902208556 | 4.29
+- **`Kepler-555`**
+  - `Kepler-555 b` | 2016 | Transit | 16.21775407 | 2.83
+- **`Kepler-556`**
+  - `Kepler-556 b` | 2016 | Transit | 11.72292176 | 2.24
+- **`Kepler-557`**
+  - `Kepler-557 b` | 2016 | Transit | 3.705989551 | 2.67
+- **`Kepler-558`**
+  - `Kepler-558 b` | 2016 | Transit | 29.00790538 | 2.37
+- **`Kepler-559`**
+  - `Kepler-559 b` | 2016 | Transit | 17.58752333 | 3.61
+- **`Kepler-560`**
+  - `Kepler-560 b` | 2016 | Transit | 18.47764449 | 1.72
+- **`Kepler-561`**
+  - `Kepler-561 c` | 2016 | Transit | 5.350161983 | 2.68
+  - `Kepler-561 b` | 2016 | Transit | 58.3620495 | 6.96
+- **`Kepler-562`**
+  - `Kepler-562 b` | 2016 | Transit | 18.009314436 | 5.21
+- **`Kepler-563`**
+  - `Kepler-563 b` | 2016 | Transit | 22.18432708 | 3.09
+- **`Kepler-564`**
+  - `Kepler-564 b` | 2016 | Transit | 3.750832285 | 4.63
+- **`Kepler-565`**
+  - `Kepler-565 b` | 2016 | Transit | 4.243747226 | 3.64
+- **`Kepler-566`**
+  - `Kepler-566 b` | 2016 | Transit | 18.42794624 | 2.15
+- **`Kepler-567`**
+  - `Kepler-567 b` | 2016 | Transit | 16.54297375 | 2.25
+- **`Kepler-568`**
+  - `Kepler-568 b` | 2016 | Transit | 11.02347475 | 2.26
+- **`Kepler-569`**
+  - `Kepler-569 b` | 2016 | Transit | 34.18890521 | 3.16
+- **`Kepler-570`**
+  - `Kepler-570 b` | 2016 | Transit | 4.301662003 | 2.45
+- **`Kepler-571`**
+  - `Kepler-571 b` | 2016 | Transit | 4.798599388 | 2.64
+- **`Kepler-572`**
+  - `Kepler-572 b` | 2016 | Transit | 17.20523483 | 2.58
+- **`Kepler-573`**
+  - `Kepler-573 b` | 2016 | Transit | 22.18329658 | 2.79
+- **`Kepler-574`**
+  - `Kepler-574 b` | 2016 | Transit | 7.65880414 | 2.39
+- **`Kepler-575`**
+  - `Kepler-575 b` | 2016 | Transit | 9.37891944 | 2.39
+- **`Kepler-576`**
+  - `Kepler-576 b` | 2016 | Transit | 29.91136794 | 3.27
+- **`Kepler-577`**
+  - `Kepler-577 b` | 2016 | Transit | 25.69578251 | 2.55
+- **`Kepler-578`**
+  - `Kepler-578 b` | 2016 | Transit | 1.616883696 | 2
+- **`Kepler-579`**
+  - `Kepler-579 b` | 2016 | Transit | 9.66857723 | 2
+- **`Kepler-580`**
+  - `Kepler-580 b` | 2016 | Transit | 8.222419656 | 2.57
+- **`Kepler-581`**
+  - `Kepler-581 b` | 2016 | Transit | 40.6069821 | 2.63
+- **`Kepler-582`**
+  - `Kepler-582 b` | 2016 | Transit | 18.49235668 | 3.68
+- **`Kepler-583`**
+  - `Kepler-583 b` | 2016 | Transit | 6.5100253 | 2.28
+- **`Kepler-584`**
+  - `Kepler-584 b` | 2016 | Transit | 35.1810304 | 4.21
+- **`Kepler-585`**
+  - `Kepler-585 b` | 2016 | Transit | 2.752359753 | 2.83
+- **`Kepler-586`**
+  - `Kepler-586 b` | 2016 | Transit | 2.104722184 | 2.79
+- **`Kepler-587`**
+  - `Kepler-587 b` | 2016 | Transit | 10.94027841 | 2.23
+- **`Kepler-588`**
+  - `Kepler-588 b` | 2016 | Transit | 4.221625357 | 2.63
+- **`Kepler-589`**
+  - `Kepler-589 c` | 2021 | Transit | 3.52466011 | 1.11727238
+  - `Kepler-589 b` | 2016 | Transit | 16.54964934 | 2.27
+- **`Kepler-590`**
+  - `Kepler-590 b` | 2016 | Transit | 5.85296257 | 4.02
+- **`Kepler-591`**
+  - `Kepler-591 b` | 2016 | Transit | 81.1694299 | 3.39
+- **`Kepler-592`**
+  - `Kepler-592 b` | 2016 | Transit | 2.820192408 | 2.39
+- **`Kepler-593`**
+  - `Kepler-593 b` | 2016 | Transit | 21.21708973 | 2.87
+- **`Kepler-594`**
+  - `Kepler-594 b` | 2016 | Transit | 13.64618192 | 2.18
+- **`Kepler-595`**
+  - `Kepler-595 c` | 2020 | Transit | 12.38602 | 1.009
+  - `Kepler-595 b` | 2016 | Transit | 25.3029092 | 3.708
+- **`Kepler-596`**
+  - `Kepler-596 b` | 2016 | Transit | 21.30022655 | 3.46
+- **`Kepler-597`**
+  - `Kepler-597 b` | 2016 | Transit | 13.02365861 | 2.37
+- **`Kepler-598`**
+  - `Kepler-598 b` | 2016 | Transit | 3.70175428 | 1.5
+  - `Kepler-598 c` | 2020 | Transit | 86.4945 | 3.02420941
+- **`Kepler-599`**
+  - `Kepler-599 b` | 2016 | Transit | 15.65562652 | 2.84
+- **`Kepler-600`**
+  - `Kepler-600 b` | 2016 | Transit | 23.67517607 | 2.9
+- **`Kepler-601`**
+  - `Kepler-601 b` | 2016 | Transit | 5.378868441 | 1.9
+- **`Kepler-602`**
+  - `Kepler-602 b` | 2016 | Transit | 15.28469497 | 2.09
+- **`Kepler-603`**
+  - `Kepler-603 d` | 2016 | Transit | 6.2171292 | 1.32
+  - `Kepler-603 b` | 2016 | Transit | 21.05358596 | 2.65
+  - `Kepler-603 c` | 2016 | Transit | 127.9075774 | 6.5
+- **`Kepler-604`**
+  - `Kepler-604 b` | 2016 | Transit | 25.85501786 | 2.59
+- **`Kepler-605`**
+  - `Kepler-605 c` | 2016 | Transit | 2.358951515 | 0.86
+  - `Kepler-605 b` | 2016 | Transit | 3.383538066 | 1.44
+- **`Kepler-606`**
+  - `Kepler-606 b` | 2016 | Transit | 24.31575992 | 3.31
+- **`Kepler-607`**
+  - `Kepler-607 b` | 2016 | Transit | 0.638163204 | 0.87
+  - `Kepler-607 c` | 2021 | Transit | 39.67679977 | 2.76001201
+- **`Kepler-608`**
+  - `Kepler-608 b` | 2016 | Transit | 6.412515037 | 3.64
+- **`Kepler-609`**
+  - `Kepler-609 b` | 2016 | Transit | 6.521210666 | 3.35
+- **`Kepler-610`**
+  - `Kepler-610 b` | 2016 | Transit | 6.996926554 | 4.19
+  - `Kepler-610 c` | 2016 | Transit | 151.86392 | 3.3
+- **`Kepler-611`**
+  - `Kepler-611 b` | 2016 | Transit | 2.437033302 | 1.65
+- **`Kepler-612`**
+  - `Kepler-612 b` | 2016 | Transit | 3.722156413 | 2.84
+- **`Kepler-613`**
+  - `Kepler-613 b` | 2016 | Transit | 15.77979614 | 2.29
+- **`Kepler-614`**
+  - `Kepler-614 b` | 2016 | Transit | 14.03491514 | 2.39
+- **`Kepler-615`**
+  - `Kepler-615 b` | 2016 | Transit | 10.35584657 | 1.74
+- **`Kepler-616`**
+  - `Kepler-616 b` | 2016 | Transit | 9.99761851 | 2.43
+  - `Kepler-616 d` | 2021 | Transit | 51.06740189 | 2.653
+  - `Kepler-616 c` | 2016 | Transit | 90.4113556 | 3.41
+- **`Kepler-617`**
+  - `Kepler-617 b` | 2016 | Transit | 1.682696148 | 1.32
+- **`Kepler-618`**
+  - `Kepler-618 b` | 2016 | Transit | 3.595769645 | 2.6
+- **`Kepler-619`**
+  - `Kepler-619 c` | 2016 | Transit | 1.208465026 | 1.69
+  - `Kepler-619 b` | 2016 | Transit | 5.404272197 | 3.16
+  - `Kepler-619 d` | 2023 | Transit | 11.67894236 | 4.17
+- **`Kepler-620`**
+  - `Kepler-620 b` | 2016 | Transit | 12.91375431 | 3.32
+- **`Kepler-621`**
+  - `Kepler-621 b` | 2016 | Transit | 2.628113746 | 2.3
+- **`Kepler-622`**
+  - `Kepler-622 b` | 2016 | Transit | 14.28226676 | 2.13
+- **`Kepler-623`**
+  - `Kepler-623 b` | 2016 | Transit | 9.07097734 | 3.01
+- **`Kepler-624`**
+  - `Kepler-624 b` | 2016 | Transit | 14.58649607 | 2.31
+- **`Kepler-625`**
+  - `Kepler-625 c` | 2016 | Transit | 4.1653651 | 1.05
+  - `Kepler-625 b` | 2016 | Transit | 7.75192492 | 1.99
+- **`Kepler-626`**
+  - `Kepler-626 b` | 2016 | Transit | 14.48585199 | 2.29
+- **`Kepler-627`**
+  - `Kepler-627 b` | 2016 | Transit | 40.6994443 | 3.73
+- **`Kepler-629`**
+  - `Kepler-629 b` | 2016 | Transit | 7.2385854 | 1.38
+- **`Kepler-630`**
+  - `Kepler-630 b` | 2016 | Transit | 161.4743937 | 3.18
+- **`Kepler-631`**
+  - `Kepler-631 b` | 2016 | Transit | 17.97979059 | 2.9
+- **`Kepler-632`**
+  - `Kepler-632 b` | 2016 | Transit | 30.99660733 | 2.21
+- **`Kepler-633`**
+  - `Kepler-633 b` | 2016 | Transit | 8.50340718 | 1.63
+  - `Kepler-633 c` | 2021 | Transit | 23.78319931 | 2.296
+- **`Kepler-634`**
+  - `Kepler-634 b` | 2016 | Transit | 5.16950177 | 1.89
+- **`Kepler-635`**
+  - `Kepler-635 b` | 2016 | Transit | 23.44971004 | 2.64
+- **`Kepler-636`**
+  - `Kepler-636 b` | 2016 | Transit | 16.080661147 | 4.45
+- **`Kepler-637`**
+  - `Kepler-637 b` | 2016 | Transit | 23.20584623 | 4.75
+- **`Kepler-638`**
+  - `Kepler-638 b` | 2016 | Transit | 6.07972888 | 1.83
+- **`Kepler-639`**
+  - `Kepler-639 b` | 2016 | Transit | 10.21420496 | 2.38
+- **`Kepler-640`**
+  - `Kepler-640 b` | 2016 | Transit | 22.24813967 | 2.56
+- **`Kepler-641`**
+  - `Kepler-641 b` | 2016 | Transit | 9.48961571 | 1.85
+- **`Kepler-642`**
+  - `Kepler-642 b` | 2016 | Transit | 4.41745855 | 2.9
+- **`Kepler-643`**
+  - `Kepler-643 b` | 2016 | Transit | 16.33889626 | 10.16
+- **`Kepler-644`**
+  - `Kepler-644 b` | 2016 | Transit | 3.173917103 | 3.15
+- **`Kepler-645`**
+  - `Kepler-645 b` | 2016 | Transit | 3.275822621 | 2.1
+- **`Kepler-646`**
+  - `Kepler-646 b` | 2016 | Transit | 15.87364565 | 1.99
+- **`Kepler-647`**
+  - `Kepler-647 b` | 2016 | Transit | 16.2254649 | 1.17
+  - `Kepler-647 c` | 2020 | Transit | 29.6663 | 4.00135002
+- **`Kepler-648`**
+  - `Kepler-648 b` | 2016 | Transit | 17.4211749 | 3.22
+- **`Kepler-649`**
+  - `Kepler-649 b` | 2016 | Transit | 29.90722674 | 2.26
+- **`Kepler-650`**
+  - `Kepler-650 b` | 2016 | Transit | 3.032145588 | 2.96
+- **`Kepler-651`**
+  - `Kepler-651 b` | 2016 | Transit | 21.38521506 | 2.37
+- **`Kepler-652`**
+  - `Kepler-652 b` | 2016 | Transit | 4.182002531 | 2.49
+- **`Kepler-653`**
+  - `Kepler-653 c` | 2016 | Transit | 0.900376476 | 0.78
+  - `Kepler-653 b` | 2016 | Transit | 14.70748976 | 1.95
+- **`Kepler-654`**
+  - `Kepler-654 b` | 2016 | Transit | 13.72465129 | 2.07
+- **`Kepler-655`**
+  - `Kepler-655 b` | 2016 | Transit | 46.4063358 | 2.71
+- **`Kepler-656`**
+  - `Kepler-656 b` | 2016 | Transit | 1.260259094 | 3.12
+  - `Kepler-656 c` | 2023 | Transit | 5.25449393 | 1.41
+- **`Kepler-657`**
+  - `Kepler-657 b` | 2016 | Transit | 24.54350418 | 3.52
+- **`Kepler-658`**
+  - `Kepler-658 b` | 2016 | Transit | 1.287076762 | 1.63
+- **`Kepler-659`**
+  - `Kepler-659 b` | 2016 | Transit | 17.671796 | 2.5
+- **`Kepler-660`**
+  - `Kepler-660 b` | 2016 | Transit | 9.27358194 | 2.57
+- **`Kepler-661`**
+  - `Kepler-661 b` | 2016 | Transit | 6.029301321 | 3.07
+- **`Kepler-662`**
+  - `Kepler-662 b` | 2016 | Transit | 21.67697486 | 2.18
+- **`Kepler-663`**
+  - `Kepler-663 b` | 2016 | Transit | 4.99678284 | 2.6
+- **`Kepler-664`**
+  - `Kepler-664 b` | 2016 | Transit | 2.525593315 | 2.66
+- **`Kepler-665`**
+  - `Kepler-665 b` | 2016 | Transit | 16.01310205 | 2.6
+- **`Kepler-666`**
+  - `Kepler-666 b` | 2016 | Transit | 4.49876092 | 2.4
+- **`Kepler-667`**
+  - `Kepler-667 b` | 2016 | Transit | 41.43962808 | 4.73
+- **`Kepler-668`**
+  - `Kepler-668 b` | 2016 | Transit | 8.35390639 | 2.7
+- **`Kepler-669`**
+  - `Kepler-669 b` | 2016 | Transit | 4.125546869 | 4.83
+- **`Kepler-670`**
+  - `Kepler-670 b` | 2016 | Transit | 2.816504852 | 13.18
+- **`Kepler-671`**
+  - `Kepler-671 b` | 2016 | Transit | 4.280958588 | 2.69
+- **`Kepler-672`**
+  - `Kepler-672 b` | 2016 | Transit | 38.3774623 | 2.5
+- **`Kepler-673`**
+  - `Kepler-673 b` | 2016 | Transit | 3.728731093 | 6.54
+- **`Kepler-674`**
+  - `Kepler-674 b` | 2016 | Transit | 2.243381847 | 1.69
+- **`Kepler-675`**
+  - `Kepler-675 b` | 2016 | Transit | 2.33743801 | 2.44
+- **`Kepler-676`**
+  - `Kepler-676 b` | 2016 | Transit | 11.59822172 | 3.04
+- **`Kepler-677`**
+  - `Kepler-677 b` | 2016 | Transit | 6.57531678 | 5.38
+- **`Kepler-678`**
+  - `Kepler-678 b` | 2016 | Transit | 7.27503724 | 5.14
+- **`Kepler-679`**
+  - `Kepler-679 b` | 2016 | Transit | 12.39358604 | 3.01
+- **`Kepler-680`**
+  - `Kepler-680 b` | 2016 | Transit | 3.689926291 | 2.42
+- **`Kepler-681`**
+  - `Kepler-681 b` | 2016 | Transit | 26.39435646 | 3.08
+- **`Kepler-682`**
+  - `Kepler-682 b` | 2016 | Transit | 12.611906672 | 7.37
+- **`Kepler-683`**
+  - `Kepler-683 b` | 2016 | Transit | 2.539183179 | 1.97
+- **`Kepler-684`**
+  - `Kepler-684 b` | 2016 | Transit | 6.770302008 | 3.36
+- **`Kepler-685`**
+  - `Kepler-685 b` | 2016 | Transit | 1.6255222 | 10.58
+- **`Kepler-686`**
+  - `Kepler-686 b` | 2016 | Transit | 1.594745463 | 12.15
+- **`Kepler-687`**
+  - `Kepler-687 b` | 2016 | Transit | 20.50586978 | 3.52
+- **`Kepler-688`**
+  - `Kepler-688 b` | 2016 | Transit | 3.895936844 | 9.76
+- **`Kepler-689`**
+  - `Kepler-689 b` | 2016 | Transit | 22.36656079 | 2.89
+- **`Kepler-690`**
+  - `Kepler-690 b` | 2016 | Transit | 7.748094374 | 5.95
+- **`Kepler-691`**
+  - `Kepler-691 b` | 2016 | Transit | 8.114379 | 2.09
+- **`Kepler-692`**
+  - `Kepler-692 b` | 2016 | Transit | 21.81293494 | 3.11
+- **`Kepler-693`**
+  - `Kepler-693 b` | 2016 | Transit | 15.37563332 | 10.18
+- **`Kepler-694`**
+  - `Kepler-694 b` | 2016 | Transit | 6.365841612 | 2.8
+- **`Kepler-695`**
+  - `Kepler-695 b` | 2016 | Transit | 3.040330424 | 9.21
+- **`Kepler-696`**
+  - `Kepler-696 b` | 2016 | Transit | 4.190425575 | 6.14
+- **`Kepler-697`**
+  - `Kepler-697 b` | 2016 | Transit | 3.709870645 | 4.13
+- **`Kepler-698`**
+  - `Kepler-698 b` | 2016 | Transit | 16.32976218 | 3.68
+- **`Kepler-700`**
+  - `Kepler-700 b` | 2016 | Transit | 80.8720639 | 5.99
+- **`Kepler-701`**
+  - `Kepler-701 b` | 2016 | Transit | 10.35533177 | 2.84
+- **`Kepler-702`**
+  - `Kepler-702 b` | 2016 | Transit | 10.526294063 | 9.17
+- **`Kepler-703`**
+  - `Kepler-703 b` | 2016 | Transit | 4.583521756 | 8.2
+- **`Kepler-704`**
+  - `Kepler-704 b` | 2016 | Transit | 3.76182115 | 2.61
+- **`Kepler-705`**
+  - `Kepler-705 b` | 2016 | Transit | 56.0560538 | 2.11
+- **`Kepler-707`**
+  - `Kepler-707 b` | 2016 | Transit | 2.237492751 | 1.33
+- **`Kepler-708`**
+  - `Kepler-708 b` | 2016 | Transit | 3.167891938 | 2.93
+- **`Kepler-709`**
+  - `Kepler-709 b` | 2016 | Transit | 16.08524954 | 2.92
+- **`Kepler-710`**
+  - `Kepler-710 b` | 2016 | Transit | 4.347285527 | 1.88
+- **`Kepler-711`**
+  - `Kepler-711 b` | 2016 | Transit | 23.58914398 | 3.41
+- **`Kepler-712`**
+  - `Kepler-712 b` | 2016 | Transit | 21.02247699 | 3.41
+  - `Kepler-712 c` | 2016 | Transit | 226.89047 | 4.85
+- **`Kepler-713`**
+  - `Kepler-713 b` | 2016 | Transit | 7.411141 | 2.48
+- **`Kepler-714`**
+  - `Kepler-714 b` | 2016 | Transit | 8.098887986 | 9.67
+- **`Kepler-715`**
+  - `Kepler-715 b` | 2016 | Transit | 10.00652995 | 3.75
+- **`Kepler-716`**
+  - `Kepler-716 c` | 2020 | Transit | 3.96999 | 1.39281536
+  - `Kepler-716 b` | 2016 | Transit | 10.37168453 | 2.9
+- **`Kepler-717`**
+  - `Kepler-717 b` | 2016 | Transit | 4.40840023 | 2.42
+- **`Kepler-718`**
+  - `Kepler-718 b` | 2016 | Transit | 2.052349905 | 16.56
+- **`Kepler-719`**
+  - `Kepler-719 b` | 2016 | Transit | 5.007317779 | 8.52
+- **`Kepler-720`**
+  - `Kepler-720 b` | 2016 | Transit | 4.708326542 | 8.41
+- **`Kepler-721`**
+  - `Kepler-721 b` | 2016 | Transit | 5.392025388 | 2.64
+- **`Kepler-722`**
+  - `Kepler-722 b` | 2016 | Transit | 4.093573252 | 2.63
+  - `Kepler-722 c` | 2016 | Transit | 105.144749 | 2.82
+- **`Kepler-723`**
+  - `Kepler-723 b` | 2016 | Transit | 4.082275068 | 12.19
+- **`Kepler-724`**
+  - `Kepler-724 b` | 2016 | Transit | 3.314946338 | 3.29
+- **`Kepler-725`**
+  - `Kepler-725 b` | 2016 | Transit | 39.64372 | 10.8
+  - `Kepler-725 c` | 2025 | Transit Timing Variations | 207.541 | 3.08
+- **`Kepler-726`**
+  - `Kepler-726 b` | 2016 | Transit | 21.80451088 | 3.26
+
+</details>
+
+<a name="systems-13"></a>
+
+<details><summary>Kepler-727 – Kepler-909 · 180 ระบบ · 205 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`Kepler-727`**
+  - `Kepler-727 b` | 2016 | Transit | 5.154484417 | 2.53
+- **`Kepler-728`**
+  - `Kepler-728 b` | 2016 | Transit | 5.743477265 | 3.34
+- **`Kepler-729`**
+  - `Kepler-729 b` | 2016 | Transit | 3.166353714 | 3.58
+- **`Kepler-730`**
+  - `Kepler-730 c` | 2018 | Transit | 2.85188338 | 1.56926
+  - `Kepler-730 b` | 2016 | Transit | 6.491682808 | 12.3299
+- **`Kepler-731`**
+  - `Kepler-731 b` | 2016 | Transit | 3.855603551 | 13.88
+- **`Kepler-732`**
+  - `Kepler-732 c` | 2016 | Transit | 0.893041236 | 1.27
+  - `Kepler-732 b` | 2016 | Transit | 9.467814048 | 2.18
+- **`Kepler-733`**
+  - `Kepler-733 b` | 2016 | Transit | 20.83424726 | 2.82
+- **`Kepler-734`**
+  - `Kepler-734 b` | 2016 | Transit | 6.104852856 | 3.56
+- **`Kepler-735`**
+  - `Kepler-735 b` | 2016 | Transit | 11.51516988 | 2.95
+- **`Kepler-736`**
+  - `Kepler-736 b` | 2016 | Transit | 3.60147201 | 2.93
+- **`Kepler-737`**
+  - `Kepler-737 b` | 2016 | Transit | 28.59915399 | 1.96
+- **`Kepler-738`**
+  - `Kepler-738 b` | 2016 | Transit | 24.58721573 | 2.5
+- **`Kepler-739`**
+  - `Kepler-739 b` | 2016 | Transit | 12.53248465 | 3.32
+- **`Kepler-740`**
+  - `Kepler-740 b` | 2016 | Transit | 3.584101216 | 4.57
+- **`Kepler-741`**
+  - `Kepler-741 b` | 2016 | Transit | 7.03902374 | 2.97
+- **`Kepler-742`**
+  - `Kepler-742 b` | 2016 | Transit | 8.360868238 | 3.24
+- **`Kepler-743`**
+  - `Kepler-743 b` | 2016 | Transit | 3.179262921 | 1.21
+- **`Kepler-744`**
+  - `Kepler-744 b` | 2016 | Transit | 12.06222443 | 1.62
+- **`Kepler-745`**
+  - `Kepler-745 b` | 2016 | Transit | 9.93143556 | 2.16
+- **`Kepler-746`**
+  - `Kepler-746 b` | 2016 | Transit | 3.48159251 | 1.11
+- **`Kepler-747`**
+  - `Kepler-747 b` † | 2016 | Transit | 35.61760587 | 5.27
+- **`Kepler-748`**
+  - `Kepler-748 b` | 2016 | Transit | 7.40742793 | 2.52
+- **`Kepler-749`**
+  - `Kepler-749 b` | 2016 | Transit | 17.31716585 | 3.1
+- **`Kepler-750`**
+  - `Kepler-750 c` | 2016 | Transit | 4.08899022 | 1.62
+  - `Kepler-750 b` | 2016 | Transit | 9.42887179 | 3.07
+- **`Kepler-751`**
+  - `Kepler-751 b` | 2016 | Transit | 17.44490636 | 2.46
+- **`Kepler-752`**
+  - `Kepler-752 b` | 2016 | Transit | 18.82747265 | 2.81
+- **`Kepler-753`**
+  - `Kepler-753 b` | 2016 | Transit | 5.747725012 | 1.91
+- **`Kepler-754`**
+  - `Kepler-754 b` | 2016 | Transit | 14.5596237 | 2.01
+- **`Kepler-755`**
+  - `Kepler-755 b` | 2016 | Transit | 1.269090374 | 1.76
+  - `Kepler-755 c` | 2016 | Transit | 2.853133644 | 1.26
+- **`Kepler-756`**
+  - `Kepler-756 b` | 2016 | Transit | 1.224866322 | 1.12
+- **`Kepler-757`**
+  - `Kepler-757 b` | 2016 | Transit | 1.022678821 | 1.36
+- **`Kepler-758`**
+  - `Kepler-758 c` | 2016 | Transit | 4.75793986 | 1.69
+  - `Kepler-758 e` | 2016 | Transit | 8.1934719 | 1.53
+  - `Kepler-758 b` | 2016 | Transit | 12.1097104 | 2.48
+  - `Kepler-758 d` | 2016 | Transit | 20.4966197 | 2.12
+- **`Kepler-759`**
+  - `Kepler-759 b` | 2016 | Transit | 41.805985 | 2.27
+- **`Kepler-760`**
+  - `Kepler-760 c` | 2016 | Transit | 2.46697439 | 1.48
+  - `Kepler-760 b` | 2016 | Transit | 8.70419416 | 3.06
+- **`Kepler-761`**
+  - `Kepler-761 b` | 2016 | Transit | 10.12804789 | 2.03
+- **`Kepler-762`**
+  - `Kepler-762 b` | 2016 | Transit | 3.770552098 | 12.68
+- **`Kepler-763`**
+  - `Kepler-763 b` | 2016 | Transit | 1.19655156 | 1.22
+  - `Kepler-763 c` | 2023 | Transit | 4.09667624 | 1.42
+  - `Kepler-763 d` | 2023 | Transit | 6.50327035 | 1.67
+- **`Kepler-764`**
+  - `Kepler-764 b` | 2016 | Transit | 7.33683936 | 1.64
+- **`Kepler-765`**
+  - `Kepler-765 b` | 2016 | Transit | 27.6655226 | 2.43
+- **`Kepler-766`**
+  - `Kepler-766 b` | 2016 | Transit | 6.10027804 | 3.39
+- **`Kepler-767`**
+  - `Kepler-767 b` | 2016 | Transit | 161.5280101 | 6.64
+- **`Kepler-768`**
+  - `Kepler-768 b` | 2016 | Transit | 11.3910025 | 1.79
+- **`Kepler-769`**
+  - `Kepler-769 b` | 2016 | Transit | 7.42608998 | 2.92
+  - `Kepler-769 c` | 2016 | Transit | 15.9870174 | 1.79
+- **`Kepler-770`**
+  - `Kepler-770 c` | 2016 | Transit | 1.475322314 | 1.2
+  - `Kepler-770 d` | 2016 | Transit | 4.15244722 | 1.4
+  - `Kepler-770 b` | 2016 | Transit | 18.92540274 | 2.3
+- **`Kepler-771`**
+  - `Kepler-771 b` | 2016 | Transit | 8.73485836 | 1.82
+- **`Kepler-772`**
+  - `Kepler-772 b` | 2016 | Transit | 12.99207337 | 1.82
+- **`Kepler-773`**
+  - `Kepler-773 b` | 2016 | Transit | 3.749100061 | 1.43
+- **`Kepler-774`**
+  - `Kepler-774 b` | 2016 | Transit | 11.0895723 | 3.17
+- **`Kepler-775`**
+  - `Kepler-775 b` | 2016 | Transit | 0.974868926 | 1.19
+- **`Kepler-776`**
+  - `Kepler-776 b` | 2016 | Transit | 4.89718784 | 1.28
+- **`Kepler-777`**
+  - `Kepler-777 b` | 2016 | Transit | 5.72812599 | 1.47
+- **`Kepler-778`**
+  - `Kepler-778 b` | 2016 | Transit | 3.75574426 | 1.68
+- **`Kepler-779`**
+  - `Kepler-779 b` | 2016 | Transit | 7.09714223 | 0.92
+- **`Kepler-780`**
+  - `Kepler-780 b` | 2016 | Transit | 0.677375164 | 0.89
+- **`Kepler-781`**
+  - `Kepler-781 b` | 2016 | Transit | 13.2140732 | 2.89
+- **`Kepler-782`**
+  - `Kepler-782 b` | 2016 | Transit | 158.6853308 | 3.21
+- **`Kepler-783`**
+  - `Kepler-783 b` | 2016 | Transit | 4.29264638 | 0.78
+  - `Kepler-783 c` | 2020 | Transit | 7.05395 | 2.33153725
+- **`Kepler-784`**
+  - `Kepler-784 c` | 2023 | Transit | 17.157236 | 1.55
+  - `Kepler-784 b` | 2016 | Transit | 31.5922646 | 1.58
+- **`Kepler-785`**
+  - `Kepler-785 b` | 2016 | Transit | 1.973760926 | 13.02
+- **`Kepler-786`**
+  - `Kepler-786 b` | 2016 | Transit | 53.5293487 | 2.43
+- **`Kepler-787`**
+  - `Kepler-787 b` | 2016 | Transit | 0.928310498 | 1.28
+- **`Kepler-788`**
+  - `Kepler-788 b` | 2016 | Transit | 8.39846269 | 2.55
+- **`Kepler-789`**
+  - `Kepler-789 b` | 2016 | Transit | 8.63847725 | 2.12
+- **`Kepler-790`**
+  - `Kepler-790 b` | 2016 | Transit | 13.73469807 | 2.18
+- **`Kepler-791`**
+  - `Kepler-791 b` | 2016 | Transit | 14.5539759 | 3.05
+- **`Kepler-792`**
+  - `Kepler-792 b` | 2016 | Transit | 11.30119217 | 1.96
+- **`Kepler-793`**
+  - `Kepler-793 b` | 2016 | Transit | 4.24153639 | 1.37
+- **`Kepler-794`**
+  - `Kepler-794 b` | 2016 | Transit | 11.13125132 | 2.11
+- **`Kepler-795`**
+  - `Kepler-795 b` | 2016 | Transit | 29.6193421 | 1.68
+- **`Kepler-796`**
+  - `Kepler-796 b` | 2016 | Transit | 6.40087618 | 1.3
+- **`Kepler-797`**
+  - `Kepler-797 b` | 2016 | Transit | 27.07237711 | 2.17
+- **`Kepler-798`**
+  - `Kepler-798 b` | 2016 | Transit | 13.71933369 | 2.39
+- **`Kepler-799`**
+  - `Kepler-799 c` | 2021 | Transit | 15.19419956 | 2.78068551
+  - `Kepler-799 b` | 2016 | Transit | 133.4605235 | 6.88
+- **`Kepler-800`**
+  - `Kepler-800 b` | 2016 | Transit | 14.13176026 | 2.85
+- **`Kepler-801`**
+  - `Kepler-801 b` | 2016 | Transit | 11.41928253 | 2
+- **`Kepler-802`**
+  - `Kepler-802 b` | 2016 | Transit | 40.0587473 | 3.54
+- **`Kepler-803`**
+  - `Kepler-803 b` | 2016 | Transit | 50.28638192 | 3.79
+- **`Kepler-804`**
+  - `Kepler-804 c` | 2016 | Transit | 9.65185017 | 1.14
+  - `Kepler-804 b` | 2016 | Transit | 14.37457351 | 1.94
+- **`Kepler-805`**
+  - `Kepler-805 b` | 2016 | Transit | 30.8638931 | 2.89
+- **`Kepler-806`**
+  - `Kepler-806 b` | 2016 | Transit | 8.09219642 | 1.14
+- **`Kepler-808`**
+  - `Kepler-808 b` | 2016 | Transit | 0.631332353 | 1.46
+- **`Kepler-809`**
+  - `Kepler-809 b` | 2016 | Transit | 55.63934 | 3.01
+- **`Kepler-810`**
+  - `Kepler-810 b` | 2016 | Transit | 4.59725385 | 1.93
+- **`Kepler-811`**
+  - `Kepler-811 b` | 2016 | Transit | 23.58447697 | 2.7
+- **`Kepler-812`**
+  - `Kepler-812 b` | 2016 | Transit | 10.11716531 | 3.55
+- **`Kepler-813`**
+  - `Kepler-813 b` | 2016 | Transit | 19.12947337 | 2.14
+- **`Kepler-814`**
+  - `Kepler-814 b` | 2016 | Transit | 6.1469851 | 2.12
+- **`Kepler-815`**
+  - `Kepler-815 b` | 2016 | Transit | 8.57503552 | 4.11
+- **`Kepler-816`**
+  - `Kepler-816 b` | 2016 | Transit | 10.506825646 | 10.24
+- **`Kepler-817`**
+  - `Kepler-817 b` | 2016 | Transit | 3.990106229 | 9.03
+- **`Kepler-818`**
+  - `Kepler-818 b` | 2016 | Transit | 10.035385814 | 5.11
+- **`Kepler-819`**
+  - `Kepler-819 b` | 2016 | Transit | 33.1995648 | 2.76
+- **`Kepler-820`**
+  - `Kepler-820 b` | 2016 | Transit | 127.8338098 | 6.09
+- **`Kepler-821`**
+  - `Kepler-821 b` | 2016 | Transit | 1.92279873 | 1.31
+- **`Kepler-822`**
+  - `Kepler-822 b` | 2016 | Transit | 3.222969273 | 1.77
+- **`Kepler-823`**
+  - `Kepler-823 b` | 2016 | Transit | 4.16809082 | 1.57
+- **`Kepler-824`**
+  - `Kepler-824 b` | 2016 | Transit | 4.51436633 | 1.87
+- **`Kepler-825`**
+  - `Kepler-825 b` | 2016 | Transit | 3.77360059 | 1.53
+  - `Kepler-825 c` | 2016 | Transit | 8.1818246 | 1.84
+- **`Kepler-826`**
+  - `Kepler-826 b` | 2016 | Transit | 4.48758907 | 1.25
+- **`Kepler-827`**
+  - `Kepler-827 b` | 2016 | Transit | 51.92927591 | 5.63
+- **`Kepler-828`**
+  - `Kepler-828 b` | 2016 | Transit | 0.567857136 | 1.51
+- **`Kepler-829`**
+  - `Kepler-829 b` | 2016 | Transit | 6.88337562 | 2.11
+- **`Kepler-830`**
+  - `Kepler-830 b` | 2016 | Transit | 11.29695137 | 1.7
+- **`Kepler-831`**
+  - `Kepler-831 b` | 2016 | Transit | 5.62153941 | 1.27
+- **`Kepler-832`**
+  - `Kepler-832 b` | 2016 | Transit | 7.1396941 | 2.06
+- **`Kepler-833`**
+  - `Kepler-833 b` | 2016 | Transit | 18.7546998 | 2.02
+- **`Kepler-834`**
+  - `Kepler-834 b` | 2016 | Transit | 13.32388301 | 2.02
+- **`Kepler-835`**
+  - `Kepler-835 b` | 2016 | Transit | 11.41909375 | 2.79
+- **`Kepler-836`**
+  - `Kepler-836 b` | 2016 | Transit | 11.36112327 | 2.73
+- **`Kepler-837`**
+  - `Kepler-837 b` | 2016 | Transit | 16.56059504 | 2.56
+- **`Kepler-838`**
+  - `Kepler-838 b` | 2016 | Transit | 15.74957994 | 2.73
+- **`Kepler-839`**
+  - `Kepler-839 b` | 2016 | Transit | 37.8144514 | 2.57
+- **`Kepler-841`**
+  - `Kepler-841 b` | 2016 | Transit | 124.4198398 | 5.23
+- **`Kepler-842`**
+  - `Kepler-842 b` | 2016 | Transit | 1.21956827 | 1.6
+- **`Kepler-843`**
+  - `Kepler-843 b` | 2016 | Transit | 2.053879821 | 2.59
+- **`Kepler-844`**
+  - `Kepler-844 b` | 2016 | Transit | 2.613020856 | 1.68
+- **`Kepler-845`**
+  - `Kepler-845 b` | 2016 | Transit | 0.927859821 | 2.04
+- **`Kepler-846`**
+  - `Kepler-846 b` | 2016 | Transit | 19.80792185 | 2.48
+- **`Kepler-847`**
+  - `Kepler-847 b` | 2016 | Transit | 2.343231895 | 1.18
+- **`Kepler-848`**
+  - `Kepler-848 b` | 2016 | Transit | 6.91134416 | 1.7
+- **`Kepler-849`**
+  - `Kepler-849 b` | 2016 | Transit | 394.62508 | 8.08167508
+- **`Kepler-850`**
+  - `Kepler-850 b` | 2016 | Transit | 7.19303878 | 1.78
+- **`Kepler-851`**
+  - `Kepler-851 b` | 2016 | Transit | 8.50699658 | 1.68
+- **`Kepler-852`**
+  - `Kepler-852 b` | 2016 | Transit | 44.9309804 | 2.54
+- **`Kepler-853`**
+  - `Kepler-853 b` | 2016 | Transit | 7.16892463 | 1.69
+- **`Kepler-855`**
+  - `Kepler-855 b` | 2016 | Transit | 7.886631104 | 8.35
+- **`Kepler-856`**
+  - `Kepler-856 b` | 2016 | Transit | 8.027680595 | 9.3
+- **`Kepler-857`**
+  - `Kepler-857 b` | 2016 | Transit | 85.35129427 | 6.8
+- **`Kepler-858`**
+  - `Kepler-858 b` | 2016 | Transit | 76.13602028 | 4.87
+- **`Kepler-859`**
+  - `Kepler-859 b` | 2016 | Transit | 20.38177573 | 3.09
+- **`Kepler-860`**
+  - `Kepler-860 b` | 2016 | Transit | 5.101379454 | 3.24
+- **`Kepler-861`**
+  - `Kepler-861 b` | 2016 | Transit | 3.949631375 | 2.28
+- **`Kepler-862`**
+  - `Kepler-862 b` | 2016 | Transit | 3.148664534 | 2.21
+- **`Kepler-863`**
+  - `Kepler-863 b` | 2016 | Transit | 15.59461874 | 2.9
+- **`Kepler-864`**
+  - `Kepler-864 c` | 2023 | Transit | 2.42150341 | 1.62
+  - `Kepler-864 b` | 2016 | Transit | 5.83376092 | 2.4
+- **`Kepler-865`**
+  - `Kepler-865 c` | 2023 | Transit | 6.20920207 | 0.89
+  - `Kepler-865 b` | 2016 | Transit | 14.16399294 | 2.49
+- **`Kepler-866`**
+  - `Kepler-866 b` | 2016 | Transit | 2.617032536 | 1.63
+- **`Kepler-867`**
+  - `Kepler-867 b` | 2016 | Transit | 150.242127 | 4.64
+- **`Kepler-868`**
+  - `Kepler-868 b` | 2016 | Transit | 5.03251791 | 2.05
+- **`Kepler-869`**
+  - `Kepler-869 b` | 2016 | Transit | 40.4287755 | 3.61
+- **`Kepler-870`**
+  - `Kepler-870 b` | 2016 | Transit | 21.3587621 | 2.78
+- **`Kepler-871`**
+  - `Kepler-871 b` | 2016 | Transit | 22.0459018 | 3.74
+- **`Kepler-872`**
+  - `Kepler-872 b` | 2016 | Transit | 2.578855068 | 1.99
+- **`Kepler-873`**
+  - `Kepler-873 b` | 2016 | Transit | 20.5533844 | 3.75
+- **`Kepler-874`**
+  - `Kepler-874 b` | 2016 | Transit | 40.0686727 | 3.94
+- **`Kepler-875`**
+  - `Kepler-875 b` | 2016 | Transit | 27.5073799 | 2.9
+- **`Kepler-876`**
+  - `Kepler-876 b` | 2016 | Transit | 5.14438011 | 1.43
+- **`Kepler-877`**
+  - `Kepler-877 b` | 2016 | Transit | 18.45847097 | 2.12
+- **`Kepler-878`**
+  - `Kepler-878 b` | 2016 | Transit | 25.9422033 | 1.93
+- **`Kepler-879`**
+  - `Kepler-879 c` | 2024 | Transit | 0.646716 | 0.4
+  - `Kepler-879 b` | 2016 | Transit | 33.3855938 | 2.57
+- **`Kepler-880`**
+  - `Kepler-880 b` | 2016 | Transit | 7.71468975 | 2.66
+  - `Kepler-880 c` | 2023 | Transit | 11.8061737 | 2.87
+- **`Kepler-881`**
+  - `Kepler-881 b` | 2016 | Transit | 4.44448017 | 1.78
+- **`Kepler-882`**
+  - `Kepler-882 b` | 2016 | Transit | 3.989539666 | 1.23
+- **`Kepler-883`**
+  - `Kepler-883 b` | 2016 | Transit | 12.98495573 | 1.78
+- **`Kepler-884`**
+  - `Kepler-884 b` | 2016 | Transit | 5.69919514 | 1.23
+- **`Kepler-885`**
+  - `Kepler-885 b` | 2016 | Transit | 18.11472949 | 2.5
+- **`Kepler-886`**
+  - `Kepler-886 b` | 2016 | Transit | 6.24146367 | 1.52
+- **`Kepler-887`**
+  - `Kepler-887 c` | 2016 | Transit | 7.63846023 | 1.13
+  - `Kepler-887 b` | 2016 | Transit | 20.42228798 | 1.84
+- **`Kepler-888`**
+  - `Kepler-888 b` | 2016 | Transit | 70.6979061 | 1.76
+- **`Kepler-889`**
+  - `Kepler-889 b` | 2016 | Transit | 3.744439 | 1.09
+- **`Kepler-890`**
+  - `Kepler-890 b` | 2016 | Transit | 52.75875577 | 8.89
+- **`Kepler-891`**
+  - `Kepler-891 b` | 2016 | Transit | 53.44945593 | 6.41
+- **`Kepler-892`**
+  - `Kepler-892 b` | 2016 | Transit | 13.7521072 | 2.81
+- **`Kepler-893`**
+  - `Kepler-893 b` | 2016 | Transit | 6.33855761 | 3.03
+- **`Kepler-894`**
+  - `Kepler-894 b` | 2016 | Transit | 9.803224 | 2.78
+- **`Kepler-895`**
+  - `Kepler-895 b` | 2016 | Transit | 2.806242328 | 1.54
+- **`Kepler-896`**
+  - `Kepler-896 c` | 2023 | Transit | 29.5422566 | 3.15
+  - `Kepler-896 b` | 2016 | Transit | 144.547396 | 2.53
+- **`Kepler-897`**
+  - `Kepler-897 b` | 2016 | Transit | 8.0472642 | 2.39
+- **`Kepler-898`**
+  - `Kepler-898 b` | 2016 | Transit | 5.8706191 | 1.49
+- **`Kepler-899`**
+  - `Kepler-899 b` | 2016 | Transit | 19.17891293 | 2.68
+- **`Kepler-900`**
+  - `Kepler-900 b` | 2016 | Transit | 6.9913086 | 2.08
+- **`Kepler-901`**
+  - `Kepler-901 b` | 2016 | Transit | 3.517494394 | 1.37
+- **`Kepler-902`**
+  - `Kepler-902 b` | 2016 | Transit | 40.1099547 | 2.54
+- **`Kepler-903`**
+  - `Kepler-903 b` | 2016 | Transit | 10.3507721 | 2.01
+  - `Kepler-903 c` | 2016 | Transit | 62.9228557 | 2.53
+- **`Kepler-904`**
+  - `Kepler-904 b` | 2016 | Transit | 3.021668632 | 1.77
+- **`Kepler-905`**
+  - `Kepler-905 b` | 2016 | Transit | 5.082746517 | 1.41
+- **`Kepler-906`**
+  - `Kepler-906 b` | 2016 | Transit | 41.6979976 | 2.11
+- **`Kepler-907`**
+  - `Kepler-907 b` | 2016 | Transit | 15.86621821 | 1.2
+- **`Kepler-908`**
+  - `Kepler-908 b` | 2016 | Transit | 1.340597468 | 1.22
+- **`Kepler-909`**
+  - `Kepler-909 b` | 2016 | Transit | 13.93290318 | 1.47
+
+</details>
+
+<a name="systems-14"></a>
+
+<details><summary>Kepler-910 – Kepler-1089 · 180 ระบบ · 205 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`Kepler-910`**
+  - `Kepler-910 b` | 2016 | Transit | 2.364369015 | 0.82
+- **`Kepler-911`**
+  - `Kepler-911 b` | 2016 | Transit | 20.310501 | 2.6
+- **`Kepler-912`**
+  - `Kepler-912 b` | 2016 | Transit | 2.534756273 | 2.8
+- **`Kepler-913`**
+  - `Kepler-913 c` | 2021 | Transit | 5.939119816 | 3.8580709
+  - `Kepler-913 b` | 2016 | Transit | 10.29672521 | 2.06
+- **`Kepler-914`**
+  - `Kepler-914 b` | 2016 | Transit | 4.40966548 | 1.38
+- **`Kepler-915`**
+  - `Kepler-915 b` | 2016 | Transit | 4.59489604 | 1.5
+- **`Kepler-916`**
+  - `Kepler-916 b` | 2016 | Transit | 32.2968798 | 1.76
+- **`Kepler-917`**
+  - `Kepler-917 b` | 2016 | Transit | 2.970414375 | 1.91
+- **`Kepler-918`**
+  - `Kepler-918 b` | 2016 | Transit | 4.85386933 | 1.74
+- **`Kepler-919`**
+  - `Kepler-919 b` | 2016 | Transit | 11.04603384 | 2.25
+- **`Kepler-920`**
+  - `Kepler-920 b` | 2016 | Transit | 6.53192704 | 2.42
+  - `Kepler-920 c` | 2016 | Transit | 100.8274113 | 3.8
+- **`Kepler-921`**
+  - `Kepler-921 b` | 2016 | Transit | 51.300634 | 2.87
+- **`Kepler-922`**
+  - `Kepler-922 b` | 2016 | Transit | 0.938466832 | 1.42
+- **`Kepler-923`**
+  - `Kepler-923 b` | 2016 | Transit | 6.93366476 | 1.38
+- **`Kepler-924`**
+  - `Kepler-924 b` | 2016 | Transit | 61.0370117 | 3.07
+- **`Kepler-925`**
+  - `Kepler-925 b` | 2016 | Transit | 33.8678531 | 2.34
+- **`Kepler-926`**
+  - `Kepler-926 b` | 2016 | Transit | 52.0688601 | 2.31
+- **`Kepler-927`**
+  - `Kepler-927 b` | 2016 | Transit | 9.1149903 | 1.72
+- **`Kepler-928`**
+  - `Kepler-928 b` | 2016 | Transit | 3.932461302 | 1.59
+- **`Kepler-929`**
+  - `Kepler-929 b` | 2016 | Transit | 0.921032135 | 1.11
+- **`Kepler-930`**
+  - `Kepler-930 b` | 2016 | Transit | 71.4517775 | 2.13
+- **`Kepler-931`**
+  - `Kepler-931 b` | 2016 | Transit | 8.03755877 | 1.33
+- **`Kepler-932`**
+  - `Kepler-932 b` | 2016 | Transit | 1.921437396 | 1.37
+- **`Kepler-933`**
+  - `Kepler-933 b` | 2016 | Transit | 14.20443009 | 2.46
+- **`Kepler-934`**
+  - `Kepler-934 b` | 2016 | Transit | 55.6738309 | 2.09
+- **`Kepler-935`**
+  - `Kepler-935 b` | 2016 | Transit | 4.88083852 | 1.35
+- **`Kepler-936`**
+  - `Kepler-936 b` | 2016 | Transit | 10.56134221 | 1.45
+- **`Kepler-937`**
+  - `Kepler-937 b` | 2016 | Transit | 67.668827 | 3.72
+  - `Kepler-937 c` | 2016 | Transit | 153.343364 | 2.67
+- **`Kepler-938`**
+  - `Kepler-938 b` | 2016 | Transit | 52.6298417 | 2.22
+- **`Kepler-939`**
+  - `Kepler-939 b` | 2016 | Transit | 14.878296 | 1.75
+- **`Kepler-940`**
+  - `Kepler-940 b` | 2016 | Transit | 59.6225257 | 3.34
+- **`Kepler-941`**
+  - `Kepler-941 b` | 2016 | Transit | 17.42395198 | 3.08
+- **`Kepler-942`**
+  - `Kepler-942 b` | 2016 | Transit | 44.96417488 | 2.13
+- **`Kepler-943`**
+  - `Kepler-943 b` | 2016 | Transit | 49.7701438 | 5.93
+- **`Kepler-944`**
+  - `Kepler-944 b` | 2016 | Transit | 43.3167737 | 2.63
+- **`Kepler-945`**
+  - `Kepler-945 b` | 2016 | Transit | 31.0033814 | 2.63
+- **`Kepler-946`**
+  - `Kepler-946 b` | 2016 | Transit | 11.79162572 | 1.93
+- **`Kepler-947`**
+  - `Kepler-947 b` | 2016 | Transit | 26.9644317 | 2.28
+- **`Kepler-948`**
+  - `Kepler-948 b` | 2016 | Transit | 7.76846622 | 1.85
+- **`Kepler-949`**
+  - `Kepler-949 b` | 2016 | Transit | 8.689307296 | 2.91
+  - `Kepler-949 c` | 2023 | Transit | 20.99757968 | 2.97
+- **`Kepler-950`**
+  - `Kepler-950 b` | 2016 | Transit | 98.7180406 | 8.98
+- **`Kepler-951`**
+  - `Kepler-951 b` | 2016 | Transit | 71.52530845 | 5.59
+- **`Kepler-952`**
+  - `Kepler-952 b` | 2016 | Transit | 130.3546919 | 7.65
+- **`Kepler-953`**
+  - `Kepler-953 c` | 2016 | Transit | 9.10967112 | 1.19
+  - `Kepler-953 b` | 2016 | Transit | 88.40655258 | 4.21
+- **`Kepler-954`**
+  - `Kepler-954 b` | 2016 | Transit | 16.78176602 | 2.32
+- **`Kepler-955`**
+  - `Kepler-955 b` | 2016 | Transit | 14.53244172 | 3.13
+- **`Kepler-956`**
+  - `Kepler-956 b` | 2016 | Transit | 5.248672631 | 3
+- **`Kepler-957`**
+  - `Kepler-957 b` | 2016 | Transit | 5.907413537 | 5.5
+- **`Kepler-958`**
+  - `Kepler-958 b` | 2016 | Transit | 9.7678805 | 2.06
+- **`Kepler-959`**
+  - `Kepler-959 b` | 2016 | Transit | 14.80074836 | 4.38
+- **`Kepler-960`**
+  - `Kepler-960 b` | 2016 | Transit | 3.12686223 | 2.29
+- **`Kepler-961`**
+  - `Kepler-961 b` | 2016 | Transit | 16.87727414 | 2.55
+- **`Kepler-962`**
+  - `Kepler-962 b` | 2016 | Transit | 12.05707239 | 1.97
+- **`Kepler-963`**
+  - `Kepler-963 c` | 2024 | Transit | 0.919783 | 0.6
+  - `Kepler-963 b` | 2016 | Transit | 9.97683705 | 2.66
+- **`Kepler-964`**
+  - `Kepler-964 b` | 2016 | Transit | 13.5225106 | 2.12
+- **`Kepler-965`**
+  - `Kepler-965 b` | 2016 | Transit | 134.2527298 | 3.38
+- **`Kepler-966`**
+  - `Kepler-966 b` | 2016 | Transit | 99.747622 | 4.13
+- **`Kepler-967`**
+  - `Kepler-967 b` | 2016 | Transit | 13.22713379 | 2.35
+  - `Kepler-967 c` | 2016 | Transit | 198.7112502 | 3.65
+- **`Kepler-968`**
+  - `Kepler-968 b` | 2016 | Transit | 3.692983728 | 2
+  - `Kepler-968 c` | 2016 | Transit | 5.709404918 | 1.69
+  - `KOI-1833 d` | 2021 | Transit | 7.685 | 2.58
+- **`Kepler-969`**
+  - `Kepler-969 c` | 2016 | Transit | 1.682934604 | 0.99
+  - `Kepler-969 b` | 2016 | Transit | 34.1731714 | 2.07
+- **`Kepler-970`**
+  - `Kepler-970 b` | 2016 | Transit | 16.736525 | 2.609
+- **`Kepler-971`**
+  - `Kepler-971 b` | 2016 | Transit | 9.59070716 | 2.13
+- **`Kepler-972`**
+  - `Kepler-972 b` | 2016 | Transit | 7.03932553 | 4.65
+- **`Kepler-973`**
+  - `Kepler-973 b` | 2016 | Transit | 49.6077331 | 1.96
+- **`Kepler-974`**
+  - `KOI-1843.03` | 2013 | Transit | 0.1768913 | 0.61
+  - `Kepler-974 b` | 2016 | Transit | 4.194496514 | 1.57
+- **`Kepler-975`**
+  - `Kepler-975 b` | 2016 | Transit | 1.970342457 | 1.48
+  - `Kepler-975 c` | 2023 | Transit | 5.05821338 | 10.69
+- **`Kepler-976`**
+  - `Kepler-976 b` | 2016 | Transit | 105.9564148 | 3.96
+- **`Kepler-977`**
+  - `Kepler-977 b` | 2016 | Transit | 26.85328322 | 2.62
+- **`Kepler-978`**
+  - `Kepler-978 b` | 2016 | Transit | 49.6221509 | 2.99
+- **`Kepler-979`**
+  - `Kepler-979 b` | 2016 | Transit | 8.0880135 | 2.72
+- **`Kepler-980`**
+  - `Kepler-980 b` | 2016 | Transit | 11.55102504 | 2.67
+- **`Kepler-981`**
+  - `Kepler-981 b` | 2016 | Transit | 4.469757736 | 2.31
+- **`Kepler-982`**
+  - `Kepler-982 b` | 2016 | Transit | 15.7738221 | 2.25
+- **`Kepler-983`**
+  - `Kepler-983 b` | 2016 | Transit | 60.0855082 | 2.36
+- **`Kepler-984`**
+  - `Kepler-984 b` | 2016 | Transit | 43.0342272 | 2.12
+- **`Kepler-985`**
+  - `Kepler-985 b` | 2016 | Transit | 116.331901 | 2.98
+- **`Kepler-986`**
+  - `Kepler-986 b` | 2016 | Transit | 56.4349938 | 2.36
+- **`Kepler-987`**
+  - `Kepler-987 b` | 2016 | Transit | 105.3033148 | 3.26
+- **`Kepler-988`**
+  - `Kepler-988 b` | 2016 | Transit | 17.76080053 | 2.07
+- **`Kepler-989`**
+  - `Kepler-989 b` | 2016 | Transit | 7.964315352 | 2.21
+- **`Kepler-990`**
+  - `Kepler-990 c` | 2016 | Transit | 0.538354308 | 1.53
+  - `Kepler-990 b` | 2016 | Transit | 9.91723428 | 2.6
+- **`Kepler-991`**
+  - `Kepler-991 b` | 2016 | Transit | 82.5342519 | 2.54
+- **`Kepler-992`**
+  - `Kepler-992 b` | 2016 | Transit | 20.16034462 | 1.62
+- **`Kepler-993`**
+  - `Kepler-993 b` | 2016 | Transit | 22.08557563 | 2.97
+- **`Kepler-994`**
+  - `Kepler-994 b` | 2016 | Transit | 1.151166506 | 1.6
+- **`Kepler-995`**
+  - `Kepler-995 b` | 2016 | Transit | 28.26731672 | 2.7
+- **`Kepler-996`**
+  - `Kepler-996 b` | 2016 | Transit | 3.770590584 | 1.98
+- **`Kepler-997`**
+  - `Kepler-997 b` | 2016 | Transit | 2.707306716 | 1.36
+- **`Kepler-998`**
+  - `Kepler-998 b` | 2016 | Transit | 5.65377733 | 2.32
+- **`Kepler-999`**
+  - `Kepler-999 b` | 2016 | Transit | 5.991857017 | 2.34
+- **`Kepler-1000`**
+  - `Kepler-1000 b` | 2016 | Transit | 120.0181272 | 4.76
+- **`Kepler-1001`**
+  - `Kepler-1001 c` | 2020 | Transit | 9.18186 | 1.57799279
+  - `Kepler-1001 b` | 2016 | Transit | 14.30511983 | 3.15
+- **`Kepler-1002`**
+  - `Kepler-1002 b` | 2016 | Transit | 4.336429331 | 1.71
+- **`Kepler-1003`**
+  - `Kepler-1003 b` | 2016 | Transit | 3.554856915 | 1.78
+- **`Kepler-1004`**
+  - `Kepler-1004 b` | 2016 | Transit | 5.28789787 | 6.28
+- **`Kepler-1005`**
+  - `Kepler-1005 b` | 2016 | Transit | 6.49801525 | 1.5
+- **`Kepler-1006`**
+  - `Kepler-1006 b` | 2016 | Transit | 19.76172042 | 1.54
+- **`Kepler-1007`**
+  - `Kepler-1007 b` | 2016 | Transit | 5.185002073 | 1.44
+- **`Kepler-1008`**
+  - `Kepler-1008 b` | 2016 | Transit | 12.43931193 | 1.28
+- **`Kepler-1009`**
+  - `Kepler-1009 b` | 2016 | Transit | 11.35011917 | 2.17
+- **`Kepler-1010`**
+  - `Kepler-1010 b` | 2016 | Transit | 34.2685705 | 2.32
+- **`Kepler-1011`**
+  - `Kepler-1011 b` | 2016 | Transit | 5.753221974 | 2.87
+- **`Kepler-1012`**
+  - `Kepler-1012 b` | 2016 | Transit | 5.50860439 | 1.29
+- **`Kepler-1013`**
+  - `Kepler-1013 b` | 2016 | Transit | 18.93054959 | 2.15
+- **`Kepler-1014`**
+  - `Kepler-1014 b` | 2016 | Transit | 16.57110363 | 2.39
+- **`Kepler-1015`**
+  - `Kepler-1015 b` | 2016 | Transit | 16.00494214 | 3.55
+- **`Kepler-1016`**
+  - `Kepler-1016 b` | 2016 | Transit | 1.954524342 | 2.18
+  - `Kepler-1016 c` | 2016 | Transit | 105.6551369 | 3.68
+- **`Kepler-1017`**
+  - `Kepler-1017 b` | 2016 | Transit | 7.23400469 | 1.99
+- **`Kepler-1018`**
+  - `Kepler-1018 b` | 2016 | Transit | 49.1013514 | 2.58
+- **`Kepler-1019`**
+  - `Kepler-1019 b` | 2016 | Transit | 1.411229847 | 1.46
+- **`Kepler-1020`**
+  - `Kepler-1020 b` | 2016 | Transit | 96.9151496 | 2.28
+- **`Kepler-1021`**
+  - `Kepler-1021 b` | 2016 | Transit | 13.47469571 | 2.33
+- **`Kepler-1022`**
+  - `Kepler-1022 b` | 2016 | Transit | 10.99469878 | 2.36
+- **`Kepler-1023`**
+  - `Kepler-1023 b` | 2016 | Transit | 62.1387714 | 2.63
+- **`Kepler-1024`**
+  - `Kepler-1024 b` | 2016 | Transit | 66.4162133 | 3.91
+- **`Kepler-1025`**
+  - `Kepler-1025 b` | 2016 | Transit | 37.3229493 | 1.98
+- **`Kepler-1026`**
+  - `Kepler-1026 b` | 2016 | Transit | 36.5156053 | 2.21
+- **`Kepler-1027`**
+  - `Kepler-1027 b` | 2016 | Transit | 1.907805199 | 0.89
+- **`Kepler-1028`**
+  - `Kepler-1028 b` | 2016 | Transit | 2.51462432 | 1.33
+- **`Kepler-1029`**
+  - `Kepler-1029 b` | 2016 | Transit | 4.417696479 | 1.26
+- **`Kepler-1030`**
+  - `Kepler-1030 b` | 2016 | Transit | 19.32952416 | 2.48
+- **`Kepler-1031`**
+  - `Kepler-1031 b` | 2016 | Transit | 1.22621732 | 0.87
+- **`Kepler-1032`**
+  - `Kepler-1032 b` | 2016 | Transit | 3.290117953 | 1.87
+- **`Kepler-1033`**
+  - `Kepler-1033 b` | 2016 | Transit | 7.56052806 | 2.51
+- **`Kepler-1034`**
+  - `Kepler-1034 b` | 2016 | Transit | 12.12400943 | 2.26
+- **`Kepler-1035`**
+  - `Kepler-1035 b` | 2016 | Transit | 2.714077555 | 1.17
+- **`Kepler-1036`**
+  - `Kepler-1036 b` | 2016 | Transit | 122.8808058 | 3.01
+- **`Kepler-1037`**
+  - `Kepler-1037 b` | 2016 | Transit | 1.063788673 | 1.28
+- **`Kepler-1038`**
+  - `Kepler-1038 c` | 2021 | Transit | 7.127659798 | 1.4162338
+  - `Kepler-1038 b` | 2016 | Transit | 148.4603382 | 3.53
+- **`Kepler-1039`**
+  - `Kepler-1039 b` | 2016 | Transit | 0.934884242 | 1.46
+- **`Kepler-1040`**
+  - `Kepler-1040 b` | 2016 | Transit | 201.1214 | 2.08
+- **`Kepler-1041`**
+  - `Kepler-1041 b` | 2016 | Transit | 24.7576421 | 2.94
+- **`Kepler-1042`**
+  - `Kepler-1042 b` | 2016 | Transit | 10.13202575 | 2.19
+- **`Kepler-1043`**
+  - `Kepler-1043 b` | 2016 | Transit | 38.5053398 | 2.55
+- **`Kepler-1044`**
+  - `Kepler-1044 b` | 2016 | Transit | 6.77408868 | 2.67
+- **`Kepler-1045`**
+  - `Kepler-1045 b` | 2016 | Transit | 26.41045478 | 2.69
+- **`Kepler-1046`**
+  - `Kepler-1046 b` | 2016 | Transit | 14.37508035 | 1.71
+- **`Kepler-1047`**
+  - `Kepler-1047 c` | 2016 | Transit | 3.18897601 | 0.99
+  - `Kepler-1047 b` | 2016 | Transit | 56.1886887 | 2.09
+- **`Kepler-1048`**
+  - `Kepler-1048 b` | 2016 | Transit | 6.92101021 | 1.61
+- **`Kepler-1049`**
+  - `Kepler-1049 b` | 2016 | Transit | 3.273460736 | 0.95
+- **`Kepler-1050`**
+  - `Kepler-1050 b` | 2016 | Transit | 15.3787546 | 1.6
+  - `Kepler-1050 c` | 2016 | Transit | 21.1284569 | 1.48
+- **`Kepler-1051`**
+  - `Kepler-1051 b` | 2016 | Transit | 25.96200249 | 3.4
+- **`Kepler-1052`**
+  - `Kepler-1052 b` | 2016 | Transit | 34.8538276 | 2.93
+  - `Kepler-1052 c` | 2023 | Transit | 180.921729 | 2.3
+- **`Kepler-1053`**
+  - `Kepler-1053 b` | 2016 | Transit | 2.414351654 | 0.98
+- **`Kepler-1054`**
+  - `Kepler-1054 b` | 2016 | Transit | 4.30655689 | 2.63
+- **`Kepler-1055`**
+  - `Kepler-1055 b` | 2016 | Transit | 2.295036233 | 1.23
+- **`Kepler-1056`**
+  - `Kepler-1056 b` | 2016 | Transit | 27.495606 | 3.01
+- **`Kepler-1057`**
+  - `Kepler-1057 b` | 2016 | Transit | 14.08827448 | 3.36
+- **`Kepler-1058`**
+  - `Kepler-1058 b` | 2016 | Transit | 110.96546 | 2.72
+- **`Kepler-1059`**
+  - `Kepler-1059 b` | 2016 | Transit | 3.764191048 | 1.73
+- **`Kepler-1060`**
+  - `Kepler-1060 b` | 2016 | Transit | 46.8779367 | 2.38
+- **`Kepler-1061`**
+  - `Kepler-1061 b` | 2016 | Transit | 2.757982666 | 1.98
+- **`Kepler-1062`**
+  - `Kepler-1062 b` | 2016 | Transit | 9.30412078 | 1.76
+- **`Kepler-1063`**
+  - `Kepler-1063 b` | 2016 | Transit | 14.07971466 | 1.49
+- **`Kepler-1064`**
+  - `Kepler-1064 b` | 2016 | Transit | 16.54080322 | 1.55
+- **`Kepler-1065`**
+  - `Kepler-1065 c` | 2016 | Transit | 2.37030743 | 1.6
+  - `Kepler-1065 b` | 2016 | Transit | 3.609308907 | 3.73
+- **`Kepler-1066`**
+  - `Kepler-1066 b` | 2016 | Transit | 1.931559839 | 2.36
+- **`Kepler-1067`**
+  - `Kepler-1067 b` | 2016 | Transit | 0.762129261 | 0.8
+  - `Kepler-1067 c` | 2021 | Transit | 5.425839901 | 1.74682428
+- **`Kepler-1068`**
+  - `Kepler-1068 b` | 2016 | Transit | 16.92344113 | 3.63
+- **`Kepler-1069`**
+  - `Kepler-1069 b` | 2016 | Transit | 23.8990296 | 1.6
+- **`Kepler-1070`**
+  - `Kepler-1070 b` | 2016 | Transit | 6.2216147 | 1.73
+- **`Kepler-1071`**
+  - `Kepler-1071 b` | 2016 | Transit | 6.1799844 | 2.38
+- **`Kepler-1072`**
+  - `Kepler-1072 b` | 2016 | Transit | 1.569066502 | 1.58
+- **`Kepler-1073`**
+  - `Kepler-1073 d` | 2021 | Transit | 2.504760027 | 1.48770949
+  - `Kepler-1073 c` | 2016 | Transit | 4.02582254 | 1.64
+  - `Kepler-1073 b` | 2016 | Transit | 8.67888593 | 2.3
+- **`Kepler-1074`**
+  - `Kepler-1074 b` | 2016 | Transit | 5.94566534 | 1.25
+- **`Kepler-1075`**
+  - `Kepler-1075 b` | 2016 | Transit | 1.52372816 | 1.42
+- **`Kepler-1076`**
+  - `Kepler-1076 b` | 2016 | Transit | 6.14727918 | 0.8
+- **`Kepler-1077`**
+  - `Kepler-1077 b` | 2016 | Transit | 34.3511874 | 2.77
+- **`Kepler-1078`**
+  - `Kepler-1078 b` | 2016 | Transit | 3.00725242 | 1.9
+- **`Kepler-1079`**
+  - `Kepler-1079 b` | 2016 | Transit | 13.24503188 | 1.63
+- **`Kepler-1080`**
+  - `Kepler-1080 b` | 2016 | Transit | 77.2548396 | 3.28
+- **`Kepler-1081`**
+  - `Kepler-1081 b` | 2016 | Transit | 3.856918547 | 1.01
+- **`Kepler-1082`**
+  - `Kepler-1082 b` | 2016 | Transit | 1.543206604 | 1.12
+- **`Kepler-1083`**
+  - `Kepler-1083 b` | 2016 | Transit | 33.4177993 | 3.36
+- **`Kepler-1084`**
+  - `Kepler-1084 b` | 2016 | Transit | 2.05333679 | 1.11
+- **`Kepler-1085`**
+  - `Kepler-1085 c` | 2020 | Transit | 56.7771 | 3.26817741
+  - `Kepler-1085 b` | 2016 | Transit | 219.3217528 | 7.22
+- **`Kepler-1086`**
+  - `Kepler-1086 b` | 2016 | Transit | 18.78425728 | 2.44
+  - `Kepler-1086 c` | 2016 | Transit | 161.5163345 | 2.94
+- **`Kepler-1087`**
+  - `Kepler-1087 b` | 2016 | Transit | 0.693842855 | 0.61
+- **`Kepler-1088`**
+  - `Kepler-1088 b` | 2016 | Transit | 23.12748644 | 1.42
+- **`Kepler-1089`**
+  - `Kepler-1089 b` | 2016 | Transit | 5.132485618 | 1.83
+
+</details>
+
+<a name="systems-15"></a>
+
+<details><summary>Kepler-1090 – Kepler-1269 · 180 ระบบ · 195 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`Kepler-1090`**
+  - `Kepler-1090 c` | 2021 | Transit | 42.42720032 | 3.29265785
+  - `Kepler-1090 b` | 2016 | Transit | 198.680179 | 2.25
+- **`Kepler-1091`**
+  - `Kepler-1091 b` | 2016 | Transit | 1.434741564 | 1.46
+- **`Kepler-1092`**
+  - `Kepler-1092 b` | 2016 | Transit | 58.6017925 | 2.07
+- **`Kepler-1093`**
+  - `Kepler-1093 b` | 2016 | Transit | 25.0824626 | 1.95
+  - `Kepler-1093 c` | 2016 | Transit | 89.722292 | 1.96
+- **`Kepler-1094`**
+  - `Kepler-1094 b` | 2016 | Transit | 78.1000231 | 3.18
+- **`Kepler-1095`**
+  - `Kepler-1095 b` | 2016 | Transit | 4.27103091 | 1.21
+- **`Kepler-1096`**
+  - `Kepler-1096 b` | 2016 | Transit | 2.892217506 | 1.24
+- **`Kepler-1097`**
+  - `Kepler-1097 b` | 2016 | Transit | 187.747029 | 3.26
+- **`Kepler-1098`**
+  - `Kepler-1098 b` | 2016 | Transit | 2.543072855 | 1.3
+- **`Kepler-1099`**
+  - `Kepler-1099 b` | 2016 | Transit | 2.168452593 | 2.83
+- **`Kepler-1100`**
+  - `Kepler-1100 b` | 2016 | Transit | 6.42200058 | 1.75
+- **`Kepler-1101`**
+  - `Kepler-1101 b` | 2016 | Transit | 81.3151059 | 2.47
+- **`Kepler-1102`**
+  - `Kepler-1102 b` | 2016 | Transit | 51.3285623 | 2.66
+- **`Kepler-1103`**
+  - `Kepler-1103 b` | 2016 | Transit | 19.79191978 | 2.27
+- **`Kepler-1104`**
+  - `Kepler-1104 b` | 2016 | Transit | 5.03728015 | 1.23
+- **`Kepler-1105`**
+  - `Kepler-1105 b` | 2016 | Transit | 4.421572182 | 2.01
+- **`Kepler-1106`**
+  - `Kepler-1106 b` | 2016 | Transit | 1.252752174 | 1.65
+- **`Kepler-1107`**
+  - `Kepler-1107 b` | 2016 | Transit | 0.571038518 | 1.34
+- **`Kepler-1108`**
+  - `Kepler-1108 b` | 2016 | Transit | 4.51005748 | 1.46
+- **`Kepler-1109`**
+  - `Kepler-1109 b` | 2016 | Transit | 37.6467384 | 2.19
+- **`Kepler-1110`**
+  - `Kepler-1110 b` | 2016 | Transit | 9.69312032 | 2.66
+- **`Kepler-1111`**
+  - `Kepler-1111 b` | 2016 | Transit | 8.79617863 | 2
+- **`Kepler-1112`**
+  - `Kepler-1112 b` | 2016 | Transit | 14.36267939 | 3.02
+- **`Kepler-1113`**
+  - `Kepler-1113 b` | 2016 | Transit | 42.3004954 | 2.81
+- **`Kepler-1114`**
+  - `Kepler-1114 b` | 2016 | Transit | 14.97435694 | 1.35
+- **`Kepler-1115`**
+  - `Kepler-1115 b` | 2016 | Transit | 23.5540725 | 1.7
+- **`Kepler-1116`**
+  - `Kepler-1116 b` | 2016 | Transit | 41.6977827 | 2.54
+- **`Kepler-1117`**
+  - `Kepler-1117 b` | 2016 | Transit | 4.79028459 | 1.11
+- **`Kepler-1118`**
+  - `Kepler-1118 b` | 2016 | Transit | 38.6715075 | 2.74
+- **`Kepler-1119`**
+  - `Kepler-1119 b` | 2016 | Transit | 8.3265153 | 1.92
+- **`Kepler-1120`**
+  - `Kepler-1120 b` | 2016 | Transit | 2.949029052 | 1.38
+- **`Kepler-1121`**
+  - `Kepler-1121 b` | 2016 | Transit | 13.15141081 | 1.91
+- **`Kepler-1122`**
+  - `Kepler-1122 b` | 2016 | Transit | 42.1917357 | 2.04
+- **`Kepler-1123`**
+  - `Kepler-1123 b` | 2016 | Transit | 4.33946454 | 1.67
+- **`Kepler-1124`**
+  - `Kepler-1124 b` | 2016 | Transit | 2.852348975 | 1.28
+- **`Kepler-1125`**
+  - `Kepler-1125 b` | 2016 | Transit | 17.6700642 | 1.84
+- **`Kepler-1126`**
+  - `Kepler-1126 b` | 2016 | Transit | 108.593329 | 1.73
+  - `Kepler-1126 c` | 2023 | Transit | 199.66876 | 1.45
+- **`Kepler-1127`**
+  - `Kepler-1127 b` | 2016 | Transit | 5.12330347 | 1.96
+- **`Kepler-1128`**
+  - `Kepler-1128 b` | 2016 | Transit | 61.6178167 | 3.65
+- **`Kepler-1129`**
+  - `Kepler-1129 b` | 2016 | Transit | 24.3397804 | 2.96
+  - `Kepler-1129 c` | 2016 | Transit | 76.5369586 | 2.73
+- **`Kepler-1130`**
+  - `Kepler-1130 c` | 2021 | Transit | 3.266639948 | 0.79239584
+  - `Kepler-1130 d` | 2021 | Transit | 4.272250175 | 0.64472273
+  - `Kepler-1130 b` | 2016 | Transit | 5.45298175 | 0.8
+- **`Kepler-1131`**
+  - `Kepler-1131 b` | 2016 | Transit | 3.53232449 | 1.59
+- **`Kepler-1132`**
+  - `Kepler-1132 b` | 2016 | Transit | 62.8916228 | 2.35
+- **`Kepler-1133`**
+  - `Kepler-1133 b` | 2016 | Transit | 11.55562343 | 1.97
+- **`Kepler-1134`**
+  - `Kepler-1134 b` | 2016 | Transit | 17.13263989 | 2.64
+- **`Kepler-1135`**
+  - `Kepler-1135 b` | 2016 | Transit | 76.957857 | 1.85
+- **`Kepler-1136`**
+  - `Kepler-1136 b` | 2016 | Transit | 2.361724329 | 1.64
+- **`Kepler-1137`**
+  - `Kepler-1137 b` | 2016 | Transit | 23.9210791 | 2.2
+- **`Kepler-1138`**
+  - `Kepler-1138 b` | 2016 | Transit | 3.17060005 | 1.7
+- **`Kepler-1139`**
+  - `Kepler-1139 b` | 2016 | Transit | 0.813166719 | 1.19
+- **`Kepler-1140`**
+  - `Kepler-1140 b` | 2016 | Transit | 24.0862707 | 2.77
+- **`Kepler-1141`**
+  - `Kepler-1141 b` | 2016 | Transit | 2.344511944 | 0.82
+- **`Kepler-1142`**
+  - `Kepler-1142 b` | 2016 | Transit | 18.3027248 | 1.47
+- **`Kepler-1143`**
+  - `Kepler-1143 b` | 2016 | Transit | 2.888904849 | 1.67
+  - `Kepler-1143 c` | 2016 | Transit | 210.630591 | 3.6
+- **`Kepler-1144`**
+  - `Kepler-1144 b` | 2016 | Transit | 17.14647302 | 1.99
+- **`Kepler-1145`**
+  - `Kepler-1145 b` | 2016 | Transit | 3.97076766 | 1.4
+- **`Kepler-1146`**
+  - `Kepler-1146 b` | 2016 | Transit | 2.352265797 | 1.23
+- **`Kepler-1147`**
+  - `Kepler-1147 b` | 2016 | Transit | 10.62784997 | 2.61
+- **`Kepler-1148`**
+  - `Kepler-1148 b` | 2016 | Transit | 1.104463509 | 1.69
+- **`Kepler-1149`**
+  - `Kepler-1149 b` | 2016 | Transit | 3.73089898 | 1.44
+- **`Kepler-1150`**
+  - `Kepler-1150 b` | 2016 | Transit | 2.787868386 | 1.02
+- **`Kepler-1151`**
+  - `Kepler-1151 b` | 2016 | Transit | 65.6478424 | 2.22
+- **`Kepler-1152`**
+  - `Kepler-1152 b` | 2016 | Transit | 1.646801908 | 0.87
+- **`Kepler-1153`**
+  - `Kepler-1153 b` | 2016 | Transit | 1.755835327 | 1.73
+- **`Kepler-1154`**
+  - `Kepler-1154 b` | 2016 | Transit | 5.1856142 | 2.34
+  - `Kepler-1154 c` | 2016 | Transit | 8.45808312 | 2.36
+- **`Kepler-1155`**
+  - `Kepler-1155 b` | 2016 | Transit | 33.469743 | 2.03
+- **`Kepler-1156`**
+  - `Kepler-1156 b` | 2016 | Transit | 11.89520511 | 1.32
+- **`Kepler-1157`**
+  - `Kepler-1157 b` | 2016 | Transit | 4.45743164 | 1.09
+- **`Kepler-1158`**
+  - `Kepler-1158 b` | 2016 | Transit | 13.5396293 | 2.34
+- **`Kepler-1159`**
+  - `Kepler-1159 b` | 2016 | Transit | 22.70816791 | 2.37
+- **`Kepler-1160`**
+  - `Kepler-1160 b` | 2016 | Transit | 7.97034958 | 2.14
+- **`Kepler-1161`**
+  - `Kepler-1161 b` | 2016 | Transit | 10.71252541 | 2.13
+- **`Kepler-1162`**
+  - `Kepler-1162 b` | 2016 | Transit | 32.5637069 | 2.21
+  - `Kepler-1162 c` | 2023 | Transit | 59.284064 | 1.81
+- **`Kepler-1163`**
+  - `Kepler-1163 b` | 2016 | Transit | 6.11786898 | 1.03
+- **`Kepler-1164`**
+  - `Kepler-1164 b` | 2016 | Transit | 3.97599768 | 1.12
+- **`Kepler-1165`**
+  - `Kepler-1165 b` | 2016 | Transit | 9.478522 | 1.55
+  - `Kepler-1165 c` | 2021 | Transit | 29.96870041 | 3.36093385
+- **`Kepler-1166`**
+  - `Kepler-1166 b` | 2016 | Transit | 33.2406882 | 1.69
+- **`Kepler-1167`**
+  - `Kepler-1167 b` | 2016 | Transit | 1.003933739 | 1.71
+- **`Kepler-1168`**
+  - `Kepler-1168 b` | 2016 | Transit | 55.8226539 | 2.5
+- **`Kepler-1169`**
+  - `Kepler-1169 b` | 2016 | Transit | 6.11009134 | 0.94
+- **`Kepler-1170`**
+  - `Kepler-1170 b` | 2016 | Transit | 9.98969327 | 2.41
+- **`Kepler-1171`**
+  - `Kepler-1171 b` | 2016 | Transit | 1.44259224 | 2.56
+- **`Kepler-1172`**
+  - `Kepler-1172 b` | 2016 | Transit | 26.0204423 | 3.2
+- **`Kepler-1173`**
+  - `Kepler-1173 b` | 2016 | Transit | 0.7698536 | 0.89
+- **`Kepler-1174`**
+  - `Kepler-1174 b` | 2016 | Transit | 6.89225223 | 1.59
+- **`Kepler-1175`**
+  - `Kepler-1175 b` | 2016 | Transit | 37.94563 | 2.99
+- **`Kepler-1176`**
+  - `Kepler-1176 b` | 2016 | Transit | 24.1738579 | 2.45
+- **`Kepler-1177`**
+  - `Kepler-1177 b` | 2016 | Transit | 106.247547 | 1.9
+- **`Kepler-1178`**
+  - `Kepler-1178 b` | 2016 | Transit | 31.80634 | 1.07
+- **`Kepler-1179`**
+  - `Kepler-1179 b` | 2016 | Transit | 2.685057492 | 1.32
+- **`Kepler-1180`**
+  - `Kepler-1180 b` | 2016 | Transit | 16.8601286 | 1.99
+- **`Kepler-1181`**
+  - `Kepler-1181 b` | 2016 | Transit | 4.89337519 | 1.57
+  - `Kepler-1181 c` | 2023 | Transit | 8.93484887 | 1.83
+- **`Kepler-1182`**
+  - `Kepler-1182 b` | 2016 | Transit | 11.17394617 | 2.41
+- **`Kepler-1183`**
+  - `Kepler-1183 b` | 2016 | Transit | 28.5057189 | 2.82
+- **`Kepler-1184`**
+  - `Kepler-1184 b` | 2016 | Transit | 53.5991044 | 2.68
+- **`Kepler-1185`**
+  - `Kepler-1185 b` | 2016 | Transit | 104.3518976 | 1.33
+- **`Kepler-1186`**
+  - `Kepler-1186 b` | 2016 | Transit | 16.07677615 | 2.23
+- **`Kepler-1187`**
+  - `Kepler-1187 b` | 2016 | Transit | 18.87064068 | 2.61
+- **`Kepler-1188`**
+  - `Kepler-1188 b` | 2016 | Transit | 17.1369543 | 2.08
+- **`Kepler-1189`**
+  - `Kepler-1189 b` | 2016 | Transit | 3.78858982 | 1.77
+- **`Kepler-1190`**
+  - `Kepler-1190 b` | 2016 | Transit | 10.45843441 | 1.33
+- **`Kepler-1191`**
+  - `Kepler-1191 b` | 2016 | Transit | 5.60014851 | 1.51
+- **`Kepler-1192`**
+  - `Kepler-1192 b` | 2016 | Transit | 25.2034787 | 2.36
+- **`Kepler-1193`**
+  - `Kepler-1193 b` | 2016 | Transit | 2.832652134 | 1.32
+- **`Kepler-1194`**
+  - `Kepler-1194 b` | 2016 | Transit | 16.22371307 | 1.51
+- **`Kepler-1195`**
+  - `Kepler-1195 b` | 2016 | Transit | 8.49642241 | 2.08
+- **`Kepler-1196`**
+  - `Kepler-1196 b` | 2016 | Transit | 66.1849031 | 2.23
+- **`Kepler-1197`**
+  - `Kepler-1197 b` | 2016 | Transit | 2.03231845 | 1.25
+- **`Kepler-1198`**
+  - `Kepler-1198 b` | 2016 | Transit | 7.6847716 | 1.47
+- **`Kepler-1199`**
+  - `Kepler-1199 b` | 2016 | Transit | 15.0447198 | 1.15
+- **`Kepler-1200`**
+  - `Kepler-1200 b` | 2016 | Transit | 1.118549717 | 1.06
+- **`Kepler-1201`**
+  - `Kepler-1201 b` | 2016 | Transit | 15.18725932 | 2.29
+- **`Kepler-1202`**
+  - `Kepler-1202 b` | 2016 | Transit | 28.6851324 | 2.94
+- **`Kepler-1203`**
+  - `Kepler-1203 b` | 2016 | Transit | 0.588000765 | 1.06
+- **`Kepler-1204`**
+  - `Kepler-1204 b` | 2016 | Transit | 85.7350285 | 3.05
+- **`Kepler-1205`**
+  - `Kepler-1205 b` | 2016 | Transit | 1.078390352 | 1.41
+- **`Kepler-1206`**
+  - `Kepler-1206 b` | 2016 | Transit | 1.216997663 | 1.64
+- **`Kepler-1207`**
+  - `Kepler-1207 b` | 2016 | Transit | 13.68237119 | 1.62
+- **`Kepler-1208`**
+  - `Kepler-1208 b` | 2016 | Transit | 11.08507637 | 2.32
+- **`Kepler-1209`**
+  - `Kepler-1209 b` | 2016 | Transit | 25.369116 | 1.51
+- **`Kepler-1210`**
+  - `Kepler-1210 b` | 2016 | Transit | 8.07124073 | 1.7
+- **`Kepler-1211`**
+  - `Kepler-1211 b` | 2016 | Transit | 11.01816836 | 2.55
+- **`Kepler-1212`**
+  - `Kepler-1212 b` | 2016 | Transit | 12.94130146 | 2.14
+- **`Kepler-1213`**
+  - `Kepler-1213 b` | 2016 | Transit | 5.34982412 | 1.19
+- **`Kepler-1214`**
+  - `Kepler-1214 b` | 2016 | Transit | 18.82634264 | 2.36
+- **`Kepler-1215`**
+  - `Kepler-1215 b` | 2016 | Transit | 4.76703963 | 1.22
+- **`Kepler-1216`**
+  - `Kepler-1216 b` | 2016 | Transit | 4.37034536 | 1.39
+- **`Kepler-1217`**
+  - `Kepler-1217 b` | 2016 | Transit | 2.032325072 | 1.99
+- **`Kepler-1218`**
+  - `Kepler-1218 b` | 2016 | Transit | 22.9221266 | 1.44
+- **`Kepler-1219`**
+  - `Kepler-1219 b` | 2016 | Transit | 16.10467749 | 2.12
+- **`Kepler-1220`**
+  - `Kepler-1220 b` | 2016 | Transit | 7.42693741 | 1.52
+- **`Kepler-1221`**
+  - `Kepler-1221 b` | 2016 | Transit | 12.00096042 | 1.88
+- **`Kepler-1222`**
+  - `Kepler-1222 b` | 2016 | Transit | 1.916944254 | 0.79
+- **`Kepler-1223`**
+  - `Kepler-1223 b` | 2016 | Transit | 16.301259 | 1.22
+- **`Kepler-1224`**
+  - `Kepler-1224 b` | 2016 | Transit | 13.32351601 | 1.33
+- **`Kepler-1225`**
+  - `Kepler-1225 b` | 2016 | Transit | 7.01075434 | 1.82
+- **`Kepler-1226`**
+  - `Kepler-1226 b` | 2016 | Transit | 17.2923453 | 1.45
+- **`Kepler-1227`**
+  - `Kepler-1227 b` | 2016 | Transit | 94.2887577 | 2.29
+- **`Kepler-1228`**
+  - `Kepler-1228 b` | 2016 | Transit | 0.577369579 | 1.54
+- **`Kepler-1229`**
+  - `Kepler-1229 b` | 2016 | Transit | 86.828989 | 1.4
+- **`Kepler-1230`**
+  - `Kepler-1230 b` | 2016 | Transit | 9.95661537 | 2.71
+- **`Kepler-1231`**
+  - `Kepler-1231 b` | 2016 | Transit | 10.41725184 | 1.42
+- **`Kepler-1232`**
+  - `Kepler-1232 b` | 2016 | Transit | 26.7839183 | 1.93
+- **`Kepler-1233`**
+  - `Kepler-1233 b` | 2016 | Transit | 45.1263042 | 2.6
+- **`Kepler-1234`**
+  - `Kepler-1234 b` | 2016 | Transit | 11.94014029 | 2.81
+- **`Kepler-1235`**
+  - `Kepler-1235 b` | 2016 | Transit | 4.16055856 | 0.79
+- **`Kepler-1236`**
+  - `Kepler-1236 b` | 2016 | Transit | 31.0571618 | 2.14
+- **`Kepler-1237`**
+  - `Kepler-1237 b` | 2016 | Transit | 84.5733226 | 2.86
+- **`Kepler-1238`**
+  - `Kepler-1238 b` | 2016 | Transit | 4.14787559 | 1.93
+- **`Kepler-1239`**
+  - `Kepler-1239 b` | 2016 | Transit | 5.19104016 | 2.9
+- **`Kepler-1240`**
+  - `Kepler-1240 b` | 2016 | Transit | 4.8663815 | 1.15
+- **`Kepler-1241`**
+  - `Kepler-1241 b` | 2016 | Transit | 18.5525701 | 2.63
+- **`Kepler-1242`**
+  - `Kepler-1242 b` | 2016 | Transit | 13.62798432 | 2.26
+- **`Kepler-1243`**
+  - `Kepler-1243 b` | 2016 | Transit | 16.8320729 | 1.75
+- **`Kepler-1244`**
+  - `Kepler-1244 b` | 2016 | Transit | 3.70428172 | 1.35
+- **`Kepler-1245`**
+  - `Kepler-1245 c` | 2016 | Transit | 2.936584681 | 1.44
+  - `Kepler-1245 b` | 2016 | Transit | 4.35409304 | 1.44
+- **`Kepler-1246`**
+  - `Kepler-1246 b` | 2016 | Transit | 11.32271513 | 1.36
+- **`Kepler-1247`**
+  - `Kepler-1247 b` | 2016 | Transit | 13.71220213 | 2.33
+- **`Kepler-1248`**
+  - `Kepler-1248 b` | 2016 | Transit | 7.46725407 | 1.18
+- **`Kepler-1249`**
+  - `Kepler-1249 b` | 2016 | Transit | 24.3347127 | 2.38
+- **`Kepler-1250`**
+  - `Kepler-1250 b` | 2016 | Transit | 2.607543834 | 1.92
+- **`Kepler-1251`**
+  - `Kepler-1251 b` | 2016 | Transit | 45.0904643 | 1.84
+- **`Kepler-1252`**
+  - `Kepler-1252 b` | 2016 | Transit | 15.0540329 | 1.67
+- **`Kepler-1253`**
+  - `Kepler-1253 b` | 2016 | Transit | 68.8861915 | 1.33
+- **`Kepler-1254`**
+  - `Kepler-1254 c` | 2016 | Transit | 3.60084276 | 1.3
+  - `Kepler-1254 d` | 2016 | Transit | 5.72717226 | 1.31
+  - `Kepler-1254 b` | 2016 | Transit | 9.99113313 | 1.55
+- **`Kepler-1255`**
+  - `Kepler-1255 b` | 2016 | Transit | 36.2919336 | 2.32
+- **`Kepler-1256`**
+  - `Kepler-1256 b` | 2016 | Transit | 12.4127754 | 1.49
+- **`Kepler-1257`**
+  - `Kepler-1257 b` | 2016 | Transit | 2.668313762 | 1.52
+- **`Kepler-1258`**
+  - `Kepler-1258 b` | 2016 | Transit | 0.984940167 | 0.86
+- **`Kepler-1259`**
+  - `Kepler-1259 b` | 2016 | Transit | 0.663085258 | 1.43
+- **`Kepler-1260`**
+  - `Kepler-1260 b` | 2016 | Transit | 19.1187753 | 1.77
+- **`Kepler-1261`**
+  - `Kepler-1261 b` | 2016 | Transit | 48.4308991 | 2.26
+- **`Kepler-1262`**
+  - `Kepler-1262 b` | 2016 | Transit | 8.67900242 | 1.82
+- **`Kepler-1263`**
+  - `Kepler-1263 b` | 2016 | Transit | 4.55139967 | 1.14
+- **`Kepler-1264`**
+  - `Kepler-1264 b` | 2016 | Transit | 0.968526023 | 1.18
+- **`Kepler-1265`**
+  - `Kepler-1265 b` | 2016 | Transit | 6.49441289 | 1.35
+- **`Kepler-1266`**
+  - `Kepler-1266 c` | 2021 | Transit | 4.86631012 | 1.68023962
+  - `Kepler-1266 b` | 2016 | Transit | 28.474748 | 2.58
+- **`Kepler-1267`**
+  - `Kepler-1267 b` | 2016 | Transit | 13.0313945 | 3.01
+- **`Kepler-1268`**
+  - `Kepler-1268 b` | 2016 | Transit | 40.9903986 | 2.03
+- **`Kepler-1269`**
+  - `Kepler-1269 b` | 2016 | Transit | 37.3331536 | 1.63
+
+</details>
+
+<a name="systems-16"></a>
+
+<details><summary>Kepler-1270 – Kepler-1449 · 180 ระบบ · 196 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`Kepler-1270`**
+  - `Kepler-1270 b` | 2016 | Transit | 6.03356196 | 3.32
+- **`Kepler-1271`**
+  - `Kepler-1271 b` | 2016 | Transit | 3.0255955 | 1.48
+- **`Kepler-1272`**
+  - `Kepler-1272 b` | 2016 | Transit | 51.1309704 | 2.37
+- **`Kepler-1273`**
+  - `Kepler-1273 b` | 2016 | Transit | 28.625653 | 2.49
+- **`Kepler-1274`**
+  - `Kepler-1274 b` | 2016 | Transit | 6.98152703 | 1.42
+- **`Kepler-1275`**
+  - `Kepler-1275 b` | 2016 | Transit | 3.65691115 | 1.48
+- **`Kepler-1276`**
+  - `Kepler-1276 b` | 2016 | Transit | 12.5720095 | 1.19
+- **`Kepler-1277`**
+  - `Kepler-1277 b` | 2016 | Transit | 40.8365012 | 1.6
+- **`Kepler-1278`**
+  - `Kepler-1278 b` | 2016 | Transit | 3.23941344 | 1.01
+- **`Kepler-1279`**
+  - `Kepler-1279 b` | 2016 | Transit | 23.4774101 | 1.75
+- **`Kepler-1280`**
+  - `Kepler-1280 b` | 2016 | Transit | 66.5579057 | 1.87
+- **`Kepler-1281`**
+  - `Kepler-1281 b` | 2016 | Transit | 3.11602791 | 1.64
+- **`Kepler-1282`**
+  - `Kepler-1282 b` | 2016 | Transit | 2.131946513 | 1.55
+- **`Kepler-1283`**
+  - `Kepler-1283 b` | 2016 | Transit | 12.9460978 | 1.91
+- **`Kepler-1284`**
+  - `Kepler-1284 b` | 2016 | Transit | 0.664073806 | 1.21
+- **`Kepler-1285`**
+  - `Kepler-1285 b` | 2016 | Transit | 14.7967458 | 0.97
+- **`Kepler-1286`**
+  - `Kepler-1286 b` | 2016 | Transit | 11.25402929 | 2.15
+- **`Kepler-1287`**
+  - `Kepler-1287 b` | 2016 | Transit | 11.47685909 | 1.54
+- **`Kepler-1288`**
+  - `Kepler-1288 b` | 2016 | Transit | 2.76122421 | 1.12
+- **`Kepler-1289`**
+  - `Kepler-1289 b` | 2016 | Transit | 7.99019627 | 1.52
+- **`Kepler-1290`**
+  - `Kepler-1290 b` | 2016 | Transit | 4.69500134 | 1.42
+- **`Kepler-1291`**
+  - `Kepler-1291 b` | 2016 | Transit | 8.63043276 | 1.66
+- **`Kepler-1292`**
+  - `Kepler-1292 b` | 2016 | Transit | 3.27646405 | 1.82
+- **`Kepler-1293`**
+  - `Kepler-1293 b` | 2016 | Transit | 5.57654784 | 0.97
+- **`Kepler-1294`**
+  - `Kepler-1294 b` | 2016 | Transit | 115.6862258 | 3.19
+- **`Kepler-1295`**
+  - `Kepler-1295 b` | 2016 | Transit | 3.81371974 | 1.55
+- **`Kepler-1296`**
+  - `Kepler-1296 b` | 2016 | Transit | 8.3839865 | 0.91
+- **`Kepler-1297`**
+  - `Kepler-1297 b` | 2016 | Transit | 1.68189002 | 0.97
+- **`Kepler-1298`**
+  - `Kepler-1298 b` | 2016 | Transit | 7.12811928 | 1.31
+- **`Kepler-1299`**
+  - `Kepler-1299 b` | 2016 | Transit | 19.9400874 | 2.98
+- **`Kepler-1300`**
+  - `Kepler-1300 b` | 2016 | Transit | 22.2419092 | 1.37
+- **`Kepler-1301`**
+  - `Kepler-1301 b` | 2016 | Transit | 9.08237046 | 1.4
+- **`Kepler-1302`**
+  - `Kepler-1302 b` | 2016 | Transit | 8.83922659 | 1.43
+- **`Kepler-1303`**
+  - `Kepler-1303 b` | 2016 | Transit | 7.56127224 | 1.42
+- **`Kepler-1304`**
+  - `Kepler-1304 b` | 2016 | Transit | 16.1288853 | 2.29
+- **`Kepler-1305`**
+  - `Kepler-1305 b` | 2016 | Transit | 13.5630972 | 1.88
+- **`Kepler-1306`**
+  - `Kepler-1306 b` | 2016 | Transit | 16.29595382 | 1.91
+- **`Kepler-1307`**
+  - `Kepler-1307 b` | 2016 | Transit | 18.01621096 | 2.47
+- **`Kepler-1308`**
+  - `Kepler-1308 b` | 2016 | Transit | 2.104338119 | 0.52
+- **`Kepler-1309`**
+  - `Kepler-1309 b` | 2016 | Transit | 28.8432647 | 2.37
+- **`Kepler-1310`**
+  - `Kepler-1310 b` | 2016 | Transit | 0.679336272 | 1.44
+- **`Kepler-1311`**
+  - `Kepler-1311 c` | 2016 | Transit | 2.53573424 | 1.22
+  - `Kepler-1311 b` | 2016 | Transit | 11.1726994 | 1.24
+  - `Kepler-1311 d` | 2021 | Transit | 197.5110016 | 9.65837605
+- **`Kepler-1312`**
+  - `Kepler-1312 c` | 2021 | Transit | 1.116119981 | 1.02732734
+  - `Kepler-1312 b` | 2016 | Transit | 5.448325286 | 2.1
+- **`Kepler-1313`**
+  - `Kepler-1313 b` | 2016 | Transit | 3.833091178 | 1.76
+- **`Kepler-1314`**
+  - `Kepler-1314 b` | 2016 | Transit | 5.424749281 | 5.11
+- **`Kepler-1315`**
+  - `Kepler-1315 b` | 2016 | Transit | 0.84338011 | 1.38
+  - `Kepler-1315 c` | 2021 | Transit | 6.566060066 | 1.84398883
+- **`Kepler-1316`**
+  - `Kepler-1316 b` | 2016 | Transit | 87.9732136 | 3.54
+- **`Kepler-1317`**
+  - `Kepler-1317 b` | 2016 | Transit | 0.568874427 | 1.56
+- **`Kepler-1318`**
+  - `Kepler-1318 b` | 2016 | Transit | 213.257663 | 3.11
+- **`Kepler-1319`**
+  - `Kepler-1319 b` | 2016 | Transit | 2.886762645 | 1.34
+- **`Kepler-1320`**
+  - `Kepler-1320 b` | 2016 | Transit | 0.868386528 | 1.7
+- **`Kepler-1321`**
+  - `Kepler-1321 c` | 2016 | Transit | 2.226491086 | 2.4
+  - `Kepler-1321 d` | 2021 | Transit | 5.720920086 | 2.62843782
+  - `Kepler-1321 b` | 2016 | Transit | 11.12830484 | 4.92
+- **`Kepler-1322`**
+  - `Kepler-1322 b` | 2016 | Transit | 0.962867382 | 1.61
+  - `Kepler-1322 c` | 2021 | Transit | 6.459980011 | 2.15492527
+- **`Kepler-1323`**
+  - `Kepler-1323 b` | 2016 | Transit | 0.929906678 | 1.52
+- **`Kepler-1324`**
+  - `Kepler-1324 b` | 2016 | Transit | 4.115844679 | 1.51
+- **`Kepler-1325`**
+  - `Kepler-1325 b` | 2016 | Transit | 33.8786838 | 2.86
+- **`Kepler-1326`**
+  - `Kepler-1326 b` | 2016 | Transit | 42.3514267 | 4.18
+- **`Kepler-1327`**
+  - `Kepler-1327 b` | 2016 | Transit | 14.88801098 | 1.8
+- **`Kepler-1328`**
+  - `Kepler-1328 b` | 2016 | Transit | 4.52158888 | 0.98
+- **`Kepler-1329`**
+  - `Kepler-1329 b` | 2016 | Transit | 9.33646594 | 2.17
+- **`Kepler-1330`**
+  - `Kepler-1330 b` | 2016 | Transit | 10.10769068 | 1.65
+- **`Kepler-1331`**
+  - `Kepler-1331 b` | 2016 | Transit | 0.789161653 | 1.05
+- **`Kepler-1332`**
+  - `Kepler-1332 b` | 2016 | Transit | 11.87456832 | 1.37
+- **`Kepler-1333`**
+  - `Kepler-1333 b` | 2016 | Transit | 109.6471842 | 2.81
+- **`Kepler-1334`**
+  - `Kepler-1334 b` | 2016 | Transit | 15.64591713 | 2.29
+- **`Kepler-1335`**
+  - `Kepler-1335 b` | 2016 | Transit | 6.26406846 | 1.45
+- **`Kepler-1336`**
+  - `Kepler-1336 c` | 2016 | Transit | 5.77721211 | 1.71
+  - `Kepler-1336 b` | 2016 | Transit | 23.198681 | 1.98
+- **`Kepler-1337`**
+  - `Kepler-1337 b` | 2016 | Transit | 24.4002549 | 2.41
+- **`Kepler-1338`**
+  - `Kepler-1338 b` | 2016 | Transit | 0.935118057 | 0.92
+- **`Kepler-1339`**
+  - `Kepler-1339 b` | 2016 | Transit | 1.341555127 | 0.71
+- **`Kepler-1340`**
+  - `Kepler-1340 b` | 2016 | Transit | 0.665026916 | 1.55
+- **`Kepler-1341`**
+  - `Kepler-1341 b` | 2016 | Transit | 132.9968322 | 2.99
+- **`Kepler-1342`**
+  - `Kepler-1342 b` | 2016 | Transit | 2.215710358 | 1.66
+- **`Kepler-1343`**
+  - `Kepler-1343 b` | 2016 | Transit | 3.35183158 | 1.93
+- **`Kepler-1344`**
+  - `Kepler-1344 b` | 2016 | Transit | 4.7683049 | 1.84
+- **`Kepler-1345`**
+  - `Kepler-1345 b` | 2016 | Transit | 44.6169557 | 2.36
+- **`Kepler-1346`**
+  - `Kepler-1346 b` | 2016 | Transit | 3.40165668 | 1.58
+- **`Kepler-1347`**
+  - `Kepler-1347 b` | 2016 | Transit | 14.00947528 | 1.03
+- **`Kepler-1348`**
+  - `Kepler-1348 b` | 2016 | Transit | 27.5722742 | 1.94
+- **`Kepler-1349`**
+  - `Kepler-1349 b` | 2016 | Transit | 2.12823928 | 0.7
+- **`Kepler-1350`**
+  - `Kepler-1350 c` | 2016 | Transit | 1.766789062 | 1.73
+  - `Kepler-1350 b` | 2016 | Transit | 4.4968604 | 2.52
+- **`Kepler-1351`**
+  - `Kepler-1351 b` | 2016 | Transit | 0.916140768 | 0.65
+- **`Kepler-1352`**
+  - `Kepler-1352 b` | 2016 | Transit | 1.877882748 | 0.89
+- **`Kepler-1353`**
+  - `Kepler-1353 b` | 2016 | Transit | 24.7543966 | 1.8
+- **`Kepler-1354`**
+  - `Kepler-1354 b` | 2016 | Transit | 76.613377 | 2.97
+- **`Kepler-1355`**
+  - `Kepler-1355 b` | 2016 | Transit | 1.289588112 | 1.46
+- **`Kepler-1356`**
+  - `Kepler-1356 b` | 2016 | Transit | 0.634002937 | 1.53
+- **`Kepler-1357`**
+  - `Kepler-1357 b` | 2016 | Transit | 3.0091324 | 1.28
+- **`Kepler-1358`**
+  - `Kepler-1358 b` | 2016 | Transit | 7.06317341 | 1.12
+- **`Kepler-1359`**
+  - `Kepler-1359 b` | 2016 | Transit | 59.4970952 | 2.83
+- **`Kepler-1360`**
+  - `Kepler-1360 b` | 2016 | Transit | 40.5286413 | 3.4
+- **`Kepler-1361`**
+  - `Kepler-1361 b` | 2016 | Transit | 3.57554956 | 0.86
+- **`Kepler-1362`**
+  - `Kepler-1362 b` | 2016 | Transit | 136.205626 | 2.6
+- **`Kepler-1363`**
+  - `Kepler-1363 b` | 2016 | Transit | 2.94194094 | 1.25
+- **`Kepler-1364`**
+  - `Kepler-1364 b` | 2016 | Transit | 13.32196237 | 2.15
+- **`Kepler-1365`**
+  - `Kepler-1365 c` | 2016 | Transit | 4.77468005 | 0.8
+  - `Kepler-1365 b` | 2016 | Transit | 7.69993485 | 0.92
+- **`Kepler-1366`**
+  - `Kepler-1366 b` | 2016 | Transit | 2.164570968 | 1.43
+- **`Kepler-1367`**
+  - `Kepler-1367 b` | 2016 | Transit | 1.574090272 | 0.92
+- **`Kepler-1368`**
+  - `Kepler-1368 b` | 2016 | Transit | 0.675649486 | 1.65
+- **`Kepler-1369`**
+  - `Kepler-1369 b` | 2016 | Transit | 25.873148 | 2.69
+- **`Kepler-1370`**
+  - `Kepler-1370 c` | 2016 | Transit | 7.44142113 | 1.27
+  - `Kepler-1370 b` | 2016 | Transit | 20.2641684 | 1.84
+- **`Kepler-1371`**
+  - `Kepler-1371 c` | 2016 | Transit | 2.00541269 | 0.64
+  - `Kepler-1371 b` | 2016 | Transit | 3.4462039 | 0.73
+- **`Kepler-1372`**
+  - `Kepler-1372 b` | 2016 | Transit | 1.311555568 | 1.27
+- **`Kepler-1373`**
+  - `Kepler-1373 b` | 2016 | Transit | 1.29123275 | 1.16
+- **`Kepler-1374`**
+  - `Kepler-1374 b` | 2016 | Transit | 10.65276707 | 2.29
+- **`Kepler-1375`**
+  - `Kepler-1375 b` | 2016 | Transit | 3.3004192 | 1.74
+- **`Kepler-1376`**
+  - `Kepler-1376 b` | 2016 | Transit | 5.30880656 | 1.05
+- **`Kepler-1377`**
+  - `Kepler-1377 b` | 2016 | Transit | 0.740928422 | 1.25
+- **`Kepler-1378`**
+  - `Kepler-1378 b` | 2016 | Transit | 11.95398936 | 2.2
+- **`Kepler-1379`**
+  - `Kepler-1379 b` | 2016 | Transit | 0.881841146 | 1.3
+- **`Kepler-1380`**
+  - `Kepler-1380 b` | 2016 | Transit | 10.3108245 | 1.43
+- **`Kepler-1381`**
+  - `Kepler-1381 b` | 2016 | Transit | 25.3842686 | 2.25
+- **`Kepler-1382`**
+  - `Kepler-1382 b` | 2016 | Transit | 16.3583055 | 1.88
+- **`Kepler-1383`**
+  - `Kepler-1383 b` | 2016 | Transit | 13.9093583 | 1.41
+- **`Kepler-1384`**
+  - `Kepler-1384 b` | 2016 | Transit | 15.36262753 | 1.94
+- **`Kepler-1385`**
+  - `Kepler-1385 b` | 2016 | Transit | 2.88879862 | 0.85
+- **`Kepler-1386`**
+  - `Kepler-1386 b` | 2016 | Transit | 6.73972381 | 1.24
+- **`Kepler-1387`**
+  - `Kepler-1387 b` | 2016 | Transit | 2.279526656 | 0.93
+- **`Kepler-1388`**
+  - `Kepler-1388 c` | 2016 | Transit | 5.53608151 | 2.26
+  - `Kepler-1388 b` | 2016 | Transit | 12.2854603 | 2.59
+  - `Kepler-1388 d` | 2016 | Transit | 20.9568158 | 2.86
+  - `Kepler-1388 e` | 2016 | Transit | 37.6327084 | 2.46
+- **`Kepler-1389`**
+  - `Kepler-1389 b` | 2016 | Transit | 99.2530951 | 1.77
+- **`Kepler-1390`**
+  - `Kepler-1390 b` | 2016 | Transit | 6.48021673 | 1.18
+- **`Kepler-1391`**
+  - `Kepler-1391 b` | 2016 | Transit | 54.4092333 | 1.68
+- **`Kepler-1392`**
+  - `Kepler-1392 b` | 2016 | Transit | 15.1410397 | 1.96
+- **`Kepler-1393`**
+  - `Kepler-1393 b` | 2016 | Transit | 2.44357812 | 0.8
+- **`Kepler-1394`**
+  - `Kepler-1394 b` | 2016 | Transit | 3.93766373 | 1.39
+- **`Kepler-1395`**
+  - `Kepler-1395 b` | 2016 | Transit | 3.78470649 | 0.8
+- **`Kepler-1396`**
+  - `Kepler-1396 b` | 2016 | Transit | 18.2206421 | 2.07
+- **`Kepler-1397`**
+  - `Kepler-1397 b` | 2016 | Transit | 47.449955 | 1.72
+- **`Kepler-1398`**
+  - `Kepler-1398 b` | 2016 | Transit | 2.78815679 | 0.9
+  - `Kepler-1398 c` | 2016 | Transit | 4.13827595 | 1.03
+- **`Kepler-1399`**
+  - `Kepler-1399 b` | 2016 | Transit | 1.638653058 | 1.25
+- **`Kepler-1400`**
+  - `Kepler-1400 b` | 2016 | Transit | 9.06689421 | 1.62
+- **`Kepler-1401`**
+  - `Kepler-1401 b` | 2016 | Transit | 11.20066445 | 1.68
+- **`Kepler-1402`**
+  - `Kepler-1402 b` | 2016 | Transit | 2.03387914 | 0.76
+- **`Kepler-1403`**
+  - `Kepler-1403 b` | 2016 | Transit | 5.19492202 | 2.14
+- **`Kepler-1404`**
+  - `Kepler-1404 b` | 2016 | Transit | 15.9314739 | 2.01
+- **`Kepler-1405`**
+  - `Kepler-1405 b` | 2016 | Transit | 28.2274184 | 3.96
+- **`Kepler-1406`**
+  - `Kepler-1406 b` | 2016 | Transit | 11.62905828 | 1.1
+- **`Kepler-1407`**
+  - `Kepler-1407 b` | 2016 | Transit | 20.0711504 | 2.25
+- **`Kepler-1408`**
+  - `Kepler-1408 b` | 2016 | Transit | 2.99793191 | 0.89
+- **`Kepler-1409`**
+  - `Kepler-1409 b` | 2016 | Transit | 0.764864926 | 1.04
+- **`Kepler-1410`**
+  - `Kepler-1410 b` | 2016 | Transit | 60.866168 | 1.78
+- **`Kepler-1411`**
+  - `Kepler-1411 b` | 2016 | Transit | 86.1150888 | 2.82
+- **`Kepler-1412`**
+  - `Kepler-1412 b` | 2016 | Transit | 3.6146051 | 0.83
+- **`Kepler-1413`**
+  - `Kepler-1413 b` | 2016 | Transit | 13.1829642 | 1.82
+- **`Kepler-1414`**
+  - `Kepler-1414 b` | 2016 | Transit | 3.51576315 | 1.23
+- **`Kepler-1415`**
+  - `Kepler-1415 b` | 2016 | Transit | 0.63642408 | 1.29
+- **`Kepler-1416`**
+  - `Kepler-1416 b` | 2016 | Transit | 1.49514952 | 0.88
+- **`Kepler-1417`**
+  - `Kepler-1417 b` | 2016 | Transit | 20.3505213 | 1
+- **`Kepler-1418`**
+  - `Kepler-1418 b` | 2016 | Transit | 22.4764425 | 1.66
+- **`Kepler-1419`**
+  - `Kepler-1419 b` | 2016 | Transit | 42.5215895 | 2.86
+- **`Kepler-1420`**
+  - `Kepler-1420 b` | 2016 | Transit | 6.69960006 | 1.28
+- **`Kepler-1421`**
+  - `Kepler-1421 b` | 2016 | Transit | 6.9131112 | 0.93
+- **`Kepler-1422`**
+  - `Kepler-1422 b` | 2016 | Transit | 18.6051942 | 2.02
+- **`Kepler-1423`**
+  - `Kepler-1423 b` | 2016 | Transit | 23.955378 | 1.06
+- **`Kepler-1424`**
+  - `Kepler-1424 b` | 2016 | Transit | 29.6091744 | 1.16
+- **`Kepler-1425`**
+  - `Kepler-1425 b` | 2016 | Transit | 14.4541302 | 0.94
+- **`Kepler-1426`**
+  - `Kepler-1426 b` | 2016 | Transit | 14.2563227 | 1.56
+- **`Kepler-1427`**
+  - `Kepler-1427 b` | 2016 | Transit | 0.968972376 | 1.1
+- **`Kepler-1428`**
+  - `Kepler-1428 b` | 2016 | Transit | 10.67607169 | 1.64
+- **`Kepler-1429`**
+  - `Kepler-1429 b` | 2016 | Transit | 4.48487493 | 1.29
+- **`Kepler-1430`**
+  - `Kepler-1430 b` | 2016 | Transit | 2.46050993 | 1.18
+- **`Kepler-1431`**
+  - `Kepler-1431 b` | 2016 | Transit | 5.86601526 | 1.47
+- **`Kepler-1432`**
+  - `Kepler-1432 b` | 2016 | Transit | 23.9109011 | 2.22
+- **`Kepler-1433`**
+  - `Kepler-1433 b` | 2016 | Transit | 4.13592271 | 1.56
+- **`Kepler-1434`**
+  - `Kepler-1434 b` | 2016 | Transit | 8.05333618 | 1.11
+- **`Kepler-1435`**
+  - `Kepler-1435 b` | 2016 | Transit | 4.45343281 | 0.86
+- **`Kepler-1436`**
+  - `Kepler-1436 b` | 2016 | Transit | 9.705716 | 1.31
+- **`Kepler-1437`**
+  - `Kepler-1437 b` | 2016 | Transit | 10.9295461 | 1.37
+- **`Kepler-1438`**
+  - `Kepler-1438 b` | 2016 | Transit | 2.31942009 | 0.94
+- **`Kepler-1439`**
+  - `Kepler-1439 b` | 2016 | Transit | 8.07392849 | 1.46
+- **`Kepler-1440`**
+  - `Kepler-1440 b` | 2016 | Transit | 39.859484 | 1.26
+- **`Kepler-1441`**
+  - `Kepler-1441 b` | 2016 | Transit | 39.4419839 | 1.31
+- **`Kepler-1442`**
+  - `Kepler-1442 b` | 2016 | Transit | 81.4162941 | 3.93
+- **`Kepler-1443`**
+  - `Kepler-1443 b` | 2016 | Transit | 2.41811321 | 0.97
+- **`Kepler-1444`**
+  - `Kepler-1444 b` | 2016 | Transit | 33.42035034 | 2.18
+- **`Kepler-1445`**
+  - `Kepler-1445 b` | 2016 | Transit | 10.60052251 | 0.96
+- **`Kepler-1446`**
+  - `Kepler-1446 b` | 2016 | Transit | 0.689967832 | 0.82
+- **`Kepler-1447`**
+  - `Kepler-1447 b` | 2016 | Transit | 56.6747285 | 2.9
+- **`Kepler-1448`**
+  - `Kepler-1448 b` | 2016 | Transit | 12.27065865 | 1.61
+- **`Kepler-1449`**
+  - `Kepler-1449 b` | 2016 | Transit | 13.2274528 | 1.68
+
+</details>
+
+<a name="systems-17"></a>
+
+<details><summary>Kepler-1450 – Kepler-1629 · 180 ระบบ · 198 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`Kepler-1450`**
+  - `Kepler-1450 b` | 2016 | Transit | 54.5094166 | 1.71
+- **`Kepler-1451`**
+  - `Kepler-1451 b` | 2016 | Transit | 35.622233 | 3.35
+- **`Kepler-1452`**
+  - `Kepler-1452 b` | 2016 | Transit | 42.913751 | 2.7
+- **`Kepler-1453`**
+  - `Kepler-1453 b` | 2016 | Transit | 47.1611696 | 2.67
+- **`Kepler-1454`**
+  - `Kepler-1454 b` | 2016 | Transit | 47.0319479 | 1.88
+- **`Kepler-1455`**
+  - `Kepler-1455 b` | 2016 | Transit | 49.276764 | 2.16
+- **`Kepler-1456`**
+  - `Kepler-1456 b` | 2016 | Transit | 18.1373829 | 1.14
+- **`Kepler-1457`**
+  - `Kepler-1457 b` | 2016 | Transit | 51.1110243 | 1.99
+- **`Kepler-1458`**
+  - `Kepler-1458 b` | 2016 | Transit | 47.9872764 | 2.76
+- **`Kepler-1459`**
+  - `Kepler-1459 b` | 2016 | Transit | 62.8691611 | 1.36
+- **`Kepler-1460`**
+  - `Kepler-1460 b` | 2016 | Transit | 29.9633247 | 1.96
+- **`Kepler-1461`**
+  - `Kepler-1461 b` | 2016 | Transit | 29.3494775 | 2.03
+- **`Kepler-1462`**
+  - `Kepler-1462 b` | 2016 | Transit | 65.6488341 | 3.82
+- **`Kepler-1463`**
+  - `Kepler-1463 b` | 2016 | Transit | 25.15864 | 1.86
+- **`Kepler-1464`**
+  - `Kepler-1464 c` | 2016 | Transit | 5.32786292 | 1
+  - `Kepler-1464 b` | 2016 | Transit | 31.7785901 | 1.66
+- **`Kepler-1465`**
+  - `Kepler-1465 b` | 2016 | Transit | 31.8277111 | 1.77
+- **`Kepler-1466`**
+  - `Kepler-1466 b` | 2016 | Transit | 31.1750448 | 1.55
+- **`Kepler-1467`**
+  - `Kepler-1467 b` | 2016 | Transit | 47.0569043 | 3.3
+- **`Kepler-1468`**
+  - `Kepler-1468 c` | 2016 | Transit | 3.54553021 | 1.15
+  - `Kepler-1468 b` | 2016 | Transit | 8.23984869 | 1.73
+  - `Kepler-1468 d` | 2021 | Transit | 19.59059906 | 3.33187146
+- **`Kepler-1469`**
+  - `Kepler-1469 b` | 2016 | Transit | 21.8635301 | 2.8
+- **`Kepler-1470`**
+  - `Kepler-1470 b` | 2016 | Transit | 16.2950903 | 1.07
+- **`Kepler-1471`**
+  - `Kepler-1471 b` | 2016 | Transit | 3.63899398 | 1.41
+  - `Kepler-1471 c` | 2023 | Transit | 11.6044881 | 1.88
+- **`Kepler-1472`**
+  - `Kepler-1472 b` | 2016 | Transit | 38.1312831 | 1.9
+- **`Kepler-1473`**
+  - `Kepler-1473 b` | 2016 | Transit | 14.4273551 | 1.19
+- **`Kepler-1474`**
+  - `Kepler-1474 b` | 2016 | Transit | 36.4333452 | 2.16
+- **`Kepler-1475`**
+  - `Kepler-1475 b` | 2016 | Transit | 82.177374 | 2.92
+- **`Kepler-1476`**
+  - `Kepler-1476 b` | 2016 | Transit | 10.35863224 | 1.67
+- **`Kepler-1477`**
+  - `Kepler-1477 b` | 2016 | Transit | 11.55530021 | 1.18
+- **`Kepler-1478`**
+  - `Kepler-1478 b` | 2016 | Transit | 26.0840594 | 1.73
+- **`Kepler-1479`**
+  - `Kepler-1479 b` | 2016 | Transit | 14.53261362 | 1.83
+- **`Kepler-1480`**
+  - `Kepler-1480 b` | 2016 | Transit | 22.12679948 | 1.67
+- **`Kepler-1481`**
+  - `Kepler-1481 b` | 2016 | Transit | 5.94220998 | 1.23
+- **`Kepler-1482`**
+  - `Kepler-1482 b` | 2016 | Transit | 12.25383217 | 1.01
+- **`Kepler-1483`**
+  - `Kepler-1483 b` | 2016 | Transit | 9.5085156 | 1.52
+- **`Kepler-1484`**
+  - `Kepler-1484 b` | 2016 | Transit | 30.4549136 | 2.11
+- **`Kepler-1485`**
+  - `Kepler-1485 b` | 2016 | Transit | 19.9157725 | 1.47
+- **`Kepler-1486`**
+  - `Kepler-1486 b` | 2016 | Transit | 54.6495759 | 2.32
+- **`Kepler-1487`**
+  - `Kepler-1487 b` | 2016 | Transit | 7.31946363 | 2.13
+  - `Kepler-1487 c` | 2023 | Transit | 35.8007112 | 7.97
+- **`Kepler-1488`**
+  - `Kepler-1488 c` | 2021 | Transit | 6.158269882 | 1.65156749
+  - `Kepler-1488 b` | 2016 | Transit | 39.8189932 | 1.86
+- **`Kepler-1489`**
+  - `Kepler-1489 c` | 2024 | Transit | 0.680741 | 0.51
+  - `Kepler-1489 b` | 2016 | Transit | 82.294751 | 1.77
+- **`Kepler-1490`**
+  - `Kepler-1490 b` | 2016 | Transit | 92.4362973 | 3.04
+- **`Kepler-1491`**
+  - `Kepler-1491 b` | 2016 | Transit | 16.5861762 | 1.51
+  - `Kepler-1491 c` | 2023 | Transit | 61.569765 | 2.44
+- **`Kepler-1492`**
+  - `Kepler-1492 b` | 2016 | Transit | 16.75255007 | 1.49
+- **`Kepler-1493`**
+  - `Kepler-1493 b` | 2016 | Transit | 15.0217983 | 1.41
+- **`Kepler-1494`**
+  - `Kepler-1494 b` | 2016 | Transit | 91.080482 | 3.07
+- **`Kepler-1495`**
+  - `Kepler-1495 b` | 2016 | Transit | 85.273256 | 2.94
+- **`Kepler-1496`**
+  - `Kepler-1496 b` | 2016 | Transit | 64.6588017 | 2.22
+- **`Kepler-1497`**
+  - `Kepler-1497 b` | 2016 | Transit | 8.74199772 | 1.66
+- **`Kepler-1498`**
+  - `Kepler-1498 b` | 2016 | Transit | 48.051405 | 1.33
+- **`Kepler-1499`**
+  - `Kepler-1499 b` | 2016 | Transit | 44.2008 | 1.19
+- **`Kepler-1500`**
+  - `Kepler-1500 b` | 2016 | Transit | 15.0330105 | 1.2
+- **`Kepler-1501`**
+  - `Kepler-1501 b` | 2016 | Transit | 14.5564533 | 1.56
+- **`Kepler-1502`**
+  - `Kepler-1502 b` | 2016 | Transit | 41.7083629 | 3.18
+- **`Kepler-1503`**
+  - `Kepler-1503 b` | 2016 | Transit | 96.16987 | 2.27
+- **`Kepler-1504`**
+  - `Kepler-1504 b` | 2016 | Transit | 82.304003 | 2.13
+- **`Kepler-1505`**
+  - `Kepler-1505 b` | 2016 | Transit | 30.8609366 | 0.93
+- **`Kepler-1506`**
+  - `Kepler-1506 b` | 2016 | Transit | 14.0329154 | 1.32
+- **`Kepler-1507`**
+  - `Kepler-1507 b` | 2016 | Transit | 16.0506213 | 0.84
+- **`Kepler-1508`**
+  - `Kepler-1508 b` | 2016 | Transit | 20.7056504 | 1.33
+- **`Kepler-1509`**
+  - `Kepler-1509 b` | 2016 | Transit | 25.4338197 | 1.85
+- **`Kepler-1510`**
+  - `Kepler-1510 b` | 2016 | Transit | 84.703921 | 3.36
+- **`Kepler-1511`**
+  - `Kepler-1511 b` | 2016 | Transit | 23.2382792 | 1.68
+- **`Kepler-1512`**
+  - `Kepler-1512 b` | 2016 | Transit | 20.35972599 | 1.18
+- **`Kepler-1513`**
+  - `Kepler-1513 b` | 2016 | Transit | 160.8842 | 8.594
+  - `Kepler-1513 c` | 2023 | Transit Timing Variations | 841.4 | 11
+- **`Kepler-1514`**
+  - `Kepler-1514 c` | 2020 | Transit | 10.514181 | 1.1758241
+  - `Kepler-1514 b` | 2016 | Transit | 217.83184 | 12.419572
+- **`Kepler-1515`**
+  - `Kepler-1515 b` | 2016 | Transit | 214.3114164 | 9.55
+- **`Kepler-1516`**
+  - `Kepler-1516 b` | 2016 | Transit | 7.25931979 | 1.75
+- **`Kepler-1517`**
+  - `Kepler-1517 b` | 2016 | Transit | 5.546083665 | 9.76
+- **`Kepler-1518`**
+  - `Kepler-1518 b` | 2016 | Transit | 5.11177904 | 3.05
+  - `Kepler-1518 c` | 2023 | Transit | 9.6310258 | 2.9
+- **`Kepler-1519`**
+  - `Kepler-1519 b` | 2016 | Transit | 240.7989397 | 7.06
+- **`Kepler-1520`**
+  - `Kepler-1520 b` | 2016 | Transit | 0.653553572 | 5.77
+- **`Kepler-1521`**
+  - `Kepler-1521 b` | 2016 | Transit | 47.14840805 | 2.5
+- **`Kepler-1522`**
+  - `Kepler-1522 b` | 2016 | Transit | 1.847889171 | 1.73
+- **`Kepler-1523`**
+  - `Kepler-1523 b` | 2016 | Transit | 0.93875077 | 1.58
+- **`Kepler-1524`**
+  - `Kepler-1524 b` | 2016 | Transit | 70.9674603 | 3.54
+- **`Kepler-1525`**
+  - `Kepler-1525 b` | 2016 | Transit | 2.416601183 | 0.91
+- **`Kepler-1526`**
+  - `Kepler-1526 b` | 2016 | Transit | 3.908632005 | 2.43
+- **`Kepler-1527`**
+  - `Kepler-1527 b` | 2016 | Transit | 160.129918 | 4.77
+- **`Kepler-1528`**
+  - `Kepler-1528 b` | 2016 | Transit | 1.791110205 | 1.46
+- **`Kepler-1529`**
+  - `Kepler-1529 b` | 2016 | Transit | 5.33905686 | 2.1
+- **`Kepler-1530`**
+  - `Kepler-1530 b` | 2016 | Transit | 2.5904434 | 1.64
+  - `Kepler-1530 c` | 2016 | Transit | 5.3227406 | 1.65
+  - `Kepler-1530 d` | 2021 | Transit | 9.20761013 | 3.27870115
+- **`Kepler-1531`**
+  - `Kepler-1531 b` | 2016 | Transit | 1.138543376 | 1.11
+- **`Kepler-1532`**
+  - `Kepler-1532 b` | 2016 | Transit | 1.093663559 | 1.35
+- **`Kepler-1533`**
+  - `Kepler-1533 b` | 2016 | Transit | 308.5471 | 3.46
+- **`Kepler-1534`**
+  - `Kepler-1534 b` | 2016 | Transit | 5.71668872 | 1.89
+- **`Kepler-1535`**
+  - `Kepler-1535 b` | 2016 | Transit | 138.9442 | 2.55
+- **`Kepler-1536`**
+  - `Kepler-1536 b` | 2016 | Transit | 364.758031 | 3.14
+- **`Kepler-1537`**
+  - `Kepler-1537 b` | 2016 | Transit | 1.444453798 | 1.18
+- **`Kepler-1538`**
+  - `Kepler-1538 b` | 2016 | Transit | 175.138819 | 2.82
+- **`Kepler-1539`**
+  - `Kepler-1539 b` | 2016 | Transit | 133.3036741 | 2.7
+- **`Kepler-1540`**
+  - `Kepler-1540 b` | 2016 | Transit | 125.4131177 | 2.49
+- **`Kepler-1541`**
+  - `Kepler-1541 b` | 2016 | Transit | 8.40691199 | 1.16
+- **`Kepler-1542`**
+  - `Kepler-1542 c` | 2016 | Transit | 2.89223021 | 0.65
+  - `Kepler-1542 b` | 2016 | Transit | 3.95116882 | 0.76
+  - `Kepler-1542 e` | 2016 | Transit | 5.10115756 | 0.76
+  - `Kepler-1542 d` | 2016 | Transit | 5.99273738 | 0.87
+- **`Kepler-1543`**
+  - `Kepler-1543 b` | 2016 | Transit | 6.96710269 | 2.71
+- **`Kepler-1544`**
+  - `Kepler-1544 b` | 2016 | Transit | 168.811174 | 1.78
+- **`Kepler-1545`**
+  - `Kepler-1545 b` | 2016 | Transit | 163.692349 | 2.7
+- **`Kepler-1546`**
+  - `Kepler-1546 b` | 2016 | Transit | 19.5974971 | 3.13
+- **`Kepler-1547`**
+  - `Kepler-1547 b` | 2016 | Transit | 0.692979676 | 0.9
+- **`Kepler-1548`**
+  - `Kepler-1548 b` | 2016 | Transit | 124.828679 | 2.64
+- **`Kepler-1549`**
+  - `Kepler-1549 b` | 2016 | Transit | 214.886545 | 2.57
+- **`Kepler-1550`**
+  - `Kepler-1550 b` | 2016 | Transit | 225.582809 | 3.02
+- **`Kepler-1551`**
+  - `Kepler-1551 b` | 2016 | Transit | 24.4973698 | 2.66
+- **`Kepler-1552`**
+  - `Kepler-1552 b` | 2016 | Transit | 184.771853 | 2.47
+- **`Kepler-1553`**
+  - `Kepler-1553 b` | 2016 | Transit | 4.24261881 | 1.15
+- **`Kepler-1554`**
+  - `Kepler-1554 b` | 2016 | Transit | 198.088774 | 2.9
+- **`Kepler-1555`**
+  - `Kepler-1555 b` | 2016 | Transit | 8.10501635 | 1.61
+- **`Kepler-1556`**
+  - `Kepler-1556 b` | 2016 | Transit | 8.82713457 | 1.96
+- **`Kepler-1557`**
+  - `Kepler-1557 b` | 2016 | Transit | 3.74032496 | 1.53
+- **`Kepler-1558`**
+  - `Kepler-1558 b` | 2016 | Transit | 3.50470358 | 0.68
+- **`Kepler-1559`**
+  - `Kepler-1559 b` | 2016 | Transit | 0.971915428 | 0.72
+- **`Kepler-1560`**
+  - `Kepler-1560 b` | 2016 | Transit | 3.03195744 | 0.89
+- **`Kepler-1561`**
+  - `Kepler-1561 b` | 2016 | Transit | 1.005207007 | 1.09
+- **`Kepler-1562`**
+  - `Kepler-1562 b` | 2016 | Transit | 64.2737752 | 3.55
+- **`Kepler-1563`**
+  - `Kepler-1563 b` | 2016 | Transit | 3.43276598 | 0.75
+- **`Kepler-1564`**
+  - `Kepler-1564 b` | 2016 | Transit | 18.0540381 | 1.47
+- **`Kepler-1565`**
+  - `Kepler-1565 b` | 2016 | Transit | 1.538188437 | 1.19
+- **`Kepler-1566`**
+  - `Kepler-1566 b` | 2016 | Transit | 0.539915238 | 0.79
+- **`Kepler-1567`**
+  - `Kepler-1567 b` | 2016 | Transit | 153.979578 | 2.73
+- **`Kepler-1568`**
+  - `Kepler-1568 b` | 2016 | Transit | 20.925392 | 1.3
+- **`Kepler-1569`**
+  - `Kepler-1569 b` | 2016 | Transit | 5.79180156 | 1.68
+- **`Kepler-1570`**
+  - `Kepler-1570 b` | 2016 | Transit | 26.548955 | 1.07
+- **`Kepler-1571`**
+  - `Kepler-1571 b` | 2016 | Transit | 3.38555488 | 1.52
+- **`Kepler-1572`**
+  - `Kepler-1572 b` | 2016 | Transit | 5.49548621 | 0.94
+- **`Kepler-1573`**
+  - `Kepler-1573 b` | 2016 | Transit | 2.6157554 | 1.2
+- **`Kepler-1574`**
+  - `Kepler-1574 b` | 2016 | Transit | 6.9424334 | 1.29
+- **`Kepler-1575`**
+  - `Kepler-1575 b` | 2016 | Transit | 2.55314213 | 1.31
+- **`Kepler-1576`**
+  - `Kepler-1576 b` | 2016 | Transit | 6.98471973 | 1.04
+- **`Kepler-1577`**
+  - `Kepler-1577 b` | 2016 | Transit | 6.30560247 | 1.13
+- **`Kepler-1578`**
+  - `Kepler-1578 b` | 2016 | Transit | 1.450886907 | 1.04
+- **`Kepler-1579`**
+  - `Kepler-1579 b` | 2016 | Transit | 0.849907889 | 0.84
+- **`Kepler-1580`**
+  - `Kepler-1580 b` | 2016 | Transit | 56.6449279 | 2.11
+- **`Kepler-1581`**
+  - `Kepler-1581 b` | 2016 | Transit | 6.28385491 | 0.8
+- **`Kepler-1582`**
+  - `Kepler-1582 b` | 2016 | Transit | 4.83817712 | 1.49
+- **`Kepler-1583`**
+  - `Kepler-1583 b` | 2016 | Transit | 9.32807355 | 0.6
+- **`Kepler-1584`**
+  - `Kepler-1584 b` | 2016 | Transit | 13.3997099 | 1.61
+- **`Kepler-1585`**
+  - `Kepler-1585 b` | 2016 | Transit | 3.5827463 | 1.79
+- **`Kepler-1586`**
+  - `Kepler-1586 b` | 2016 | Transit | 15.6049212 | 1.52
+- **`Kepler-1587`**
+  - `Kepler-1587 b` | 2016 | Transit | 9.4060467 | 1.33
+- **`Kepler-1588`**
+  - `Kepler-1588 b` | 2016 | Transit | 7.84931739 | 0.76
+- **`Kepler-1589`**
+  - `Kepler-1589 b` | 2016 | Transit | 0.991665274 | 1.09
+- **`Kepler-1590`**
+  - `Kepler-1590 b` | 2016 | Transit | 7.61760804 | 1.14
+- **`Kepler-1591`**
+  - `Kepler-1591 b` | 2016 | Transit | 8.18504949 | 1.27
+- **`Kepler-1592`**
+  - `Kepler-1592 b` | 2016 | Transit | 3.05710069 | 1.54
+- **`Kepler-1593`**
+  - `Kepler-1593 b` | 2016 | Transit | 174.509835 | 3.17
+- **`Kepler-1594`**
+  - `Kepler-1594 b` | 2016 | Transit | 2.71603809 | 1.06
+- **`Kepler-1595`**
+  - `Kepler-1595 b` | 2016 | Transit | 4.56380468 | 1.23
+- **`Kepler-1596`**
+  - `Kepler-1596 b` | 2016 | Transit | 66.373379 | 1.9
+- **`Kepler-1597`**
+  - `Kepler-1597 b` | 2016 | Transit | 2.94654179 | 1.06
+- **`Kepler-1598`**
+  - `Kepler-1598 b` | 2016 | Transit | 4.34195123 | 0.95
+- **`Kepler-1599`**
+  - `Kepler-1599 b` | 2016 | Transit | 122.363553 | 1.62
+- **`Kepler-1600`**
+  - `Kepler-1600 c` | 2021 | Transit | 7.298049927 | 1.94206512
+  - `Kepler-1600 b` | 2016 | Transit | 386.370548 | 3.13
+- **`Kepler-1601`**
+  - `Kepler-1601 b` | 2016 | Transit | 2.20921951 | 0.82
+- **`Kepler-1602`**
+  - `Kepler-1602 b` | 2016 | Transit | 11.17931605 | 1.34
+- **`Kepler-1603`**
+  - `Kepler-1603 b` | 2016 | Transit | 2.27163926 | 1.29
+- **`Kepler-1604`**
+  - `Kepler-1604 b` | 2016 | Transit | 0.683684256 | 1.41
+- **`Kepler-1605`**
+  - `Kepler-1605 b` | 2016 | Transit | 85.7565495 | 1.08
+- **`Kepler-1606`**
+  - `Kepler-1606 b` | 2016 | Transit | 196.435224 | 2.07
+- **`Kepler-1607`**
+  - `Kepler-1607 b` | 2016 | Transit | 13.6473676 | 0.92
+- **`Kepler-1608`**
+  - `Kepler-1608 b` | 2016 | Transit | 16.4735686 | 1.73
+- **`Kepler-1609`**
+  - `Kepler-1609 b` | 2016 | Transit | 114.34219 | 2.22
+- **`Kepler-1610`**
+  - `Kepler-1610 b` | 2016 | Transit | 8.70181574 | 1.61
+  - `Kepler-1610 c` | 2023 | Transit | 44.9851885 | 2.09
+- **`Kepler-1611`**
+  - `Kepler-1611 b` | 2016 | Transit | 5.1762429 | 0.81
+- **`Kepler-1612`**
+  - `Kepler-1612 b` | 2016 | Transit | 3.91795101 | 1.03
+- **`Kepler-1613`**
+  - `Kepler-1613 b` | 2016 | Transit | 1.5184299 | 2.08
+- **`Kepler-1614`**
+  - `Kepler-1614 b` | 2016 | Transit | 3.9466141 | 1.49
+- **`Kepler-1615`**
+  - `Kepler-1615 b` | 2016 | Transit | 47.3126192 | 2.06
+- **`Kepler-1616`**
+  - `Kepler-1616 b` | 2016 | Transit | 6.76284377 | 1.02
+- **`Kepler-1617`**
+  - `Kepler-1617 b` | 2016 | Transit | 27.4785572 | 1.2
+- **`Kepler-1618`**
+  - `Kepler-1618 b` | 2016 | Transit | 6.10826019 | 1.26
+- **`Kepler-1619`**
+  - `Kepler-1619 b` | 2016 | Transit | 23.6225913 | 0.76
+- **`Kepler-1620`**
+  - `Kepler-1620 b` | 2016 | Transit | 101.951829 | 1.61
+- **`Kepler-1621`**
+  - `Kepler-1621 b` | 2016 | Transit | 92.263714 | 2.16
+- **`Kepler-1622`**
+  - `Kepler-1622 b` | 2016 | Transit | 10.8118737 | 1.47
+- **`Kepler-1623`**
+  - `Kepler-1623 b` | 2016 | Transit | 4.36128348 | 1.31
+- **`Kepler-1624`**
+  - `Kepler-1624 b` | 2016 | Transit | 3.290314 | 6.59
+- **`Kepler-1625`**
+  - `Kepler-1625 b` | 2016 | Transit | 287.378949 | 6.06
+- **`Kepler-1626`**
+  - `Kepler-1626 b` | 2016 | Transit | 4.13962966 | 2.02
+- **`Kepler-1627`**
+  - `Kepler-1627 b` | 2016 | Transit | 7.20283653 | 3.69
+- **`Kepler-1628`**
+  - `Kepler-1628 b` | 2016 | Transit | 76.378033 | 6.43
+- **`Kepler-1629`**
+  - `Kepler-1629 b` | 2016 | Transit | 3.87595807 | 0.77
+
+</details>
+
+<a name="systems-18"></a>
+
+<details><summary>Kepler-1630 – Kepler-1818 · 180 ระบบ · 192 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`Kepler-1630`**
+  - `Kepler-1630 b` | 2016 | Transit | 509.997402 | 2.19
+- **`Kepler-1631`**
+  - `Kepler-1631 b` | 2016 | Transit | 4.09513932 | 1.35
+- **`Kepler-1632`**
+  - `Kepler-1632 b` | 2016 | Transit | 448.303558 | 2.47
+- **`Kepler-1633`**
+  - `Kepler-1633 b` | 2016 | Transit | 186.404271 | 1.58
+- **`Kepler-1634`**
+  - `Kepler-1634 b` | 2016 | Transit | 374.876239 | 3.19
+- **`Kepler-1635`**
+  - `Kepler-1635 b` | 2016 | Transit | 469.63111 | 3.64
+- **`Kepler-1636`**
+  - `Kepler-1636 b` | 2016 | Transit | 425.47785 | 3.23
+- **`Kepler-1637`**
+  - `Kepler-1637 b` | 2016 | Transit | 6.10960324 | 0.89
+- **`Kepler-1638`**
+  - `Kepler-1638 b` | 2016 | Transit | 259.33683 | 1.87
+- **`Kepler-1639`**
+  - `Kepler-1639 b` | 2016 | Transit | 9.878482 | 2.58
+- **`Kepler-1640`**
+  - `Kepler-1640 b` | 2016 | Transit | 7.5844126 | 4.82
+- **`Kepler-1641`**
+  - `Kepler-1641 b` | 2016 | Transit | 19.672266 | 3.11
+  - `Kepler-1641 c` | 2016 | Transit | 32.657212 | 2.95
+- **`Kepler-1642`**
+  - `Kepler-1642 c` | 2016 | Transit | 6.6513802 | 2.66
+  - `Kepler-1642 b` | 2016 | Transit | 12.2057513 | 3.2
+- **`Kepler-1643`**
+  - `Kepler-1643 b` | 2016 | Transit | 5.342657 | 2.32
+- **`Kepler-1644`**
+  - `Kepler-1644 b` | 2016 | Transit | 21.0907758 | 1.88
+- **`Kepler-1645`**
+  - `Kepler-1645 b` | 2016 | Transit | 16.1779561 | 1.78
+- **`Kepler-1646`**
+  - `Kepler-1646 b` | 2016 | Transit | 4.48558383 | 1.23
+- **`Kepler-1647`**
+  - `Kepler-1647 b` CB | 2016 | Transit | 1107.5923 | 11.8739
+- **`Kepler-1649`**
+  - `Kepler-1649 b` | 2017 | Transit | 8.689099 | 1.017
+  - `Kepler-1649 c` | 2020 | Transit | 19.53527 | 1.06
+- **`Kepler-1650`**
+  - `Kepler-1650 b` | 2017 | Transit | 1.53818001 | 0.96
+- **`Kepler-1651`**
+  - `Kepler-1651 b` | 2017 | Transit | 9.87863917 | 1.84
+- **`Kepler-1652`**
+  - `Kepler-1652 b` | 2017 | Transit | 38.09722 | 1.6
+- **`Kepler-1653`**
+  - `Kepler-1653 b` | 2017 | Transit | 140.2524 | 2.17
+- **`Kepler-1654`**
+  - `Kepler-1654 b` | 2018 | Transit | 1047.8356 | 9.180171
+- **`Kepler-1655`**
+  - `Kepler-1655 b` | 2018 | Transit | 11.8728787 | 2.213
+- **`Kepler-1656`**
+  - `Kepler-1656 b` | 2018 | Transit | 31.562 | 4.574
+  - `Kepler-1656 c` | 2022 | Radial Velocity | 1919 | 14
+- **`Kepler-1660`**
+  - ดาวแม่ `Kepler-1660 A`
+    - `Kepler-1660 AB b` CB | 2023 | Eclipse Timing Variations | 239.5044 | 12.9
+- **`Kepler-1661`**
+  - `Kepler-1661 b` CB | 2020 | Transit | 175.06 | 3.87
+- **`Kepler-1663`**
+  - `Kepler-1663 b` | 2020 | Transit | 17.6046 | 3.30395896
+- **`Kepler-1664`**
+  - `Kepler-1664 b` | 2020 | Transit | 14.3868 | 3.03320653
+- **`Kepler-1665`**
+  - `Kepler-1665 b` | 2020 | Transit | 11.9548 | 2.83910787
+- **`Kepler-1666`**
+  - `Kepler-1666 b` | 2020 | Transit | 25.8476 | 2.88273782
+  - `Kepler-1666 c` | 2020 | Transit | 40.7157 | 3.23564749
+- **`Kepler-1667`**
+  - `Kepler-1667 b` | 2020 | Transit | 83.5781 | 2.98385261
+- **`Kepler-1668`**
+  - `Kepler-1668 b` | 2020 | Transit | 15.434 | 4.34764405
+- **`Kepler-1669`**
+  - `Kepler-1669 c` | 2021 | Transit | 1.609320045 | 1.90120972
+  - `Kepler-1669 d` | 2023 | Transit | 4.72941177 | 1.22
+  - `Kepler-1669 b` | 2020 | Transit | 9.51216 | 2.78043818
+- **`Kepler-1670`**
+  - `Kepler-1670 b` | 2020 | Transit | 20.4998 | 3.3564801
+- **`Kepler-1671`**
+  - `Kepler-1671 b` | 2020 | Transit | 4.16787 | 1.32557381
+- **`Kepler-1672`**
+  - `Kepler-1672 b` | 2020 | Transit | 150.878 | 2.97022762
+- **`Kepler-1673`**
+  - `Kepler-1673 b` | 2020 | Transit | 33.7888 | 2.9355194
+- **`Kepler-1674`**
+  - `Kepler-1674 b` | 2020 | Transit | 62.5611 | 3.2057749
+- **`Kepler-1675`**
+  - `Kepler-1675 b` | 2020 | Transit | 63.0382 | 3.12483349
+- **`Kepler-1676`**
+  - `Kepler-1676 b` | 2020 | Transit | 29.9221 | 3.3769596
+- **`Kepler-1677`**
+  - `Kepler-1677 b` | 2020 | Transit | 22.064 | 2.70216183
+- **`Kepler-1678`**
+  - `Kepler-1678 b` | 2020 | Transit | 147.974 | 3.30422249
+- **`Kepler-1679`**
+  - `Kepler-1679 b` | 2020 | Transit | 9.75376 | 2.0692036
+- **`Kepler-1680`**
+  - `Kepler-1680 b` | 2020 | Transit | 8.77424 | 1.35954736
+- **`Kepler-1681`**
+  - `Kepler-1681 b` | 2020 | Transit | 69.8956 | 2.55321772
+- **`Kepler-1682`**
+  - `Kepler-1682 b` | 2020 | Transit | 14.8334 | 2.88940836
+- **`Kepler-1683`**
+  - `Kepler-1683 b` | 2020 | Transit | 15.0337 | 1.87477762
+- **`Kepler-1684`**
+  - `Kepler-1684 b` | 2020 | Transit | 47.7055 | 2.87084792
+- **`Kepler-1685`**
+  - `Kepler-1685 b` | 2020 | Transit | 20.4905 | 2.57673985
+- **`Kepler-1686`**
+  - `Kepler-1686 b` | 2020 | Transit | 9.30987 | 1.42553017
+- **`Kepler-1687`**
+  - `Kepler-1687 b` | 2020 | Transit | 5.77954 | 1.65623882
+- **`Kepler-1688`**
+  - `Kepler-1688 b` | 2020 | Transit | 5.62012 | 1.26174569
+- **`Kepler-1689`**
+  - `Kepler-1689 b` | 2020 | Transit | 8.483 | 0.94678642
+- **`Kepler-1690`**
+  - `Kepler-1690 b` | 2020 | Transit | 234.636 | 2.81109223
+- **`Kepler-1691`**
+  - `Kepler-1691 b` | 2020 | Transit | 3.8482 | 1.83470985
+- **`Kepler-1692`**
+  - `Kepler-1692 b` | 2020 | Transit | 5.95966 | 1.11177184
+- **`Kepler-1693`**
+  - `Kepler-1693 c` | 2021 | Transit | 5.363709927 | 0.97698289
+  - `Kepler-1693 b` | 2020 | Transit | 12.0999 | 1.28938413
+- **`Kepler-1694`**
+  - `Kepler-1694 b` | 2020 | Transit | 3.89526 | 1.17986031
+- **`Kepler-1695`**
+  - `Kepler-1695 b` | 2020 | Transit | 4.7329 | 1.11948901
+- **`Kepler-1696`**
+  - `Kepler-1696 b` | 2020 | Transit | 65.9409 | 2.80982017
+- **`Kepler-1697`**
+  - `Kepler-1697 b` | 2020 | Transit | 33.4969 | 1.25954761
+- **`Kepler-1698`**
+  - `Kepler-1698 b` | 2020 | Transit | 1.2107 | 1.07315686
+- **`Kepler-1699`**
+  - `Kepler-1699 b` | 2020 | Transit | 3.49082 | 1.56671124
+- **`Kepler-1700`**
+  - `Kepler-1700 b` | 2020 | Transit | 234.239 | 2.90129941
+- **`Kepler-1701`**
+  - `Kepler-1701 b` | 2020 | Transit | 169.134 | 2.22186207
+- **`Kepler-1702`**
+  - `Kepler-1702 b` | 2020 | Transit | 18.5012 | 1.60190793
+- **`Kepler-1704`**
+  - `Kepler-1704 b` | 2021 | Transit | 988.88112 | 11.94877343
+- **`Kepler-1705`**
+  - `Kepler-1705 b` | 2021 | Transit | 9.03502 | 2.03
+  - `Kepler-1705 c` | 2021 | Transit | 11.28 | 2.05
+- **`Kepler-1708`**
+  - `Kepler-1708 b` | 2021 | Transit | 737.1131 | 9.96
+- **`Kepler-1709`**
+  - `Kepler-1709 b` | 2021 | Transit | 65.70459747 | 3.12424875
+- **`Kepler-1710`**
+  - `Kepler-1710 b` | 2021 | Transit | 14.91110039 | 3.19744103
+- **`Kepler-1711`**
+  - `Kepler-1711 b` | 2021 | Transit | 21.06080055 | 1.923
+- **`Kepler-1712`**
+  - `Kepler-1712 b` | 2021 | Transit | 13.81499958 | 2.28372556
+- **`Kepler-1713`**
+  - `Kepler-1713 b` | 2021 | Transit | 18.01160049 | 1.71673535
+- **`Kepler-1714`**
+  - `Kepler-1714 b` | 2021 | Transit | 10.27530003 | 3.26437302
+- **`Kepler-1715`**
+  - `Kepler-1715 b` | 2021 | Transit | 35.59730148 | 4.14042267
+- **`Kepler-1716`**
+  - `Kepler-1716 b` | 2021 | Transit | 35.58100128 | 2.4247685
+- **`Kepler-1717`**
+  - `Kepler-1717 b` | 2021 | Transit | 30.65279961 | 2.98929758
+- **`Kepler-1718`**
+  - `Kepler-1718 b` | 2021 | Transit | 135.1880035 | 2.5685207
+- **`Kepler-1719`**
+  - `Kepler-1719 b` | 2021 | Transit | 6.149559975 | 3.95000623
+- **`Kepler-1720`**
+  - `Kepler-1720 b` | 2021 | Transit | 12.70639992 | 3.21585295
+- **`Kepler-1721`**
+  - `Kepler-1721 b` | 2021 | Transit | 4.592380047 | 3.11856756
+- **`Kepler-1722`**
+  - `Kepler-1722 b` | 2021 | Transit | 9.178569794 | 2.86719266
+- **`Kepler-1723`**
+  - `Kepler-1723 b` | 2021 | Transit | 39.75289917 | 2.88046569
+- **`Kepler-1724`**
+  - `Kepler-1724 b` | 2021 | Transit | 6.45442009 | 2.83677238
+- **`Kepler-1725`**
+  - `Kepler-1725 b` | 2021 | Transit | 16.71990013 | 2.8125177
+- **`Kepler-1726`**
+  - `Kepler-1726 b` | 2021 | Transit | 18.39629936 | 2.50861954
+- **`Kepler-1727`**
+  - `Kepler-1727 b` | 2021 | Transit | 9.029299736 | 3.17321625
+- **`Kepler-1728`**
+  - `Kepler-1728 b` | 2021 | Transit | 4.782999992 | 2.95501875
+- **`Kepler-1729`**
+  - `Kepler-1729 b` | 2021 | Transit | 4.220970154 | 3.89404186
+- **`Kepler-1730`**
+  - `Kepler-1730 b` | 2021 | Transit | 13.81019974 | 4.48524519
+- **`Kepler-1731`**
+  - `Kepler-1731 b` | 2021 | Transit | 21.76129913 | 2.93295657
+- **`Kepler-1732`**
+  - `Kepler-1732 b` | 2021 | Transit | 32.31240082 | 4.09903273
+- **`Kepler-1733`**
+  - `Kepler-1733 b` | 2021 | Transit | 9.229579926 | 3.63582354
+- **`Kepler-1734`**
+  - `Kepler-1734 b` | 2021 | Transit | 6.796850204 | 3.08851092
+- **`Kepler-1735`**
+  - `Kepler-1735 b` | 2021 | Transit | 7.71792984 | 1.19429134
+- **`Kepler-1736`**
+  - `Kepler-1736 b` | 2021 | Transit | 37.81029892 | 3.8765856
+- **`Kepler-1737`**
+  - `Kepler-1737 b` | 2021 | Transit | 64.61750031 | 5.395
+- **`Kepler-1738`**
+  - `Kepler-1738 b` | 2021 | Transit | 7.674630165 | 2.82472883
+- **`Kepler-1739`**
+  - `Kepler-1739 b` | 2021 | Transit | 7.343709946 | 2.43056832
+- **`Kepler-1740`**
+  - `Kepler-1740 b` | 2021 | Transit | 8.172400475 | 3.32321414
+- **`Kepler-1741`**
+  - `Kepler-1741 b` | 2021 | Transit | 2.757590055 | 1.273
+- **`Kepler-1742`**
+  - `Kepler-1742 b` | 2021 | Transit | 49.47819901 | 2.1782413
+- **`Kepler-1743`**
+  - `Kepler-1743 b` | 2021 | Transit | 7.649710178 | 1.59887007
+- **`Kepler-1744`**
+  - `Kepler-1744 b` | 2021 | Transit | 37.10110092 | 3.76754004
+- **`Kepler-1745`**
+  - `Kepler-1745 b` | 2021 | Transit | 3.016190052 | 1.92872921
+- **`Kepler-1746`**
+  - `Kepler-1746 b` | 2021 | Transit | 321.2120056 | 8.93504475
+- **`Kepler-1747`**
+  - `Kepler-1747 b` | 2021 | Transit | 6.230319977 | 4.26508
+- **`Kepler-1748`**
+  - `Kepler-1748 b` | 2021 | Transit | 5.823520184 | 2.71275017
+- **`Kepler-1749`**
+  - `Kepler-1749 b` | 2021 | Transit | 14.53409958 | 1.61301783
+- **`Kepler-1750`**
+  - `Kepler-1750 b` | 2021 | Transit | 205.9120026 | 6.00434637
+- **`Kepler-1751`**
+  - `Kepler-1751 b` | 2021 | Transit | 7.017310143 | 1.82417378
+- **`Kepler-1752`**
+  - `Kepler-1752 b` | 2021 | Transit | 56.35850143 | 4.54060463
+- **`Kepler-1753`**
+  - `Kepler-1753 b` | 2021 | Transit | 16.00460052 | 2.22678077
+- **`Kepler-1754`**
+  - `Kepler-1754 b` | 2021 | Transit | 8.195949554 | 2.43996509
+- **`Kepler-1755`**
+  - `Kepler-1755 b` | 2021 | Transit | 24.81209946 | 5.91688317
+- **`Kepler-1756`**
+  - `Kepler-1756 b` | 2021 | Transit | 2.355750084 | 1.47199944
+- **`Kepler-1757`**
+  - `Kepler-1757 b` | 2021 | Transit | 19.65640068 | 2.94660251
+- **`Kepler-1758`**
+  - `Kepler-1758 b` | 2021 | Transit | 9.977210045 | 2.57059831
+- **`Kepler-1759`**
+  - `Kepler-1759 b` | 2021 | Transit | 3.720230103 | 0.9037791
+- **`Kepler-1760`**
+  - `Kepler-1760 b` | 2021 | Transit | 38.3260994 | 2.28995546
+- **`Kepler-1761`**
+  - `Kepler-1761 b` | 2021 | Transit | 4.043540001 | 1.39109603
+- **`Kepler-1762`**
+  - `Kepler-1762 b` | 2021 | Transit | 29.53910065 | 2.76022913
+- **`Kepler-1763`**
+  - `Kepler-1763 b` | 2021 | Transit | 1.480280042 | 1.14651332
+- **`Kepler-1764`**
+  - `Kepler-1764 b` | 2021 | Transit | 70.46829987 | 4.55527871
+- **`Kepler-1765`**
+  - `Kepler-1765 b` | 2021 | Transit | 10.41889954 | 2.49508857
+- **`Kepler-1766`**
+  - `Kepler-1766 b` | 2021 | Transit | 105.0149994 | 2.27904508
+- **`Kepler-1767`**
+  - `Kepler-1767 b` | 2021 | Transit | 59.65829849 | 3.01299077
+- **`Kepler-1768`**
+  - `Kepler-1768 b` | 2021 | Transit | 15.13589954 | 2.23346338
+- **`Kepler-1769`**
+  - `Kepler-1769 b` | 2021 | Transit | 89.1934967 | 4.465
+- **`Kepler-1770`**
+  - `Kepler-1770 b` | 2021 | Transit | 16.84189987 | 2.84141754
+- **`Kepler-1771`**
+  - `Kepler-1771 b` | 2021 | Transit | 88.64399719 | 4.05537256
+- **`Kepler-1772`**
+  - `Kepler-1772 b` | 2021 | Transit | 3.215090036 | 2.68609988
+- **`Kepler-1773`**
+  - `Kepler-1773 b` | 2021 | Transit | 40.80970001 | 3.50469499
+- **`Kepler-1774`**
+  - `Kepler-1774 b` | 2021 | Transit | 59.77080154 | 3.18179549
+- **`Kepler-1775`**
+  - `Kepler-1775 b` | 2021 | Transit | 85.65399933 | 3.64762153
+- **`Kepler-1776`**
+  - `Kepler-1776 b` | 2021 | Transit | 35.01190186 | 2.61157023
+- **`Kepler-1777`**
+  - `Kepler-1777 b` | 2021 | Transit | 12.18420029 | 2.13189678
+- **`Kepler-1778`**
+  - `Kepler-1778 b` | 2021 | Transit | 10.08740044 | 3.01665969
+- **`Kepler-1779`**
+  - `Kepler-1779 b` | 2021 | Transit | 16.34359932 | 3.03295685
+- **`Kepler-1780`**
+  - `Kepler-1780 b` | 2021 | Transit | 109.4449997 | 3.60600667
+- **`Kepler-1781`**
+  - `Kepler-1781 b` | 2021 | Transit | 4.88752985 | 2.38091029
+- **`Kepler-1782`**
+  - `Kepler-1782 b` | 2021 | Transit | 5.756229877 | 2.22927435
+- **`Kepler-1783`**
+  - `Kepler-1783 b` | 2021 | Transit | 8.277440071 | 1.31946731
+- **`Kepler-1784`**
+  - `Kepler-1784 b` | 2021 | Transit | 13.59049988 | 2.79936489
+- **`Kepler-1785`**
+  - `Kepler-1785 b` | 2021 | Transit | 19.58550072 | 2.70422447
+- **`Kepler-1786`**
+  - `Kepler-1786 b` | 2021 | Transit | 78.5460968 | 3.16305828
+- **`Kepler-1787`**
+  - `Kepler-1787 b` | 2021 | Transit | 39.31370163 | 2.31898181
+- **`Kepler-1788`**
+  - `Kepler-1788 b` | 2021 | Transit | 2.800120115 | 2.37850461
+- **`Kepler-1789`**
+  - `Kepler-1789 b` | 2021 | Transit | 80.23190308 | 2.83137505
+- **`Kepler-1790`**
+  - `Kepler-1790 b` | 2021 | Transit | 31.58889961 | 3.1446145
+- **`Kepler-1791`**
+  - `Kepler-1791 b` | 2021 | Transit | 7.720860004 | 3.12103321
+- **`Kepler-1792`**
+  - `Kepler-1792 b` | 2021 | Transit | 4.1957798 | 2.51990972
+- **`Kepler-1793`**
+  - `Kepler-1793 b` | 2021 | Transit | 8.779999733 | 3.79037518
+- **`Kepler-1794`**
+  - `Kepler-1794 b` | 2021 | Transit | 9.762980461 | 1.79426276
+- **`Kepler-1795`**
+  - `Kepler-1795 b` | 2021 | Transit | 13.36019993 | 1.66301611
+- **`Kepler-1796`**
+  - `Kepler-1796 b` | 2021 | Transit | 29.4557991 | 2.75047868
+- **`Kepler-1797`**
+  - `Kepler-1797 b` | 2021 | Transit | 23.3593998 | 3.05774442
+- **`Kepler-1798`**
+  - `Kepler-1798 b` | 2021 | Transit | 16.85589981 | 2.30911251
+- **`Kepler-1799`**
+  - `Kepler-1799 b` | 2021 | Transit | 11.9296999 | 4.12801189
+- **`Kepler-1800`**
+  - `Kepler-1800 b` | 2021 | Transit | 4.562029839 | 0.99679734
+- **`Kepler-1801`**
+  - `Kepler-1801 b` | 2021 | Transit | 10.44089985 | 2.70926154
+  - `Kepler-1801 c` | 2023 | Transit | 116.583183 | 2.91
+- **`Kepler-1802`**
+  - `Kepler-1802 b` | 2021 | Transit | 15.45020008 | 1.671
+  - `Kepler-1802 c` | 2021 | Transit | 33.13610077 | 2.322
+- **`Kepler-1804`**
+  - `Kepler-1804 b` | 2021 | Transit | 12.28849983 | 1.59615726
+- **`Kepler-1805`**
+  - `Kepler-1805 b` | 2021 | Transit | 8.847940445 | 1.54502915
+- **`Kepler-1806`**
+  - `Kepler-1806 b` | 2021 | Transit | 9.033320427 | 2.35560189
+- **`Kepler-1807`**
+  - `Kepler-1807 b` | 2021 | Transit | 10.86060047 | 2.70393215
+- **`Kepler-1808`**
+  - `Kepler-1808 b` | 2021 | Transit | 23.3404007 | 3.02511302
+- **`Kepler-1809`**
+  - `Kepler-1809 b` | 2021 | Transit | 3.7572999 | 1.513
+- **`Kepler-1810`**
+  - `Kepler-1810 b` | 2021 | Transit | 101.1330032 | 3.91815325
+- **`Kepler-1811`**
+  - `Kepler-1811 b` | 2021 | Transit | 76.42230225 | 3.84829873
+- **`Kepler-1812`**
+  - `Kepler-1812 b` | 2021 | Transit | 7.165219784 | 2.3249424
+- **`Kepler-1813`**
+  - `Kepler-1813 b` | 2021 | Transit | 2.818160057 | 1.413
+- **`Kepler-1814`**
+  - `Kepler-1814 c` | 2023 | Transit | 0.626281766 | 1.76
+  - `Kepler-1814 b` | 2021 | Transit | 2.935359955 | 2.36961357
+- **`Kepler-1815`**
+  - `Kepler-1815 b` | 2021 | Transit | 12.19139957 | 2.7489262
+- **`Kepler-1816`**
+  - `Kepler-1816 b` | 2021 | Transit | 91.50099945 | 1.9679397
+- **`Kepler-1817`**
+  - `Kepler-1817 b` | 2021 | Transit | 44.29919815 | 2.27349126
+- **`Kepler-1818`**
+  - `Kepler-1818 b` | 2021 | Transit | 4.644909859 | 1.71360684
+
+</details>
+
+<a name="systems-19"></a>
+
+<details><summary>Kepler-1819 – KIC 5437945 · 180 ระบบ · 196 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`Kepler-1819`**
+  - `Kepler-1819 b` | 2021 | Transit | 16.48690033 | 3.90351256
+- **`Kepler-1820`**
+  - `Kepler-1820 b` | 2021 | Transit | 31.03249931 | 3.11883067
+- **`Kepler-1821`**
+  - `Kepler-1821 b` | 2021 | Transit | 16.45809937 | 2.59248115
+- **`Kepler-1822`**
+  - `Kepler-1822 b` | 2021 | Transit | 22.13339996 | 2.64755943
+- **`Kepler-1823`**
+  - `Kepler-1823 b` | 2021 | Transit | 21.10339928 | 2.0861268
+- **`Kepler-1824`**
+  - `Kepler-1824 b` | 2021 | Transit | 95.61100006 | 2.38127597
+- **`Kepler-1825`**
+  - `Kepler-1825 b` | 2021 | Transit | 1.025869966 | 1.42200732
+- **`Kepler-1826`**
+  - `Kepler-1826 b` | 2021 | Transit | 1.615360022 | 1.47519116
+- **`Kepler-1827`**
+  - `Kepler-1827 b` | 2021 | Transit | 3.700619936 | 1.85644292
+- **`Kepler-1828`**
+  - `Kepler-1828 b` | 2021 | Transit | 10.2737999 | 2.11598626
+- **`Kepler-1829`**
+  - `Kepler-1829 b` | 2021 | Transit | 5.186719894 | 2.47887001
+- **`Kepler-1830`**
+  - `Kepler-1830 b` | 2021 | Transit | 56.49330139 | 3.32992941
+- **`Kepler-1831`**
+  - `Kepler-1831 b` | 2021 | Transit | 5.78387022 | 1.97019818
+- **`Kepler-1832`**
+  - `Kepler-1832 b` | 2021 | Transit | 3.138789892 | 1.22719556
+- **`Kepler-1833`**
+  - `Kepler-1833 b` | 2021 | Transit | 6.892129898 | 1.30027362
+- **`Kepler-1834`**
+  - `Kepler-1834 c` | 2023 | Transit | 0.766691517 | 1.22
+  - `Kepler-1834 b` | 2021 | Transit | 4.603010178 | 1.4593834
+- **`Kepler-1835`**
+  - `Kepler-1835 b` | 2021 | Transit | 11.96409988 | 3.53387773
+- **`Kepler-1836`**
+  - `Kepler-1836 b` | 2021 | Transit | 5.254169941 | 2.55303229
+- **`Kepler-1837`**
+  - `Kepler-1837 b` | 2021 | Transit | 5.906089783 | 2.06673842
+- **`Kepler-1838`**
+  - `Kepler-1838 b` | 2021 | Transit | 12.14680004 | 1.66049425
+- **`Kepler-1839`**
+  - `Kepler-1839 b` | 2021 | Transit | 5.056759834 | 1.9493759
+- **`Kepler-1840`**
+  - `Kepler-1840 b` | 2021 | Transit | 131.1900024 | 2.77771129
+- **`Kepler-1841`**
+  - `Kepler-1841 b` | 2021 | Transit | 25.88599968 | 1.48912557
+- **`Kepler-1842`**
+  - `Kepler-1842 b` | 2021 | Transit | 14.02639961 | 2.35388681
+- **`Kepler-1843`**
+  - `Kepler-1843 b` | 2021 | Transit | 25.54339981 | 2.70909809
+- **`Kepler-1844`**
+  - `Kepler-1844 b` | 2021 | Transit | 3.924510002 | 3.03648191
+- **`Kepler-1845`**
+  - `Kepler-1845 b` | 2021 | Transit | 11.60649967 | 2.43836702
+- **`Kepler-1846`**
+  - `Kepler-1846 b` | 2021 | Transit | 14.82009983 | 1.76378826
+- **`Kepler-1847`**
+  - `Kepler-1847 b` | 2021 | Transit | 11.12969971 | 2.74516914
+- **`Kepler-1848`**
+  - `Kepler-1848 b` | 2021 | Transit | 5.604020119 | 1.4088539
+- **`Kepler-1849`**
+  - `Kepler-1849 b` | 2021 | Transit | 57.29290009 | 2.38685349
+- **`Kepler-1850`**
+  - `Kepler-1850 b` | 2021 | Transit | 1.385800004 | 0.72909663
+- **`Kepler-1851`**
+  - `Kepler-1851 b` | 2021 | Transit | 12.02289963 | 3.90012032
+- **`Kepler-1852`**
+  - `Kepler-1852 b` | 2021 | Transit | 7.970940113 | 1.88610592
+- **`Kepler-1853`**
+  - `Kepler-1853 b` | 2021 | Transit | 48.88819885 | 1.51862272
+- **`Kepler-1854`**
+  - `Kepler-1854 b` | 2021 | Transit | 39.83110046 | 2.58746104
+- **`Kepler-1855`**
+  - `Kepler-1855 b` | 2021 | Transit | 0.727330983 | 1.216205
+- **`Kepler-1856`**
+  - `Kepler-1856 b` | 2021 | Transit | 1.302000046 | 1.73447868
+- **`Kepler-1857`**
+  - `Kepler-1857 b` | 2021 | Transit | 8.94340992 | 1.96065412
+- **`Kepler-1858`**
+  - `Kepler-1858 b` | 2021 | Transit | 88.07160187 | 2.42168247
+- **`Kepler-1859`**
+  - `Kepler-1859 b` | 2021 | Transit | 2.729599953 | 1.58313575
+  - `Kepler-1859 c` | 2023 | Transit | 3.59645081 | 1.66
+- **`Kepler-1860`**
+  - `Kepler-1860 b` | 2021 | Transit | 12.73719978 | 1.13863767
+- **`Kepler-1861`**
+  - `Kepler-1861 b` | 2021 | Transit | 40.0306015 | 2.20677414
+- **`Kepler-1862`**
+  - `Kepler-1862 b` | 2021 | Transit | 16.05730057 | 2.203
+- **`Kepler-1863`**
+  - `Kepler-1863 b` | 2021 | Transit | 44.99760056 | 2.26309256
+- **`Kepler-1864`**
+  - `Kepler-1864 b` | 2021 | Transit | 3.881510019 | 0.75408365
+- **`Kepler-1865`**
+  - `Kepler-1865 b` | 2021 | Transit | 2.524009943 | 1.57686072
+- **`Kepler-1866`**
+  - `Kepler-1866 b` | 2021 | Transit | 11.66009998 | 2.08215108
+- **`Kepler-1867`**
+  - `Kepler-1867 b` | 2021 | Transit | 9.887359619 | 1.15985997
+- **`Kepler-1868`**
+  - `Kepler-1868 b` | 2021 | Transit | 211.0339966 | 3.14950109
+- **`Kepler-1869`**
+  - `Kepler-1869 c` | 2023 | Transit | 1.716828304 | 0.74
+  - `Kepler-1869 b` | 2021 | Transit | 8.167360306 | 1.11955354
+- **`Kepler-1870`**
+  - `Kepler-1870 b` | 2021 | Transit | 3.606940031 | 2.10143764
+- **`Kepler-1871`**
+  - `Kepler-1871 b` | 2021 | Transit | 1.952700019 | 2.42172881
+- **`Kepler-1872`**
+  - `Kepler-1872 b` | 2021 | Transit | 3.825910091 | 2.38421141
+- **`Kepler-1873`**
+  - `Kepler-1873 b` | 2021 | Transit | 0.558842003 | 1.62573811
+- **`Kepler-1874`**
+  - `Kepler-1874 b` | 2021 | Transit | 56.57320023 | 2.21110724
+- **`Kepler-1875`**
+  - `Kepler-1875 b` | 2021 | Transit | 34.45859909 | 3.22686692
+- **`Kepler-1876`**
+  - `Kepler-1876 b` | 2021 | Transit | 6.99205 | 0.853
+- **`Kepler-1877`**
+  - `Kepler-1877 b` | 2021 | Transit | 2.377569914 | 0.624086
+- **`Kepler-1878`**
+  - `Kepler-1878 b` | 2021 | Transit | 4.445879936 | 2.92019781
+- **`Kepler-1879`**
+  - `Kepler-1879 b` | 2021 | Transit | 10.61340046 | 2.06512018
+- **`Kepler-1880`**
+  - `Kepler-1880 b` | 2021 | Transit | 6.309219837 | 2.11686218
+- **`Kepler-1881`**
+  - `Kepler-1881 b` | 2021 | Transit | 159.3939972 | 2.98104391
+- **`Kepler-1882`**
+  - `Kepler-1882 b` | 2021 | Transit | 13.78730011 | 1.48674404
+- **`Kepler-1883`**
+  - `Kepler-1883 b` | 2021 | Transit | 103.427002 | 3.25107395
+- **`Kepler-1884`**
+  - `Kepler-1884 b` | 2021 | Transit | 8.988320351 | 1.81406781
+- **`Kepler-1885`**
+  - `Kepler-1885 b` | 2021 | Transit | 2.522559881 | 1.51110555
+- **`Kepler-1886`**
+  - `Kepler-1886 b` | 2021 | Transit | 24.2758007 | 2.58158428
+- **`Kepler-1887`**
+  - `Kepler-1887 b` | 2021 | Transit | 19.94750023 | 2.92454357
+- **`Kepler-1888`**
+  - `Kepler-1888 b` | 2021 | Transit | 11.39169979 | 1.32578716
+- **`Kepler-1889`**
+  - `Kepler-1889 b` | 2021 | Transit | 37.30369949 | 2.94360686
+- **`Kepler-1890`**
+  - `Kepler-1890 b` | 2021 | Transit | 4.820590019 | 0.86867375
+- **`Kepler-1891`**
+  - `Kepler-1891 b` | 2021 | Transit | 4.02229023 | 1.52139156
+- **`Kepler-1892`**
+  - `Kepler-1892 b` | 2021 | Transit | 6.331230164 | 1.83707938
+- **`Kepler-1893`**
+  - `Kepler-1893 b` | 2021 | Transit | 4.179369926 | 1.70557445
+- **`Kepler-1894`**
+  - `Kepler-1894 b` | 2021 | Transit | 2.762660027 | 1.20117759
+  - `Kepler-1894 c` | 2023 | Transit | 5.05368985 | 1.21
+- **`Kepler-1895`**
+  - `Kepler-1895 b` | 2021 | Transit | 6.070290089 | 2.11934728
+- **`Kepler-1896`**
+  - `Kepler-1896 b` | 2021 | Transit | 44.87020111 | 3.09935997
+- **`Kepler-1897`**
+  - `Kepler-1897 b` | 2021 | Transit | 24.22030067 | 2.81407954
+- **`Kepler-1898`**
+  - `Kepler-1898 b` | 2021 | Transit | 4.765620232 | 0.93353523
+- **`Kepler-1899`**
+  - `Kepler-1899 b` | 2021 | Transit | 4.095779896 | 1.55098292
+- **`Kepler-1900`**
+  - `Kepler-1900 b` | 2021 | Transit | 2.986229897 | 1.62314676
+- **`Kepler-1901`**
+  - `Kepler-1901 b` | 2021 | Transit | 3.484129906 | 1.47418907
+- **`Kepler-1902`**
+  - `Kepler-1902 b` | 2021 | Transit | 3.822220087 | 1.17563613
+- **`Kepler-1903`**
+  - `Kepler-1903 b` | 2021 | Transit | 17.0678997 | 2.28642395
+- **`Kepler-1904`**
+  - `Kepler-1904 b` | 2021 | Transit | 4.577020168 | 1.3904994
+- **`Kepler-1905`**
+  - `Kepler-1905 b` | 2021 | Transit | 3.42392993 | 1.4460734
+- **`Kepler-1906`**
+  - `Kepler-1906 b` | 2021 | Transit | 7.362689972 | 2.77615754
+- **`Kepler-1907`**
+  - `Kepler-1907 b` | 2021 | Transit | 5.652450085 | 0.86973029
+  - `Kepler-1907 c` | 2021 | Transit | 14.86390018 | 1.15547044
+- **`Kepler-1909`**
+  - `Kepler-1909 b` | 2021 | Transit | 2.391609907 | 1.09217411
+- **`Kepler-1910`**
+  - `Kepler-1910 b` | 2021 | Transit | 5.688769817 | 1.184
+- **`Kepler-1911`**
+  - `Kepler-1911 b` | 2021 | Transit | 5.990799904 | 1.011
+- **`Kepler-1912`**
+  - `Kepler-1912 b` | 2021 | Transit | 6.059219837 | 1.35670508
+- **`Kepler-1913`**
+  - `Kepler-1913 b` | 2021 | Transit | 14.1960001 | 1.51852059
+- **`Kepler-1914`**
+  - `Kepler-1914 b` | 2021 | Transit | 30.82789993 | 2.9429803
+- **`Kepler-1915`**
+  - `Kepler-1915 b` | 2021 | Transit | 13.83539963 | 3.21798413
+- **`Kepler-1916`**
+  - `Kepler-1916 b` | 2021 | Transit | 31.25429916 | 2.61757235
+- **`Kepler-1917`**
+  - `Kepler-1917 b` | 2021 | Transit | 12.90240002 | 1.88971288
+- **`Kepler-1918`**
+  - `Kepler-1918 b` | 2021 | Transit | 47.0564003 | 2.29763023
+- **`Kepler-1919`**
+  - `Kepler-1919 b` | 2021 | Transit | 37.88660049 | 2.62390658
+- **`Kepler-1920`**
+  - `Kepler-1920 b` | 2021 | Transit | 30.2541008 | 2.95415848
+- **`Kepler-1921`**
+  - `Kepler-1921 c` | 2023 | Transit | 3.15722086 | 1.41
+  - `Kepler-1921 b` | 2021 | Transit | 20.03479958 | 2.89459458
+- **`Kepler-1922`**
+  - `Kepler-1922 b` | 2021 | Transit | 13.22259998 | 2.29064904
+- **`Kepler-1923`**
+  - `Kepler-1923 b` | 2021 | Transit | 52.60969925 | 1.95958179
+- **`Kepler-1924`**
+  - `Kepler-1924 b` | 2021 | Transit | 15.33170033 | 2.65446572
+- **`Kepler-1925`**
+  - `Kepler-1925 b` | 2021 | Transit | 46.71640015 | 3.00177922
+- **`Kepler-1926`**
+  - `Kepler-1926 b` | 2021 | Transit | 42.87770081 | 2.31495961
+- **`Kepler-1927`**
+  - `Kepler-1927 b` | 2021 | Transit | 73.75039673 | 3.40627075
+- **`Kepler-1928`**
+  - `Kepler-1928 b` | 2021 | Transit | 19.57783 | 1.992
+- **`Kepler-1929`**
+  - `Kepler-1929 b` | 2021 | Transit | 59.36249924 | 3.07250761
+- **`Kepler-1930`**
+  - `Kepler-1930 b` | 2021 | Transit | 13.02680016 | 1.52955541
+- **`Kepler-1931`**
+  - `Kepler-1931 b` | 2021 | Transit | 38.5760994 | 2.65323514
+- **`Kepler-1932`**
+  - `Kepler-1932 b` | 2021 | Transit | 0.524177015 | 1.51482218
+- **`Kepler-1933`**
+  - `Kepler-1933 b` | 2021 | Transit | 4.943290234 | 1.17984089
+- **`Kepler-1934`**
+  - `Kepler-1934 b` | 2021 | Transit | 1.419759989 | 0.91307734
+- **`Kepler-1935`**
+  - `Kepler-1935 b` | 2021 | Transit | 3.951400042 | 2.50271696
+- **`Kepler-1936`**
+  - `Kepler-1936 b` | 2021 | Transit | 126.5569992 | 3.16615594
+- **`Kepler-1937`**
+  - `Kepler-1937 b` | 2021 | Transit | 9.688599586 | 3.0229133
+- **`Kepler-1938`**
+  - `Kepler-1938 b` | 2021 | Transit | 13.06260014 | 1.82828927
+- **`Kepler-1939`**
+  - `Kepler-1939 b` | 2021 | Transit | 2.790659904 | 1.16480773
+- **`Kepler-1940`**
+  - `Kepler-1940 b` | 2021 | Transit | 4.950610161 | 1.54732469
+- **`Kepler-1941`**
+  - `Kepler-1941 b` | 2021 | Transit | 31.33510017 | 2.64976949
+- **`Kepler-1942`**
+  - `Kepler-1942 b` | 2021 | Transit | 4.626049995 | 2.1170287
+- **`Kepler-1943`**
+  - `Kepler-1943 b` | 2021 | Transit | 4.850180149 | 1.54869189
+- **`Kepler-1944`**
+  - `Kepler-1944 b` | 2021 | Transit | 9.842579842 | 2.75971163
+- **`Kepler-1945`**
+  - `Kepler-1945 b` | 2021 | Transit | 6.080039978 | 1.289
+- **`Kepler-1946`**
+  - `Kepler-1946 b` | 2021 | Transit | 3.035190105 | 2.48812698
+- **`Kepler-1947`**
+  - `Kepler-1947 b` | 2021 | Transit | 6.963630199 | 1.0101666
+- **`Kepler-1948`**
+  - `Kepler-1948 b` | 2021 | Transit | 15.57129955 | 1.03283226
+- **`Kepler-1949`**
+  - `Kepler-1949 b` | 2021 | Transit | 2.208280087 | 2.21964541
+- **`Kepler-1950`**
+  - `Kepler-1950 b` | 2021 | Transit | 10.77690029 | 1.52696349
+- **`Kepler-1951`**
+  - `Kepler-1951 b` | 2021 | Transit | 20.65780067 | 2.32107188
+- **`Kepler-1952`**
+  - `Kepler-1952 b` | 2021 | Transit | 27.21080017 | 1.23923346
+- **`Kepler-1953`**
+  - `Kepler-1953 b` | 2021 | Transit | 6.245659828 | 1.28574667
+- **`Kepler-1954`**
+  - `Kepler-1954 b` | 2021 | Transit | 5.883430004 | 1.80235934
+- **`Kepler-1955`**
+  - `Kepler-1955 b` | 2021 | Transit | 14.26519966 | 1.16654878
+- **`Kepler-1956`**
+  - `Kepler-1956 b` | 2021 | Transit | 5.943719864 | 1.08940238
+- **`Kepler-1957`**
+  - `Kepler-1957 b` | 2021 | Transit | 2.186619997 | 0.94374867
+- **`Kepler-1958`**
+  - `Kepler-1958 b` | 2021 | Transit | 9.328619957 | 2.05124311
+- **`Kepler-1959`**
+  - `Kepler-1959 b` | 2021 | Transit | 6.38669014 | 1.14315727
+- **`Kepler-1960`**
+  - `Kepler-1960 b` | 2021 | Transit | 2.297940016 | 1.30749704
+- **`Kepler-1961`**
+  - `Kepler-1961 b` | 2021 | Transit | 5.604710102 | 1.6187808
+- **`Kepler-1962`**
+  - `Kepler-1962 b` | 2021 | Transit | 7.991459846 | 1.21463929
+- **`Kepler-1963`**
+  - `Kepler-1963 b` | 2021 | Transit | 1.962260008 | 0.74437023
+- **`Kepler-1964`**
+  - `Kepler-1964 b` | 2021 | Transit | 2.440829992 | 1.7810587
+- **`Kepler-1965`**
+  - `Kepler-1965 b` | 2021 | Transit | 41.86869812 | 1.35415138
+- **`Kepler-1966`**
+  - `Kepler-1966 b` | 2021 | Transit | 8.617429733 | 1.10479327
+- **`Kepler-1967`**
+  - `Kepler-1967 b` | 2021 | Transit | 7.281690121 | 0.73022577
+- **`Kepler-1968`**
+  - `Kepler-1968 b` | 2021 | Transit | 7.281099796 | 1.50004034
+- **`Kepler-1969`**
+  - `Kepler-1969 b` | 2021 | Transit | 6.647520065 | 1.68161001
+- **`Kepler-1972`**
+  - `Kepler-1972 b` | 2022 | Transit | 7.54425 | 0.802
+  - `Kepler-1972 c` | 2022 | Transit | 11.3295 | 0.868
+- **`Kepler-1976`**
+  - `Kepler-1976 b` | 2023 | Transit | 4.959319244 | 12.21
+- **`Kepler-1977`**
+  - `Kepler-1977 b` | 2023 | Transit | 4.53702121 | 1.66
+- **`Kepler-1978`**
+  - `Kepler-1978 b` | 2023 | Transit | 10.84969477 | 2.67
+- **`Kepler-1979`**
+  - `Kepler-1979 b` | 2023 | Transit | 18.5084526 | 29.33
+- **`Kepler-1980`**
+  - `Kepler-1980 b` | 2023 | Transit | 33.0257179 | 2.21
+- **`Kepler-1981`**
+  - `Kepler-1981 b` | 2023 | Transit | 453.54212 | 9.23
+- **`Kepler-1982`**
+  - `Kepler-1982 b` | 2023 | Transit | 3.82315697 | 0.77
+- **`Kepler-1983`**
+  - `Kepler-1983 b` | 2023 | Transit | 7.32851947 | 2.33
+- **`Kepler-1984`**
+  - `Kepler-1984 b` | 2023 | Transit | 1.992812339 | 6.81
+- **`Kepler-1985`**
+  - `Kepler-1985 b` | 2023 | Transit | 3.42064689 | 2.27
+- **`Kepler-1986`**
+  - `Kepler-1986 b` | 2023 | Transit | 19.5489666 | 1.89
+- **`Kepler-1987`**
+  - `Kepler-1987 b` | 2023 | Transit | 2.345863002 | 1.23
+  - `Kepler-1987 c` | 2023 | Transit | 3.64830183 | 1.33
+  - `Kepler-1987 d` | 2023 | Transit | 5.644914154 | 2.66
+  - `Kepler-1987 e` | 2023 | Transit | 8.74292005 | 1.92
+- **`Kepler-1988`**
+  - `Kepler-1988 b` | 2023 | Transit | 11.49500229 | 1.53
+- **`Kepler-1989`**
+  - `Kepler-1989 b` | 2023 | Transit | 10.161023528 | 4.62
+- **`Kepler-1990`**
+  - `Kepler-1990 b` | 2023 | Transit | 1.73513619 | 3.27
+  - `Kepler-1990 c` | 2023 | Transit | 4.06844957 | 0.98
+- **`Kepler-1991`**
+  - `Kepler-1991 b` | 2023 | Transit | 13.26079792 | 1.47
+  - `Kepler-1991 c` | 2023 | Transit | 22.79020351 | 2.57
+- **`Kepler-1992`**
+  - `Kepler-1992 b` | 2023 | Transit | 15.6112238 | 0.91
+- **`Kepler-1993`**
+  - `Kepler-1993 b` | 2023 | Transit | 26.6565737 | 4.15
+- **`Kepler-1994`**
+  - `Kepler-1994 b` | 2023 | Transit | 4.61225043 | 0.51
+- **`Kepler-1995`**
+  - `Kepler-1995 b` | 2023 | Transit | 73.7578875 | 4.28
+- **`Kepler-1996`**
+  - `Kepler-1996 b` | 2023 | Transit | 32.376183 | 2.26
+  - `Kepler-1996 c` | 2023 | Transit | 92.7297248 | 2.81
+- **`Kepler-1997`**
+  - `Kepler-1997 b` | 2023 | Transit | 26.7575866 | 2.28
+- **`Kepler-1998`**
+  - `Kepler-1998 b` | 2023 | Transit | 3.03267135 | 0.6
+- **`Kepler-1999`**
+  - `Kepler-1999 b` | 2023 | Transit | 8.7396758 | 3.29
+- **`Kepler-2000`**
+  - `Kepler-2000 b` | 2023 | Transit | 6.383159135 | 2.73
+  - `Kepler-2000 c` | 2023 | Transit | 20.6180348 | 1.57
+- **`Kepler-2001`**
+  - `Kepler-2001 b` | 2023 | Transit | 1.090011003 | 1.04
+  - `Kepler-2001 c` | 2023 | Transit | 14.092583189 | 1.82
+- **`KIC 3526061`**
+  - `KIC 3526061 b` | 2022 | Radial Velocity | 3552 | 12.1
+- **`KIC 3558849`**
+  - `KIC 3558849 b` | 2015 | Transit | 1322.3 | 6.9
+- **`KIC 5437945`**
+  - `Kepler-460 c` | 2016 | Transit | 220.1303357 | 5.52
+  - `KIC 5437945 b` | 2015 | Transit | 440.7813 | 6.4
+
+</details>
+
+<a name="systems-20"></a>
+
+<details><summary>KIC 5479689 – LP 714-47 · 180 ระบบ · 221 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`KIC 5479689`**
+  - `KIC 5479689 b` | 2021 | Orbital Brightness Modulation | 1.701531 | 14.2
+- **`KIC 7917485`**
+  - `KIC 7917485 b` | 2016 | Pulsation Timing Variations | 840 | 12.4
+- **`KIC 8121913`**
+  - `KIC 8121913 b` | 2021 | Orbital Brightness Modulation | 3.294601 | 13.4
+- **`KIC 9663113`**
+  - `Kepler-458 c` | 2016 | Transit | 20.74028413 | 4.2
+  - `KIC 9663113 b` | 2015 | Transit | 572.3847 | 4.6
+- **`KIC 10001893`**
+  - `KIC 10001893 b` † | 2014 | Orbital Brightness Modulation | 0.2197 | —
+  - `KIC 10001893 c` † | 2014 | Orbital Brightness Modulation | 0.32528 | —
+  - `KIC 10001893 d` † | 2014 | Orbital Brightness Modulation | 0.81161 | —
+- **`KIC 10068024`**
+  - `KIC 10068024 b` | 2021 | Orbital Brightness Modulation | 2.073549 | 13.4
+- **`KIC 10525077`**
+  - `KIC 10525077 b` | 2015 | Transit | 854.083 | 5.5
+- **`KMT-2016-BLG-0212L`**
+  - `KMT-2016-BLG-0212L b` | 2018 | Microlensing | — | 12.2
+- **`KMT-2016-BLG-1105L`**
+  - `KMT-2016-BLG-1105L b` | 2023 | Microlensing | — | 1.33
+- **`KMT-2016-BLG-1107L`**
+  - `KMT-2016-BLG-1107L b` | 2019 | Microlensing | — | 13.1
+- **`KMT-2016-BLG-1337L`**
+  - `KMT-2016-BLG-1337L b` CB | 2026 | Microlensing | — | 11.4
+- **`KMT-2016-BLG-1397L`**
+  - `KMT-2016-BLG-1397L b` | 2018 | Microlensing | — | 12.7
+- **`KMT-2016-BLG-1820L`**
+  - `KMT-2016-BLG-1820L b` | 2018 | Microlensing | — | 12.9
+- **`KMT-2016-BLG-1836L`**
+  - `KMT-2016-BLG-1836L b` | 2019 | Microlensing | — | 13.3
+- **`KMT-2016-BLG-2142L`**
+  - `KMT-2016-BLG-2142L b` | 2018 | Microlensing | — | 12.2
+- **`KMT-2016-BLG-2321L`**
+  - `KMT-2016-BLG-2321L b` | 2024 | Microlensing | — | 13.8
+- **`KMT-2016-BLG-2364L`**
+  - `KMT-2016-BLG-2364L b` | 2020 | Microlensing | — | 13
+- **`KMT-2016-BLG-2397L`**
+  - `KMT-2016-BLG-2397L b` | 2020 | Microlensing | — | 13.2
+- **`KMT-2016-BLG-2605L`**
+  - `KMT-2016-BLG-2605L b` | 2021 | Microlensing | — | 14
+- **`KMT-2017-BLG-0165L`**
+  - `KMT-2017-BLG-0165L b` | 2018 | Microlensing | — | 6.45
+- **`KMT-2017-BLG-0428L`**
+  - `KMT-2017-BLG-0428L b` | 2023 | Microlensing | — | 2.23
+- **`KMT-2017-BLG-0673L`**
+  - `KMT-2017-BLG-0673L b` | 2022 | Microlensing | — | 13
+- **`KMT-2017-BLG-0849L`**
+  - `KMT-2017-BLG-0849L b` | 2024 | Microlensing | — | 2.41
+- **`KMT-2017-BLG-1003L`**
+  - `KMT-2017-BLG-1003L b` | 2023 | Microlensing | — | 2.13
+- **`KMT-2017-BLG-1038L`**
+  - `KMT-2017-BLG-1038L b` | 2019 | Microlensing | — | 13.4
+- **`KMT-2017-BLG-1057L`**
+  - `KMT-2017-BLG-1057L b` | 2024 | Microlensing | — | 5.19
+- **`KMT-2017-BLG-1146L`**
+  - `KMT-2017-BLG-1146L b` | 2019 | Microlensing | — | 14
+- **`KMT-2017-BLG-1194L`**
+  - `KMT-2017-BLG-1194L b` | 2023 | Microlensing | — | 1.7
+- **`KMT-2017-BLG-2197L`**
+  - `KMT-2017-BLG-2197L b` | 2025 | Microlensing | — | 12.5
+- **`KMT-2017-BLG-2331L`**
+  - `KMT-2017-BLG-2331L b` | 2024 | Microlensing | — | 14.2
+- **`KMT-2017-BLG-2509L`**
+  - `KMT-2017-BLG-2509L b` | 2021 | Microlensing | — | 13.4
+- **`KMT-2018-BLG-0029L`**
+  - `KMT-2018-BLG-0029L b` | 2020 | Microlensing | — | 2.67
+- **`KMT-2018-BLG-0030L`**
+  - `KMT-2018-BLG-0030L b` | 2022 | Microlensing | — | 13.6
+- **`KMT-2018-BLG-0087L`**
+  - `KMT-2018-BLG-0087L b` | 2022 | Microlensing | — | 10.1
+- **`KMT-2018-BLG-0247L`**
+  - `KMT-2018-BLG-0247L b` | 2022 | Microlensing | — | 13.4
+- **`KMT-2018-BLG-0748L`**
+  - `KMT-2018-BLG-0748L b` | 2020 | Microlensing | — | 9.01
+- **`KMT-2018-BLG-0885L`**
+  - `KMT-2018-BLG-0885L b` | 2023 | Microlensing | — | 11.9
+- **`KMT-2018-BLG-1025L`**
+  - `KMT-2018-BLG-1025L b` | 2021 | Microlensing | — | 2.34
+- **`KMT-2018-BLG-1292L`**
+  - `KMT-2018-BLG-1292L b` | 2020 | Microlensing | — | 12.9
+- **`KMT-2018-BLG-1743L`**
+  - `KMT-2018-BLG-1743L b` | 2021 | Microlensing | — | 10.5
+- **`KMT-2018-BLG-1976L`**
+  - `KMT-2018-BLG-1976L b` | 2021 | Microlensing | — | 13.3
+- **`KMT-2018-BLG-1988L`**
+  - `KMT-2018-BLG-1988L b` | 2022 | Microlensing | — | 2.22
+- **`KMT-2018-BLG-1990L`**
+  - `KMT-2018-BLG-1990L b` | 2019 | Microlensing | — | 12.9
+- **`KMT-2018-BLG-1996L`**
+  - `KMT-2018-BLG-1996L b` | 2021 | Microlensing | — | 13.7
+- **`KMT-2018-BLG-2602L`**
+  - `KMT-2018-BLG-2602L b` | 2022 | Microlensing | — | 13.7
+- **`KMT-2019-BLG-0253L`**
+  - `KMT-2019-BLG-0253L b` | 2022 | Microlensing | — | 2.58
+- **`KMT-2019-BLG-0297L`**
+  - `KMT-2019-BLG-0297L b` | 2023 | Microlensing | — | 12.1
+- **`KMT-2019-BLG-0298L`**
+  - `KMT-2019-BLG-0298L b` | 2023 | Microlensing | — | 13.4
+- **`KMT-2019-BLG-0335L`**
+  - `KMT-2019-BLG-0335L b` | 2023 | Microlensing | — | 12.1
+- **`KMT-2019-BLG-0371L`**
+  - `KMT-2019-BLG-0371L b` | 2021 | Microlensing | — | 12.6
+- **`KMT-2019-BLG-0414L`**
+  - `KMT-2019-BLG-0414L b` | 2022 | Microlensing | — | 12.9
+- **`KMT-2019-BLG-0578L`**
+  - `KMT-2019-BLG-0578L b` | 2025 | Microlensing | — | 13.7
+- **`KMT-2019-BLG-0842L`**
+  - `KMT-2019-BLG-0842L b` | 2020 | Microlensing | — | 3.19
+- **`KMT-2019-BLG-0953L`**
+  - `KMT-2019-BLG-0953L b` | 2022 | Microlensing | — | 4.06
+- **`KMT-2019-BLG-1042L`**
+  - `KMT-2019-BLG-1042L b` | 2022 | Microlensing | — | 9.05
+- **`KMT-2019-BLG-1216L`**
+  - `KMT-2019-BLG-1216L b` | 2023 | Microlensing | — | 5.98
+- **`KMT-2019-BLG-1339L`**
+  - `KMT-2019-BLG-1339L b` | 2020 | Microlensing | — | 13.7
+- **`KMT-2019-BLG-1367L`**
+  - `KMT-2019-BLG-1367L b` | 2023 | Microlensing | — | 1.85
+- **`KMT-2019-BLG-1552L`**
+  - `KMT-2019-BLG-1552L b` | 2022 | Microlensing | — | 13
+- **`KMT-2019-BLG-1715L`**
+  - `KMT-2019-BLG-1715L b` | 2021 | Microlensing | — | 13.2
+- **`KMT-2019-BLG-1806L`**
+  - `KMT-2019-BLG-1806L b` | 2023 | Microlensing | — | 2
+- **`KMT-2019-BLG-1953L`**
+  - `KMT-2019-BLG-1953L b` | 2020 | Microlensing | — | 14.1
+- **`KMT-2019-BLG-2783L`**
+  - `KMT-2019-BLG-2783L b` | 2023 | Microlensing | — | 13.7
+- **`KMT-2019-BLG-2974L`**
+  - `KMT-2019-BLG-2974L b` | 2022 | Microlensing | — | 11.4
+- **`KMT-2020-BLG-0202L`**
+  - `KMT-2020-BLG-0202L b` | 2026 | Microlensing | — | 12.4
+- **`KMT-2020-BLG-0414L`**
+  - `KMT-2020-BLG-0414L b` | 2021 | Microlensing | — | 1.2
+  - `KMT-2020-BLG-0414L c` | 2021 | Microlensing | — | 11.9
+- **`KMT-2021-BLG-0119L`**
+  - `KMT-2021-BLG-0119L b` | 2022 | Microlensing | — | 12.8
+- **`KMT-2021-BLG-0171L`**
+  - `KMT-2021-BLG-0171L b` | 2022 | Microlensing | — | 3.35
+- **`KMT-2021-BLG-0192L`**
+  - `KMT-2021-BLG-0192L b` | 2022 | Microlensing | — | 6.56
+- **`KMT-2021-BLG-0240L`**
+  - `KMT-2021-BLG-0240L b` | 2022 | Microlensing | — | 9.6
+- **`KMT-2021-BLG-0320L`**
+  - `KMT-2021-BLG-0320L b` | 2022 | Microlensing | — | 6.2
+- **`KMT-2021-BLG-0322L`**
+  - `KMT-2021-BLG-0322L b` | 2021 | Microlensing | — | 12.7
+- **`KMT-2021-BLG-0712L`**
+  - `KMT-2021-BLG-0712L b` | 2023 | Microlensing | — | 6.91
+- **`KMT-2021-BLG-0736L`**
+  - `KMT-2021-BLG-0736L b` | 2025 | Microlensing | — | 4.86
+- **`KMT-2021-BLG-0748L`**
+  - `KMT-2021-BLG-0748L b` | 2022 | Microlensing | — | 14.3
+- **`KMT-2021-BLG-0852L`**
+  - `KMT-2021-BLG-0852L b` | 2026 | Microlensing | — | 14.2
+- **`KMT-2021-BLG-0909L`**
+  - `KMT-2021-BLG-0909L b` | 2023 | Microlensing | — | 13.7
+- **`KMT-2021-BLG-0912L`**
+  - `KMT-2021-BLG-0912L b` | 2022 | Microlensing | — | 1.49
+- **`KMT-2021-BLG-1077L`**
+  - `KMT-2021-BLG-1077L b` | 2022 | Microlensing | — | 9.86
+  - `KMT-2021-BLG-1077L c` | 2022 | Microlensing | — | 10.6
+- **`KMT-2021-BLG-1105L`**
+  - `KMT-2021-BLG-1105L b` | 2023 | Microlensing | — | 13.6
+- **`KMT-2021-BLG-1150L`**
+  - `KMT-2021-BLG-1150L b` | 2023 | Microlensing | — | 13.9
+- **`KMT-2021-BLG-1253L`**
+  - `KMT-2021-BLG-1253L b` | 2022 | Microlensing | — | 4.59
+- **`KMT-2021-BLG-1303L`**
+  - `KMT-2021-BLG-1303L b` | 2022 | Microlensing | — | 13.6
+- **`KMT-2021-BLG-1372L`**
+  - `KMT-2021-BLG-1372L b` | 2022 | Microlensing | — | 9.12
+- **`KMT-2021-BLG-1391L`**
+  - `KMT-2021-BLG-1391L b` | 2022 | Microlensing | — | 1.97
+- **`KMT-2021-BLG-1547L`**
+  - `KMT-2021-BLG-1547L b` | 2023 | Microlensing | — | 13.6
+- **`KMT-2021-BLG-1554L`**
+  - `KMT-2021-BLG-1554L b` | 2022 | Microlensing | — | 6.9
+- **`KMT-2021-BLG-1689L`**
+  - `KMT-2021-BLG-1689L b` | 2022 | Microlensing | — | 7.71
+- **`KMT-2021-BLG-1770L`**
+  - `KMT-2021-BLG-1770L b` | 2023 | Microlensing | — | 12.1
+- **`KMT-2021-BLG-1898L`**
+  - `KMT-2021-BLG-1898L b` | 2022 | Microlensing | — | 14
+- **`KMT-2021-BLG-2010L`**
+  - `KMT-2021-BLG-2010L b` | 2023 | Microlensing | — | 13.8
+- **`KMT-2021-BLG-2294L`**
+  - `KMT-2021-BLG-2294L b` | 2022 | Microlensing | — | 5.02
+- **`KMT-2021-BLG-2478L`**
+  - `KMT-2021-BLG-2478L b` | 2023 | Microlensing | — | 13.9
+- **`KMT-2021-BLG-2609L`**
+  - `KMT-2021-BLG-2609L b` | 2024 | Microlensing | — | 3.17
+- **`KMT-2022-BLG-0303L`**
+  - `KMT-2022-BLG-0303L b` | 2024 | Microlensing | — | 14.2
+- **`KMT-2022-BLG-0371L`**
+  - `KMT-2022-BLG-0371L b` | 2023 | Microlensing | — | 10.9
+- **`KMT-2022-BLG-0440L`**
+  - `KMT-2022-BLG-0440L b` | 2023 | Microlensing | — | 4.05
+- **`KMT-2022-BLG-1013L`**
+  - `KMT-2022-BLG-1013L b` | 2023 | Microlensing | — | 12.1
+- **`KMT-2022-BLG-1551L`**
+  - `KMT-2022-BLG-1551L b` | 2026 | Microlensing | — | 13.2
+- **`KMT-2022-BLG-1790L`**
+  - `KMT-2022-BLG-1790L b` | 2025 | Microlensing | — | 13.5
+- **`KMT-2022-BLG-1818L`**
+  - `KMT-2022-BLG-1818L b` | 2026 | Microlensing | — | 13
+  - `KMT-2022-BLG-1818L c` | 2026 | Microlensing | — | 13.2
+- **`KMT-2022-BLG-2076L`**
+  - `KMT-2022-BLG-2076L b` | 2025 | Microlensing | — | 13.9
+- **`KMT-2022-BLG-2286L`**
+  - `KMT-2022-BLG-2286L b` | 2024 | Microlensing | — | 12.1
+- **`KMT-2023-BLG-0084L`**
+  - `KMT-2023-BLG-0084L b` | 2026 | Microlensing | — | 13.3
+- **`KMT-2023-BLG-0119L`**
+  - `KMT-2023-BLG-0119L b` | 2025 | Microlensing | — | 11
+- **`KMT-2023-BLG-0332L`**
+  - `KMT-2023-BLG-0332L b` | 2026 | Microlensing | — | 12
+- **`KMT-2023-BLG-0416L`**
+  - `KMT-2023-BLG-0416L b` | 2024 | Microlensing | — | 3.67
+- **`KMT-2023-BLG-0466L`**
+  - `KMT-2023-BLG-0466L b` | 2026 | Microlensing | — | 13.1
+- **`KMT-2023-BLG-0469L`**
+  - `KMT-2023-BLG-0469L b` | 2024 | Microlensing | — | 7.04
+- **`KMT-2023-BLG-0548L`**
+  - `KMT-2023-BLG-0548L b` | 2025 | Microlensing | — | 13.1
+- **`KMT-2023-BLG-0735L`**
+  - `KMT-2023-BLG-0735L b` | 2024 | Microlensing | — | 6.97
+- **`KMT-2023-BLG-0830L`**
+  - `KMT-2023-BLG-0830L b` | 2025 | Microlensing | — | 4.41
+- **`KMT-2023-BLG-0949L`**
+  - `KMT-2023-BLG-0949L b` | 2025 | Microlensing | — | 12.8
+- **`KMT-2023-BLG-1118L`**
+  - `KMT-2023-BLG-1118L b` | 2026 | Microlensing | — | 9.6
+- **`KMT-2023-BLG-1431L`**
+  - `KMT-2023-BLG-1431L b` | 2024 | Microlensing | — | 3.76
+- **`KMT-2023-BLG-1454L`**
+  - `KMT-2023-BLG-1454L b` | 2024 | Microlensing | — | 14.1
+- **`KMT-2023-BLG-1592L`**
+  - `KMT-2023-BLG-1592L b` | 2026 | Microlensing | — | 14.1
+- **`KMT-2023-BLG-1642L`**
+  - `KMT-2023-BLG-1642L b` | 2024 | Microlensing | — | 13.8
+- **`KMT-2023-BLG-1743L`**
+  - `KMT-2023-BLG-1743L b` | 2024 | Microlensing | — | 12.1
+- **`KMT-2023-BLG-1810L`**
+  - `KMT-2023-BLG-1810L b` | 2026 | Microlensing | — | 12.6
+- **`KMT-2023-BLG-1866L`**
+  - `KMT-2023-BLG-1866L b` | 2024 | Microlensing | — | 1.43
+- **`KMT-2023-BLG-1896L`**
+  - `KMT-2023-BLG-1896L b` | 2025 | Microlensing | — | 4.19
+- **`KMT-2023-BLG-2209L`**
+  - `KMT-2023-BLG-2209L b` | 2025 | Microlensing | — | 13.9
+- **`KMT-2024-BLG-0176L`**
+  - `KMT-2024-BLG-0176L b` | 2026 | Microlensing | — | 14
+- **`KMT-2024-BLG-0349L`**
+  - `KMT-2024-BLG-0349L b` | 2026 | Microlensing | — | 12.4
+- **`KMT-2024-BLG-0404L`**
+  - `KMT-2024-BLG-0404L b` | 2025 | Microlensing | — | 11.9
+  - `KMT-2024-BLG-0404L c` | 2025 | Microlensing | — | 4.33
+- **`KMT-2024-BLG-1005L`**
+  - `KMT-2024-BLG-1005L b` | 2025 | Microlensing | — | 12.1
+- **`KMT-2024-BLG-1044L`**
+  - `KMT-2024-BLG-1044L b` | 2024 | Microlensing | — | 2.7
+- **`KMT-2024-BLG-1209L`**
+  - `KMT-2024-BLG-1209L b` | 2025 | Microlensing | — | 13.2
+- **`KMT-2024-BLG-1281L`**
+  - `KMT-2024-BLG-1281L b` | 2025 | Microlensing | — | 4.59
+- **`KMT-2024-BLG-1870L`**
+  - `KMT-2024-BLG-1870L b` | 2026 | Microlensing | — | 13.8
+- **`KMT-2024-BLG-2005L`**
+  - `KMT-2024-BLG-2005L b` | 2026 | Microlensing | — | 8.18
+- **`KMT-2024-BLG-2059L`**
+  - `KMT-2024-BLG-2059L b` | 2025 | Microlensing | — | 2.54
+- **`KMT-2024-BLG-2087L`**
+  - `KMT-2024-BLG-2087L b` | 2026 | Microlensing | — | 12.9
+- **`KMT-2024-BLG-2242L`**
+  - `KMT-2024-BLG-2242L b` | 2025 | Microlensing | — | 3.82
+- **`KMT-2025-BLG-0026L`**
+  - `KMT-2025-BLG-0026L b` | 2026 | Microlensing | — | 13.3
+- **`KMT-2025-BLG-0030L`**
+  - `KMT-2025-BLG-0030L b` | 2026 | Microlensing | — | 13.7
+- **`KMT-2025-BLG-0121L`**
+  - `KMT-2025-BLG-0121L b` | 2026 | Microlensing | — | 12.6
+- **`KMT-2025-BLG-0481L`**
+  - `KMT-2025-BLG-0481L b` | 2026 | Microlensing | — | 14.1
+- **`KMT-2025-BLG-0975L`**
+  - `KMT-2025-BLG-0975L b` | 2026 | Microlensing | — | 5.97
+- **`KMT-2025-BLG-1160L`**
+  - `KMT-2025-BLG-1160L b` | 2026 | Microlensing | — | 5.43
+- **`KMT-2025-BLG-1616L`**
+  - `KMT-2025-BLG-1616L b` | 2026 | Microlensing | — | 7.34
+- **`KMT-2025-BLG-2272L`**
+  - `KMT-2025-BLG-2272L b` | 2026 | Microlensing | — | 13.3
+- **`KMT-2026-BLG-0083L`**
+  - `KMT-2026-BLG-0083L b` | 2026 | Microlensing | — | 13.2
+  - `KMT-2026-BLG-0083L c` | 2026 | Microlensing | — | 13.5
+- **`KOI-12`**
+  - `KOI-12 b` | 2015 | Transit | 17.855182 | 13.78707
+  - `Kepler-448 c` | 2017 | Transit Timing Variations | 2500 | 12
+- **`KOI-13`**
+  - `KOI-13 b` | 2011 | Transit | 1.763588 | 16.948008
+- **`KOI-55`**
+  - `KOI-55 b` † | 2011 | Orbital Brightness Modulation | 0.240104 | 0.759
+  - `KOI-55 c` † | 2011 | Orbital Brightness Modulation | 0.342887 | 0.867
+- **`KOI-94`**
+  - `KOI-94 b` | 2013 | Transit | 3.743208 | 1.71
+  - `KOI-94 c` | 2013 | Transit | 10.423648 | 4.32
+  - `KOI-94 d` | 2013 | Transit | 22.342989 | 11.27
+  - `KOI-94 e` | 2013 | Transit | 54.32031 | 6.56
+- **`KOI-134`**
+  - `KOI-134 c` | 2025 | Transit Timing Variations | 33.95 | 9.86
+  - `KOI-134 b` | 2025 | Transit | 67.1277 | 12.03844527
+- **`KOI-142`**
+  - `KOI-142 b` | 2013 | Transit | 10.91647 | 3.438
+  - `KOI-142 c` | 2013 | Transit Timing Variations | 22.26492 | 14
+  - `Kepler-88 d` | 2020 | Radial Velocity | 1403 | 13.1
+- **`KOI-217`**
+  - `KOI-217 b` | 2010 | Transit | 3.90512 | 12.442
+- **`KOI-319`**
+  - `KOI-319 b` | 2014 | Transit | 46.14827 | 10.67
+  - `KOI-319 c` | 2014 | Transit Timing Variations | 80.099 | 11.9
+- **`KOI-351`**
+  - `KOI-351 b` | 2013 | Transit | 7.008151 | 1.31
+  - `KOI-351 c` | 2013 | Transit | 8.719375 | 1.19
+  - `Kepler-90 i` | 2017 | Transit | 14.44912 | 1.32
+  - `KOI-351 d` | 2013 | Transit | 59.73667 | 2.87
+  - `KOI-351 e` | 2013 | Transit | 91.93913 | 2.66
+  - `KOI-351 f` | 2013 | Transit | 124.9144 | 2.88
+  - `KOI-351 g` | 2013 | Transit | 210.73514 | 7.718
+  - `KOI-351 h` | 2013 | Transit | 331.60296 | 11.252
+- **`KOI-984`**
+  - `KOI-984 b` | 2022 | Transit | 4.2881785 | 4.3
+  - `KOI-984 c` | 2022 | Transit Timing Variations | 21.512 | 14.1
+- **`KOI-1257`**
+  - `KOI-1257 b` | 2014 | Transit | 86.647661 | 10.54
+- **`KOI-1599`**
+  - `KOI-1599.02` | 2019 | Transit | 13.6088 | 1.9
+  - `KOI-1599.01` | 2019 | Transit | 20.4415 | 1.9
+- **`KOI-1783`**
+  - `KOI-1783.01` | 2020 | Transit | 134.4628 | 8.86
+  - `KOI-1783.02` | 2020 | Transit | 284.215 | 5.44
+- **`KOI-2513`**
+  - `KOI-2513.01` | 2023 | Transit | 19.00547 | 2.80224517
+- **`KOI-3503`**
+  - `KOI-3503 b` | 2021 | Transit | 21.185 | 1.19
+  - `KOI-3503 c` | 2021 | Transit | 31.828 | 1.21
+- **`KOI-3680`**
+  - `KOI-3680 b` | 2018 | Transit | 141.241671 | 11.09691
+- **`KOI-4777`**
+  - `KOI-4777.01` | 2022 | Transit | 0.412 | 0.51
+- **`KOI-4978`**
+  - `KOI-4978 b` | 2024 | Transit | 0.941967 | 0.7
+- **`KOI-7368`**
+  - `KOI-7368 b` | 2022 | Transit | 6.8430344 | 2.22
+- **`KOI-7892`**
+  - `Kepler-457 d` | 2021 | Transit | 10.6906004 | 2.98467257
+  - `KIC 8540376 b` | 2015 | Transit | 31.8099 | 4.1
+  - `KIC 8540376 c` | 2015 | Transit | 75.2 | 2.4
+- **`KOI-7913`**
+  - ดาวแม่ `KOI-7913 A`
+    - `KOI-7913 b` | 2022 | Transit | 24.278553 | 2.34
+- **`KPS-1`**
+  - `KPS-1 b` | 2018 | Transit | 1.706291 | 11.54527
+- **`L 98-59`**
+  - `L 98-59 b` | 2019 | Transit | 2.253114 | 0.837
+  - `L 98-59 c` | 2019 | Transit | 3.6906764 | 1.329
+  - `L 98-59 d` | 2019 | Transit | 7.450729 | 1.627
+  - `L 98-59 e` | 2021 | Radial Velocity | 12.8278 | 1.49
+  - `L 98-59 f` | 2025 | Radial Velocity | 23.064 | 1.48
+- **`L 168-9`**
+  - `L 168-9 b` | 2020 | Transit | 1.40152604 | 1.63
+- **`L 363-38`**
+  - `L 363-38 b` | 2023 | Radial Velocity | 8.781 | 2
+- **`LHS 475`**
+  - `LHS 475 b` | 2023 | Transit | 2.029088 | 0.991
+- **`LHS 1140`**
+  - `LHS 1140 c` | 2018 | Transit | 3.77794 | 1.272
+  - `LHS 1140 b` | 2017 | Transit | 24.73723 | 1.73
+- **`LHS 1478`**
+  - `LHS 1478 b` | 2021 | Transit | 1.94953941 | 1.174
+- **`LHS 1678`**
+  - `LHS 1678 b` | 2021 | Transit | 0.8602325 | 0.685
+  - `LHS 1678 c` | 2021 | Transit | 3.694284 | 0.941
+  - `LHS 1678 d` | 2024 | Transit | 4.9652229 | 0.981
+- **`LHS 1815`**
+  - `LHS 1815 b` | 2020 | Transit | 3.814334 | 1.088
+- **`LHS 1903`**
+  - `LHS 1903 b` | 2026 | Transit | 2.1555098 | 1.382
+  - `LHS 1903 c` | 2026 | Transit | 6.226185 | 2.046
+  - `LHS 1903 d` | 2026 | Transit | 12.566287 | 2.5
+  - `LHS 1903 e` | 2026 | Transit | 29.31773 | 1.732
+- **`LHS 3154`**
+  - `LHS 3154 b` | 2023 | Radial Velocity | 3.71778 | 3.69
+- **`LHS 3844`**
+  - `LHS 3844 b` | 2019 | Transit | 0.462929709 | 1.286
+- **`LkCa 15`**
+  - `LkCa 15 b` † | 2015 | Imaging | — | —
+  - `LkCa 15 c` † | 2015 | Imaging | — | —
+- **`LP 261-75`**
+  - ดาวแม่ `LP 261-75 A`
+    - `LP 261-75 b` | 2006 | Imaging | — | 12.1
+- **`LP 714-47`**
+  - `LP 714-47 b` | 2020 | Transit | 4.052032 | 4.25
+
+</details>
+
+<a name="systems-21"></a>
+
+<details><summary>LP 791-18 – OGLE-2018-BLG-1126L · 180 ระบบ · 192 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`LP 791-18`**
+  - `LP 791-18 b` | 2019 | Transit | 0.9479981 | 1.212
+  - `LP 791-18 d` | 2023 | Transit | 2.75485 | 1.032
+  - `LP 791-18 c` | 2019 | Transit | 4.98991 | 2.488
+- **`LP 890-9`**
+  - `LP 890-9 b` | 2022 | Transit | 2.7299025 | 1.32
+  - `LP 890-9 c` | 2022 | Transit | 8.457463 | 1.367
+- **`LSPM J2116+0234`**
+  - `LSPM J2116+0234 b` | 2019 | Radial Velocity | 14.4399 | 3.71
+- **`LTT 1445`**
+  - ดาวแม่ `LTT 1445 A`
+    - `LTT 1445 A c` | 2022 | Transit | 3.1239035 | 1.147
+    - `LTT 1445 A b` | 2019 | Transit | 5.3587635 | 1.34
+- **`LTT 3780`**
+  - `LTT 3780 b` | 2020 | Transit | 0.76837931 | 1.325
+  - `LTT 3780 c` | 2020 | Transit | 12.252284 | 2.39
+- **`LTT 9779`**
+  - `LTT 9779 b` | 2020 | Transit | 0.792052 | 4.72
+- **`Luhman 16`**
+  - ดาวแม่ `Luhman 16 A`
+    - `Luhman 16 b` | 2017 | Imaging | 9697 | 11.9
+- **`Lupus-TR-3`**
+  - `Lupus-TR-3 b` | 2007 | Transit | 3.91405 | 9.976
+- **`M62H`**
+  - `M62H b` | 2024 | Pulsar Timing | 0.132935028 | —
+- **`MASCARA-1`**
+  - `MASCARA-1 b` | 2017 | Transit | 2.14877381 | 17.90074218
+- **`MASCARA-4`**
+  - `MASCARA-4 b` | 2020 | Transit | 2.8240932 | 16.98160576
+- **`MOA-2007-BLG-192L`**
+  - `MOA-2007-BLG-192L b` | 2008 | Microlensing | — | 3.58
+- **`MOA-2007-BLG-400L`**
+  - `MOA-2007-BLG-400L b` | 2008 | Microlensing | — | 13.5
+- **`MOA-2008-BLG-310L`**
+  - `MOA-2008-BLG-310L b` | 2009 | Microlensing | — | 5.18
+- **`MOA-2008-BLG-379L`**
+  - `MOA-2008-BLG-379L b` | 2013 | Microlensing | — | 13
+- **`MOA-2009-BLG-266L`**
+  - `MOA-2009-BLG-266L b` | 2011 | Microlensing | 2800 | 3.21
+- **`MOA-2009-BLG-319L`**
+  - `MOA-2009-BLG-319L b` | 2010 | Microlensing | — | 9.64
+- **`MOA-2009-BLG-387L`**
+  - `MOA-2009-BLG-387L b` | 2010 | Microlensing | 1980 | 13.2
+- **`MOA-2010-BLG-073L`**
+  - `MOA-2010-BLG-073L b` | 2012 | Microlensing | — | 12.4
+- **`MOA-2010-BLG-117L`**
+  - `MOA-2010-BLG-117L b` | 2018 | Microlensing | — | 14.2
+- **`MOA-2010-BLG-328L`**
+  - `MOA-2010-BLG-328L b` | 2013 | Microlensing | — | 2.99
+- **`MOA-2010-BLG-353L`**
+  - `MOA-2010-BLG-353L b` | 2015 | Microlensing | — | 11.1
+- **`MOA-2010-BLG-477L`**
+  - `MOA-2010-BLG-477L b` | 2012 | Microlensing | — | 13.6
+- **`MOA-2011-BLG-028L`**
+  - `MOA-2011-BLG-028L b` | 2016 | Microlensing | — | 5.99
+- **`MOA-2011-BLG-262L`**
+  - `MOA-2011-BLG-262L b` | 2014 | Microlensing | — | 4.29
+- **`MOA-2011-BLG-291L`**
+  - `MOA-2011-BLG-291L b` | 2018 | Microlensing | — | 4.43
+- **`MOA-2011-BLG-293L`**
+  - `MOA-2011-BLG-293L b` | 2012 | Microlensing | 3000 | 12.9
+- **`MOA-2011-BLG-322L`**
+  - `MOA-2011-BLG-322L b` | 2013 | Microlensing | — | 12.4
+- **`MOA-2012-BLG-006L`**
+  - `MOA-2012-BLG-006L b` | 2017 | Microlensing | — | 12.6
+- **`MOA-2012-BLG-505L`**
+  - `MOA-2012-BLG-505L b` | 2017 | Microlensing | — | 2.48
+- **`MOA-2013-BLG-220L`**
+  - `MOA-2013-BLG-220L b` | 2014 | Microlensing | — | 13.2
+- **`MOA-2013-BLG-605L`**
+  - `MOA-2013-BLG-605L b` | 2016 | Microlensing | — | 1.62
+- **`MOA-2015-BLG-337L`**
+  - `MOA-2015-BLG-337L b` | 2018 | Microlensing | — | 6.42
+- **`MOA-2016-BLG-227L`**
+  - `MOA-2016-BLG-227L b` | 2017 | Microlensing | — | 13.2
+- **`MOA-2016-BLG-319L`**
+  - `MOA-2016-BLG-319L b` | 2018 | Microlensing | — | 14.1
+- **`MOA-2016-BLG-526L`**
+  - `MOA-2016-BLG-526L b` | 2024 | Microlensing | — | 3.97
+- **`MOA-2019-BLG-008L`**
+  - `MOA-2019-BLG-008L b` | 2022 | Microlensing | — | 12.2
+- **`MOA-2020-BLG-108L`**
+  - `MOA-2020-BLG-108L b` | 2026 | Microlensing | — | 12.4
+- **`MOA-2020-BLG-135L`**
+  - `MOA-2020-BLG-135L b` | 2022 | Microlensing | — | 3.37
+- **`MOA-2020-BLG-208L`**
+  - `MOA-2020-BLG-208L b` | 2023 | Microlensing | — | 7.71
+- **`MOA-2022-BLG-033L`**
+  - `MOA-2022-BLG-033L b` | 2025 | Microlensing | — | 3.52
+- **`MOA-2022-BLG-091L`**
+  - `MOA-2022-BLG-091L b` | 2025 | Microlensing | — | 13
+- **`MOA-2022-BLG-249L`**
+  - `MOA-2022-BLG-249L b` | 2023 | Microlensing | — | 2.04
+- **`MOA-2022-BLG-563L`**
+  - `MOA-2022-BLG-563L b` | 2024 | Microlensing | — | 14
+- **`MOA-bin-1L`**
+  - `MOA-bin-1L b` | 2012 | Microlensing | — | 13
+- **`MOA-bin-29`**
+  - `MOA-bin-29 b` | 2019 | Microlensing | — | 14.1
+- **`mu2 Sco`**
+  - `mu2 Sco b` | 2022 | Imaging | — | 12.3
+- **`mu Leo`**
+  - `mu Leo b` | 2014 | Radial Velocity | 357.8 | 13.3
+- **`MWC 758`**
+  - `MWC 758 c` | 2023 | Imaging | — | —
+- **`MXB 1658-298`**
+  - `MXB 1658-298 b` CB | 2017 | Eclipse Timing Variations | 760 | 12
+- **`NGC 2682 Sand 978`**
+  - `NGC 2682 Sand 978 b` | 2017 | Radial Velocity | 511.21 | 13.3
+- **`NGC 2682 Sand 1429`**
+  - `NGC 2682 Sand 1429 b` | 2024 | Radial Velocity | 77.48 | 13.4
+- **`NGC 2682 YBP 401`**
+  - `NGC 2682 YBP 401 b` | 2016 | Radial Velocity | 4.087 | 14.3
+- **`NGC 2682 YBP 1194`**
+  - `NGC 2682 YBP 1194 b` | 2014 | Radial Velocity | 6.959 | 12.3
+- **`NGC 2682 YBP 1514`**
+  - `NGC 2682 YBP 1514 b` | 2014 | Radial Velocity | 5.118 | 14
+- **`NGTS-1`**
+  - `NGTS-1 b` | 2017 | Transit | 2.647298 | 14.90797
+- **`NGTS-2`**
+  - `NGTS-2 b` | 2018 | Transit | 4.511164 | 17.878355
+- **`NGTS-3`**
+  - ดาวแม่ `NGTS-3 A`
+    - `NGTS-3 A b` | 2018 | Transit | 1.6753728 | 16.58932
+- **`NGTS-4`**
+  - `NGTS-4 b` | 2019 | Transit | 1.3373508 | 3.18
+- **`NGTS-5`**
+  - `NGTS-5 b` | 2019 | Transit | 3.3569866 | 12.733424
+- **`NGTS-6`**
+  - `NGTS-6 b` | 2019 | Transit | 0.882059 | 14.863134
+- **`NGTS-8`**
+  - `NGTS-8 b` | 2019 | Transit | 2.4997 | 12.21781
+- **`NGTS-9`**
+  - `NGTS-9 b` | 2019 | Transit | 4.43527 | 11.99363
+- **`NGTS-10`**
+  - `NGTS-10 b` | 2020 | Transit | 0.7668944 | 13.89913607
+- **`NGTS-11`**
+  - `NGTS-11 b` | 2020 | Transit | 35.45533 | 9.157753
+- **`NGTS-12`**
+  - `NGTS-12 b` | 2020 | Transit | 7.532806 | 11.747032
+- **`NGTS-13`**
+  - `NGTS-13 b` | 2021 | Transit | 4.119027 | 12.800678
+- **`NGTS-14`**
+  - ดาวแม่ `NGTS-14 A`
+    - `NGTS-14 A b` | 2021 | Transit | 3.5357173 | 4.976796
+- **`NGTS-15`**
+  - `NGTS-15 b` | 2021 | Transit | 3.27623 | 12.32987877
+- **`NGTS-16`**
+  - `NGTS-16 b` | 2021 | Transit | 4.84532 | 14.57167491
+- **`NGTS-17`**
+  - `NGTS-17 b` | 2021 | Transit | 3.24253 | 13.89913607
+- **`NGTS-18`**
+  - `NGTS-18 b` | 2021 | Transit | 3.05125 | 13.56286665
+- **`NGTS-20`**
+  - `NGTS-20 b` | 2022 | Transit | 54.18915 | 11.99360935
+- **`NGTS-21`**
+  - `NGTS-21 b` | 2022 | Transit | 1.5433897 | 14.90794433
+- **`NGTS-23`**
+  - `NGTS-23 b` | 2022 | Transit | 4.0764326 | 14.20177855
+- **`NGTS-24`**
+  - `NGTS-24 b` | 2022 | Transit | 3.4678796 | 13.60770257
+- **`NGTS-25`**
+  - `NGTS-25 b` | 2022 | Transit | 2.823093 | 11.46678726
+- **`NGTS-26`**
+  - `NGTS-26 b` | 2024 | Transit | 4.5199279 | 14.88552637
+- **`NGTS-27`**
+  - `NGTS-27 b` | 2024 | Transit | 3.3704181 | 15.64773706
+- **`NGTS-30`**
+  - `NGTS-30 b` | 2024 | Transit | 98.29838 | 10.40193409
+- **`NGTS-31`**
+  - `NGTS-31 b` | 2025 | Transit | 4.162734 | 18.04645893
+- **`NGTS-32`**
+  - `NGTS-32 b` | 2025 | Transit | 3.31211 | 15.91675259
+- **`NGTS-33`**
+  - `NGTS-33 b` | 2024 | Transit | 2.827972 | 18.38272835
+- **`NGTS-34`**
+  - `NGTS-34 b` | 2025 | Transit | 43.12655 | 3.65
+- **`NGTS-35`**
+  - `NGTS-35 b` | 2025 | Transit | 25.241192 | 10.9
+- **`NGTS-38`**
+  - `NGTS-38 b` | 2026 | Transit | 180.52797 | 12.11690814
+- **`NGTS-39`**
+  - `NGTS-39 b` | 2026 | Transit | 58.20472 | 12.195371
+- **`NN Ser`**
+  - `NN Ser d` † CB | 2010 | Eclipse Timing Variations | 2880 | 13.3
+  - `NN Ser c` † CB | 2010 | Eclipse Timing Variations | 6987 | 12.6
+- **`NSVS 14256825`**
+  - `NSVS 14256825 b` † CB | 2019 | Eclipse Timing Variations | 3225 | 12.3
+- **`nu Oct`**
+  - ดาวแม่ `nu Oct A`
+    - `nu Oct A b` † | 2016 | Radial Velocity | 402.4 | 13.3
+- **`nu Oph`**
+  - `nu Oph b` | 2012 | Radial Velocity | 529.93 | 12
+  - `nu Oph c` | 2012 | Radial Velocity | 3180.6 | 12
+- **`NY Vir`**
+  - `NY Vir b` † CB | 2011 | Eclipse Timing Variations | 3160 | 13.3
+  - `NY Vir c` † CB | 2019 | Eclipse Timing Variations | 8799 | 12.8
+- **`OGLE2-TR-L9`**
+  - `OGLE2-TR-L9 b` | 2008 | Transit | 2.4855335 | 18.046
+- **`OGLE-2003-BLG-235L`**
+  - `OGLE-2003-BLG-235L b` | 2004 | Microlensing | — | 13.2
+- **`OGLE-2005-BLG-071L`**
+  - `OGLE-2005-BLG-071L b` | 2005 | Microlensing | — | 13
+- **`OGLE-2005-BLG-169L`**
+  - `OGLE-2005-BLG-169L b` | 2006 | Microlensing | — | 3.84
+- **`OGLE-2005-BLG-390L`**
+  - `OGLE-2005-BLG-390L b` | 2005 | Microlensing | 3285 | 2.21
+- **`OGLE-2006-BLG-109L`**
+  - `OGLE-2006-BLG-109L b` | 2008 | Microlensing | 1788.5 | 14
+  - `OGLE-2006-BLG-109L c` | 2008 | Microlensing | 4927.5 | 11.1
+- **`OGLE-2006-BLG-284L`**
+  - ดาวแม่ `OGLE-2006-BLG-284L A`
+    - `OGLE-2006-BLG-284L A b` | 2020 | Microlensing | — | 14.3
+- **`OGLE-2007-BLG-349L`**
+  - ดาวแม่ `OGLE-2007-BLG-349L A`
+    - `OGLE-2007-BLG-349L AB c` CB | 2016 | Microlensing | 2557 | 10.7
+- **`OGLE-2007-BLG-368L`**
+  - `OGLE-2007-BLG-368L b` | 2009 | Microlensing | — | 4.72
+- **`OGLE-2008-BLG-092L`**
+  - `OGLE-2008-BLG-092L b` | 2014 | Microlensing | — | 8.74
+- **`OGLE-2008-BLG-355L`**
+  - `OGLE-2008-BLG-355L b` | 2014 | Microlensing | — | 12.9
+- **`OGLE-2011-BLG-0173L`**
+  - `OGLE-2011-BLG-0173L b` | 2018 | Microlensing | — | 9.01
+- **`OGLE-2011-BLG-0251L`**
+  - `OGLE-2011-BLG-0251L b` | 2012 | Microlensing | — | 14.2
+- **`OGLE-2011-BLG-0265L`**
+  - `OGLE-2011-BLG-0265L b` | 2015 | Microlensing | — | 13.9
+- **`OGLE-2012-BLG-0026L`**
+  - `OGLE-2012-BLG-0026L b` | 2012 | Microlensing | — | 7.72
+  - `OGLE-2012-BLG-0026L c` | 2012 | Microlensing | — | 13.9
+- **`OGLE-2012-BLG-0358L`**
+  - `OGLE-2012-BLG-0358L b` | 2013 | Microlensing | — | 13.4
+- **`OGLE-2012-BLG-0406L`**
+  - `OGLE-2012-BLG-0406L b` | 2013 | Microlensing | — | 13.2
+- **`OGLE-2012-BLG-0563L`**
+  - `OGLE-2012-BLG-0563L b` | 2015 | Microlensing | — | 13.6
+- **`OGLE-2012-BLG-0724L`**
+  - `OGLE-2012-BLG-0724L b` | 2016 | Microlensing | — | 14.3
+- **`OGLE-2012-BLG-0838L`**
+  - `OGLE-2012-BLG-0838L b` | 2020 | Microlensing | — | 8.39
+- **`OGLE-2012-BLG-0950L`**
+  - `OGLE-2012-BLG-0950L b` | 2016 | Microlensing | — | 6.56
+- **`OGLE-2013-BLG-0102L`**
+  - `OGLE-2013-BLG-0102L b` | 2014 | Microlensing | — | 12.3
+- **`OGLE-2013-BLG-0132L`**
+  - `OGLE-2013-BLG-0132L b` | 2017 | Microlensing | — | 11.6
+- **`OGLE-2013-BLG-0341L`**
+  - ดาวแม่ `OGLE-2013-BLG-0341L B`
+    - `OGLE-2013-BLG-0341L B b` | 2014 | Microlensing | — | 1.16
+- **`OGLE-2013-BLG-0911L`**
+  - `OGLE-2013-BLG-0911L b` | 2019 | Microlensing | — | 12.5
+- **`OGLE-2013-BLG-1125L`**
+  - `OGLE-2013-BLG-1125L b` | 2026 | Microlensing | — | 12.5
+- **`OGLE-2013-BLG-1721L`**
+  - `OGLE-2013-BLG-1721L b` | 2017 | Microlensing | — | 14.1
+- **`OGLE-2013-BLG-1761L`**
+  - `OGLE-2013-BLG-1761L b` | 2017 | Microlensing | — | 13.2
+- **`OGLE-2014-BLG-0124L`**
+  - `OGLE-2014-BLG-0124L b` | 2015 | Microlensing | — | 14.1
+- **`OGLE-2014-BLG-0221L`**
+  - `OGLE-2014-BLG-0221L b` | 2024 | Microlensing | — | 12.9
+- **`OGLE-2014-BLG-0319L`**
+  - `OGLE-2014-BLG-0319L b` | 2022 | Microlensing | — | 14.1
+- **`OGLE-2014-BLG-0676L`**
+  - `OGLE-2014-BLG-0676L b` | 2016 | Microlensing | — | 13.1
+- **`OGLE-2014-BLG-1722L`**
+  - `OGLE-2014-BLG-1722L b` | 2018 | Microlensing | — | 8.59
+  - `OGLE-2014-BLG-1722L c` | 2018 | Microlensing | — | 11
+- **`OGLE-2014-BLG-1760L`**
+  - `OGLE-2014-BLG-1760L b` | 2016 | Microlensing | — | 13.8
+- **`OGLE-2015-BLG-0051L`**
+  - `OGLE-2015-BLG-0051L b` | 2016 | Microlensing | — | 14
+- **`OGLE-2015-BLG-0954L`**
+  - `OGLE-2015-BLG-0954L b` | 2016 | Microlensing | — | 13.1
+- **`OGLE-2015-BLG-0966L`**
+  - `OGLE-2015-BLG-0966L b` | 2016 | Microlensing | — | 4.86
+- **`OGLE-2015-BLG-1395L`**
+  - `OGLE-2015-BLG-1395L b` | 2026 | Microlensing | — | 8.47
+- **`OGLE-2015-BLG-1609L`**
+  - `OGLE-2015-BLG-1609L b` | 2025 | Microlensing | — | 10.4
+- **`OGLE-2015-BLG-1649L`**
+  - `OGLE-2015-BLG-1649L b` | 2019 | Microlensing | — | 13.2
+- **`OGLE-2015-BLG-1670L`**
+  - `OGLE-2015-BLG-1670L b` | 2019 | Microlensing | — | 4.42
+- **`OGLE-2015-BLG-1771L`**
+  - `OGLE-2015-BLG-1771L b` | 2020 | Microlensing | — | 14.3
+- **`OGLE-2016-BLG-0007L`**
+  - `OGLE-2016-BLG-0007L b` | 2025 | Microlensing | 14200 | 1.09
+- **`OGLE-2016-BLG-0261L`**
+  - `OGLE-2016-BLG-0261L b` | 2026 | Microlensing | — | 9.6
+- **`OGLE-2016-BLG-0263L`**
+  - `OGLE-2016-BLG-0263L b` | 2017 | Microlensing | — | 13
+- **`OGLE-2016-BLG-0613L`**
+  - ดาวแม่ `OGLE-2016-BLG-0613L AB`
+    - `OGLE-2016-BLG-0613L AB b` CB | 2017 | Microlensing | — | 13
+- **`OGLE-2016-BLG-1067L`**
+  - `OGLE-2016-BLG-1067L b` | 2019 | Microlensing | — | 14.3
+- **`OGLE-2016-BLG-1093L`**
+  - `OGLE-2016-BLG-1093L b` | 2022 | Microlensing | — | 14
+- **`OGLE-2016-BLG-1190L`**
+  - `OGLE-2016-BLG-1190L b` | 2017 | Microlensing | 1220 | 12.3
+- **`OGLE-2016-BLG-1195L`**
+  - `OGLE-2016-BLG-1195L b` | 2017 | Microlensing | — | 1.11
+- **`OGLE-2016-BLG-1227L`**
+  - `OGLE-2016-BLG-1227L b` | 2020 | Microlensing | — | 13.9
+- **`OGLE-2016-BLG-1266L`**
+  - `OGLE-2016-BLG-1266L b` | 2018 | Microlensing | — | 12.4
+- **`OGLE-2016-BLG-1598L`**
+  - `OGLE-2016-BLG-1598L b` | 2024 | Microlensing | — | 13.6
+- **`OGLE-2016-BLG-1800L`**
+  - `OGLE-2016-BLG-1800L b` | 2024 | Microlensing | — | 13.2
+- **`OGLE-2017-BLG-0173L`**
+  - `OGLE-2017-BLG-0173L b` | 2018 | Microlensing | — | 1.62
+- **`OGLE-2017-BLG-0364L`**
+  - `OGLE-2017-BLG-0364L b` | 2024 | Microlensing | — | 10.3
+- **`OGLE-2017-BLG-0373L`**
+  - `OGLE-2017-BLG-0373L b` | 2018 | Microlensing | — | 14
+- **`OGLE-2017-BLG-0406L`**
+  - `OGLE-2017-BLG-0406L b` | 2020 | Microlensing | — | 14.2
+- **`OGLE-2017-BLG-0448L`**
+  - `OGLE-2017-BLG-0448L b` | 2024 | Microlensing | — | 4.08
+- **`OGLE-2017-BLG-0482L`**
+  - `OGLE-2017-BLG-0482L b` | 2018 | Microlensing | — | 2.95
+- **`OGLE-2017-BLG-0604L`**
+  - `OGLE-2017-BLG-0604L b` | 2020 | Microlensing | — | 14.2
+- **`OGLE-2017-BLG-0640L`**
+  - `OGLE-2017-BLG-0640L b` | 2024 | Microlensing | — | 13.5
+- **`OGLE-2017-BLG-1049L`**
+  - `OGLE-2017-BLG-1049L b` | 2020 | Microlensing | — | 12.8
+- **`OGLE-2017-BLG-1099L`**
+  - `OGLE-2017-BLG-1099L b` | 2021 | Microlensing | — | 13.1
+- **`OGLE-2017-BLG-1140L`**
+  - `OGLE-2017-BLG-1140L b` | 2018 | Microlensing | — | 13.5
+- **`OGLE-2017-BLG-1237L`**
+  - `OGLE-2017-BLG-1237L b` | 2024 | Microlensing | — | 13
+- **`OGLE-2017-BLG-1275L`**
+  - `OGLE-2017-BLG-1275L b` | 2024 | Microlensing | — | 12.8
+- **`OGLE-2017-BLG-1375L`**
+  - `OGLE-2017-BLG-1375L b` | 2020 | Microlensing | — | 12.4
+- **`OGLE-2017-BLG-1434L`**
+  - `OGLE-2017-BLG-1434L b` | 2018 | Microlensing | — | 1.94
+- **`OGLE-2017-BLG-1522L`**
+  - `OGLE-2017-BLG-1522L b` | 2018 | Microlensing | — | 14
+- **`OGLE-2017-BLG-1691L`**
+  - `OGLE-2017-BLG-1691L b` | 2022 | Microlensing | — | 3.92
+- **`OGLE-2017-BLG-1806L`**
+  - `OGLE-2017-BLG-1806L b` | 2023 | Microlensing | — | 2.15
+- **`OGLE-2018-BLG-0298L`**
+  - `OGLE-2018-BLG-0298L b` | 2022 | Microlensing | — | 7.56
+- **`OGLE-2018-BLG-0383L`**
+  - `OGLE-2018-BLG-0383L b` | 2022 | Microlensing | — | 2.41
+- **`OGLE-2018-BLG-0506L`**
+  - `OGLE-2018-BLG-0506L b` | 2022 | Microlensing | — | 4.18
+- **`OGLE-2018-BLG-0516L`**
+  - `OGLE-2018-BLG-0516L b` | 2022 | Microlensing | — | 4.73
+- **`OGLE-2018-BLG-0532L`**
+  - `OGLE-2018-BLG-0532L b` | 2020 | Microlensing | — | 2.37
+- **`OGLE-2018-BLG-0567L`**
+  - `OGLE-2018-BLG-0567L b` | 2021 | Microlensing | — | 12.3
+- **`OGLE-2018-BLG-0596L`**
+  - `OGLE-2018-BLG-0596L b` | 2019 | Microlensing | — | 3.81
+- **`OGLE-2018-BLG-0677L`**
+  - `OGLE-2018-BLG-0677L b` | 2020 | Microlensing | — | 1.82
+- **`OGLE-2018-BLG-0740L`**
+  - `OGLE-2018-BLG-0740L b` | 2019 | Microlensing | 5480 | 12.9
+- **`OGLE-2018-BLG-0799L`**
+  - `OGLE-2018-BLG-0799L b` | 2022 | Microlensing | — | 10.9
+- **`OGLE-2018-BLG-0932L`**
+  - `OGLE-2018-BLG-0932L b` | 2022 | Microlensing | — | 13.9
+- **`OGLE-2018-BLG-0962L`**
+  - `OGLE-2018-BLG-0962L b` | 2021 | Microlensing | — | 13.6
+- **`OGLE-2018-BLG-0977L`**
+  - `OGLE-2018-BLG-0977L b` | 2022 | Microlensing | — | 2.41
+- **`OGLE-2018-BLG-1011L`**
+  - `OGLE-2018-BLG-1011L b` | 2019 | Microlensing | — | 13.5
+  - `OGLE-2018-BLG-1011L c` | 2019 | Microlensing | — | 13.2
+- **`OGLE-2018-BLG-1119L`**
+  - `OGLE-2018-BLG-1119L b` | 2022 | Microlensing | — | 13.9
+- **`OGLE-2018-BLG-1126L`**
+  - `OGLE-2018-BLG-1126L b` | 2022 | Microlensing | — | 4.41
+
+</details>
+
+<a name="systems-22"></a>
+
+<details><summary>OGLE-2018-BLG-1185L – TOI-444 · 180 ระบบ · 220 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`OGLE-2018-BLG-1185L`**
+  - `OGLE-2018-BLG-1185L b` | 2021 | Microlensing | — | 2.83
+- **`OGLE-2018-BLG-1212L`**
+  - `OGLE-2018-BLG-1212L b` | 2022 | Microlensing | — | 9.32
+- **`OGLE-2018-BLG-1269L`**
+  - `OGLE-2018-BLG-1269L b` | 2020 | Microlensing | — | 14.1
+- **`OGLE-2018-BLG-1367L`**
+  - `OGLE-2018-BLG-1367L b` | 2022 | Microlensing | — | 13.8
+- **`OGLE-2018-BLG-1428L`**
+  - `OGLE-2018-BLG-1428L b` | 2021 | Microlensing | — | 14
+- **`OGLE-2018-BLG-1647L`**
+  - `OGLE-2018-BLG-1647L b` | 2022 | Microlensing | — | 13.8
+- **`OGLE-2018-BLG-1700L`**
+  - `OGLE-2018-BLG-1700L b` CB | 2020 | Microlensing | — | 12.9
+- **`OGLE-2019-BLG-0249L`**
+  - `OGLE-2019-BLG-0249L b` | 2023 | Microlensing | — | 12.7
+- **`OGLE-2019-BLG-0299L`**
+  - `OGLE-2019-BLG-0299L b` | 2021 | Microlensing | — | 12.7
+- **`OGLE-2019-BLG-0304L`**
+  - `OGLE-2019-BLG-0304L b` | 2021 | Microlensing | — | 14.2
+- **`OGLE-2019-BLG-0362L`**
+  - `OGLE-2019-BLG-0362L b` | 2022 | Microlensing | — | 13.1
+- **`OGLE-2019-BLG-0468L`**
+  - `OGLE-2019-BLG-0468L b` | 2022 | Microlensing | — | 13.1
+  - `OGLE-2019-BLG-0468L c` | 2022 | Microlensing | — | 12.5
+- **`OGLE-2019-BLG-0679L`**
+  - `OGLE-2019-BLG-0679L b` | 2023 | Microlensing | — | 13.1
+- **`OGLE-2019-BLG-0954L`**
+  - `OGLE-2019-BLG-0954L b` | 2021 | Microlensing | — | 12.3
+- **`OGLE-2019-BLG-0960L`**
+  - `OGLE-2019-BLG-0960L b` | 2021 | Microlensing | — | 1.39
+- **`OGLE-2019-BLG-1053L`**
+  - `OGLE-2019-BLG-1053L b` | 2021 | Microlensing | — | 1.38
+- **`OGLE-2019-BLG-1180L`**
+  - `OGLE-2019-BLG-1180L b` | 2023 | Microlensing | — | 13.5
+- **`OGLE-2019-BLG-1470L`**
+  - ดาวแม่ `OGLE-2019-BLG-1470L A`
+    - `OGLE-2019-BLG-1470L AB c` CB | 2022 | Microlensing | — | 13.3
+- **`OGLE-2019-BLG-1492L`**
+  - `OGLE-2019-BLG-1492L b` | 2022 | Microlensing | — | 6.79
+- **`OGLE-2023-BLG-0766L`**
+  - `OGLE-2023-BLG-0766L b` | 2026 | Microlensing | — | 13.7
+- **`OGLE-2023-BLG-0836L`**
+  - `OGLE-2023-BLG-0836L b` CB | 2024 | Microlensing | — | 12.9
+- **`OGLE-TR-10`**
+  - `OGLE-TR-10 b` | 2004 | Transit | 3.101278 | 14.011
+- **`OGLE-TR-56`**
+  - `OGLE-TR-56 b` | 2002 | Transit | 1.2119189 | 15.278
+- **`OGLE-TR-111`**
+  - `OGLE-TR-111 b` | 2004 | Transit | 4.0144463 | 11.421971
+- **`OGLE-TR-113`**
+  - `OGLE-TR-113 b` | 2004 | Transit | 1.4324752 | 12.251
+- **`OGLE-TR-132`**
+  - `OGLE-TR-132 b` | 2004 | Transit | 1.689868 | 13.45
+- **`OGLE-TR-182`**
+  - `OGLE-TR-182 b` | 2007 | Transit | 3.9791 | 12.666
+- **`OGLE-TR-211`**
+  - `OGLE-TR-211 b` | 2007 | Transit | 3.67724 | 15.244
+- **`ome Ser`**
+  - `ome Ser b` | 2013 | Radial Velocity | 278.59 | 14
+- **`omi CrB`**
+  - `omi CrB b` | 2012 | Radial Velocity | 187.01 | 13.7
+- **`omi UMa`**
+  - `omi UMa b` | 2012 | Radial Velocity | 1569.81 | 13
+- **`Oph 11`**
+  - `Oph 11 b` | 2006 | Imaging | 7300000 | 12.3
+- **`PDS 70`**
+  - `PDS 70 b` | 2018 | Imaging | 43500 | 21.96960217
+  - `PDS 70 c` | 2019 | Imaging | — | 22.19378179
+- **`PH1`**
+  - `PH1 b` CB | 2012 | Transit | 138.317 | 6.18
+- **`PH2`**
+  - `PH2 b` | 2013 | Transit | 282.52542 | 9.33708092
+- **`POTS-1`**
+  - `POTS-1 b` | 2013 | Transit | 3.1606296 | 10.548
+- **`Pr0201`**
+  - `Pr0201 b` | 2012 | Radial Velocity | 4.4264 | 14.2
+- **`Pr0211`**
+  - `Pr0211 b` | 2012 | Radial Velocity | 2.1461 | 13.4
+  - `Pr0211 c` | 2016 | Radial Velocity | 4850 | 12.6
+- **`psi1 Dra`**
+  - ดาวแม่ `psi1 Dra B`
+    - `psi1 Dra B b` | 2015 | Radial Velocity | 3117 | 13.5
+- **`PSR B0329+54`**
+  - `PSR B0329+54 b` | 2017 | Pulsar Timing | 10140 | 1.22
+- **`PSR B1257+12`**
+  - `PSR B1257+12 b` | 1994 | Pulsar Timing | 25.262 | 0.338
+  - `PSR B1257+12 c` | 1992 | Pulsar Timing | 66.5419 | 1.91
+  - `PSR B1257+12 d` | 1992 | Pulsar Timing | 98.2114 | 1.8
+- **`PSR B1620-26`**
+  - `PSR B1620-26 b` CB | 2003 | Pulsar Timing | — | 13.3
+- **`PSR J1719-1438`**
+  - `PSR J1719-1438 b` | 2011 | Pulsar Timing | 0.090706293 | —
+- **`PSR J2322-2650`**
+  - `PSR J2322-2650 b` | 2017 | Pulsar Timing | 0.322963997 | 13.9
+- **`PZ Tel`**
+  - `PZ Tel b` | 2023 | Imaging | 44000 | 11.9
+- **`Qatar-1`**
+  - `Qatar-1 b` | 2010 | Transit | 1.4200242 | 12.811887
+- **`Qatar-2`**
+  - `Qatar-2 b` | 2011 | Transit | 1.33711647 | 14.056
+- **`Qatar-3`**
+  - `Qatar-3 b` | 2017 | Transit | 2.5079204 | 12.285064
+- **`Qatar-4`**
+  - `Qatar-4 b` | 2017 | Transit | 1.8053564 | 12.722215
+- **`Qatar-5`**
+  - `Qatar-5 b` | 2017 | Transit | 2.8792319 | 12.408363
+- **`Qatar-6`**
+  - `Qatar-6 b` | 2017 | Transit | 3.506195 | 11.903958
+- **`Qatar-7`**
+  - `Qatar-7 b` | 2019 | Transit | 2.032046 | 19.0553
+- **`Qatar-8`**
+  - `Qatar-8 b` | 2019 | Transit | 3.71495 | 14.403565
+- **`Qatar-9`**
+  - `Qatar-9 b` | 2019 | Transit | 1.540731 | 11.309881
+- **`Qatar-10`**
+  - `Qatar-10 b` | 2019 | Transit | 1.645321 | 17.295487
+- **`rho CrB`**
+  - `rho CrB e` | 2023 | Radial Velocity | 12.904 | 1.75
+  - `rho CrB b` † | 1997 | Radial Velocity | 39.849 | 13.7
+  - `rho CrB c` | 2016 | Radial Velocity | 102.036 | 5.68
+- **`Ross 128`**
+  - `Ross 128 b` | 2017 | Radial Velocity | 9.8658 | 1.11
+- **`Ross 176`**
+  - `Ross 176 b` | 2025 | Transit | 5.0066338 | 1.84
+- **`Ross 458`**
+  - `Ross 458 c` CB | 2010 | Imaging | — | 14.01125
+- **`Ross 508`**
+  - `Ross 508 b` | 2022 | Radial Velocity | 10.77 | 1.83
+- **`ROXs 12`**
+  - `ROXs 12 b` | 2013 | Imaging | — | 12.2
+- **`ROXs 42`**
+  - ดาวแม่ `ROXs 42 B`
+    - `ROXs 42 B b` CB | 2013 | Imaging | — | 12.5
+- **`RR Cae`**
+  - `RR Cae b` † CB | 2012 | Eclipse Timing Variations | 4343.5 | 13
+- **`RX J0534.0-0221`**
+  - `RX J0534.0-0221 b` | 2026 | Imaging | 28000 | 14.3474953
+- **`SPECULOOS-3`**
+  - `SPECULOOS-3 b` | 2024 | Transit | 0.71912603 | 0.977
+- **`SR 12`**
+  - ดาวแม่ `SR 12 AB`
+    - `SR 12 AB c` CB | 2010 | Imaging | — | 12.3
+- **`SWEEPS-4`**
+  - `SWEEPS-4 b` | 2006 | Transit | 4.2 | 9.079
+- **`SWEEPS-11`**
+  - `SWEEPS-11 b` | 2006 | Transit | 1.796 | 12.666
+- **`TAP 26`**
+  - `TAP 26 b` | 2017 | Radial Velocity | 10.79 | 13.5
+- **`tau Boo`**
+  - `tau Boo b` | 1996 | Radial Velocity | 3.3124568 | 12.8
+- **`tau Cet`**
+  - `tau Cet g` † | 2017 | Radial Velocity | 20 | 1.18
+  - `tau Cet h` † | 2017 | Radial Velocity | 49.41 | 1.19
+  - `tau Cet f` † | 2017 | Radial Velocity | 636.13 | 1.81
+- **`tau Gem`**
+  - `tau Gem b` | 2013 | Radial Velocity | 305.5 | 12.1
+- **`TCP J05074264+2447555`**
+  - `TCP J05074264+2447555 b` | 2018 | Microlensing | — | 4.72
+- **`Teegarden's Star`**
+  - `Teegarden's Star b` | 2019 | Radial Velocity | 4.90634 | 1.05
+  - `Teegarden's Star c` | 2019 | Radial Velocity | 11.416 | 1.02
+  - `Teegarden's Star d` | 2024 | Radial Velocity | 26.13 | 0.954
+- **`TIC 4672985`**
+  - `TIC 4672985 b` | 2024 | Transit | 69.048 | 11.5004142
+- **`TIC 9344899`**
+  - `TIC 9344899 b` | 2026 | Transit | 8.5821566 | 9.16
+- **`TIC 18942729`**
+  - `TIC 18942729 b` | 2026 | Transit | 0.99817838064 | 2.00021315
+- **`TIC 24750448`**
+  - `TIC 24750448 b` | 2026 | Transit | 3.59159193029 | 2.43722231
+  - `TIC 24750448 c` | 2026 | Transit | 10.14385270726 | 3.09028272
+- **`TIC 32032563`**
+  - `TIC 32032563 b` | 2026 | Transit | 13.83460487791 | 3.47739942
+- **`TIC 34085383`**
+  - `TIC 34085383 b` | 2026 | Transit | 3.47793368523 | 3.91982296
+- **`TIC 38825265`**
+  - `TIC 38825265 b` | 2026 | Transit | 3.31336980985 | 2.18869476
+- **`TIC 38828280`**
+  - `TIC 38828280 b` | 2026 | Transit | 4.85558984762 | 2.62701629
+- **`TIC 46432937`**
+  - `TIC 46432937 b` | 2024 | Transit | 1.44044527 | 13.31626907
+- **`TIC 52059926`**
+  - `TIC 52059926 b` | 2026 | Transit | 175.532 | 10.71
+- **`TIC 62895484`**
+  - `TIC 62895484 b` | 2026 | Transit | 2.83985434327 | 3.49391667
+- **`TIC 65612701`**
+  - `TIC 65612701 b` | 2026 | Transit | 10.22467974953 | 5.07802804
+- **`TIC 67686059`**
+  - `TIC 67686059 b` | 2026 | Transit | 3.52163529551 | 2.59125922
+- **`TIC 77319217`**
+  - `TIC 77319217 b` | 2026 | Transit | 7.54830765124 | 3.10879526
+- **`TIC 77552382`**
+  - `TIC 77552382 b` | 2026 | Transit | 3.51025904942 | 5.69176189
+- **`TIC 86380416`**
+  - `TIC 86380416 b` | 2026 | Transit | 6.0408643461 | 2.4123612
+- **`TIC 87422071`**
+  - `TIC 87422071 b` | 2026 | Transit | 11.364929 | 10.8615023
+- **`TIC 88692598`**
+  - `TIC 88692598 b` | 2026 | Transit | 2.64909436758 | 1.81295951
+- **`TIC 88785435`**
+  - `TIC 88785435 b` | 2025 | Transit | 10.508843 | 5.03
+- **`TIC 117642575`**
+  - `TIC 117642575 b` | 2026 | Transit | 4.94459060181 | 2.82716337
+- **`TIC 139270665`**
+  - `TIC 139270665 b` | 2024 | Transit | 23.624 | 7.22979255
+  - `TIC 139270665 c` | 2024 | Radial Velocity | 1010 | 12.9
+- **`TIC 139702105`**
+  - `TIC 139702105 b` | 2026 | Transit | 6.83601903383 | 2.45316949
+- **`TIC 142589416`**
+  - `TIC 142589416 b` | 2026 | Transit | 2.09518466313 | 2.67899519
+- **`TIC 147027702`**
+  - `TIC 147027702 b` | 2026 | Transit | 44.40523 | 10.92875618
+- **`TIC 150070085`**
+  - `TIC 150070085 b` | 2026 | Transit | 10.47423 | 3.62
+- **`TIC 153919886`**
+  - `TIC 153919886 b` | 2026 | Transit | 2.10510492329 | 2.70601108
+- **`TIC 154870955`**
+  - `TIC 154870955 b` | 2026 | Transit | 7.9698747128 | 3.09467466
+- **`TIC 160113658`**
+  - `TIC 160113658 b` | 2026 | Transit | 6.72952262077 | 3.49015778
+- **`TIC 161045582`**
+  - `TIC 161045582 b` | 2026 | Transit | 8.85577189959 | 2.24566738
+- **`TIC 172900988`**
+  - ดาวแม่ `TIC 172900988 Aa`
+    - `TIC 172900988 b` CB | 2021 | Transit | 200.452 | 11.25
+- **`TIC 178172313`**
+  - `TIC 178172313 b` | 2026 | Transit | 4.3731816136 | 2.80405322
+- **`TIC 183374187`**
+  - `TIC 183374187 b` | 2026 | Transit | 5.05907 | 14.03364384
+- **`TIC 188624430`**
+  - `TIC 188624430 b` | 2026 | Transit | 6.21860433132 | 3.64811843
+- **`TIC 198190129`**
+  - `TIC 198190129 b` | 2026 | Transit | 7.94804910667 | 2.92284949
+- **`TIC 206466666`**
+  - `TIC 206466666 b` | 2026 | Transit | 9.10486865159 | 2.14817673
+- **`TIC 219893931`**
+  - `TIC 219893931 b` | 2026 | Transit | 6.41051 | 3.03
+- **`TIC 220432308`**
+  - `TIC 220432308 b` | 2026 | Transit | 3.330099 | 2.26
+- **`TIC 231949697`**
+  - `TIC 231949697 b` | 2026 | Transit | 0.90720448719 | 1.52831855
+- **`TIC 237254473`**
+  - `TIC 237254473 b` | 2026 | Transit | 10.117702 | 3.3
+- **`TIC 237913194`**
+  - `TIC 237913194 b` | 2020 | Transit | 15.168865 | 12.520453
+- **`TIC 241249530`**
+  - `TIC 241249530 b` | 2024 | Transit | 165.7719 | 13.29385111
+- **`TIC 245076932`**
+  - `TIC 245076932 b` | 2026 | Transit | 21.61389 | 10.87271128
+- **`TIC 249022743`**
+  - `TIC 249022743 b` | 2026 | Transit | 2.25719681538 | 4.79568155
+- **`TIC 257060897`**
+  - `TIC 257060897 b` | 2021 | Transit | 3.66003639 | 17.26183028
+- **`TIC 260969020`**
+  - `TIC 260969020 b` | 2026 | Transit | 8.48584501953 | 2.22686612
+- **`TIC 270471727`**
+  - `TIC 270471727 b` | 2026 | Transit | 10.45623256647 | 2.75029559
+- **`TIC 279401253`**
+  - `TIC 279401253 b` | 2023 | Transit | 76.8 | 11.2089807
+  - `TIC 279401253 c` | 2023 | Transit | 155.3 | 12.6
+- **`TIC 290487717`**
+  - `TIC 290487717 b` | 2026 | Transit | 3.400818229 | 6.63777941
+- **`TIC 294329732`**
+  - `TIC 294329732 b` | 2026 | Transit | 9.7565876181 | 2.07692266
+- **`TIC 320419023`**
+  - `TIC 320419023 b` | 2026 | Transit | 5.26375651589 | 2.77280763
+- **`TIC 349520724`**
+  - `TIC 349520724 b` | 2026 | Transit | 7.94044635021 | 2.82626313
+- **`TIC 356227008`**
+  - `TIC 356227008 b` | 2026 | Transit | 2.96147448702 | 2.39024009
+- **`TIC 365102760`**
+  - `TIC 365102760 b` | 2024 | Transit | 4.21285367 | 6.21
+- **`TIC 390586021`**
+  - `TIC 390586021 b` | 2026 | Transit | 2.74703755819 | 2.86009388
+- **`TIC 393818343`**
+  - `TIC 393818343 b` | 2024 | Transit | 16.2499265 | 12.02723629
+- **`TIC 423703298`**
+  - `TIC 423703298 b` | 2026 | Transit | 4.03712711976 | 2.77230429
+- **`TIC 434398831`**
+  - `TIC 434398831 b` | 2025 | Transit | 3.685504 | 3.51
+  - `TIC 434398831 c` | 2025 | Transit | 6.210291 | 5.63
+- **`TIC 437041147`**
+  - `TIC 437041147 b` | 2026 | Transit | 3.82301421497 | 2.21526814
+- **`TIC 445839811`**
+  - `TIC 445839811 b` | 2026 | Transit | 11.1086260318 | 2.47771211
+- **`TOI-122`**
+  - `TOI-122 b` | 2020 | Transit | 5.07803 | 2.72
+- **`TOI-125`**
+  - `TOI-125 b` | 2019 | Transit | 4.65382 | 2.726
+  - `TOI-125 c` | 2019 | Transit | 9.15059 | 2.759
+  - `TOI-125 d` | 2020 | Transit | 19.98 | 2.93
+- **`TOI-128`**
+  - `TOI-128.01` | 2024 | Transit | 4.9404681 | 2.21898
+- **`TOI-132`**
+  - `TOI-132 b` | 2020 | Transit | 2.1097019 | 3.42
+- **`TOI-139`**
+  - `TOI-139 b` | 2023 | Transit | 11.07085 | 2.4566
+- **`TOI-150`**
+  - `TOI-150.01` | 2019 | Transit | 5.857487 | 14.067295
+- **`TOI-157`**
+  - `TOI-157 b` | 2020 | Transit | 2.0845435 | 14.414774
+- **`TOI-159`**
+  - `TOI-159 b` | 2026 | Transit | 3.7628396 | 18.18
+- **`TOI-163`**
+  - `TOI-163 b` | 2019 | Transit | 4.231306 | 16.690201
+- **`TOI-169`**
+  - `TOI-169 b` | 2020 | Transit | 2.2554477 | 12.172974
+- **`TOI-172`**
+  - `TOI-172 b` | 2019 | Transit | 9.47725 | 10.816685
+- **`TOI-178`**
+  - `TOI-178 b` | 2021 | Transit | 1.9145601 | 1.2
+  - `TOI-178 c` | 2021 | Transit | 3.238486 | 1.754
+  - `TOI-178 d` | 2021 | Transit | 6.557569 | 2.695
+  - `TOI-178 e` | 2021 | Transit | 9.96318 | 2.301
+  - `TOI-178 f` | 2021 | Transit | 15.23335 | 2.417
+  - `TOI-178 g` | 2021 | Transit | 20.71663 | 2.939
+- **`TOI-181`**
+  - `TOI-181 b` | 2023 | Transit | 4.532 | 6.9559
+- **`TOI-198`**
+  - `TOI-198 b` | 2023 | Transit | 10.215213 | 1.36
+- **`TOI-199`**
+  - `TOI-199 b` | 2023 | Transit | 104.854 | 9.07927437
+  - `TOI-199 c` | 2023 | Transit Timing Variations | 273.69 | 11.4
+- **`TOI-201`**
+  - `TOI-201 d` | 2026 | Transit | 5.84889 | 1.39
+  - `TOI-201 b` | 2021 | Transit | 52.9786 | 11.4
+  - `TOI-201 c` | 2025 | Transit Timing Variations | 2890 | 10.4
+- **`TOI-205`**
+  - `TOI-205 b` | 2026 | Transit | 4.25300773815 | 2.50121142
+- **`TOI-206`**
+  - `TOI-206 b` | 2022 | Transit | 0.7363104 | 1.3
+- **`TOI-209`**
+  - `TOI-209 b` | 2026 | Transit | 4.37943587445 | 2.3947209
+- **`TOI-213`**
+  - `TOI-213 b` | 2026 | Transit | 23.519904 | 2.6
+- **`TOI-214`**
+  - `TOI-214 b` | 2026 | Transit | 9.695931 | 0.996
+  - `TOI-214 c` | 2026 | Transit | 18.5537114 | 1.941
+- **`TOI-216`**
+  - `TOI-216.02` | 2019 | Transit | 17.16073 | 8
+  - `TOI-216.01` | 2019 | Transit | 34.525528 | 10.1
+- **`TOI-220`**
+  - `TOI-220 b` | 2021 | Transit | 10.695264 | 3.03
+- **`TOI-237`**
+  - `TOI-237 c` | 2026 | Transit | 1.74486147 | 1.206
+  - `TOI-237 b` | 2020 | Transit | 5.436098 | 1.44
+- **`TOI-238`**
+  - `TOI-238 b` | 2024 | Transit | 1.273099 | 1.559
+  - `TOI-238 c` | 2024 | Radial Velocity | 8.465651 | 2.18
+- **`TOI-244`**
+  - `TOI-244 b` | 2023 | Transit | 7.397225 | 1.52
+- **`TOI-248`**
+  - `TOI-248 b` | 2026 | Transit | 5.9910723 | 2.37
+- **`TOI-251`**
+  - `TOI-251 b` | 2021 | Transit | 4.93777 | 2.74
+- **`TOI-257`**
+  - `TOI-257 b` | 2021 | Transit | 18.38818 | 7.16253867
+- **`TOI-260`**
+  - `TOI-260 b` | 2024 | Transit | 13.475853 | 1.71
+- **`TOI-261`**
+  - `TOI-261.01` | 2021 | Transit | 3.3639254 | 3.0449863
+  - `TOI-261.02` | 2021 | Transit | 13.03935862135 | 3.34822227
+- **`TOI-262`**
+  - `TOI-262 b` | 2023 | Transit | 11.14529 | 2.07
+- **`TOI-269`**
+  - `TOI-269 b` | 2021 | Transit | 3.6977104 | 2.77
+- **`TOI-270`**
+  - `TOI-270 b` | 2019 | Transit | 3.35992 | 1.28
+  - `TOI-270 c` | 2019 | Transit | 5.66051 | 2.33
+  - `TOI-270 d` | 2019 | Transit | 11.38194 | 2
+- **`TOI-277`**
+  - `TOI-277 b` | 2022 | Transit | 3.994 | 2.65
+- **`TOI-283`**
+  - `TOI-283 b` | 2025 | Transit | 17.61745 | 2.34
+- **`TOI-286`**
+  - `TOI-286 b` | 2024 | Transit | 4.5117244 | 1.42
+  - `TOI-286 c` | 2024 | Transit | 39.361826 | 1.88
+- **`TOI-329`**
+  - `TOI-329 b` | 2024 | Transit | 5.70439 | 4.94057819
+- **`TOI-332`**
+  - `TOI-332 b` | 2023 | Transit | 0.777038 | 3.2
+- **`TOI-333`**
+  - `TOI-333 b` | 2025 | Transit | 3.7852503 | 4.26
+- **`TOI-375`**
+  - `TOI-375 b` | 2026 | Transit | 9.45469 | 10.77183045
+  - `TOI-375 c` | 2026 | Radial Velocity | 115.5 | 13.4
+  - `TOI-375 d` | 2026 | Radial Velocity | 297.9 | 13.6
+- **`TOI-406`**
+  - `TOI-406 c` | 2024 | Transit | 3.307441 | 1.32
+  - `TOI-406.01` | 2024 | Transit | 13.175682 | 2.08
+- **`TOI-421`**
+  - `TOI-421 b` | 2020 | Transit | 5.197576 | 2.64
+  - `TOI-421 c` | 2020 | Transit | 16.067541 | 5.09
+- **`TOI-426`**
+  - `TOI-426 b` | 2026 | Transit | 1.32050258 | 2.19
+  - `TOI-426 c` | 2026 | Radial Velocity | 235.8 | 13.6
+- **`TOI-431`**
+  - `TOI-431 b` | 2021 | Transit | 0.490047 | 1.28
+  - `TOI-431 c` | 2021 | Radial Velocity | 4.8494 | 1.49
+  - `TOI-431 d` | 2021 | Transit | 12.46103 | 3.29
+- **`TOI-435`**
+  - `TOI-435 b` | 2026 | Transit | 3.352919 | 4.03
+- **`TOI-444`**
+  - `TOI-444 b` | 2023 | Transit | 17.9636 | 2.77
+
+</details>
+
+<a name="systems-23"></a>
+
+<details><summary>TOI-451 – TOI-1683 · 180 ระบบ · 257 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`TOI-451`**
+  - `TOI-451 b` | 2020 | Transit | 1.8587033 | 1.84
+  - `TOI-451 c` | 2020 | Transit | 9.192463 | 2.93
+  - `TOI-451 d` | 2020 | Transit | 16.364962 | 3.93
+- **`TOI-469`**
+  - `HIP 29442 c` | 2023 | Radial Velocity | 3.5379559 | 1.551
+  - `HIP 29442 d` | 2023 | Radial Velocity | 6.429575 | 1.538
+  - `TOI-469.01` | 2021 | Transit | 13.6308205 | 3.41
+- **`TOI-470`**
+  - `TOI-470 b` | 2023 | Transit | 12.19148 | 4.34
+- **`TOI-480`**
+  - `TOI-480 b` | 2024 | Transit | 6.866196 | 2.85372018
+- **`TOI-481`**
+  - `TOI-481 b` | 2020 | Transit | 10.33111 | 11.09691
+- **`TOI-500`**
+  - `TOI-500 b` | 2022 | Transit | 0.548177 | 1.166
+  - `TOI-500 c` | 2022 | Radial Velocity | 6.6356 | 2.09
+  - `TOI-500 d` | 2022 | Radial Velocity | 26.233 | 6.35
+  - `TOI-500 e` | 2022 | Radial Velocity | 61.3 | 3.99
+- **`TOI-512`**
+  - `TOI-512 b` | 2025 | Transit | 7.18886 | 1.54
+- **`TOI-519`**
+  - `TOI-519 b` | 2021 | Transit | 1.2652328 | 11.54525012
+- **`TOI-521`**
+  - `TOI-521 b` | 2025 | Transit | 1.54285047 | 1.98
+- **`TOI-530`**
+  - `TOI-530 b` | 2021 | Transit | 6.387597 | 9.30345398
+- **`TOI-532`**
+  - `TOI-532 b` | 2021 | Transit | 2.3266508 | 5.82
+- **`TOI-540`**
+  - `TOI-540 b` | 2020 | Transit | 1.2391491 | 0.903
+- **`TOI-544`**
+  - `TOI-544 b` | 2022 | Transit | 1.548352 | 2.018
+  - `TOI-544 c` | 2023 | Radial Velocity | 50.089 | 4.92
+- **`TOI-558`**
+  - `TOI-558 b` | 2021 | Transit | 14.574071 | 12.17295304
+- **`TOI-559`**
+  - `TOI-559 b` | 2021 | Transit | 6.9839095 | 12.22899794
+- **`TOI-561`**
+  - `TOI-561 b` | 2020 | Transit | 0.4465697 | 1.397
+  - `TOI-561 c` | 2020 | Transit | 10.778838 | 2.865
+  - `TOI-561 d` † | 2020 | Transit | 25.71268 | 2.615
+  - `TOI-561 e` † | 2020 | Transit | 77.144 | 2.517
+- **`TOI-564`**
+  - `TOI-564 b` | 2020 | Transit | 1.651144 | 11.43318
+- **`TOI-603`**
+  - `TOI-603 b` | 2026 | Transit | 16.179846 | 7.37
+- **`TOI-615`**
+  - `TOI-615 b` | 2023 | Transit | 4.6615983 | 18.97680433
+- **`TOI-620`**
+  - `TOI-620 b` | 2022 | Transit | 5.0988179 | 3.76
+- **`TOI-622`**
+  - `TOI-622 b` | 2023 | Transit | 6.402513 | 9.2362001
+- **`TOI-628`**
+  - `TOI-628 b` | 2021 | Transit | 3.4095675 | 11.88154
+- **`TOI-640`**
+  - `TOI-640 b` | 2021 | Transit | 5.003777 | 19.2794468
+- **`TOI-654`**
+  - `TOI-654.01` | 2024 | Transit | 1.527561 | 2.378
+- **`TOI-663`**
+  - `TOI-663 b` | 2024 | Transit | 2.598902 | 2.27
+  - `TOI-663 c` | 2024 | Transit | 4.6955507 | 2.26
+  - `TOI-663 d` | 2024 | Transit | 7.1027268 | 1.92
+- **`TOI-669`**
+  - `TOI-669 b` | 2023 | Transit | 3.945152 | 2.58606487
+- **`TOI-672`**
+  - `TOI-672 b` | 2023 | Transit | 3.633581 | 5.31
+- **`TOI-674`**
+  - `TOI-674 b` | 2021 | Transit | 1.977143 | 5.25
+- **`TOI-677`**
+  - `TOI-677 b` | 2020 | Transit | 11.2365985 | 13.11450742
+- **`TOI-682`**
+  - `TOI-682.01` | 2021 | Transit | 6.8392388 | 3.74186
+- **`TOI-697`**
+  - `TOI-697 b` | 2026 | Transit | 8.60788713593 | 2.35859364
+- **`TOI-700`**
+  - `TOI-700 b` | 2020 | Transit | 9.97722 | 0.963
+  - `TOI-700 c` | 2020 | Transit | 16.0511039 | 2.535
+  - `TOI-700 e` | 2023 | Transit | 27.810124 | 0.919
+  - `TOI-700 d` | 2020 | Transit | 37.423457 | 1.145
+- **`TOI-707`**
+  - `TOI-707 b` | 2026 | Transit | 52.79918 | 2.416
+- **`TOI-712`**
+  - `TOI-712 b` | 2022 | Transit | 9.531361 | 2.049
+  - `TOI-712 c` | 2022 | Transit | 51.69906 | 2.701
+  - `TOI-712 d` | 2022 | Transit | 84.8396 | 2.474
+- **`TOI-713`**
+  - `TOI-713 b` | 2026 | Transit | 1.87152392922 | 1.169
+  - `TOI-713 c` | 2026 | Transit | 35.99947286617 | 2.06
+- **`TOI-715`**
+  - `TOI-715 b` | 2023 | Transit | 19.288004 | 1.55
+- **`TOI-733`**
+  - `TOI-733 b` | 2023 | Transit | 4.884765 | 1.992
+- **`TOI-756`**
+  - `TOI-756 b` | 2025 | Transit | 1.2392495 | 2.81
+  - `TOI-756 c` | 2025 | Radial Velocity | 149.4 | 13
+- **`TOI-757`**
+  - `TOI-757 b` | 2024 | Transit | 17.46819 | 2.5
+- **`TOI-762`**
+  - ดาวแม่ `TOI-762 A`
+    - `TOI-762 A b` | 2024 | Transit | 3.4716826 | 8.33948164
+- **`TOI-763`**
+  - `TOI-763 b` | 2020 | Transit | 5.6057 | 2.28
+  - `TOI-763 c` | 2020 | Transit | 12.2737 | 2.63
+- **`TOI-771`**
+  - `TOI-771 b` | 2024 | Transit | 2.3260155 | 1.36
+  - `TOI-771 c` | 2025 | Radial Velocity | 7.61 | 1.5
+- **`TOI-776`**
+  - `TOI-776 b` | 2020 | Transit | 8.24662 | 1.798
+  - `TOI-776 c` | 2020 | Transit | 15.665323 | 2.047
+- **`TOI-778`**
+  - `TOI-778 b` | 2023 | Transit | 4.633611 | 15.4
+- **`TOI-782`**
+  - `TOI-782 b` | 2024 | Transit | 8.0240015 | 2.734
+- **`TOI-783`**
+  - `TOI-783 b` | 2026 | Transit | 8.1125118 | 2.47
+- **`TOI-786`**
+  - `TOI-786 b` | 2026 | Transit | 12.6694005 | 2.41
+  - `TOI-786 c` | 2026 | Transit | 38.554097 | 2.6
+- **`TOI-789`**
+  - `TOI-789 b` | 2026 | Transit | 5.447034 | 1.18
+  - `TOI-789 c` | 2026 | Transit | 8.0432344 | 1.15
+  - `TOI-789 d` | 2026 | Transit | 12.970689 | 1.4
+- **`TOI-791`**
+  - `TOI-791 b` | 2026 | Transit | 139.29931 | 11.13051784
+  - `TOI-791 c` | 2026 | Transit | 232.0157 | 12.94637271
+- **`TOI-797`**
+  - `TOI-797 b` | 2026 | Transit | 1.80079489 | 1.21
+- **`TOI-799`**
+  - `TOI-799 b` | 2026 | Transit | 5.54519139676 | 2.06631784
+- **`TOI-808`**
+  - `TOI-808 b` | 2026 | Transit | 9.73944854026 | 2.20344362
+- **`TOI-813`**
+  - `TOI-813 b` | 2020 | Transit | 83.8911 | 6.71
+- **`TOI-815`**
+  - `TOI-815 b` | 2024 | Transit | 11.197259 | 2.94
+  - `TOI-815 c` | 2024 | Transit | 34.976145 | 2.62
+- **`TOI-824`**
+  - `TOI-824 b` | 2020 | Transit | 1.392978 | 2.926
+- **`TOI-833`**
+  - `TOI-833 b` | 2022 | Transit | 1.0418777 | 1.27
+- **`TOI-836`**
+  - `TOI-836 b` | 2023 | Transit | 3.81673 | 1.704
+  - `TOI-836.01` | 2021 | Transit | 8.59545 | 2.587
+- **`TOI-837`**
+  - `TOI-837 b` | 2020 | Transit | 8.3249113 | 9.16894621
+- **`TOI-849`**
+  - `TOI-849 b` | 2020 | Transit | 0.765548 | 3.64
+- **`TOI-858`**
+  - ดาวแม่ `TOI-858 B`
+    - `TOI-858 B b` | 2023 | Transit | 3.2797178 | 14.06727078
+- **`TOI-871`**
+  - `TOI-871 b` | 2024 | Transit | 14.362565 | 1.664
+- **`TOI-873`**
+  - `TOI-873 b` | 2026 | Transit | 5.9312268 | 1.65
+- **`TOI-880`**
+  - `TOI-880.02` | 2024 | Transit | 2.57571 | 2.19
+  - `TOI-880 c` | 2025 | Transit | 6.3872703 | 4.95
+- **`TOI-883`**
+  - `TOI-883 b` | 2026 | Transit | 10.05771848538 | 7.17166228
+- **`TOI-892`**
+  - `TOI-892 b` | 2020 | Transit | 10.62656 | 11.99363
+- **`TOI-904`**
+  - `TOI-904 b` | 2023 | Transit | 10.8772 | 2.426
+  - `TOI-904 c` | 2023 | Transit | 83.9997 | 2.167
+- **`TOI-905`**
+  - `TOI-905 b` | 2020 | Transit | 3.739494 | 13.125739
+- **`TOI-907`**
+  - `TOI-907.01` | 2024 | Transit | 4.5849129 | 9.6158851
+- **`TOI-908`**
+  - `TOI-908 b` | 2023 | Transit | 3.183792 | 3.186
+- **`TOI-912`**
+  - `TOI-912 b` | 2025 | Transit | 4.6780691 | 1.93
+- **`TOI-913`**
+  - `TOI-913 b` | 2023 | Transit | 11.098644 | 2.4528
+- **`TOI-921`**
+  - `TOI-921 b` | 2026 | Transit | 5.12871907628 | 3.53409617
+- **`TOI-929`**
+  - `TOI-929 b` | 2026 | Transit | 5.83015366944 | 2.68983343
+- **`TOI-938`**
+  - `TOI-938 b` | 2026 | Transit | 8.80733882211 | 4.82401567
+- **`TOI-941`**
+  - `TOI-941 b` | 2026 | Transit | 8.51460888787 | 6.51165317
+- **`TOI-942`**
+  - `TOI-942 b` | 2020 | Transit | 4.32421 | 3.89
+  - `TOI-942 c` | 2020 | Transit | 10.156272 | 4.67
+- **`TOI-954`**
+  - `TOI-954 b` | 2020 | Transit | 3.6849729 | 9.550068
+- **`TOI-969`**
+  - `TOI-969 b` | 2022 | Transit | 1.8237305 | 2.765
+  - `TOI-969 c` | 2022 | Radial Velocity | 1700 | 12.4
+- **`TOI-1011`**
+  - `TOI-1011 b` | 2025 | Transit | 2.470498 | 1.45
+- **`TOI-1036`**
+  - `TOI-1036 b` | 2026 | Transit | 3.77952125496 | 6.28499593
+- **`TOI-1052`**
+  - `TOI-1052 b` | 2023 | Transit | 9.139703 | 2.87
+  - `TOI-1052 c` | 2023 | Radial Velocity | 35.806 | 6.48
+- **`TOI-1054`**
+  - `TOI-1054.01` | 2021 | Transit | 15.5077855 | 2.43432
+- **`TOI-1062`**
+  - `TOI-1062 b` | 2021 | Transit | 4.11296 | 2.265
+  - `TOI-1062 c` | 2021 | Radial Velocity | 7.972 | 3.1
+- **`TOI-1064`**
+  - `TOI-1064 b` | 2022 | Transit | 6.443868 | 2.587
+  - `TOI-1064 c` | 2022 | Transit | 12.226574 | 2.651
+- **`TOI-1075`**
+  - `TOI-1075 b` | 2022 | Transit | 0.6047328 | 1.791
+- **`TOI-1080`**
+  - `TOI-1080 b` | 2026 | Transit | 3.9652482 | 1.2
+- **`TOI-1105`**
+  - `TOI-1105 b` | 2026 | Transit | 10.86818410933 | 3.05823658
+- **`TOI-1107`**
+  - `TOI-1107 b` | 2022 | Transit | 4.0782387 | 14.57167491
+- **`TOI-1117`**
+  - `TOI-1117 b` | 2025 | Transit | 2.22816 | 2.46
+  - `TOI-1117 c` | 2025 | Radial Velocity | 4.579 | 2.91
+  - `TOI-1117 d` | 2025 | Radial Velocity | 8.665 | 3.27
+- **`TOI-1130`**
+  - `TOI-1130 b` | 2020 | Transit | 4.074554 | 3.66
+  - `TOI-1130 c` | 2020 | Transit | 8.3501898 | 13
+- **`TOI-1135`**
+  - `TOI-1135 b` | 2024 | Transit | 8.0277327 | 9.91994792
+- **`TOI-1136`**
+  - `TOI-1136 b` | 2022 | Transit | 4.1727 | 1.9
+  - `TOI-1136 c` | 2022 | Transit | 6.2574 | 2.879
+  - `TOI-1136 d` | 2022 | Transit | 12.5199 | 4.627
+  - `TOI-1136 e` | 2022 | Transit | 18.801 | 2.639
+  - `TOI-1136 f` | 2022 | Transit | 26.321 | 3.73591482
+  - `TOI-1136 g` | 2022 | Transit | 39.545 | 2.53
+- **`TOI-1154`**
+  - `TOI-1154 b` | 2026 | Transit | 21.74549 | 2.73
+- **`TOI-1173`**
+  - `TOI-1173 b` | 2024 | Transit | 7.0643971 | 8.77663189
+- **`TOI-1174`**
+  - `TOI-1174 b` | 2024 | Transit | 8.953487683 | 2.562
+- **`TOI-1180`**
+  - `TOI-1180 b` | 2024 | Transit | 9.686760378 | 3.072
+- **`TOI-1181`**
+  - `TOI-1181 b` | 2022 | Transit | 2.103189 | 17.02644168
+- **`TOI-1184`**
+  - `TOI-1184 b` | 2024 | Transit | 5.748433803 | 2.39
+- **`TOI-1194`**
+  - `TOI-1194 b` | 2023 | Transit | 2.3106446 | 8.71664516
+- **`TOI-1199`**
+  - `TOI-1199 b` | 2024 | Transit | 3.671463 | 10.5140239
+- **`TOI-1201`**
+  - `TOI-1201 b` | 2021 | Transit | 2.4919863 | 2.415
+- **`TOI-1203`**
+  - `TOI-1203 b` | 2025 | Radial Velocity | 4.1572888 | 1.52
+  - `TOI-1203 c` | 2025 | Radial Velocity | 13.0766 | 2.2
+  - `TOI-1203.01` | 2021 | Transit | 25.502672 | 2.918
+  - `TOI-1203 e` | 2025 | Radial Velocity | 204.59 | 7.31
+- **`TOI-1221`**
+  - `TOI-1221 b` | 2023 | Transit | 91.68278 | 2.91
+- **`TOI-1224`**
+  - `TOI-1224 b` | 2024 | Transit | 4.1782745 | 2.104
+  - `TOI-1224 c` | 2024 | Transit | 17.945466 | 2.884
+- **`TOI-1226`**
+  - `TOI-1226 b` | 2026 | Transit | 3.92880881576 | 2.4101112
+- **`TOI-1227`**
+  - `TOI-1227 b` | 2022 | Transit | 27.36397 | 9.57246952
+- **`TOI-1230`**
+  - `TOI-1230.01` | 2021 | Transit | 25.05734661842 | 2.38627705
+- **`TOI-1231`**
+  - `TOI-1231 b` | 2021 | Transit | 24.245586 | 3.65
+- **`TOI-1232`**
+  - `TOI-1232 b` | 2026 | Transit | 14.256 | 10.92875618
+  - `TOI-1232 c` | 2026 | Transit Timing Variations | 30.356 | 8.88
+- **`TOI-1235`**
+  - `TOI-1235 b` | 2020 | Transit | 3.444714 | 1.69
+- **`TOI-1238`**
+  - `TOI-1238 b` | 2022 | Transit | 0.764597 | 1.21
+  - `TOI-1238 c` | 2022 | Transit | 3.294736 | 2.11
+- **`TOI-1243`**
+  - `TOI-1243 b` | 2026 | Transit | 4.6594779 | 2.33
+- **`TOI-1244`**
+  - `TOI-1244 b` | 2024 | Transit | 6.400316483 | 2.467
+- **`TOI-1245`**
+  - `TOI-1245 b` | 2026 | Transit | 4.8204406 | 2.35
+- **`TOI-1246`**
+  - `TOI-1246 b` | 2022 | Transit | 4.30744 | 3.01
+  - `TOI-1246 c` | 2022 | Transit | 5.904137 | 2.45109846
+  - `TOI-1246 d` | 2022 | Transit | 18.654874 | 3.43139739
+  - `TOI-1246 e` | 2022 | Transit | 37.92548 | 3.5141875
+- **`TOI-1248`**
+  - `TOI-1248 b` | 2024 | Transit | 4.3601561 | 6.8084859
+- **`TOI-1249`**
+  - `TOI-1249 b` | 2024 | Transit | 13.079151 | 3.2710301
+- **`TOI-1259`**
+  - ดาวแม่ `TOI-1259 A`
+    - `TOI-1259 A b` | 2021 | Transit | 3.4779792 | 11.6
+- **`TOI-1260`**
+  - `TOI-1260 b` | 2021 | Transit | 3.127463 | 2.41
+  - `TOI-1260 c` | 2021 | Transit | 7.493134 | 2.76
+  - `TOI-1260 d` | 2022 | Transit | 16.608164 | 3.12
+- **`TOI-1262`**
+  - `TOI-1262 b` | 2026 | Transit | 20.877835 | 2.39
+- **`TOI-1266`**
+  - `TOI-1266 b` | 2020 | Transit | 10.8945 | 2.52
+  - `TOI-1266 c` | 2020 | Transit | 18.8027 | 1.98
+  - `TOI-1266 d` | 2025 | Transit Timing Variations | 32.509 | 1.74
+- **`TOI-1268`**
+  - `TOI-1268 b` | 2022 | Transit | 8.1577094 | 9.1
+- **`TOI-1269`**
+  - `TOI-1269 b` | 2024 | Transit | 4.2529913 | 2.40144286
+  - `TOI-1269 c` | 2026 | Transit | 9.23786144195 | 2.22999162
+- **`TOI-1272`**
+  - `TOI-1272 b` | 2022 | Transit | 3.3159765 | 4.26
+- **`TOI-1273`**
+  - `TOI-1273 b` | 2024 | Transit | 4.631296 | 11.09689089
+- **`TOI-1278`**
+  - `TOI-1278 b` | 2021 | Transit | 14.47567 | 12.21778896
+- **`TOI-1279`**
+  - `TOI-1279 b` | 2024 | Transit | 9.61419 | 2.66146528
+- **`TOI-1281`**
+  - `TOI-1281 b` | 2026 | Transit | 6.390997 | 2.68
+- **`TOI-1288`**
+  - `TOI-1288 b` | 2022 | Transit | 2.6998279 | 4.96846551
+  - `TOI-1288 c` | 2022 | Radial Velocity | 416 | 11.1
+- **`TOI-1291`**
+  - `TOI-1291 b` | 2026 | Transit | 7.1620097551 | 5.63826391
+- **`TOI-1294`**
+  - `TOI-1294 b` | 2024 | Transit | 3.915292 | 10.12369881
+  - `TOI-1294 c` | 2024 | Radial Velocity | 159.9 | 14.3
+- **`TOI-1295`**
+  - `TOI-1295 b` | 2024 | Transit | 3.1968838 | 15.69257298
+- **`TOI-1296`**
+  - `TOI-1296 b` | 2021 | Transit | 3.9443736 | 14.11645916
+- **`TOI-1298`**
+  - `TOI-1298 b` | 2021 | Transit | 4.537143 | 9.65807033
+- **`TOI-1301`**
+  - `TOI-1301.01` | 2024 | Transit | 6.096407209 | 2.477
+- **`TOI-1333`**
+  - `TOI-1333 b` | 2021 | Transit | 4.720219 | 15.647764
+- **`TOI-1338`**
+  - ดาวแม่ `TOI-1338 A`
+    - `TOI-1338 b` CB | 2020 | Transit | 95.4001 | 7.661
+    - `TOI-1338 c` CB | 2023 | Radial Velocity | 215.79 | 10.3
+- **`TOI-1346`**
+  - `TOI-1346 b` | 2025 | Transit | 1.7622538 | 2.39
+  - `TOI-1346 c` | 2025 | Transit | 5.502558 | 2.23
+- **`TOI-1347`**
+  - `TOI-1347 b` | 2024 | Transit | 0.84742346 | 1.8
+  - `TOI-1347 c` | 2024 | Transit | 4.841962 | 1.6
+- **`TOI-1355`**
+  - `TOI-1355 b` | 2026 | Transit | 2.1702642 | 15.96158852
+- **`TOI-1386`**
+  - `TOI-1386 b` | 2024 | Transit | 25.8401 | 6.2163865
+  - `TOI-1386 c` | 2024 | Radial Velocity | 232 | 10.3
+- **`TOI-1408`**
+  - `TOI-1408 c` | 2024 | Transit Timing Variations | 2.1664 | 2.22
+  - `TOI-1408 b` | 2023 | Transit | 4.42587 | 25
+- **`TOI-1410`**
+  - `TOI-1410.01` | 2024 | Transit | 1.21687 | 3.10083009
+  - `TOI-1410 c` | 2024 | Radial Velocity | 47.56 | 5.63
+- **`TOI-1411`**
+  - `TOI-1411 b` | 2022 | Transit | 1.4520527 | 1.19880592
+- **`TOI-1416`**
+  - `TOI-1416 b` | 2023 | Transit | 1.0697568 | 1.62
+- **`TOI-1420`**
+  - `TOI-1420 b` | 2023 | Transit | 6.9561063 | 11.89
+- **`TOI-1422`**
+  - `TOI-1422 b` | 2022 | Transit | 12.99894 | 3.83
+  - `TOI-1422 c` | 2025 | Radial Velocity | 34.5633 | 2.61
+- **`TOI-1431`**
+  - `TOI-1431 b` | 2021 | Transit | 2.650237 | 16.70138124
+- **`TOI-1432`**
+  - `TOI-1432 b` | 2026 | Transit | 6.1094927 | 2.39
+- **`TOI-1435`**
+  - `TOI-1435 b` | 2026 | Transit | 0.6858239 | 1.08
+- **`TOI-1437`**
+  - `TOI-1437 b` | 2024 | Transit | 18.840942 | 2.24
+- **`TOI-1438`**
+  - `TOI-1438 b` | 2025 | Transit | 5.13967 | 3.04
+  - `TOI-1438 c` | 2025 | Transit | 9.428089 | 2.75
+- **`TOI-1439`**
+  - `TOI-1439 b` | 2024 | Transit | 27.644 | 4.2427861
+- **`TOI-1441`**
+  - `TOI-1441 b` | 2026 | Transit | 22.092958 | 2.82
+- **`TOI-1442`**
+  - `TOI-1442 b` | 2022 | Transit | 0.4090677 | 1.17
+- **`TOI-1443`**
+  - `TOI-1443 b` | 2024 | Transit | 23.540678 | 2.30381001
+- **`TOI-1444`**
+  - `TOI-1444 b` | 2021 | Transit | 0.4702743 | 1.41792246
+- **`TOI-1448`**
+  - `TOI-1448 b` | 2024 | Transit | 8.112245 | 2.749
+- **`TOI-1450`**
+  - ดาวแม่ `TOI-1450 A`
+    - `TOI-1450 A b` | 2024 | Transit | 2.0439274 | 1.13
+    - `TOI-1450 A c` | 2024 | Transit | 5.0688 | 1.13
+- **`TOI-1451`**
+  - `TOI-1451 b` | 2024 | Transit | 16.537944 | 2.61143902
+- **`TOI-1452`**
+  - `TOI-1452 b` | 2022 | Transit | 11.06201 | 1.672
+- **`TOI-1453`**
+  - `TOI-1453 b` | 2025 | Transit | 4.3135225 | 1.173
+  - `TOI-1453 c` | 2025 | Transit | 6.5886982 | 2.224
+- **`TOI-1466`**
+  - `TOI-1466 b` | 2026 | Transit | 1.87190602231 | 2.46741991
+- **`TOI-1467`**
+  - `TOI-1467 b` | 2024 | Transit | 5.97114713 | 1.92
+- **`TOI-1468`**
+  - `TOI-1468 b` | 2022 | Transit | 1.8805201 | 1.401
+  - `TOI-1468 c` | 2022 | Transit | 15.532477 | 2.126
+- **`TOI-1470`**
+  - `TOI-1470 b` | 2023 | Transit | 2.527093 | 2.18
+  - `TOI-1470 c` | 2023 | Transit | 18.08816 | 2.47
+- **`TOI-1472`**
+  - `TOI-1472 b` | 2024 | Transit | 6.36338574 | 4.058
+  - `TOI-1472 c` | 2025 | Radial Velocity | 15.5381747 | 3.334
+- **`TOI-1478`**
+  - `TOI-1478 b` | 2021 | Transit | 10.1802117 | 11.99360935
+- **`TOI-1516`**
+  - `TOI-1516 b` | 2022 | Transit | 2.056014 | 15.24421375
+- **`TOI-1518`**
+  - `TOI-1518 b` | 2021 | Transit | 1.90261131 | 21.05046575
+- **`TOI-1533`**
+  - `TOI-1533 b` | 2026 | Transit | 3.6457974 | 2.89
+  - `TOI-1533 c` | 2026 | Transit | 8.0637926 | >7.5
+- **`TOI-1601`**
+  - `TOI-1601 b` | 2021 | Transit | 5.33175 | 14.19902343
+- **`TOI-1630`**
+  - `TOI-1630.01` | 2024 | Transit | 12.055734733 | 2.417
+- **`TOI-1634`**
+  - `TOI-1634 b` | 2021 | Transit | 0.98934551 | 1.759
+  - `TOI-1634 c` | 2022 | Radial Velocity | 103 | —
+- **`TOI-1648`**
+  - `TOI-1648 b` | 2025 | Transit | 7.331602 | 2.54
+- **`TOI-1659`**
+  - `TOI-1659.01` | 2024 | Transit | 5.877556328 | 2.255
+- **`TOI-1669`**
+  - `TOI-1669 c` | 2024 | Transit | 2.6800535 | 2.2963977
+  - `TOI-1669 b` | 2023 | Radial Velocity | 500 | 14.1
+- **`TOI-1670`**
+  - `TOI-1670 b` | 2022 | Transit | 10.98462 | 2.06
+  - `TOI-1670 c` | 2022 | Transit | 40.74976 | 11.06326395
+- **`TOI-1680`**
+  - `TOI-1680 b` | 2023 | Transit | 4.8026345 | 1.466
+- **`TOI-1683`**
+  - `TOI-1683.01` | 2024 | Transit | 3.0575356 | 2.6382
+
+</details>
+
+<a name="systems-24"></a>
+
+<details><summary>TOI-1685 – TOI-2842 · 180 ระบบ · 215 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`TOI-1685`**
+  - `TOI-1685 b` | 2021 | Transit | 0.66913923 | 1.421
+- **`TOI-1691`**
+  - `TOI-1691 b` | 2024 | Transit | 16.736888935 | 3.66
+- **`TOI-1693`**
+  - `TOI-1693 b` | 2022 | Transit | 1.7666957 | 1.41
+- **`TOI-1694`**
+  - `TOI-1694 b` | 2023 | Transit | 3.7701389 | 5.27
+  - `TOI-1694 c` | 2023 | Radial Velocity | 386.25 | 13.8
+- **`TOI-1695`**
+  - `TOI-1695 b` | 2022 | Transit | 3.1342791 | 1.9
+- **`TOI-1696`**
+  - `TOI-1696 b` | 2022 | Transit | 2.500311 | 3.09
+- **`TOI-1710`**
+  - `TOI-1710 b` | 2022 | Transit | 24.28336 | 5.06
+- **`TOI-1716`**
+  - `TOI-1716.01` | 2024 | Transit | 8.082376554 | 3.143
+- **`TOI-1718`**
+  - `TOI-1718 b` | 2026 | Transit | 5.58703768615 | 4.10824994
+- **`TOI-1722`**
+  - `TOI-1722 b` | 2026 | Transit | 9.60523206943 | 4.38298108
+- **`TOI-1723`**
+  - `TOI-1723 b` | 2024 | Transit | 13.727012643 | 3.435
+- **`TOI-1728`**
+  - `TOI-1728 b` | 2020 | Transit | 3.49151 | 5.05
+- **`TOI-1732`**
+  - `TOI-1732 b` | 2026 | Transit | 4.11923678339 | 2.49549787
+- **`TOI-1736`**
+  - `TOI-1736 b` | 2023 | Transit | 7.073076 | 3.18175535
+  - `TOI-1736 c` | 2023 | Radial Velocity | 571.25 | 12.5
+- **`TOI-1739`**
+  - `TOI-1739 b` | 2024 | Transit | 8.303341406 | 1.946
+- **`TOI-1742`**
+  - `TOI-1742 b` | 2024 | Transit | 21.269084 | 2.36507598
+- **`TOI-1743`**
+  - `TOI-1743 b` | 2025 | Transit | 4.266046 | 1.83
+- **`TOI-1744`**
+  - `TOI-1744.01` | 2024 | Transit | 22.341702927 | 2.68
+- **`TOI-1749`**
+  - `TOI-1749 b` | 2021 | Transit | 2.38839 | 1.39
+  - `TOI-1749 c` | 2021 | Transit | 4.4929 | 2.12
+  - `TOI-1749 d` | 2021 | Transit | 9.0497 | 2.52
+- **`TOI-1750`**
+  - `TOI-1750 b` | 2026 | Transit | 11.33727129656 | 2.78943837
+- **`TOI-1751`**
+  - `TOI-1751 b` | 2024 | Transit | 37.46852 | 2.9507845
+- **`TOI-1752`**
+  - `TOI-1752 b` | 2026 | Transit | 0.9351861 | 1.693
+  - `TOI-1752 c` | 2026 | Transit | 32.71443 | 2.29
+- **`TOI-1753`**
+  - `TOI-1753 b` | 2024 | Transit | 5.3846104 | 2.47852533
+- **`TOI-1756`**
+  - `TOI-1756 b` | 2026 | Transit | 2.78301736297 | 1.94225664
+- **`TOI-1758`**
+  - `TOI-1758 b` | 2024 | Transit | 20.705074685 | 3.62
+- **`TOI-1759`**
+  - `TOI-1759 b` | 2022 | Transit | 18.85019 | 3.14
+- **`TOI-1768`**
+  - `TOI-1768.01` | 2024 | Transit | 7.337703649 | 3.453
+- **`TOI-1772`**
+  - `TOI-1772.01` | 2024 | Transit | 8.054246874 | 2.905
+- **`TOI-1774`**
+  - `TOI-1774.01` | 2021 | Transit | 16.70988 | 2.78
+  - `HD 85426 c` | 2026 | Radial Velocity | 35.73 | 3.19
+- **`TOI-1775`**
+  - `TOI-1775 b` | 2024 | Transit | 10.2405549 | 8.04728896
+- **`TOI-1776`**
+  - `TOI-1776 b` | 2024 | Transit | 2.799868 | 1.21612741
+- **`TOI-1777`**
+  - `TOI-1777.01` | 2024 | Transit | 14.650111974 | 2.246
+- **`TOI-1782`**
+  - `TOI-1782.02` | 2024 | Transit | 1.829024227 | 1.839
+  - `TOI-1782.01` | 2024 | Transit | 4.987641028 | 2.368
+- **`TOI-1789`**
+  - `TOI-1789 b` | 2021 | Transit | 3.208664 | 16.14093221
+- **`TOI-1794`**
+  - `TOI-1794 b` | 2024 | Transit | 8.765528 | 3.29701268
+- **`TOI-1798`**
+  - `TOI-1798.02` | 2024 | Transit | 0.437811822 | 1.464
+  - `TOI-1798.01` | 2024 | Transit | 8.021522331 | 2.448
+- **`TOI-1799`**
+  - `TOI-1799 b` | 2024 | Transit | 7.094570865 | 1.642
+- **`TOI-1801`**
+  - `TOI-1801 b` | 2023 | Transit | 10.64387 | 2.079
+- **`TOI-1803`**
+  - `TOI-1803 b` | 2025 | Transit | 6.293287 | 2.99
+  - `TOI-1803 c` | 2025 | Transit | 12.885779 | 4.29
+- **`TOI-1806`**
+  - `TOI-1806 c` | 2026 | Transit | 0.5018934 | 1.32
+  - `TOI-1806 d` | 2026 | Transit | 8.196064 | 2.88
+  - `TOI-1806.01` | 2024 | Transit | 15.1454693 | 3.4095367
+- **`TOI-1807`**
+  - `TOI-1807 b` | 2021 | Transit | 0.54937097 | 1.49681583
+- **`TOI-1811`**
+  - `TOI-1811 b` | 2023 | Transit | 3.7130765 | 11.14172682
+- **`TOI-1814`**
+  - `TOI-1814 b` | 2026 | Transit | 6.36861010462 | 5.18536642
+- **`TOI-1820`**
+  - `TOI-1820 b` | 2022 | Transit | 4.860674 | 12.778238
+- **`TOI-1823`**
+  - `TOI-1823 b` | 2024 | Transit | 38.8 | 7.5406241
+- **`TOI-1824`**
+  - `TOI-1824 b` | 2024 | Transit | 22.808533 | 2.7438269
+- **`TOI-1836`**
+  - `TOI-1836 c` | 2024 | Transit | 1.7727471 | 2.59987579
+  - `TOI-1836 b` | 2024 | Transit | 20.380799 | 8.00321222
+- **`TOI-1839`**
+  - `TOI-1839 b` | 2026 | Transit | 1.4237828 | 2.27
+  - `TOI-1839 c` | 2026 | Transit | 4.0239478 | 2.5
+- **`TOI-1842`**
+  - `TOI-1842 b` | 2021 | Transit | 9.5739181 | 12.3485023
+- **`TOI-1846`**
+  - `TOI-1846 b` | 2025 | Transit | 3.9306737 | 1.792
+- **`TOI-1853`**
+  - `TOI-1853 b` | 2023 | Transit | 1.2436258 | 3.46
+- **`TOI-1855`**
+  - `TOI-1855 b` | 2024 | Transit | 1.36414864 | 18.49481816
+- **`TOI-1859`**
+  - `TOI-1859 b` | 2023 | Transit | 63.48347 | 9.75181321
+- **`TOI-1860`**
+  - `TOI-1860 b` | 2022 | Transit | 1.0662107 | 1.31
+- **`TOI-1873`**
+  - `TOI-1873 b` | 2026 | Transit | 7.00572708834 | 2.86356397
+- **`TOI-1883`**
+  - `TOI-1883 b` | 2024 | Transit | 4.508 | 5.65
+- **`TOI-1898`**
+  - `TOI-1898 b` | 2024 | Transit | 45.52234 | 9.39553231
+- **`TOI-1899`**
+  - `TOI-1899 b` | 2020 | Transit | 29.090312 | 11.09689089
+- **`TOI-1937`**
+  - ดาวแม่ `TOI-1937 A`
+    - `TOI-1937 A b` | 2023 | Transit | 0.94667944 | 13.97759893
+- **`TOI-1994`**
+  - `TOI-1994 b` | 2024 | Transit | 4.0337142 | 13.67495645
+- **`TOI-2000`**
+  - `TOI-2000 b` | 2023 | Transit | 3.09833 | 2.7
+  - `TOI-2000 c` | 2023 | Transit | 9.127055 | 8.14
+- **`TOI-2005`**
+  - `TOI-2005 b` | 2025 | Transit | 17.305904 | 11.99360935
+- **`TOI-2010`**
+  - `TOI-2010 b` | 2023 | Transit | 141.834025 | 11.81426566
+- **`TOI-2015`**
+  - `TOI-2015 b` | 2023 | Transit | 3.348237 | 3.309
+  - `TOI-2015 c` | 2025 | Transit Timing Variations | 5.582796 | 2.93
+- **`TOI-2018`**
+  - `TOI-2018 b` | 2023 | Transit | 7.435583 | 2.268
+- **`TOI-2019`**
+  - `TOI-2019 b` | 2024 | Transit | 15.3444 | 5.33275337
+- **`TOI-2025`**
+  - `TOI-2025 b` | 2022 | Transit | 8.8720982 | 11.89272852
+- **`TOI-2031`**
+  - ดาวแม่ `TOI-2031 A`
+    - `TOI-2031 A b` | 2025 | Transit | 5.71548654 | 14.20177855
+- **`TOI-2040`**
+  - `TOI-2040 b` | 2026 | Transit | 3.8608576 | 10.32347122
+- **`TOI-2046`**
+  - `TOI-2046 b` | 2022 | Transit | 1.4971842 | 16.14093221
+- **`TOI-2048`**
+  - `TOI-2048 b` | 2022 | Transit | 13.79019 | 2.61
+- **`TOI-2049`**
+  - `TOI-2049 b` | 2026 | Transit | 5.303468 | 16.64533634
+- **`TOI-2068`**
+  - `TOI-2068 b` | 2024 | Transit | 7.768915 | 1.821
+- **`TOI-2071`**
+  - `TOI-2071 b` | 2026 | Transit | 5.67395386982 | 2.56484195
+- **`TOI-2076`**
+  - `TOI-2076 e` | 2025 | Transit | 3.0223753 | 1.301
+  - `TOI-2076 b` | 2021 | Transit | 10.35504 | 2.59
+  - `TOI-2076 c` | 2021 | Transit | 21.01447 | 3.54
+  - `TOI-2076 d` | 2021 | Transit | 35.12803 | 3.27
+- **`TOI-2081`**
+  - `TOI-2081 b` | 2022 | Transit | 10.50534 | 2.04
+- **`TOI-2084`**
+  - `TOI-2084 b` | 2023 | Transit | 6.0784247 | 2.47
+- **`TOI-2088`**
+  - `TOI-2088 b` | 2024 | Transit | 124.72997 | 3.6831179
+- **`TOI-2092`**
+  - `TOI-2092 b` | 2026 | Transit | 4.30325528074 | 2.94892961
+- **`TOI-2093`**
+  - `TOI-2093 b` | 2025 | Radial Velocity | 12.836 | 3.25
+  - `TOI-2093 c` | 2025 | Transit | 53.81149 | 2.3
+- **`TOI-2094`**
+  - `TOI-2094 b` | 2026 | Transit | 18.793193 | 1.9
+- **`TOI-2095`**
+  - `TOI-2095 b` | 2023 | Transit | 17.66484 | 1.25
+  - `TOI-2095 c` | 2023 | Transit | 28.17232 | 1.33
+- **`TOI-2096`**
+  - `TOI-2096 b` | 2023 | Transit | 3.1190633 | 1.243
+  - `TOI-2096 c` | 2023 | Transit | 6.38784 | 1.914
+- **`TOI-2104`**
+  - `TOI-2104 b` | 2026 | Transit | 5.904370457 | 1.52898127
+- **`TOI-2107`**
+  - `TOI-2107 b` | 2024 | Transit | 2.4545467 | 13.57407563
+- **`TOI-2109`**
+  - `TOI-2109 b` | 2021 | Transit | 0.67247414 | 15.098497
+- **`TOI-2114`**
+  - `TOI-2114 b` | 2026 | Transit | 6.209959 | 14.54925695
+- **`TOI-2120`**
+  - `TOI-2120 b` | 2024 | Transit | 5.7998164 | 2.122
+- **`TOI-2128`**
+  - `TOI-2128 b` | 2024 | Transit | 16.34136 | 2.08874836
+- **`TOI-2133`**
+  - `TOI-2133 b` | 2026 | Transit | 3.8266472 | 2.37
+- **`TOI-2134`**
+  - `TOI-2134 b` | 2023 | Transit | 9.229198 | 2.735
+  - `TOI-2134 c` | 2023 | Transit | 95.85284 | 7.35
+- **`TOI-2136`**
+  - `TOI-2136 b` | 2022 | Transit | 7.851928 | 2.19
+- **`TOI-2141`**
+  - `TOI-2141 c` | 2025 | Radial Velocity | 5.4624 | 2.35
+  - `TOI-2141 b` | 2023 | Transit | 18.261608 | 3.147
+  - `TOI-2141 d` | 2025 | Radial Velocity | 60.45 | 3.97
+- **`TOI-2145`**
+  - `TOI-2145 b` | 2023 | Transit | 10.261128 | 12.24020692
+- **`TOI-2147`**
+  - `TOI-2147 b` | 2026 | Transit | 26.20518 | 10.5
+- **`TOI-2152`**
+  - `TOI-2152 A b` | 2023 | Transit | 3.3773512 | 14.35870428
+- **`TOI-2154`**
+  - `TOI-2154 b` | 2023 | Transit | 3.8240801 | 16.28664896
+- **`TOI-2158`**
+  - `TOI-2158 b` | 2022 | Transit | 8.60079 | 10.07687365
+  - `TOI-2158 c` | 2026 | Radial Velocity | 414.5 | 13.5
+- **`TOI-2169`**
+  - ดาวแม่ `TOI-2169 A`
+    - `TOI-2169 A b` | 2025 | Transit | 8.2148282 | 12.50922246
+- **`TOI-2180`**
+  - `TOI-2180 b` | 2022 | Transit | 260.79 | 11.32107051
+- **`TOI-2184`**
+  - `TOI-2184 b` | 2022 | Transit | 6.90683 | 11.39953337
+- **`TOI-2193`**
+  - ดาวแม่ `TOI-2193 A`
+    - `TOI-2193 A b` | 2022 | Transit | 2.1225735 | 19.83989584
+- **`TOI-2194`**
+  - `TOI-2194 b` | 2023 | Transit | 15.337597 | 1.9892
+- **`TOI-2196`**
+  - `TOI-2196 b` | 2022 | Transit | 1.1947268 | 3.51
+- **`TOI-2200`**
+  - `TOI-2200 b` | 2026 | Transit | 2.93602836512 | 6.96310517
+- **`TOI-2202`**
+  - `TOI-2202 b` | 2021 | Transit | 11.9126075 | 10.95117414
+  - `TOI-2202 c` | 2021 | Transit Timing Variations | 24.6744 | 13.4
+- **`TOI-2207`**
+  - `TOI-2207 b` | 2022 | Transit | 8.001968 | 11.1529358
+- **`TOI-2211`**
+  - `TOI-2211.01` | 2024 | Transit | 3.092686757 | 1.561
+- **`TOI-2227`**
+  - `TOI-2227 b` | 2026 | Transit | 4.22175815648 | 3.09885187
+- **`TOI-2236`**
+  - `TOI-2236 b` | 2022 | Transit | 3.5315902 | 14.36991326
+- **`TOI-2238`**
+  - `TOI-2238 b` | 2026 | Transit | 3.390463 | 2.6
+- **`TOI-2245`**
+  - `TOI-2245 b` | 2026 | Transit | 3.7980908 | 4.89
+- **`TOI-2257`**
+  - `TOI-2257 b` | 2021 | Transit | 35.189346 | 2.194
+- **`TOI-2260`**
+  - `TOI-2260 b` | 2022 | Transit | 0.3524728 | 1.62
+- **`TOI-2266`**
+  - `TOI-2266 b` | 2024 | Transit | 2.326318 | 1.54
+- **`TOI-2267`**
+  - ดาวแม่ `TOI-2267 A`
+    - `TOI-2267 b` | 2025 | Transit | 2.28909 | 1
+    - `TOI-2267 c` | 2025 | Transit | 3.4950412 | 1.14
+  - ดาวแม่ `TOI-2267 B`
+    - `TOI-2267 d` | 2025 | Transit | 2.0344671 | 1.77
+- **`TOI-2274`**
+  - `TOI-2274 b` | 2024 | Transit | 2.67963 | 2.45
+- **`TOI-2285`**
+  - `TOI-2285 b` | 2021 | Transit | 13.635109 | 1.77
+- **`TOI-2287`**
+  - `TOI-2287 b` | 2026 | Transit | 11.812041 | 1.8
+- **`TOI-2293`**
+  - `TOI-2293 b` | 2026 | Transit | 6.068314 | 2.08
+- **`TOI-2295`**
+  - `TOI-2295 b` | 2024 | Transit | 30.033302 | 16.47720163
+  - `TOI-2295 c` | 2024 | Radial Velocity | 966.5 | 12.8
+- **`TOI-2322`**
+  - `TOI-2322 b` | 2025 | Transit | 11.30717 | 0.994
+  - `TOI-2322 c` | 2025 | Transit | 20.225528 | 1.874
+- **`TOI-2328`**
+  - `TOI-2328 b` | 2025 | Transit | 17.10197 | 9.97599282
+- **`TOI-2337`**
+  - `TOI-2337 b` | 2022 | Transit | 2.99432 | 10.08808263
+- **`TOI-2338`**
+  - `TOI-2338 b` | 2023 | Transit | 22.65398 | 11.2089807
+- **`TOI-2345`**
+  - `TOI-2345 b` | 2025 | Transit | 1.0528573 | 1.504
+  - `TOI-2345 c` | 2025 | Transit | 21.064302 | 2.451
+- **`TOI-2346`**
+  - `TOI-2346 b` | 2025 | Transit | 3.3312029 | 16.11851425
+- **`TOI-2364`**
+  - `TOI-2364 b` | 2023 | Transit | 4.0197517 | 8.60849718
+- **`TOI-2368`**
+  - `TOI-2368 b` | 2024 | Transit | 5.1750073 | 10.83908434
+- **`TOI-2373`**
+  - `TOI-2373 b` | 2023 | Transit | 13.33668 | 10.42435205
+- **`TOI-2374`**
+  - `TOI-2374 b` | 2024 | Transit | 4.3136193 | 7.48759911
+- **`TOI-2379`**
+  - `TOI-2379 b` | 2024 | Transit | 5.4693827 | 11.72459381
+- **`TOI-2382`**
+  - `TOI-2382 b` | 2025 | Transit | 4.6612061 | 12.25141591
+- **`TOI-2384`**
+  - `TOI-2384 b` | 2024 | Transit | 2.13570304 | 11.48920522
+- **`TOI-2392`**
+  - `TOI-2392 b` | 2026 | Transit | 9.169362 | 2.37
+- **`TOI-2406`**
+  - `TOI-2406 b` | 2021 | Transit | 3.0766891 | 2.86
+- **`TOI-2407`**
+  - `TOI-2407 b` | 2025 | Transit | 2.702969 | 4.26
+- **`TOI-2411`**
+  - `TOI-2411 b` | 2022 | Transit | 0.7826942 | 1.68
+- **`TOI-2416`**
+  - `TOI-2416 b` | 2023 | Transit | 8.275479 | 9.86390302
+- **`TOI-2420`**
+  - `TOI-2420 b` | 2024 | Transit | 5.842641 | 15.02003414
+- **`TOI-2421`**
+  - `TOI-2421 b` | 2022 | Transit | 4.3474032 | 10.36830715
+- **`TOI-2426`**
+  - `TOI-2426 b` | 2026 | Transit | 4.0812 | 2.36
+- **`TOI-2427`**
+  - `TOI-2427 b` | 2022 | Transit | 1.305962 | 1.64
+  - `TOI-2427 c` | 2025 | Radial Velocity | 5.15 | 2.43
+- **`TOI-2431`**
+  - `TOI-2431 b` | 2026 | Transit | 0.22419578 | 1.534
+- **`TOI-2441`**
+  - `TOI-2441 b` | 2026 | Transit | 12.890155 | 2.73
+- **`TOI-2443`**
+  - `TOI-2443 b` | 2023 | Transit | 15.66858 | 2.363
+- **`TOI-2445`**
+  - `TOI-2445 b` | 2022 | Transit | 0.3711281 | 1.25
+- **`TOI-2447`**
+  - `TOI-2447 b` | 2024 | Transit | 69.33684 | 9.60609646
+- **`TOI-2449`**
+  - `TOI-2449 b` | 2025 | Transit | 106.14468 | 11.24
+- **`TOI-2453`**
+  - `TOI-2453 b` | 2026 | Transit | 4.44143463188 | 3.24380341
+- **`TOI-2458`**
+  - `TOI-2458 b` | 2024 | Transit | 3.73659 | 2.83
+  - `TOI-2458 c` | 2024 | Radial Velocity | 16.553 | 3.18
+- **`TOI-2459`**
+  - `TOI-2459 b` | 2023 | Transit | 19.104718 | 2.9531
+- **`TOI-2485`**
+  - `TOI-2485 b` | 2024 | Transit | 11.23479 | 12.1393261
+- **`TOI-2497`**
+  - `TOI-2497 b` | 2023 | Transit | 10.655669 | 11.14172682
+- **`TOI-2498`**
+  - `TOI-2498 b` | 2023 | Transit | 3.738252 | 6.06
+- **`TOI-2518`**
+  - `TOI-2518 b` | 2026 | Transit | 6.89797425216 | 2.26838675
+- **`TOI-2524`**
+  - `TOI-2524 b` | 2023 | Transit | 7.18585 | 11.2089807
+- **`TOI-2525`**
+  - `TOI-2525 b` | 2023 | Transit | 23.2856 | 8.67575106
+  - `TOI-2525 c` | 2023 | Transit | 49.2519 | 10.13291855
+- **`TOI-2529`**
+  - `TOI-2529 b` | 2024 | Transit | 64.5949 | 11.54525012
+- **`TOI-2535`**
+  - `TOI-2535 b` | 2026 | Transit | 8.2358054 | 9.46037971
+- **`TOI-2537`**
+  - `TOI-2537 b` | 2024 | Transit | 94.1022 | 11.25381662
+  - `TOI-2537 c` | 2024 | Radial Velocity | 1920 | 12.7
+- **`TOI-2540`**
+  - `TOI-2540 b` | 2026 | Transit | 12.718739 | 2.29
+- **`TOI-2545`**
+  - `TOI-2545 b` | 2022 | Transit | 7.994037 | 2.75
+- **`TOI-2567`**
+  - `TOI-2567 b` | 2022 | Transit | 5.983944 | 10.92875618
+- **`TOI-2570`**
+  - `TOI-2570 b` | 2022 | Transit | 2.9887615 | 13.64132951
+- **`TOI-2578`**
+  - `TOI-2578 b` | 2026 | Transit | 3.4579667 | 19.66055215
+- **`TOI-2580`**
+  - `TOI-2580 b` | 2024 | Transit | 3.39775 | 17.37392009
+- **`TOI-2583`**
+  - ดาวแม่ `TOI-2583 A`
+    - `TOI-2583 A b` | 2023 | Transit | 4.5207265 | 14.4595851
+- **`TOI-2587`**
+  - ดาวแม่ `TOI-2587 A`
+    - `TOI-2587 A b` | 2023 | Transit | 5.45664 | 12.07207221
+- **`TOI-2589`**
+  - `TOI-2589 b` | 2023 | Transit | 61.6277 | 12.10569916
+- **`TOI-2641`**
+  - `TOI-2641 b` | 2023 | Transit | 4.880974 | 18.10250383
+- **`TOI-2654`**
+  - `TOI-2654 b` | 2026 | Transit | 2.96760425926 | 7.94454164
+- **`TOI-2669`**
+  - `TOI-2669 b` | 2022 | Transit | 6.2034 | 19.72780603
+- **`TOI-2714`**
+  - `TOI-2714 b` | 2024 | Transit | 2.499387 | 13.72
+- **`TOI-2719`**
+  - `TOI-2719 b` | 2025 | Transit | 3.37594 | 5.98
+- **`TOI-2768`**
+  - `TOI-2768 b` | 2024 | Transit | 1.50801 | 2.63
+- **`TOI-2796`**
+  - `TOI-2796 b` | 2023 | Transit | 4.8084983 | >17.26183028
+- **`TOI-2803`**
+  - ดาวแม่ `TOI-2803 A`
+    - `TOI-2803 A b` | 2023 | Transit | 1.96229325 | 18.11371281
+- **`TOI-2818`**
+  - `TOI-2818 b` | 2023 | Transit | 4.039709 | 15.27784069
+- **`TOI-2842`**
+  - `TOI-2842 b` | 2023 | Transit | 3.5514058 | 12.84549188
+
+</details>
+
+<a name="systems-25"></a>
+
+<details><summary>TOI-2876 – TOI-5486 · 180 ระบบ · 196 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`TOI-2876`**
+  - `TOI-2876 b` | 2025 | Transit | 6.2996431 | 9.6397234
+- **`TOI-2886`**
+  - `TOI-2886 b` | 2025 | Transit | 1.60200105 | 18.6405349
+- **`TOI-2969`**
+  - `TOI-2969 b` | 2025 | Transit | 1.8237146 | 12.32987877
+- **`TOI-2977`**
+  - `TOI-2977 b` | 2023 | Transit | 2.3505614 | 13.15934334
+- **`TOI-2981`**
+  - `TOI-2981 b` | 2024 | Transit | 3.601501 | 13.4
+- **`TOI-2986`**
+  - `TOI-2986 b` | 2025 | Transit | 3.2783662 | 9.292245
+- **`TOI-2989`**
+  - `TOI-2989 b` | 2025 | Transit | 3.122832 | 12.55405838
+- **`TOI-2992`**
+  - `TOI-2992 b` | 2025 | Transit | 3.007812 | 13.75341932
+- **`TOI-3023`**
+  - `TOI-3023 b` | 2023 | Transit | 3.9014971 | 16.43236571
+- **`TOI-3053`**
+  - `TOI-3053 b` | 2026 | Transit | 2.9919987 | 13.56286665
+- **`TOI-3071`**
+  - `TOI-3071 b` | 2024 | Transit | 1.266938 | 7.16
+- **`TOI-3082`**
+  - `TOI-3082 b` | 2023 | Transit | 1.926907 | 3.6621
+- **`TOI-3135`**
+  - `TOI-3135 b` | 2025 | Transit | 3.7065585 | 13.65253849
+- **`TOI-3160`**
+  - ดาวแม่ `TOI-3160 A`
+    - `TOI-3160 A b` | 2025 | Transit | 3.971281 | 13.7646283
+- **`TOI-3235`**
+  - `TOI-3235 b` | 2023 | Transit | 2.59261842 | 11.39953337
+- **`TOI-3261`**
+  - `TOI-3261 b` | 2024 | Transit | 0.8831331 | 3.82
+- **`TOI-3278`**
+  - `TOI-3278 b` | 2026 | Transit | 3.246456 | 13.89913607
+- **`TOI-3288`**
+  - `TOI-3288 b` | 2025 | Transit | 1.4338647 | 12.24020692
+- **`TOI-3321`**
+  - `TOI-3321 b` | 2024 | Transit | 3.6525145 | 15.55806521
+- **`TOI-3331`**
+  - ดาวแม่ `TOI-3331 A`
+    - `TOI-3331 A b` | 2022 | Transit | 2.0180231 | 12.97999965
+- **`TOI-3353`**
+  - `TOI-3353.01` | 2024 | Transit | 4.6657965 | 2.6667555
+- **`TOI-3362`**
+  - `TOI-3362 b` | 2021 | Transit | 18.09547 | 12.80065596
+- **`TOI-3364`**
+  - `TOI-3364 b` | 2023 | Transit | 5.8768918 | 12.22899794
+- **`TOI-3457`**
+  - `TOI-3457 b` | 2026 | Transit | 32.600268 | 10.64
+- **`TOI-3464`**
+  - `TOI-3464 b` | 2025 | Transit | 3.6515568 | 13.7646283
+- **`TOI-3474`**
+  - `TOI-3474 b` | 2025 | Transit | 3.8795105 | 14.67255574
+- **`TOI-3486`**
+  - `TOI-3486 b` | 2025 | Transit | 2.21778105 | 10.5700688
+- **`TOI-3493`**
+  - `TOI-3493 b` | 2025 | Transit | 8.1594667 | 3.22
+- **`TOI-3523`**
+  - ดาวแม่ `TOI-3523 A`
+    - `TOI-3523 A b` | 2025 | Transit | 2.30458952 | 15.9727975
+- **`TOI-3540`**
+  - ดาวแม่ `TOI-3540 A`
+    - `TOI-3540 A b` | 2022 | Transit | 3.119999 | 23.53885947
+- **`TOI-3568`**
+  - `TOI-3568 b` | 2024 | Transit | 4.417965 | 5.3
+- **`TOI-3585`**
+  - `TOI-3585 b` | 2026 | Transit | 3.5410696 | 4.26
+- **`TOI-3593`**
+  - `TOI-3593 b` | 2025 | Transit | 3.8212867 | 11.02963701
+- **`TOI-3629`**
+  - `TOI-3629 b` | 2022 | Transit | 3.936551 | 8.29464572
+- **`TOI-3664`**
+  - `TOI-3664 b` | 2026 | Transit | 3.2974839 | 13.69737442
+- **`TOI-3682`**
+  - `TOI-3682 b` | 2025 | Transit | 3.3462406 | 12.80065596
+- **`TOI-3688`**
+  - ดาวแม่ `TOI-3688 A`
+    - `TOI-3688 A b` | 2023 | Transit | 3.246075 | 13.08088048
+- **`TOI-3693`**
+  - `TOI-3693 b` | 2022 | Transit | 9.088516 | 12.59889431
+- **`TOI-3714`**
+  - `TOI-3714 b` | 2022 | Transit | 2.154849 | 11.32107051
+- **`TOI-3757`**
+  - `TOI-3757 b` | 2022 | Transit | 3.438753 | 12
+- **`TOI-3785`**
+  - `TOI-3785 b` | 2023 | Transit | 4.6747373 | 5.14
+- **`TOI-3807`**
+  - `TOI-3807 b` | 2023 | Transit | 2.8989727 | >18.49481816
+- **`TOI-3819`**
+  - `TOI-3819 b` | 2023 | Transit | 3.2443141 | 13.13692538
+- **`TOI-3837`**
+  - `TOI-3837 b` | 2025 | Transit | 11.88865 | 10.87271128
+- **`TOI-3851`**
+  - `TOI-3851 b` | 2026 | Transit | 3.383445 | 4.76
+- **`TOI-3856`**
+  - `TOI-3856 b` | 2025 | Transit | 2.04360352 | 13.59649359
+- **`TOI-3862`**
+  - `TOI-3862 b` | 2026 | Transit | 1.55745774 | 5.53
+- **`TOI-3877`**
+  - `TOI-3877 b` | 2025 | Transit | 4.123596 | 11.67975789
+- **`TOI-3884`**
+  - `TOI-3884 b` | 2022 | Transit | 4.5445828 | 6.43
+- **`TOI-3894`**
+  - `TOI-3894 b` | 2024 | Transit | 4.33454 | 15.27784069
+- **`TOI-3896`**
+  - `TOI-3896 b` | 2026 | Transit | 4.37730369667 | 3.14949237
+- **`TOI-3912`**
+  - `TOI-3912 b` | 2023 | Transit | 3.4936264 | 14.28024141
+- **`TOI-3919`**
+  - `TOI-3919 b` | 2024 | Transit | 7.433234 | 12.31866979
+- **`TOI-3976`**
+  - ดาวแม่ `TOI-3976 A`
+    - `TOI-3976 A b` | 2023 | Transit | 6.607662 | 12.27383387
+- **`TOI-3980`**
+  - `TOI-3980 b` | 2025 | Transit | 3.6089254 | 14.4595851
+- **`TOI-3984`**
+  - ดาวแม่ `TOI-3984 A`
+    - `TOI-3984 A b` | 2023 | Transit | 4.353326 | 7.9
+- **`TOI-4010`**
+  - `TOI-4010 b` | 2023 | Transit | 1.348335 | 3.02
+  - `TOI-4010 c` | 2023 | Transit | 5.414654 | 5.93
+  - `TOI-4010 d` | 2023 | Transit | 14.70886 | 6.18
+  - `TOI-4010 e` | 2023 | Radial Velocity | >762 | 13.3
+- **`TOI-4029`**
+  - `TOI-4029 b` | 2026 | Transit | 5.88498234631 | 6.73756618
+- **`TOI-4030`**
+  - `TOI-4030 b` | 2026 | Transit | 2.50900199461 | 5.8462559
+- **`TOI-4034`**
+  - `TOI-4034 b` | 2026 | Transit | 1.8020932 | 17.71018951
+- **`TOI-4087`**
+  - `TOI-4087 b` | 2023 | Transit | 3.1774835 | 13.04725353
+- **`TOI-4127`**
+  - `TOI-4127 b` | 2023 | Transit | 56.3987 | 12.07
+- **`TOI-4137`**
+  - `TOI-4137 b` | 2022 | Transit | 3.8016122 | 13.57407563
+- **`TOI-4145`**
+  - ดาวแม่ `TOI-4145 A`
+    - `TOI-4145 A b` | 2023 | Transit | 4.0664428 | 13.30506009
+- **`TOI-4153`**
+  - `TOI-4153 b` | 2024 | Transit | 4.6174141 | 16.11851425
+- **`TOI-4155`**
+  - `TOI-4155 b` | 2025 | Transit | 3.320729 | 3.21
+- **`TOI-4156`**
+  - `TOI-4156 b` | 2026 | Transit | 4.46189034133 | 2.53823825
+  - `TOI-4156 c` | 2026 | Transit | 12.82282706375 | 2.92303762
+- **`TOI-4184`**
+  - `TOI-4184 b` | 2023 | Transit | 4.9019804 | 2.43
+- **`TOI-4201`**
+  - `TOI-4201 b` | 2023 | Transit | 3.5819194 | 13.67495645
+- **`TOI-4214`**
+  - `TOI-4214 b` | 2025 | Transit | 3.4913885 | 10.68215861
+- **`TOI-4307`**
+  - `TOI-4307 b` | 2026 | Transit | 32.696842 | 1.39
+- **`TOI-4308`**
+  - `TOI-4308 b` | 2023 | Transit | 9.151201 | 2.4189
+- **`TOI-4310`**
+  - `TOI-4310 b` | 2026 | Transit | 29.566602 | 2.97
+- **`TOI-4311`**
+  - `TOI-4311 b` | 2026 | Transit | 0.9902738 | 1.376
+  - `TOI-4311 c` | 2026 | Transit | 15.070425 | 2.47
+- **`TOI-4324`**
+  - `TOI-4324 b` | 2026 | Transit | 6.2509291 | 1.23
+- **`TOI-4329`**
+  - `TOI-4329 b` | 2022 | Transit | 2.9223 | 16.81347105
+- **`TOI-4336`**
+  - ดาวแม่ `TOI-4336 A`
+    - `TOI-4336 A c` | 2026 | Transit | 7.587266 | 1.251
+    - `TOI-4336 A b` | 2024 | Transit | 16.336351 | 2.137
+- **`TOI-4342`**
+  - `TOI-4342 b` | 2023 | Transit | 5.5382592 | 2.329
+  - `TOI-4342 c` | 2023 | Transit | 10.688662 | 2.349
+- **`TOI-4363`**
+  - `TOI-4363 b` | 2026 | Transit | 2.11867592279 | 1.76689273
+- **`TOI-4364`**
+  - `TOI-4364 b` | 2025 | Transit | 5.424019 | 2.01
+- **`TOI-4377`**
+  - `TOI-4377 b` | 2023 | Transit | 4.378081 | 15.10970598
+- **`TOI-4379`**
+  - `TOI-4379 b` | 2024 | Transit | 3.25352 | 16.69017226
+- **`TOI-4405`**
+  - `TOI-4405 b` | 2026 | Transit | 5.92143995316 | 2.55505441
+- **`TOI-4406`**
+  - `TOI-4406 b` | 2023 | Transit | 30.08364 | 11.2089807
+- **`TOI-4409`**
+  - `TOI-4409 b` | 2026 | Transit | 92.491789 | 7.44
+- **`TOI-4427`**
+  - `TOI-4427 b` | 2026 | Transit | 4.6182621 | 13.09208946
+- **`TOI-4438`**
+  - `TOI-4438 b` | 2024 | Transit | 7.446295 | 2.4
+- **`TOI-4443`**
+  - `TOI-4443.01` | 2024 | Transit | 1.8498567 | 1.7193265
+  - `TOI-4443 c` | 2026 | Transit | 10.308817 | 2.22
+- **`TOI-4458`**
+  - `TOI-4458 b` | 2026 | Transit | 3.9393792 | 12.40834163
+- **`TOI-4463`**
+  - ดาวแม่ `TOI-4463 A`
+    - `TOI-4463 A b` | 2023 | Transit | 2.8807198 | 13.26022417
+- **`TOI-4465`**
+  - `TOI-4465 b` | 2025 | Transit | 101.94054 | 14.01122587
+- **`TOI-4468`**
+  - `TOI-4468 b` | 2026 | Transit | 2.77085931 | 11.29
+  - `TOI-4468 c` | 2026 | Transit | 7.0139 | 3.09
+- **`TOI-4479`**
+  - `TOI-4479 b` | 2022 | Transit | 1.1589 | 2.82
+- **`TOI-4487`**
+  - ดาวแม่ `TOI-4487 A`
+    - `TOI-4487 A b` | 2025 | Transit | 3.9540709 | 14.60530185
+- **`TOI-4492`**
+  - `TOI-4492 b` | 2026 | Transit | 4.4331824 | 11.78063872
+- **`TOI-4495`**
+  - `TOI-4495 b` | 2026 | Transit | 2.56699 | 2.483
+  - `TOI-4495 c` | 2024 | Transit | 5.18553 | 4.03
+- **`TOI-4499`**
+  - `TOI-4499 b` | 2026 | Transit | 5.53888 | 2.14
+- **`TOI-4504`**
+  - `TOI-4504 b` | 2024 | Transit | 2.4261516 | 2.65
+  - `TOI-4504 d` | 2024 | Transit Timing Variations | 41.2871975 | 11.26
+  - `TOI-4504 c` | 2024 | Transit | 82.819093 | 11.17
+- **`TOI-4507`**
+  - `TOI-4507 b` | 2025 | Transit | 104.61611 | 8.2
+- **`TOI-4511`**
+  - `TOI-4511 b` | 2026 | Transit | 10.98090968596 | 2.75304932
+- **`TOI-4513`**
+  - `TOI-4513 b` | 2026 | Transit | 9.76042253684 | 2.34587608
+- **`TOI-4515`**
+  - `TOI-4515 b` | 2024 | Transit | 15.266446 | 12.17
+- **`TOI-4527`**
+  - `TOI-4527.01` | 2024 | Transit | 0.3994445 | 0.9086617
+- **`TOI-4529`**
+  - `TOI-4529 b` | 2026 | Transit | 5.879577 | 1.77
+- **`TOI-4551`**
+  - `TOI-4551 b` | 2023 | Transit | 9.95581 | 11.85910158
+- **`TOI-4552`**
+  - `TOI-4552 b` | 2026 | Transit | 0.30110032 | 1.11
+- **`TOI-4559`**
+  - `TOI-4559 b` | 2024 | Transit | 3.965991 | 1.415
+- **`TOI-4561`**
+  - `TOI-4561 b` | 2026 | Transit | 8.93547936706 | 1.77789214
+- **`TOI-4562`**
+  - `TOI-4562 b` | 2023 | Transit | 225.1064 | 12.53
+  - `TOI-4562 c` | 2024 | Transit Timing Variations | 3990 | 12.8
+- **`TOI-4567`**
+  - `TOI-4567 b` | 2026 | Transit | 23.542503 | 2.33
+- **`TOI-4578`**
+  - `TOI-4578 b` | 2026 | Transit | 8.62392630369 | 2.26974262
+- **`TOI-4582`**
+  - `TOI-4582 b` | 2023 | Transit | 31.034 | 10.53644186
+- **`TOI-4588`**
+  - `TOI-4588 b` | 2026 | Transit | 13.11881173651 | 2.92922558
+- **`TOI-4596`**
+  - `TOI-4596 b` | 2026 | Transit | 4.119409 | 2.68492
+- **`TOI-4600`**
+  - `TOI-4600 b` | 2023 | Transit | 82.6869 | 6.8
+  - `TOI-4600 c` | 2023 | Transit | 482.8191 | 9.42
+- **`TOI-4602`**
+  - `TOI-4602.01` | 2024 | Transit | 3.9812999 | 2.45
+- **`TOI-4603`**
+  - `TOI-4603 b` | 2023 | Transit | 7.24599 | 11.67975789
+- **`TOI-4616`**
+  - `TOI-4616 b` | 2026 | Transit | 1.55382 | 1.22
+- **`TOI-4633`**
+  - `TOI-4633 c` | 2024 | Transit | 271.9445 | 3.2
+- **`TOI-4638`**
+  - `TOI-4638.01` | 2024 | Transit | 10.283918787 | 2.933
+- **`TOI-4640`**
+  - `TOI-4640 b` | 2026 | Transit | 2.68566015238 | 2.84326517
+- **`TOI-4641`**
+  - `TOI-4641 b` | 2023 | Transit | 22.09341 | 8.18255591
+- **`TOI-4662`**
+  - `TOI-4662 b` | 2026 | Transit | 4.70343764575 | 2.87998299
+- **`TOI-4666`**
+  - `TOI-4666 b` | 2025 | Transit | 2.9089165 | 12.53164042
+- **`TOI-4724`**
+  - `TOI-4724 b` | 2026 | Transit | 3.5761 | 3.2
+- **`TOI-4734`**
+  - `TOI-4734 b` | 2025 | Transit | 6.235633 | 10.9175472
+- **`TOI-4747`**
+  - `TOI-4747 b` | 2026 | Transit | 5.21924158592 | 3.95803201
+- **`TOI-4773`**
+  - `TOI-4773 b` | 2025 | Transit | 1.7452851 | 15.22179579
+- **`TOI-4791`**
+  - `TOI-4791 b` | 2023 | Transit | 4.28088 | 12.44196858
+- **`TOI-4794`**
+  - `TOI-4794 b` | 2025 | Transit | 3.5658116 | 14.35870428
+- **`TOI-4851`**
+  - `TOI-4851 b` | 2026 | Transit | 21.60913 | 2.77
+- **`TOI-4860`**
+  - `TOI-4860 b` | 2023 | Transit | 1.5227591 | 8.7
+- **`TOI-4898`**
+  - `TOI-4898 b` | 2026 | Transit | 2.76520470167 | 3.7197954
+- **`TOI-4914`**
+  - `TOI-4914 b` | 2024 | Transit | 10.60057 | 12.87
+- **`TOI-4930`**
+  - `TOI-4930 b` | 2026 | Transit | 6.78130241498 | 6.93277225
+- **`TOI-4940`**
+  - `TOI-4940 b` | 2025 | Transit | 25.867811 | 6.61
+- **`TOI-4961`**
+  - `TOI-4961 b` | 2025 | Transit | 7.479182 | 12.34108775
+- **`TOI-4994`**
+  - `TOI-4994 b` | 2024 | Transit | 21.491984 | 8.54124329
+- **`TOI-5005`**
+  - `TOI-5005 b` | 2024 | Transit | 6.3085044 | 6.25
+- **`TOI-5007`**
+  - `TOI-5007 b` | 2026 | Transit | 2.543371 | 11.07447293
+- **`TOI-5027`**
+  - `TOI-5027 b` | 2025 | Transit | 10.24368 | 10.76062147
+- **`TOI-5076`**
+  - `TOI-5076 b` | 2024 | Transit | 23.443162 | 3.48935569
+- **`TOI-5082`**
+  - `TOI-5082.01` | 2024 | Transit | 4.240122 | 2.54811
+- **`TOI-5108`**
+  - `TOI-5108 b` | 2025 | Transit | 6.753581 | 6.6
+- **`TOI-5110`**
+  - `TOI-5110 b` | 2024 | Transit | 30.158577 | 11.98240037
+- **`TOI-5120`**
+  - `TOI-5120 b` | 2026 | Transit | 24.91645 | 10.8615023
+- **`TOI-5126`**
+  - `TOI-5126 b` | 2023 | Transit | 5.4588385 | 4.74
+  - `TOI-5126 c` | 2023 | Transit | 17.8999 | 3.86
+- **`TOI-5143`**
+  - `TOI-5143 c` | 2025 | Transit | 5.2097118 | 16.25302201
+- **`TOI-5153`**
+  - `TOI-5153 b` | 2022 | Transit | 20.33003 | 11.88151954
+- **`TOI-5159`**
+  - `TOI-5159 b` | 2026 | Transit | 5.83639428843 | 1.54732112
+- **`TOI-5160`**
+  - `TOI-5160 b` | 2026 | Transit | 4.280773256 | 2.39729851
+- **`TOI-5165`**
+  - `TOI-5165 b` | 2026 | Transit | 3.577048 | 3.32
+- **`TOI-5174`**
+  - `TOI-5174 b` | 2022 | Transit | 12.214286 | 5.351
+- **`TOI-5177`**
+  - `TOI-5177 b` | 2026 | Transit | 2.20864 | 1.93
+- **`TOI-5181`**
+  - ดาวแม่ `TOI-5181 A`
+    - `TOI-5181 A b` | 2025 | Transit | 3.8922295 | 13.34989601
+- **`TOI-5205`**
+  - `TOI-5205 b` | 2023 | Transit | 1.630757 | 11.6
+- **`TOI-5210`**
+  - `TOI-5210 b` | 2025 | Transit | 4.5661061 | 10.72699453
+- **`TOI-5217`**
+  - `TOI-5217 A b` | 2026 | Transit | 4.3712411 | 15.52443827
+- **`TOI-5218`**
+  - `TOI-5218 b` | 2024 | Transit | 4.291452 | 9.86
+- **`TOI-5232`**
+  - `TOI-5232 b` | 2024 | Transit | 4.0966692 | 12.778238
+- **`TOI-5238`**
+  - `TOI-5238 b` | 2022 | Transit | 4.872171 | 5.22
+- **`TOI-5261`**
+  - `TOI-5261 b` | 2025 | Transit | 4.1509768 | 11.60129502
+- **`TOI-5289`**
+  - `TOI-5289 b` | 2026 | Transit | 3.441056 | 4.38
+- **`TOI-5292`**
+  - ดาวแม่ `TOI-5292 A`
+    - `TOI-5292 A b` | 2026 | Transit | 2.02191 | 12.64373023
+- **`TOI-5293`**
+  - ดาวแม่ `TOI-5293 A`
+    - `TOI-5293 A b` | 2023 | Transit | 2.930289 | 11.9
+- **`TOI-5300`**
+  - `TOI-5300 b` | 2025 | Transit | 2.262196 | 9.86390302
+- **`TOI-5301`**
+  - `TOI-5301 b` | 2024 | Transit | 5.858858 | 13.09208946
+- **`TOI-5319`**
+  - `TOI-5319 b` | 2024 | Transit | 4.07853 | 2.83
+- **`TOI-5322`**
+  - `TOI-5322 b` | 2025 | Transit | 5.4233207 | 16.6117094
+- **`TOI-5335`**
+  - `TOI-5335 b` | 2026 | Transit | 3.61365988443 | 4.02422162
+- **`TOI-5340`**
+  - `TOI-5340 b` | 2025 | Transit | 4.9394392 | 15.07607904
+- **`TOI-5344`**
+  - `TOI-5344 b` | 2023 | Transit | 3.792622 | 10.60369574
+- **`TOI-5349`**
+  - `TOI-5349 b` | 2026 | Transit | 3.317921 | 10.2
+- **`TOI-5350`**
+  - `TOI-5350 b` | 2025 | Transit | 7.581367 | 12.41955062
+- **`TOI-5380`**
+  - `TOI-5380 b` | 2026 | Transit | 3.77229247873 | 3.48093238
+- **`TOI-5386`**
+  - ดาวแม่ `TOI-5386 A`
+    - `TOI-5386 A b` | 2025 | Transit | 3.62156552 | 14.70618268
+- **`TOI-5388`**
+  - `TOI-5388.01` | 2024 | Transit | 2.5946748 | 0.99
+- **`TOI-5398`**
+  - `TOI-5398 c` | 2023 | Transit | 4.77271 | 3.52
+  - `TOI-5398 b` | 2022 | Transit | 10.590547 | 10.3
+- **`TOI-5422`**
+  - `TOI-5422 b` | 2026 | Transit | 5.377219 | 9.10169233
+- **`TOI-5486`**
+  - `TOI-5486 b` | 2026 | Transit | 2.02470073205 | 3.96824928
+
+</details>
+
+<a name="systems-26"></a>
+
+<details><summary>TOI-5489 – WASP-26 · 180 ระบบ · 212 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`TOI-5489`**
+  - `TOI-5489 b` | 2025 | Transit | 3.15222 | 1.4
+  - `TOI-5489 c` | 2025 | Transit | 4.92126 | 1.28
+- **`TOI-5493`**
+  - `TOI-5493 b` | 2026 | Transit | 14.56485 | 2.36
+- **`TOI-5502`**
+  - `TOI-5502 b` | 2026 | Transit | 11.62592988285 | 4.1287378
+- **`TOI-5515`**
+  - `TOI-5515 b` | 2026 | Transit | 8.59225810839 | 2.65362762
+- **`TOI-5531`**
+  - `TOI-5531 b` | 2026 | Transit | 4.535285 | 1.46
+- **`TOI-5532`**
+  - `TOI-5532 b` | 2026 | Transit | 5.6539659431 | 2.52763693
+- **`TOI-5542`**
+  - `TOI-5542 b` | 2022 | Transit | 75.12375 | 11.30986153
+- **`TOI-5543`**
+  - `TOI-5543 b` | 2026 | Transit | 3.5424576 | 3.78
+- **`TOI-5573`**
+  - `TOI-5573 b` | 2025 | Transit | 8.79758977 | 9.75
+- **`TOI-5592`**
+  - `TOI-5592 b` | 2025 | Transit | 2.6085846 | 17.14974047
+- **`TOI-5595`**
+  - `TOI-5595 b` | 2026 | Transit | 5.99002553853 | 4.73740402
+- **`TOI-5599`**
+  - `TOI-5599 b` | 2026 | Transit | 5.43691503941 | 7.1888212
+- **`TOI-5605`**
+  - `TOI-5605 b` | 2026 | Transit | 5.91340454843 | 2.52611303
+- **`TOI-5614`**
+  - `TOI-5614 b` | 2026 | Transit | 4.17221328949 | 3.21759316
+- **`TOI-5616`**
+  - `TOI-5616 b` | 2024 | Transit | 2.002849 | 10.78
+- **`TOI-5624`**
+  - `TOI-5624 b` | 2026 | Transit | 3.3903473 | 2.314
+  - `TOI-5624 c` | 2026 | Transit | 7.885385 | 2.474
+  - `TOI-5624 d` | 2026 | Transit | 13.731468 | 3.584
+  - `TOI-5624 e` | 2026 | Transit | 21.489936 | 3.247
+  - `TOI-5624 f` | 2026 | Transit Timing Variations | 45.37 | 3.66
+- **`TOI-5628`**
+  - ดาวแม่ `TOI-5628 A`
+    - `TOI-5628 A b` | 2026 | Transit | 4.3416612 | 8.29464572
+- **`TOI-5630`**
+  - `TOI-5630 b` | 2026 | Transit | 3.22118452536 | 2.37117553
+- **`TOI-5634`**
+  - ดาวแม่ `TOI-5634 A`
+    - `TOI-5634 A b` | 2024 | Transit | 2.2035373 | 10.42
+- **`TOI-5646`**
+  - `TOI-5646 b` | 2026 | Transit | 2.4277027 | 6.61
+- **`TOI-5678`**
+  - `TOI-5678 b` | 2023 | Transit | 47.73022 | 4.91
+- **`TOI-5688`**
+  - ดาวแม่ `TOI-5688 A`
+    - `TOI-5688 A b` | 2024 | Transit | 2.94815527 | 10.3
+- **`TOI-5696`**
+  - `TOI-5696 b` | 2026 | Transit | 32.43016 | 2.59
+- **`TOI-5699`**
+  - `TOI-5699 b` | 2026 | Transit | 22.0185 | 11.16414478
+- **`TOI-5704`**
+  - `TOI-5704 b` | 2023 | Transit | 3.771116 | 3.2274
+- **`TOI-5713`**
+  - `TOI-5713 b` | 2024 | Transit | 10.441989 | 1.77
+- **`TOI-5716`**
+  - `TOI-5716 b` | 2025 | Transit | 6.7663 | 0.96
+- **`TOI-5720`**
+  - `TOI-5720 b` | 2024 | Transit | 1.4344555 | 1.09
+- **`TOI-5726`**
+  - `TOI-5726.01` | 2024 | Transit | 5.491125215 | 2.554
+- **`TOI-5728`**
+  - `TOI-5728 b` | 2025 | Transit | 11.49761 | 1.31
+- **`TOI-5730`**
+  - `TOI-5730 b` | 2026 | Transit | 1.927107 | 1.4
+- **`TOI-5734`**
+  - `TOI-5734 b` | 2026 | Transit | 6.1841876 | 2.1
+- **`TOI-5736`**
+  - `TOI-5736 b` | 2025 | Transit | 0.64899 | 1.56
+- **`TOI-5739`**
+  - `TOI-5739 b` | 2026 | Transit | 8.430524 | 2.33
+- **`TOI-5777`**
+  - `TOI-5777 b` | 2026 | Transit | 6.91716177373 | 3.09551273
+- **`TOI-5786`**
+  - `TOI-5786 b` | 2025 | Transit | 12.779107 | 8.54
+- **`TOI-5788`**
+  - `TOI-5788 b` | 2026 | Transit | 6.340758 | 1.528
+  - `TOI-5788 c` | 2026 | Transit | 16.213362 | 2.272
+- **`TOI-5789`**
+  - `TOI-5789 b` | 2026 | Radial Velocity | 2.76369 | 1.26
+  - `TOI-5789 c` | 2026 | Transit | 12.927748 | 2.86
+  - `TOI-5789 d` | 2026 | Radial Velocity | 29.65 | 1.91
+  - `TOI-5789 e` | 2026 | Radial Velocity | 62.98 | 3.43
+- **`TOI-5795`**
+  - `TOI-5795 b` | 2025 | Transit | 6.1406325 | 5.62
+- **`TOI-5799`**
+  - `TOI-5799 b` | 2024 | Transit | 4.164507 | 1.733
+  - `TOI-5799 c` | 2025 | Transit | 14.010449 | 1.76
+- **`TOI-5800`**
+  - `TOI-5800 b` | 2025 | Transit | 2.6278838 | 2.46
+- **`TOI-5803`**
+  - `TOI-5803 b` | 2023 | Transit | 5.38305 | 3.2732
+- **`TOI-5806`**
+  - `TOI-5806 b` | 2026 | Transit | 3.1856381 | 15.13212395
+- **`TOI-5807`**
+  - `TOI-5807 b` | 2026 | Transit | 14.241844 | 2.78
+- **`TOI-5811`**
+  - ดาวแม่ `TOI-5811 B`
+    - `TOI-5811 B b` | 2026 | Transit | 6.25663 | 21.96960217
+- **`TOI-5817`**
+  - `TOI-5817 b` | 2025 | Transit | 15.61031 | 3.08
+- **`TOI-5882`**
+  - `TOI-5882 b` | 2025 | Transit | 7.148972 | 11.46678726
+- **`TOI-5893`**
+  - `TOI-5893 b` | 2026 | Transit | 40.369376 | 10.90633822
+- **`TOI-5916`**
+  - `TOI-5916 b` | 2026 | Transit | 2.36712341 | 11.8
+- **`TOI-5926`**
+  - `TOI-5926 b` | 2026 | Transit | 3.81122794237 | 7.56807148
+- **`TOI-5938`**
+  - `TOI-5938 b` | 2026 | Transit | 2.260424 | 3.82
+- **`TOI-5947`**
+  - `TOI-5947 b` | 2026 | Transit | 6.932019 | 2.32
+- **`TOI-5958`**
+  - `TOI-5958 b` | 2026 | Transit | 2.3061827 | 1.89
+- **`TOI-5961`**
+  - `TOI-5961 b` | 2026 | Transit | 1.6175105 | 1.38
+- **`TOI-5968`**
+  - `TOI-5968 b` | 2026 | Transit | 9.21504 | 2.69
+- **`TOI-5997`**
+  - `TOI-5997 b` | 2026 | Transit | 5.655007 | 1.45
+- **`TOI-6000`**
+  - `TOI-6000 b` | 2025 | Transit | 0.448959 | 0.94
+- **`TOI-6002`**
+  - `TOI-6002 b` | 2024 | Transit | 10.904821 | 1.65
+- **`TOI-6008`**
+  - `TOI-6008 b` | 2024 | Transit | 0.8574347 | 1.03
+- **`TOI-6016`**
+  - `TOI-6016 b` | 2024 | Transit | 4.023687 | 13.67495645
+- **`TOI-6019`**
+  - `TOI-6019 b` | 2026 | Transit | 14.547952 | 12.3
+- **`TOI-6029`**
+  - `TOI-6029 b` | 2024 | Transit | 5.7987 | 14.39233122
+- **`TOI-6034`**
+  - `TOI-6034 b` | 2024 | Transit | 2.576184 | 11.92
+- **`TOI-6038`**
+  - ดาวแม่ `TOI-6038 A`
+    - `TOI-6038 A b` | 2025 | Transit | 5.8267311 | 6.41
+- **`TOI-6041`**
+  - `TOI-6041 b` | 2025 | Transit | 26.04945 | 4.55
+  - `TOI-6041 c` | 2025 | Radial Velocity | 88 | 10.5
+- **`TOI-6054`**
+  - `TOI-6054.01` | 2024 | Transit | 7.501428 | 2.64
+  - `TOI-6054.02` | 2024 | Transit | 12.563636 | 2.82
+- **`TOI-6080`**
+  - `TOI-6080 b` | 2026 | Transit | 8.05562348084 | 3.32424168
+- **`TOI-6086`**
+  - `TOI-6086 b` | 2024 | Transit | 1.3888725 | 1.18
+- **`TOI-6098`**
+  - `TOI-6098 b` | 2026 | Transit | 2.72985 | 2.3
+- **`TOI-6109`**
+  - `TOI-6109 b` | 2025 | Transit | 5.690476 | 4.8704
+  - `TOI-6109 c` | 2025 | Transit | 8.538878 | 4.8326
+- **`TOI-6130`**
+  - `TOI-6130 b` | 2024 | Transit | 2.392679 | 14.3474953
+- **`TOI-6158`**
+  - `TOI-6158 b` | 2026 | Transit | 3.0446899 | 10.4
+- **`TOI-6174`**
+  - `TOI-6174 b` | 2026 | Transit | 3.5247 | 7.83
+- **`TOI-6223`**
+  - `TOI-6223 b` | 2025 | Transit | 3.855219 | 5.07
+- **`TOI-6255`**
+  - `TOI-6255 b` | 2024 | Transit | 0.23818244 | 1.079
+- **`TOI-6281`**
+  - `TOI-6281 b` | 2026 | Transit | 1.05426244177 | 1.92416074
+- **`TOI-6303`**
+  - `TOI-6303 b` | 2025 | Transit | 9.485236 | 11.59
+- **`TOI-6310`**
+  - `TOI-6310 b` | 2026 | Transit | 3.352783 | 3.11
+- **`TOI-6324`**
+  - `TOI-6324 b` | 2025 | Transit | 0.279221 | 1.059
+- **`TOI-6330`**
+  - `TOI-6330 b` | 2025 | Transit | 6.8500246 | 10.89
+- **`TOI-6383`**
+  - ดาวแม่ `TOI-6383 A`
+    - `TOI-6383 A b` | 2024 | Transit | 1.79058695 | 11.29
+- **`TOI-6393`**
+  - `TOI-6393 b` | 2026 | Transit | 9.53176110329 | 2.75958542
+- **`TOI-6420`**
+  - `TOI-6420 b` | 2025 | Transit | 6.961508 | 11.93756445
+- **`TOI-6434`**
+  - `TOI-6434 b` | 2026 | Transit | 2.77791 | 4.61
+- **`TOI-6448`**
+  - `TOI-6448 b` | 2025 | Transit | 14.844261 | 8.47398941
+- **`TOI-6450`**
+  - `TOI-6450 b` | 2026 | Transit | 3.6099 | 7.36
+- **`TOI-6457`**
+  - `TOI-6457 b` | 2026 | Transit | 41.418325 | 10.25621734
+- **`TOI-6478`**
+  - `TOI-6478 b` | 2025 | Transit | 34.005019 | 4.6
+- **`TOI-6564`**
+  - `TOI-6564 b` | 2026 | Transit | 3.985413 | 16.39873876
+- **`TOI-6628`**
+  - `TOI-6628 b` | 2025 | Transit | 18.18424 | 10.98480109
+- **`TOI-6647`**
+  - `TOI-6647 b` | 2026 | Transit | 3.9992 | 3.97
+- **`TOI-6649`**
+  - `TOI-6649 b` | 2026 | Transit | 5.9877995 | 14.01122587
+- **`TOI-6651`**
+  - `TOI-6651 b` | 2024 | Transit | 5.056973 | 5.09
+- **`TOI-6662`**
+  - `TOI-6662 b` | 2026 | Transit | 0.29395013 | 0.94
+- **`TOI-6677`**
+  - `TOI-6677 b` | 2026 | Transit | 5.45060661625 | 5.83507112
+- **`TOI-6692`**
+  - `TOI-6692 b` | 2026 | Transit | 131.125 | 11.67975789
+- **`TOI-6695`**
+  - `TOI-6695 b` | 2025 | Transit | 80.389 | 9.52763359
+  - `TOI-6695 c` | 2025 | Radial Velocity | 242.4 | 13.6
+- **`TOI-6699`**
+  - `TOI-6699 b` | 2026 | Transit | 5.32005926761 | 2.32645266
+- **`TOI-6707`**
+  - `TOI-6707 b` | 2026 | Transit | 3.83479363758 | 5.72673066
+- **`TOI-6716`**
+  - `TOI-6716 b` | 2026 | Transit | 4.7185898 | 0.982
+- **`TOI-6729`**
+  - `TOI-6729 b` | 2026 | Transit | 3.863828 | 1.61
+  - `TOI-6729 c` | 2026 | Transit | 7.837435 | 3.01
+- **`TOI-6842`**
+  - `TOI-6842 A b` | 2026 | Transit | 5.3917436 | 18.46119121
+- **`TOI-6884`**
+  - `TOI-6884 b` | 2026 | Transit | 4.808264 | 10.39072511
+- **`TOI-6894`**
+  - `TOI-6894 b` | 2025 | Transit | 3.37077196 | 9.5836785
+- **`TOI-6954`**
+  - `TOI-6954 b` | 2026 | Transit | 4.02074127419 | 3.63524486
+- **`TOI-6963`**
+  - ดาวแม่ `IRAS 04125+2902`
+    - `IRAS 04125+2902 b` | 2024 | Transit | 8.834978 | 10.73820351
+- **`TOI-7008`**
+  - `TOI-7008 b` | 2026 | Transit | 0.84069041367 | 4.94735276
+- **`TOI-7009`**
+  - `TOI-7009 b` | 2026 | Transit | 2.3206612 | 3.71
+- **`TOI-7025`**
+  - `TOI-7025 b` | 2026 | Transit | 66.995436 | 12.91274577
+- **`TOI-7041`**
+  - `TOI-7041 b` | 2025 | Transit | 9.691 | 11.43316031
+- **`TOI-7149`**
+  - `TOI-7149 b` | 2025 | Transit | 2.65206166 | 13.2
+- **`TOI-7155`**
+  - `TOI-7155 b` | 2026 | Transit | 3.89489711981 | 2.40821473
+- **`TOI-7166`**
+  - `TOI-7166 b` | 2025 | Transit | 12.92063621 | 2.01
+- **`TOI-7169`**
+  - `TOI-7169 b` | 2026 | Transit | 3.4373125 | 16.53324653
+- **`TOI-7176`**
+  - `TOI-7176 b` | 2026 | Transit | 47.88 | 8.6533331
+- **`TOI-7182`**
+  - `TOI-7182 b` | 2026 | Transit | 14.71272 | 2.08
+- **`TOI-7189`**
+  - `TOI-7189 b` | 2026 | Transit | 2.89055 | 10.9
+- **`TOI-7265`**
+  - ดาวแม่ `TOI-7265 B`
+    - `TOI-7265 B b` | 2026 | Transit | 4.17232 | 10.7
+- **`TOI-7333`**
+  - `TOI-7333 b` | 2026 | Transit | 6.26449803661 | 2.09469416
+- **`TOI-7384`**
+  - `TOI-7384 b` | 2026 | Transit | 6.2340258 | 3.56
+- **`TOI-7389`**
+  - `TOI-7389 b` | 2026 | Transit | 26.345368 | 1.35
+- **`TOI-7391`**
+  - `TOI-7391 b` | 2026 | Transit | 7.4108814 | 1.58
+- **`TOI-7393`**
+  - `TOI-7393 b` | 2026 | Transit | 3.33708 | 11.3
+- **`TOI-7394`**
+  - ดาวแม่ `TOI-7394 B`
+    - `TOI-7394 B b` | 2026 | Transit | 1.252995 | 11.5
+- **`TOI-7510`**
+  - `TOI-7510 b` | 2025 | Transit | 11.530869 | 7.31
+  - `TOI-7510 c` | 2025 | Transit | 22.5687423 | 10.81
+  - `TOI-7510 d` | 2025 | Transit | 48.864468 | 10.52
+- **`TOI-7550`**
+  - `TOI-7550 b` | 2026 | Transit | 4.984407 | 2.9
+- **`TRAPPIST-1`** <a name="trappist-1"></a>
+  - `TRAPPIST-1 b` | 2016 | Transit | 1.510826 | 1.116
+  - `TRAPPIST-1 c` | 2016 | Transit | 2.421937 | 1.097
+  - `TRAPPIST-1 d` | 2016 | Transit | 4.049219 | 0.788
+  - `TRAPPIST-1 e` | 2017 | Transit | 6.101013 | 0.92
+  - `TRAPPIST-1 f` | 2017 | Transit | 9.20754 | 1.045
+  - `TRAPPIST-1 g` | 2017 | Transit | 12.352446 | 1.129
+  - `TRAPPIST-1 h` | 2017 | Transit | 18.772866 | 0.755
+- **`TrES-1`**
+  - `TrES-1 b` | 2004 | Transit | 3.03007 | 12.66617
+- **`TrES-2`**
+  - `TrES-2 b` | 2006 | Transit | 2.47063 | 15.24424
+- **`TrES-3`**
+  - `TrES-3 b` | 2007 | Transit | 1.30618581 | 14.975
+- **`TrES-4`**
+  - `TrES-4 b` | 2007 | Transit | 3.55395 | 18.04649
+- **`TrES-5`**
+  - `TrES-5 b` | 2011 | Transit | 1.48224686 | 13.383546
+- **`TWA 7`**
+  - `TWA 7 b` | 2025 | Imaging | — | 12.7
+- **`TYC 0434-04538-1`**
+  - `TYC 0434-04538-1 b` | 2021 | Radial Velocity | 193.2 | 12.7
+- **`TYC 1422-614-1`**
+  - `TYC 1422-614-1 b` | 2014 | Radial Velocity | 198.4 | 13.3
+  - `TYC 1422-614-1 c` | 2014 | Radial Velocity | 559.3 | 12.5
+- **`TYC 2187-512-1`**
+  - `TYC 2187-512-1 b` | 2022 | Radial Velocity | 691.9 | 12.5
+- **`TYC 3318-01333-1`**
+  - `TYC 3318-01333-1 b` | 2018 | Radial Velocity | 562 | 13.1
+- **`TYC 3667-1280-1`**
+  - `TYC 3667-1280-1 b` | 2016 | Radial Velocity | 26.468 | 12.8
+- **`TYC 4282-00605-1`**
+  - `TYC 4282-00605-1 b` | 2017 | Radial Velocity | 101.54 | 12.4
+- **`TYC 4998-437-1`**
+  - `TYC 4998-437-1 b` | 2026 | Astrometry | 558.67 | 11.9
+- **`TYC 8998-760-1`**
+  - `TYC 8998-760-1 b` † | 2020 | Imaging | — | 21.18497352
+  - `TYC 8998-760-1 c` | 2020 | Imaging | — | 12.3299
+- **`UCAC3 113-933`**
+  - `UCAC3 113-933 b` | 2024 | Imaging | — | 12.1
+- **`UCAC4 328-061594`**
+  - `UCAC4 328-061594 b` | 2024 | Imaging | — | 12.1
+- **`UKIRT-2017-BLG-001L`**
+  - `UKIRT-2017-BLG-001L b` | 2018 | Microlensing | — | 13.7
+- **`ups And`**
+  - `ups And b` | 1996 | Radial Velocity | 4.617033 | 14
+  - `ups And c` | 1999 | Radial Velocity | 241.258 | 12.3
+  - `ups And d` | 1999 | Radial Velocity | 1276.46 | 12.5
+- **`ups Leo`**
+  - `ups Leo b` | 2021 | Radial Velocity | 385.2 | 14.2
+- **`USco1556 A`**
+  - `USco1556 b` | 2019 | Imaging | — | 12.3
+- **`USco1621 A`**
+  - `USco1621 b` | 2019 | Imaging | — | 12.2
+- **`USco CTIO 108`**
+  - `USco CTIO 108 b` | 2008 | Imaging | — | 12.3
+- **`UZ For`**
+  - `UZ For c` CB | 2011 | Eclipse Timing Variations | 1916.25 | —
+  - `UZ For b` CB | 2011 | Eclipse Timing Variations | 5840 | —
+- **`V0391 Peg`**
+  - `V0391 Peg b` | 2007 | Pulsation Timing Variations | 1170 | 13.1
+- **`V830 Tau`**
+  - `V830 Tau b` † | 2016 | Radial Velocity | 4.927 | 14
+- **`V1298 Tau`**
+  - `V1298 Tau c` | 2019 | Transit | 8.249164 | 5.08
+  - `V1298 Tau d` | 2019 | Transit | 12.401394 | 6.53
+  - `V1298 Tau b` | 2019 | Transit | 24.140006 | 9.41
+  - `V1298 Tau e` | 2019 | Transit | 48.677714 | 10.17
+- **`V2376 Ori`**
+  - `V2376 Ori b` | 2025 | Imaging | — | 87.20586985
+- **`VHS J125601.92-125723.9`**
+  - `VHS J125601.92-125723.9 b` CB | 2015 | Imaging | 5800000 | 13.67495645
+- **`WASP-1`**
+  - `WASP-1 b` | 2007 | Transit | 2.5199454 | 16.623
+- **`WASP-2`**
+  - `WASP-2 b` | 2007 | Transit | 2.152175 | 12.116929
+- **`WASP-3`**
+  - `WASP-3 b` | 2007 | Transit | 1.84683 | 15.91678
+- **`WASP-4`**
+  - `WASP-4 b` | 2007 | Transit | 1.338230994 | 15.12091496
+- **`WASP-5`**
+  - `WASP-5 b` | 2008 | Transit | 1.6284279 | 12.184
+- **`WASP-6`**
+  - `WASP-6 b` | 2009 | Transit | 3.3610026 | 12.5428494
+- **`WASP-7`**
+  - `WASP-7 b` | 2008 | Transit | 4.9546416 | 14.90797
+- **`WASP-8`**
+  - `WASP-8 b` | 2010 | Transit | 8.15872 | 12.66617
+  - `WASP-8 c` | 2013 | Radial Velocity | 4323 | 12.5
+- **`WASP-10`**
+  - `WASP-10 b` | 2008 | Transit | 3.0927616 | 12.106
+- **`WASP-11`**
+  - `WASP-11 b` | 2008 | Transit | 3.72247 | 12.44199
+- **`WASP-12`**
+  - `WASP-12 b` | 2008 | Transit | 1.091418901 | 22.02564708
+- **`WASP-13`**
+  - `WASP-13 b` | 2009 | Transit | 4.35301101 | 16.0288424
+- **`WASP-14`**
+  - `WASP-14 b` | 2008 | Transit | 2.24375 | 15.46842
+- **`WASP-15`**
+  - `WASP-15 b` | 2009 | Transit | 3.7521 | 15.80469
+- **`WASP-16`**
+  - `WASP-16 b` | 2009 | Transit | 3.1186 | 13.67498
+- **`WASP-17`**
+  - `WASP-17 b` | 2009 | Transit | 3.73543 | 20.96083
+- **`WASP-18`**
+  - `WASP-18 b` | 2009 | Transit | 0.94145223 | 13.89913607
+- **`WASP-19`**
+  - `WASP-19 b` | 2009 | Transit | 0.78883852 | 15.86070769
+- **`WASP-20`**
+  - `WASP-20 b` | 2015 | Transit | 4.89964477 | 15.46839337
+- **`WASP-21`**
+  - `WASP-21 b` | 2010 | Transit | 4.322482 | 11.99
+- **`WASP-22`**
+  - `WASP-22 b` | 2010 | Transit | 3.53269 | 13.78707
+- **`WASP-23`**
+  - `WASP-23 b` | 2010 | Transit | 2.9444256 | 10.783
+- **`WASP-24`**
+  - `WASP-24 b` | 2010 | Transit | 2.34121 | 15.46842
+- **`WASP-25`**
+  - `WASP-25 b` | 2010 | Transit | 3.7648337 | 13.80946422
+- **`WASP-26`**
+  - `WASP-26 b` | 2010 | Transit | 2.7566 | 13.56289
+
+</details>
+
+<a name="systems-27"></a>
+
+<details><summary>WASP-28 – ZTF J1828+2308 · 177 ระบบ · 197 ดาวเคราะห์</summary>
+
+ชื่อ | ปีค้นพบ | วิธีค้นพบ | คาบ (วัน) | รัศมี (โลก = 1)
+
+- **`WASP-28`**
+  - `WASP-28 b` | 2014 | Transit | 3.40883495 | 13.66374747
+- **`WASP-29`**
+  - `WASP-29 b` | 2010 | Transit | 3.92273 | 8.63093
+- **`WASP-31`**
+  - `WASP-31 b` | 2010 | Transit | 3.4059096 | 17.363
+- **`WASP-32`**
+  - `WASP-32 b` | 2010 | Transit | 2.71866 | 10.76064
+- **`WASP-33`**
+  - `WASP-33 b` | 2010 | Transit | 1.21987 | 17.855937
+- **`WASP-34`**
+  - `WASP-34 b` | 2010 | Transit | 4.31768 | 11.209
+- **`WASP-35`**
+  - `WASP-35 b` | 2011 | Transit | 3.16158 | 14.5717
+- **`WASP-36`**
+  - `WASP-36 b` | 2011 | Transit | 1.53736596 | 14.874343
+- **`WASP-37`**
+  - `WASP-37 b` | 2010 | Transit | 3.577469 | 13.002
+- **`WASP-38`**
+  - `WASP-38 b` | 2010 | Transit | 6.87188 | 13.78707
+- **`WASP-39`**
+  - `WASP-39 b` | 2011 | Transit | 4.0552941 | 14.336311
+- **`WASP-41`**
+  - `WASP-41 b` | 2011 | Transit | 3.0524 | 12.3299
+  - `WASP-41 c` | 2015 | Radial Velocity | 421 | 13.1
+- **`WASP-42`**
+  - `WASP-42 b` | 2012 | Transit | 4.9816819 | 12.576498
+- **`WASP-43`**
+  - `WASP-43 b` | 2011 | Transit | 0.813475 | 10.424
+- **`WASP-44`**
+  - `WASP-44 b` | 2011 | Transit | 2.423804 | 12.3299
+- **`WASP-45`**
+  - `WASP-45 b` | 2011 | Transit | 3.126089 | 10.603714
+- **`WASP-46`**
+  - `WASP-46 b` | 2011 | Transit | 1.43036763 | 13.159366
+- **`WASP-47`**
+  - `WASP-47 e` | 2015 | Transit | 0.78961 | 1.83
+  - `WASP-47 b` | 2012 | Transit | 4.159151 | 12.86
+  - `WASP-47 d` | 2015 | Transit | 9.030501 | 3.65
+  - `WASP-47 c` | 2015 | Radial Velocity | 589.57 | —
+- **`WASP-48`**
+  - `WASP-48 b` | 2011 | Transit | 2.14363 | 16.8135
+- **`WASP-49`**
+  - `WASP-49 b` | 2012 | Transit | 2.78174 | 12.44199
+- **`WASP-50`**
+  - `WASP-50 b` | 2011 | Transit | 1.9551 | 13.069694
+- **`WASP-52`**
+  - `WASP-52 b` | 2012 | Transit | 1.7497798 | 14.24
+- **`WASP-53`**
+  - `WASP-53 b` | 2017 | Transit | 3.3098443 | 12.038466
+  - `WASP-53 c` | 2017 | Radial Velocity | >2840 | —
+- **`WASP-54`**
+  - `WASP-54 b` | 2012 | Transit | 3.69364 | 17.71022
+- **`WASP-55`**
+  - `WASP-55 b` | 2012 | Transit | 4.465631 | 14.72860064
+- **`WASP-56`**
+  - `WASP-56 b` | 2012 | Transit | 4.6171 | 10.53646
+- **`WASP-57`**
+  - `WASP-57 b` | 2012 | Transit | 2.83891856 | 11.76945
+- **`WASP-58`**
+  - `WASP-58 b` | 2012 | Transit | 5.01718 | 16.02887
+- **`WASP-59`**
+  - `WASP-59 b` | 2012 | Transit | 7.919585 | 8.687
+- **`WASP-60`**
+  - `WASP-60 b` | 2012 | Transit | 4.305 | 9.86392
+- **`WASP-61`**
+  - `WASP-61 b` | 2012 | Transit | 3.8559 | 15.80469
+- **`WASP-62`**
+  - `WASP-62 b` | 2012 | Transit | 4.41195 | 14.79588
+- **`WASP-63`**
+  - `WASP-63 b` | 2012 | Transit | 4.37808 | 15.80469
+- **`WASP-64`**
+  - `WASP-64 b` | 2012 | Transit | 1.5732918 | 14.247
+- **`WASP-65`**
+  - `WASP-65 b` | 2013 | Transit | 2.3114243 | 12.464
+- **`WASP-66`**
+  - `WASP-66 b` | 2012 | Transit | 4.08605 | 15.6926
+- **`WASP-67`**
+  - `WASP-67 b` | 2012 | Transit | 4.61442 | 12.89035
+- **`WASP-68`**
+  - `WASP-68 b` | 2014 | Transit | 5.0843 | 14.79588
+- **`WASP-69`**
+  - `WASP-69 b` | 2014 | Transit | 3.86813881 | 11.21
+- **`WASP-70`**
+  - ดาวแม่ `WASP-70 A`
+    - `WASP-70 A b` | 2014 | Transit | 3.7130203 | 13.047
+- **`WASP-71`**
+  - `WASP-71 b` | 2012 | Transit | 2.90367 | 13.22662
+- **`WASP-72`**
+  - `WASP-72 b` | 2012 | Transit | 2.21673 | 14.45961
+- **`WASP-73`**
+  - `WASP-73 b` | 2014 | Transit | 4.08722 | 15.91678
+- **`WASP-74`**
+  - `WASP-74 b` | 2015 | Transit | 2.13775 | 15.24424
+- **`WASP-75`**
+  - `WASP-75 b` | 2013 | Transit | 2.484193 | 14.235
+- **`WASP-76`**
+  - `WASP-76 b` | 2016 | Transit | 1.80988198 | 20.78145022
+- **`WASP-77`**
+  - ดาวแม่ `WASP-77 A`
+    - `WASP-77 A b` | 2012 | Transit | 1.360029395 | 13.56
+- **`WASP-78`**
+  - `WASP-78 b` | 2012 | Transit | 2.17518 | 21.63337
+- **`WASP-79`**
+  - `WASP-79 b` | 2012 | Transit | 3.662392 | 17.14974047
+- **`WASP-80`**
+  - `WASP-80 b` | 2012 | Transit | 3.06785234 | 11.197791
+- **`WASP-81`**
+  - `WASP-81 b` | 2017 | Transit | 2.7164762 | 16.017661
+- **`WASP-82`**
+  - `WASP-82 b` | 2015 | Transit | 2.70579 | 18.15858
+- **`WASP-83`**
+  - `WASP-83 b` | 2015 | Transit | 4.971252 | 11.65736
+- **`WASP-84`**
+  - `WASP-84 c` | 2023 | Transit | 1.4468849 | 1.95
+  - `WASP-84 b` | 2014 | Transit | 8.52349648 | 10.72
+- **`WASP-85`**
+  - ดาวแม่ `WASP-85 A`
+    - `WASP-85 A b` | 2016 | Transit | 2.6556777 | 13.89916
+- **`WASP-87`**
+  - `WASP-87 b` | 2016 | Transit | 1.682795 | 15.524465
+- **`WASP-88`**
+  - `WASP-88 b` | 2014 | Transit | 4.954 | 16.36514
+- **`WASP-89`**
+  - `WASP-89 b` | 2015 | Transit | 3.3564227 | 11.65736
+- **`WASP-90`**
+  - `WASP-90 b` | 2016 | Transit | 3.916243 | 18.27067
+- **`WASP-91`**
+  - `WASP-91 b` | 2017 | Transit | 2.798581 | 11.54527
+- **`WASP-92`**
+  - `WASP-92 b` | 2016 | Transit | 2.1746742 | 16.376349
+- **`WASP-93`**
+  - `WASP-93 b` | 2016 | Transit | 2.7325321 | 17.900773
+- **`WASP-94`**
+  - ดาวแม่ `WASP-94 A`
+    - `WASP-94 A b` | 2014 | Transit | 3.95019 | 17.71022
+  - ดาวแม่ `WASP-94 B`
+    - `WASP-94 B b` | 2014 | Radial Velocity | 2.00839 | 14.1
+- **`WASP-95`**
+  - `WASP-95 b` | 2014 | Transit | 2.18467 | 13.78707
+- **`WASP-96`**
+  - `WASP-96 b` | 2014 | Transit | 3.4252602 | 13.45
+- **`WASP-97`**
+  - `WASP-97 b` | 2014 | Transit | 2.07276 | 12.77826
+- **`WASP-98`**
+  - `WASP-98 b` | 2014 | Transit | 2.96264036 | 12.823096
+- **`WASP-99`**
+  - `WASP-99 b` | 2014 | Transit | 5.75251 | 11.43318
+- **`WASP-100`**
+  - `WASP-100 b` | 2014 | Transit | 2.84938 | 14.90797
+- **`WASP-101`**
+  - `WASP-101 b` | 2014 | Transit | 3.58572 | 16.02887
+- **`WASP-102`**
+  - `WASP-102 b` | 2025 | Transit | 2.709813 | 14.90794433
+- **`WASP-103`**
+  - `WASP-103 b` | 2014 | Transit | 0.925542 | 17.127
+- **`WASP-104`**
+  - `WASP-104 b` | 2014 | Transit | 1.7554137 | 12.745
+- **`WASP-105`**
+  - `WASP-105 b` | 2017 | Transit | 7.87288 | 10.76064
+- **`WASP-106`**
+  - `WASP-106 b` | 2014 | Transit | 9.28969 | 12.10569916
+- **`WASP-107`**
+  - `WASP-107 b` | 2017 | Transit | 5.7214875 | 10.48039695
+  - `WASP-107 c` | 2020 | Radial Velocity | 1091 | 13
+- **`WASP-108`**
+  - `WASP-108 b` | 2020 | Transit | 2.67555212374 | 15.13212395
+- **`WASP-110`**
+  - `WASP-110 b` | 2021 | Transit | 3.7784022 | 13.19297028
+- **`WASP-113`**
+  - `WASP-113 b` | 2016 | Transit | 4.54216874538 | 15.793481
+- **`WASP-114`**
+  - `WASP-114 b` | 2016 | Transit | 1.5487743 | 15.008851
+- **`WASP-116`**
+  - `WASP-116 b` | 2025 | Transit | 6.6132 | 13.67495645
+- **`WASP-117`**
+  - `WASP-117 b` | 2014 | Transit | 10.02165 | 11.88154
+- **`WASP-118`**
+  - `WASP-118 b` | 2016 | Transit | 4.0460435 | 16.14096
+- **`WASP-119`**
+  - `WASP-119 b` | 2016 | Transit | 2.49979 | 15.6926
+- **`WASP-120`**
+  - `WASP-120 b` | 2016 | Transit | 3.61126721 | 15.58048317
+- **`WASP-121`**
+  - `WASP-121 b` | 2016 | Transit | 1.27492504 | 19.52604438
+- **`WASP-123`**
+  - `WASP-123 b` | 2016 | Transit | 2.97764359 | 15.13212395
+- **`WASP-124`**
+  - `WASP-124 b` | 2016 | Transit | 3.37265 | 13.89916
+- **`WASP-126`**
+  - `WASP-126 b` | 2016 | Transit | 3.28883 | 10.51358773
+- **`WASP-127`**
+  - `WASP-127 b` | 2016 | Transit | 4.17806203 | 14.694999
+- **`WASP-129`**
+  - `WASP-129 b` | 2016 | Transit | 5.748145 | 10.42437
+- **`WASP-130`**
+  - `WASP-130 b` | 2016 | Transit | 11.55098 | 9.97601
+- **`WASP-131`**
+  - `WASP-131 b` | 2016 | Transit | 5.3220125 | 13.74221034
+- **`WASP-132`**
+  - `WASP-132 c` | 2022 | Transit | 1.01153624 | 1.841
+  - `WASP-132 b` | 2016 | Transit | 7.1335164 | 10.09929161
+  - `WASP-132 d` | 2024 | Radial Velocity | 1816.6 | 12.8
+- **`WASP-133`**
+  - `WASP-133 b` | 2016 | Transit | 2.176423 | 13.56289
+- **`WASP-135`**
+  - `WASP-135 b` | 2015 | Transit | 1.4013794 | 14.5717
+- **`WASP-136`**
+  - `WASP-136 b` | 2016 | Transit | 5.21536178778 | 16.81347105
+- **`WASP-138`**
+  - `WASP-138 b` | 2016 | Transit | 3.634433 | 12.21781
+- **`WASP-139`**
+  - `WASP-139 b` | 2016 | Transit | 5.924262 | 8.9672
+- **`WASP-140`**
+  - `WASP-140 b` | 2016 | Transit | 2.23598448 | 14.23540549
+- **`WASP-141`**
+  - `WASP-141 b` | 2016 | Transit | 3.310651 | 13.56289
+- **`WASP-142`**
+  - `WASP-142 b` | 2016 | Transit | 2.052868 | 17.14977
+- **`WASP-144`**
+  - `WASP-144 b` | 2018 | Transit | 2.2783152 | 9.52765
+- **`WASP-145`**
+  - ดาวแม่ `WASP-145 A`
+    - `WASP-145 A b` | 2018 | Transit | 1.7690381 | 10.0881
+- **`WASP-147`**
+  - `WASP-147 b` | 2018 | Transit | 4.60273 | 12.498035
+- **`WASP-148`**
+  - `WASP-148 b` | 2020 | Transit | 8.803809 | 8.47398941
+  - `WASP-148 c` | 2020 | Radial Velocity | 34.524 | 13.9
+- **`WASP-149`**
+  - `WASP-149 b` | 2025 | Transit | 1.332813 | 15.24421375
+- **`WASP-150`**
+  - `WASP-150 b` | 2020 | Transit | 5.644207 | 11.99363
+- **`WASP-151`**
+  - `WASP-151 b` | 2017 | Transit | 4.5334775 | 13.30506009
+- **`WASP-153`**
+  - `WASP-153 b` | 2017 | Transit | 3.332609 | 17.37395
+- **`WASP-154`**
+  - `WASP-154 b` | 2025 | Transit | 3.811678 | 10.76062147
+- **`WASP-155`**
+  - `WASP-155 b` | 2025 | Transit | 3.110413 | 13.45077684
+- **`WASP-156`**
+  - `WASP-156 b` | 2017 | Transit | 3.8361629 | 6.15
+- **`WASP-157`**
+  - `WASP-157 b` | 2016 | Transit | 3.951623 | 11.19
+- **`WASP-158`**
+  - `WASP-158 b` | 2018 | Transit | 3.656333 | 11.99363
+- **`WASP-159`**
+  - `WASP-159 b` | 2018 | Transit | 3.840401 | 15.46842
+- **`WASP-160`**
+  - ดาวแม่ `WASP-160 B`
+    - `WASP-160 B b` | 2018 | Transit | 3.7684952 | 12.21781
+- **`WASP-161`**
+  - `WASP-161 b` | 2018 | Transit | 5.4060425 | 12.811887
+- **`WASP-162`**
+  - `WASP-162 b` | 2018 | Transit | 9.62468 | 11.209
+- **`WASP-163`**
+  - `WASP-163 b` | 2018 | Transit | 1.6096884 | 13.473218
+- **`WASP-164`**
+  - `WASP-164 b` | 2018 | Transit | 1.7771255 | 12.643752
+- **`WASP-165`**
+  - `WASP-165 b` | 2018 | Transit | 3.465509 | 14.12334
+- **`WASP-166`**
+  - `WASP-166 b` | 2019 | Transit | 5.44354 | 7.06167
+- **`WASP-167`**
+  - `WASP-167 b` | 2017 | Transit | 2.0219596 | 17.71022
+- **`WASP-168`**
+  - `WASP-168 b` | 2018 | Transit | 4.153658 | 16.8135
+- **`WASP-169`**
+  - `WASP-169 b` | 2019 | Transit | 5.6114118 | 14.616536
+- **`WASP-170`**
+  - `WASP-170 b` | 2018 | Transit | 2.34478022 | 12.285064
+- **`WASP-171`**
+  - `WASP-171 b` | 2019 | Transit | 3.8186244 | 10.98482
+- **`WASP-172`**
+  - `WASP-172 b` | 2018 | Transit | 5.477433 | 17.59813
+- **`WASP-173`**
+  - ดาวแม่ `WASP-173 A`
+    - `WASP-173 A b` | 2018 | Transit | 1.38665318 | 13.4508
+- **`WASP-174`**
+  - `WASP-174 b` | 2018 | Transit | 4.2337005 | 16.10730527
+- **`WASP-175`**
+  - `WASP-175 b` | 2019 | Transit | 3.0652907 | 13.540472
+- **`WASP-176`**
+  - `WASP-176 b` | 2020 | Transit | 3.899052 | 16.869545
+- **`WASP-177`**
+  - `WASP-177 b` | 2019 | Transit | 3.071722 | 17.71022
+- **`WASP-178`**
+  - `WASP-178 b` | 2019 | Transit | 3.3448285 | 20.28829
+- **`WASP-180`**
+  - ดาวแม่ `WASP-180 A`
+    - `WASP-180 A b` | 2019 | Transit | 3.409264 | 13.89916
+- **`WASP-181`**
+  - `WASP-181 b` | 2019 | Transit | 4.5195064 | 13.271456
+- **`WASP-182`**
+  - `WASP-182 b` | 2019 | Transit | 3.3769848 | 9.52765
+- **`WASP-183`**
+  - `WASP-183 b` | 2019 | Transit | 4.1117771 | 16.47723
+- **`WASP-184`**
+  - `WASP-184 b` | 2019 | Transit | 5.1817 | 14.90797
+- **`WASP-185`**
+  - `WASP-185 b` | 2019 | Transit | 9.38755 | 14.01125
+- **`WASP-186`**
+  - `WASP-186 b` | 2020 | Transit | 5.026799 | 12.44199
+- **`WASP-187`**
+  - `WASP-187 b` | 2020 | Transit | 5.147878 | 18.38276
+- **`WASP-188`**
+  - `WASP-188 b` | 2025 | Transit | 5.748916 | 14.81827249
+- **`WASP-189`**
+  - `WASP-189 b` | 2020 | Transit | 2.724033 | 18.14733975
+- **`WASP-190`**
+  - `WASP-190 b` | 2019 | Transit | 5.367753 | 12.89035
+- **`WASP-192`**
+  - `WASP-192 b` | 2019 | Transit | 2.8786765 | 13.78707
+- **`WASP-193`**
+  - `WASP-193 b` | 2023 | Transit | 6.2463475 | 14.78464554
+- **`WASP-194`**
+  - `WASP-194 b` | 2025 | Transit | 3.183387 | 15.47960235
+- **`WASP-195`**
+  - `WASP-195 b` | 2025 | Transit | 5.051928 | 10.31226224
+- **`WASP-197`**
+  - `WASP-197 b` | 2025 | Transit | 5.167228 | 14.44837612
+- **`WD 0806-661`**
+  - `WD 0806-661 b` | 2011 | Imaging | — | 12.10569916
+- **`WD 1856+534`**
+  - `WD 1856+534 b` | 2020 | Transit | 1.4079405 | 10.4
+- **`Wendelstein-1`**
+  - `Wendelstein-1 b` | 2020 | Transit | 2.663416 | 11.5609626
+- **`Wendelstein-2`**
+  - `Wendelstein-2 b` | 2020 | Transit | 1.7522239 | 12.9934728
+- **`WISE J033605.05-014350.4`**
+  - `WISE J033605.05-014350.4 b` | 2023 | Imaging | 2560 | 12.6
+- **`WISEP J121756.91+162640.2 A`**
+  - `WISEP J121756.91+162640.2 A b` | 2012 | Imaging | — | 10.468
+- **`WISPIT 1`**
+  - `WISPIT 1 b` CB | 2025 | Imaging | — | 12.4
+  - `WISPIT 1 c` CB | 2025 | Imaging | — | 12.8
+- **`WISPIT 2`**
+  - `WISPIT 2 b` | 2025 | Imaging | — | 17.93436912
+  - `WISPIT 2 c` | 2026 | Imaging | — | 17.93436912
+- **`Wolf 327`**
+  - `Wolf 327 b` | 2024 | Transit | 0.5734745 | 1.24
+- **`Wolf 503`**
+  - `Wolf 503 b` | 2018 | Transit | 6.00127 | 2.043
+- **`Wolf 1061`**
+  - `Wolf 1061 b` | 2015 | Radial Velocity | 4.8869 | 1.21
+  - `Wolf 1061 c` | 2015 | Radial Velocity | 17.8719 | 1.66
+  - `Wolf 1061 d` | 2015 | Radial Velocity | 217.21 | 2.69
+- **`Wolf 1069`**
+  - `Wolf 1069 b` | 2023 | Radial Velocity | 15.564 | 1.08
+- **`WTS-1`**
+  - `WTS-1 b` | 2012 | Transit | 3.352057 | 16.7
+- **`WTS-2`**
+  - `WTS-2 b` | 2014 | Transit | 1.0187068 | 15.277867
+- **`XEST 17-036`**
+  - `KOINTREAU-1 b` | 2026 | Imaging | — | 12.4
+- **`xi Aql`**
+  - `xi Aql b` | 2007 | Radial Velocity | 136.97 | 13.4
+- **`XO-1`**
+  - `XO-1 b` | 2006 | Transit | 3.94153 | 12.77826
+- **`XO-2`**
+  - ดาวแม่ `XO-2 N`
+    - `XO-2 N b` | 2007 | Transit | 2.61585906 | 11.130537
+  - ดาวแม่ `XO-2 S`
+    - `XO-2 S b` | 2014 | Radial Velocity | 18.22 | 10.9
+    - `XO-2 S c` | 2014 | Radial Velocity | 120.059 | 13.6
+    - `XO-2 S d` | 2024 | Radial Velocity | 4696 | 13
+- **`XO-3`**
+  - `XO-3 b` | 2007 | Transit | 3.19152309 | 14.79585452
+- **`XO-4`**
+  - `XO-4 b` | 2010 | Transit | 4.12508 | 14.01125
+- **`XO-5`**
+  - `XO-5 b` | 2008 | Transit | 4.1877558 | 12.78
+- **`XO-6`**
+  - `XO-6 b` | 2016 | Transit | 3.7650007 | 23.20263
+- **`XO-7`**
+  - `XO-7 b` | 2019 | Transit | 2.8641424 | 15.389957
+- **`YZ Cet`**
+  - `YZ Cet b` | 2017 | Radial Velocity | 2.02087 | 0.913
+  - `YZ Cet c` | 2017 | Radial Velocity | 3.05989 | 1.05
+  - `YZ Cet d` | 2017 | Radial Velocity | 4.65626 | 1.03
+- **`ZTF J1230-2655`**
+  - `ZTF J1230-2655 b` | 2025 | Transit | 0.23597766 | 13.78704626
+- **`ZTF J1828+2308`**
+  - `ZTF J1828+2308 b` | 2025 | Transit | 0.1120067 | 11.13051784
+
+</details>
+
+<a name="sources"></a>
+
+## ข้อมูลต้นทางและวิธีตรวจความครบ
+
+- **ดาวเคราะห์** สแนปช็อตจากตาราง `pscomppars` มีหนึ่งแถวต่อดาวเคราะห์ ตรวจชื่อ `pl_name` ได้ 6,473 ชื่อที่ต่างกัน และยอดเท่ากับจำนวนแถว `default_flag = 1` ในตาราง Planetary Systems [ดาวน์โหลดแถวต้นทาง (CSV)](https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=SELECT+hostname%2Cpl_name%2Csy_snum%2Csy_pnum%2Csy_mnum%2Ccb_flag%2Cpl_controv_flag%2Cdiscoverymethod%2Cdisc_year%2Cpl_orbper%2Cpl_orbperlim%2Cpl_rade%2Cpl_radelim%2Csy_dist+FROM+pscomppars+ORDER+BY+hostname%2C+pl_name&format=csv&MAXREC=50000) · [นับจำนวนดาวเคราะห์และดาวแม่โดยตรง](https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=SELECT+COUNT%28%2A%29+AS+planet_count%2C+COUNT%28DISTINCT+hostname%29+AS+host_count+FROM+pscomppars&format=csv&MAXREC=50000)
+- **ระบบและดาวแม่** จับคู่ชื่อดาวแม่กับชื่อระบบใน Stellar Hosts และตรวจยอดดาวเคราะห์ของทุกระบบด้วยคำสั่งรวมยอดบนเซิร์ฟเวอร์อีกครั้ง ดึงเฉพาะกิ่งดาวแม่ที่มีดาวเคราะห์อยู่ในบัญชี [ดาวน์โหลดคู่ชื่อ (CSV)](https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=SELECT+DISTINCT+hostname%2Csy_name+FROM+stellarhosts+ORDER+BY+hostname%2Csy_name&format=csv&MAXREC=100000) · [นับรายระบบ (CSV)](https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=SELECT+S.sy_name%2CCOUNT%28DISTINCT+P.pl_name%29+AS+n+FROM+pscomppars+P+JOIN+stellarhosts+S+ON+P.hostname%3DS.hostname+GROUP+BY+S.sy_name+ORDER+BY+S.sy_name&format=csv&MAXREC=50000)
+- **ระบบสุริยะ** ชื่อดวงจันทร์และรหัสชั่วคราวถอดจากทะเบียนการค้นพบของ JPL เสริมข้อมูลโลก ดาวพุธ ดาวศุกร์ และดาวเคราะห์แคระจาก NASA Science [JPL Solar System Dynamics](https://ssd.jpl.nasa.gov/sats/discovery.html) · [NASA Moons](https://science.nasa.gov/solar-system/moons/facts/)
+
+NASA Exoplanet Archive ดำเนินงานโดย Caltech ภายใต้โครงการสำรวจดาวเคราะห์นอกระบบของ NASA ลิงก์ CSV ดึงข้อมูลสด จึงอาจมียอดหรือค่าปรับปรุงภายหลังวันเก็บข้อมูลของไฟล์นี้ [Christiansen และคณะ (2025)](https://doi.org/10.3847/PSJ/ade3c2) · [คู่มือ TAP](https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html)
