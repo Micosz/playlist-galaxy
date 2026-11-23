@@ -1,5 +1,6 @@
-import { openLibrary, initialWorlds, bookmark, fromFile } from "./library.js";
-import { paintPlanet, drawSky, surfaces } from "./sky.js";
+import { openLibrary, bookmark, fromFile } from "./library.js";
+import { initialWorlds, demoTracks, isContainer, names, childKind, copySystem, fetchCatalog } from "./atlas.js";
+import { paintPlanet, paintMapBody, paintOrbits, drawSky, surfaces } from "./sky.js";
 import { prepareMusic, music, appleSongLink, searchSongs } from "./apple.js";
 import { Player } from "./player.js";
 
@@ -10,13 +11,15 @@ const make = (tag, text) => {
   return node;
 };
 let worlds = initialWorlds,
-  tracks = [],
+  tracks = demoTracks,
   db = null,
   current = null,
+  mapParent = null,
   page = 0,
-  editMode = null,
+  editId = null,
   editParent = null,
   searchId = 0;
+let catalogVisit = 0, catalogItems = [], selectedTemplate = null;
 let noteTimer,
   tickTimer,
   appleVisit = 0;
@@ -35,11 +38,29 @@ const clock = (n) =>
   Math.floor(Math.max(0, n || 0) / 60) +
   ":" +
   String(Math.floor(Math.max(0, n || 0) % 60)).padStart(2, "0");
-const slotStyles = [
-  ["49%", "45%", "min(45vw,650px)", "51%", "45%", "92vw"],
-  ["19%", "24%", "min(19vw,250px)", "21%", "14%", "35vw"],
-  ["81%", "66%", "min(24vw,330px)", "78%", "80%", "41vw"],
+const distantSlots = [
+  [42, 49, "min(52vw,715px)", 42, 38, "80vw"],
+  [77, 28, "min(30vw,390px)", 73, 73, "46vw"],
+  [19, 24, "min(19vw,250px)", 21, 15, "30vw"],
 ];
+const closeSlots = [
+  [32, 48, "min(26vw,310px)", 28, 35, "45vw"],
+  [71, 53, "min(24vw,290px)", 71, 65, "43vw"],
+  [57, 22, "min(18vw,220px)", 69, 18, "32vw"],
+];
+const orbitalSlots = [
+  [59, 39, 66, 46], [42, 64, 31, 52], [32, 39, 38, 29], [65, 69, 73, 65],
+  [76, 27, 77, 23], [24, 73, 24, 74], [17, 20, 21, 12], [83, 79, 75, 87],
+].map(([x, y, mx, my], i) => [x, y, i === 5 ? "min(14vw,175px)" : "min(10vw,118px)", mx, my, i === 5 ? "28vw" : "21vw"]);
+
+function ancestry(id) {
+  const path = [];
+  for (let node = byId(id); node && !path.includes(node); node = byId(node.parent)) path.unshift(node);
+  return path;
+}
+function orbitView(parent, list) {
+  return (parent?.kind === "system" || parent?.kind === "host") && !list.some(isContainer);
+}
 
 function announce(message) {
   $("notice").textContent = message;
@@ -113,38 +134,74 @@ function updatePlayer() {
   if (visible && active) tickTimer = setInterval(updateClock, 450);
   if (visible) updateClock();
 }
-function planetButton(w, idx) {
+function planetButton(w, slot) {
   const btn = make("button");
   btn.className = "world";
   btn.dataset.id = w.id;
-  btn.setAttribute("aria-label", "เปิดดาว " + w.name);
-  const values = slotStyles[idx];
+  btn.dataset.kind = w.kind;
+  btn.setAttribute("aria-label", "เปิด" + names[w.kind] + " " + w.name);
   ["--x", "--y", "--w", "--mx", "--my", "--mw"].forEach((key, i) =>
-    btn.style.setProperty(key, values[i]),
-  );
+    btn.style.setProperty(key, typeof slot[i] === "number" ? slot[i] + "%" : slot[i]));
   btn.style.setProperty("--tone", surfaces[w.surface].tone);
   const canvas = make("canvas");
   canvas.setAttribute("aria-hidden", "true");
-  paintPlanet(canvas, w);
+  paintMapBody(canvas, w);
   const label = make("span");
   label.className = "world-label";
   label.append(make("span", w.name));
   btn.append(canvas, label);
+  if (isContainer(w)) {
+    const list = children(w.id);
+    const kind = list[0]?.kind || childKind(w);
+    btn.append(make("small", list.length + " " + names[kind]));
+  }
   btn.onclick = () => openWorld(w.id);
   return btn;
 }
+function drawOrbits() {
+  if (!$("map").hidden && !$("orbits").hidden)
+    paintOrbits($("orbits"), $("worlds").children, byId(mapParent)?.surface === "ocean");
+}
 function renderMap() {
-  const list = children(null),
-    pages = Math.max(1, Math.ceil(list.length / 3));
-  page = Math.min(pages - 1, Math.max(0, page));
-  const shown = list.slice(page * 3, page * 3 + 3);
-  $("worlds").replaceChildren(...shown.map(planetButton));
-  shown.forEach(warm);
+  const parent = byId(mapParent), list = children(mapParent);
+  const orbit = orbitView(parent, list);
+  const perPage = orbit ? orbitalSlots.length : distantSlots.length;
+  const pages = Math.max(1, Math.ceil(list.length / perPage));
+  page = Math.max(0, Math.min(page, pages - 1));
+  const visible = list.slice(page * perPage, (page + 1) * perPage);
+  const slots = orbit ? (list.length <= 3 ? closeSlots : orbitalSlots) : distantSlots;
+  const kind = childKind(parent);
+  $("worlds").replaceChildren(...visible.map((w, i) => planetButton(w, slots[i])));
+  $("worlds").setAttribute("aria-label", "เลือก" + (list[0] ? names[list[0].kind] : names[kind]));
+  $("orbits").hidden = !orbit;
+  $("map").classList.toggle("orbit-view", orbit);
+  if (orbit) visible.forEach(warm);
+  $("map-name").textContent = parent?.name || "My universe";
+  $("map-title").lang = parent ? "" : "en";
+  $("new-world").textContent = "＋ สร้าง" + names[kind];
+  $("rename-map").hidden = !parent;
+  $("map-help").textContent = !list.length ? "ยังไม่มี" + names[kind] + " · สร้าง" + names[kind] + "แรกที่นี่"
+    : !parent ? "แตะกาแล็กซีเพื่อสำรวจระบบดาว"
+    : parent.kind === "galaxy" ? "แตะระบบดาวเพื่อดูดาวในวงโคจร"
+    : orbit ? "แตะดาวเพื่อฟังเพลย์ลิสต์ของดวงนั้น" : "แตะดาวแม่เพื่อดูดาวเคราะห์";
+  $("trail").hidden = !parent;
+  $("trail").replaceChildren();
+  if (parent) {
+    for (const node of [null, ...ancestry(parent.id).slice(0, -1)]) {
+      const crumb = make("button", node?.name || "จักรวาล");
+      crumb.onclick = () => openWorld(node?.id || null);
+      $("trail").append(crumb, make("span", "›"));
+    }
+    const here = make("span", parent.name);
+    here.setAttribute("aria-current", "page");
+    $("trail").append(here);
+  }
   $("map-pages").hidden = pages < 2;
   $("prev-page").disabled = page === 0;
   $("next-page").disabled = page === pages - 1;
   $("page-number").textContent = page + 1 + " / " + pages;
   updatePlayer();
+  drawOrbits();
 }
 function trackRow(t, index) {
   const li = make("li"),
@@ -161,7 +218,7 @@ function trackRow(t, index) {
     make("strong", t.title),
     make(
       "small",
-      [t.artist, t.kind === "local" ? "MP3" : "Apple Music"].filter(Boolean).join(" · "),
+      [t.artist, t.kind === "apple" ? "Apple Music" : t.kind === "demo" ? "เพลงตัวอย่าง" : "MP3"].filter(Boolean).join(" · "),
     ),
   );
   button.append(num, copy);
@@ -222,79 +279,69 @@ function renderDetail() {
   );
   updatePlayer();
 }
-function toMap(push = true) {
-  const prev = byId(current);
-  if (prev) {
-    const top = topRoot(prev);
-    const idx = children(null).findIndex((w) => w.id === top.id);
-    if (idx >= 0) page = Math.floor(idx / 3);
-  }
-  current = null;
-  if (push && location.hash) history.pushState(null, "", location.pathname + location.search);
-  $("map").hidden = false;
-  $("interior").hidden = true;
-  $("new-world").hidden = false;
-  renderMap();
-  drawSky($("firmament"), true);
-  scrollTo(0, 0);
-  if (prev)
-    $("worlds")
-      .querySelector('[data-id="' + topRoot(prev).id + '"]')
-      ?.focus({ preventScroll: true });
-}
-function topRoot(w) {
-  while (w.parent && byId(w.parent)) w = byId(w.parent);
-  return w;
-}
 function openWorld(id, play = true, push = true) {
-  const world = byId(id);
-  if (!world) {
-    toMap(false);
-    return;
+  const node = byId(id), prev = current || mapParent;
+  const trigger = document.activeElement?.closest(".world");
+  const origin = trigger ? trigger.offsetLeft + "px " + trigger.offsetTop + "px" : "50% 50%";
+  const map = !node || isContainer(node);
+  const hash = node ? (map ? "#map=" : "#planet=") + encodeURIComponent(node.id) : "";
+  if (push && location.hash !== hash) history.pushState(null, "", location.pathname + location.search + hash);
+  $("map").hidden = !map;
+  $("interior").hidden = map;
+  $("new-world").hidden = !map;
+  if (map) {
+    const parent = node?.id || null;
+    const returning = ancestry(prev).find((w) => w.parent === parent);
+    if (parent !== mapParent || current) {
+      const list = children(parent);
+      const index = returning ? list.findIndex((w) => w.id === returning.id) : 0;
+      page = Math.floor(Math.max(0, index) / (orbitView(node, list) ? orbitalSlots.length : distantSlots.length));
+    }
+    current = null;
+    mapParent = parent;
+    renderMap();
+    if (play) {
+      const target = [...$("worlds").children].find((b) => b.dataset.id === returning?.id);
+      (target || $("worlds").firstElementChild || $("new-world")).focus({ preventScroll: true });
+    }
+  } else {
+    const changed = current !== id;
+    current = id;
+    mapParent = ancestry(node.parent).filter(isContainer).at(-1)?.id || null;
+    if (changed) paintPlanet($("portrait"), node);
+    if (play) player.enter(id);
+    renderDetail();
+    if (changed && play) $("world-title").focus({ preventScroll: true });
   }
-  const changed = current !== id;
-  current = id;
-  const hash = "#planet=" + encodeURIComponent(id);
-  if (push && location.hash !== hash) history.pushState(null, "", hash);
-  $("map").hidden = true;
-  $("interior").hidden = false;
-  $("new-world").hidden = true;
-  if (changed) {
-    paintPlanet($("portrait"), world);
-    drawSky($("firmament"), false);
+  if (play && prev !== (node?.id || null) && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    const scene = map ? $("worlds").parentElement : $("portrait").parentElement;
+    const outward = !node || ancestry(prev).some((ancestor) => ancestor.id === id);
+    scene.animate([
+      { opacity: 0.35, transform: outward ? "scale(1.06)" : "scale(.92)", transformOrigin: origin },
+      { opacity: 1, transform: "scale(1)", transformOrigin: origin },
+    ], { duration: 260, easing: "ease-out" });
   }
-  if (play) player.enter(id);
-  renderDetail();
-  if (changed) {
-    scrollTo(0, 0);
-    $("world-title").focus({ preventScroll: true });
-  }
+  scrollTo(0, 0);
 }
 function route(play) {
-  const id = new URLSearchParams(location.hash.slice(1)).get("planet");
-  if (id && byId(id)) openWorld(id, play, false);
-  else toMap(false);
+  const params = new URLSearchParams(location.hash.slice(1));
+  openWorld(params.get("planet") || params.get("map"), play, false);
 }
-$("home").onclick = () => toMap();
-$("back").onclick = () => {
-  const parent = byId(current)?.parent;
-  if (parent) openWorld(parent);
-  else toMap();
-};
-$("prev-page").onclick = () => {
-  page--;
-  renderMap();
-};
-$("next-page").onclick = () => {
-  page++;
-  renderMap();
-};
-window.addEventListener("popstate", () => route(true));
+$("home").onclick = () => openWorld(null);
+$("back").onclick = () => openWorld(byId(current)?.parent);
+$("prev-page").onclick = () => { page--; renderMap(); };
+$("next-page").onclick = () => { page++; renderMap(); };
+window.addEventListener("popstate", () => route(navigator.userActivation?.hasBeenActive === true));
 let redraw;
-window.addEventListener("resize", () => {
+function redrawSky() {
   cancelAnimationFrame(redraw);
-  redraw = requestAnimationFrame(() => drawSky($("firmament"), !current));
-});
+  redraw = requestAnimationFrame(() => {
+    drawSky($("firmament"), false);
+    drawOrbits();
+  });
+}
+window.addEventListener("resize", redrawSky);
+new ResizeObserver(drawOrbits).observe($("worlds"));
 document.addEventListener("visibilitychange", () => {
   if (document.hidden) player.checkpoint();
 });
@@ -318,60 +365,120 @@ for (const [key, s] of Object.entries(surfaces)) {
 }
 for (const button of document.querySelectorAll("[data-close]"))
   button.onclick = () => button.closest("dialog").close();
-function editor(mode, parent = null) {
-  if (!db) {
-    storageError();
-    return;
+function renderCatalog() {
+  const term = $("catalog-query").value.trim().toLowerCase();
+  const matches = catalogItems.filter((item) => {
+    if (!term || item.name.toLowerCase().includes(term) || item.alias?.toLowerCase().includes(term)) return true;
+    return item.hosts?.some((host) => host.name.toLowerCase().includes(term) ||
+      host.planets.some((p) => p.toLowerCase().includes(term)));
+  });
+  $("catalog-status").textContent = matches.length ? matches.length.toLocaleString("th-TH") + " รายการ" : "ไม่พบชื่อที่ตรงกัน";
+  $("catalog-hits").replaceChildren(...matches.slice(0, 8).map((item) => {
+    const li = make("li"), btn = make("button");
+    btn.type = "button";
+    btn.append(make("span", item.name));
+    if (item.count || item.alias) btn.append(make("small", item.alias || item.count + " ดาวเคราะห์"));
+    btn.onclick = () => {
+      selectedTemplate = item;
+      $("world-name").value = item.name;
+      $("catalog-picker").open = false;
+      $("template-note").textContent = item.count ? "จะเพิ่มระบบ " + item.name + " พร้อมดาวเคราะห์ " + item.count + " ดวง" : "ชื่อในแค็ตตาล็อก · " + item.name;
+      $("template-note").hidden = false;
+      $("save-world").focus();
+    };
+    li.append(btn);
+    return li;
+  }));
+}
+$("catalog-query").oninput = renderCatalog;
+$("catalog-picker").ontoggle = async () => {
+  if (!$("catalog-picker").open) return;
+  const visit = catalogVisit, parent = byId(editParent), kind = childKind(parent);
+  $("catalog-status").textContent = "กำลังเปิดแค็ตตาล็อก…";
+  $("catalog-query").focus();
+  try {
+    const data = await fetchCatalog(kind);
+    if (visit !== catalogVisit || !$("editor").open) return;
+    if (kind === "galaxy") catalogItems = data;
+    else if (kind === "system") catalogItems = data.systems;
+    else {
+      const existing = new Set(children(parent.id).map((w) => w.designation || w.name));
+      catalogItems = (data.moons.get(parent.solar) || []).filter((n) => !existing.has(n)).map((name) => ({name}));
+    }
+    renderCatalog();
+  } catch {
+    if (visit === catalogVisit) $("catalog-status").textContent = "เปิดแค็ตตาล็อกไม่ได้ ปิดแล้วลองอีกครั้ง หรือตั้งชื่อเองได้";
   }
-  editMode = mode;
-  editParent = parent;
-  const old = mode === "edit" ? byId(current) : null;
-  $("editor-title").textContent = old ? "แก้ไขดาว" : parent ? "สร้างดาวบริวาร" : "สร้างดาว";
-  $("save-world").textContent = old ? "บันทึก" : "สร้างดาว";
+};
+function editor(parentId, editing = null) {
+  if (!db) { storageError(); return; }
+  catalogVisit++;
+  editParent = parentId;
+  editId = editing;
+  const old = byId(editId), parent = byId(parentId), kind = old?.kind || childKind(parent);
+  const label = names[kind], title = (old ? "แก้ไข" : "สร้าง") + label;
+  $("editor-title").textContent = title;
+  $("save-world").textContent = old ? "บันทึก" : title;
+  $("name-label").textContent = "ชื่อ" + label;
+  $("world-name").placeholder = kind === "galaxy" ? "เช่น After Hours" : kind === "system" ? "เช่น เพลงเดินทาง" : "เช่น ขับรถกลางคืน";
   $("world-name").value = old?.name || "";
-  $("colors").querySelector('[value="' + (old?.surface || "ocean") + '"]').checked = true;
+  const container = ["galaxy","system","host"].includes(kind);
+  $("surface-label").textContent = container ? "โทนสี" : "ลักษณะของดาว";
+  for (const input of $("colors").querySelectorAll("input")) {
+    input.parentElement.hidden = container && !["ember", "ocean"].includes(input.value);
+    const description = container ? (input.value === "ocean" ? "โทนเย็น" : "โทนอุ่น") : surfaces[input.value].label;
+    input.setAttribute("aria-label", description);
+    input.parentElement.title = description;
+  }
+  $("colors").querySelector('[value="' + (old?.surface || (container ? "ember" : kind === "moon" ? "moon" : "ocean")) + '"]').checked = true;
+  catalogItems = [];
+  selectedTemplate = null;
+  $("catalog-picker").open = false;
+  $("catalog-picker").hidden = Boolean(old) || !(kind === "galaxy" || kind === "system" || (kind === "moon" && parent.solar));
+  $("catalog-summary").textContent = kind === "galaxy" ? "เลือกชื่อจากแค็ตตาล็อกกาแล็กซี" : kind === "system" ? "ใช้ระบบดาวจาก NASA" : "เลือกดวงจันทร์ของ " + (parent?.solar || "");
+  $("catalog-instruction").textContent = kind === "system" ? "ค้นชื่อระบบ ดาวแม่ หรือดาวเคราะห์" : "ค้นชื่อในแค็ตตาล็อก";
+  $("catalog-query").value = "";
+  $("catalog-hits").replaceChildren();
+  $("template-note").hidden = true;
+  $("move-field").hidden = old?.kind !== "planet";
+  if (old?.kind === "planet") {
+    $("move-to").replaceChildren(...worlds.filter((w) => w.kind === "system" || w.kind === "host").map((w) => {
+      const opt = new Option(ancestry(w.id).map((n) => n.name).join(" › "), w.id);
+      opt.selected = old.parent === w.id;
+      return opt;
+    }));
+  }
   $("editor").showModal();
   $("world-name").focus();
 }
-$("new-world").onclick = () => editor("new");
+$("new-world").onclick = () => editor(mapParent);
+$("rename-map").onclick = () => editor(byId(mapParent).parent, mapParent);
 $("manage").onclick = () => $("options").showModal();
-$("edit-world").onclick = () => {
-  $("options").close();
-  editor("edit");
-};
-$("new-moon").onclick = () => {
-  $("options").close();
-  editor("new", current);
-};
+$("edit-world").onclick = () => { $("options").close(); editor(byId(current).parent, current); };
+$("new-moon").onclick = () => { $("options").close(); editor(current); };
 $("edit-form").onsubmit = async (e) => {
   e.preventDefault();
+  if ($("save-world").disabled) return;
   const name = $("world-name").value.trim();
-  if (!name) {
-    $("world-name").focus();
-    return;
-  }
-  const old = editMode === "edit" ? byId(current) : null;
+  if (!name) { $("world-name").focus(); return; }
+  const old = byId(editId);
   const world = {
-    id: old?.id || crypto.randomUUID(),
-    parent: old ? old.parent : editParent,
-    order: old?.order || Date.now(),
-    name,
-    surface: $("colors").querySelector(":checked").value,
+    ...old, id: old?.id || crypto.randomUUID(), kind: old?.kind || childKind(byId(editParent)),
+    parent: old?.kind === "planet" ? $("move-to").value : editParent,
+    order: old?.order ?? Date.now(), name, surface: $("colors").querySelector(":checked").value,
   };
+  if (selectedTemplate && world.kind === "moon") world.designation = selectedTemplate.name;
+  const added = selectedTemplate?.hosts ? copySystem(world, selectedTemplate) : [world];
   $("save-world").disabled = true;
   try {
-    await db.putWorld(world);
-    worlds = worlds.filter((w) => w.id !== world.id).concat(world);
+    if (old) await db.putWorld(world);
+    else await db.addWorlds(added);
+    worlds = worlds.filter((w) => w.id !== world.id).concat(added);
     $("editor").close();
-    if (old) {
-      paintPlanet($("portrait"), world);
-      renderDetail();
-    } else openWorld(world.id);
-  } catch {
-    storageError();
-  } finally {
-    $("save-world").disabled = false;
-  }
+    if (old && !isContainer(world)) paintPlanet($("portrait"), world);
+    openWorld(world.id, !old);
+  } catch { storageError(); }
+  finally { $("save-world").disabled = false; }
 };
 async function addEntries(worldId, entries) {
   if (!db) throw new Error("storage");
@@ -541,4 +648,5 @@ try {
   db = null;
   storageError();
 }
+drawSky($("firmament"), false);
 route(false);

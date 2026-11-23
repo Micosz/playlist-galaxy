@@ -25,17 +25,24 @@
         </svg>
         <span>Playlist Galaxy</span>
       </button>
-      <button class="pill" id="new-world"><span aria-hidden="true">＋</span> สร้างดาว</button>
+      <button class="pill" id="new-world">＋ สร้างกาแล็กซี</button>
     </header>
     <main>
       <section id="map" aria-labelledby="map-title">
-        <div id="worlds" class="worlds" role="group" aria-label="เลือกดาว"></div>
+        <nav id="trail" aria-label="ตำแหน่งบนแผนที่" hidden></nav>
+        <div class="map-field">
+          <canvas id="orbits" aria-hidden="true" hidden></canvas>
+          <div id="worlds" class="worlds" role="group" aria-label="เลือกกาแล็กซี"></div>
+        </div>
         <div class="map-caption">
-          <h1 id="map-title" lang="en">My galaxy<span>.</span></h1>
-          <p>แตะดาวเพื่อฟังเพลย์ลิสต์ของดวงนั้น</p>
+          <div class="map-heading">
+            <h1 id="map-title" tabindex="-1"><span id="map-name">My universe</span><i aria-hidden="true">.</i></h1>
+            <button id="rename-map" class="text-btn" aria-label="แก้ไขชื่อ" title="แก้ไขชื่อ" hidden>✎</button>
+          </div>
+          <p id="map-help">แตะกาแล็กซีเพื่อสำรวจระบบดาว</p>
         </div>
         <nav id="map-pages" aria-label="หน้าของแผนที่ดาว" hidden>
-          <button id="prev-page" aria-label="หน้าก่อน">←</button><span id="page-number"></span
+          <button id="prev-page" aria-label="หน้าก่อน">←</button><span id="page-number" aria-live="polite"></span
           ><button id="next-page" aria-label="หน้าถัดไป">→</button>
         </nav>
       </section>
@@ -97,7 +104,7 @@
           <h2 id="editor-title">สร้างดาว</h2>
           <button class="icon-btn" type="button" data-close aria-label="ปิด">×</button>
         </div>
-        <label for="world-name">ชื่อดาว</label
+        <label for="world-name" id="name-label">ชื่อดาว</label
         ><input
           id="world-name"
           type="text"
@@ -106,8 +113,19 @@
           autocomplete="off"
           placeholder="เช่น ขับรถกลางคืน"
         />
+        <details id="catalog-picker" hidden>
+          <summary id="catalog-summary">เลือกจากแค็ตตาล็อก</summary>
+          <label for="catalog-query" id="catalog-instruction">ค้นหาชื่อ</label>
+          <input type="search" id="catalog-query" autocomplete="off" />
+          <p id="catalog-status" role="status"></p>
+          <ul id="catalog-hits"></ul>
+        </details>
+        <p id="template-note" hidden></p>
+        <div id="move-field" hidden>
+          <label for="move-to">เก็บดาวไว้ในระบบ</label><select id="move-to"></select>
+        </div>
         <fieldset>
-          <legend>ลักษณะของดาว</legend>
+          <legend id="surface-label">ลักษณะของดาว</legend>
           <div id="colors" class="swatches"></div>
         </fieldset>
         <button class="pill primary" type="submit" id="save-world">สร้างดาว</button>

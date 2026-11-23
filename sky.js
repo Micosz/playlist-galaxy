@@ -3,6 +3,9 @@ export const surfaces = {
   moon: { label: "ดวงจันทร์", tone: "#c9c8d4", base: [165, 164, 178] },
   ocean: { label: "ดาวสีน้ำเงิน", tone: "#83bae1", base: [81, 134, 195] },
   jade: { label: "ดาวสีเขียว", tone: "#86c2ac", base: [91, 159, 144] },
+  terrestrial: { label: "ดาวมหาสมุทรและแผ่นดิน", tone: "#669caa", base: [49, 116, 175] },
+  cloud: { label: "ดาวเมฆสีทอง", tone: "#ecc998", base: [218, 179, 130] },
+  giant: { label: "ดาวลายแถบเมฆ", tone: "#d7ab8d", base: [208, 171, 147] },
   ember: { label: "ดาวสีอำพัน", tone: "#e89073", base: [199, 115, 86] },
 };
 
@@ -96,18 +99,30 @@ function makePlanet(type, variation) {
         drift = terrain(u * 2, v * 2);
       const clouds = terrain(u * 5 + drift * 3, v * 5),
         fine = field(ix * 1.1 + seed, iy * 1.3);
-      let texture,
-        hue = 0;
+      let texture, pigment = base, cloudCover = 0, hue = 0;
       if (type === "moon" || type === "ember") {
         texture =
           0.56 + 0.8 * terrain(u * 2 + 8, v * 2) + 0.26 * (clouds - 0.5) + 0.07 * (fine - 0.5);
         const pits = field(u * 13, v * 13);
         texture -= Math.max(0, pits - 0.72) * 0.55;
+      } else if (type === "terrestrial") {
+        const land = terrain(lon * 2.2 + seed, lat * 2.7 + 14) + (clouds - 0.5) * 0.14;
+        pigment = land > 0.48 ? [102, 146, 102] : base;
+        texture = 0.82 + 0.31 * drift;
+        cloudCover = Math.max(0, Math.min(0.94, (clouds + 0.13 * Math.sin(lon * 6 + lat * 13) - 0.39) * 3.6));
+      } else if (type === "cloud") {
+        texture = 0.86 + 0.30 * terrain(u + drift, lat * 10 + clouds * 3 + seed);
       } else {
         const band = field((lat + (drift - 0.5) * 0.07) * 20 + seed, 12);
         const thin = field((lat + (clouds - 0.5) * 0.016) * 112, seed + 31);
         texture = 0.7 + 0.45 * band + 0.17 * thin + 0.16 * (clouds - 0.5);
         hue = (band - 0.45) * (type === "ring" ? 34 : 19);
+        if (type === "giant") {
+          const belt = Math.sin(lat * 18 + 0.9 * drift);
+          pigment = belt > 0 ? [229, 208, 180] : [190, 133, 100];
+          const storm = Math.hypot((lon + 0.26) * 4.1, (lat - 0.25) * 12);
+          if (storm < 1) pigment = storm < 0.76 ? [178, 98, 73] : [219, 183, 152];
+        }
       }
       const light = Math.max(0, -0.57 * x - 0.47 * y + 0.48 * z);
       const shade = 0.115 + 0.95 * Math.pow(light, 0.78);
@@ -117,7 +132,7 @@ function makePlanet(type, variation) {
       const k = (iy * d + ix) * 4;
       for (let c = 0; c < 3; c++)
         im.data[k + c] =
-          (base[c] + hue * (c === 2 ? 0.08 : 1)) * texture * shade * shadowRing +
+          (pigment[c] * (1 - cloudCover) + 235 * cloudCover + hue * (c === 2 ? 0.08 : 1)) * texture * shade * shadowRing +
           rim * (c === 2 ? 112 : 83) +
           [8, 9, 18][c];
       im.data[k + 3] = Math.min(255, (1 - Math.sqrt(len)) * r * 360);
@@ -208,4 +223,139 @@ export function drawSky(canvas, showOrbits) {
     }
     c.restore();
   }
+}
+
+
+function glow(ctx, x, y, r, stops) {
+  const grad = ctx.createRadialGradient(x, y, 0, x, y, r);
+  for (const [at, color] of stops) grad.addColorStop(at, color);
+  ctx.fillStyle = grad;
+  ctx.fillRect(x - r, y - r, r * 2, r * 2);
+}
+
+function spiral(canvas, seed, cool) {
+  const ctx = canvas.getContext("2d"), w = canvas.width, h = canvas.height;
+  const pixels = ctx.createImageData(w, h);
+  const tilt = cool ? 0.28 : -0.24, co = Math.cos(tilt), si = Math.sin(tilt);
+  const offset = (seed % 997) / 41, flatten = cool ? 0.42 : 0.53;
+  for (let iy = 0; iy < h; iy++) {
+    for (let ix = 0; ix < w; ix++) {
+      const dx = (ix - w / 2) / (w * 0.44), dy = (iy - h / 2) / (w * 0.44);
+      const x = dx * co + dy * si, y = (dy * co - dx * si) / flatten;
+      const r = Math.hypot(x, y);
+      if (r > 1.34) continue;
+      const cloud = terrain(11 * x + offset, 11 * y + 6);
+      const grain = field(144 * x + 3, 144 * y + offset);
+      const phase = 2 * (Math.atan2(y, x) - 2.3 * Math.log(1 + r * 4.4)) + 1.7 * (cloud - 0.48) + offset;
+      const arm = Math.pow(0.5 + 0.5 * Math.cos(phase), 3.7);
+      const spur = Math.pow(0.5 + 0.5 * Math.cos(phase * 2 + cloud * 2.8), 5);
+      const outer = Math.max(0, 1 - r / 1.34);
+      const disc = Math.exp(-r * 2.05) * outer;
+      const arms = disc * (arm * 1.43 + spur * 0.32) * (0.22 + cloud * 1.2 + grain * 0.65);
+      const bulge = Math.exp(-Math.hypot(x * 1.08, y * 0.72) * 9.1);
+      const core = Math.exp(-Math.hypot(x, y * 0.62) * 28);
+      const haze = disc * (0.20 + 0.32 * cloud);
+      const lane = 1 - 0.63 * Math.pow(0.5 + 0.5 * Math.cos(phase + 0.64), 8) * Math.min(1, r * 7);
+      const rgb = [
+        (haze * 138 + arms * (cool ? 156 : 211) + bulge * 404 + core * 440) * lane,
+        (haze * 125 + arms * (cool ? 197 : 173) + bulge * 267 + core * 401) * lane,
+        (haze * 161 + arms * 252 + bulge * 148 + core * 321) * lane,
+      ];
+      const alpha = Math.min(1, Math.max(...rgb) / 207);
+      if (alpha < 0.013) continue;
+      const k = (iy * w + ix) * 4;
+      for (let c = 0; c < 3; c++) pixels.data[k + c] = rgb[c] / alpha;
+      pixels.data[k + 3] = 255 * alpha;
+    }
+  }
+  ctx.putImageData(pixels, 0, 0);
+  const rnd = random(seed);
+  ctx.save();
+  ctx.translate(w / 2, h / 2);
+  ctx.rotate(tilt);
+  for (let i = 0; i < 4200; i++) {
+    const r = Math.pow(rnd(), 0.71) * 1.18;
+    const a = 2.3 * Math.log(1 + r * 4.4) - offset / 2 + (i % 2) * Math.PI + (rnd() + rnd() - 1) * (0.17 + r * 0.9);
+    const x = Math.cos(a) * r * w * 0.44, y = Math.sin(a) * r * w * 0.44 * flatten;
+    const opacity = (1 - r / 1.24) * (0.16 + rnd() * 0.68);
+    const dot = rnd();
+    ctx.fillStyle = "rgba(" + (i % 13 === 0 ? "255,175,168" : i % 3 ? "198,221,255" : "255,226,184") + "," + opacity + ")";
+    ctx.beginPath();
+    ctx.arc(x, y, dot > 0.982 ? 1.15 : 0.28 + dot * 0.44, 0, 2 * Math.PI);
+    ctx.fill();
+  }
+  ctx.restore();
+}
+
+function star(ctx, x, y, radius, cool = false) {
+  const c = cool ? "155,207,255" : "255,185,105";
+  glow(ctx, x, y, radius * 4.7, [[0, "rgba(" + c + ",.9)"], [0.22, "rgba(" + c + ",.37)"], [0.45, "rgba(" + c + ",.10)"], [1, "rgba(" + c + ",0)"]]);
+  glow(ctx, x, y, radius, [[0, "#fffdf2"], [0.65, cool ? "#e3f8ff" : "#ffe7ad"], [0.91, cool ? "#a9d5f9" : "#f4b870"], [1, "rgba(" + c + ",.05)"]]);
+}
+
+export function paintMapBody(canvas, world) {
+  if (world.kind !== "galaxy" && world.kind !== "system" && world.kind !== "host") {
+    paintPlanet(canvas, world);
+    return;
+  }
+  const key = [world.kind, world.id, world.surface].join("/");
+  if (!artCache.has(key)) {
+    const art = document.createElement("canvas");
+    art.width = 640;
+    art.height = 380;
+    const seed = [...world.id].reduce((n, c) => (Math.imul(n, 31) + c.charCodeAt(0)) >>> 0, 19);
+    const cool = world.surface === "ocean" || world.surface === "jade";
+    if (world.kind === "galaxy") spiral(art, seed, cool);
+    else {
+      const c = art.getContext("2d"), cx = 320, cy = 190;
+      const rnd = random(seed);
+      c.save();
+      c.translate(cx, cy);
+      c.rotate(-0.24);
+      for (const r of [64, 108, 158, 211]) {
+        c.beginPath();
+        c.ellipse(0, 0, r, r * 0.39, 0, 0, 2 * Math.PI);
+        c.strokeStyle = "rgba(190,197,225,.39)";
+        c.lineWidth = 1.1;
+        c.stroke();
+        const angle = rnd() * Math.PI * 2, x = r * Math.cos(angle), y = r * 0.39 * Math.sin(angle);
+        glow(c, x, y, 3.5 + rnd() * 5, [[0, "#fff0d9"], [0.65, "#a0a8c6"], [1, "rgba(113,128,164,0)"]]);
+      }
+      c.restore();
+      star(c, cx, cy, 27, cool);
+    }
+    if (artCache.size >= 24) artCache.delete(artCache.keys().next().value);
+    artCache.set(key, art);
+  }
+  canvas.width = 640;
+  canvas.height = 380;
+  canvas.getContext("2d").drawImage(artCache.get(key), 0, 0);
+}
+
+// The guide ellipses pass through the current button positions at any viewport size.
+export function paintOrbits(canvas, buttons, cool) {
+  const w = canvas.clientWidth, h = canvas.clientHeight;
+  if (!w || !h) return;
+  const ratio = Math.min(window.devicePixelRatio || 1, 2);
+  canvas.width = Math.round(w * ratio);
+  canvas.height = Math.round(h * ratio);
+  const ctx = canvas.getContext("2d");
+  ctx.scale(ratio, ratio);
+  const x = w / 2, y = h / 2, tilt = -0.2;
+  const flat = Math.min(0.78, Math.max(0.56, h / w));
+  ctx.save();
+  ctx.translate(x, y);
+  ctx.rotate(tilt);
+  for (const b of buttons) {
+    const dx = b.offsetLeft - x, dy = b.offsetTop - y - (b.offsetHeight - b.firstElementChild.offsetHeight) / 2;
+    const u = dx * Math.cos(tilt) + dy * Math.sin(tilt), v = dy * Math.cos(tilt) - dx * Math.sin(tilt);
+    const radius = Math.hypot(u, v / flat);
+    ctx.beginPath();
+    ctx.ellipse(0, 0, radius, radius * flat, 0, 0, 2 * Math.PI);
+    ctx.strokeStyle = "rgba(177,188,219,.17)";
+    ctx.lineWidth = 0.85;
+    ctx.stroke();
+  }
+  ctx.restore();
+  star(ctx, x, y, Math.max(8, Math.min(20, w * 0.023)), cool);
 }

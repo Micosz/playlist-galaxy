@@ -1,8 +1,4 @@
-export const initialWorlds = [
-  { id: "saturn", name: "Saturn", surface: "ring", parent: null, order: 1 },
-  { id: "luna", name: "Luna", surface: "moon", parent: null, order: 2 },
-  { id: "neptune", name: "Neptune", surface: "ocean", parent: null, order: 3 },
-];
+import { initialWorlds, demoTracks, upgradeWorlds } from "./atlas.js";
 
 function request(req) {
   return new Promise((resolve, reject) => {
@@ -17,13 +13,21 @@ function finished(tx) {
   });
 }
 export async function openLibrary() {
-  const req = indexedDB.open("playlist-galaxy", 1);
-  req.onupgradeneeded = () => {
-    const db = req.result,
-      worlds = db.createObjectStore("worlds", { keyPath: "id" });
-    db.createObjectStore("tracks", { keyPath: "id" });
-    db.createObjectStore("files");
-    for (const world of initialWorlds) worlds.add(world);
+  const req = indexedDB.open("playlist-galaxy", 2);
+  req.onupgradeneeded = (event) => {
+    const db = req.result, tx = req.transaction;
+    if (event.oldVersion === 0) {
+      db.createObjectStore("worlds", { keyPath: "id" });
+      db.createObjectStore("tracks", { keyPath: "id" });
+      db.createObjectStore("files");
+    }
+    const worlds = tx.objectStore("worlds");
+    const previous = worlds.getAll();
+    previous.onsuccess = () => {
+      const all = event.oldVersion === 0 ? initialWorlds : upgradeWorlds(previous.result);
+      for (const world of all) worlds.put(world);
+      for (const song of demoTracks) tx.objectStore("tracks").add(song);
+    };
   };
   const db = await request(req);
   db.onversionchange = () => db.close();
@@ -34,6 +38,11 @@ export async function openLibrary() {
         request(tx.objectStore("worlds").getAll()),
         request(tx.objectStore("tracks").getAll()),
       ]);
+    },
+    addWorlds(worlds) {
+      const tx = db.transaction("worlds", "readwrite");
+      for (const world of worlds) tx.objectStore("worlds").add(world);
+      return finished(tx);
     },
     putWorld(world) {
       const tx = db.transaction("worlds", "readwrite");

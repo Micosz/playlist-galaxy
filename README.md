@@ -4,7 +4,10 @@ Open a planet to play its playlist. Switching planets saves the current song and
 
 ## Use the galaxy
 
-- Select **สร้างดาว** to name a planet and choose its appearance. **จัดการดาว** inside a planet lets you rename it or create a moon with its own playlist.
+- Open **My Galaxy → Midnight → Ember** to hear the original demo *Afterglow*. Return to Midnight, open **Tide** for *Blue Hour*, then revisit Ember to resume. Browsing galaxies or systems keeps the current audio playing.
+- Create a galaxy from the universe, a system inside a galaxy, or a playlist planet inside a system. **จัดการดาว** lets you rename or move a planet, or give it a moon with its own playlist. Everything you create stays on this browser.
+- The Milky Way has the Solar System and TRAPPIST-1 to explore. When creating a galaxy or system, the catalog picker can copy a name or a whole planetary system into your music map. Multi-host systems retain their individual stars. When adding a moon to a Solar System planet you can also pick its catalog name. The checked-in [galaxy catalog](docs/galaxies.md) and [planetary systems](docs/planetary-systems/README.md) load on demand. User collections can be arranged freely. Orbital spacing, galaxy shapes and planet colors are illustrative.
+- Existing playlist IDs, MP3s and playback positions carry forward. Older user-created root planets live in **My Galaxy → Midnight**. Saturn and Neptune remain reachable in the Solar System, and Luna is under Earth.
 - Use **เพิ่ม MP3** to add local files. The audio and playlist data live in IndexedDB on this browser. The playback position is saved on this device. Clearing the site's data removes them.
 - Use **Apple Music** to connect, search the catalog, and add songs, or paste an Apple Music song link. Full in-app playback requires a configured MusicKit app, listener authorization and an eligible subscription. Saved Apple links also open in Apple Music.
 - **Saturn Pirate Radio** is available inside Saturn and at [radio.html](radio.html).
@@ -42,7 +45,7 @@ python3 checks/galaxy.py
 python3 checks/receiver.py
 ```
 
-The galaxy browser check uses FFmpeg to generate its own MP3s. Pass `--chromium /path/to/chromium` for an installed browser. It runs the real local audio player, persists files across a reload, and exercises MusicKit with a test double. Use an authorized Apple Music subscription to check full catalog playback end to end.
+The galaxy browser check uses FFmpeg to generate its own MP3s. Pass `--chromium /path/to/chromium` for an installed browser. It checks the hierarchical map, catalog copies, mobile touch, version-one storage upgrades, the demo and local audio players, and MusicKit with a test double. Use an authorized Apple Music subscription to check full catalog playback end to end.
 
 ## Saturn radio
 

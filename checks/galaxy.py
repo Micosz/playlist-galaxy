@@ -1,5 +1,6 @@
 """Test Planet A -> B -> A with real MP3s and the MusicKit integration with a test double."""
 import argparse
+import base64
 from contextlib import contextmanager, nullcontext
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
@@ -71,14 +72,32 @@ def sky(page):
     expect(page.locator("#map")).to_be_visible()
 
 
-def enter(page, name):
-    button = page.get_by_role("button", name="เปิดดาว " + name, exact=True)
+def choose(page, kind, name, touch=False):
+    button = page.get_by_role("button", name="เปิด" + kind + " " + name, exact=True)
     if not button.count():
         while page.locator("#prev-page").is_visible() and page.locator("#prev-page").is_enabled():
             page.locator("#prev-page").click()
         while not button.count() and page.locator("#next-page").is_visible() and page.locator("#next-page").is_enabled():
             page.locator("#next-page").click()
-    button.click()
+    button.tap() if touch else button.click()
+
+
+def system(page, galaxy, star_system, touch=False):
+    sky(page)
+    choose(page, "กาแล็กซี", galaxy, touch)
+    choose(page, "ระบบดาว", star_system, touch)
+    expect(page.locator("#map-name")).to_have_text(star_system)
+
+
+def enter(page, name):
+    if name in ("Luna", "Saturn", "Neptune"):
+        system(page, "ทางช้างเผือก", "ระบบสุริยะ")
+        choose(page, "ดาว", "Earth" if name == "Luna" else name)
+        if name == "Luna":
+            page.locator("#moons").get_by_role("button", name="Luna").click()
+    else:
+        system(page, "My Galaxy", "Midnight")
+        choose(page, "ดาว", name)
     expect(page.locator("#world-title")).to_have_text(name)
 
 
@@ -99,11 +118,12 @@ def check_files(browser, url, files, screenshots):
     page.on("request", lambda req: apple_requests.append(req.url) if "api/music-token" in req.url or "js-cdn.music.apple.com" in req.url else None)
     context.add_init_script(AUDIO_PROBE)
     page.goto(url)
-    expect(page.locator(".world")).to_have_count(3)
+    expect(page.locator(".world")).to_have_count(2)
     expect(page.locator("#tracks")).to_be_hidden()
     assert page.evaluate("testAudio.length") == 0
     if screenshots:
         page.screenshot(path=str(screenshots / "map.png"))
+    system(page, "My Galaxy", "Midnight")
     page.locator("#new-world").click()
     page.locator("#world-name").fill("Night Drive")
     page.locator("#colors [value=jade]").check()
@@ -236,18 +256,150 @@ def check_musickit(browser, url, file):
 
 def check_mobile(browser, url, screenshots):
     context = browser.new_context(is_mobile=True, has_touch=True, viewport={"width": 390, "height": 844}, reduced_motion="reduce")
+    context.add_init_script(AUDIO_PROBE)
     page = context.new_page()
+    requests = []
+    page.on("request", lambda r: requests.append(r.url))
     page.goto(url)
-    expect(page.locator(".world")).to_have_count(3)
+    expect(page.locator(".world")).to_have_count(2)
+    assert page.evaluate("testAudio.length") == 0
+    assert not any(".mp3" in u or "/docs/" in u for u in requests)
     if screenshots:
         page.screenshot(path=str(screenshots / "mobile.png"))
-    for name in ("Luna","Saturn","Neptune"):
-        page.get_by_role("button", name="เปิดดาว " + name).tap()
+    system(page, "My Galaxy", "Midnight", touch=True)
+    if screenshots:
+        page.screenshot(path=str(screenshots / "orbits.png"))
+    choose(page, "ดาว", "Ember", touch=True)
+    local_playing(page, "Afterglow", .1)
+    page.locator("#seek").evaluate("(e)=>{e.value=7.5;e.dispatchEvent(new Event('input'))}")
+    local_playing(page, "Afterglow", 7.4)
+    page.locator("#back").tap()
+    local_playing(page, "Afterglow", 7.4)
+    choose(page, "ดาว", "Tide", touch=True)
+    local_playing(page, "Blue Hour", .1)
+    page.go_back()
+    expect(page.locator("#map-name")).to_have_text("Midnight")
+    choose(page, "ดาว", "Ember", touch=True)
+    resumed = local_playing(page, "Afterglow", 7.4)
+    assert resumed < 13, resumed
+    page.reload()
+    expect(page.locator("#world-title")).to_have_text("Ember")
+    assert page.evaluate("testAudio.length") == 0
+    system(page, "ทางช้างเผือก", "ระบบสุริยะ", touch=True)
+    expect(page.locator(".world")).to_have_count(8)
+    if screenshots:
+        page.screenshot(path=str(screenshots / "solar-mobile.png"))
+    for name in ("Mercury","Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"):
+        choose(page, "ดาว", name, touch=True)
         expect(page.locator("#world-title")).to_have_text(name)
         assert page.evaluate("document.documentElement.scrollWidth<=innerWidth")
-        page.locator("#home").tap()
+        page.locator("#back").tap()
     context.close()
-    print("Mobile Chromium emulation: all three map bodies reachable by touch.")
+    print(f"Mobile Chromium emulation: all eight solar planets reachable by touch; demo A resumed at {resumed:.2f}s after B.")
+
+
+def check_templates(browser, url):
+    context = browser.new_context(reduced_motion="reduce")
+    context.add_init_script(AUDIO_PROBE)
+    page = context.new_page()
+    errors = []
+    page.on("pageerror", lambda err: errors.append(str(err)))
+    page.goto(url)
+    expect(page.locator("#map-help")).to_contain_text("กาแล็กซี")
+    page.locator("#new-world").click()
+    page.locator("#catalog-picker summary").click()
+    page.locator("#catalog-query").fill("M31")
+    page.locator("#catalog-hits button").filter(has_text="MESSIER031").click()
+    page.locator("#world-name").fill("After Hours")
+    page.locator("#save-world").click()
+    expect(page.locator("#map-name")).to_have_text("After Hours")
+    page.locator("#new-world").click()
+    page.locator("#catalog-picker summary").click()
+    page.locator("#catalog-query").fill("55 Cnc B b")
+    page.locator("#catalog-hits button").filter(has_text="55 Cnc").click()
+    expect(page.locator("#template-note")).to_contain_text("7 ดวง")
+    page.locator("#save-world").click()
+    expect(page.locator(".world")).to_have_count(2)
+    choose(page, "ดาวแม่", "55 Cnc B")
+    expect(page.locator(".world")).to_have_count(2)
+    button = page.get_by_role("button",name="เปิดดาว 55 Cnc B c",exact=True)
+    button.focus()
+    page.keyboard.press("Enter")
+    expect(page.locator("#world-title")).to_have_text("55 Cnc B c")
+    assert page.evaluate("testAudio.length") == 0
+    page.locator("#manage").click()
+    page.locator("#edit-world").click()
+    page.locator("#world-name").fill("Evening")
+    page.locator("#move-to").select_option("midnight")
+    page.locator("#save-world").click()
+    expect(page.locator("#world-title")).to_have_text("Evening")
+    page.reload()
+    page.locator("#back").click()
+    expect(page.locator("#map-name")).to_have_text("Midnight")
+    expect(page.get_by_role("button",name="เปิดดาว Evening", exact=True)).to_be_visible()
+    sky(page)
+    enter(page, "Saturn")
+    page.locator("#manage").click()
+    page.locator("#new-moon").click()
+    page.locator("#catalog-picker summary").click()
+    page.locator("#catalog-query").fill("Mimas")
+    page.locator("#catalog-hits button").filter(has_text="Mimas").click()
+    page.locator("#save-world").click()
+    expect(page.locator("#world-title")).to_have_text("Mimas")
+    page.locator("#back").click()
+    expect(page.locator("#moons")).to_contain_text("Mimas")
+    # An empty custom galaxy can also contain an entirely user-named system.
+    sky(page)
+    choose(page, "กาแล็กซี", "After Hours")
+    page.locator("#new-world").click()
+    page.locator("#world-name").fill("Night Bus")
+    page.locator("#save-world").click()
+    expect(page.locator("#map-name")).to_have_text("Night Bus")
+    expect(page.locator("#worlds button")).to_have_count(0)
+    page.locator("#rename-map").click()
+    page.locator("#world-name").fill("Late Bus")
+    page.locator("#save-world").click()
+    expect(page.locator("#map-name")).to_have_text("Late Bus")
+    assert not errors,errors
+    context.close()
+    print("Catalog galaxy, two-host NASA system, JPL moon, keyboard selection, naming, moving and persistence passed.")
+
+
+def check_upgrade(browser, url, mp3):
+    context = browser.new_context()
+    context.add_init_script(AUDIO_PROBE)
+    context.route("**/legacy-fixture", lambda route: route.fulfill(content_type="text/html",body="<title>Version 1</title>"))
+    page = context.new_page()
+    page.goto(url.rstrip("/")+"/legacy-fixture")
+    page.evaluate("""async (b64) => {
+      await new Promise((resolve,reject)=>{
+        const r=indexedDB.open('playlist-galaxy',1);
+        r.onupgradeneeded=()=>{
+          const db=r.result, worlds=db.createObjectStore('worlds',{keyPath:'id'}), tracks=db.createObjectStore('tracks',{keyPath:'id'});
+          const files=db.createObjectStore('files');
+          const w={id:'old-list',name:'Old playlist',order:100,surface:'jade',parent:null};
+          worlds.add(w); worlds.add({...w,id:'old-moon',name:'Old moon',parent:w.id});
+          worlds.add({...w,id:'luna',name:'My Luna'});
+          tracks.add({id:'old-song',worldId:w.id,title:'Kept MP3',artist:'Test',kind:'local',order:1});
+          files.add(new Blob([Uint8Array.from(atob(b64),c=>c.charCodeAt(0))],{type:'audio/mpeg'}),'old-song');
+        };
+        r.onsuccess=()=>{r.result.close();resolve()};r.onerror=()=>reject(r.error);
+      });
+      localStorage.setItem('playlist-galaxy:position:old-list',JSON.stringify({id:'old-song',seconds:4.5}));
+    }""",base64.b64encode(mp3.read_bytes()).decode())
+    page.goto(url.rstrip("/")+"/#planet=old-list")
+    expect(page.locator("#world-title")).to_have_text("Old playlist")
+    expect(page.locator("#moons")).to_contain_text("Old moon")
+    assert page.evaluate("testAudio.length")==0
+    page.locator("#back").click()
+    expect(page.locator("#map-name")).to_have_text("Midnight")
+    choose(page,"ดาว","Old playlist")
+    assert 4.4 <= local_playing(page,"Kept MP3",4.4) < 8
+    page.goto(url.rstrip("/")+"/#planet=luna")
+    expect(page.locator("#world-title")).to_have_text("My Luna")
+    expect(page.locator("#back")).to_contain_text("Earth")
+    context.close()
+    print("Version-one upgrade retained the old MP3, bookmark, names, moon, and original deep links.")
 
 
 def main():
@@ -266,6 +418,8 @@ def main():
             check_files(browser, url, files, args.screenshots)
             check_musickit(browser, url, files[2])
             check_mobile(browser, url, args.screenshots)
+            check_templates(browser, url)
+            check_upgrade(browser, url, files[0])
             print("Galaxy checks passed in Chromium", browser.version)
 
 

@@ -1,3 +1,4 @@
+import { demoAudio } from "./atlas.js";
 import { bookmark, remember } from "./library.js";
 import { prepareMusic } from "./apple.js";
 
@@ -149,7 +150,7 @@ export class Player {
     this.state = "loading";
     this.changed();
     try {
-      if (track.kind === "local") await this.playFile(track, gen);
+      if (track.kind !== "apple") await this.playFile(track, gen);
       else {
         const work = this.appleJobs.then(() => this.playApple(track, gen));
         this.appleJobs = work.catch(() => {});
@@ -161,23 +162,26 @@ export class Player {
       this.issue(
         error.name === "NotAllowedError"
           ? "เบราว์เซอร์รอให้แตะปุ่มเล่นต่อ"
-          : track.kind === "local"
+          : track.kind !== "apple"
             ? "เล่นไฟล์ MP3 นี้ไม่ได้ ลองเลือกไฟล์อีกครั้ง"
             : error.message || "เล่น Apple Music ไม่สำเร็จ",
       );
     }
   }
   async playFile(track, gen) {
-    const result = this.file(track.id);
-    const blob = result instanceof Blob ? result : await result;
-    if (gen !== this.generation) return;
-    if (!blob) throw new Error("Missing file");
+    let src = track.kind === "demo" ? demoAudio[track.id] : null;
+    if (!src) {
+      const result = this.file(track.id);
+      const blob = result instanceof Blob ? result : await result;
+      if (gen !== this.generation) return;
+      if (!blob) throw new Error("Missing file");
+      src = this.objectUrl = URL.createObjectURL(blob);
+    }
     const audio = new Audio();
     this.audio = audio;
-    this.objectUrl = URL.createObjectURL(blob);
     const resume = this.seconds;
     audio.preload = "auto";
-    audio.src = this.objectUrl;
+    audio.src = src;
     audio.addEventListener(
       "loadedmetadata",
       () => {
