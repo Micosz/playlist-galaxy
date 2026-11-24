@@ -1,4 +1,4 @@
-import { openLibrary, bookmark, fromFile } from "./library.js";
+import { openLibrary, bookmark, fromFile, mediaWriteMessage } from "./library.js";
 import { initialWorlds, demoTracks, isContainer, names, childKind, copySystem, fetchCatalog } from "./atlas.js";
 import { paintPlanet, paintMapBody, drawSky, surfaces } from "./sky.js";
 import { prepareMusic, music, appleSongLink, searchSongs } from "./apple.js";
@@ -764,8 +764,8 @@ $("files").onchange = async () => {
           ? " · ข้าม " + (files.length - valid.length) + " ไฟล์ที่ใช้ไม่ได้"
           : ""),
     );
-  } catch {
-    storageError();
+  } catch (error) {
+    announce(mediaWriteMessage(error));
   }
 };
 

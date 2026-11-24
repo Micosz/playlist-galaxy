@@ -2,6 +2,8 @@ import { demoAudio } from "./atlas.js";
 import { bookmark, remember } from "./library.js";
 import { prepareMusic } from "./apple.js";
 
+const filePlaybackIssue = "เล่นไฟล์ MP3 นี้ไม่ได้ ตรวจอุปกรณ์เสียงแล้วแตะเล่นต่อ หรือลองไฟล์ MP3 อื่น";
+
 export class Player {
   constructor({ tracks, file, changed, issue }) {
     this.tracks = tracks;
@@ -16,6 +18,7 @@ export class Player {
     this.seconds = 0;
     this.clockReady = false;
     this.lastWrite = 0;
+    this.temporaryPosition = false;
   }
 
   position() {
@@ -27,10 +30,16 @@ export class Player {
     const d = this.audio ? this.audio.duration : this.apple?.currentPlaybackDuration;
     return Number.isFinite(d) && d > 0 ? d : 0;
   }
+  savePosition(world,id,seconds) {
+    const persisted = remember(world,id,seconds);
+    if (!persisted && !this.temporaryPosition)
+      this.issue("จำตำแหน่งฟังได้เฉพาะแท็บนี้ หากต้องการเก็บไว้หลังปิดแท็บ ให้ตรวจพื้นที่และสิทธิ์จัดเก็บของเบราว์เซอร์");
+    this.temporaryPosition = !persisted;
+  }
   checkpoint() {
     if (!this.world || !this.track) return;
     this.seconds = this.position();
-    remember(this.world, this.track.id, this.seconds);
+    this.savePosition(this.world, this.track.id, this.seconds);
     this.lastWrite = Date.now();
   }
   tick() {
@@ -117,7 +126,7 @@ export class Player {
     }
     if (natural && index === list.length - 1) {
       this.idle();
-      remember(world, list[0].id, 0);
+      this.savePosition(world, list[0].id, 0);
       return;
     }
     this.start(world, list[(index + 1) % list.length], 0);
@@ -146,7 +155,7 @@ export class Player {
     this.world = world;
     this.track = track;
     this.seconds = Number.isFinite(seconds) ? Math.max(0, seconds) : 0;
-    remember(world, track.id, this.seconds);
+    this.savePosition(world, track.id, this.seconds);
     this.state = "loading";
     this.changed();
     try {
@@ -163,7 +172,7 @@ export class Player {
         error.name === "NotAllowedError"
           ? "เบราว์เซอร์รอให้แตะปุ่มเล่นต่อ"
           : track.kind !== "apple"
-            ? "เล่นไฟล์ MP3 นี้ไม่ได้ ลองเลือกไฟล์อีกครั้ง"
+            ? filePlaybackIssue
             : error.message || "เล่น Apple Music ไม่สำเร็จ",
       );
     }
@@ -198,7 +207,7 @@ export class Player {
     audio.addEventListener("error", () => {
       if (gen === this.generation) {
         this.pause();
-        this.issue("เล่นไฟล์ MP3 นี้ไม่ได้");
+        this.issue(filePlaybackIssue);
       }
     });
     await audio.play();

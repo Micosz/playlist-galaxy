@@ -14,6 +14,24 @@ function finished(tx) {
   });
 }
 
+// A synchronous Blob rejection can leave earlier writes queued for commit.
+async function commitWrites(tx, write) {
+  const committed = finished(tx);
+  try {
+    const [result] = await Promise.all([write(),committed]);
+    return result;
+  } catch (error) {
+    try { tx.abort(); } catch { /* An asynchronous IDB error may already have aborted it. */ }
+    await committed.catch(() => {});
+    throw error;
+  }
+}
+
+export function mediaWriteMessage(error) {
+  if (error?.name === "QuotaExceededError") return "พื้นที่ไม่พอสำหรับ MP3 คลังเดิมยังอยู่ครบ เพิ่มพื้นที่ว่างแล้วลองอีกครั้ง";
+  return "บันทึก MP3 ไม่ได้ คลังเดิมยังอยู่ครบ ลองเปิดในหน้าต่างปกติที่อนุญาตให้จัดเก็บ แล้วเลือกไฟล์อีกครั้ง";
+}
+
 const stores = ["worlds","tracks","positions","files"];
 const prefix = "playlist-galaxy:position:";
 const memory = new Map();
@@ -42,7 +60,11 @@ export function remember(world, id, seconds) {
   try {
     localStorage.setItem(prefix + world, JSON.stringify(place));
     memory.delete(world);
-  } catch { memory.set(world,place); }
+    return true;
+  } catch {
+    memory.set(world,place);
+    return false;
+  }
 }
 function records(tx, bounded = false) {
   return Promise.all(["worlds","tracks","positions"].map((name,i) => {
@@ -107,11 +129,13 @@ export async function openLibrary() {
       pending.push({track:{...track,mediaKey}});
     }
     const tx = db.transaction(["tracks","files"],"readwrite");
-    for (const {track,file} of pending) {
-      tx.objectStore("tracks").add(track);
-      if (file) tx.objectStore("files").add(file,track.id);
-    }
-    await Promise.all([storeMedia(tx,media),finished(tx)]);
+    await commitWrites(tx, () => {
+      for (const {track,file} of pending) {
+        tx.objectStore("tracks").add(track);
+        if (file) tx.objectStore("files").add(file,track.id);
+      }
+      return storeMedia(tx,media);
+    });
   }
   return {
     async load() {
@@ -151,12 +175,9 @@ export async function openLibrary() {
         return plan;
       };
       try {
-        const [plan] = await Promise.all([apply(),finished(tx)]);
+        const plan = await commitWrites(tx,apply);
         for (const p of plan.positions) restored.set(p.worldId,p);
         return plan;
-      } catch (error) {
-        abort();
-        throw error;
       } finally {
         signal?.removeEventListener("abort",abort);
       }

@@ -1,3 +1,4 @@
+import { mediaWriteMessage } from "./library.js";
 import { readBackup, writeBackup } from "./backup.js";
 
 const size = n => n < 1024 * 1024
@@ -35,20 +36,20 @@ export function bindBackup({library, counts, checkpoint, refresh}) {
     if (error instanceof Error && error.name === "Error") return error.message;
     return "อ่านหรือบันทึกไฟล์ไม่สำเร็จ คลังเดิมยังอยู่ครบ";
   }
-  async function run(message, action) {
+  async function run(message, action, describeError = errorText) {
     work?.abort();
     const controller = new AbortController();
     work = controller;
     locked(true);
     status.textContent = message;
     try { await action(controller.signal); }
-    catch (error) { if (!controller.signal.aborted) status.textContent = errorText(error); }
+    catch (error) { if (!controller.signal.aborted) status.textContent = describeError(error); }
     finally { if (work === controller) { work = null; locked(false); } }
   }
   for (const opener of document.querySelectorAll("[data-open-backup]")) opener.onclick = () => {
     discard();
     reportCounts();
-    status.textContent = library() ? "" : "เบราว์เซอร์นี้ยังเปิดคลังเพลงในเครื่องไม่ได้";
+    status.textContent = library() ? "" : "เบราว์เซอร์นี้ยังเปิดคลังเพลงในเครื่องไม่ได้ เปิดในหน้าต่างปกติที่อนุญาตให้จัดเก็บแล้วลองอีกครั้ง";
     locked(false);
     dialog.showModal();
   };
@@ -70,6 +71,9 @@ export function bindBackup({library, counts, checkpoint, refresh}) {
     status.textContent = summary(data,file.size) + " พร้อมดาวน์โหลด";
     download.focus();
   });
+  download.onclick = () => {
+    status.textContent = "ดูไฟล์ .pgalaxy ในรายการดาวน์โหลด หากไม่พบ ให้ตรวจสิทธิ์ดาวน์โหลดของเว็บนี้แล้วกดดาวน์โหลดอีกครั้ง";
+  };
   choose.onclick = () => input.click();
   input.onchange = () => {
     const file = input.files[0];
@@ -104,6 +108,7 @@ export function bindBackup({library, counts, checkpoint, refresh}) {
           " · เพิ่ม " + newTracks.length + " เพลง · รับตำแหน่งฟัง " + positions.length + " แห่ง"
         : "ไม่มีรายการใหม่ · ใช้ข้อมูลที่มีอยู่ในเครื่อง";
       dialog.querySelector("[data-close]").focus();
-    });
+    }, error => candidate?.data.media.length && ["DataCloneError","UnknownError"].includes(error.name)
+      ? mediaWriteMessage(error) : errorText(error));
   };
 }
