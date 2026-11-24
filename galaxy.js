@@ -5,6 +5,7 @@ import { prepareMusic, music, appleSongLink, searchSongs } from "./apple.js";
 import { MapCamera } from "./camera.js";
 import { bindCamera } from "./camera-input.js";
 import { BodyFlight } from "./flight.js";
+import { WheelTravel } from "./wheel-travel.js";
 import { Player } from "./player.js";
 
 const $ = (id) => document.getElementById(id);
@@ -191,9 +192,10 @@ function renderMap() {
   $("new-world").textContent = "＋ สร้าง" + names[kind];
   $("rename-map").hidden = !parent;
   $("map-help").textContent = !list.length ? "ยังไม่มี" + names[kind] + " · สร้าง" + names[kind] + "แรกที่นี่"
-    : !parent ? "แตะกาแล็กซีเพื่อเข้า · ลากเพื่อหมุน · " + (matchMedia("(pointer: coarse)").matches ? "จีบเพื่อซูม" : "กลิ้งล้อเพื่อซูม")
+    : !parent ? "แตะกาแล็กซีเพื่อเข้า · ลากเพื่อหมุน · " + (matchMedia("(pointer: coarse)").matches ? "จีบเพื่อซูม" : "ชี้แล้วเลื่อนล้อขึ้นเพื่อบินเข้า")
     : parent.kind === "galaxy" ? "แตะระบบดาวเพื่อดูดาวในวงโคจร"
-    : orbit ? "แตะดาวเพื่อฟังเพลย์ลิสต์ของดวงนั้น" : "แตะดาวแม่เพื่อดูดาวเคราะห์";
+    : orbit ? (matchMedia("(pointer: coarse)").matches ? "แตะดาวเพื่อฟังเพลย์ลิสต์ของดวงนั้น" : "คลิกดาวเพื่อฟัง · ชี้แล้วเลื่อนล้อขึ้นเพื่อบินเข้า")
+    : "แตะดาวแม่เพื่อดูดาวเคราะห์";
   $("trail").hidden = !parent;
   $("trail").replaceChildren();
   if (parent) {
@@ -306,10 +308,10 @@ function renderDetail() {
   );
   updatePlayer();
 }
-function openWorld(id, play = true, push = true) {
+function openWorld(id, { play = true, push = true, animate = play } = {}) {
   const node = byId(id), prev = current || mapParent;
   const outward = !node || ancestry(prev).some(ancestor => ancestor.id === id);
-  const travelling = play && prev !== (node?.id || null) && !reduced.matches && !document.hidden;
+  const travelling = animate && prev !== (node?.id || null) && !reduced.matches && !document.hidden;
   const mapBody = (worldId) => [...$("worlds").children].find(b => b.dataset.id === worldId)?.firstElementChild;
   const moonMarker = (moonId) => [...$("moons").children].find(b => b.dataset.moon === moonId)?.firstElementChild;
   const map = !node || isContainer(node);
@@ -365,11 +367,43 @@ function openWorld(id, play = true, push = true) {
     if (!returnOnMap)
       bodyFlight.start(source, landing, area, duration, Boolean(source && landing && sourceId !== landingId));
     if (map) camera.fly(outward, source?.rect || departure?.rect, returning?.id, duration, Boolean(returnOnMap && source));
+    return duration;
   }
+  return 0;
 }
+const wheelTravel = new WheelTravel({
+  reduced,
+  ready: button => !button.classList.contains("world") || camera.readyForEntry(button),
+  bookmark: () => camera.bookmark(),
+  begin(id) {
+    const origin = { id: current || mapParent, page, x: scrollX, y: scrollY };
+    const duration = openWorld(id, { play:false, push:false, animate:true });
+    $(current ? "world-count" : "map-help").textContent = "เลื่อนต่อหรือคลิกเพื่อเข้า · เลื่อนย้อนเพื่อกลับ";
+    return { origin, duration };
+  },
+  seek(progress, duration) {
+    camera.scrub(progress);
+    bodyFlight.scrub(progress * duration);
+  },
+  arrive(id, overview) {
+    if (camera.id !== null) camera.settle();
+    openWorld(id);
+    camera.remember(overview);
+    if (current) $("world-title").focus({preventScroll:true});
+  },
+  restore(origin, overview) {
+    camera.remember(overview);
+    openWorld(origin.id, { play:false, push:false });
+    if (!current && page !== origin.page) {
+      page = origin.page;
+      renderMap();
+    }
+    scrollTo(origin.x, origin.y);
+  }
+});
 function route(play) {
   const params = new URLSearchParams(location.hash.slice(1));
-  openWorld(params.get("planet") || params.get("map"), play, false);
+  openWorld(params.get("planet") || params.get("map"), { play, push:false });
 }
 $("home").onclick = () => openWorld(null);
 $("back").onclick = () => openWorld(byId(current)?.parent);
@@ -387,7 +421,10 @@ document.addEventListener("keydown", e => {
 });
 $("prev-page").onclick = () => { page--; renderMap(); };
 $("next-page").onclick = () => { page++; renderMap(); };
-window.addEventListener("popstate", () => route(navigator.userActivation?.hasBeenActive === true));
+window.addEventListener("popstate", () => {
+  wheelTravel.cancel();
+  route(navigator.userActivation?.hasBeenActive === true);
+});
 let redraw;
 function redrawSky() {
   cancelAnimationFrame(redraw);
@@ -530,7 +567,7 @@ $("edit-form").onsubmit = async (e) => {
     worlds = worlds.filter((w) => w.id !== world.id).concat(added);
     $("editor").close();
     if (old && !isContainer(world)) paintPlanet($("portrait"), world);
-    openWorld(world.id, !old);
+    openWorld(world.id, { play:!old });
   } catch { storageError(); }
   finally { $("save-world").disabled = false; }
 };

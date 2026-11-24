@@ -794,3 +794,18 @@ summary {
   #detail-trail { gap: 6px; }
   .list-folded .portrait canvas { width: min(86vw, 390px); }
 }
+
+body[data-wheel-approach] :is(#world-count, #map-help)::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 2px;
+  margin-top: 7px;
+  background: linear-gradient(to right, var(--gold) calc(var(--wheel-progress, 0) * 100%), #ffffff26 0);
+}
+body[data-wheel-approach] #world-count::after { margin-inline: auto; }
+
+/* The preview still owns its layout; only the committed destination exposes editing. */
+body[data-wheel-approach] :is(.collection, #satellites, #new-world, .camera-tools, #map-pages, #rename-map) {
+  visibility: hidden;
+}

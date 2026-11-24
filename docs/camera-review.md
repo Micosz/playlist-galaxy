@@ -16,11 +16,22 @@ python3 checks/galaxy.py
 python3 checks/camera.py
 python3 checks/navigation.py
 python3 checks/journeys.py
+python3 checks/wheel_travel.py
 python3 checks/receiver.py
 python3 checks/map_latency.py --runs 5
 ```
 
 The Python checks use Playwright. The audio checks also use FFmpeg. Pass `--chromium /path/to/chromium` to use an installed Chromium executable.
+
+## Steering a flight with the wheel
+
+From Midnight, point at Ember and scroll up. Ongoing wheel input moves from the anchored map into the same flight used by a click. Small trackpad deltas seek directly. A coarse wheel tick glides to its requested point in at most 85 ms. Stop halfway, scroll back to retrace the route, or click to finish. Escape cancels and restores the original map view. Scrolling away to zero leaves the map at the departure scale so you can keep zooming out. After landing, Back returns to the view where you first pointed at the planet.
+
+Until arrival, the current playlist owns the player and the URL stays at the departure point. The map adds a single history entry at landing and absorbs the remainder of that wheel gesture. Reduced motion enters immediately once the selected body is close enough. The ordinary map zoom, two-finger pinch and keyboard controls are still available.
+
+The wheel check held a flight at 30% for 900 ms, then returned to the same frame by reversing the wheel. It also tests fine deltas, switching from the wheel to a drag or a click, the player controls mid-flight, container and moon travel, Escape, browser history and reduced motion. In a continuous 40-event gesture, Midnight opened once. The wheel was still pointing at a reachable child planet, and that next map kept its original scale. The demo and two imported MP3s each follow Ember → Tide → Ember with a single active decoder and the saved playback position.
+
+On a fresh Chromium document we used read-only CDP observations with user gestures disabled. Actual wheel input reached Ember without giving the page audio activation. The Play button then started Afterglow on one click. The check runs with the browser's gesture-required autoplay policy. [Chrome autoplay policy](https://developer.chrome.com/blog/autoplay/)
 
 ## Keeping a planet under the pointer
 

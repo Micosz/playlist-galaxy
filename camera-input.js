@@ -70,6 +70,8 @@ export function bindCamera(field, camera, interrupt) {
     interrupt();
     const unit = e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? camera.height : 1;
     camera.zoomBy(clamp(-e.deltaY * unit * .0018, -.48, .48), {x:e.clientX, y:e.clientY});
+    // Over a body the first part of the hand-controlled approach is anchored zoom.
+    if (e.target.closest(".world") && !e.ctrlKey) camera.settle();
   }, {passive:false});
   field.addEventListener("keydown", e => {
     if (e.altKey || e.ctrlKey || e.metaKey) return;

@@ -28,8 +28,11 @@ export class MapCamera {
     document.addEventListener("visibilitychange", () => { if (document.hidden) this.settle(); });
   }
 
-  remember() {
-    if (this.id !== null) this.views.set(this.id, { ...this.goal });
+  bookmark() {
+    return this.id === null ? null : { id:this.id, pose:{ ...this.goal } };
+  }
+  remember(view = this.bookmark()) {
+    if (view) this.views.set(view.id, view.pose);
   }
   leave() {
     this.remember();
@@ -152,7 +155,7 @@ export class MapCamera {
   }
   scheduleDetail() {
     clearTimeout(this.refinement);
-    if (this.id === null || !this.orbit || document.hidden || this.frame) return;
+    if (this.id === null || !this.orbit || document.hidden || this.frame || this.flight) return;
     // Refine one visible, magnified thumbnail at a time after the camera rests.
     // Navigation or another gesture discards the old queue.
     this.refinement = setTimeout(() => {
@@ -183,15 +186,7 @@ export class MapCamera {
     if (this.flight) {
       const t = clamp((now - this.flight.at) / this.flight.duration, 0, 1);
       if (t >= 1) return this.settle();
-      const k = ease(t);
-      const { from, focus } = this.flight;
-      this.pose.zoom = from.zoom + (this.goal.zoom - from.zoom) * k;
-      const scale = Math.exp(this.pose.zoom);
-      const a = Math.exp(from.zoom) * (1 - k), b = Math.exp(this.goal.zoom) * k;
-      // The focus travels between its two screen positions while distance changes
-      // geometrically. This keeps an off-axis destination on the approach path.
-      for (const axis of ["x", "y"])
-        this.pose[axis] = (a * (from[axis] + focus[axis]) + b * (this.goal[axis] + focus[axis])) / scale - focus[axis];
+      this.placeFlight(t);
     } else {
       const k = 1 - Math.exp(-Math.max(1, now - this.last) / 56);
       // Blend magnification and projected pan together. Interpolating log zoom
@@ -209,6 +204,31 @@ export class MapCamera {
     this.last = now;
     this.draw();
     this.frame = requestAnimationFrame((time) => this.step(time));
+  }
+  placeFlight(t) {
+    const k = ease(t);
+    const { from, focus } = this.flight;
+    this.pose.zoom = from.zoom + (this.goal.zoom - from.zoom) * k;
+    const scale = Math.exp(this.pose.zoom);
+    const a = Math.exp(from.zoom) * (1 - k), b = Math.exp(this.goal.zoom) * k;
+    // The focus travels between its two screen positions while distance changes
+    // geometrically. This keeps an off-axis destination on the approach path.
+    for (const axis of ["x", "y"])
+      this.pose[axis] = (a * (from[axis] + focus[axis]) + b * (this.goal[axis] + focus[axis])) / scale - focus[axis];
+  }
+  scrub(t) {
+    if (!this.flight) return;
+    cancelAnimationFrame(this.frame);
+    this.frame = 0;
+    this.placeFlight(t);
+    this.draw();
+  }
+  readyForEntry(button) {
+    if (this.flight || !this.unit) return false;
+    // Start the portrait leg early enough that a typical playlist planet
+    // keeps growing into its close-up. A galaxy can fill the whole map.
+    const entryWidth = button.dataset.kind === "planet" ? Math.min(innerWidth * .26, 300) : this.unit * .85;
+    return this.goal.zoom >= maxZoom - .0001 || button.firstElementChild.getBoundingClientRect().width >= entryWidth;
   }
   takeControl() {
     if (!this.flight) return;

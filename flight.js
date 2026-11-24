@@ -5,8 +5,8 @@ function enlarged(rect, area) {
   return { left: p.x - w / 2, top: p.y - h / 2, width: w, height: h };
 }
 
-// The departure sky and travelling artwork are temporary. The destination
-// already owns the player, focus and hit targets when the flight starts.
+// The departure sky and travelling artwork are temporary. The route controller
+// owns the player, focus and the moment that a wheel approach becomes a visit.
 export class BodyFlight {
   constructor(reduced) {
     this.reduced = reduced;
@@ -33,6 +33,13 @@ export class BodyFlight {
     copy.width = canvas.width; copy.height = canvas.height;
     copy.getContext("2d").drawImage(canvas, 0, 0);
     return { canvas: copy, rect };
+  }
+  scrub(milliseconds) {
+    for (const animation of [this.contextMotion, this.animation]) {
+      if (!animation) continue;
+      animation.pause();
+      animation.currentTime = milliseconds;
+    }
   }
   cancel() {
     this.contextMotion?.cancel();
