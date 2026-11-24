@@ -27,7 +27,7 @@
       </button>
       <button class="pill" id="new-world">＋ สร้างกาแล็กซี</button>
     </header>
-    <main>
+    <main id="scene">
       <section id="map" aria-labelledby="map-title">
         <nav id="trail" aria-label="ตำแหน่งบนแผนที่" hidden></nav>
         <div class="map-field" id="map-field" role="group" tabindex="0" aria-label="กล้องแผนที่ดาว" aria-describedby="camera-help">
@@ -94,6 +94,10 @@
         </div>
       </section>
     </main>
+    <footer id="flight-deck">
+      <nav id="thumb-nav" aria-label="เดินทางบนแผนที่" hidden>
+        <button type="button" id="thumb-up" hidden><span aria-hidden="true">‹</span> <span id="thumb-parent"></span></button>
+      </nav>
     <aside id="transport" aria-label="เครื่องเล่นเพลง" hidden>
       <button id="toggle" class="play" aria-label="เล่นต่อ">▶</button>
       <div class="now"><strong id="now-title"></strong><span id="now-world"></span></div>
@@ -109,6 +113,7 @@
       <span id="clock" aria-hidden="true">0:00</span>
       <button id="skip" class="icon-btn" aria-label="เพลงถัดไป">→</button>
     </aside>
+    </footer>
     <p id="notice" aria-live="polite" role="status"></p>
     <dialog id="editor" aria-labelledby="editor-title">
       <form id="edit-form">

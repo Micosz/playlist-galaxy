@@ -9,6 +9,7 @@ import { WheelTravel } from "./wheel-travel.js";
 import { Player } from "./player.js";
 
 const $ = (id) => document.getElementById(id);
+const thumbScreen = matchMedia("(max-width: 660px) and (pointer: coarse)");
 const reduced = matchMedia("(prefers-reduced-motion: reduce)");
 const camera = new MapCamera($("map-field"), $("orbits"), $("worlds"), reduced, refinePlanet);
 const bodyFlight = new BodyFlight(reduced);
@@ -173,6 +174,16 @@ function planetButton(w, slot, compact) {
   btn.onclick = () => openWorld(w.id);
   return btn;
 }
+function renderThumbNav() {
+  const world = byId(current || mapParent);
+  $("thumb-nav").hidden = !thumbScreen.matches || !world;
+  $("thumb-up").hidden = !world;
+  if (world) $("thumb-parent").textContent = "กลับ " + (byId(world.parent)?.name || "จักรวาล");
+}
+thumbScreen.addEventListener("change", renderThumbNav);
+$("thumb-up").onclick = () => openWorld(byId(current || mapParent)?.parent);
+$("scene").addEventListener("scroll", () => { if ($("scene").scrollTop) bodyFlight.cancel(); }, {passive:true});
+
 function renderMap() {
   cancelMapGesture();
   const parent = byId(mapParent), list = children(mapParent);
@@ -353,6 +364,8 @@ function openWorld(id, { play = true, push = true, animate = play } = {}) {
     renderDetail();
     if (changed && play) $("world-title").focus({ preventScroll: true });
   }
+  renderThumbNav();
+  $("scene").scrollTop = 0;
   scrollTo(0, 0);
   if (travelling) {
     const returning = outward && ancestry(prev).find(w => w.parent === (node?.id || null));
@@ -376,7 +389,7 @@ const wheelTravel = new WheelTravel({
   ready: button => !button.classList.contains("world") || camera.readyForEntry(button),
   bookmark: () => camera.bookmark(),
   begin(id) {
-    const origin = { id: current || mapParent, page, x: scrollX, y: scrollY };
+    const origin = { id: current || mapParent, page, x: scrollX, y: scrollY, sceneTop: $("scene").scrollTop };
     const duration = openWorld(id, { play:false, push:false, animate:true });
     $(current ? "world-count" : "map-help").textContent = "เลื่อนต่อหรือคลิกเพื่อเข้า · เลื่อนย้อนเพื่อกลับ";
     return { origin, duration };
@@ -398,6 +411,7 @@ const wheelTravel = new WheelTravel({
       page = origin.page;
       renderMap();
     }
+    $("scene").scrollTop = origin.sceneTop;
     scrollTo(origin.x, origin.y);
   }
 });
