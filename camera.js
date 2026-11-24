@@ -4,6 +4,8 @@ import { paintSun } from "./sky.js";
 const keys = Object.keys(homePose());
 const neutral = { x: 0, y: 0, z: 0 };
 const depths = [.22, -.30, -.59];
+const minZoom = -.77, maxZoom = 1.28;
+const mapArtScale = (scale) => clamp(scale, .42, 4);
 const ease = (t) => t * t * t * (t * (6 * t - 15) + 10);
 
 export class MapCamera {
@@ -86,6 +88,9 @@ export class MapCamera {
       ctx.fillRect(p.x, p.y, size, size);
     }
     ctx.globalAlpha = 1;
+    // A folded portrait can be larger than the interactive map's whole zoom
+    // range. Continue from the visible boundary until the flight re-enters it.
+    const beyondMap = Math.exp(this.pose.zoom - clamp(this.pose.zoom, minZoom, maxZoom));
     for (const body of this.bodies) {
       if (body.path) {
         ctx.beginPath();
@@ -101,7 +106,8 @@ export class MapCamera {
         ctx.lineWidth = .8;
         ctx.stroke();
       }
-      const p = project(body.point), scale = clamp(p.scale / body.baseScale, .42, 4);
+      const p = project(body.point);
+      const scale = mapArtScale(p.scale / (body.baseScale * beyondMap)) * beyondMap;
       body.el.style.setProperty("--dx", (p.x - body.x).toFixed(2) + "px");
       body.el.style.setProperty("--dy", (p.y - body.y + body.label * (scale - 1)).toFixed(2) + "px");
       body.el.style.setProperty("--scale", scale.toFixed(4));
@@ -223,7 +229,13 @@ export class MapCamera {
     const from = { ...this.goal, zoom: this.goal.zoom + Math.log(outward ? 1.95 : .43) };
     if (matchSize && returning && origin) {
       const art = returning.el.firstElementChild;
-      from.zoom = Math.log(origin.width * returning.baseScale / (art.offsetWidth * projection.scale));
+      const wanted = origin.width / parseFloat(getComputedStyle(art).width);
+      const depthScale = projection.scale / returning.baseScale;
+      const largest = mapArtScale(Math.exp(maxZoom) * depthScale);
+      const smallest = mapArtScale(Math.exp(minZoom) * depthScale);
+      if (wanted > largest) from.zoom = maxZoom + Math.log(wanted / largest);
+      else if (wanted < smallest) from.zoom = minZoom + Math.log(wanted / smallest);
+      else from.zoom = Math.log(wanted / depthScale);
     }
     const scale = unit * Math.exp(from.zoom);
     from.x = (aim.x - rect.left - this.width / 2) / scale - focus.x;
@@ -265,7 +277,10 @@ export class MapCamera {
   }
   zoomBy(amount, screen, anchor = screen && this.anchorAt(screen)) {
     this.takeControl();
-    this.goal.zoom = clamp(this.goal.zoom + amount, -.77, 1.28);
+    const zoom = this.goal.zoom;
+    // Taking hold of an oversized return should allow motion back into range
+    // without snapping smaller when the listener first scrolls or pinches.
+    this.goal.zoom = clamp(zoom + amount, Math.min(zoom, minZoom), Math.max(zoom, maxZoom));
     if (anchor) {
       const q = this.fieldPoint(screen), scale = Math.exp(this.goal.zoom) * anchor.depthScale;
       this.goal.x = clamp(q.x / scale - anchor.x, -1.75, 1.75);

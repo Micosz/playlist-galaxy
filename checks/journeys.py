@@ -8,6 +8,7 @@ from playwright.sync_api import sync_playwright
 
 from camera import hit
 from galaxy import AUDIO_PROBE, local_playing, static_server
+from navigation import touch
 
 
 PROBE = """() => {
@@ -140,6 +141,48 @@ def journey(browser, url, mobile, evidence, measure_only):
     ctx.close()
 
 
+def folded_return(browser, url, mobile):
+    ctx = browser.new_context(viewport={"width": 390 if mobile else 1440, "height": 844 if mobile else 950},
+                              is_mobile=mobile, has_touch=mobile)
+    p = ctx.new_page()
+    session = ctx.new_cdp_session(p) if mobile else None
+    p.goto(url + "#map=solar-system")
+    hit(p, '[data-id="neptune"]', mobile)
+    hit(p, "#playlist-toggle", mobile)
+    p.evaluate("""() => {
+      const width = el => el.getBoundingClientRect().width;
+      document.addEventListener('click', e => {
+        if (e.target.closest('#back')) window.portraitWidth = width(document.querySelector('#portrait'));
+      }, true);
+      window.addEventListener('click', () => {
+        const r = document.querySelector('[data-id=neptune] canvas').getBoundingClientRect();
+        window.firstFrame = {width:r.width, x:r.left+r.width/2, y:r.top+r.height/2};
+      }, {once:true});
+    }""")
+    hit(p, "#back", mobile)
+    portrait, first = p.evaluate("[portraitWidth, firstFrame]")
+    assert abs(first["width"] - portrait) < 1, (portrait, first)
+    x, y = first["x"], first["y"]
+    if mobile:
+        touch(session, "touchStart", [(x - 18, y), (x + 18, y)])
+        touch(session, "touchMove", [(x - 30, y), (x + 30, y)])
+        touch(session, "touchEnd", [])
+    else:
+        p.mouse.move(x, y)
+        p.mouse.wheel(0, -90)
+    p.wait_for_function("!document.querySelector('[data-flying]')")
+    art = p.locator('[data-id="neptune"] canvas')
+    p.wait_for_timeout(230)
+    held = art.bounding_box()["width"]
+    assert held > .94 * portrait, (portrait, held)
+    p.locator('[data-id="neptune"]').press("-")
+    p.wait_for_function("w => document.querySelector('[data-id=neptune] canvas').getBoundingClientRect().width < w * .9", arg=held)
+    assert p.url.endswith("#map=solar-system")
+    print(f"Folded {'touch' if mobile else 'desktop'} return: {portrait:.2f}px → {first['width']:.2f}px; "
+          "taking control preserved size, then zoom-out responded.", flush=True)
+    ctx.close()
+
+
 def interrupt_arrival(browser, url):
     ctx = browser.new_context(viewport={"width": 470, "height": 380})
     ctx.add_init_script(AUDIO_PROBE)
@@ -176,6 +219,8 @@ def main():
                                      args=["--disable-webgl", "--autoplay-policy=user-gesture-required"])
         for mobile in (False, True):
             journey(browser, url, mobile, args.evidence, args.measure_only)
+            if not args.measure_only:
+                folded_return(browser, url, mobile)
         if not args.measure_only:
             interrupt_arrival(browser, url)
         browser.close()

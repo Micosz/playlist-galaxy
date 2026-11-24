@@ -50,7 +50,11 @@ At `0519869`, the flying image of Saturn and its selectable counterpart followed
 
 The moon close-up uses its own surface from departure. On the same starting revision, the visible image left Saturn's portrait, 332.91 px from the Titan marker on desktop and 221.58 px on touch. The old return ended at that same distance from the marker. In the new runs both ends measured within 0.01 px on both viewports. The test compares the flying texture to the real Titan portrait, reverses the flight twice before landing, scrolls a playlist and enables reduced motion during a return. It also verifies that the settled map did not draw another frame during a 300 ms sample.
 
+Folding Neptune's playlist exposes a larger portrait. On the moon-flight checkpoint `788bb2f`, returning from that view cut its width from 640 to 472 CSS px on a 1440 × 950 desktop, and from 335.39 to 327.56 px on a 390 × 844 touch viewport. The first frame now preserves the displayed width on both. The test takes control with the wheel or a two-finger pinch while the picture is still enlarged, then verifies zoom-out responds.
+
 Run `python3 checks/journeys.py --chromium /path/to/chromium --evidence /tmp/journeys` to save mid-flight frames and per-frame coordinates. The `--measure-only` option can also be used with a copy of this check on the starting revision.
+
+On the final flight pass, seven alternating cold visits per build and viewport measured the time from clicking the Solar System to the second animation-frame callback. The medians were 116.2 → 118.2 ms on desktop and 114.8 → 109.9 ms on touch (starting revision → updated flight). Copying the departure sky took a median 1.3 ms on desktop and 0.8 ms on touch. The click-handler ranges overlapped. Use `checks/map_latency.py` on both checkouts to repeat the endpoint measurements.
 
 ## Cold entry into the Solar System
 
