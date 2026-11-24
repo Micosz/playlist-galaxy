@@ -9,7 +9,7 @@ import { Player } from "./player.js";
 
 const $ = (id) => document.getElementById(id);
 const reduced = matchMedia("(prefers-reduced-motion: reduce)");
-const camera = new MapCamera($("map-field"), $("orbits"), $("worlds"), reduced);
+const camera = new MapCamera($("map-field"), $("orbits"), $("worlds"), reduced, refinePlanet);
 const bodyFlight = new BodyFlight(reduced);
 bindCamera($("map-field"), camera, () => bodyFlight.cancel());
 $("zoom-in").onclick = () => { bodyFlight.cancel(); camera.zoomBy(.25); };
@@ -144,7 +144,11 @@ function updatePlayer() {
   if (visible && active) tickTimer = setInterval(updateClock, 450);
   if (visible) updateClock();
 }
-function planetButton(w, slot) {
+function refinePlanet(el) {
+  const world = byId(el.dataset.id);
+  if (world) paintPlanet(el.firstElementChild, world);
+}
+function planetButton(w, slot, compact) {
   const btn = make("button");
   btn.className = "world";
   btn.dataset.id = w.id;
@@ -155,7 +159,7 @@ function planetButton(w, slot) {
   btn.style.setProperty("--tone", surfaces[w.surface].tone);
   const canvas = make("canvas");
   canvas.setAttribute("aria-hidden", "true");
-  paintMapBody(canvas, w);
+  paintMapBody(canvas, w, compact);
   const label = make("span");
   label.className = "world-label";
   label.append(make("span", w.name));
@@ -177,7 +181,7 @@ function renderMap() {
   const visible = list.slice(page * perPage, (page + 1) * perPage);
   const slots = orbit ? (list.length <= 3 ? closeSlots : orbitalSlots) : distantSlots;
   const kind = childKind(parent);
-  $("worlds").replaceChildren(...visible.map((w, i) => planetButton(w, slots[i])));
+  $("worlds").replaceChildren(...visible.map((w, i) => planetButton(w, slots[i], slots === orbitalSlots)));
   $("worlds").setAttribute("aria-label", "เลือก" + (list[0] ? names[list[0].kind] : names[kind]));
   $("map").classList.toggle("orbit-view", orbit);
   if (orbit) visible.forEach(warm);
@@ -334,9 +338,9 @@ function openWorld(id, play = true, push = true) {
     const changed = current !== id;
     current = id;
     mapParent = ancestry(node.parent).filter(isContainer).at(-1)?.id || null;
+    if (play) player.enter(id);
     if (changed) paintPlanet($("portrait"), node);
     detailTrail(node);
-    if (play) player.enter(id);
     renderDetail();
     if (changed && play) $("world-title").focus({ preventScroll: true });
   }

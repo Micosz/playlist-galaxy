@@ -77,6 +77,15 @@ def run_gestures(browser, url, mobile):
     p.locator("#camera-home").click()
     p.wait_for_timeout(650)
     assert all(abs(s[2]-1)<.002 for s in view(p))
+    # The overview is cheap on a cold visit, and a magnified, visible planet
+    # gets the full-resolution surface once the camera has settled.
+    if not mobile:
+        narrow=p.locator('[data-id="mercury"] canvas')
+        assert narrow.evaluate("el=>el.width")==260
+        for _ in range(5): p.locator("#zoom-in").click()
+        p.wait_for_function("document.querySelector('[data-id=mercury] canvas').width===520")
+        p.locator("#camera-home").click()
+        p.wait_for_timeout(650)
     field=p.locator("#map-field")
     field.focus();p.keyboard.press("ArrowRight");p.keyboard.press("Shift+ArrowDown");p.keyboard.press("+")
     p.wait_for_timeout(450)

@@ -7,12 +7,13 @@ const depths = [.22, -.30, -.59];
 const ease = (t) => t < .5 ? 4 * t ** 3 : 1 - (-2 * t + 2) ** 3 / 2;
 
 export class MapCamera {
-  constructor(field, layer, worlds, reduced) {
+  constructor(field, layer, worlds, reduced, refine) {
     this.field = field;
     this.layer = layer;
     this.worlds = worlds;
     this.ctx = layer.getContext("2d");
     this.reduced = reduced;
+    this.refine = refine;
     this.views = new Map();
     this.pose = homePose();
     this.goal = homePose();
@@ -35,6 +36,7 @@ export class MapCamera {
     this.flight = null;
     this.id = null;
     this.bodies = [];
+    clearTimeout(this.refinement);
     delete this.field.dataset.flying;
   }
   show(id, kind, orbit, cool) {
@@ -67,6 +69,7 @@ export class MapCamera {
       return { el, x, y, label, point, baseScale: 2.8 / (2.8 - point.z), path: flat ? orbitPath(point, flat) : null };
     });
     this.draw();
+    this.scheduleDetail();
   }
   draw() {
     if (this.id === null || !this.width) return;
@@ -116,6 +119,27 @@ export class MapCamera {
     this.pose = { ...this.goal };
     delete this.field.dataset.flying;
     this.draw();
+    this.scheduleDetail();
+  }
+  scheduleDetail() {
+    clearTimeout(this.refinement);
+    if (this.id === null || !this.orbit || document.hidden || this.frame) return;
+    // Refine one visible, magnified thumbnail at a time after the camera rests.
+    // Navigation or another gesture discards the old queue.
+    this.refinement = setTimeout(() => {
+      if (this.frame || this.field.classList.contains("dragging")) return;
+      const field = this.field.getBoundingClientRect();
+      for (const {el} of this.bodies) {
+        const art = el.firstElementChild;
+        if (art.width !== 260) continue;
+        const box = art.getBoundingClientRect();
+        if (box.width * Math.min(devicePixelRatio, 1.6) <= 292 ||
+            box.right < field.left || box.left > field.right || box.bottom < field.top || box.top > field.bottom) continue;
+        this.refine(el);
+        this.scheduleDetail();
+        break;
+      }
+    }, 90);
   }
   wake() {
     if (this.reduced.matches) return this.settle();

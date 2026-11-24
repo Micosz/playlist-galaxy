@@ -41,16 +41,17 @@ function terrain(x, y) {
 }
 
 const artCache = new Map();
-function makePlanet(type, variation) {
+function makePlanet(type, variation, scale) {
   const size = 520,
     height = 340,
     canvas = document.createElement("canvas");
-  canvas.width = size;
-  canvas.height = height;
+  canvas.width = size * scale;
+  canvas.height = height * scale;
   const ctx = canvas.getContext("2d"),
     cx = 260,
     cy = 169,
     r = type === "ring" ? 103 : 132;
+  ctx.scale(scale, scale);
   const base = surfaces[type].base,
     seed = (variation % 4093) * 0.19;
   function rings(front) {
@@ -81,14 +82,14 @@ function makePlanet(type, variation) {
   }
   if (type === "ring") rings(false);
   const disc = document.createElement("canvas"),
-    d = 2 * r;
+    d = Math.round(2 * r * scale);
   disc.width = disc.height = d;
   const sc = disc.getContext("2d");
   const im = sc.createImageData(d, d);
   for (let iy = 0; iy < d; iy++)
     for (let ix = 0; ix < d; ix++) {
-      const x = (ix + 0.5 - r) / r,
-        y = (iy + 0.5 - r) / r,
+      const x = (ix + 0.5) * 2 / d - 1,
+        y = (iy + 0.5) * 2 / d - 1,
         len = x * x + y * y;
       if (len >= 1) continue;
       const z = Math.sqrt(1 - len),
@@ -98,7 +99,7 @@ function makePlanet(type, variation) {
         v = lat * 4 + seed * 0.17,
         drift = terrain(u * 2, v * 2);
       const clouds = terrain(u * 5 + drift * 3, v * 5),
-        fine = field(ix * 1.1 + seed, iy * 1.3);
+        fine = field(ix / scale * 1.1 + seed, iy / scale * 1.3);
       let texture, pigment = base, cloudCover = 0, hue = 0;
       if (type === "moon" || type === "ember") {
         texture =
@@ -135,23 +136,24 @@ function makePlanet(type, variation) {
           (pigment[c] * (1 - cloudCover) + 235 * cloudCover + hue * (c === 2 ? 0.08 : 1)) * texture * shade * shadowRing +
           rim * (c === 2 ? 112 : 83) +
           [8, 9, 18][c];
-      im.data[k + 3] = Math.min(255, (1 - Math.sqrt(len)) * r * 360);
+      im.data[k + 3] = Math.min(255, (1 - Math.sqrt(len)) * d * 180);
     }
   sc.putImageData(im, 0, 0);
-  ctx.drawImage(disc, cx - r, cy - r);
+  ctx.drawImage(disc, cx - r, cy - r, 2 * r, 2 * r);
   if (type === "ring") rings(true);
   return canvas;
 }
-export function paintPlanet(canvas, world) {
+export function paintPlanet(canvas, world, scale = 1) {
   const variation = [...world.id].reduce((n, c) => (n * 31 + c.charCodeAt(0)) >>> 0, 13);
-  const key = world.surface + "-" + variation;
+  const full = world.surface + "-" + variation;
+  const key = scale === 1 || artCache.has(full) ? full : full + "/small";
   if (!artCache.has(key)) {
     if (artCache.size >= 24) artCache.delete(artCache.keys().next().value);
-    artCache.set(key, makePlanet(world.surface, variation));
+    artCache.set(key, makePlanet(world.surface, variation, scale));
   }
-  canvas.width = 520;
-  canvas.height = 340;
-  canvas.getContext("2d").drawImage(artCache.get(key), 0, 0);
+  canvas.width = 520 * scale;
+  canvas.height = 340 * scale;
+  canvas.getContext("2d").drawImage(artCache.get(key), 0, 0, canvas.width, canvas.height);
 }
 
 export function drawSky(canvas, showOrbits) {
@@ -293,9 +295,9 @@ export function paintSun(ctx, x, y, radius, cool = false) {
   glow(ctx, x, y, radius, [[0, "#fffdf2"], [0.65, cool ? "#e3f8ff" : "#ffe7ad"], [0.91, cool ? "#a9d5f9" : "#f4b870"], [1, "rgba(" + c + ",.05)"]]);
 }
 
-export function paintMapBody(canvas, world) {
+export function paintMapBody(canvas, world, compact = false) {
   if (world.kind !== "galaxy" && world.kind !== "system" && world.kind !== "host") {
-    paintPlanet(canvas, world);
+    paintPlanet(canvas, world, compact ? .5 : 1);
     return;
   }
   const key = [world.kind, world.id, world.surface].join("/");
