@@ -80,6 +80,8 @@ The galaxy browser check uses FFmpeg to generate its own MP3s. Pass `--chromium 
 
 The backup check creates independent Chromium profiles and generated MP3s, downloads an actual backup, and imports it with HTTP disabled. It reopens the recipient after moving the backup file, checks playback and resume, repeated and concurrent imports, protected destination values, rejected versions, damaged media, quota rollback and version-two storage upgrades. Pass `--offline-html "/path/to/Playlist Galaxy.html"` to exercise an extracted offline copy, or `--evidence /tmp/playlist-backup` to save the mobile import review.
 
+See the [Safari/iPhone smoke test and cross-engine commands](docs/browser-compatibility.md) for music, storage and download checks.
+
 ## Saturn radio
 
 The original receiver synthesizes three stations in the browser. Press **Power on** at its receiver to listen.
