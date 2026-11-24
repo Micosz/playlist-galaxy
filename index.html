@@ -30,10 +30,16 @@
     <main>
       <section id="map" aria-labelledby="map-title">
         <nav id="trail" aria-label="ตำแหน่งบนแผนที่" hidden></nav>
-        <div class="map-field">
-          <canvas id="orbits" aria-hidden="true" hidden></canvas>
+        <div class="map-field" id="map-field" role="group" tabindex="0" aria-label="กล้องแผนที่ดาว" aria-describedby="camera-help">
+          <canvas id="orbits" aria-hidden="true"></canvas>
           <div id="worlds" class="worlds" role="group" aria-label="เลือกกาแล็กซี"></div>
         </div>
+        <div class="camera-tools" role="group" aria-label="มุมมองแผนที่">
+          <button id="zoom-out" aria-label="ซูมออก" title="ซูมออก (−)">−</button>
+          <button id="camera-home" aria-label="คืนมุมมองแผนที่" title="คืนมุมมอง (0)">◎</button>
+          <button id="zoom-in" aria-label="ซูมเข้า" title="ซูมเข้า (+)">+</button>
+        </div>
+        <p id="camera-help" class="visually-hidden">ลากหรือใช้ปุ่มลูกศรเพื่อหมุน กลิ้งล้อหรือจีบสองนิ้วเพื่อซูม กด Shift ค้างขณะลากหรือเลื่อนสองนิ้วเพื่อเลื่อนมุมมอง กด 0 เพื่อคืนมุมมอง</p>
         <div class="map-caption">
           <div class="map-heading">
             <h1 id="map-title" tabindex="-1"><span id="map-name">My universe</span><i aria-hidden="true">.</i></h1>

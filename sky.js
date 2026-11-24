@@ -287,7 +287,7 @@ function spiral(canvas, seed, cool) {
   ctx.restore();
 }
 
-function star(ctx, x, y, radius, cool = false) {
+export function paintSun(ctx, x, y, radius, cool = false) {
   const c = cool ? "155,207,255" : "255,185,105";
   glow(ctx, x, y, radius * 4.7, [[0, "rgba(" + c + ",.9)"], [0.22, "rgba(" + c + ",.37)"], [0.45, "rgba(" + c + ",.10)"], [1, "rgba(" + c + ",0)"]]);
   glow(ctx, x, y, radius, [[0, "#fffdf2"], [0.65, cool ? "#e3f8ff" : "#ffe7ad"], [0.91, cool ? "#a9d5f9" : "#f4b870"], [1, "rgba(" + c + ",.05)"]]);
@@ -322,7 +322,7 @@ export function paintMapBody(canvas, world) {
         glow(c, x, y, 3.5 + rnd() * 5, [[0, "#fff0d9"], [0.65, "#a0a8c6"], [1, "rgba(113,128,164,0)"]]);
       }
       c.restore();
-      star(c, cx, cy, 27, cool);
+      paintSun(c, cx, cy, 27, cool);
     }
     if (artCache.size >= 24) artCache.delete(artCache.keys().next().value);
     artCache.set(key, art);
@@ -330,32 +330,4 @@ export function paintMapBody(canvas, world) {
   canvas.width = 640;
   canvas.height = 380;
   canvas.getContext("2d").drawImage(artCache.get(key), 0, 0);
-}
-
-// The guide ellipses pass through the current button positions at any viewport size.
-export function paintOrbits(canvas, buttons, cool) {
-  const w = canvas.clientWidth, h = canvas.clientHeight;
-  if (!w || !h) return;
-  const ratio = Math.min(window.devicePixelRatio || 1, 2);
-  canvas.width = Math.round(w * ratio);
-  canvas.height = Math.round(h * ratio);
-  const ctx = canvas.getContext("2d");
-  ctx.scale(ratio, ratio);
-  const x = w / 2, y = h / 2, tilt = -0.2;
-  const flat = Math.min(0.78, Math.max(0.56, h / w));
-  ctx.save();
-  ctx.translate(x, y);
-  ctx.rotate(tilt);
-  for (const b of buttons) {
-    const dx = b.offsetLeft - x, dy = b.offsetTop - y - (b.offsetHeight - b.firstElementChild.offsetHeight) / 2;
-    const u = dx * Math.cos(tilt) + dy * Math.sin(tilt), v = dy * Math.cos(tilt) - dx * Math.sin(tilt);
-    const radius = Math.hypot(u, v / flat);
-    ctx.beginPath();
-    ctx.ellipse(0, 0, radius, radius * flat, 0, 0, 2 * Math.PI);
-    ctx.strokeStyle = "rgba(177,188,219,.17)";
-    ctx.lineWidth = 0.85;
-    ctx.stroke();
-  }
-  ctx.restore();
-  star(ctx, x, y, Math.max(8, Math.min(20, w * 0.023)), cool);
 }

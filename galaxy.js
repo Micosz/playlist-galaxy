@@ -1,10 +1,20 @@
 import { openLibrary, bookmark, fromFile } from "./library.js";
 import { initialWorlds, demoTracks, isContainer, names, childKind, copySystem, fetchCatalog } from "./atlas.js";
-import { paintPlanet, paintMapBody, paintOrbits, drawSky, surfaces } from "./sky.js";
+import { paintPlanet, paintMapBody, drawSky, surfaces } from "./sky.js";
 import { prepareMusic, music, appleSongLink, searchSongs } from "./apple.js";
+import { MapCamera } from "./camera.js";
+import { bindCamera } from "./camera-input.js";
+import { BodyFlight, center } from "./flight.js";
 import { Player } from "./player.js";
 
 const $ = (id) => document.getElementById(id);
+const reduced = matchMedia("(prefers-reduced-motion: reduce)");
+const camera = new MapCamera($("map-field"), $("orbits"), $("worlds"), reduced);
+const bodyFlight = new BodyFlight(reduced);
+bindCamera($("map-field"), camera, () => bodyFlight.cancel());
+$("zoom-in").onclick = () => { bodyFlight.cancel(); camera.zoomBy(.25); };
+$("zoom-out").onclick = () => { bodyFlight.cancel(); camera.zoomBy(-.25); };
+$("camera-home").onclick = () => { bodyFlight.cancel(); camera.reset(); };
 const make = (tag, text) => {
   const node = document.createElement(tag);
   if (text !== undefined) node.textContent = text;
@@ -158,10 +168,6 @@ function planetButton(w, slot) {
   btn.onclick = () => openWorld(w.id);
   return btn;
 }
-function drawOrbits() {
-  if (!$("map").hidden && !$("orbits").hidden)
-    paintOrbits($("orbits"), $("worlds").children, byId(mapParent)?.surface === "ocean");
-}
 function renderMap() {
   const parent = byId(mapParent), list = children(mapParent);
   const orbit = orbitView(parent, list);
@@ -173,7 +179,6 @@ function renderMap() {
   const kind = childKind(parent);
   $("worlds").replaceChildren(...visible.map((w, i) => planetButton(w, slots[i])));
   $("worlds").setAttribute("aria-label", "เลือก" + (list[0] ? names[list[0].kind] : names[kind]));
-  $("orbits").hidden = !orbit;
   $("map").classList.toggle("orbit-view", orbit);
   if (orbit) visible.forEach(warm);
   $("map-name").textContent = parent?.name || "My universe";
@@ -201,7 +206,7 @@ function renderMap() {
   $("next-page").disabled = page === pages - 1;
   $("page-number").textContent = page + 1 + " / " + pages;
   updatePlayer();
-  drawOrbits();
+  camera.show(JSON.stringify([mapParent, page]), parent?.kind || "universe", orbit, parent?.surface === "ocean");
 }
 function trackRow(t, index) {
   const li = make("li"),
@@ -281,8 +286,11 @@ function renderDetail() {
 }
 function openWorld(id, play = true, push = true) {
   const node = byId(id), prev = current || mapParent;
-  const trigger = document.activeElement?.closest(".world");
-  const origin = trigger ? trigger.offsetLeft + "px " + trigger.offsetTop + "px" : "50% 50%";
+  const outward = !node || ancestry(prev).some(ancestor => ancestor.id === id);
+  const travelling = play && prev !== (node?.id || null) && !reduced.matches;
+  const mapBody = (worldId) => [...$("worlds").children].find(b => b.dataset.id === worldId)?.firstElementChild;
+  const source = travelling ? bodyFlight.snapshot(current ? $("portrait") : mapBody(id)) : null;
+  bodyFlight.cancel();
   const map = !node || isContainer(node);
   const hash = node ? (map ? "#map=" : "#planet=") + encodeURIComponent(node.id) : "";
   if (push && location.hash !== hash) history.pushState(null, "", location.pathname + location.search + hash);
@@ -305,6 +313,7 @@ function openWorld(id, play = true, push = true) {
       (target || $("worlds").firstElementChild || $("new-world")).focus({ preventScroll: true });
     }
   } else {
+    camera.leave();
     const changed = current !== id;
     current = id;
     mapParent = ancestry(node.parent).filter(isContainer).at(-1)?.id || null;
@@ -313,15 +322,15 @@ function openWorld(id, play = true, push = true) {
     renderDetail();
     if (changed && play) $("world-title").focus({ preventScroll: true });
   }
-  if (play && prev !== (node?.id || null) && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    const scene = map ? $("worlds").parentElement : $("portrait").parentElement;
-    const outward = !node || ancestry(prev).some((ancestor) => ancestor.id === id);
-    scene.animate([
-      { opacity: 0.35, transform: outward ? "scale(1.06)" : "scale(.92)", transformOrigin: origin },
-      { opacity: 1, transform: "scale(1)", transformOrigin: origin },
-    ], { duration: 260, easing: "ease-out" });
-  }
   scrollTo(0, 0);
+  if (travelling) {
+    const returning = outward && ancestry(prev).find(w => w.parent === (node?.id || null));
+    const landing = map ? (returning ? mapBody(returning.id) : null) : $("portrait");
+    const area = (map ? $("map-field") : $("interior")).getBoundingClientRect();
+    const duration = map && !outward ? 780 : 640;
+    bodyFlight.start(source, landing, area, duration);
+    if (map) camera.fly(outward, source && center(source.rect), returning?.id, duration);
+  }
 }
 function route(play) {
   const params = new URLSearchParams(location.hash.slice(1));
@@ -337,11 +346,9 @@ function redrawSky() {
   cancelAnimationFrame(redraw);
   redraw = requestAnimationFrame(() => {
     drawSky($("firmament"), false);
-    drawOrbits();
   });
 }
 window.addEventListener("resize", redrawSky);
-new ResizeObserver(drawOrbits).observe($("worlds"));
 document.addEventListener("visibilitychange", () => {
   if (document.hidden) player.checkpoint();
 });
