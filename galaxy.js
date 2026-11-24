@@ -7,6 +7,7 @@ import { bindCamera } from "./camera-input.js";
 import { BodyFlight } from "./flight.js";
 import { WheelTravel } from "./wheel-travel.js";
 import { Player } from "./player.js";
+import { bindBackup } from "./backup-ui.js";
 
 const $ = (id) => document.getElementById(id);
 const thumbScreen = matchMedia("(pointer: coarse)");
@@ -105,7 +106,7 @@ function cachedFile(id) {
 }
 function warm(world) {
   const list = songs(world.id),
-    mark = bookmark(world.id);
+    mark = bookmark(world.id,list);
   const track = list.find((t) => t.id === mark.id) || list[0];
   if (db && track?.kind === "local") Promise.resolve(cachedFile(track.id)).catch(() => {});
 }
@@ -598,6 +599,7 @@ function editor(parentId, editing = null) {
   editId = editing;
   const old = byId(editId), parent = byId(parentId), kind = old?.kind || childKind(parent);
   const label = names[kind], title = (old ? "แก้ไข" : "สร้าง") + label;
+  $("root-backup").hidden = Boolean(parent || old);
   $("editor-title").textContent = title;
   $("save-world").textContent = old ? "บันทึก" : title;
   $("name-label").textContent = "ชื่อ" + label;
@@ -695,6 +697,7 @@ $("files").onchange = async () => {
     return;
   }
   try {
+    announce("กำลังเพิ่ม MP3 " + valid.length + " ไฟล์ลง " + byId(worldId).name + "…");
     await addEntries(
       worldId,
       valid.map((file) => ({ track: fromFile(file, worldId), file })),
@@ -824,6 +827,18 @@ $("link-form").onsubmit = async (e) => {
     $("apple-feedback").textContent = "บันทึกเพลงไม่ได้ ลองอีกครั้ง";
   }
 };
+
+bindBackup({
+  library: () => db,
+  counts: () => ({ worlds:worlds.length, tracks:tracks.length }),
+  checkpoint: () => player.checkpoint(),
+  async refresh() {
+    [worlds, tracks] = await db.load();
+    if (current) { paintPlanet($("portrait"),byId(current)); detailTrail(byId(current)); renderDetail(); }
+    else renderMap();
+    renderThumbNav();
+  },
+});
 
 try {
   db = await openLibrary();

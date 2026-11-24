@@ -890,3 +890,19 @@ body[data-wheel-approach] :is(.collection, #satellites, #new-world, .camera-tool
   #notice { bottom: calc(56px + env(safe-area-inset-bottom)); }
   body.playing-map #notice { bottom: calc(120px + env(safe-area-inset-bottom)); }
 }
+
+.transfer-entry {
+  display: block;
+  width: 100%;
+  margin-top: 18px;
+  padding: 12px 0 0;
+  border-top: 1px solid var(--edge);
+  color: var(--gold);
+  text-align: left;
+  min-height: 44px;
+}
+#library-transfer .actions { flex-wrap: wrap; }
+#library-transfer .pill { min-height: 44px; }
+#transfer-count { color: var(--ink); }
+#transfer-status:empty { display: none; }
+#backup-download { display: inline-flex; align-items: center; text-decoration: none; color: var(--gold); }

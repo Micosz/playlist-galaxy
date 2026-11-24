@@ -154,6 +154,7 @@
         </fieldset>
         <button class="pill primary" type="submit" id="save-world">สร้างดาว</button>
       </form>
+      <button type="button" id="root-backup" class="transfer-entry" data-open-backup hidden>ย้ายหรือสำรองคลังเพลง</button>
     </dialog>
     <dialog id="options" aria-labelledby="options-title">
       <div class="dialog-head">
@@ -164,6 +165,23 @@
         <button id="edit-world" class="pill">แก้ไขดาว</button
         ><button id="new-moon" class="pill">＋ สร้างดาวบริวาร</button>
       </div>
+      <button type="button" class="transfer-entry" data-open-backup>ย้ายหรือสำรองคลังเพลง</button>
+    </dialog>
+    <dialog id="library-transfer" aria-labelledby="transfer-title">
+      <div class="dialog-head">
+        <h2 id="transfer-title">ย้ายคลังกาแล็กซี</h2>
+        <button class="icon-btn" data-close aria-label="ปิด">×</button>
+      </div>
+      <p id="transfer-count"></p>
+      <p>ไฟล์สำรองรวมดาว เพลย์ลิสต์ ตำแหน่งฟัง และ MP3 ส่วนตัวของคุณ ไฟล์จะอยู่ในเครื่องจนกว่าคุณจะส่งให้ใคร คนที่มีไฟล์เปิดฟังเพลงในนั้นได้</p>
+      <div class="actions">
+        <button type="button" id="backup-export" class="pill">เตรียมไฟล์สำรอง</button>
+        <button type="button" id="backup-choose" class="pill">เลือกไฟล์นำเข้า</button>
+      </div>
+      <input type="file" id="backup-file" accept=".pgalaxy" hidden />
+      <p id="transfer-status" role="status"></p>
+      <a id="backup-download" class="pill" hidden>ดาวน์โหลดไฟล์สำรอง</a>
+      <button type="button" id="backup-apply" class="pill primary" hidden>รวมเข้ากับคลังนี้</button>
     </dialog>
     <dialog id="apple" aria-labelledby="apple-title">
       <div class="dialog-head">

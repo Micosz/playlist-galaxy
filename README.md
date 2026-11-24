@@ -16,6 +16,18 @@ Open a planet to play its playlist. Switching planets saves the current song and
 - Use **Apple Music** to connect, search the catalog, and add songs, or paste an Apple Music song link. Full in-app playback requires a configured MusicKit app, listener authorization and an eligible subscription. Saved Apple links also open in Apple Music.
 - **Saturn Pirate Radio** is available inside Saturn and at [radio.html](radio.html).
 
+## Move your library to another device
+
+Open **จัดการดาว (···) → ย้ายหรือสำรองคลังเพลง** on any playlist planet. On a new device, the same action is inside **สร้างกาแล็กซี** on the universe map. Choose **เตรียมไฟล์สำรอง**, then **ดาวน์โหลดไฟล์สำรอง**. On the other device choose **เลือกไฟล์นำเข้า**, check the counts and size, then **รวมเข้ากับคลังนี้**. Selecting the file only previews it.
+
+The local `.pgalaxy` file includes your map, playlist order, personal MP3s, Apple Music links and per-planet listening positions. Anyone you give the file to can play its MP3s. Export and import work offline without an account. Apple Music authorization stays on each device. Existing map and planet URLs keep their IDs.
+
+The merge adds missing items by ID. A customized destination planet and its saved listening position win. A factory planet that still has its original settings can adopt the backup’s name, appearance and parent. Independently created planets with the same name keep their separate IDs. Reimporting a file does not create additional records. Shared MP3 content is written once. Older files stored directly under a track ID keep playing in place.
+
+Version 1 has a 44-byte header (`PGALAXY`, a one-byte version, a big-endian JSON length and the metadata’s SHA-256 digest). The UTF-8 manifest lists worlds, tracks, saved positions and ordered audio payloads. Original MP3 bytes follow it. Each media key is the SHA-256 of the concatenated binary SHA-256 digests of its consecutive 1 MiB chunks. The reader verifies lengths, relationships, metadata and every payload before offering the merge. One IndexedDB transaction commits the merged records, audio and restored positions together. [IndexedDB transaction lifetime](https://www.w3.org/TR/IndexedDB-3/#transaction-lifetime)
+
+A backup can contain up to 4,096 worlds, 10,000 tracks, 128 MiB per MP3, 4 MiB of metadata and 512 MiB overall. Preparing a backup reports an error if an MP3 is missing or a limit is exceeded.
+
 ## Run locally
 
 Serve the root directory over HTTP to use browser modules and storage.
@@ -46,6 +58,7 @@ node --test checks/*.test.cjs
 python3 -m pip install playwright
 python3 -m playwright install chromium
 python3 checks/galaxy.py
+python3 checks/backup.py
 python3 checks/camera.py
 python3 checks/navigation.py
 python3 checks/journeys.py
@@ -57,6 +70,8 @@ python3 checks/receiver.py
 The camera check uses trusted pointer input, including two-finger gestures, and switches between actual audio files before each flight lands. It also covers reduced motion, browser history and WebGL-disabled rendering.
 
 The galaxy browser check uses FFmpeg to generate its own MP3s. Pass `--chromium /path/to/chromium` for an installed browser. It checks the hierarchical map, catalog copies, mobile touch, version-one storage upgrades, the demo and local audio players, and MusicKit with a test double. Use an authorized Apple Music subscription to check full catalog playback end to end.
+
+The backup check creates independent Chromium profiles and generated MP3s, downloads an actual backup, and imports it with HTTP disabled. It reopens the recipient after moving the backup file, checks playback and resume, repeated and concurrent imports, protected destination values, rejected versions, damaged media, quota rollback and version-two storage upgrades. Pass `--offline-html "/path/to/Playlist Galaxy.html"` to exercise an extracted offline copy, or `--evidence /tmp/playlist-backup` to save the mobile import review.
 
 ## Saturn radio
 
