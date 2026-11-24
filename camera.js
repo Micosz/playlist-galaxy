@@ -4,7 +4,7 @@ import { paintSun } from "./sky.js";
 const keys = Object.keys(homePose());
 const neutral = { x: 0, y: 0, z: 0 };
 const depths = [.22, -.30, -.59];
-const ease = (t) => t < .5 ? 4 * t ** 3 : 1 - (-2 * t + 2) ** 3 / 2;
+const ease = (t) => t * t * t * (t * (6 * t - 15) + 10);
 
 export class MapCamera {
   constructor(field, layer, worlds, reduced, refine) {
@@ -113,6 +113,28 @@ export class MapCamera {
       paintSun(ctx, p.x, p.y, clamp(w * .023, 8, 20) * p.scale, this.cool);
     }
   }
+  departure(exclude) {
+    if (this.id === null || !this.width || this.reduced.matches || document.hidden) return null;
+    const rect = this.field.getBoundingClientRect();
+    const sample = Math.min(1, 900 / Math.max(rect.width, rect.height));
+    const canvas = document.createElement("canvas");
+    canvas.width = Math.max(1, Math.round(rect.width * sample));
+    canvas.height = Math.max(1, Math.round(rect.height * sample));
+    const ctx = canvas.getContext("2d");
+    ctx.scale(canvas.width / rect.width, canvas.height / rect.height);
+    ctx.drawImage(this.layer, 0, 0, rect.width, rect.height);
+    // Keep the outgoing sky and its neighbours, in their actual drawing order.
+    // Text and hit targets belong to the live destination.
+    const bodies = [...this.bodies].sort((a, b) => Number(a.el.style.zIndex) - Number(b.el.style.zIndex));
+    for (const { el } of bodies) {
+      const art = el.firstElementChild;
+      if (art === exclude || el.style.visibility === "hidden" || art.classList.contains("in-flight")) continue;
+      const r = art.getBoundingClientRect();
+      if (r.right > rect.left && r.left < rect.right && r.bottom > rect.top && r.top < rect.bottom)
+        ctx.drawImage(art, r.left - rect.left, r.top - rect.top, r.width, r.height);
+    }
+    return { canvas, rect };
+  }
   settle() {
     cancelAnimationFrame(this.frame);
     this.frame = 0;
@@ -156,7 +178,14 @@ export class MapCamera {
       const t = clamp((now - this.flight.at) / this.flight.duration, 0, 1);
       if (t >= 1) return this.settle();
       const k = ease(t);
-      for (const key of keys) this.pose[key] = this.flight.from[key] + (this.goal[key] - this.flight.from[key]) * k;
+      const { from, focus } = this.flight;
+      this.pose.zoom = from.zoom + (this.goal.zoom - from.zoom) * k;
+      const scale = Math.exp(this.pose.zoom);
+      const a = Math.exp(from.zoom) * (1 - k), b = Math.exp(this.goal.zoom) * k;
+      // The focus travels between its two screen positions while distance changes
+      // geometrically. This keeps an off-axis destination on the approach path.
+      for (const axis of ["x", "y"])
+        this.pose[axis] = (a * (from[axis] + focus[axis]) + b * (this.goal[axis] + focus[axis])) / scale - focus[axis];
     } else {
       const k = 1 - Math.exp(-Math.max(1, now - this.last) / 56);
       // Blend magnification and projected pan together. Interpolating log zoom
@@ -181,17 +210,26 @@ export class MapCamera {
     this.goal = { ...this.pose };
     delete this.field.dataset.flying;
   }
-  fly(outward, screenOrigin, returnId, duration) {
+  fly(outward, origin, returnId, duration, matchSize) {
     if (this.reduced.matches || this.id === null || !this.width) return;
-    const from = { ...this.goal, zoom: this.goal.zoom + Math.log(outward ? 1.95 : .46) };
+    const returning = outward && this.bodies.find(b => b.el.dataset.id === returnId);
+    const anchor = returning ? returning.point : neutral;
     const rect = this.field.getBoundingClientRect();
-    const origin = screenOrigin || { x: rect.left + rect.width / 2, y: rect.top + rect.height / 2 };
-    const anchor = outward ? this.bodies.find(b => b.el.dataset.id === returnId)?.point : neutral;
-    const p = lens(from, this.width, this.height)(anchor || neutral);
-    from.x += (origin.x - rect.left - p.x) / (this.unit * p.scale);
-    from.y += (origin.y - rect.top - p.y) / (this.unit * p.scale);
-    this.pose = from;
-    this.flight = { from: { ...from }, at: performance.now(), duration };
+    const aim = origin ? { x: origin.left + origin.width / 2, y: origin.top + origin.height / 2 }
+      : { x: rect.left + rect.width / 2, y: rect.top + rect.height / 2 };
+    const projection = lens({ ...this.goal, x: 0, y: 0, zoom: 0 }, this.width, this.height)(anchor);
+    const unit = this.unit * projection.scale;
+    const focus = { x: (projection.x - this.width / 2) / unit, y: (projection.y - this.height / 2) / unit };
+    const from = { ...this.goal, zoom: this.goal.zoom + Math.log(outward ? 1.95 : .43) };
+    if (matchSize && returning && origin) {
+      const art = returning.el.firstElementChild;
+      from.zoom = Math.log(origin.width * returning.baseScale / (art.offsetWidth * projection.scale));
+    }
+    const scale = unit * Math.exp(from.zoom);
+    from.x = (aim.x - rect.left - this.width / 2) / scale - focus.x;
+    from.y = (aim.y - rect.top - this.height / 2) / scale - focus.y;
+    this.pose = { ...from };
+    this.flight = { from, focus, at: performance.now(), duration };
     this.field.dataset.flying = "";
     this.draw();
     this.wake();

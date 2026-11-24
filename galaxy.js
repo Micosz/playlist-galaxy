@@ -4,7 +4,7 @@ import { paintPlanet, paintMapBody, drawSky, surfaces } from "./sky.js";
 import { prepareMusic, music, appleSongLink, searchSongs } from "./apple.js";
 import { MapCamera } from "./camera.js";
 import { bindCamera } from "./camera-input.js";
-import { BodyFlight, center } from "./flight.js";
+import { BodyFlight } from "./flight.js";
 import { Player } from "./player.js";
 
 const $ = (id) => document.getElementById(id);
@@ -311,7 +311,9 @@ function openWorld(id, play = true, push = true) {
   const travelling = play && prev !== (node?.id || null) && !reduced.matches;
   const mapBody = (worldId) => [...$("worlds").children].find(b => b.dataset.id === worldId)?.firstElementChild;
   const sourceId = current || id;
-  const source = travelling ? bodyFlight.snapshot(current ? $("portrait") : mapBody(id)) : null;
+  const sourceArt = current ? $("portrait") : mapBody(id);
+  const source = travelling ? bodyFlight.snapshot(sourceArt) : null;
+  const departure = travelling && !current ? camera.departure(sourceArt) : null;
   bodyFlight.cancel();
   const map = !node || isContainer(node);
   const hash = node ? (map ? "#map=" : "#planet=") + encodeURIComponent(node.id) : "";
@@ -353,8 +355,11 @@ function openWorld(id, play = true, push = true) {
     const area = (map ? $("map-field") : $("interior")).getBoundingClientRect();
     const duration = map && !outward ? 780 : 640;
     const landingId = map ? returning?.id : id;
-    bodyFlight.start(source, landing, area, duration, Boolean(source && landing && sourceId !== landingId));
-    if (map) camera.fly(outward, source && center(source.rect), returning?.id, duration);
+    const returnOnMap = map && outward && landing && (!source || sourceId === landingId);
+    bodyFlight.depart(departure, source?.rect, landing?.getBoundingClientRect() || area, outward, duration);
+    if (!returnOnMap)
+      bodyFlight.start(source, landing, area, duration, Boolean(source && landing && sourceId !== landingId));
+    if (map) camera.fly(outward, source?.rect || departure?.rect, returning?.id, duration, returnOnMap && source);
   }
 }
 function route(play) {

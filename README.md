@@ -46,6 +46,7 @@ python3 -m playwright install chromium
 python3 checks/galaxy.py
 python3 checks/camera.py
 python3 checks/navigation.py
+python3 checks/journeys.py
 python3 checks/receiver.py
 ```
 

@@ -15,6 +15,7 @@ node --test checks/*.test.cjs
 python3 checks/galaxy.py
 python3 checks/camera.py
 python3 checks/navigation.py
+python3 checks/journeys.py
 python3 checks/receiver.py
 python3 checks/map_latency.py --runs 5
 ```
@@ -40,6 +41,14 @@ The check also samples each displayed frame during desktop zoom and the reverse 
 On the zoom checkpoint `dff5572`, holding two fingers on Midnight while pressing Escape could carry the gesture into My Galaxy. The incoming map moved despite receiving no new press. Each map now releases its active input when the displayed bodies change.
 
 The navigation check starts a gesture during a return flight while Ember is playing. It goes up again with both fingers or the mouse button still held, moves them over the parent map, then releases. In both cases My Galaxy settled at its saved position (0.00 px displacement). The check samples the active audio element each frame, switches to Tide with a fresh press and returns to Ember at its saved time. The touch case uses the demo, and the desktop case imports a real MP3 and uses browser Back.
+
+## Travelling between scales
+
+Follow Milky Way → Solar System → Saturn → Titan, or My Galaxy → Midnight → Ember, then return to Midnight for Tide. The departure sky briefly retains its neighbouring worlds and orbit lines. As the camera enters the new map those landmarks pass at a different rate from the destination. Returning from a portrait moves the actual planet button back to its saved map position.
+
+At `0519869`, the flying image of Saturn and its selectable counterpart followed separate paths on the return to the Solar System. Their centers separated by up to 37.25 CSS px on desktop and 96.04 px on touch in the recorded runs. They now coincide throughout that return. The journey test also taps another body during an active flight and counts map paints after settling.
+
+Run `python3 checks/journeys.py --chromium /path/to/chromium --evidence /tmp/journeys` to save mid-flight frames and per-frame coordinates. The `--measure-only` option can also be used with a copy of this check on the starting revision.
 
 ## Cold entry into the Solar System
 
