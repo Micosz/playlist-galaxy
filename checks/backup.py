@@ -23,8 +23,8 @@ STATE = """async () => {
 }"""
 
 
-def profile(pw, binary, path, mobile=False):
-    options = dict(executable_path=binary, accept_downloads=True, reduced_motion="reduce",
+def profile(pw, binary, path, mobile=False, offline=False):
+    options = dict(executable_path=binary, accept_downloads=True, reduced_motion="reduce", offline=offline,
                    args=["--autoplay-policy=user-gesture-required","--disable-webgl"])
     if mobile:
         options.update(is_mobile=True, has_touch=True, viewport={"width":320,"height":568})
@@ -120,7 +120,7 @@ def generated_mp3s(directory):
 
 def source(pw, binary, folder, url):
     files=generated_mp3s(folder)
-    ctx=profile(pw,binary,folder/"source");p=first_page(ctx,url)
+    ctx=profile(pw,binary,folder/"source",offline=url.startswith("file:"));p=first_page(ctx,url)
     p.locator("[data-id=my-galaxy]").click();p.locator("[data-id=midnight]").click()
     p.locator("[data-id=ember]").click();local_playing(p,"Afterglow",.1);seek(p,12)
     p.locator("#toggle").click();p.locator("#home").click()
@@ -167,7 +167,7 @@ def source(pw, binary, folder, url):
 
 def roundtrip(pw,binary,folder,url,source_file,star,moon,marks,evidence):
     profile_path=folder/"fresh-phone"
-    ctx=profile(pw,binary,profile_path,True);p=first_page(ctx,url)
+    ctx=profile(pw,binary,profile_path,True,offline=url.startswith("file:"));p=first_page(ctx,url)
     ctx.set_offline(True)
     requests=[]
     p.on("request",lambda r: requests.append(r.url) if r.url.startswith(("http:","https:")) else None)
@@ -192,7 +192,7 @@ def roundtrip(pw,binary,folder,url,source_file,star,moon,marks,evidence):
     ctx.close()
     incoming.rename(folder/"moved-after-import.pgalaxy")
     # Start a new browser process on the recipient's profile, with no access to the original import path.
-    ctx=profile(pw,binary,profile_path,True);p=ctx.pages[0];p.goto(url+"#"+star)
+    ctx=profile(pw,binary,profile_path,True,offline=url.startswith("file:"));p=ctx.pages[0];p.goto(url+"#"+star)
     expect(p.locator("#world-title")).to_have_text("Window Seat")
     assert not p.evaluate("testAudio.length")
     expect(p.locator(".catalog-link")).to_have_attribute("href","https://music.apple.com/th/song/12345")
@@ -224,7 +224,7 @@ def roundtrip(pw,binary,folder,url,source_file,star,moon,marks,evidence):
 
 
 def errors_and_merge(pw,binary,folder,url,archive,quota):
-    ctx=profile(pw,binary,folder/"populated");p=first_page(ctx,url)
+    ctx=profile(pw,binary,folder/"populated",offline=url.startswith("file:"));p=first_page(ctx,url)
     p.locator("[data-id=my-galaxy]").click();p.locator("#rename-map").click()
     p.locator("#world-name").fill("Keep my sky");p.locator("#save-world").click()
     expect(p.locator("#map-name")).to_have_text("Keep my sky")
@@ -239,7 +239,7 @@ def errors_and_merge(pw,binary,folder,url,archive,quota):
         # Chromium caches a grant on the open IndexedDB backend. Set the override before
         # reopening the populated profile to make its next transaction hit the real quota.
         ctx.close()
-        ctx=profile(pw,binary,folder/"populated");p=ctx.pages[0]
+        ctx=profile(pw,binary,folder/"populated",offline=url.startswith("file:"));p=ctx.pages[0]
         parts=urlsplit(url);origin=parts.scheme+"://"+parts.netloc
         cdp=ctx.new_cdp_session(p)
         cdp.send("Storage.overrideQuotaForOrigin",{"origin":origin,"quotaSize":1024})
