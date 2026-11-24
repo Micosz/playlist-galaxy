@@ -144,6 +144,17 @@ def journey(browser, url, mobile, evidence, measure_only):
 def folded_return(browser, url, mobile):
     ctx = browser.new_context(viewport={"width": 390 if mobile else 1440, "height": 844 if mobile else 950},
                               is_mobile=mobile, has_touch=mobile)
+    # Sample the picture the listener actually grabs. On a busy compositor
+    # the automatic return may already have travelled since its first frame.
+    ctx.add_init_script("""for (const type of ['wheel','pointerdown']) {
+      window.addEventListener(type,e=>{
+        if (!e.isTrusted || (type==='pointerdown' && (e.pointerType!=='touch'||e.isPrimary))) return;
+        const art=document.querySelector('[data-id=neptune] canvas');
+        if (art?.getClientRects().length) window.grabbedNeptune={
+          width:art.getBoundingClientRect().width, flying:document.querySelector('#map-field').hasAttribute('data-flying')
+        };
+      },{capture:true,passive:true});
+    }""")
     p = ctx.new_page()
     session = ctx.new_cdp_session(p) if mobile else None
     p.goto(url + "#map=solar-system")
@@ -174,12 +185,14 @@ def folded_return(browser, url, mobile):
     art = p.locator('[data-id="neptune"] canvas')
     p.wait_for_timeout(230)
     held = art.bounding_box()["width"]
-    assert held > .94 * portrait, (portrait, held)
+    grabbed = p.evaluate("window.grabbedNeptune")
+    assert grabbed and grabbed["flying"], grabbed
+    assert held >= grabbed["width"] - 1, (portrait, grabbed["width"], held)
     p.locator('[data-id="neptune"]').press("-")
     p.wait_for_function("w => document.querySelector('[data-id=neptune] canvas').getBoundingClientRect().width < w * .9", arg=held)
     assert p.url.endswith("#map=solar-system")
     print(f"Folded {'touch' if mobile else 'desktop'} return: {portrait:.2f}px → {first['width']:.2f}px; "
-          "taking control preserved size, then zoom-out responded.", flush=True)
+          f'grabbed at {grabbed["width"]:.2f}px and held {held:.2f}px, then zoom-out responded.', flush=True)
     ctx.close()
 
 
