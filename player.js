@@ -80,7 +80,7 @@ export class Player {
   toggle() {
     if (!this.track) return;
     if (this.state === "playing" || this.state === "loading") this.pause();
-    else this.start(this.world, this.track, bookmark(this.world).seconds || 0);
+    else this.start(this.world, this.track, bookmark(this.world,[this.track]).seconds || 0);
   }
   enter(world) {
     if (
@@ -94,7 +94,7 @@ export class Player {
       this.idle();
       return;
     }
-    const mark = bookmark(world),
+    const mark = bookmark(world,songs),
       saved = songs.find((t) => t.id === mark.id);
     this.start(world, saved || songs[0], saved ? mark.seconds : 0);
   }
@@ -103,7 +103,7 @@ export class Player {
       this.toggle();
       return;
     }
-    const mark = bookmark(world);
+    const mark = bookmark(world,this.tracks(world));
     this.start(world, track, track.id === mark.id ? mark.seconds : 0);
   }
   next(natural = false) {
