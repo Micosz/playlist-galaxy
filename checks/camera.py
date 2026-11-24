@@ -151,6 +151,47 @@ def reduced(browser,url):
     print("Silent deep link, reduced motion, browser Back/Forward passed.",flush=True)
 
 
+def detail_navigation(browser,url):
+    ctx=browser.new_context(viewport={"width":390,"height":844},is_mobile=True,has_touch=True)
+    ctx.add_init_script(AUDIO_PROBE)
+    p=ctx.new_page()
+    p.goto(url+"#map=midnight")
+    hit(p,'[data-id="ember"]',True)
+    local_playing(p,"Afterglow",.10)
+    width=p.locator("#portrait").bounding_box()["width"]
+    hit(p,"#playlist-toggle",True)
+    expect(p.locator("#playlist-toggle")).to_have_attribute("aria-expanded","false")
+    expect(p.locator("#playlist-body")).to_be_hidden()
+    assert p.locator("#portrait").bounding_box()["width"]>width+35
+    assert p.evaluate("testAudio.length")==1
+    local_playing(p,"Afterglow",.12)
+    p.get_by_role("navigation",name="เส้นทางกลับจากดาว").get_by_role("button",name="My Galaxy").tap()
+    expect(p.locator("#map-name")).to_have_text("My Galaxy")
+    local_playing(p,"Afterglow",.12)
+    p.goto(url+"#planet=earth")
+    hit(p,"#moons button",True)
+    expect(p.locator("#detail-location")).to_have_text("Luna")
+    expect(p.locator("#playlist-body")).to_be_hidden()
+    hit(p,"#manage",True)
+    p.keyboard.press("Escape")
+    expect(p.locator("#options")).to_be_hidden()
+    assert p.url.endswith("#planet=luna")
+    p.keyboard.press("Escape")
+    expect(p.locator("#world-title")).to_have_text("Earth")
+    p.keyboard.press("Escape")
+    expect(p.locator("#map-name")).to_have_text("ระบบสุริยะ")
+    p.keyboard.press("Escape")
+    expect(p.locator("#map-name")).to_have_text("ทางช้างเผือก")
+    p.keyboard.press("Escape")
+    expect(p.locator("#map-name")).to_have_text("My universe")
+    p.wait_for_function("!document.querySelector('.flight-body,.in-flight,[data-flying]')")
+    p.go_back()
+    expect(p.locator("#map-name")).to_have_text("ทางช้างเผือก")
+    assert p.evaluate("document.documentElement.scrollWidth<=innerWidth+1")
+    ctx.close()
+    print("Folded playlist keeps sound and moons, direct ancestor link and four interrupted Escape flights passed.",flush=True)
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--chromium")
@@ -165,6 +206,7 @@ def main():
         check_audio_flight(browser,url,False,paths)
         check_audio_flight(browser,url,True,None)
         reduced(browser,url)
+        detail_navigation(browser,url)
         print("Camera checks passed with WebGL disabled in Chromium",browser.version)
         browser.close()
 

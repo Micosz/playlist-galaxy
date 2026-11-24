@@ -760,3 +760,35 @@ summary {
   #trail { right: 128px; overflow-x: auto; scrollbar-width: none; }
   #trail > * { flex-shrink: 0; }
 }
+
+#detail-trail, #detail-ancestors {
+  display: flex; align-items: center; gap: 8px;
+}
+#detail-trail {
+  min-height: 36px; overflow-x: auto; scrollbar-width: none;
+  color: var(--faint); font-size: 12px;
+}
+#detail-ancestors:empty { display: none; }
+#detail-trail button, #detail-location {
+  flex-shrink: 0; max-width: 33vw; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+#detail-trail button {
+  color: var(--dim); padding: 7px 1px; text-decoration: underline; text-underline-offset: 3px;
+}
+#detail-trail .back { margin: 0; border-radius: 4px; }
+#detail-location { color: var(--ink); }
+#playlist-toggle { display: flex; align-items: center; gap: 9px; min-height: 42px; padding: 0 6px 0 0; font: inherit; }
+#playlist-toggle span { font: 17px/1 var(--sans); color: var(--dim); }
+#playlist-toggle[aria-expanded="false"] span { transform: rotate(-90deg); }
+.portrait #satellites { margin: 18px auto 0; }
+.portrait #satellites h3 { margin: 0 0 8px; font-weight: 400; color: var(--dim); font-size: 12px; }
+.portrait #moons { justify-content: center; }
+.list-folded .interior-grid { display: grid; grid-template-columns: minmax(0,1fr); justify-items: center; gap: 12px; margin-top: 16px; }
+.list-folded .portrait { width: 100%; }
+.list-folded .portrait canvas { width: min(78vw, 640px, 68svh); }
+.list-folded .collection { width: min(440px, 100%); padding: 2px 0 16px; }
+.list-folded .collection-head { margin: 0; }
+@media (max-width: 660px) {
+  #detail-trail { gap: 6px; }
+  .list-folded .portrait canvas { width: min(86vw, 390px); }
+}

@@ -186,7 +186,7 @@ function renderMap() {
   $("new-world").textContent = "＋ สร้าง" + names[kind];
   $("rename-map").hidden = !parent;
   $("map-help").textContent = !list.length ? "ยังไม่มี" + names[kind] + " · สร้าง" + names[kind] + "แรกที่นี่"
-    : !parent ? "แตะกาแล็กซีเพื่อสำรวจระบบดาว"
+    : !parent ? "แตะกาแล็กซีเพื่อเข้า · ลากเพื่อหมุน · " + (matchMedia("(pointer: coarse)").matches ? "จีบเพื่อซูม" : "กลิ้งล้อเพื่อซูม")
     : parent.kind === "galaxy" ? "แตะระบบดาวเพื่อดูดาวในวงโคจร"
     : orbit ? "แตะดาวเพื่อฟังเพลย์ลิสต์ของดวงนั้น" : "แตะดาวแม่เพื่อดูดาวเคราะห์";
   $("trail").hidden = !parent;
@@ -256,13 +256,29 @@ function trackRow(t, index) {
   li.append(remove);
   return li;
 }
+function detailTrail(world) {
+  const path = ancestry(world.id), parent = byId(world.parent);
+  const prefix = $("detail-ancestors");
+  prefix.replaceChildren();
+  const ancestors = parent ? [null, ...path.slice(0, -2)] : [];
+  for (const ancestor of ancestors) {
+    const button = make("button", ancestor?.name || "จักรวาล");
+    button.onclick = () => openWorld(ancestor?.id || null);
+    const separator = make("span", "›");
+    separator.setAttribute("aria-hidden", "true");
+    prefix.append(button, separator);
+  }
+  $("back").textContent = parent?.name || "จักรวาล";
+  $("back").setAttribute("aria-label", "กลับไปที่ " + $("back").textContent);
+  $("detail-location").textContent = world.name;
+  const trail = $("detail-trail");
+  trail.scrollLeft = trail.scrollWidth;
+}
 function renderDetail() {
   const world = byId(current);
   if (!world) return;
-  const parent = byId(world.parent),
-    list = songs(current),
+  const list = songs(current),
     moons = children(current);
-  $("back").textContent = parent ? "← " + parent.name : "← แผนที่ดาว";
   $("world-title").textContent = world.name;
   $("world-count").textContent = list.length + " เพลง";
   $("empty").hidden = Boolean(list.length);
@@ -289,6 +305,7 @@ function openWorld(id, play = true, push = true) {
   const outward = !node || ancestry(prev).some(ancestor => ancestor.id === id);
   const travelling = play && prev !== (node?.id || null) && !reduced.matches;
   const mapBody = (worldId) => [...$("worlds").children].find(b => b.dataset.id === worldId)?.firstElementChild;
+  const sourceId = current || id;
   const source = travelling ? bodyFlight.snapshot(current ? $("portrait") : mapBody(id)) : null;
   bodyFlight.cancel();
   const map = !node || isContainer(node);
@@ -318,6 +335,7 @@ function openWorld(id, play = true, push = true) {
     current = id;
     mapParent = ancestry(node.parent).filter(isContainer).at(-1)?.id || null;
     if (changed) paintPlanet($("portrait"), node);
+    detailTrail(node);
     if (play) player.enter(id);
     renderDetail();
     if (changed && play) $("world-title").focus({ preventScroll: true });
@@ -328,7 +346,8 @@ function openWorld(id, play = true, push = true) {
     const landing = map ? (returning ? mapBody(returning.id) : null) : $("portrait");
     const area = (map ? $("map-field") : $("interior")).getBoundingClientRect();
     const duration = map && !outward ? 780 : 640;
-    bodyFlight.start(source, landing, area, duration);
+    const landingId = map ? returning?.id : id;
+    bodyFlight.start(source, landing, area, duration, Boolean(source && landing && sourceId !== landingId));
     if (map) camera.fly(outward, source && center(source.rect), returning?.id, duration);
   }
 }
@@ -338,6 +357,18 @@ function route(play) {
 }
 $("home").onclick = () => openWorld(null);
 $("back").onclick = () => openWorld(byId(current)?.parent);
+$("playlist-toggle").onclick = () => {
+  bodyFlight.cancel();
+  const folded = !$("playlist-body").hidden;
+  $("playlist-body").hidden = folded;
+  $("playlist-toggle").setAttribute("aria-expanded", String(!folded));
+  $("interior").classList.toggle("list-folded", folded);
+};
+document.addEventListener("keydown", e => {
+  if (e.key !== "Escape" || e.defaultPrevented || e.repeat || document.querySelector("dialog[open]")) return;
+  const active = byId(current || mapParent);
+  if (active) { e.preventDefault(); openWorld(active.parent); }
+});
 $("prev-page").onclick = () => { page--; renderMap(); };
 $("next-page").onclick = () => { page++; renderMap(); };
 window.addEventListener("popstate", () => route(navigator.userActivation?.hasBeenActive === true));

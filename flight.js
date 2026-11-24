@@ -28,7 +28,7 @@ export class BodyFlight {
     this.landing?.classList.remove("in-flight");
     this.animation = this.sprite = this.landing = null;
   }
-  start(source, landing, area, duration) {
+  start(source, landing, area, duration, crossfade) {
     if (this.reduced.matches) return;
     const shot = source || this.snapshot(landing);
     if (!shot) return;
@@ -40,12 +40,12 @@ export class BodyFlight {
     sprite.setAttribute("aria-hidden","true");
     document.body.append(sprite);
     this.sprite = sprite;
-    this.landing = landing;
-    landing?.classList.add("in-flight");
+    this.landing = crossfade ? null : landing;
+    this.landing?.classList.add("in-flight");
     const transform = r => "translate(" + r.left + "px," + r.top + "px) scale(" + r.width / sprite.width + "," + r.height / sprite.height + ")";
     this.animation = sprite.animate([
       {transform:transform(start), opacity:source ? 1 : .13},
-      {transform:transform(end), opacity:landing ? 1 : 0},
+      {transform:transform(end), opacity:landing && !crossfade ? 1 : 0},
     ], {duration, easing:"cubic-bezier(.35,.02,.18,1)",fill:"both"});
     this.animation.onfinish = () => { if (this.sprite === sprite) this.cancel(); };
   }

@@ -53,37 +53,43 @@
         </nav>
       </section>
       <section id="interior" aria-labelledby="world-title" hidden>
-        <button class="back text-btn" id="back">← แผนที่ดาว</button>
+        <nav id="detail-trail" aria-label="เส้นทางกลับจากดาว">
+          <span id="detail-ancestors"></span>
+          <button class="back text-btn" id="back">แผนที่ดาว</button>
+          <span aria-hidden="true">›</span><span id="detail-location" aria-current="page"></span>
+        </nav>
         <div class="interior-grid">
           <div class="portrait">
             <canvas id="portrait" aria-hidden="true"></canvas>
             <h1 id="world-title" tabindex="-1"></h1>
             <p id="world-count"></p>
-          </div>
-          <div class="collection">
-            <div class="collection-head">
-              <h2>เพลย์ลิสต์</h2>
-              <button class="icon-btn" id="manage" aria-label="จัดการดาว" title="จัดการดาว">
-                ···
-              </button>
-            </div>
-            <div class="actions">
-              <button class="pill primary" id="add-mp3">＋ เพิ่ม MP3</button
-              ><button class="pill" id="open-apple">
-                <span aria-hidden="true">♫</span> Apple Music
-              </button>
-            </div>
-            <input type="file" id="files" accept=".mp3,audio/mpeg,audio/mp3" multiple hidden />
-            <p id="local-note" class="subtle">ไฟล์ MP3 เก็บในเบราว์เซอร์ของเครื่องนี้</p>
-            <p id="empty" class="empty" hidden>ดาวดวงนี้ยังไม่มีเพลง</p>
-            <ol id="tracks" class="tracks"></ol>
-            <a href="radio.html" id="radio-link" class="radio-link" hidden
-              >ฟังสดจาก Saturn Pirate Radio <span aria-hidden="true">↗</span></a
-            >
             <section id="satellites" hidden aria-labelledby="satellites-title">
               <h3 id="satellites-title">ดาวบริวาร</h3>
               <div id="moons"></div>
             </section>
+          </div>
+          <div class="collection">
+            <div class="collection-head">
+              <h2><button id="playlist-toggle" aria-expanded="true" aria-controls="playlist-body">เพลย์ลิสต์ <span aria-hidden="true">⌄</span></button></h2>
+              <button class="icon-btn" id="manage" aria-label="จัดการดาว" title="จัดการดาว">
+                ···
+              </button>
+            </div>
+            <div id="playlist-body">
+              <div class="actions">
+                <button class="pill primary" id="add-mp3">＋ เพิ่ม MP3</button
+                ><button class="pill" id="open-apple">
+                  <span aria-hidden="true">♫</span> Apple Music
+                </button>
+              </div>
+              <input type="file" id="files" accept=".mp3,audio/mpeg,audio/mp3" multiple hidden />
+              <p id="local-note" class="subtle">ไฟล์ MP3 เก็บในเบราว์เซอร์ของเครื่องนี้</p>
+              <p id="empty" class="empty" hidden>ดาวดวงนี้ยังไม่มีเพลง</p>
+              <ol id="tracks" class="tracks"></ol>
+              <a href="radio.html" id="radio-link" class="radio-link" hidden
+                >ฟังสดจาก Saturn Pirate Radio <span aria-hidden="true">↗</span></a
+              >
+            </div>
           </div>
         </div>
       </section>
