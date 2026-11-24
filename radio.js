@@ -4,6 +4,33 @@
   const byId = id => document.getElementById(id);
   const power = byId("power"), volume = byId("volume"), mute = byId("mute");
   const status = byId("status"), dial = byId("dial"), guide = byId("guide");
+  if (location.hash === "#first-flight") {
+    const back = document.querySelector(".wordmark");
+    const destination = new URL(back.href);
+    destination.hash = "planet=titan";
+    back.href = destination.href;
+    back.lastChild.textContent = "กลับ Titan";
+    back.setAttribute("aria-label", "กลับไปยัง Titan");
+    back.title = "กลับไปยัง Titan";
+    let fromFlight = Boolean(history.state?.fromFirstFlight);
+    try {
+      const key = "playlist-galaxy:first-flight-radio";
+      if (sessionStorage.getItem(key) === location.href) fromFlight = true;
+      sessionStorage.removeItem(key);
+    } catch {}
+    const referrer = document.referrer ? new URL(document.referrer) : null;
+    if (referrer?.origin === destination.origin &&
+        (referrer.pathname === destination.pathname || referrer.pathname === new URL("index.html", destination).pathname))
+      fromFlight = true;
+    if (fromFlight && history.length > 1) {
+      history.replaceState({fromFirstFlight:true}, "");
+      back.onclick = e => {
+        if (e.button || e.ctrlKey || e.metaKey || e.altKey || e.shiftKey) return;
+        e.preventDefault();
+        history.back();
+      };
+    }
+  }
   const presets = Array.from(document.querySelectorAll(".preset"));
   const audio = new RadioSynth();
   const aircheck = new Aircheck(byId("aircheck"), announce, monitorPreview);

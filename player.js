@@ -86,10 +86,17 @@ export class Player {
     this.state = "paused";
     this.changed();
   }
+  restorePaused(world, track, seconds) {
+    this.world = world;
+    this.track = track;
+    this.seconds = Number.isFinite(seconds) ? Math.max(0, seconds) : 0;
+    this.state = "paused";
+    this.changed();
+  }
   toggle() {
     if (!this.track) return;
     if (this.state === "playing" || this.state === "loading") this.pause();
-    else this.start(this.world, this.track, bookmark(this.world,[this.track]).seconds || 0);
+    else this.start(this.world, this.track, bookmark(this.world,[this.track]).seconds ?? this.seconds);
   }
   enter(world) {
     if (

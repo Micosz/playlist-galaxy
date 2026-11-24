@@ -136,6 +136,7 @@ function updatePlayer() {
   document.body.classList.toggle("playing-map", visible);
   $("now-title").textContent = player.track?.title || "";
   $("now-world").textContent = byId(player.world)?.name || "";
+  $("first-flight-radio").textContent = active ? "พักเพลงแล้วไปวิทยุ Saturn" : "ไปวิทยุ Saturn";
   $("toggle").textContent = active ? "Ⅱ" : "▶";
   $("toggle").toggleAttribute("data-playing", active);
   $("toggle").setAttribute("aria-label", active ? "หยุดชั่วคราว" : "เล่นต่อ");
@@ -201,8 +202,97 @@ function stopChoosing() {
     renderThumbNav();
   }
 }
+function firstFlightSystem() {
+  const saturn = byId("saturn");
+  const parent = byId(saturn?.parent);
+  return parent && isContainer(parent) && byId("titan")?.parent === saturn.id ? parent.id : null;
+}
+
+function nextFlightStop(stage) {
+  if (stage === "saturn") return "titan";
+  if (stage && stage === firstFlightSystem()) return "saturn";
+  return null;
+}
+
+function renderFirstFlight() {
+  const system = firstFlightSystem();
+  const stage = history.state?.firstFlight;
+  const locationId = current || mapParent;
+  const trip = wheelTravel.trip;
+  const strip = $("first-flight");
+  const start = $("first-flight-start");
+  start.hidden = Boolean(locationId || trip || !system);
+  if (!start.hidden) start.textContent = "ลองบิน · " + byId("saturn").name + " → " + byId("titan").name;
+  const validStage = stage === system || stage === "saturn" || stage === "titan";
+  strip.hidden = !(system && validStage && (trip || stage === locationId));
+  document.querySelector(".flight-destination")?.classList.remove("flight-destination");
+  if (strip.hidden) {
+    if (strip.parentNode !== $("map-flight-slot")) $("map-flight-slot").append(strip);
+    return;
+  }
+  const slot = $(current ? "detail-flight-slot" : "map-flight-slot");
+  if (strip.parentNode !== slot) slot.append(strip);
+  strip.setAttribute("aria-label", "เส้นทางลองบิน · " + byId(stage).name);
+  const target = nextFlightStop(stage);
+  const next = $("first-flight-next");
+  next.hidden = !target || Boolean(trip);
+  $("first-flight-radio").hidden = stage !== "titan" || Boolean(trip);
+  if (target && !trip) {
+    next.textContent = "บินไป " + byId(target).name;
+    const bodies = current ? $("moons").children : $("worlds").children;
+    [...bodies].find(b => (b.dataset.moon || b.dataset.id) === target)?.classList.add("flight-destination");
+  }
+}
+
+function visitFirstFlight(id) {
+  openWorld(id, {play:false, browse:true, animate:true, firstFlight:true});
+  $("first-flight").focus({preventScroll:true});
+}
+
+function landAt(id) {
+  const stage = history.state?.firstFlight;
+  if (!stage) return openWorld(id);
+  if (id === nextFlightStop(stage)) return visitFirstFlight(id);
+  openWorld(id, {play:false, browse:true, animate:true});
+  focusLocation();
+}
+
+$("first-flight-start").onclick = () => {
+  const system = firstFlightSystem();
+  if (!system) return;
+  stopChoosing();
+  history.replaceState({...history.state, finderReturn:null, firstFlightOrigin:page}, "");
+  visitFirstFlight(system);
+};
+$("first-flight-next").onclick = () => {
+  const target = nextFlightStop(history.state?.firstFlight);
+  if (target) selectDestination(target);
+};
+$("first-flight-exit").onclick = () => {
+  wheelTravel.cancel();
+  stopChoosing();
+  cancelMapGesture();
+  bodyFlight.cancel();
+  if (camera.frame || camera.flight) camera.settle();
+  const {firstFlight, flightResume, ...rest} = history.state || {};
+  history.replaceState(rest, "");
+  renderFirstFlight();
+  if (!current) renderMap();
+  focusLocation();
+};
+$("first-flight-radio").onclick = e => {
+  if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey || e.button !== 0) return;
+  if (player.track) {
+    player.pause();
+    const flightResume = {world:player.world, track:player.track.id, seconds:player.seconds};
+    history.replaceState({...history.state, flightResume}, "");
+  }
+  // Only the destination may consume this one-use hint for its Back link.
+  try { sessionStorage.setItem("playlist-galaxy:first-flight-radio", $("first-flight-radio").href); } catch {}
+};
+
 function selectDestination(id) {
-  if (!choosingFlight) return openWorld(id);
+  if (!choosingFlight) return landAt(id);
   choosingFlight = false;
   $("thumb-range").value = 0;
   wheelTravel.start(id, camera.bookmark(), "thumb");
@@ -276,6 +366,8 @@ function renderMap() {
     : parent.kind === "galaxy" ? "แตะระบบดาวเพื่อดูดาวในวงโคจร"
     : orbit ? (matchMedia("(pointer: coarse)").matches ? "แตะดาวเพื่อฟังเพลย์ลิสต์ของดวงนั้น" : "คลิกดาวเพื่อฟัง · ชี้แล้วเลื่อนล้อขึ้นเพื่อบินเข้า")
     : "แตะดาวแม่เพื่อดูดาวเคราะห์";
+  if (history.state?.firstFlight === mapParent && mapParent)
+    $("map-help").textContent = "แตะดาวเพื่อสำรวจ หรือบินตามเส้นทาง";
   $("trail").hidden = !parent;
   $("trail").replaceChildren();
   if (parent) {
@@ -293,6 +385,7 @@ function renderMap() {
   $("next-page").disabled = page === pages - 1;
   $("page-number").textContent = page + 1 + " / " + pages;
   updatePlayer();
+  renderFirstFlight();
   camera.show(JSON.stringify([mapParent, page]), parent?.kind || "universe", orbit, parent?.surface === "ocean");
 }
 function trackRow(t, index) {
@@ -388,8 +481,9 @@ function renderDetail() {
     }),
   );
   updatePlayer();
+  renderFirstFlight();
 }
-function openWorld(id, { play = true, push = true, animate = play, browse = false } = {}) {
+function openWorld(id, { play = true, push = true, animate = play, browse = false, firstFlight = false } = {}) {
   choosingFlight = false;
   const node = byId(id), prev = current || mapParent;
   const outward = !node || ancestry(prev).some(ancestor => ancestor.id === id);
@@ -405,8 +499,10 @@ function openWorld(id, { play = true, push = true, animate = play, browse = fals
   bodyFlight.cancel();
   const hash = node ? (map ? "#map=" : "#planet=") + encodeURIComponent(node.id) : "";
   if (push) {
-    if (location.hash !== hash) history.pushState(browse ? {galaxyBrowse:true} : null, "", location.pathname + location.search + hash);
-    else if (browse !== browsingResult) history.replaceState({...history.state,galaxyBrowse:browse}, "");
+    const state = firstFlight ? {galaxyBrowse:true, firstFlight:id} : browse ? {galaxyBrowse:true} : null;
+    if (location.hash !== hash) history.pushState(state, "", location.pathname + location.search + hash);
+    else if (browse !== browsingResult || Boolean(history.state?.firstFlight) !== firstFlight)
+      history.replaceState(state, "");
     browsingResult = browse;
   }
   $("map").hidden = !map;
@@ -417,7 +513,8 @@ function openWorld(id, { play = true, push = true, animate = play, browse = fals
     const returning = ancestry(prev).find((w) => w.parent === parent);
     if (parent !== mapParent || current) {
       const list = children(parent);
-      const index = returning ? list.findIndex((w) => w.id === returning.id) : 0;
+      const target = history.state?.firstFlight === parent && parent ? "saturn" : returning?.id;
+      const index = list.findIndex(w => w.id === target);
       page = Math.floor(Math.max(0, index) / (orbitView(node, list) ? orbitalSlots.length : distantSlots.length));
     }
     current = null;
@@ -463,7 +560,7 @@ const wheelTravel = new WheelTravel({
   reduced,
   ready: button => !button.classList.contains("world") || camera.readyForEntry(button),
   bookmark: () => camera.bookmark(),
-  changed: renderThumbNav,
+  changed() { renderThumbNav(); renderFirstFlight(); },
   begin(id, method) {
     const origin = { id: current || mapParent, page, x: scrollX, y: scrollY, sceneTop: $("scene").scrollTop };
     const duration = openWorld(id, { play:false, push:false, animate:true });
@@ -476,9 +573,9 @@ const wheelTravel = new WheelTravel({
   },
   arrive(id, overview) {
     if (camera.id !== null) camera.settle();
-    openWorld(id);
+    landAt(id);
     camera.remember(overview);
-    if (current) $("world-title").focus({preventScroll:true});
+    if (current && !history.state?.firstFlight) $("world-title").focus({preventScroll:true});
   },
   restore(origin, overview, selected) {
     camera.remember(overview);
@@ -562,7 +659,11 @@ window.addEventListener("popstate", e => {
   if (origin && !current && page !== origin.page) { page = origin.page; renderMap(); }
   if (origin) { $("scene").scrollTop = origin.sceneY; scrollTo(0,origin.windowY); }
   if (origin) $("open-finder").focus({preventScroll:true});
-  else focusLocation();
+  else if (!current && !mapParent && Number.isInteger(e.state?.firstFlightOrigin)) {
+    page = e.state.firstFlightOrigin;
+    renderMap();
+    $("first-flight-start").focus({preventScroll:true});
+  } else focusLocation();
 });
 let redraw;
 function redrawSky() {
@@ -904,3 +1005,16 @@ try {
 }
 drawSky($("firmament"), false);
 route(false);
+const resume = history.state?.flightResume;
+if (current === "titan" && resume && history.state?.firstFlight === current) {
+  const track = songs(resume.world).find(song => song.id === resume.track);
+  if (track) player.restorePaused(resume.world, track, resume.seconds);
+}
+// Consume the handoff even on a bfcache return so a later reload cannot revive an old song.
+window.addEventListener("pageshow", e => { if (e.persisted) clearFlightResume(); });
+clearFlightResume();
+function clearFlightResume() {
+  if (!history.state?.flightResume) return;
+  const {flightResume, ...state} = history.state;
+  history.replaceState(state, "");
+}

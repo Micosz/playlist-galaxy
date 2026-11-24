@@ -943,3 +943,21 @@ body[data-wheel-approach] :is(.collection, #satellites, #new-world, .camera-tool
   .brand svg { width: 23px; flex: none; }
   .mast .pill { font-size: 14px; padding-inline: 7px; white-space: nowrap; }
 }
+
+#first-flight { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 12px; }
+.flight-link, .flight-exit {
+  pointer-events: auto; min-height: 44px; padding: 6px 0;
+  font: inherit; font-size: 14px; text-align: start; overflow-wrap: anywhere;
+}
+.flight-link { display: inline-flex; align-items: center; gap: 7px; color: var(--gold); text-decoration: none; }
+.flight-link::after {
+  content: ""; flex: none; width: 7px; height: 7px;
+  border-top: 1.5px solid; border-right: 1.5px solid; transform: rotate(45deg);
+}
+#first-flight:focus-visible .flight-link { text-decoration: underline; text-underline-offset: 3px; }
+.flight-exit { color: var(--dim); text-decoration: underline; text-underline-offset: 3px; }
+#first-flight-start { margin-top: 2px; }
+#detail-flight-slot:not(:empty) + .interior-grid { margin-top: clamp(6px, 2vh, 22px); }
+.world.flight-destination .world-label, #moons .flight-destination {
+  color: var(--gold); text-decoration: underline; text-underline-offset: 4px;
+}
