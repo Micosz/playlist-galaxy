@@ -906,3 +906,40 @@ body[data-wheel-approach] :is(.collection, #satellites, #new-world, .camera-tool
 #transfer-count { color: var(--ink); }
 #transfer-status:empty { display: none; }
 #backup-download { display: inline-flex; align-items: center; text-decoration: none; color: var(--gold); }
+
+.mast-actions, #open-finder { display: flex; align-items: center; gap: 8px; }
+#open-finder { min-width: 44px; min-height: 44px; justify-content: center; padding: 6px 10px; color: var(--ink); border-radius: 24px; }
+#open-finder:hover { background: #ffffff0f; }
+#open-finder svg { width: 20px; height: 20px; }
+#finder { width: min(560px, calc(100% - 24px)); overscroll-behavior: contain; }
+#finder .dialog-head { margin-bottom: 12px; }
+#finder .dialog-head button, #finder-retry, #finder-results-back { min-height: 44px; min-width: 44px; }
+#finder-query { font-size: 16px; }
+#finder-status:empty { margin: 0; }
+#finder h3 { font-size: 15px; margin: 16px 0 4px; }
+#finder ul { list-style: none; padding: 0; margin: 0; }
+#finder li { display: flex; align-items: center; gap: 6px; border-top: 1px solid var(--edge); }
+.finder-row { display: grid; grid-template-columns: minmax(0,1fr) auto; align-items: center; gap: 0 8px; flex: 1; min-width: 0; min-height: 48px; padding: 8px 4px; text-align: start; }
+.finder-row strong, .finder-row small, #finder-object, #finder dd { overflow-wrap: anywhere; }
+.finder-row small { grid-column: 1; color: var(--dim); }
+.finder-action { grid-column: 2; grid-row: 1 / 3; font-size: 12px; color: var(--gold); }
+.finder-play, .finder-more { color: var(--gold); min-height: 44px; }
+.finder-play { display: inline-flex; align-items: center; justify-content: center; padding: 0 8px; border: 1px solid var(--edge); border-radius: 12px; text-decoration: none; font-size: 13px; }
+.finder-more { text-decoration: underline; text-underline-offset: 3px; }
+#finder #finder-object { font-size: 25px; margin-top: 8px; }
+#finder-facts { display: grid; grid-template-columns: auto 1fr; gap: 5px 14px; font-size: 14px; }
+#finder dt { color: var(--dim); }
+#finder dd { margin: 0; }
+@media (max-width: 420px) {
+  .mast { padding-inline: 10px; gap: 4px; }
+  .mast-actions { gap: 2px; }
+  .mast .pill { padding-inline: 9px; }
+  #open-finder { padding-inline: 6px; gap: 4px; }
+  #finder { padding: 14px; }
+}
+@media (max-width: 365px) {
+  #open-finder span { display: none; }
+  .brand { font-size: 18px; gap: 2px; white-space: nowrap; }
+  .brand svg { width: 23px; flex: none; }
+  .mast .pill { font-size: 14px; padding-inline: 7px; white-space: nowrap; }
+}

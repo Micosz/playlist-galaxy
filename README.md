@@ -16,6 +16,12 @@ Open a planet to play its playlist. Switching planets saves the current song and
 - Use **Apple Music** to connect, search the catalog, and add songs, or paste an Apple Music song link. Full in-app playback requires a configured MusicKit app, listener authorization and an eligible subscription. Saved Apple links also open in Apple Music.
 - **Saturn Pirate Radio** is available inside Saturn and at [radio.html](radio.html).
 
+## Find a world or song
+
+Choose **ค้นหา** in the header or press **/**. Search by world, track, artist, or a name in the parent path. **ดูดาว** opens the planet with the current song still playing. **เล่น** plays the chosen track from its saved position when available and leaves you on the same map. Saved Apple Music links open in Apple Music. **ดูข้อมูล** shows a catalog object's address and facts. Enter in the search field opens the first result for browsing. Escape returns from catalog facts to results, then closes search.
+
+The app searches your in-memory library and reads the two bundled astronomy catalogs on the first query. Only the fixed astronomy files are fetched and cached for later searches while offline. Private queries and track names stay in the tab. New and imported items appear immediately.
+
 ## Move your library to another device
 
 Open **จัดการดาว (···) → ย้ายหรือสำรองคลังเพลง** on any playlist planet. On a new device, the same action is inside **สร้างกาแล็กซี** on the universe map. Choose **เตรียมไฟล์สำรอง**, then **ดาวน์โหลดไฟล์สำรอง**. On the other device choose **เลือกไฟล์นำเข้า**, check the counts and size, then **รวมเข้ากับคลังนี้**. Selecting the file only previews it.
@@ -59,6 +65,7 @@ python3 -m pip install playwright
 python3 -m playwright install chromium
 python3 checks/galaxy.py
 python3 checks/backup.py
+python3 checks/search.py
 python3 checks/camera.py
 python3 checks/navigation.py
 python3 checks/journeys.py

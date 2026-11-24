@@ -11,7 +11,7 @@ export class WheelTravel {
         e.stopImmediatePropagation();
         return;
       }
-      if (!this.trip || e.target.closest("#transport,#thumb-nav")) return;
+      if (!this.trip || e.target.closest("#transport,#thumb-nav,#open-finder")) return;
       e.preventDefault();
       e.stopImmediatePropagation();
       if (this.trip.method === "thumb" || e.target.closest("#back,#home,#trail button,#detail-ancestors button")) this.cancel();
@@ -20,7 +20,7 @@ export class WheelTravel {
     window.addEventListener("keydown", e => {
       this.approach = null;
       if (!this.trip || (e.key !== "Escape" &&
-          (this.trip.method === "thumb" || e.target.closest("#transport,#thumb-nav")))) return;
+          (this.trip.method === "thumb" || e.target.closest("#transport,#thumb-nav,#open-finder")))) return;
       if (e.key === "Escape" || e.key === "Enter" || e.key === " ") {
         e.preventDefault();
         e.stopImmediatePropagation();
@@ -35,7 +35,7 @@ export class WheelTravel {
         this.cancel();
         return;
       }
-      if (!this.trip || e.target.closest("#transport,#thumb-nav")) return;
+      if (!this.trip || e.target.closest("#transport,#thumb-nav,#open-finder")) return;
       if (this.press || e.button !== 0) this.cancel();
       else this.press = {id:e.pointerId, x:e.clientX, y:e.clientY};
     }, true);
@@ -60,7 +60,7 @@ export class WheelTravel {
     }
     if (!e.deltaY) return;
     const target = document.elementFromPoint(e.clientX, e.clientY);
-    if (!target || target.closest("dialog,#transport,#thumb-nav")) return;
+    if (!target || target.closest("dialog,#transport,#thumb-nav,#open-finder")) return;
     if (this.trip?.method === "thumb") { this.cancel(); return; }
     const inward = e.deltaY < 0;
     const tail = this.tail;

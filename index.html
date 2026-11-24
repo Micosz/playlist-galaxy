@@ -25,7 +25,13 @@
         </svg>
         <span>Playlist Galaxy</span>
       </button>
-      <button class="pill" id="new-world">＋ สร้างกาแล็กซี</button>
+      <div class="mast-actions">
+        <button id="open-finder" aria-label="ค้นหาดาวและเพลง" aria-haspopup="dialog" aria-keyshortcuts="/" title="ค้นหาดาวและเพลง (/)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
+          <span>ค้นหา</span>
+        </button>
+        <button class="pill" id="new-world">＋ สร้างกาแล็กซี</button>
+      </div>
     </header>
     <main id="scene">
       <section id="map" aria-labelledby="map-title">
@@ -122,6 +128,34 @@
       </aside>
     </footer>
     <p id="notice" aria-live="polite" role="status"></p>
+    <dialog id="finder" aria-labelledby="finder-title">
+      <div class="dialog-head">
+        <h2 id="finder-title">ค้นหาดาวและเพลง</h2>
+        <button class="icon-btn" type="button" data-close aria-label="ปิดการค้นหา">×</button>
+      </div>
+      <div id="finder-search">
+        <input id="finder-query" type="search" aria-label="ชื่อดาว เพลง หรือศิลปิน" placeholder="ชื่อดาว เพลง หรือศิลปิน" autocomplete="off" autocapitalize="none" spellcheck="false" enterkeyhint="search" maxlength="160" />
+        <p id="finder-status" role="status"></p>
+        <button id="finder-retry" class="text-btn" hidden>ลองโหลดแค็ตตาล็อกอีกครั้ง</button>
+        <section id="finder-library" aria-labelledby="finder-library-title" hidden>
+          <h3 id="finder-library-title">ในคลังของฉัน</h3>
+          <ul id="finder-library-list"></ul>
+          <button id="finder-library-more" class="finder-more" hidden>ดูผลในคลังเพิ่ม</button>
+        </section>
+        <section id="finder-catalog" aria-labelledby="finder-catalog-title" hidden>
+          <h3 id="finder-catalog-title">แค็ตตาล็อกดาราศาสตร์</h3>
+          <ul id="finder-catalog-list"></ul>
+          <button id="finder-catalog-more" class="finder-more" hidden>ดูผลแค็ตตาล็อกเพิ่ม</button>
+        </section>
+      </div>
+      <section id="finder-detail" hidden>
+        <button id="finder-results-back" class="text-btn">‹ กลับผลค้นหา</button>
+        <h3 id="finder-object" tabindex="-1"></h3>
+        <p id="finder-address"></p>
+        <dl id="finder-facts"></dl>
+        <p id="finder-source"></p>
+      </section>
+    </dialog>
     <dialog id="editor" aria-labelledby="editor-title">
       <form id="edit-form">
         <div class="dialog-head">

@@ -7,6 +7,7 @@ import { bindCamera } from "./camera-input.js";
 import { BodyFlight } from "./flight.js";
 import { WheelTravel } from "./wheel-travel.js";
 import { Player } from "./player.js";
+import { bindFinder } from "./finder-dialog.js";
 import { bindBackup } from "./backup-ui.js";
 
 const $ = (id) => document.getElementById(id);
@@ -32,6 +33,7 @@ let worlds = initialWorlds,
   editId = null,
   editParent = null,
   searchId = 0;
+let browsingResult = Boolean(history.state?.galaxyBrowse);
 let choosingFlight = false, rangePress = null;
 let catalogVisit = 0, catalogItems = [], selectedTemplate = null;
 let noteTimer,
@@ -217,7 +219,7 @@ $("thumb-cancel").onclick = () => {
 };
 $("thumb-up").onclick = () => {
   if (wheelTravel.trip) wheelTravel.cancel();
-  else openWorld(byId(current || mapParent)?.parent);
+  else goUp(byId(current || mapParent)?.parent);
 };
 const range = $("thumb-range");
 function commitRange() {
@@ -279,7 +281,7 @@ function renderMap() {
   if (parent) {
     for (const node of [null, ...ancestry(parent.id).slice(0, -1)]) {
       const crumb = make("button", node?.name || "จักรวาล");
-      crumb.onclick = () => openWorld(node?.id || null);
+      crumb.onclick = () => goUp(node?.id || null);
       $("trail").append(crumb, make("span", "›"));
     }
     const here = make("span", parent.name);
@@ -332,6 +334,7 @@ function trackRow(t, index) {
       await db.remove(t.id);
       if (player.track?.id === t.id) player.idle();
       tracks = tracks.filter((s) => s.id !== t.id);
+      finder.libraryChanged();
       blobs.delete(t.id);
       renderDetail();
     } catch {
@@ -348,7 +351,7 @@ function detailTrail(world) {
   const ancestors = parent ? [null, ...path.slice(0, -2)] : [];
   for (const ancestor of ancestors) {
     const button = make("button", ancestor?.name || "จักรวาล");
-    button.onclick = () => openWorld(ancestor?.id || null);
+    button.onclick = () => goUp(ancestor?.id || null);
     const separator = make("span", "›");
     separator.setAttribute("aria-hidden", "true");
     prefix.append(button, separator);
@@ -386,7 +389,7 @@ function renderDetail() {
   );
   updatePlayer();
 }
-function openWorld(id, { play = true, push = true, animate = play } = {}) {
+function openWorld(id, { play = true, push = true, animate = play, browse = false } = {}) {
   choosingFlight = false;
   const node = byId(id), prev = current || mapParent;
   const outward = !node || ancestry(prev).some(ancestor => ancestor.id === id);
@@ -401,7 +404,11 @@ function openWorld(id, { play = true, push = true, animate = play } = {}) {
   const departure = moonOrigin ? previousArt : (travelling && !current ? camera.departure(sourceArt) : null);
   bodyFlight.cancel();
   const hash = node ? (map ? "#map=" : "#planet=") + encodeURIComponent(node.id) : "";
-  if (push && location.hash !== hash) history.pushState(null, "", location.pathname + location.search + hash);
+  if (push) {
+    if (location.hash !== hash) history.pushState(browse ? {galaxyBrowse:true} : null, "", location.pathname + location.search + hash);
+    else if (browse !== browsingResult) history.replaceState({...history.state,galaxyBrowse:browse}, "");
+    browsingResult = browse;
+  }
   $("map").hidden = !map;
   $("interior").hidden = map;
   $("new-world").hidden = !map;
@@ -488,12 +495,47 @@ const wheelTravel = new WheelTravel({
     }
   }
 });
+function focusLocation() {
+  $(current ? "world-title" : "map-title").focus({preventScroll:true});
+}
+function goUp(id) {
+  if (browsingResult) { openWorld(id,{play:false,browse:true}); focusLocation(); }
+  else openWorld(id);
+}
+const finder = bindFinder({
+  library: () => ({worlds,tracks}),
+  beforeOpen() {
+    wheelTravel.cancel();
+    stopChoosing();
+    cancelMapGesture();
+    bodyFlight.cancel();
+    if (camera.frame || camera.flight) camera.settle();
+  },
+  browse(row) {
+    if ((current || mapParent) !== row.worldId) {
+      const finderReturn = {page,sceneY:$("scene").scrollTop,windowY:scrollY};
+      history.replaceState({...history.state,finderReturn}, "");
+    }
+    openWorld(row.worldId,{play:false,browse:true});
+    if (row.track) {
+      if ($("playlist-body").hidden) $("playlist-toggle").click();
+      const target = [...$("tracks").querySelectorAll("[data-track]")].find(b => b.dataset.track === row.track.id);
+      if (target) { target.focus({preventScroll:true}); target.scrollIntoView({block:"nearest"}); return; }
+    }
+    focusLocation();
+  },
+  play(track) {
+    if (player.track?.id === track.id && player.world === track.worldId &&
+        (player.state === "loading" || player.state === "playing")) return;
+    player.pick(track.worldId,track);
+  },
+});
 function route(play) {
   const params = new URLSearchParams(location.hash.slice(1));
   openWorld(params.get("planet") || params.get("map"), { play, push:false });
 }
-$("home").onclick = () => openWorld(null);
-$("back").onclick = () => openWorld(byId(current)?.parent);
+$("home").onclick = () => goUp(null);
+$("back").onclick = () => goUp(byId(current)?.parent);
 $("playlist-toggle").onclick = () => {
   bodyFlight.cancel();
   const folded = !$("playlist-body").hidden;
@@ -505,13 +547,22 @@ document.addEventListener("keydown", e => {
   if (e.key !== "Escape" || e.defaultPrevented || e.repeat || document.querySelector("dialog[open]")) return;
   if (choosingFlight) { e.preventDefault(); $("thumb-cancel").click(); return; }
   const active = byId(current || mapParent);
-  if (active) { e.preventDefault(); openWorld(active.parent); }
+  if (active) { e.preventDefault(); goUp(active.parent); }
 });
 $("prev-page").onclick = () => { page--; renderMap(); };
 $("next-page").onclick = () => { page++; renderMap(); };
-window.addEventListener("popstate", () => {
+window.addEventListener("popstate", e => {
+  const quiet = browsingResult || e.state?.galaxyBrowse || $("finder").open;
+  if ($("finder").open) $("finder").close();
   wheelTravel.cancel();
-  route(navigator.userActivation?.hasBeenActive === true);
+  browsingResult = Boolean(e.state?.galaxyBrowse);
+  route(!quiet && navigator.userActivation?.hasBeenActive === true);
+  if (!quiet) return;
+  const origin = e.state?.finderReturn;
+  if (origin && !current && page !== origin.page) { page = origin.page; renderMap(); }
+  if (origin) { $("scene").scrollTop = origin.sceneY; scrollTo(0,origin.windowY); }
+  if (origin) $("open-finder").focus({preventScroll:true});
+  else focusLocation();
 });
 let redraw;
 function redrawSky() {
@@ -658,6 +709,7 @@ $("edit-form").onsubmit = async (e) => {
     if (old) await db.putWorld(world);
     else await db.addWorlds(added);
     worlds = worlds.filter((w) => w.id !== world.id).concat(added);
+    finder.libraryChanged();
     $("editor").close();
     if (old && !isContainer(world)) paintPlanet($("portrait"), world);
     openWorld(world.id, { play:!old });
@@ -674,7 +726,8 @@ async function addEntries(worldId, entries) {
     e.track.order = base + i;
   });
   await db.add(entries);
-  tracks.push(...entries.map((e) => e.track));
+  tracks = tracks.concat(entries.map(e => e.track));
+  finder.libraryChanged();
   if (current === worldId) {
     renderDetail();
     warm(byId(worldId));
@@ -834,6 +887,7 @@ bindBackup({
   checkpoint: () => player.checkpoint(),
   async refresh() {
     [worlds, tracks] = await db.load();
+    finder.libraryChanged();
     if (current) { paintPlanet($("portrait"),byId(current)); detailTrail(byId(current)); renderDetail(); }
     else renderMap();
     renderThumbNav();
@@ -843,6 +897,7 @@ bindBackup({
 try {
   db = await openLibrary();
   [worlds, tracks] = await db.load();
+  finder.libraryChanged();
 } catch {
   db = null;
   storageError();
