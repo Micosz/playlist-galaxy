@@ -60,12 +60,23 @@ export function upgradeWorlds(previous) {
 
 // Read the checked-in astronomy snapshot only when a listener opens the catalog.
 export function readPlanets(markdown) {
-  const systems = [], moons = new Map();
-  let solarParent, system, host, inSystems = false;
+  const systems = [], moons = new Map(), facts = new Map(), dwarfs = [];
+  let solarParent, system, host, dwarf, inDwarfs = false, inSystems = false;
   for (const line of markdown.split(/\r?\n/)) {
     if (line === '<a name="systems-01"></a>') inSystems = true;
     if (line === '<a name="sources"></a>') break;
     if (!inSystems) {
+      if (line.startsWith("### ดาวเคราะห์แคระ")) inDwarfs = true;
+      if (line === '<a name="exoplanets"></a>') inDwarfs = false;
+      if (inDwarfs) {
+        const parent = /^- \*\*([^·]+) · ([A-Za-z]+)\*\*/.exec(line);
+        const moon = /^  - \x60([^\x60]+)\x60/.exec(line);
+        if (parent) {
+          dwarf = {name:parent[2], alias:parent[1].trim(), moons:[]};
+          dwarfs.push(dwarf);
+        } else if (dwarf && moon) dwarf.moons.push(moon[1]);
+        continue;
+      }
       const header = /^<details><summary>[^·]+ · ([A-Za-z]+) — ดวงจันทร์/.exec(line);
       if (header) {
         solarParent = header[1];
@@ -97,11 +108,13 @@ export function readPlanets(markdown) {
         system.hosts.push(host);
       }
       host.planets.push(planet[1]);
+      const [, year, method, period, radius] = line.split("|").map(part => part.trim());
+      facts.set(planet[1], {year,method,period,radius});
       system.count++;
     }
   }
   if (!systems.length || !moons.size) throw new Error("Planet catalog is unavailable");
-  return { systems, moons };
+  return { systems, moons, facts, dwarfs };
 }
 
 export function readGalaxies(markdown) {
@@ -112,15 +125,34 @@ export function readGalaxies(markdown) {
 }
 
 const catalogs = new Map();
+const catalogCacheName = "playlist-galaxy-astronomy";
+async function storedCatalogs() {
+  try {
+    if (["http:", "https:"].includes(location.protocol)) return await caches.open(catalogCacheName);
+  } catch { /* Storage can be disabled; the in-memory catalog still works. */ }
+}
+async function loadCatalog(path, parse) {
+  let source;
+  try {
+    const response = await fetch(path);
+    if (!response.ok) throw new Error("Catalog request failed");
+    source = await response.text();
+  } catch (error) {
+    const cache = await storedCatalogs();
+    const stored = await cache?.match(path);
+    if (!stored) throw error;
+    return parse(await stored.text());
+  }
+  const catalog = parse(source);
+  // Keep only the two bundled astronomy snapshots. A search term never becomes a cache key.
+  storedCatalogs().then(cache => cache?.put(path, new Response(source))).catch(() => {});
+  return catalog;
+}
 export function fetchCatalog(kind) {
   const galaxy = kind === "galaxy";
   const path = galaxy ? "docs/galaxies.md" : "docs/planetary-systems.md";
   if (!catalogs.has(path)) {
-    catalogs.set(path, fetch(path).then(async (res) => {
-      if (!res.ok) throw new Error("Catalog request failed");
-      const source = await res.text();
-      return galaxy ? readGalaxies(source) : readPlanets(source);
-    }).catch((error) => {
+    catalogs.set(path, loadCatalog(path, galaxy ? readGalaxies : readPlanets).catch(error => {
       catalogs.delete(path);
       throw error;
     }));
