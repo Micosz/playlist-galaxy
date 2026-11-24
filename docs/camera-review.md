@@ -35,6 +35,12 @@ The table measures the final distance in CSS pixels from the planet's center to 
 
 The check also samples each displayed frame during desktop zoom and the reverse trip, and repeats the moving pinch with reduced motion.
 
+## Leaving a map during a gesture
+
+On the zoom checkpoint `dff5572`, holding two fingers on Midnight while pressing Escape could carry the gesture into My Galaxy. The incoming map moved despite receiving no new press. Each map now releases its active input when the displayed bodies change.
+
+The navigation check starts a gesture during a return flight while Ember is playing. It goes up again with both fingers or the mouse button still held, moves them over the parent map, then releases. In both cases My Galaxy settled at its saved position (0.00 px displacement). The check samples the active audio element each frame, switches to Tide with a fresh press and returns to Ember at its saved time. The touch case uses the demo, and the desktop case imports a real MP3 and uses browser Back.
+
 ## Cold entry into the Solar System
 
 Starting in the Milky Way, each sample clicks the Solar System in a fresh browser context. The handler column measures synchronous processing of that click. The frame column ends at the second animation-frame callback following it. Values are medians of five runs with the same machine and browser. Mobile is a 390 × 844 touch viewport at 2× pixel density. The desktop viewport is 1160 × 760 at 1×.

@@ -11,7 +11,7 @@ const $ = (id) => document.getElementById(id);
 const reduced = matchMedia("(prefers-reduced-motion: reduce)");
 const camera = new MapCamera($("map-field"), $("orbits"), $("worlds"), reduced, refinePlanet);
 const bodyFlight = new BodyFlight(reduced);
-bindCamera($("map-field"), camera, () => bodyFlight.cancel());
+const cancelMapGesture = bindCamera($("map-field"), camera, () => bodyFlight.cancel());
 $("zoom-in").onclick = () => { bodyFlight.cancel(); camera.zoomBy(.25); };
 $("zoom-out").onclick = () => { bodyFlight.cancel(); camera.zoomBy(-.25); };
 $("camera-home").onclick = () => { bodyFlight.cancel(); camera.reset(); };
@@ -173,6 +173,7 @@ function planetButton(w, slot, compact) {
   return btn;
 }
 function renderMap() {
+  cancelMapGesture();
   const parent = byId(mapParent), list = children(mapParent);
   const orbit = orbitView(parent, list);
   const perPage = orbit ? orbitalSlots.length : distantSlots.length;
@@ -334,6 +335,7 @@ function openWorld(id, play = true, push = true) {
       (target || $("worlds").firstElementChild || $("new-world")).focus({ preventScroll: true });
     }
   } else {
+    cancelMapGesture();
     camera.leave();
     const changed = current !== id;
     current = id;

@@ -92,4 +92,18 @@ export function bindCamera(field, camera, interrupt) {
     const target = e.target.closest(".world");
     if (target?.matches(":focus-visible")) camera.reveal(target);
   });
+
+  // The field is reused on the next map. An old finger or mouse button may
+  // still be down when history, Escape or a breadcrumb replaces its bodies.
+  return function cancelGesture() {
+    if (!pointers.size) return;
+    swallowClick = true;
+    for (const id of pointers.keys()) {
+      if (field.hasPointerCapture(id)) field.releasePointerCapture(id);
+    }
+    pointers.clear();
+    dragged = false;
+    pinchAnchor = panAnchor = null;
+    field.classList.remove("dragging");
+  };
 }
