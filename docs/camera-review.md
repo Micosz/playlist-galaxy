@@ -14,11 +14,26 @@ The test run used Chromium Headless Shell 156.0.8078.79 on Linux. It covered mou
 node --test checks/*.test.cjs
 python3 checks/galaxy.py
 python3 checks/camera.py
+python3 checks/navigation.py
 python3 checks/receiver.py
 python3 checks/map_latency.py --runs 5
 ```
 
 The Python checks use Playwright. The audio checks also use FFmpeg. Pass `--chromium /path/to/chromium` to use an installed Chromium executable.
+
+## Keeping a planet under the pointer
+
+The camera picks the planet's projected depth for a wheel zoom or a two-finger gesture. On empty orbit space it intersects the orbital plane. Tab to a planet to zoom around it with +/−. The original map buttons still zoom around the center.
+
+The table measures the final distance in CSS pixels from the planet's center to the intended screen point. For the pinch, the two fingers spread as their midpoint moves 48 px right and 30 px up. Use `checks/navigation.py` with the same Chromium binary to repeat the checks. The desktop viewport was 1160 × 760, and the touch viewport was 390 × 844.
+
+| Input | Starting checkpoint `c6a2558` | Anchored zoom |
+| --- | ---: | ---: |
+| Three wheel events over Neptune | 208.61 px | 1.20 px |
+| Pinch and pan together over Saturn | 22.24 px | 0.27 px |
+| Four + keystrokes with Tide focused | 341.99 px | 0.86 px |
+
+The check also samples each displayed frame during desktop zoom and the reverse trip, and repeats the moving pinch with reduced motion.
 
 ## Cold entry into the Solar System
 

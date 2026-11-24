@@ -199,11 +199,11 @@ h1:focus {
   height: auto;
   display: block;
   pointer-events: none;
-  transition: transform 0.25s ease;
+  transition: filter 0.2s ease;
 }
 .world:hover canvas,
 .world:focus-visible canvas {
-  transform: translateY(-3px) scale(1.025);
+  filter: brightness(1.14);
 }
 .world-label {
   display: flex;

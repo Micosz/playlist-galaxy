@@ -4,6 +4,7 @@ const distance = 2.8;
 const tilt = -.23;
 const cs = Math.cos(tilt), sn = Math.sin(tilt);
 export const clamp = (x, min, max) => Math.max(min, Math.min(max, x));
+export const perspective = (z) => distance / Math.max(.24, distance - z);
 export const homePose = () => ({ yaw: 0, pitch: 0, x: 0, y: 0, zoom: 0 });
 
 export function lens(pose, width, height) {
@@ -13,10 +14,27 @@ export function lens(pose, width, height) {
     const right = cy * point.x + sy * point.z;
     const depth = cy * point.z - sy * point.x;
     const down = cp * point.y - sp * depth, z = sp * point.y + cp * depth;
-    const scale = zoom * distance / Math.max(.24, distance - z);
+    const scale = zoom * perspective(z);
     return { x: width / 2 + (right + pose.x) * scale * unit,
       y: height / 2 + (down + pose.y) * scale * unit, scale, z, visible: z < distance - .24 };
   };
+}
+
+// Intersect the screen ray with the tilted orbital plane when the pointer
+// lands between planets. Edge-on or out-of-scene intersections use the focus plane.
+export function orbitDepth(pose, screen, flat) {
+  if (!flat) return 0;
+  const rise = Math.sqrt(1 - flat * flat);
+  const nx = sn * rise, ny = -cs * rise;
+  const cy = Math.cos(pose.yaw), sy = Math.sin(pose.yaw);
+  const cp = Math.cos(pose.pitch), sp = Math.sin(pose.pitch);
+  const right = cy * nx + sy * flat, depth = cy * flat - sy * nx;
+  const down = cp * ny - sp * depth, forward = sp * ny + cp * depth;
+  const ray = (right * screen.x + down * screen.y) / Math.exp(pose.zoom);
+  const divisor = forward - ray / distance;
+  if (Math.abs(divisor) < .04) return 0;
+  const z = (right * pose.x + down * pose.y - ray) / divisor;
+  return z > -2 * distance && z < distance - .24 ? z : 0;
 }
 
 // Inverse projection puts the neutral view exactly at the art-directed slots.

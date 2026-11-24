@@ -1,4 +1,4 @@
-import { clamp, homePose, lens, orbitPath, scenePoint, starField } from "./projection.js";
+import { clamp, homePose, lens, orbitDepth, orbitPath, perspective, scenePoint, starField } from "./projection.js";
 import { paintSun } from "./sky.js";
 
 const keys = Object.keys(homePose());
@@ -62,11 +62,12 @@ export class MapCamera {
     }
     this.ctx.setTransform(bw / w, 0, 0, bh / h, 0, 0);
     const flat = this.orbit ? clamp(h / w, .56, .78) : 0;
+    this.flat = flat;
     this.bodies = [...this.worlds.children].map((el, i) => {
       const label = (el.offsetHeight - el.firstElementChild.offsetHeight) / 2;
       const x = el.offsetLeft, y = el.offsetTop - label;
       const point = scenePoint((x - w / 2) / this.unit, (y - h / 2) / this.unit, flat, depths[i % depths.length]);
-      return { el, x, y, label, point, baseScale: 2.8 / (2.8 - point.z), path: flat ? orbitPath(point, flat) : null };
+      return { el, x, y, label, point, baseScale: perspective(point.z), path: flat ? orbitPath(point, flat) : null };
     });
     this.draw();
     this.scheduleDetail();
@@ -158,7 +159,16 @@ export class MapCamera {
       for (const key of keys) this.pose[key] = this.flight.from[key] + (this.goal[key] - this.flight.from[key]) * k;
     } else {
       const k = 1 - Math.exp(-Math.max(1, now - this.last) / 56);
-      for (const key of keys) this.pose[key] += (this.goal[key] - this.pose[key]) * k;
+      // Blend magnification and projected pan together. Interpolating log zoom
+      // and pan independently makes even a correctly anchored planet wander mid-frame.
+      const currentScale = Math.exp(this.pose.zoom), targetScale = Math.exp(this.goal.zoom);
+      const scale = currentScale + (targetScale - currentScale) * k;
+      const panWeight = k * targetScale / scale;
+      this.pose.x += (this.goal.x - this.pose.x) * panWeight;
+      this.pose.y += (this.goal.y - this.pose.y) * panWeight;
+      this.pose.zoom = Math.log(scale);
+      this.pose.yaw += (this.goal.yaw - this.pose.yaw) * k;
+      this.pose.pitch += (this.goal.pitch - this.pose.pitch) * k;
       if (keys.every(key => Math.abs(this.goal[key] - this.pose[key]) < .00015)) return this.settle();
     }
     this.last = now;
@@ -199,15 +209,29 @@ export class MapCamera {
     this.goal.y = clamp(this.goal.y + dy / unit, -1.75, 1.75);
     this.wake();
   }
-  zoomBy(amount, screen) {
+  fieldPoint(screen) {
+    const rect = this.field.getBoundingClientRect();
+    return { x: (screen.x - rect.left - rect.width / 2) / this.unit,
+      y: (screen.y - rect.top - rect.height / 2) / this.unit };
+  }
+  anchorAt(screen, element = document.elementFromPoint(screen.x, screen.y)) {
     this.takeControl();
-    const old = Math.exp(this.goal.zoom);
+    // The user grabbed the image currently on screen, including during an orbit.
+    this.goal.yaw = this.pose.yaw;
+    this.goal.pitch = this.pose.pitch;
+    const q = this.fieldPoint(screen), button = element?.closest(".world");
+    const body = this.bodies.find(item => item.el === button);
+    const z = body ? lens(this.pose, this.width, this.height)(body.point).z : orbitDepth(this.pose, q, this.flat);
+    const depthScale = perspective(z), scale = depthScale * Math.exp(this.pose.zoom);
+    return { x: q.x / scale - this.pose.x, y: q.y / scale - this.pose.y, depthScale };
+  }
+  zoomBy(amount, screen, anchor = screen && this.anchorAt(screen)) {
+    this.takeControl();
     this.goal.zoom = clamp(this.goal.zoom + amount, -.77, 1.28);
-    // Keep the focus plane under the cursor or the pinch midpoint.
-    if (screen) {
-      const rect = this.field.getBoundingClientRect(), delta = (1 / Math.exp(this.goal.zoom) - 1 / old) / this.unit;
-      this.goal.x = clamp(this.goal.x + (screen.x - rect.left - rect.width / 2) * delta, -1.75, 1.75);
-      this.goal.y = clamp(this.goal.y + (screen.y - rect.top - rect.height / 2) * delta, -1.75, 1.75);
+    if (anchor) {
+      const q = this.fieldPoint(screen), scale = Math.exp(this.goal.zoom) * anchor.depthScale;
+      this.goal.x = clamp(q.x / scale - anchor.x, -1.75, 1.75);
+      this.goal.y = clamp(q.y / scale - anchor.y, -1.75, 1.75);
     }
     this.wake();
   }

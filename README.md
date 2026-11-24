@@ -5,7 +5,7 @@ Open a planet to play its playlist. Switching planets saves the current song and
 ## Use the galaxy
 
 - Open **My Galaxy → Midnight → Ember** to hear the original demo *Afterglow*. Return to Midnight, open **Tide** for *Blue Hour*, then revisit Ember to resume. Browsing galaxies or systems keeps the current audio playing.
-- Drag the sky to orbit. Use the wheel or pinch to zoom at a point, and Shift-drag or move two fingers together to pan. The round center control restores the view. With the map focused, use the arrow keys to rotate, Shift+arrows to pan, +/− to zoom and 0 to reset. Map gestures work with WebGL disabled. Reduced motion makes camera changes immediate.
+- Drag the sky to orbit. Point at a planet and scroll to zoom around it. With two fingers, spread or pinch around the planet and move your fingers together to carry it across the map. Shift-drag also pans. The round center control restores the view. With the map focused, use the arrow keys to rotate, Shift+arrows to pan, +/− to zoom and 0 to reset. Tab to a planet to zoom around that planet with +/−. Map gestures work with WebGL disabled. Reduced motion makes camera changes immediate.
 - The path above a planet opens any ancestor. Escape goes up one level. Each map remembers its camera angle and zoom for this visit. Tap **เพลย์ลิสต์** to fold the song list and see more of the planet. Its moons and the player remain available.
 - Create a galaxy from the universe, a system inside a galaxy, or a playlist planet inside a system. **จัดการดาว** lets you rename or move a planet, or give it a moon with its own playlist. Everything you create stays on this browser.
 - The Milky Way has the Solar System and TRAPPIST-1 to explore. When creating a galaxy or system, the catalog picker can copy a name or a whole planetary system into your music map. Multi-host systems retain their individual stars. When adding a moon to a Solar System planet you can also pick its catalog name. The checked-in [galaxy catalog](docs/galaxies.md) and [planetary systems](docs/planetary-systems/README.md) load on demand. User collections can be arranged freely. Orbital spacing, galaxy shapes and planet colors are illustrative.
@@ -45,6 +45,7 @@ python3 -m pip install playwright
 python3 -m playwright install chromium
 python3 checks/galaxy.py
 python3 checks/camera.py
+python3 checks/navigation.py
 python3 checks/receiver.py
 ```
 
