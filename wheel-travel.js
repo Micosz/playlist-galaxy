@@ -1,8 +1,8 @@
 // The scene follows scroll distance. Only a completed approach changes the
 // location or playlist. Wheel momentum after landing belongs to that same trip.
 export class WheelTravel {
-  constructor({ ready, bookmark, begin, seek, arrive, restore, reduced }) {
-    Object.assign(this, { ready, bookmark, begin, seek, arrive, restore, reduced });
+  constructor({ ready, bookmark, begin, seek, arrive, restore, reduced, changed }) {
+    Object.assign(this, { ready, bookmark, begin, seek, arrive, restore, reduced, changed });
     window.addEventListener("wheel", e => this.wheel(e), {capture:true, passive:false});
     window.addEventListener("click", e => {
       if (this.ignoreDragClick && e.detail) {
@@ -11,15 +11,16 @@ export class WheelTravel {
         e.stopImmediatePropagation();
         return;
       }
-      if (!this.trip || e.target.closest("#transport")) return;
+      if (!this.trip || e.target.closest("#transport,#thumb-nav")) return;
       e.preventDefault();
       e.stopImmediatePropagation();
-      if (e.target.closest("#back,#home,#trail button,#detail-ancestors button")) this.cancel();
+      if (this.trip.method === "thumb" || e.target.closest("#back,#home,#trail button,#detail-ancestors button")) this.cancel();
       else this.finish();
     }, true);
     window.addEventListener("keydown", e => {
       this.approach = null;
-      if (!this.trip || (e.key !== "Escape" && e.target.closest("#transport"))) return;
+      if (!this.trip || (e.key !== "Escape" &&
+          (this.trip.method === "thumb" || e.target.closest("#transport,#thumb-nav")))) return;
       if (e.key === "Escape" || e.key === "Enter" || e.key === " ") {
         e.preventDefault();
         e.stopImmediatePropagation();
@@ -30,7 +31,11 @@ export class WheelTravel {
     window.addEventListener("pointerdown", e => {
       this.approach = this.tail = null;
       this.ignoreDragClick = false;
-      if (!this.trip || e.target.closest("#transport")) return;
+      if (this.trip?.method === "thumb" && e.pointerType === "touch" && !e.isPrimary) {
+        this.cancel();
+        return;
+      }
+      if (!this.trip || e.target.closest("#transport,#thumb-nav")) return;
       if (this.press || e.button !== 0) this.cancel();
       else this.press = {id:e.pointerId, x:e.clientX, y:e.clientY};
     }, true);
@@ -55,7 +60,8 @@ export class WheelTravel {
     }
     if (!e.deltaY) return;
     const target = document.elementFromPoint(e.clientX, e.clientY);
-    if (!target || target.closest("dialog,#transport")) return;
+    if (!target || target.closest("dialog,#transport,#thumb-nav")) return;
+    if (this.trip?.method === "thumb") { this.cancel(); return; }
     const inward = e.deltaY < 0;
     const tail = this.tail;
     const intercept = () => { e.preventDefault(); e.stopImmediatePropagation(); };
@@ -80,10 +86,7 @@ export class WheelTravel {
         this.tail = {at:performance.now(), x:e.clientX, y:e.clientY};
         return;
       }
-      const { origin, duration } = this.begin(id);
-      this.trip = { id, origin, overview, duration, progress:0, displayed:0 };
-      this.seek(0, duration);
-      document.body.dataset.wheelApproach = id;
+      this.start(id, overview, "wheel");
     } else intercept();
 
     const unit = e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? innerHeight : 1;
@@ -106,11 +109,20 @@ export class WheelTravel {
     };
     this.frame = requestAnimationFrame(advance);
   }
+  start(id, overview, method) {
+    const { origin, duration } = this.begin(id, method);
+    this.trip = { id, method, origin, overview, duration, progress:0, displayed:0 };
+    this.seek(0, duration);
+    document.body.dataset.wheelApproach = id;
+    this.changed();
+  }
   display(progress) {
     const trip = this.trip;
     trip.displayed = progress;
     this.seek(progress, trip.duration);
     document.body.style.setProperty("--wheel-progress", String(progress));
+    // A thumb can move back from either endpoint until it releases the slider.
+    if (trip.method === "thumb") return;
     if (progress === 0 && trip.progress === 0) this.cancel(false);
     if (progress === 1 && trip.progress === 1) {
       this.finish();
@@ -124,13 +136,14 @@ export class WheelTravel {
     this.trip = this.press = null;
     delete document.body.dataset.wheelApproach;
     document.body.style.removeProperty("--wheel-progress");
+    this.changed();
   }
   cancel(restoreOverview = true) {
     this.approach = null;
     if (!this.trip) return;
-    const { origin, overview } = this.trip;
+    const { origin, overview, id, method } = this.trip;
     this.clear();
-    this.restore(origin, restoreOverview ? overview : null);
+    this.restore(origin, restoreOverview ? overview : null, method === "thumb" ? id : null);
   }
   finish() {
     const { id, overview } = this.trip;

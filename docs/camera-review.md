@@ -17,11 +17,20 @@ python3 checks/camera.py
 python3 checks/navigation.py
 python3 checks/journeys.py
 python3 checks/wheel_travel.py
+python3 checks/thumb_navigation.py
 python3 checks/receiver.py
 python3 checks/map_latency.py --runs 5
 ```
 
 The Python checks use Playwright. The audio checks also use FFmpeg. Pass `--chromium /path/to/chromium` to use an installed Chromium executable.
+
+## Flying with one thumb
+
+Tap a destination for the automatic flight. For manual travel, tap **คุมการบิน**, tap the destination and use the range beside its name. Lifting partway holds that frame. Even at 100% you can retract while holding the slider. Releasing at the end enters the destination, adds a history entry and starts or resumes its playlist. **ยกเลิก** restores the departure view. You can pause the current track while the flight is held. With reduced motion, tap to enter directly.
+
+The bottom **กลับ** button names the parent. On the 320 × 568 starting revision `bacec08`, the entire map hint (y = 509–527 CSS px) fell behind the playing track. The updated hint ends at 447 px, the navigation row begins at 456 px and the player at 504 px. At 390 × 844 the corresponding edges are 723, 732 and 780 px. The original detail Back button was near y = 90 px; the additional bottom controls are 44 px tall.
+
+Use `python3 checks/thumb_navigation.py --chromium /path/to/chromium --evidence /tmp/thumb` to repeat the checks and save screenshots. The check uses trusted Chromium touch input, verifying a stationary 55% approach, reversal, parent navigation, browser Back with a finger still down, a second-finger interruption, native range keyboard control, a paginated map and dialogs. It follows Ember → Tide → Ember with imported MP3s at 320 × 568 and demo audio at 390 × 844. These are touch-emulated Linux browser viewports. Physical iOS and Android devices were not tested.
 
 ## Steering a flight with the wheel
 

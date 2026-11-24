@@ -9,7 +9,7 @@ import { WheelTravel } from "./wheel-travel.js";
 import { Player } from "./player.js";
 
 const $ = (id) => document.getElementById(id);
-const thumbScreen = matchMedia("(max-width: 660px) and (pointer: coarse)");
+const thumbScreen = matchMedia("(pointer: coarse)");
 const reduced = matchMedia("(prefers-reduced-motion: reduce)");
 const camera = new MapCamera($("map-field"), $("orbits"), $("worlds"), reduced, refinePlanet);
 const bodyFlight = new BodyFlight(reduced);
@@ -31,6 +31,7 @@ let worlds = initialWorlds,
   editId = null,
   editParent = null,
   searchId = 0;
+let choosingFlight = false, rangePress = null;
 let catalogVisit = 0, catalogItems = [], selectedTemplate = null;
 let noteTimer,
   tickTimer,
@@ -133,6 +134,7 @@ function updatePlayer() {
   $("now-title").textContent = player.track?.title || "";
   $("now-world").textContent = byId(player.world)?.name || "";
   $("toggle").textContent = active ? "Ⅱ" : "▶";
+  $("toggle").toggleAttribute("data-playing", active);
   $("toggle").setAttribute("aria-label", active ? "หยุดชั่วคราว" : "เล่นต่อ");
   $("skip").disabled = !visible || songs(player.world).length < 2;
   for (const button of document.querySelectorAll("[data-track]")) {
@@ -171,18 +173,82 @@ function planetButton(w, slot, compact) {
     const kind = list[0]?.kind || childKind(w);
     btn.append(make("small", list.length + " " + names[kind]));
   }
-  btn.onclick = () => openWorld(w.id);
+  btn.onclick = () => selectDestination(w.id);
   return btn;
 }
 function renderThumbNav() {
   const world = byId(current || mapParent);
-  $("thumb-nav").hidden = !thumbScreen.matches || !world;
-  $("thumb-up").hidden = !world;
+  const trip = wheelTravel.trip;
+  const manual = trip?.method === "thumb";
+  const canChoose = !reduced.matches && worlds.some(w => w.parent === (world?.id || null));
+  $("thumb-nav").hidden = !thumbScreen.matches || (!world && !canChoose && !trip);
+  $("thumb-up").hidden = !world || choosingFlight || manual;
   if (world) $("thumb-parent").textContent = "กลับ " + (byId(world.parent)?.name || "จักรวาล");
+  $("thumb-flight").hidden = !canChoose || choosingFlight || Boolean(trip);
+  $("thumb-pick").hidden = !choosingFlight;
+  if (choosingFlight) $("thumb-pick").textContent = current ? "แตะดวงจันทร์ปลายทาง" : "แตะดาวปลายทาง";
+  $("thumb-cancel").hidden = !(choosingFlight || manual);
+  $("thumb-route").hidden = !manual;
+  if (manual) $("thumb-target").textContent = "บินไป " + byId(trip.id).name;
+  else rangePress = null;
 }
-thumbScreen.addEventListener("change", renderThumbNav);
-$("thumb-up").onclick = () => openWorld(byId(current || mapParent)?.parent);
-$("scene").addEventListener("scroll", () => { if ($("scene").scrollTop) bodyFlight.cancel(); }, {passive:true});
+function stopChoosing() {
+  if (choosingFlight) {
+    choosingFlight = false;
+    renderThumbNav();
+  }
+}
+function selectDestination(id) {
+  if (!choosingFlight) return openWorld(id);
+  choosingFlight = false;
+  $("thumb-range").value = 0;
+  wheelTravel.start(id, camera.bookmark(), "thumb");
+  $("thumb-range").focus({preventScroll:true});
+}
+$("thumb-flight").onclick = e => {
+  choosingFlight = true;
+  renderThumbNav();
+  if (!e.detail) $(current ? "moons" : "worlds").firstElementChild?.focus({preventScroll:true});
+};
+$("thumb-cancel").onclick = () => {
+  if (wheelTravel.trip) wheelTravel.cancel();
+  else { stopChoosing(); $("thumb-flight").focus({preventScroll:true}); }
+};
+$("thumb-up").onclick = () => {
+  if (wheelTravel.trip) wheelTravel.cancel();
+  else openWorld(byId(current || mapParent)?.parent);
+};
+const range = $("thumb-range");
+function commitRange() {
+  if (!rangePress && range.valueAsNumber === 100 && wheelTravel.trip?.method === "thumb") wheelTravel.finish();
+}
+range.addEventListener("input", () => {
+  if (wheelTravel.trip?.method === "thumb") wheelTravel.display(range.valueAsNumber / 100);
+});
+range.addEventListener("pointerdown", e => {
+  if (e.isPrimary) rangePress = {id:e.pointerId, trip:wheelTravel.trip};
+});
+range.addEventListener("pointerup", e => {
+  if (rangePress?.id !== e.pointerId) return;
+  const sameTrip = rangePress.trip === wheelTravel.trip;
+  rangePress = null;
+  if (sameTrip) commitRange();
+});
+range.addEventListener("pointercancel", () => { rangePress = null; });
+range.addEventListener("change", commitRange);
+
+function updateThumbMode() {
+  stopChoosing();
+  if (wheelTravel.trip?.method === "thumb") wheelTravel.cancel();
+  renderThumbNav();
+}
+thumbScreen.addEventListener("change", updateThumbMode);
+reduced.addEventListener("change", updateThumbMode);
+$("scene").addEventListener("scroll", () => {
+  if (!$("scene").scrollTop) return;
+  if (wheelTravel.trip) wheelTravel.cancel();
+  else bodyFlight.cancel();
+}, {passive:true});
 
 function renderMap() {
   cancelMapGesture();
@@ -312,7 +378,7 @@ function renderDetail() {
       dot.className = "moon-dot";
       dot.style.setProperty("--tone", surfaces[w.surface].tone);
       b.append(dot, document.createTextNode(w.name));
-      b.onclick = () => openWorld(w.id);
+      b.onclick = () => selectDestination(w.id);
       warm(w);
       return b;
     }),
@@ -320,6 +386,7 @@ function renderDetail() {
   updatePlayer();
 }
 function openWorld(id, { play = true, push = true, animate = play } = {}) {
+  choosingFlight = false;
   const node = byId(id), prev = current || mapParent;
   const outward = !node || ancestry(prev).some(ancestor => ancestor.id === id);
   const travelling = animate && prev !== (node?.id || null) && !reduced.matches && !document.hidden;
@@ -388,10 +455,11 @@ const wheelTravel = new WheelTravel({
   reduced,
   ready: button => !button.classList.contains("world") || camera.readyForEntry(button),
   bookmark: () => camera.bookmark(),
-  begin(id) {
+  changed: renderThumbNav,
+  begin(id, method) {
     const origin = { id: current || mapParent, page, x: scrollX, y: scrollY, sceneTop: $("scene").scrollTop };
     const duration = openWorld(id, { play:false, push:false, animate:true });
-    $(current ? "world-count" : "map-help").textContent = "เลื่อนต่อหรือคลิกเพื่อเข้า · เลื่อนย้อนเพื่อกลับ";
+    $(current ? "world-count" : "map-help").textContent = method === "thumb" ? "ยกนิ้วเพื่อพัก · เลื่อนสุดแล้วปล่อยเพื่อเข้า" : "เลื่อนต่อหรือคลิกเพื่อเข้า · เลื่อนย้อนเพื่อกลับ";
     return { origin, duration };
   },
   seek(progress, duration) {
@@ -404,7 +472,7 @@ const wheelTravel = new WheelTravel({
     camera.remember(overview);
     if (current) $("world-title").focus({preventScroll:true});
   },
-  restore(origin, overview) {
+  restore(origin, overview, selected) {
     camera.remember(overview);
     openWorld(origin.id, { play:false, push:false });
     if (!current && page !== origin.page) {
@@ -413,6 +481,10 @@ const wheelTravel = new WheelTravel({
     }
     $("scene").scrollTop = origin.sceneTop;
     scrollTo(origin.x, origin.y);
+    if (selected) {
+      const buttons = current ? $("moons").children : $("worlds").children;
+      [...buttons].find(b => (b.dataset.id || b.dataset.moon) === selected)?.focus({preventScroll:true});
+    }
   }
 });
 function route(play) {
@@ -430,6 +502,7 @@ $("playlist-toggle").onclick = () => {
 };
 document.addEventListener("keydown", e => {
   if (e.key !== "Escape" || e.defaultPrevented || e.repeat || document.querySelector("dialog[open]")) return;
+  if (choosingFlight) { e.preventDefault(); $("thumb-cancel").click(); return; }
   const active = byId(current || mapParent);
   if (active) { e.preventDefault(); openWorld(active.parent); }
 });
@@ -448,7 +521,10 @@ function redrawSky() {
 }
 window.addEventListener("resize", redrawSky);
 document.addEventListener("visibilitychange", () => {
-  if (document.hidden) player.checkpoint();
+  if (document.hidden) {
+    stopChoosing();
+    player.checkpoint();
+  }
 });
 window.addEventListener("pagehide", () => player.checkpoint());
 $("toggle").onclick = () => player.toggle();
@@ -553,12 +629,13 @@ function editor(parentId, editing = null) {
       return opt;
     }));
   }
+  stopChoosing();
   $("editor").showModal();
   $("world-name").focus();
 }
 $("new-world").onclick = () => editor(mapParent);
 $("rename-map").onclick = () => editor(byId(mapParent).parent, mapParent);
-$("manage").onclick = () => $("options").showModal();
+$("manage").onclick = () => { stopChoosing(); $("options").showModal(); };
 $("edit-world").onclick = () => { $("options").close(); editor(byId(current).parent, current); };
 $("new-moon").onclick = () => { $("options").close(); editor(current); };
 $("edit-form").onsubmit = async (e) => {
@@ -602,6 +679,7 @@ async function addEntries(worldId, entries) {
   }
 }
 $("add-mp3").onclick = () => {
+  stopChoosing();
   if (db) $("files").click();
   else storageError();
 };
@@ -651,6 +729,7 @@ $("open-apple").onclick = async () => {
   $("query").value = "";
   $("apple-feedback").textContent = "";
   $("apple-links").open = false;
+  stopChoosing();
   $("apple").showModal();
   appleUi();
   try {

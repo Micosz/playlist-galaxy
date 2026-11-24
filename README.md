@@ -6,6 +6,7 @@ Open a planet to play its playlist. Switching planets saves the current song and
 
 - Open **My Galaxy → Midnight → Ember** to hear the original demo *Afterglow*. Return to Midnight, open **Tide** for *Blue Hour*, then revisit Ember to resume. Browsing galaxies or systems keeps the current audio playing.
 - Click a planet for an automatic flight. Or hover over it and scroll up to fly in at your own pace. Stop to hold the view, scroll down to retrace the approach, or press Escape to cancel. Reaching the planet opens its playlist. On a fresh visit your browser may ask for a click on Play. This also works for galaxies, systems and moon markers.
+- On a touchscreen, tap a destination to fly there or tap **คุมการบิน** and then the destination to steer. Slide the bottom bar forward or back. Lift partway to hold the view. Release at the far right to enter and start or resume its playlist. **ยกเลิก** returns to the departure view. **กลับ** names the parent you can reach with your thumb.
 - Drag the sky to orbit. Scroll over open space to zoom around the pointer. With two fingers, spread or pinch around the planet and move your fingers together to carry it across the map. Shift-drag also pans. The round center control restores the view. With the map focused, use the arrow keys to rotate, Shift+arrows to pan, +/− to zoom and 0 to reset. Tab to a planet to zoom around that planet with +/−. Map gestures work with WebGL disabled. Reduced motion makes camera changes immediate.
 - The path above a planet opens any ancestor. Escape goes up one level. Each map remembers its camera angle and zoom for this visit. Tap **เพลย์ลิสต์** to fold the song list and see more of the planet. Its moons and the player remain available.
 - Create a galaxy from the universe, a system inside a galaxy, or a playlist planet inside a system. **จัดการดาว** lets you rename or move a planet, or give it a moon with its own playlist. Everything you create stays on this browser.
@@ -48,6 +49,8 @@ python3 checks/galaxy.py
 python3 checks/camera.py
 python3 checks/navigation.py
 python3 checks/journeys.py
+python3 checks/wheel_travel.py
+python3 checks/thumb_navigation.py
 python3 checks/receiver.py
 ```
 

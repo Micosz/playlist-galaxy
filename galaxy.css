@@ -810,14 +810,26 @@ body[data-wheel-approach] :is(.collection, #satellites, #new-world, .camera-tool
   visibility: hidden;
 }
 
+/* Use drawn controls so a missing pause glyph cannot look like an empty square. */
+#toggle { display: grid; place-items: center; font-size: 0; }
+#toggle::before {
+  content: ""; width: 0; height: 0;
+  border-block: 7px solid transparent; border-left: 11px solid currentColor;
+  margin-left: 2px;
+}
+#toggle[data-playing]::before {
+  width: 11px; height: 13px; box-sizing: border-box; margin: 0;
+  border-block: 0; border-inline: 3px solid currentColor;
+}
+
 #flight-deck { display: contents; }
 #thumb-nav { display: none; }
 
 /* Keep the map and the two thumb controls in separate rows even on a short phone. */
-@media (max-width: 660px) and (pointer: coarse) {
+@media (pointer: coarse) {
   body, body.playing-map {
     display: grid;
-    grid-template: 69px minmax(0, 1fr) auto / minmax(0, 1fr);
+    grid-template: auto minmax(0, 1fr) auto / minmax(0, 1fr);
     height: 100svh;
     height: 100dvh;
     min-height: 0;
@@ -847,7 +859,7 @@ body[data-wheel-approach] :is(.collection, #satellites, #new-world, .camera-tool
   #map:has(#map-pages:not([hidden])) .map-caption { grid-column-end: 2; padding-right: 2px; }
   #map-pages { position: static; grid-area: 3 / 2; align-self: end; margin: 0 12px 9px 0; }
   #flight-deck {
-    display: grid; gap: 3px; min-width: 0;
+    display: grid; gap: 3px; min-width: 0; width: min(100%, 660px); justify-self: center;
     padding: 0 12px max(6px, env(safe-area-inset-bottom));
   }
   #thumb-nav {
@@ -862,6 +874,12 @@ body[data-wheel-approach] :is(.collection, #satellites, #new-world, .camera-tool
   }
   #thumb-up > :first-child { font: 26px/1 Georgia,serif; color: var(--gold); }
   #thumb-parent { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #thumb-flight, #thumb-cancel { color: var(--gold); padding: 0 9px; margin-left: auto; font-size: 14px; }
+  #thumb-pick, #thumb-route { font-size: 14px; color: var(--ink); padding-left: 8px; }
+  #thumb-route { flex: 1; min-width: 0; display: grid; grid-template-columns: minmax(0, .85fr) minmax(76px, 1.55fr); gap: 10px; align-items: center; }
+  #thumb-target { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  #thumb-range { width: 100%; min-width: 0; height: 44px; margin: 0; accent-color: var(--gold); touch-action: none; }
+  body:has(#thumb-route:not([hidden])) :is(#world-count,#map-help)::after { display: none; }
   #transport {
     position: static; transform: none; width: 100%; min-width: 0;
     padding: 6px 9px; border-radius: 16px;
