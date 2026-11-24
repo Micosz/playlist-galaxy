@@ -748,7 +748,8 @@ summary {
 }
 .camera-tools button:hover, .camera-tools button:focus-visible { color: var(--ink); background: #ffffff0d; }
 #trail { right: calc(140px + 4vw); }
-.flight-context { position: fixed; pointer-events: none; z-index: -1; }
+.flight-context { position: fixed; inset: 0; overflow: clip; pointer-events: none; z-index: -1; }
+.flight-context canvas { position: absolute; }
 .flight-body { position: fixed; left: 0; top: 0; transform-origin: 0 0; pointer-events: none; z-index: 2; }
 .in-flight { opacity: 0; }
 .visually-hidden {

@@ -48,6 +48,8 @@ Follow Milky Way → Solar System → Saturn → Titan, or My Galaxy → Midnigh
 
 At `0519869`, the flying image of Saturn and its selectable counterpart followed separate paths on the return to the Solar System. Their centers separated by up to 37.25 CSS px on desktop and 96.04 px on touch in the recorded runs. They now coincide throughout that return. The journey test also taps another body during an active flight and counts map paints after settling.
 
+The moon close-up uses its own surface from departure. On the same starting revision, the visible image left Saturn's portrait, 332.91 px from the Titan marker on desktop and 221.58 px on touch. The old return ended at that same distance from the marker. In the new runs both ends measured within 0.01 px on both viewports. The test compares the flying texture to the real Titan portrait, reverses the flight twice before landing, scrolls a playlist and enables reduced motion during a return. It also verifies that the settled map did not draw another frame during a 300 ms sample.
+
 Run `python3 checks/journeys.py --chromium /path/to/chromium --evidence /tmp/journeys` to save mid-flight frames and per-frame coordinates. The `--measure-only` option can also be used with a copy of this check on the starting revision.
 
 ## Cold entry into the Solar System

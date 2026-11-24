@@ -294,6 +294,7 @@ function renderDetail() {
     ...moons.map((w) => {
       const b = make("button");
       b.className = "pill";
+      b.dataset.moon = w.id;
       const dot = make("i");
       dot.className = "moon-dot";
       dot.style.setProperty("--tone", surfaces[w.surface].tone);
@@ -308,14 +309,16 @@ function renderDetail() {
 function openWorld(id, play = true, push = true) {
   const node = byId(id), prev = current || mapParent;
   const outward = !node || ancestry(prev).some(ancestor => ancestor.id === id);
-  const travelling = play && prev !== (node?.id || null) && !reduced.matches;
+  const travelling = play && prev !== (node?.id || null) && !reduced.matches && !document.hidden;
   const mapBody = (worldId) => [...$("worlds").children].find(b => b.dataset.id === worldId)?.firstElementChild;
-  const sourceId = current || id;
-  const sourceArt = current ? $("portrait") : mapBody(id);
-  const source = travelling ? bodyFlight.snapshot(sourceArt) : null;
-  const departure = travelling && !current ? camera.departure(sourceArt) : null;
-  bodyFlight.cancel();
+  const moonMarker = (moonId) => [...$("moons").children].find(b => b.dataset.moon === moonId)?.firstElementChild;
   const map = !node || isContainer(node);
+  const moonOrigin = travelling && current && node?.parent === current ? bodyFlight.bounds(moonMarker(id)) : null;
+  const sourceArt = current ? $("portrait") : mapBody(id);
+  const previousArt = travelling ? bodyFlight.snapshot(sourceArt) : null;
+  const sourceId = moonOrigin ? id : current || id;
+  const departure = moonOrigin ? previousArt : (travelling && !current ? camera.departure(sourceArt) : null);
+  bodyFlight.cancel();
   const hash = node ? (map ? "#map=" : "#planet=") + encodeURIComponent(node.id) : "";
   if (push && location.hash !== hash) history.pushState(null, "", location.pathname + location.search + hash);
   $("map").hidden = !map;
@@ -351,15 +354,17 @@ function openWorld(id, play = true, push = true) {
   scrollTo(0, 0);
   if (travelling) {
     const returning = outward && ancestry(prev).find(w => w.parent === (node?.id || null));
-    const landing = map ? (returning ? mapBody(returning.id) : null) : $("portrait");
+    const returnMarker = !map && outward && returning?.id === prev ? moonMarker(prev) : null;
+    const landing = map ? (returning ? mapBody(returning.id) : null) : returnMarker || $("portrait");
+    const source = moonOrigin ? bodyFlight.snapshot($("portrait"), moonOrigin) : previousArt;
     const area = (map ? $("map-field") : $("interior")).getBoundingClientRect();
-    const duration = map && !outward ? 780 : 640;
-    const landingId = map ? returning?.id : id;
+    const duration = moonOrigin || returnMarker ? 720 : map && !outward ? 780 : 640;
+    const landingId = map ? returning?.id : returnMarker ? prev : id;
     const returnOnMap = map && outward && landing && (!source || sourceId === landingId);
-    bodyFlight.depart(departure, source?.rect, landing?.getBoundingClientRect() || area, outward, duration);
+    bodyFlight.depart(departure, source?.rect, bodyFlight.bounds(landing) || area, outward, duration);
     if (!returnOnMap)
       bodyFlight.start(source, landing, area, duration, Boolean(source && landing && sourceId !== landingId));
-    if (map) camera.fly(outward, source?.rect || departure?.rect, returning?.id, duration, returnOnMap && source);
+    if (map) camera.fly(outward, source?.rect || departure?.rect, returning?.id, duration, Boolean(returnOnMap && source));
   }
 }
 function route(play) {
